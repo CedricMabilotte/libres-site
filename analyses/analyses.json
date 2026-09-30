@@ -42,8 +42,8 @@
  },
  "paires": {
   "P1|P2": {
-   "v": 0.0,
-   "p": 1.0,
+   "v": 0.249,
+   "p": 0.1607,
    "n": 38,
    "cellules_faibles": 0.5,
    "table": {
@@ -57,12 +57,12 @@
     ],
     "valeurs": [
      [
-      23,
-      2
+      24,
+      3
      ],
      [
-      12,
-      1
+      7,
+      4
      ]
     ]
    },
@@ -70,8 +70,8 @@
    "fragile": false
   },
   "P1|P3": {
-   "v": 0.411,
-   "p": 0.0082,
+   "v": 0.443,
+   "p": 0.0046,
    "n": 39,
    "cellules_faibles": 0.0,
    "table": {
@@ -85,12 +85,12 @@
     ],
     "valeurs": [
      [
-      16,
-      10
+      17,
+      11
      ],
      [
-      2,
-      11
+      1,
+      10
      ]
     ]
    },
@@ -98,10 +98,10 @@
    "fragile": false
   },
   "P1|P4": {
-   "v": 0.6,
-   "p": 0.0003,
+   "v": 0.737,
+   "p": 0.0,
    "n": 37,
-   "cellules_faibles": 0.0,
+   "cellules_faibles": 0.25,
    "table": {
     "lignes": [
      "non",
@@ -113,11 +113,11 @@
     ],
     "valeurs": [
      [
-      19,
+      21,
       5
      ],
      [
-      2,
+      0,
       11
      ]
     ]
@@ -127,7 +127,7 @@
   },
   "P1|P5": {
    "v": 0.0,
-   "p": 0.725,
+   "p": 0.4528,
    "n": 39,
    "cellules_faibles": 0.25,
    "table": {
@@ -142,11 +142,11 @@
     "valeurs": [
      [
       8,
-      18
+      20
      ],
      [
       5,
-      8
+      6
      ]
     ]
    },
@@ -155,7 +155,7 @@
   },
   "P1|acces": {
    "v": 0.0,
-   "p": 0.5005,
+   "p": 0.4236,
    "n": 32,
    "cellules_faibles": 0.92,
    "table": {
@@ -175,17 +175,17 @@
      [
       7,
       4,
-      2,
-      1,
       3,
+      1,
+      4,
       3
      ],
      [
       3,
       0,
+      0,
       1,
-      1,
-      4,
+      3,
       3
      ]
     ]
@@ -195,9 +195,9 @@
   },
   "P1|echelle": {
    "v": 0.0,
-   "p": 0.6166,
+   "p": 0.6996,
    "n": 25,
-   "cellules_faibles": 0.75,
+   "cellules_faibles": 0.88,
    "table": {
     "lignes": [
      "non",
@@ -211,13 +211,13 @@
     ],
     "valeurs": [
      [
-      10,
+      12,
       4,
       1,
       2
      ],
      [
-      6,
+      4,
       1,
       1,
       0
@@ -228,8 +228,8 @@
    "fragile": true
   },
   "P1|economie": {
-   "v": 0.282,
-   "p": 0.2177,
+   "v": 0.446,
+   "p": 0.0818,
    "n": 24,
    "cellules_faibles": 0.92,
    "table": {
@@ -252,7 +252,7 @@
       3,
       3,
       3,
-      4
+      5
      ],
      [
       2,
@@ -260,7 +260,7 @@
       0,
       0,
       0,
-      1
+      0
      ]
     ]
    },
@@ -268,8 +268,8 @@
    "fragile": true
   },
   "P1|etat": {
-   "v": 0.335,
-   "p": 0.0404,
+   "v": 0.278,
+   "p": 0.0798,
    "n": 40,
    "cellules_faibles": 0.5,
    "table": {
@@ -284,12 +284,12 @@
     ],
     "valeurs": [
      [
-      17,
+      19,
       9,
       1
      ],
      [
-      13,
+      11,
       0,
       0
      ]
@@ -299,10 +299,10 @@
    "fragile": false
   },
   "P1|famille": {
-   "v": 0.462,
-   "p": 0.0098,
+   "v": 0.371,
+   "p": 0.0377,
    "n": 40,
-   "cellules_faibles": 0.75,
+   "cellules_faibles": 0.62,
    "table": {
     "lignes": [
      "non",
@@ -318,14 +318,14 @@
      [
       4,
       14,
-      7,
-      2
+      8,
+      3
      ],
      [
       3,
       0,
-      6,
-      4
+      5,
+      3
      ]
     ]
    },
@@ -445,92 +445,8 @@
    "fragile": true
   },
   "P1|finalite:accueil_soin": {
-   "v": 0.081,
-   "p": 0.393,
-   "n": 40,
-   "cellules_faibles": 0.5,
-   "table": {
-    "lignes": [
-     "non",
-     "oui"
-    ],
-    "colonnes": [
-     "non",
-     "oui"
-    ],
-    "valeurs": [
-     [
-      21,
-      6
-     ],
-     [
-      12,
-      1
-     ]
-    ]
-   },
-   "mecanique": false,
-   "fragile": false
-  },
-  "P1|finalite:agriculture": {
-   "v": 0.344,
-   "p": 0.0383,
-   "n": 40,
-   "cellules_faibles": 0.0,
-   "table": {
-    "lignes": [
-     "non",
-     "oui"
-    ],
-    "colonnes": [
-     "non",
-     "oui"
-    ],
-    "valeurs": [
-     [
-      8,
-      19
-     ],
-     [
-      9,
-      4
-     ]
-    ]
-   },
-   "mecanique": false,
-   "fragile": false
-  },
-  "P1|finalite:artisanat_production": {
-   "v": 0.143,
-   "p": 0.2364,
-   "n": 40,
-   "cellules_faibles": 0.25,
-   "table": {
-    "lignes": [
-     "non",
-     "oui"
-    ],
-    "colonnes": [
-     "non",
-     "oui"
-    ],
-    "valeurs": [
-     [
-      20,
-      7
-     ],
-     [
-      12,
-      1
-     ]
-    ]
-   },
-   "mecanique": false,
-   "fragile": false
-  },
-  "P1|finalite:culture": {
-   "v": 0.665,
-   "p": 0.0,
+   "v": 0.0,
+   "p": 0.6497,
    "n": 40,
    "cellules_faibles": 0.25,
    "table": {
@@ -545,11 +461,95 @@
     "valeurs": [
      [
       23,
+      6
+     ],
+     [
+      10,
+      1
+     ]
+    ]
+   },
+   "mecanique": false,
+   "fragile": false
+  },
+  "P1|finalite:agriculture": {
+   "v": 0.212,
+   "p": 0.153,
+   "n": 40,
+   "cellules_faibles": 0.25,
+   "table": {
+    "lignes": [
+     "non",
+     "oui"
+    ],
+    "colonnes": [
+     "non",
+     "oui"
+    ],
+    "valeurs": [
+     [
+      10,
+      19
+     ],
+     [
+      7,
       4
+     ]
+    ]
+   },
+   "mecanique": false,
+   "fragile": false
+  },
+  "P1|finalite:artisanat_production": {
+   "v": 0.051,
+   "p": 0.4055,
+   "n": 40,
+   "cellules_faibles": 0.25,
+   "table": {
+    "lignes": [
+     "non",
+     "oui"
+    ],
+    "colonnes": [
+     "non",
+     "oui"
+    ],
+    "valeurs": [
+     [
+      22,
+      7
+     ],
+     [
+      10,
+      1
+     ]
+    ]
+   },
+   "mecanique": false,
+   "fragile": false
+  },
+  "P1|finalite:culture": {
+   "v": 0.548,
+   "p": 0.0007,
+   "n": 40,
+   "cellules_faibles": 0.25,
+   "table": {
+    "lignes": [
+     "non",
+     "oui"
+    ],
+    "colonnes": [
+     "non",
+     "oui"
+    ],
+    "valeurs": [
+     [
+      23,
+      6
      ],
      [
       2,
-      11
+      9
      ]
     ]
    },
@@ -572,12 +572,12 @@
     ],
     "valeurs": [
      [
-      14,
-      13
+      15,
+      14
      ],
      [
-      7,
-      6
+      6,
+      5
      ]
     ]
    },
@@ -585,8 +585,8 @@
    "fragile": false
   },
   "P1|finalite:habitat": {
-   "v": 0.113,
-   "p": 0.314,
+   "v": 0.0,
+   "p": 0.7271,
    "n": 40,
    "cellules_faibles": 0.0,
    "table": {
@@ -600,11 +600,11 @@
     ],
     "valeurs": [
      [
-      11,
+      13,
       16
      ],
      [
-      8,
+      6,
       5
      ]
     ]
@@ -628,11 +628,11 @@
     ],
     "valeurs": [
      [
-      23,
+      25,
       4
      ],
      [
-      11,
+      9,
       2
      ]
     ]
@@ -641,8 +641,8 @@
    "fragile": false
   },
   "P1|finalite:milieu_vivant": {
-   "v": 0.0,
-   "p": 0.6434,
+   "v": 0.206,
+   "p": 0.1623,
    "n": 40,
    "cellules_faibles": 0.5,
    "table": {
@@ -656,12 +656,12 @@
     ],
     "valeurs": [
      [
-      22,
-      5
+      23,
+      6
      ],
      [
-      12,
-      1
+      11,
+      0
      ]
     ]
    },
@@ -669,10 +669,10 @@
    "fragile": false
   },
   "P1|forme_collectif": {
-   "v": 0.322,
-   "p": 0.068,
+   "v": 0.243,
+   "p": 0.1465,
    "n": 40,
-   "cellules_faibles": 0.75,
+   "cellules_faibles": 0.62,
    "table": {
     "lignes": [
      "non",
@@ -686,13 +686,13 @@
     ],
     "valeurs": [
      [
-      14,
+      16,
       3,
       7,
       3
      ],
      [
-      12,
+      10,
       1,
       0,
       0
@@ -703,8 +703,8 @@
    "fragile": true
   },
   "P1|gouvernance": {
-   "v": 0.389,
-   "p": 0.0537,
+   "v": 0.461,
+   "p": 0.0249,
    "n": 26,
    "cellules_faibles": 0.83,
    "table": {
@@ -720,13 +720,13 @@
     "valeurs": [
      [
       2,
-      2,
-      15
+      3,
+      16
      ],
      [
       3,
-      2,
-      2
+      1,
+      1
      ]
     ]
    },
@@ -734,10 +734,10 @@
    "fragile": true
   },
   "P1|ouverture": {
-   "v": 0.522,
-   "p": 0.003,
+   "v": 0.405,
+   "p": 0.0203,
    "n": 36,
-   "cellules_faibles": 0.33,
+   "cellules_faibles": 0.5,
    "table": {
     "lignes": [
      "non",
@@ -752,12 +752,12 @@
      [
       14,
       3,
-      6
+      8
      ],
      [
       2,
       0,
-      11
+      9
      ]
     ]
    },
@@ -765,10 +765,10 @@
    "fragile": false
   },
   "P1|periode": {
-   "v": 0.332,
-   "p": 0.1153,
+   "v": 0.369,
+   "p": 0.0829,
    "n": 38,
-   "cellules_faibles": 0.86,
+   "cellules_faibles": 0.93,
    "table": {
     "lignes": [
      "non",
@@ -789,8 +789,8 @@
       6,
       2,
       2,
-      4,
-      2,
+      5,
+      3,
       8
      ],
      [
@@ -798,8 +798,8 @@
       0,
       0,
       0,
-      1,
-      3,
+      0,
+      2,
       8
      ]
     ]
@@ -808,8 +808,8 @@
    "fragile": true
   },
   "P1|porteur": {
-   "v": 0.559,
-   "p": 0.0128,
+   "v": 0.52,
+   "p": 0.0217,
    "n": 35,
    "cellules_faibles": 0.94,
    "table": {
@@ -834,7 +834,7 @@
       3,
       1,
       3,
-      3,
+      5,
       3,
       1
      ],
@@ -844,7 +844,7 @@
       0,
       4,
       0,
-      5,
+      3,
       0,
       0
      ]
@@ -855,7 +855,7 @@
   },
   "P1|rapport_etat": {
    "v": 0.0,
-   "p": 0.8928,
+   "p": 0.6231,
    "n": 17,
    "cellules_faibles": 0.88,
    "table": {
@@ -872,13 +872,13 @@
     "valeurs": [
      [
       3,
-      5,
+      7,
       1,
       2
      ],
      [
       2,
-      3,
+      1,
       0,
       1
      ]
@@ -888,10 +888,10 @@
    "fragile": true
   },
   "P1|titre": {
-   "v": 0.489,
-   "p": 0.0576,
+   "v": 0.232,
+   "p": 0.2644,
    "n": 24,
-   "cellules_faibles": 1.0,
+   "cellules_faibles": 0.92,
    "table": {
     "lignes": [
      "non",
@@ -910,7 +910,7 @@
       3,
       3,
       1,
-      0,
+      2,
       6,
       1
      ],
@@ -918,7 +918,7 @@
       5,
       0,
       0,
-      3,
+      1,
       1,
       1
      ]
@@ -928,8 +928,8 @@
    "fragile": true
   },
   "P1|transmission": {
-   "v": 0.164,
-   "p": 0.2738,
+   "v": 0.0,
+   "p": 0.6812,
    "n": 19,
    "cellules_faibles": 0.83,
    "table": {
@@ -946,12 +946,12 @@
      [
       5,
       3,
-      8
+      10
      ],
      [
       0,
       0,
-      3
+      1
      ]
     ]
    },
@@ -959,10 +959,10 @@
    "fragile": true
   },
   "P1|verrou:aucun": {
-   "v": 0.406,
-   "p": 0.014,
+   "v": 0.416,
+   "p": 0.0113,
    "n": 36,
-   "cellules_faibles": 0.0,
+   "cellules_faibles": 0.25,
    "table": {
     "lignes": [
      "non",
@@ -974,12 +974,12 @@
     ],
     "valeurs": [
      [
-      7,
-      17
+      8,
+      18
      ],
      [
-      9,
-      3
+      8,
+      2
      ]
     ]
    },
@@ -988,7 +988,7 @@
   },
   "P1|verrou:bail_long": {
    "v": 0.0,
-   "p": 0.6457,
+   "p": 1.0,
    "n": 36,
    "cellules_faibles": 0.5,
    "table": {
@@ -1002,11 +1002,11 @@
     ],
     "valeurs": [
      [
-      20,
+      22,
       4
      ],
      [
-      11,
+      9,
       1
      ]
     ]
@@ -1015,8 +1015,8 @@
    "fragile": false
   },
   "P1|verrou:devolution_desinteressee": {
-   "v": 0.365,
-   "p": 0.0336,
+   "v": 0.443,
+   "p": 0.0152,
    "n": 36,
    "cellules_faibles": 0.5,
    "table": {
@@ -1030,11 +1030,11 @@
     ],
     "valeurs": [
      [
-      23,
+      25,
       1
      ],
      [
-      8,
+      6,
       4
      ]
     ]
@@ -1043,8 +1043,8 @@
    "fragile": false
   },
   "P1|verrou:veto_reseau": {
-   "v": 0.267,
-   "p": 0.098,
+   "v": 0.337,
+   "p": 0.0565,
    "n": 36,
    "cellules_faibles": 0.5,
    "table": {
@@ -1058,11 +1058,11 @@
     ],
     "valeurs": [
      [
-      23,
+      25,
       1
      ],
      [
-      9,
+      7,
       3
      ]
     ]
@@ -1071,8 +1071,8 @@
    "fragile": false
   },
   "P1|verrou_type": {
-   "v": 0.485,
-   "p": 0.0037,
+   "v": 0.453,
+   "p": 0.0066,
    "n": 40,
    "cellules_faibles": 0.5,
    "table": {
@@ -1087,13 +1087,13 @@
     ],
     "valeurs": [
      [
-      20,
-      3,
+      21,
+      4,
       4
      ],
      [
-      4,
-      8,
+      3,
+      7,
       1
      ]
     ]
@@ -1102,8 +1102,8 @@
    "fragile": false
   },
   "P2|P3": {
-   "v": 0.0,
-   "p": 1.0,
+   "v": 0.291,
+   "p": 0.0897,
    "n": 37,
    "cellules_faibles": 0.5,
    "table": {
@@ -1118,11 +1118,11 @@
     "valeurs": [
      [
       17,
-      17
+      13
      ],
      [
       1,
-      2
+      6
      ]
     ]
    },
@@ -1130,8 +1130,8 @@
    "fragile": false
   },
   "P2|P4": {
-   "v": 0.0,
-   "p": 0.5742,
+   "v": 0.377,
+   "p": 0.0298,
    "n": 36,
    "cellules_faibles": 0.5,
    "table": {
@@ -1146,11 +1146,11 @@
     "valeurs": [
      [
       19,
-      14
+      10
      ],
      [
       1,
-      2
+      6
      ]
     ]
    },
@@ -1158,8 +1158,8 @@
    "fragile": false
   },
   "P2|P5": {
-   "v": 0.143,
-   "p": 0.5382,
+   "v": 0.131,
+   "p": 0.3828,
    "n": 37,
    "cellules_faibles": 0.5,
    "table": {
@@ -1173,12 +1173,12 @@
     ],
     "valeurs": [
      [
-      13,
-      21
+      12,
+      18
      ],
      [
-      0,
-      3
+      1,
+      6
      ]
     ]
    },
@@ -1186,10 +1186,10 @@
    "fragile": false
   },
   "P2|acces": {
-   "v": 0.108,
-   "p": 0.3568,
+   "v": 0.0,
+   "p": 0.7884,
    "n": 30,
-   "cellules_faibles": 0.75,
+   "cellules_faibles": 0.83,
    "table": {
     "lignes": [
      "non",
@@ -1205,20 +1205,20 @@
     ],
     "valeurs": [
      [
-      9,
+      7,
       3,
       2,
       2,
       6,
-      6
+      4
      ],
      [
-      0,
-      0,
-      1,
+      2,
       0,
       1,
-      0
+      0,
+      1,
+      2
      ]
     ]
    },
@@ -1227,7 +1227,7 @@
   },
   "P2|echelle": {
    "v": 0.0,
-   "p": 0.9141,
+   "p": 0.7892,
    "n": 24,
    "cellules_faibles": 0.88,
    "table": {
@@ -1243,14 +1243,14 @@
     ],
     "valeurs": [
      [
-      15,
-      4,
+      13,
+      3,
       2,
       2
      ],
      [
+      3,
       1,
-      0,
       0,
       0
      ]
@@ -1260,8 +1260,8 @@
    "fragile": true
   },
   "P2|economie": {
-   "v": 0.453,
-   "p": 0.0892,
+   "v": 0.411,
+   "p": 0.1182,
    "n": 22,
    "cellules_faibles": 0.92,
    "table": {
@@ -1282,7 +1282,7 @@
       8,
       0,
       3,
-      2,
+      1,
       2,
       4
      ],
@@ -1290,7 +1290,7 @@
       0,
       1,
       0,
-      0,
+      1,
       1,
       1
      ]
@@ -1300,10 +1300,10 @@
    "fragile": true
   },
   "P2|etat": {
-   "v": 0.0,
-   "p": 0.559,
+   "v": 0.165,
+   "p": 0.216,
    "n": 38,
-   "cellules_faibles": 0.67,
+   "cellules_faibles": 0.5,
    "table": {
     "lignes": [
      "non",
@@ -1316,25 +1316,25 @@
     ],
     "valeurs": [
      [
-      25,
+      21,
       9,
       1
      ],
      [
-      3,
+      7,
       0,
       0
      ]
     ]
    },
    "mecanique": false,
-   "fragile": true
+   "fragile": false
   },
   "P2|famille": {
    "v": 0.0,
-   "p": 0.5606,
+   "p": 0.5273,
    "n": 38,
-   "cellules_faibles": 0.5,
+   "cellules_faibles": 0.62,
    "table": {
     "lignes": [
      "non",
@@ -1349,24 +1349,24 @@
     "valeurs": [
      [
       6,
-      12,
-      12,
+      11,
+      9,
       5
      ],
      [
       1,
-      0,
       1,
+      4,
       1
      ]
     ]
    },
    "mecanique": false,
-   "fragile": false
+   "fragile": true
   },
   "P2|filiation:anarchisme": {
-   "v": 0.087,
-   "p": 0.5211,
+   "v": 0.0,
+   "p": 1.0,
    "n": 20,
    "cellules_faibles": 0.5,
    "table": {
@@ -1381,11 +1381,11 @@
     "valeurs": [
      [
       11,
-      7
+      6
      ],
      [
       2,
-      0
+      1
      ]
     ]
    },
@@ -1393,8 +1393,8 @@
    "fragile": false
   },
   "P2|filiation:ecologie_politique": {
-   "v": 0.0,
-   "p": 1.0,
+   "v": 0.081,
+   "p": 0.5395,
    "n": 20,
    "cellules_faibles": 0.75,
    "table": {
@@ -1408,92 +1408,8 @@
     ],
     "valeurs": [
      [
-      13,
+      12,
       5
-     ],
-     [
-      2,
-      0
-     ]
-    ]
-   },
-   "mecanique": false,
-   "fragile": true
-  },
-  "P2|filiation:neo_ruralisme": {
-   "v": 0.239,
-   "p": 0.2842,
-   "n": 20,
-   "cellules_faibles": 0.75,
-   "table": {
-    "lignes": [
-     "non",
-     "oui"
-    ],
-    "colonnes": [
-     "non",
-     "oui"
-    ],
-    "valeurs": [
-     [
-      16,
-      2
-     ],
-     [
-      1,
-      1
-     ]
-    ]
-   },
-   "mecanique": false,
-   "fragile": true
-  },
-  "P2|filiation:non_violence": {
-   "v": 0.239,
-   "p": 0.2842,
-   "n": 20,
-   "cellules_faibles": 0.75,
-   "table": {
-    "lignes": [
-     "non",
-     "oui"
-    ],
-    "colonnes": [
-     "non",
-     "oui"
-    ],
-    "valeurs": [
-     [
-      16,
-      2
-     ],
-     [
-      1,
-      1
-     ]
-    ]
-   },
-   "mecanique": false,
-   "fragile": true
-  },
-  "P2|finalite:accueil_soin": {
-   "v": 0.0,
-   "p": 1.0,
-   "n": 38,
-   "cellules_faibles": 0.5,
-   "table": {
-    "lignes": [
-     "non",
-     "oui"
-    ],
-    "colonnes": [
-     "non",
-     "oui"
-    ],
-    "valeurs": [
-     [
-      29,
-      6
      ],
      [
       3,
@@ -1502,13 +1418,41 @@
     ]
    },
    "mecanique": false,
-   "fragile": false
+   "fragile": true
   },
-  "P2|finalite:agriculture": {
+  "P2|filiation:neo_ruralisme": {
+   "v": 0.578,
+   "p": 0.0456,
+   "n": 20,
+   "cellules_faibles": 0.75,
+   "table": {
+    "lignes": [
+     "non",
+     "oui"
+    ],
+    "colonnes": [
+     "non",
+     "oui"
+    ],
+    "valeurs": [
+     [
+      16,
+      1
+     ],
+     [
+      1,
+      2
+     ]
+    ]
+   },
+   "mecanique": false,
+   "fragile": true
+  },
+  "P2|filiation:non_violence": {
    "v": 0.0,
-   "p": 1.0,
-   "n": 38,
-   "cellules_faibles": 0.5,
+   "p": 0.4035,
+   "n": 20,
+   "cellules_faibles": 0.75,
    "table": {
     "lignes": [
      "non",
@@ -1521,20 +1465,20 @@
     "valeurs": [
      [
       15,
-      20
+      2
      ],
      [
-      1,
-      2
+      2,
+      1
      ]
     ]
    },
    "mecanique": false,
-   "fragile": false
+   "fragile": true
   },
-  "P2|finalite:artisanat_production": {
-   "v": 0.0,
-   "p": 1.0,
+  "P2|finalite:accueil_soin": {
+   "v": 0.125,
+   "p": 0.5692,
    "n": 38,
    "cellules_faibles": 0.5,
    "table": {
@@ -1548,11 +1492,11 @@
     ],
     "valeurs": [
      [
-      28,
-      7
+      25,
+      6
      ],
      [
-      3,
+      7,
       0
      ]
     ]
@@ -1560,9 +1504,65 @@
    "mecanique": false,
    "fragile": false
   },
-  "P2|finalite:culture": {
+  "P2|finalite:agriculture": {
+   "v": 0.0,
+   "p": 0.425,
+   "n": 38,
+   "cellules_faibles": 0.5,
+   "table": {
+    "lignes": [
+     "non",
+     "oui"
+    ],
+    "colonnes": [
+     "non",
+     "oui"
+    ],
+    "valeurs": [
+     [
+      12,
+      19
+     ],
+     [
+      4,
+      3
+     ]
+    ]
+   },
+   "mecanique": false,
+   "fragile": false
+  },
+  "P2|finalite:artisanat_production": {
    "v": 0.0,
    "p": 1.0,
+   "n": 38,
+   "cellules_faibles": 0.25,
+   "table": {
+    "lignes": [
+     "non",
+     "oui"
+    ],
+    "colonnes": [
+     "non",
+     "oui"
+    ],
+    "valeurs": [
+     [
+      25,
+      6
+     ],
+     [
+      6,
+      1
+     ]
+    ]
+   },
+   "mecanique": false,
+   "fragile": false
+  },
+  "P2|finalite:culture": {
+   "v": 0.267,
+   "p": 0.0893,
    "n": 38,
    "cellules_faibles": 0.5,
    "table": {
@@ -1577,11 +1577,11 @@
     "valeurs": [
      [
       21,
-      14
+      10
      ],
      [
       2,
-      1
+      5
      ]
     ]
    },
@@ -1604,12 +1604,12 @@
     ],
     "valeurs": [
      [
-      18,
-      17
+      15,
+      16
      ],
      [
-      1,
-      2
+      4,
+      3
      ]
     ]
    },
@@ -1617,8 +1617,8 @@
    "fragile": false
   },
   "P2|finalite:habitat": {
-   "v": 0.0,
-   "p": 1.0,
+   "v": 0.072,
+   "p": 0.4103,
    "n": 38,
    "cellules_faibles": 0.5,
    "table": {
@@ -1632,12 +1632,12 @@
     ],
     "valeurs": [
      [
-      17,
-      18
+      16,
+      15
      ],
      [
-      1,
-      2
+      2,
+      5
      ]
     ]
    },
@@ -1645,8 +1645,8 @@
    "fragile": false
   },
   "P2|finalite:lutte_territoriale": {
-   "v": 0.379,
-   "p": 0.0593,
+   "v": 0.027,
+   "p": 0.3025,
    "n": 38,
    "cellules_faibles": 0.5,
    "table": {
@@ -1660,11 +1660,11 @@
     ],
     "valeurs": [
      [
-      31,
+      27,
       4
      ],
      [
-      1,
+      5,
       2
      ]
     ]
@@ -1673,8 +1673,8 @@
    "fragile": false
   },
   "P2|finalite:milieu_vivant": {
-   "v": 0.0,
-   "p": 1.0,
+   "v": 0.125,
+   "p": 0.5692,
    "n": 38,
    "cellules_faibles": 0.5,
    "table": {
@@ -1688,11 +1688,11 @@
     ],
     "valeurs": [
      [
-      29,
+      25,
       6
      ],
      [
-      3,
+      7,
       0
      ]
     ]
@@ -1718,13 +1718,13 @@
     ],
     "valeurs": [
      [
-      22,
+      18,
       4,
       7,
       2
      ],
      [
-      2,
+      6,
       0,
       0,
       1
@@ -1736,7 +1736,7 @@
   },
   "P2|gouvernance": {
    "v": 0.0,
-   "p": 0.4857,
+   "p": 0.3916,
    "n": 25,
    "cellules_faibles": 0.83,
    "table": {
@@ -1751,14 +1751,14 @@
     ],
     "valeurs": [
      [
-      4,
       3,
-      15
+      3,
+      14
      ],
      [
+      2,
       1,
-      1,
-      1
+      2
      ]
     ]
    },
@@ -1766,8 +1766,8 @@
    "fragile": true
   },
   "P2|ouverture": {
-   "v": 0.0,
-   "p": 0.724,
+   "v": 0.097,
+   "p": 0.3053,
    "n": 34,
    "cellules_faibles": 0.67,
    "table": {
@@ -1782,14 +1782,14 @@
     ],
     "valeurs": [
      [
-      14,
+      13,
       3,
-      14
+      11
      ],
      [
-      1,
+      2,
       0,
-      2
+      5
      ]
     ]
    },
@@ -1797,10 +1797,10 @@
    "fragile": true
   },
   "P2|periode": {
-   "v": 0.366,
-   "p": 0.0806,
+   "v": 0.269,
+   "p": 0.1754,
    "n": 36,
-   "cellules_faibles": 0.83,
+   "cellules_faibles": 0.92,
    "table": {
     "lignes": [
      "non",
@@ -1819,17 +1819,17 @@
       2,
       6,
       2,
-      3,
+      2,
       4,
-      16
+      13
      ],
      [
       0,
       0,
       0,
-      2,
+      3,
       1,
-      0
+      3
      ]
     ]
    },
@@ -1837,10 +1837,10 @@
    "fragile": true
   },
   "P2|porteur": {
-   "v": 0.0,
-   "p": 0.4125,
+   "v": 0.241,
+   "p": 0.2396,
    "n": 35,
-   "cellules_faibles": 0.81,
+   "cellules_faibles": 0.94,
    "table": {
     "lignes": [
      "non",
@@ -1858,9 +1858,9 @@
     ],
     "valeurs": [
      [
-      6,
-      6,
       3,
+      6,
+      2,
       5,
       3,
       6,
@@ -1868,9 +1868,9 @@
       1
      ],
      [
+      3,
       0,
-      0,
-      0,
+      1,
       0,
       0,
       2,
@@ -1883,8 +1883,8 @@
    "fragile": true
   },
   "P2|rapport_etat": {
-   "v": 0.0,
-   "p": 0.8377,
+   "v": 0.35,
+   "p": 0.1697,
    "n": 16,
    "cellules_faibles": 0.88,
    "table": {
@@ -1900,13 +1900,13 @@
     ],
     "valeurs": [
      [
-      4,
+      2,
       6,
       1,
       3
      ],
      [
-      1,
+      3,
       1,
       0,
       0
@@ -1957,8 +1957,8 @@
    "fragile": true
   },
   "P2|transmission": {
-   "v": 0.0,
-   "p": 0.4523,
+   "v": 0.163,
+   "p": 0.2794,
    "n": 17,
    "cellules_faibles": 0.83,
    "table": {
@@ -1975,12 +1975,12 @@
      [
       4,
       3,
-      8
+      7
      ],
      [
       0,
       0,
-      2
+      3
      ]
     ]
    },
@@ -1988,8 +1988,8 @@
    "fragile": true
   },
   "P2|verrou:aucun": {
-   "v": 0.296,
-   "p": 0.0784,
+   "v": 0.53,
+   "p": 0.0014,
    "n": 36,
    "cellules_faibles": 0.5,
    "table": {
@@ -2003,11 +2003,11 @@
     ],
     "valeurs": [
      [
-      13,
+      9,
       20
      ],
      [
-      3,
+      7,
       0
      ]
     ]
@@ -2016,10 +2016,10 @@
    "fragile": false
   },
   "P2|verrou:bail_long": {
-   "v": 0.742,
-   "p": 0.0014,
+   "v": 0.381,
+   "p": 0.0404,
    "n": 36,
-   "cellules_faibles": 0.75,
+   "cellules_faibles": 0.5,
    "table": {
     "lignes": [
      "non",
@@ -2031,23 +2031,51 @@
     ],
     "valeurs": [
      [
-      31,
+      27,
       2
      ],
      [
-      0,
+      4,
       3
      ]
     ]
    },
    "mecanique": true,
-   "fragile": true
+   "fragile": false
   },
   "P2|verrou:devolution_desinteressee": {
-   "v": 0.0,
-   "p": 1.0,
+   "v": 0.103,
+   "p": 0.559,
    "n": 36,
-   "cellules_faibles": 0.75,
+   "cellules_faibles": 0.5,
+   "table": {
+    "lignes": [
+     "non",
+     "oui"
+    ],
+    "colonnes": [
+     "non",
+     "oui"
+    ],
+    "valeurs": [
+     [
+      24,
+      5
+     ],
+     [
+      7,
+      0
+     ]
+    ]
+   },
+   "mecanique": true,
+   "fragile": false
+  },
+  "P2|verrou:veto_reseau": {
+   "v": 0.473,
+   "p": 0.0178,
+   "n": 36,
+   "cellules_faibles": 0.5,
    "table": {
     "lignes": [
      "non",
@@ -2060,48 +2088,20 @@
     "valeurs": [
      [
       28,
-      5
+      1
      ],
      [
-      3,
-      0
+      4,
+      3
      ]
     ]
    },
    "mecanique": true,
-   "fragile": true
-  },
-  "P2|verrou:veto_reseau": {
-   "v": 0.0,
-   "p": 1.0,
-   "n": 36,
-   "cellules_faibles": 0.75,
-   "table": {
-    "lignes": [
-     "non",
-     "oui"
-    ],
-    "colonnes": [
-     "non",
-     "oui"
-    ],
-    "valeurs": [
-     [
-      29,
-      4
-     ],
-     [
-      3,
-      0
-     ]
-    ]
-   },
-   "mecanique": true,
-   "fragile": true
+   "fragile": false
   },
   "P2|verrou_type": {
-   "v": 0.725,
-   "p": 0.0,
+   "v": 0.546,
+   "p": 0.0014,
    "n": 38,
    "cellules_faibles": 0.67,
    "table": {
@@ -2117,12 +2117,12 @@
     "valeurs": [
      [
       22,
-      11,
+      7,
       2
      ],
      [
       0,
-      0,
+      4,
       3
      ]
     ]
@@ -5057,7 +5057,7 @@
   },
   "acces|distance": {
    "v": 0.0,
-   "p": 0.7026,
+   "p": 0.8946,
    "n": 32,
    "cellules_faibles": 1.0,
    "table": {
@@ -5079,9 +5079,9 @@
     ],
     "valeurs": [
      [
-      0,
       1,
-      2,
+      1,
+      1,
       3,
       2,
       2
@@ -5098,8 +5098,8 @@
       0,
       0,
       1,
-      2,
-      0,
+      1,
+      1,
       0
      ],
      [
@@ -5113,15 +5113,15 @@
      [
       1,
       2,
-      1,
-      1,
+      0,
+      2,
       2,
       0
      ],
      [
-      0,
       1,
-      3,
+      1,
+      2,
       1,
       1,
       0
@@ -6341,10 +6341,10 @@
    "fragile": true
   },
   "acces|statut": {
-   "v": 0.149,
-   "p": 0.3212,
+   "v": 0.0,
+   "p": 0.4402,
    "n": 32,
-   "cellules_faibles": 0.75,
+   "cellules_faibles": 0.83,
    "table": {
     "lignes": [
      "achat_collectif",
@@ -6360,8 +6360,8 @@
     ],
     "valeurs": [
      [
-      1,
-      9
+      2,
+      8
      ],
      [
       0,
@@ -6380,8 +6380,8 @@
       4
      ],
      [
-      1,
-      5
+      2,
+      4
      ]
     ]
    },
@@ -6760,12 +6760,13 @@
    "fragile": true
   },
   "distance|echelle": {
-   "v": 0.0,
-   "p": 0.4361,
+   "v": 0.143,
+   "p": 0.321,
    "n": 25,
    "cellules_faibles": 1.0,
    "table": {
     "lignes": [
+     "0",
      "1",
      "2",
      "3",
@@ -6780,14 +6781,20 @@
     ],
     "valeurs": [
      [
-      3,
-      1,
+      2,
+      0,
       0,
       0
      ],
      [
-      3,
       1,
+      2,
+      0,
+      0
+     ],
+     [
+      2,
+      0,
       1,
       0
      ],
@@ -6798,7 +6805,7 @@
       0
      ],
      [
-      2,
+      3,
       1,
       1,
       2
@@ -6815,8 +6822,8 @@
    "fragile": true
   },
   "distance|economie": {
-   "v": 0.416,
-   "p": 0.0164,
+   "v": 0.465,
+   "p": 0.0058,
    "n": 24,
    "cellules_faibles": 1.0,
    "table": {
@@ -6849,7 +6856,7 @@
       1,
       0,
       0,
-      0,
+      1,
       0,
       0
      ],
@@ -6857,7 +6864,7 @@
       1,
       0,
       0,
-      1,
+      0,
       1,
       1
      ],
@@ -6867,7 +6874,7 @@
       0,
       1,
       1,
-      2
+      1
      ],
      [
       2,
@@ -6875,7 +6882,7 @@
       0,
       0,
       1,
-      2
+      3
      ],
      [
       1,
@@ -6891,10 +6898,10 @@
    "fragile": true
   },
   "distance|etat": {
-   "v": 0.321,
-   "p": 0.0502,
+   "v": 0.305,
+   "p": 0.064,
    "n": 41,
-   "cellules_faibles": 0.78,
+   "cellules_faibles": 0.83,
    "table": {
     "lignes": [
      "0",
@@ -6911,7 +6918,12 @@
     ],
     "valeurs": [
      [
-      1,
+      3,
+      0,
+      0
+     ],
+     [
+      5,
       0,
       0
      ],
@@ -6922,16 +6934,11 @@
      ],
      [
       8,
-      0,
-      0
-     ],
-     [
-      8,
       1,
       1
      ],
      [
-      6,
+      7,
       4,
       0
      ],
@@ -6946,8 +6953,8 @@
    "fragile": true
   },
   "distance|famille": {
-   "v": 0.333,
-   "p": 0.0218,
+   "v": 0.283,
+   "p": 0.0571,
    "n": 41,
    "cellules_faibles": 1.0,
    "table": {
@@ -6969,31 +6976,31 @@
      [
       0,
       0,
-      0,
+      2,
       1
      ],
      [
       1,
-      0,
-      2,
+      1,
+      1,
       2
      ],
      [
       2,
-      1,
+      0,
+      3,
+      0
+     ],
+     [
+      2,
+      3,
       4,
       1
      ],
      [
       2,
-      3,
-      5,
-      0
-     ],
-     [
-      2,
       4,
-      2,
+      3,
       2
      ],
      [
@@ -7008,8 +7015,8 @@
    "fragile": true
   },
   "distance|filiation:anarchisme": {
-   "v": 0.514,
-   "p": 0.0407,
+   "v": 0.631,
+   "p": 0.0117,
    "n": 23,
    "cellules_faibles": 1.0,
    "table": {
@@ -7027,11 +7034,11 @@
     "valeurs": [
      [
       0,
-      1
+      2
      ],
      [
       2,
-      1
+      0
      ],
      [
       6,
@@ -7069,11 +7076,11 @@
     ],
     "valeurs": [
      [
-      1,
+      2,
       0
      ],
      [
-      3,
+      2,
       0
      ],
      [
@@ -7094,8 +7101,8 @@
    "fragile": true
   },
   "distance|filiation:neo_ruralisme": {
-   "v": 0.32,
-   "p": 0.1694,
+   "v": 0.0,
+   "p": 0.3917,
    "n": 23,
    "cellules_faibles": 0.8,
    "table": {
@@ -7113,11 +7120,11 @@
     "valeurs": [
      [
       1,
-      0
+      1
      ],
      [
       1,
-      2
+      1
      ],
      [
       6,
@@ -7138,7 +7145,7 @@
   },
   "distance|filiation:non_violence": {
    "v": 0.0,
-   "p": 0.6536,
+   "p": 0.4614,
    "n": 23,
    "cellules_faibles": 0.8,
    "table": {
@@ -7155,11 +7162,11 @@
     ],
     "valeurs": [
      [
-      1,
+      2,
       0
      ],
      [
-      2,
+      1,
       1
      ],
      [
@@ -7180,56 +7187,8 @@
    "fragile": true
   },
   "distance|finalite:accueil_soin": {
-   "v": 0.267,
-   "p": 0.1614,
-   "n": 40,
-   "cellules_faibles": 0.75,
-   "table": {
-    "lignes": [
-     "0",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5"
-    ],
-    "colonnes": [
-     "non",
-     "oui"
-    ],
-    "valeurs": [
-     [
-      1,
-      0
-     ],
-     [
-      5,
-      0
-     ],
-     [
-      8,
-      0
-     ],
-     [
-      6,
-      4
-     ],
-     [
-      9,
-      1
-     ],
-     [
-      4,
-      2
-     ]
-    ]
-   },
-   "mecanique": false,
-   "fragile": true
-  },
-  "distance|finalite:agriculture": {
-   "v": 0.21,
-   "p": 0.2317,
+   "v": 0.264,
+   "p": 0.165,
    "n": 40,
    "cellules_faibles": 0.83,
    "table": {
@@ -7247,23 +7206,71 @@
     ],
     "valeurs": [
      [
-      1,
+      3,
       0
      ],
      [
-      3,
-      2
+      5,
+      0
+     ],
+     [
+      5,
+      0
+     ],
+     [
+      6,
+      4
+     ],
+     [
+      10,
+      1
      ],
      [
       4,
-      4
+      2
+     ]
+    ]
+   },
+   "mecanique": false,
+   "fragile": true
+  },
+  "distance|finalite:agriculture": {
+   "v": 0.323,
+   "p": 0.1014,
+   "n": 40,
+   "cellules_faibles": 0.83,
+   "table": {
+    "lignes": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "colonnes": [
+     "non",
+     "oui"
+    ],
+    "valeurs": [
+     [
+      3,
+      0
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      3
      ],
      [
       4,
       6
      ],
      [
-      5,
+      6,
       5
      ],
      [
@@ -7277,9 +7284,9 @@
   },
   "distance|finalite:artisanat_production": {
    "v": 0.0,
-   "p": 0.8075,
+   "p": 0.92,
    "n": 40,
-   "cellules_faibles": 0.75,
+   "cellules_faibles": 0.83,
    "table": {
     "lignes": [
      "0",
@@ -7295,23 +7302,23 @@
     ],
     "valeurs": [
      [
-      1,
+      3,
       0
      ],
      [
-      5,
-      0
+      4,
+      1
      ],
      [
-      6,
-      2
+      4,
+      1
      ],
      [
       8,
       2
      ],
      [
-      8,
+      9,
       2
      ],
      [
@@ -7324,8 +7331,56 @@
    "fragile": true
   },
   "distance|finalite:culture": {
-   "v": 0.582,
-   "p": 0.0025,
+   "v": 0.591,
+   "p": 0.0021,
+   "n": 40,
+   "cellules_faibles": 0.83,
+   "table": {
+    "lignes": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "colonnes": [
+     "non",
+     "oui"
+    ],
+    "valeurs": [
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      3,
+      2
+     ],
+     [
+      8,
+      2
+     ],
+     [
+      8,
+      3
+     ],
+     [
+      6,
+      0
+     ]
+    ]
+   },
+   "mecanique": false,
+   "fragile": true
+  },
+  "distance|finalite:education_populaire": {
+   "v": 0.0,
+   "p": 0.5311,
    "n": 40,
    "cellules_faibles": 0.75,
    "table": {
@@ -7343,72 +7398,24 @@
     ],
     "valeurs": [
      [
-      0,
-      1
-     ],
-     [
-      0,
-      5
-     ],
-     [
-      3,
-      5
-     ],
-     [
-      8,
+      1,
       2
-     ],
-     [
-      8,
-      2
-     ],
-     [
-      6,
-      0
-     ]
-    ]
-   },
-   "mecanique": false,
-   "fragile": true
-  },
-  "distance|finalite:education_populaire": {
-   "v": 0.0,
-   "p": 0.7502,
-   "n": 40,
-   "cellules_faibles": 0.83,
-   "table": {
-    "lignes": [
-     "0",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5"
-    ],
-    "colonnes": [
-     "non",
-     "oui"
-    ],
-    "valeurs": [
-     [
-      0,
-      1
-     ],
-     [
-      3,
-      2
-     ],
-     [
-      5,
-      3
-     ],
-     [
-      5,
-      5
      ],
      [
       4,
-      6
+      1
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      6,
+      4
+     ],
+     [
+      4,
+      7
      ],
      [
       4,
@@ -7421,9 +7428,9 @@
   },
   "distance|finalite:habitat": {
    "v": 0.0,
-   "p": 0.5102,
+   "p": 0.4663,
    "n": 40,
-   "cellules_faibles": 0.83,
+   "cellules_faibles": 0.75,
    "table": {
     "lignes": [
      "0",
@@ -7439,23 +7446,23 @@
     ],
     "valeurs": [
      [
+      2,
+      1
+     ],
+     [
       1,
-      0
+      4
      ],
      [
       2,
       3
      ],
      [
-      3,
-      5
-     ],
-     [
       7,
       3
      ],
      [
-      4,
+      5,
       6
      ],
      [
@@ -7468,10 +7475,10 @@
    "fragile": true
   },
   "distance|finalite:lutte_territoriale": {
-   "v": 0.234,
-   "p": 0.2024,
+   "v": 0.0,
+   "p": 0.802,
    "n": 40,
-   "cellules_faibles": 0.67,
+   "cellules_faibles": 0.75,
    "table": {
     "lignes": [
      "0",
@@ -7487,7 +7494,7 @@
     ],
     "valeurs": [
      [
-      0,
+      2,
       1
      ],
      [
@@ -7495,7 +7502,7 @@
       1
      ],
      [
-      7,
+      4,
       1
      ],
      [
@@ -7503,7 +7510,7 @@
       1
      ],
      [
-      8,
+      9,
       2
      ],
      [
@@ -7516,10 +7523,10 @@
    "fragile": true
   },
   "distance|finalite:milieu_vivant": {
-   "v": 0.0,
-   "p": 0.4874,
+   "v": 0.079,
+   "p": 0.3723,
    "n": 40,
-   "cellules_faibles": 0.67,
+   "cellules_faibles": 0.75,
    "table": {
     "lignes": [
      "0",
@@ -7535,7 +7542,7 @@
     ],
     "valeurs": [
      [
-      1,
+      3,
       0
      ],
      [
@@ -7543,16 +7550,16 @@
       0
      ],
      [
-      8,
+      5,
       0
      ],
      [
-      8,
-      2
+      9,
+      1
      ],
      [
       8,
-      2
+      3
      ],
      [
       4,
@@ -7564,10 +7571,10 @@
    "fragile": true
   },
   "distance|forme_collectif": {
-   "v": 0.249,
-   "p": 0.0973,
+   "v": 0.231,
+   "p": 0.1235,
    "n": 41,
-   "cellules_faibles": 0.88,
+   "cellules_faibles": 0.92,
    "table": {
     "lignes": [
      "0",
@@ -7585,7 +7592,7 @@
     ],
     "valeurs": [
      [
-      1,
+      3,
       0,
       0,
       0
@@ -7597,7 +7604,7 @@
       0
      ],
      [
-      7,
+      4,
       0,
       0,
       1
@@ -7609,7 +7616,7 @@
       0
      ],
      [
-      3,
+      4,
       1,
       4,
       2
@@ -7626,8 +7633,8 @@
    "fragile": true
   },
   "distance|gouvernance": {
-   "v": 0.381,
-   "p": 0.0669,
+   "v": 0.541,
+   "p": 0.0067,
    "n": 26,
    "cellules_faibles": 1.0,
    "table": {
@@ -7648,26 +7655,26 @@
      [
       1,
       0,
+      1
+     ],
+     [
+      3,
+      0,
       0
      ],
      [
-      2,
       0,
+      2,
       1
      ],
      [
       1,
-      2,
-      2
-     ],
-     [
       1,
-      2,
-      4
+      5
      ],
      [
       0,
-      0,
+      1,
       5
      ],
      [
@@ -7681,8 +7688,8 @@
    "fragile": true
   },
   "distance|ouverture": {
-   "v": 0.501,
-   "p": 0.0023,
+   "v": 0.445,
+   "p": 0.0084,
    "n": 36,
    "cellules_faibles": 1.0,
    "table": {
@@ -7703,17 +7710,17 @@
      [
       0,
       0,
-      1
+      3
      ],
      [
+      1,
       0,
-      0,
-      5
+      4
      ],
      [
-      3,
+      2,
       0,
-      5
+      3
      ],
      [
       5,
@@ -7723,7 +7730,7 @@
      [
       2,
       3,
-      2
+      3
      ],
      [
       6,
@@ -7736,8 +7743,8 @@
    "fragile": true
   },
   "distance|periode": {
-   "v": 0.195,
-   "p": 0.1708,
+   "v": 0.0,
+   "p": 0.57,
    "n": 39,
    "cellules_faibles": 1.0,
    "table": {
@@ -7766,33 +7773,33 @@
       0,
       0,
       1,
-      0
+      2
      ],
      [
       0,
       0,
       0,
       0,
-      0,
       1,
+      1,
+      2
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
       3
      ],
      [
       0,
+      2,
       0,
-      0,
-      0,
-      3,
+      2,
       1,
-      4
-     ],
-     [
-      0,
-      2,
-      0,
-      2,
-      2,
-      0,
+      1,
       4
      ],
      [
@@ -7800,7 +7807,7 @@
       1,
       1,
       0,
-      0,
+      1,
       2,
       3
      ],
@@ -7819,8 +7826,8 @@
    "fragile": true
   },
   "distance|porteur": {
-   "v": 0.12,
-   "p": 0.3263,
+   "v": 0.149,
+   "p": 0.2815,
    "n": 35,
    "cellules_faibles": 1.0,
    "table": {
@@ -7844,7 +7851,7 @@
     ],
     "valeurs": [
      [
-      0,
+      2,
       0,
       0,
       0,
@@ -7854,9 +7861,9 @@
       0
      ],
      [
-      2,
+      1,
       0,
-      0,
+      1,
       1,
       0,
       2,
@@ -7864,12 +7871,12 @@
       0
      ],
      [
+      1,
+      0,
+      0,
       2,
       0,
       1,
-      2,
-      0,
-      2,
       0,
       0
      ],
@@ -7889,7 +7896,7 @@
       2,
       0,
       0,
-      1,
+      2,
       1,
       1
      ],
@@ -7909,8 +7916,8 @@
    "fragile": true
   },
   "distance|rapport_etat": {
-   "v": 0.024,
-   "p": 0.3846,
+   "v": 0.233,
+   "p": 0.2533,
    "n": 17,
    "cellules_faibles": 1.0,
    "table": {
@@ -7930,7 +7937,7 @@
     ],
     "valeurs": [
      [
-      1,
+      2,
       0,
       0,
       0
@@ -7942,8 +7949,8 @@
       1
      ],
      [
+      0,
       1,
-      2,
       0,
       0
      ],
@@ -7955,7 +7962,7 @@
      ],
      [
       1,
-      1,
+      2,
       0,
       1
      ],
@@ -7974,7 +7981,7 @@
    "v": 0.947,
    "p": 0.0,
    "n": 41,
-   "cellules_faibles": 0.67,
+   "cellules_faibles": 0.75,
    "table": {
     "lignes": [
      "0",
@@ -7990,7 +7997,7 @@
     ],
     "valeurs": [
      [
-      1,
+      3,
       0
      ],
      [
@@ -7999,7 +8006,7 @@
      ],
      [
       0,
-      8
+      5
      ],
      [
       0,
@@ -8007,7 +8014,7 @@
      ],
      [
       0,
-      10
+      11
      ],
      [
       0,
@@ -8020,7 +8027,7 @@
   },
   "distance|titre": {
    "v": 0.0,
-   "p": 0.5043,
+   "p": 0.5286,
    "n": 24,
    "cellules_faibles": 1.0,
    "table": {
@@ -8061,7 +8068,7 @@
       4,
       0,
       0,
-      1,
+      0,
       1,
       0
      ],
@@ -8077,7 +8084,7 @@
       0,
       2,
       1,
-      0,
+      1,
       2,
       1
      ],
@@ -8095,13 +8102,14 @@
    "fragile": true
   },
   "distance|transmission": {
-   "v": 0.208,
-   "p": 0.2719,
+   "v": 0.0,
+   "p": 0.4738,
    "n": 19,
    "cellules_faibles": 1.0,
    "table": {
     "lignes": [
      "0",
+     "1",
      "2",
      "3",
      "4",
@@ -8121,7 +8129,12 @@
      [
       0,
       0,
-      3
+      1
+     ],
+     [
+      0,
+      0,
+      1
      ],
      [
       2,
@@ -8131,7 +8144,7 @@
      [
       1,
       0,
-      3
+      4
      ],
      [
       2,
@@ -8144,8 +8157,8 @@
    "fragile": true
   },
   "distance|verrou:aucun": {
-   "v": 0.462,
-   "p": 0.0275,
+   "v": 0.494,
+   "p": 0.0177,
    "n": 36,
    "cellules_faibles": 0.92,
    "table": {
@@ -8163,7 +8176,7 @@
     ],
     "valeurs": [
      [
-      1,
+      3,
       0
      ],
      [
@@ -8171,15 +8184,15 @@
       2
      ],
      [
-      6,
-      1
-     ],
-     [
       4,
-      4
+      0
      ],
      [
-      1,
+      3,
+      5
+     ],
+     [
+      2,
       8
      ],
      [
@@ -8192,10 +8205,10 @@
    "fragile": true
   },
   "distance|verrou:bail_long": {
-   "v": 0.364,
-   "p": 0.082,
+   "v": 0.275,
+   "p": 0.1687,
    "n": 36,
-   "cellules_faibles": 0.67,
+   "cellules_faibles": 0.75,
    "table": {
     "lignes": [
      "0",
@@ -8211,7 +8224,7 @@
     ],
     "valeurs": [
      [
-      0,
+      2,
       1
      ],
      [
@@ -8219,7 +8232,7 @@
       0
      ],
      [
-      5,
+      2,
       2
      ],
      [
@@ -8227,7 +8240,7 @@
       1
      ],
      [
-      9,
+      10,
       0
      ],
      [
@@ -8240,10 +8253,10 @@
    "fragile": true
   },
   "distance|verrou:devolution_desinteressee": {
-   "v": 0.0,
-   "p": 0.4377,
+   "v": 0.306,
+   "p": 0.1351,
    "n": 36,
-   "cellules_faibles": 0.67,
+   "cellules_faibles": 0.75,
    "table": {
     "lignes": [
      "0",
@@ -8259,7 +8272,7 @@
     ],
     "valeurs": [
      [
-      1,
+      3,
       0
      ],
      [
@@ -8267,7 +8280,7 @@
       1
      ],
      [
-      5,
+      2,
       2
      ],
      [
@@ -8275,7 +8288,7 @@
       2
      ],
      [
-      9,
+      10,
       0
      ],
      [
@@ -8288,10 +8301,10 @@
    "fragile": true
   },
   "distance|verrou:veto_reseau": {
-   "v": 0.171,
-   "p": 0.2899,
+   "v": 0.444,
+   "p": 0.0343,
    "n": 36,
-   "cellules_faibles": 0.67,
+   "cellules_faibles": 0.75,
    "table": {
     "lignes": [
      "0",
@@ -8308,22 +8321,22 @@
     "valeurs": [
      [
       1,
-      0
-     ],
-     [
-      3,
       2
      ],
      [
-      6,
+      4,
       1
+     ],
+     [
+      4,
+      0
      ],
      [
       8,
       0
      ],
      [
-      8,
+      9,
       1
      ],
      [
@@ -8336,8 +8349,8 @@
    "fragile": true
   },
   "distance|verrou_type": {
-   "v": 0.37,
-   "p": 0.0215,
+   "v": 0.315,
+   "p": 0.0553,
    "n": 41,
    "cellules_faibles": 0.89,
    "table": {
@@ -8357,7 +8370,7 @@
     "valeurs": [
      [
       0,
-      0,
+      2,
       1
      ],
      [
@@ -8366,18 +8379,18 @@
       0
      ],
      [
+      1,
       2,
-      4,
       2
      ],
      [
-      6,
-      3,
+      7,
+      2,
       1
      ],
      [
       9,
-      1,
+      2,
       0
      ],
      [
@@ -9194,7 +9207,7 @@
   },
   "echelle|statut": {
    "v": 0.0,
-   "p": 0.8227,
+   "p": 0.5191,
    "n": 25,
    "cellules_faibles": 0.88,
    "table": {
@@ -9214,8 +9227,8 @@
       13
      ],
      [
-      1,
-      4
+      2,
+      3
      ],
      [
       0,
@@ -10470,8 +10483,8 @@
    "fragile": true
   },
   "economie|statut": {
-   "v": 0.558,
-   "p": 0.0301,
+   "v": 0.446,
+   "p": 0.0818,
    "n": 24,
    "cellules_faibles": 0.92,
    "table": {
@@ -10501,8 +10514,8 @@
       3
      ],
      [
-      0,
-      3
+      1,
+      2
      ],
      [
       0,
@@ -11544,10 +11557,10 @@
    "fragile": true
   },
   "etat|statut": {
-   "v": 0.115,
-   "p": 0.2757,
+   "v": 0.2,
+   "p": 0.1617,
    "n": 41,
-   "cellules_faibles": 0.67,
+   "cellules_faibles": 0.5,
    "table": {
     "lignes": [
      "actif",
@@ -11560,8 +11573,8 @@
     ],
     "valeurs": [
      [
-      6,
-      24
+      8,
+      22
      ],
      [
       0,
@@ -11574,7 +11587,7 @@
     ]
    },
    "mecanique": false,
-   "fragile": true
+   "fragile": false
   },
   "etat|titre": {
    "v": 0.608,
@@ -12592,10 +12605,10 @@
    "fragile": true
   },
   "famille|statut": {
-   "v": 0.371,
-   "p": 0.0353,
+   "v": 0.239,
+   "p": 0.1476,
    "n": 41,
-   "cellules_faibles": 0.5,
+   "cellules_faibles": 0.62,
    "table": {
     "lignes": [
      "commun_foncier",
@@ -12613,12 +12626,12 @@
       6
      ],
      [
-      0,
-      15
+      1,
+      14
      ],
      [
-      2,
-      11
+      3,
+      10
      ],
      [
       3,
@@ -12627,7 +12640,7 @@
     ]
    },
    "mecanique": false,
-   "fragile": false
+   "fragile": true
   },
   "famille|titre": {
    "v": 0.436,
@@ -13332,8 +13345,8 @@
    "fragile": true
   },
   "filiation:anarchisme|statut": {
-   "v": 0.204,
-   "p": 0.3478,
+   "v": 0.373,
+   "p": 0.1107,
    "n": 23,
    "cellules_faibles": 0.5,
    "table": {
@@ -13351,8 +13364,8 @@
       15
      ],
      [
-      1,
-      7
+      2,
+      6
      ]
     ]
    },
@@ -13964,8 +13977,8 @@
     ],
     "valeurs": [
      [
-      1,
-      17
+      2,
+      16
      ],
      [
       0,
@@ -14566,8 +14579,8 @@
    "fragile": true
   },
   "filiation:neo_ruralisme|statut": {
-   "v": 0.0,
-   "p": 1.0,
+   "v": 0.162,
+   "p": 0.3241,
    "n": 23,
    "cellules_faibles": 0.75,
    "table": {
@@ -14585,8 +14598,8 @@
       18
      ],
      [
-      0,
-      4
+      1,
+      3
      ]
     ]
    },
@@ -15198,8 +15211,8 @@
     ],
     "valeurs": [
      [
-      1,
-      18
+      2,
+      17
      ],
      [
       0,
@@ -15613,10 +15626,10 @@
    "fragile": true
   },
   "finalite:accueil_soin|statut": {
-   "v": 0.11,
-   "p": 0.5672,
+   "v": 0.168,
+   "p": 0.3087,
    "n": 40,
-   "cellules_faibles": 0.5,
+   "cellules_faibles": 0.25,
    "table": {
     "lignes": [
      "non",
@@ -15628,8 +15641,8 @@
     ],
     "valeurs": [
      [
-      6,
-      27
+      8,
+      25
      ],
      [
       0,
@@ -16074,8 +16087,8 @@
    "fragile": true
   },
   "finalite:agriculture|statut": {
-   "v": 0.13,
-   "p": 0.3725,
+   "v": 0.125,
+   "p": 0.2499,
    "n": 40,
    "cellules_faibles": 0.5,
    "table": {
@@ -16089,12 +16102,12 @@
     ],
     "valeurs": [
      [
-      4,
-      13
+      5,
+      12
      ],
      [
-      2,
-      21
+      3,
+      20
      ]
     ]
    },
@@ -16535,10 +16548,10 @@
    "fragile": true
   },
   "finalite:artisanat_production|statut": {
-   "v": 0.138,
-   "p": 0.318,
+   "v": 0.0,
+   "p": 1.0,
    "n": 40,
-   "cellules_faibles": 0.5,
+   "cellules_faibles": 0.25,
    "table": {
     "lignes": [
      "non",
@@ -16550,12 +16563,12 @@
     ],
     "valeurs": [
      [
-      6,
-      26
+      7,
+      25
      ],
      [
-      0,
-      8
+      1,
+      7
      ]
     ]
    },
@@ -16996,10 +17009,10 @@
    "fragile": true
   },
   "finalite:culture|statut": {
-   "v": 0.525,
-   "p": 0.0013,
+   "v": 0.633,
+   "p": 0.0001,
    "n": 40,
-   "cellules_faibles": 0.5,
+   "cellules_faibles": 0.25,
    "table": {
     "lignes": [
      "non",
@@ -17015,8 +17028,8 @@
       25
      ],
      [
-      6,
-      9
+      8,
+      7
      ]
     ]
    },
@@ -17458,7 +17471,7 @@
   },
   "finalite:education_populaire|statut": {
    "v": 0.0,
-   "p": 1.0,
+   "p": 0.6984,
    "n": 40,
    "cellules_faibles": 0.5,
    "table": {
@@ -17472,8 +17485,8 @@
     ],
     "valeurs": [
      [
-      3,
-      18
+      5,
+      16
      ],
      [
       3,
@@ -17919,7 +17932,7 @@
   },
   "finalite:habitat|statut": {
    "v": 0.0,
-   "p": 1.0,
+   "p": 0.6984,
    "n": 40,
    "cellules_faibles": 0.5,
    "table": {
@@ -17937,8 +17950,8 @@
       16
      ],
      [
-      3,
-      18
+      5,
+      16
      ]
     ]
    },
@@ -18379,10 +18392,10 @@
    "fragile": true
   },
   "finalite:lutte_territoriale|statut": {
-   "v": 0.146,
-   "p": 0.2147,
+   "v": 0.0,
+   "p": 0.5803,
    "n": 40,
-   "cellules_faibles": 0.25,
+   "cellules_faibles": 0.5,
    "table": {
     "lignes": [
      "non",
@@ -18394,8 +18407,8 @@
     ],
     "valeurs": [
      [
-      4,
-      30
+      6,
+      28
      ],
      [
       2,
@@ -18840,10 +18853,10 @@
    "fragile": true
   },
   "finalite:milieu_vivant|statut": {
-   "v": 0.075,
-   "p": 0.565,
+   "v": 0.138,
+   "p": 0.318,
    "n": 40,
-   "cellules_faibles": 0.25,
+   "cellules_faibles": 0.5,
    "table": {
     "lignes": [
      "non",
@@ -18855,8 +18868,8 @@
     ],
     "valeurs": [
      [
-      6,
-      28
+      8,
+      26
      ],
      [
       0,
@@ -19347,10 +19360,10 @@
    "fragile": true
   },
   "forme_collectif|statut": {
-   "v": 0.0,
-   "p": 0.5184,
+   "v": 0.081,
+   "p": 0.3429,
    "n": 41,
-   "cellules_faibles": 0.75,
+   "cellules_faibles": 0.62,
    "table": {
     "lignes": [
      "association",
@@ -19364,8 +19377,8 @@
     ],
     "valeurs": [
      [
-      5,
-      21
+      7,
+      19
      ],
      [
       1,
@@ -19865,8 +19878,8 @@
    "fragile": true
   },
   "gouvernance|statut": {
-   "v": 0.547,
-   "p": 0.0084,
+   "v": 0.714,
+   "p": 0.0006,
    "n": 26,
    "cellules_faibles": 0.83,
    "table": {
@@ -19881,8 +19894,8 @@
     ],
     "valeurs": [
      [
-      3,
-      2
+      4,
+      1
      ],
      [
       0,
@@ -20297,8 +20310,8 @@
    "fragile": true
   },
   "ouverture|statut": {
-   "v": 0.414,
-   "p": 0.0179,
+   "v": 0.366,
+   "p": 0.0342,
    "n": 36,
    "cellules_faibles": 0.67,
    "table": {
@@ -20313,16 +20326,16 @@
     ],
     "valeurs": [
      [
-      0,
-      16
+      1,
+      15
      ],
      [
       0,
       3
      ],
      [
-      6,
-      11
+      7,
+      10
      ]
     ]
    },
@@ -20737,10 +20750,10 @@
    "fragile": true
   },
   "periode|statut": {
-   "v": 0.088,
-   "p": 0.3742,
+   "v": 0.0,
+   "p": 0.5667,
    "n": 39,
-   "cellules_faibles": 0.79,
+   "cellules_faibles": 0.93,
    "table": {
     "lignes": [
      "1789-1870",
@@ -20773,16 +20786,16 @@
       2
      ],
      [
-      0,
-      6
+      1,
+      5
      ],
      [
       2,
       3
      ],
      [
-      3,
-      13
+      4,
+      12
      ]
     ]
    },
@@ -21235,8 +21248,8 @@
    "fragile": true
   },
   "porteur|statut": {
-   "v": 0.0,
-   "p": 0.4521,
+   "v": 0.099,
+   "p": 0.3748,
    "n": 35,
    "cellules_faibles": 0.94,
    "table": {
@@ -21256,16 +21269,16 @@
     ],
     "valeurs": [
      [
-      2,
-      4
+      3,
+      3
      ],
      [
       0,
       6
      ],
      [
-      0,
-      3
+      1,
+      2
      ],
      [
       1,
@@ -21738,8 +21751,8 @@
    "fragile": true
   },
   "rapport_etat|statut": {
-   "v": 0.0,
-   "p": 0.6231,
+   "v": 0.195,
+   "p": 0.2845,
    "n": 17,
    "cellules_faibles": 0.88,
    "table": {
@@ -21755,8 +21768,8 @@
     ],
     "valeurs": [
      [
-      2,
-      3
+      3,
+      2
      ],
      [
       1,
@@ -22061,7 +22074,7 @@
   },
   "statut|transmission": {
    "v": 0.0,
-   "p": 0.6812,
+   "p": 0.4436,
    "n": 19,
    "cellules_faibles": 0.83,
    "table": {
@@ -22078,12 +22091,12 @@
      [
       0,
       0,
-      1
+      2
      ],
      [
       5,
       3,
-      10
+      9
      ]
     ]
    },
@@ -22091,8 +22104,8 @@
    "fragile": true
   },
   "statut|verrou:aucun": {
-   "v": 0.108,
-   "p": 0.3738,
+   "v": 0.286,
+   "p": 0.1034,
    "n": 36,
    "cellules_faibles": 0.5,
    "table": {
@@ -22106,11 +22119,11 @@
     ],
     "valeurs": [
      [
-      4,
+      6,
       2
      ],
      [
-      12,
+      10,
       18
      ]
     ]
@@ -22134,11 +22147,11 @@
     ],
     "valeurs": [
      [
-      5,
+      7,
       1
      ],
      [
-      26,
+      24,
       4
      ]
     ]
@@ -22162,11 +22175,11 @@
     ],
     "valeurs": [
      [
-      5,
+      7,
       1
      ],
      [
-      26,
+      24,
       4
      ]
     ]
@@ -22175,8 +22188,8 @@
    "fragile": false
   },
   "statut|verrou:veto_reseau": {
-   "v": 0.271,
-   "p": 0.1212,
+   "v": 0.422,
+   "p": 0.0278,
    "n": 36,
    "cellules_faibles": 0.5,
    "table": {
@@ -22190,12 +22203,12 @@
     ],
     "valeurs": [
      [
-      4,
-      2
+      5,
+      3
      ],
      [
-      28,
-      2
+      27,
+      1
      ]
     ]
    },
@@ -22203,8 +22216,8 @@
    "fragile": false
   },
   "statut|verrou_type": {
-   "v": 0.094,
-   "p": 0.3008,
+   "v": 0.346,
+   "p": 0.033,
    "n": 41,
    "cellules_faibles": 0.67,
    "table": {
@@ -22220,12 +22233,12 @@
     "valeurs": [
      [
       2,
-      3,
+      5,
       1
      ],
      [
       23,
-      8,
+      6,
       4
      ]
     ]
@@ -22706,9 +22719,19 @@
   },
   {
    "a": "P1",
-   "b": "finalite:culture",
-   "v": 0.665,
+   "b": "P4",
+   "v": 0.737,
    "p": 0.0,
+   "n": 37,
+   "cellules_faibles": 0.25,
+   "mecanique": false,
+   "fragile": false
+  },
+  {
+   "a": "finalite:culture",
+   "b": "statut",
+   "v": 0.633,
+   "p": 0.0001,
    "n": 40,
    "cellules_faibles": 0.25,
    "mecanique": false,
@@ -22721,16 +22744,6 @@
    "p": 0.0175,
    "n": 20,
    "cellules_faibles": 0.5,
-   "mecanique": false,
-   "fragile": false
-  },
-  {
-   "a": "P1",
-   "b": "P4",
-   "v": 0.6,
-   "p": 0.0003,
-   "n": 37,
-   "cellules_faibles": 0.0,
    "mecanique": false,
    "fragile": false
   },
@@ -22755,22 +22768,12 @@
    "fragile": false
   },
   {
-   "a": "finalite:culture",
-   "b": "statut",
-   "v": 0.525,
-   "p": 0.0013,
-   "n": 40,
-   "cellules_faibles": 0.5,
-   "mecanique": false,
-   "fragile": false
-  },
-  {
    "a": "P1",
-   "b": "ouverture",
-   "v": 0.522,
-   "p": 0.003,
-   "n": 36,
-   "cellules_faibles": 0.33,
+   "b": "finalite:culture",
+   "v": 0.548,
+   "p": 0.0007,
+   "n": 40,
+   "cellules_faibles": 0.25,
    "mecanique": false,
    "fragile": false
   },
@@ -22825,16 +22828,6 @@
    "fragile": false
   },
   {
-   "a": "P1",
-   "b": "verrou_type",
-   "v": 0.485,
-   "p": 0.0037,
-   "n": 40,
-   "cellules_faibles": 0.5,
-   "mecanique": false,
-   "fragile": false
-  },
-  {
    "a": "P4",
    "b": "finalite:culture",
    "v": 0.478,
@@ -22850,6 +22843,36 @@
    "v": 0.468,
    "p": 0.007,
    "n": 37,
+   "cellules_faibles": 0.5,
+   "mecanique": false,
+   "fragile": false
+  },
+  {
+   "a": "P1",
+   "b": "verrou_type",
+   "v": 0.453,
+   "p": 0.0066,
+   "n": 40,
+   "cellules_faibles": 0.5,
+   "mecanique": false,
+   "fragile": false
+  },
+  {
+   "a": "P1",
+   "b": "P3",
+   "v": 0.443,
+   "p": 0.0046,
+   "n": 39,
+   "cellules_faibles": 0.0,
+   "mecanique": false,
+   "fragile": false
+  },
+  {
+   "a": "P1",
+   "b": "verrou:devolution_desinteressee",
+   "v": 0.443,
+   "p": 0.0152,
+   "n": 36,
    "cellules_faibles": 0.5,
    "mecanique": false,
    "fragile": false
@@ -22885,12 +22908,22 @@
    "fragile": false
   },
   {
+   "a": "statut",
+   "b": "verrou:veto_reseau",
+   "v": 0.422,
+   "p": 0.0278,
+   "n": 36,
+   "cellules_faibles": 0.5,
+   "mecanique": false,
+   "fragile": false
+  },
+  {
    "a": "P1",
-   "b": "P3",
-   "v": 0.411,
-   "p": 0.0082,
-   "n": 39,
-   "cellules_faibles": 0.0,
+   "b": "verrou:aucun",
+   "v": 0.416,
+   "p": 0.0113,
+   "n": 36,
+   "cellules_faibles": 0.25,
    "mecanique": false,
    "fragile": false
   },
@@ -22906,11 +22939,11 @@
   },
   {
    "a": "P1",
-   "b": "verrou:aucun",
-   "v": 0.406,
-   "p": 0.014,
+   "b": "ouverture",
+   "v": 0.405,
+   "p": 0.0203,
    "n": 36,
-   "cellules_faibles": 0.0,
+   "cellules_faibles": 0.5,
    "mecanique": false,
    "fragile": false
   },
@@ -22965,20 +22998,10 @@
    "fragile": false
   },
   {
-   "a": "famille",
-   "b": "statut",
-   "v": 0.371,
-   "p": 0.0353,
-   "n": 41,
-   "cellules_faibles": 0.5,
-   "mecanique": false,
-   "fragile": false
-  },
-  {
-   "a": "P1",
-   "b": "verrou:devolution_desinteressee",
-   "v": 0.365,
-   "p": 0.0336,
+   "a": "P2",
+   "b": "P4",
+   "v": 0.377,
+   "p": 0.0298,
    "n": 36,
    "cellules_faibles": 0.5,
    "mecanique": false,
@@ -23005,32 +23028,12 @@
    "fragile": false
   },
   {
-   "a": "P1",
-   "b": "finalite:agriculture",
-   "v": 0.344,
-   "p": 0.0383,
-   "n": 40,
-   "cellules_faibles": 0.0,
-   "mecanique": false,
-   "fragile": false
-  },
-  {
    "a": "P3",
    "b": "verrou:aucun",
    "v": 0.344,
    "p": 0.0409,
    "n": 35,
    "cellules_faibles": 0.0,
-   "mecanique": false,
-   "fragile": false
-  },
-  {
-   "a": "P1",
-   "b": "etat",
-   "v": 0.335,
-   "p": 0.0404,
-   "n": 40,
-   "cellules_faibles": 0.5,
    "mecanique": false,
    "fragile": false
   },
@@ -23050,6 +23053,16 @@
    "v": 0.766,
    "p": 0.0058,
    "n": 15,
+   "cellules_faibles": 0.83,
+   "mecanique": false,
+   "fragile": true
+  },
+  {
+   "a": "gouvernance",
+   "b": "statut",
+   "v": 0.714,
+   "p": 0.0006,
+   "n": 26,
    "cellules_faibles": 0.83,
    "mecanique": false,
    "fragile": true
@@ -23101,6 +23114,16 @@
    "p": 0.0435,
    "n": 16,
    "cellules_faibles": 0.92,
+   "mecanique": false,
+   "fragile": true
+  },
+  {
+   "a": "distance",
+   "b": "filiation:anarchisme",
+   "v": 0.631,
+   "p": 0.0117,
+   "n": 23,
+   "cellules_faibles": 1.0,
    "mecanique": false,
    "fragile": true
   },
@@ -23205,6 +23228,16 @@
    "fragile": true
   },
   {
+   "a": "distance",
+   "b": "finalite:culture",
+   "v": 0.591,
+   "p": 0.0021,
+   "n": 40,
+   "cellules_faibles": 0.83,
+   "mecanique": false,
+   "fragile": true
+  },
+  {
    "a": "P5",
    "b": "rapport_etat",
    "v": 0.59,
@@ -23215,11 +23248,11 @@
    "fragile": true
   },
   {
-   "a": "distance",
-   "b": "finalite:culture",
-   "v": 0.582,
-   "p": 0.0025,
-   "n": 40,
+   "a": "P2",
+   "b": "filiation:neo_ruralisme",
+   "v": 0.578,
+   "p": 0.0456,
+   "n": 20,
    "cellules_faibles": 0.75,
    "mecanique": false,
    "fragile": true
@@ -23285,16 +23318,6 @@
    "fragile": true
   },
   {
-   "a": "economie",
-   "b": "statut",
-   "v": 0.558,
-   "p": 0.0301,
-   "n": 24,
-   "cellules_faibles": 0.92,
-   "mecanique": false,
-   "fragile": true
-  },
-  {
    "a": "P5",
    "b": "economie",
    "v": 0.549,
@@ -23315,22 +23338,22 @@
    "fragile": true
   },
   {
-   "a": "gouvernance",
-   "b": "statut",
-   "v": 0.547,
-   "p": 0.0084,
-   "n": 26,
-   "cellules_faibles": 0.83,
-   "mecanique": false,
-   "fragile": true
-  },
-  {
    "a": "finalite:lutte_territoriale",
    "b": "rapport_etat",
    "v": 0.545,
    "p": 0.0478,
    "n": 17,
    "cellules_faibles": 0.88,
+   "mecanique": false,
+   "fragile": true
+  },
+  {
+   "a": "distance",
+   "b": "gouvernance",
+   "v": 0.541,
+   "p": 0.0067,
+   "n": 26,
+   "cellules_faibles": 1.0,
    "mecanique": false,
    "fragile": true
   },
@@ -23385,16 +23408,6 @@
    "fragile": true
   },
   {
-   "a": "distance",
-   "b": "filiation:anarchisme",
-   "v": 0.514,
-   "p": 0.0407,
-   "n": 23,
-   "cellules_faibles": 1.0,
-   "mecanique": false,
-   "fragile": true
-  },
-  {
    "a": "acces",
    "b": "porteur",
    "v": 0.511,
@@ -23435,22 +23448,22 @@
    "fragile": true
   },
   {
-   "a": "distance",
-   "b": "ouverture",
-   "v": 0.501,
-   "p": 0.0023,
-   "n": 36,
-   "cellules_faibles": 1.0,
-   "mecanique": false,
-   "fragile": true
-  },
-  {
    "a": "famille",
    "b": "finalite:artisanat_production",
    "v": 0.499,
    "p": 0.0052,
    "n": 40,
    "cellules_faibles": 0.62,
+   "mecanique": false,
+   "fragile": true
+  },
+  {
+   "a": "distance",
+   "b": "verrou:aucun",
+   "v": 0.494,
+   "p": 0.0177,
+   "n": 36,
+   "cellules_faibles": 0.92,
    "mecanique": false,
    "fragile": true
   },
@@ -23545,22 +23558,12 @@
    "fragile": true
   },
   {
-   "a": "P1",
-   "b": "famille",
-   "v": 0.462,
-   "p": 0.0098,
-   "n": 40,
-   "cellules_faibles": 0.75,
-   "mecanique": false,
-   "fragile": true
-  },
-  {
    "a": "distance",
-   "b": "verrou:aucun",
-   "v": 0.462,
-   "p": 0.0275,
-   "n": 36,
-   "cellules_faibles": 0.92,
+   "b": "economie",
+   "v": 0.465,
+   "p": 0.0058,
+   "n": 24,
+   "cellules_faibles": 1.0,
    "mecanique": false,
    "fragile": true
   },
@@ -23571,6 +23574,16 @@
    "p": 0.0303,
    "n": 24,
    "cellules_faibles": 0.67,
+   "mecanique": false,
+   "fragile": true
+  },
+  {
+   "a": "P1",
+   "b": "gouvernance",
+   "v": 0.461,
+   "p": 0.0249,
+   "n": 26,
+   "cellules_faibles": 0.83,
    "mecanique": false,
    "fragile": true
   },
@@ -23611,6 +23624,26 @@
    "p": 0.0023,
    "n": 36,
    "cellules_faibles": 0.67,
+   "mecanique": false,
+   "fragile": true
+  },
+  {
+   "a": "distance",
+   "b": "ouverture",
+   "v": 0.445,
+   "p": 0.0084,
+   "n": 36,
+   "cellules_faibles": 1.0,
+   "mecanique": false,
+   "fragile": true
+  },
+  {
+   "a": "distance",
+   "b": "verrou:veto_reseau",
+   "v": 0.444,
+   "p": 0.0343,
+   "n": 36,
+   "cellules_faibles": 0.75,
    "mecanique": false,
    "fragile": true
   },
@@ -23665,26 +23698,6 @@
    "fragile": true
   },
   {
-   "a": "distance",
-   "b": "economie",
-   "v": 0.416,
-   "p": 0.0164,
-   "n": 24,
-   "cellules_faibles": 1.0,
-   "mecanique": false,
-   "fragile": true
-  },
-  {
-   "a": "ouverture",
-   "b": "statut",
-   "v": 0.414,
-   "p": 0.0179,
-   "n": 36,
-   "cellules_faibles": 0.67,
-   "mecanique": false,
-   "fragile": true
-  },
-  {
    "a": "acces",
    "b": "titre",
    "v": 0.41,
@@ -23725,12 +23738,22 @@
    "fragile": true
   },
   {
-   "a": "distance",
-   "b": "verrou_type",
-   "v": 0.37,
-   "p": 0.0215,
-   "n": 41,
-   "cellules_faibles": 0.89,
+   "a": "P1",
+   "b": "famille",
+   "v": 0.371,
+   "p": 0.0377,
+   "n": 40,
+   "cellules_faibles": 0.62,
+   "mecanique": false,
+   "fragile": true
+  },
+  {
+   "a": "ouverture",
+   "b": "statut",
+   "v": 0.366,
+   "p": 0.0342,
+   "n": 36,
+   "cellules_faibles": 0.67,
    "mecanique": false,
    "fragile": true
   },
@@ -23745,12 +23768,12 @@
    "fragile": true
   },
   {
-   "a": "distance",
-   "b": "famille",
-   "v": 0.333,
-   "p": 0.0218,
+   "a": "statut",
+   "b": "verrou_type",
+   "v": 0.346,
+   "p": 0.033,
    "n": 41,
-   "cellules_faibles": 1.0,
+   "cellules_faibles": 0.67,
    "mecanique": false,
    "fragile": true
   },
@@ -23795,645 +23818,645 @@
    "P5"
   ],
   "inertie_benzecri": [
-   0.179,
-   0.104,
-   0.095
+   0.181,
+   0.103,
+   0.092
   ],
   "individus": [
    {
     "uid": "59-rivoli",
-    "x": 0.477,
-    "y": -0.993
+    "x": 0.261,
+    "y": -1.106
    },
    {
     "uid": "ancrage",
-    "x": 0.391,
-    "y": 0.555
+    "x": 0.422,
+    "y": 0.487
    },
    {
     "uid": "arche-borie-noble",
-    "x": -0.316,
-    "y": 0.087
+    "x": -0.285,
+    "y": 0.067
    },
    {
     "uid": "boimondau",
-    "x": -1.305,
-    "y": -0.024
+    "x": -1.304,
+    "y": 0.088
    },
    {
     "uid": "colonie-conde-sur-vesgre",
-    "x": -0.603,
-    "y": -0.114
+    "x": -0.606,
+    "y": -0.084
    },
    {
     "uid": "colonie-de-bascon",
-    "x": -1.254,
-    "y": 0.266
+    "x": -1.243,
+    "y": 0.338
    },
    {
     "uid": "communes-libertaires-ariege-villeneuve-du-bosc",
-    "x": -0.972,
-    "y": -0.751
+    "x": -0.975,
+    "y": -0.642
    },
    {
     "uid": "cun-du-larzac",
-    "x": 0.098,
-    "y": -0.342
+    "x": 0.074,
+    "y": -0.405
    },
    {
     "uid": "domaine-du-rayol",
-    "x": 0.466,
-    "y": -0.289
+    "x": 0.275,
+    "y": -0.303
    },
    {
     "uid": "ecolectif",
-    "x": 0.05,
-    "y": -0.036
+    "x": 0.052,
+    "y": -0.113
    },
    {
     "uid": "emmaus-neuilly-plaisance",
-    "x": -0.165,
-    "y": -0.078
+    "x": -0.148,
+    "y": -0.118
    },
    {
     "uid": "espace-autogere-des-tanneries",
-    "x": 0.74,
-    "y": -1.055
+    "x": 0.671,
+    "y": -1.143
    },
    {
     "uid": "familistere-de-guise",
     "x": -1.263,
-    "y": -0.059
+    "y": 0.047
    },
    {
     "uid": "ferme-de-lachaud",
-    "x": 0.287,
-    "y": -0.299
+    "x": 0.249,
+    "y": -0.301
    },
    {
     "uid": "ferme-de-pommiers",
-    "x": 0.035,
-    "y": -0.071
+    "x": 0.023,
+    "y": -0.106
    },
    {
     "uid": "ferme-des-bouillons",
-    "x": 0.213,
-    "y": -0.636
+    "x": 0.179,
+    "y": -0.782
    },
    {
     "uid": "ferme-du-berquet",
     "x": 0.846,
-    "y": 0.493
+    "y": 0.46
    },
    {
     "uid": "hameau-des-buis",
-    "x": -0.645,
-    "y": -0.101
+    "x": -0.654,
+    "y": -0.081
    },
    {
     "uid": "hautes-planches-bretoncelles",
-    "x": 0.708,
-    "y": 0.729
+    "x": 0.87,
+    "y": 0.667
    },
    {
     "uid": "keriskis",
-    "x": 0.618,
-    "y": 0.887
+    "x": 0.628,
+    "y": 0.88
    },
    {
     "uid": "l-aube",
-    "x": 0.068,
-    "y": 0.522
+    "x": 0.065,
+    "y": 0.546
    },
    {
     "uid": "l-essai-aiglemont",
-    "x": -1.193,
-    "y": 0.084
+    "x": -1.185,
+    "y": 0.152
    },
    {
     "uid": "la-bellevilloise",
-    "x": -0.794,
-    "y": 0.053
+    "x": -0.795,
+    "y": 0.071
    },
    {
     "uid": "la-chapelle-toulouse",
-    "x": 0.933,
-    "y": -0.994
+    "x": 0.913,
+    "y": -0.843
    },
    {
     "uid": "la-deviation-marseille",
-    "x": 0.73,
-    "y": 0.57
+    "x": 0.888,
+    "y": 0.513
    },
    {
     "uid": "la-fraternelle-saint-claude",
-    "x": 0.087,
-    "y": 0.438
+    "x": 0.096,
+    "y": 0.405
    },
    {
     "uid": "la-marinie",
-    "x": 0.842,
-    "y": 0.69
+    "x": 0.848,
+    "y": 0.648
    },
    {
     "uid": "la-porcheritz-perche",
-    "x": 0.627,
-    "y": 0.819
+    "x": 0.661,
+    "y": 0.677
    },
    {
     "uid": "la-ruche-rambouillet",
-    "x": -0.662,
-    "y": -0.139
+    "x": -0.663,
+    "y": -0.104
    },
    {
     "uid": "la-talvere",
-    "x": 0.746,
-    "y": 0.864
+    "x": 0.772,
+    "y": 0.813
    },
    {
     "uid": "longo-mai-limans",
-    "x": 0.263,
-    "y": 0.149
+    "x": 0.396,
+    "y": 0.127
    },
    {
     "uid": "maison-blanche-antre-toit",
-    "x": 0.313,
-    "y": 0.515
+    "x": 0.332,
+    "y": 0.413
    },
    {
     "uid": "manifesten-marseille",
-    "x": 0.713,
-    "y": 0.567
+    "x": 0.86,
+    "y": 0.514
    },
    {
     "uid": "milieu-libre-de-vaux",
-    "x": -1.05,
-    "y": 0.286
+    "x": -1.029,
+    "y": 0.334
    },
    {
     "uid": "oasis-coq-a-lame",
-    "x": -0.384,
-    "y": 0.261
+    "x": -0.379,
+    "y": 0.235
    },
    {
     "uid": "quartier-libre-des-lentilleres",
-    "x": 0.624,
-    "y": -1.024
+    "x": 0.582,
+    "y": -1.127
    },
    {
     "uid": "sctl-larzac",
-    "x": 0.425,
-    "y": -0.444
+    "x": 0.408,
+    "y": -0.163
    },
    {
     "uid": "terre-liberee-luynes",
-    "x": -1.198,
-    "y": 0.179
+    "x": -1.192,
+    "y": 0.253
    },
    {
     "uid": "viel-audon",
-    "x": 0.314,
-    "y": -0.224
+    "x": 0.326,
+    "y": 0.001
    },
    {
     "uid": "villarceaux",
-    "x": -0.109,
-    "y": -0.246
+    "x": -0.134,
+    "y": -0.244
    },
    {
     "uid": "zad-notre-dame-des-landes",
-    "x": 0.063,
-    "y": -0.995
+    "x": 0.004,
+    "y": -1.079
    }
   ],
   "modalites": [
    {
     "var": "famille",
     "mod": "commun_foncier",
-    "x": 0.612,
-    "y": 0.268,
+    "x": 0.592,
+    "y": 0.312,
     "effectif": 7
    },
    {
     "var": "famille",
     "mod": "communaute_intentionnelle",
-    "x": -0.967,
-    "y": 0.083,
+    "x": -0.94,
+    "y": 0.143,
     "effectif": 15
    },
    {
     "var": "famille",
     "mod": "lieu_non_marchand",
-    "x": 0.418,
-    "y": 0.588,
+    "x": 0.458,
+    "y": 0.537,
     "effectif": 13
    },
    {
     "var": "famille",
     "mod": "occupation_regularisee",
-    "x": 0.739,
-    "y": -1.765,
+    "x": 0.629,
+    "y": -1.887,
     "effectif": 6
    },
    {
     "var": "periode",
     "mod": "1789-1870",
-    "x": -1.357,
-    "y": -0.162,
+    "x": -1.351,
+    "y": -0.034,
     "effectif": 2
    },
    {
     "var": "periode",
     "mod": "1871-1914",
-    "x": -1.18,
-    "y": 0.306,
+    "x": -1.161,
+    "y": 0.371,
     "effectif": 6
    },
    {
     "var": "periode",
     "mod": "1915-1945",
-    "x": -1.82,
-    "y": 0.144,
+    "x": -1.805,
+    "y": 0.317,
     "effectif": 2
    },
    {
     "var": "periode",
     "mod": "1946-1967",
-    "x": -0.35,
-    "y": 0.009,
+    "x": -0.313,
+    "y": -0.048,
     "effectif": 2
    },
    {
     "var": "periode",
     "mod": "1968-1989",
-    "x": 0.144,
-    "y": -0.589,
+    "x": 0.121,
+    "y": -0.43,
     "effectif": 6
    },
    {
     "var": "periode",
     "mod": "1990-2007",
-    "x": 0.406,
-    "y": -1.26,
+    "x": 0.306,
+    "y": -1.273,
     "effectif": 5
    },
    {
     "var": "periode",
     "mod": "2008-",
-    "x": 0.547,
-    "y": 0.36,
+    "x": 0.578,
+    "y": 0.257,
     "effectif": 16
    },
    {
     "var": "porteur",
     "mod": "association",
-    "x": 0.789,
-    "y": 1.139,
+    "x": 0.915,
+    "y": 1.013,
     "effectif": 6
    },
    {
     "var": "porteur",
     "mod": "cooperative",
-    "x": -1.368,
-    "y": 0.122,
+    "x": -1.359,
+    "y": 0.217,
     "effectif": 6
    },
    {
     "var": "porteur",
     "mod": "fondation",
-    "x": 0.092,
-    "y": -0.105,
+    "x": 0.137,
+    "y": -0.138,
     "effectif": 3
    },
    {
     "var": "porteur",
     "mod": "fonds_dotation",
-    "x": 0.908,
-    "y": 1.284,
+    "x": 0.913,
+    "y": 1.247,
     "effectif": 5
    },
    {
     "var": "porteur",
     "mod": "personne_privee",
-    "x": -1.409,
-    "y": 0.143,
+    "x": -1.386,
+    "y": 0.237,
     "effectif": 3
    },
    {
     "var": "porteur",
     "mod": "personne_publique",
-    "x": 0.73,
-    "y": -1.416,
+    "x": 0.608,
+    "y": -1.412,
     "effectif": 8
    },
    {
     "var": "porteur",
     "mod": "societe_civile_parts_cessibles",
-    "x": -0.221,
-    "y": -0.305,
+    "x": -0.231,
+    "y": -0.374,
     "effectif": 3
    },
    {
     "var": "forme_collectif",
     "mod": "association",
-    "x": 0.507,
-    "y": 0.22,
+    "x": 0.515,
+    "y": 0.162,
     "effectif": 26
    },
    {
     "var": "forme_collectif",
     "mod": "collectif_de_fait",
-    "x": -0.623,
-    "y": -1.05,
+    "x": -0.647,
+    "y": -1.043,
     "effectif": 5
    },
    {
     "var": "forme_collectif",
     "mod": "cooperative",
-    "x": -1.56,
-    "y": 0.159,
+    "x": -1.545,
+    "y": 0.279,
     "effectif": 7
    },
    {
     "var": "forme_collectif",
     "mod": "societe_civile",
-    "x": 0.17,
-    "y": -0.472,
+    "x": 0.143,
+    "y": -0.319,
     "effectif": 3
    },
    {
     "var": "gouvernance",
     "mod": "assemblee_consensus",
-    "x": 0.759,
-    "y": -1.101,
+    "x": 0.756,
+    "y": -1.154,
     "effectif": 5
    },
    {
     "var": "gouvernance",
     "mod": "conseil_delegue",
-    "x": 0.662,
-    "y": 0.184,
+    "x": 0.588,
+    "y": 0.273,
     "effectif": 4
    },
    {
     "var": "gouvernance",
     "mod": "mixte",
-    "x": -0.525,
-    "y": -0.056,
+    "x": -0.53,
+    "y": -0.012,
     "effectif": 17
    },
    {
     "var": "economie",
     "mod": "activites_marchandes_annexes",
-    "x": 0.242,
-    "y": 0.077,
+    "x": 0.23,
+    "y": 0.012,
     "effectif": 9
    },
    {
     "var": "economie",
     "mod": "autosubsistance",
-    "x": -1.768,
-    "y": 0.328,
+    "x": -1.745,
+    "y": 0.461,
     "effectif": 3
    },
    {
     "var": "economie",
     "mod": "caisse_commune",
-    "x": -0.535,
-    "y": 0.323,
+    "x": -0.443,
+    "y": 0.328,
     "effectif": 3
    },
    {
     "var": "economie",
     "mod": "revenus_individuels_externes",
-    "x": -0.407,
-    "y": -0.432,
+    "x": -0.415,
+    "y": -0.218,
     "effectif": 3
    },
    {
     "var": "economie",
     "mod": "salariat_structure",
-    "x": -0.495,
-    "y": -0.059,
+    "x": -0.541,
+    "y": 0.089,
     "effectif": 5
    },
    {
     "var": "ouverture",
     "mod": "accueil_regulier",
-    "x": -0.372,
-    "y": 0.333,
+    "x": -0.354,
+    "y": 0.38,
     "effectif": 16
    },
    {
     "var": "ouverture",
     "mod": "cercle_restreint",
-    "x": -1.537,
-    "y": -0.123,
+    "x": -1.53,
+    "y": 0.032,
     "effectif": 3
    },
    {
     "var": "ouverture",
     "mod": "ouvert_public",
-    "x": 0.618,
-    "y": -0.168,
+    "x": 0.61,
+    "y": -0.226,
     "effectif": 17
    },
    {
     "var": "titre",
     "mod": "bail_emphyteotique",
-    "x": 0.871,
-    "y": 0.417,
+    "x": 0.868,
+    "y": 0.545,
     "effectif": 8
    },
    {
     "var": "titre",
     "mod": "bail_rural",
-    "x": 0.187,
-    "y": -0.846,
+    "x": 0.133,
+    "y": -0.923,
     "effectif": 3
    },
    {
     "var": "titre",
     "mod": "convention",
-    "x": 0.816,
-    "y": -1.448,
+    "x": 0.582,
+    "y": -1.584,
     "effectif": 3
    },
    {
     "var": "titre",
     "mod": "propriete",
-    "x": -1.161,
-    "y": 0.41,
+    "x": -1.137,
+    "y": 0.492,
     "effectif": 7
    },
    {
     "var": "titre",
     "mod": "sans_titre",
-    "x": 0.609,
-    "y": -1.543,
+    "x": 0.55,
+    "y": -1.778,
     "effectif": 2
    },
    {
     "var": "acces",
     "mod": "achat_collectif",
-    "x": -0.15,
-    "y": 0.497,
+    "x": -0.09,
+    "y": 0.453,
     "effectif": 10
    },
    {
     "var": "acces",
     "mod": "achat_prive_fondateur",
-    "x": -1.428,
-    "y": -0.036,
+    "x": -1.41,
+    "y": 0.079,
     "effectif": 4
    },
    {
     "var": "acces",
     "mod": "bail_public",
-    "x": 0.571,
-    "y": -0.64,
+    "x": 0.449,
+    "y": -0.476,
     "effectif": 3
    },
    {
     "var": "acces",
     "mod": "don_legs",
-    "x": 0.499,
-    "y": 1.309,
+    "x": 0.5,
+    "y": 1.328,
     "effectif": 2
    },
    {
     "var": "acces",
     "mod": "occupation",
-    "x": 0.654,
-    "y": -1.604,
+    "x": 0.554,
+    "y": -1.725,
     "effectif": 7
    },
    {
     "var": "acces",
     "mod": "souscription",
-    "x": 0.706,
-    "y": 0.841,
+    "x": 0.779,
+    "y": 0.748,
     "effectif": 6
    },
    {
     "var": "verrou_type",
     "mod": "aucun",
-    "x": -0.518,
-    "y": -0.326,
+    "x": -0.535,
+    "y": -0.346,
     "effectif": 25
    },
    {
     "var": "verrou_type",
     "mod": "par_propriete",
-    "x": 0.879,
-    "y": 0.999,
+    "x": 0.938,
+    "y": 0.915,
     "effectif": 11
    },
    {
     "var": "verrou_type",
     "mod": "par_titre",
-    "x": 0.59,
-    "y": -0.535,
+    "x": 0.567,
+    "y": -0.283,
     "effectif": 5
    },
    {
     "var": "etat",
     "mod": "actif",
-    "x": 0.443,
-    "y": 0.073,
+    "x": 0.445,
+    "y": 0.04,
     "effectif": 30
    },
    {
     "var": "etat",
     "mod": "disparu",
-    "x": -1.379,
-    "y": -0.138,
+    "x": -1.369,
+    "y": -0.046,
     "effectif": 10
    },
    {
     "var": "P1",
     "mod": "non",
-    "x": -0.436,
-    "y": -0.01,
-    "effectif": 27
+    "x": -0.373,
+    "y": -0.079,
+    "effectif": 29
    },
    {
     "var": "P1",
     "mod": "oui",
-    "x": 0.988,
-    "y": 0.143,
-    "effectif": 13
+    "x": 1.091,
+    "y": 0.316,
+    "effectif": 11
    },
    {
     "var": "P2",
     "mod": "non",
-    "x": -0.019,
-    "y": 0.133,
-    "effectif": 35
+    "x": -0.159,
+    "y": -0.008,
+    "effectif": 31
    },
    {
     "var": "P2",
     "mod": "oui",
-    "x": 0.811,
-    "y": -1.03,
-    "effectif": 3
+    "x": 0.963,
+    "y": 0.217,
+    "effectif": 7
    },
    {
     "var": "P3",
     "mod": "non",
-    "x": -0.652,
-    "y": 0.016,
+    "x": -0.669,
+    "y": 0.08,
     "effectif": 18
    },
    {
     "var": "P3",
     "mod": "oui",
-    "x": 0.567,
-    "y": -0.011,
+    "x": 0.584,
+    "y": -0.072,
     "effectif": 21
    },
    {
     "var": "P4",
     "mod": "non",
-    "x": -0.56,
-    "y": -0.157,
+    "x": -0.59,
+    "y": -0.119,
     "effectif": 21
    },
    {
     "var": "P4",
     "mod": "oui",
-    "x": 0.87,
-    "y": 0.381,
+    "x": 0.917,
+    "y": 0.327,
     "effectif": 16
    },
    {
     "var": "P5",
     "mod": "non",
-    "x": -0.132,
-    "y": 0.744,
+    "x": -0.102,
+    "y": 0.714,
     "effectif": 13
    },
    {
     "var": "P5",
     "mod": "oui",
-    "x": 0.072,
-    "y": -0.37,
+    "x": 0.059,
+    "y": -0.36,
     "effectif": 26
    }
   ]
  },
  "portes": {
   "P1": {
-   "oui": 13,
-   "partiel": 9,
+   "partiel": 11,
+   "oui": 11,
    "non": 18,
    "inconnu": 1
   },
   "P2": {
    "non": 17,
-   "partiel": 18,
+   "partiel": 14,
    "inconnu": 3,
-   "oui": 3
+   "oui": 7
   },
   "P3": {
    "oui": 21,
@@ -24455,8 +24478,8 @@
   }
  },
  "echecs_par_porte": {
-  "forme_civile": 28,
-  "foncier_verrouille": 38,
+  "forme_civile": 30,
+  "foncier_verrouille": 34,
   "usage_ig": 20,
   "autogestion": 25,
   "etabli": 15
@@ -24465,52 +24488,57 @@
   {
    "porte": "P1",
    "libelle": "Forme civile",
-   "restent": 13
+   "restent": 11
   },
   {
    "porte": "P2",
    "libelle": "Foncier verrouillé",
-   "restent": 1
+   "restent": 4
   },
   {
    "porte": "P3",
    "libelle": "Usage d'intérêt général",
-   "restent": 1
+   "restent": 4
   },
   {
    "porte": "P4",
    "libelle": "Autogestion",
-   "restent": 1
+   "restent": 4
   },
   {
    "porte": "P5",
    "libelle": "Établi",
-   "restent": 1
+   "restent": 3
   }
  ],
  "sensibilite": {
   "strict": {
-   "libelle": "Cadre strict (publié)",
-   "corpus": 0,
+   "libelle": "Cadre publié (P2 au meilleur effort documentaire)",
+   "corpus": 2,
    "corpus_sous_condition": 1,
    "seuil": 5,
-   "epreuve": 35,
+   "epreuve": 33,
    "admis": [
-    "la-chapelle-toulouse"
+    "la-chapelle-toulouse",
+    "la-deviation-marseille",
+    "manifesten-marseille"
    ]
   },
   "p1_souple": {
    "libelle": "P1 : une forme partiellement civile suffit",
-   "corpus": 0,
+   "corpus": 3,
    "corpus_sous_condition": 1,
-   "seuil": 8,
-   "epreuve": 32,
+   "seuil": 6,
+   "epreuve": 31,
    "admis": [
-    "la-chapelle-toulouse"
+    "la-chapelle-toulouse",
+    "la-deviation-marseille",
+    "longo-mai-limans",
+    "manifesten-marseille"
    ]
   },
   "p2_titre_annonce": {
-   "libelle": "P2 : un verrou annoncé mais non publié suffit",
+   "libelle": "P2 : tout verrou partiel vaut franchi",
    "corpus": 3,
    "corpus_sous_condition": 1,
    "seuil": 7,
@@ -24524,12 +24552,15 @@
   },
   "p5_cinq_ans": {
    "libelle": "P5 : cinq ans d'usage suffisent",
-   "corpus": 0,
+   "corpus": 3,
    "corpus_sous_condition": 1,
-   "seuil": 8,
-   "epreuve": 32,
+   "seuil": 6,
+   "epreuve": 31,
    "admis": [
-    "la-chapelle-toulouse"
+    "hautes-planches-bretoncelles",
+    "la-chapelle-toulouse",
+    "la-deviation-marseille",
+    "manifesten-marseille"
    ]
   },
   "partiel_vaut_oui": {

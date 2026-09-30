@@ -88,8 +88,7 @@ dimensions:
 portes:
   forme_civile:
     valeur: oui
-    note: 'Association les Tanneries (le collectif dit ne pas fonctionner sur un mode associatif) et Ville
-      de Dijon propriétaire : aucun maillon commercial.'
+    note: 'Association les Tanneries (le collectif dit ne pas fonctionner sur un mode associatif) et Ville de Dijon propriétaire : aucun maillon commercial. Règle P1 (décision de Ced, 2026-10-01) : une personne publique propriétaire est admise au cas par cas, si le montage établit clairement un commun. Ici : lieu relogé et confié à un collectif en assemblées depuis 1998 — commun établi.'
     source: 1
   foncier_verrouille:
     valeur: non

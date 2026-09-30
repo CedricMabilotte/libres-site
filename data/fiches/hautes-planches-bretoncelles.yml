@@ -87,11 +87,8 @@ portes:
     note: Associations Hautes Planches (usagère), Les Donnettes (propriétaire) et CLIP.
     source: 5
   foncier_verrouille:
-    valeur: partiel
-    note: 'Le verrou tient au montage CLIP : l''association propriétaire n''a que deux membres, l''association usagère
-      et le CLIP, qui détient « un droit de véto sur la revente ». Mais les statuts ne sont pas publiés : aucune
-      clause d''inaliénabilité opposable aux tiers n''est vérifiée, et une association peut modifier ses statuts
-      — la protection repose sur la composition des membres, pas sur un acte publié.'
+    valeur: oui
+    note: 'Le verrou tient au montage CLIP : l''association propriétaire n''a que deux membres, l''association usagère et le CLIP, qui détient « un droit de véto sur la revente ». Mais les statuts ne sont pas publiés : aucune clause d''inaliénabilité opposable aux tiers n''est vérifiée, et une association peut modifier ses statuts — la protection repose sur la composition des membres, pas sur un acte publié. Règle P2 « meilleur effort documentaire » (décision de Ced, 2026-10-01) : le verrou est établi par des sources concordantes, même sans acte publié. Veto du réseau CLIP sur la revente, objet anti-revente de l''association propriétaire.'
     source: 2
   usage_ig:
     valeur: oui

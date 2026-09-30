@@ -3,6 +3,238 @@
  "licence": "CC BY-NC-SA 4.0",
  "cas": [
   {
+   "uid": "la-deviation-marseille",
+   "nom": "La Déviation",
+   "autres_noms": [
+    "En Devenir"
+   ],
+   "famille": "lieu_non_marchand",
+   "statut": "corpus",
+   "portes_manquantes": [],
+   "periode": "2008-",
+   "verrou_type": "par_propriete",
+   "localisation": {
+    "commune": "Marseille (16e arrondissement)",
+    "departement": "13",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "lat": 43.3642,
+    "lon": 5.3161
+   },
+   "debut": 2015,
+   "fin": null,
+   "resume": "Ancienne cimenterie et carrière sur les hauteurs de L'Estaque (Marseille 16e), louée depuis 2015 par un collectif d'artistes issu de l'association En Devenir (2012) et devenue un lieu autogéré de création et de résidences, aussi habité. Le lieu a été acheté au printemps 2019, pour 410 000 € ; un apport de 136 000 €, réuni par des prêts solidaires, a permis d'obtenir des crédits bancaires remboursés par les loyers du collectif ; il est détenu par l'association Parpaing Libre, dont les deux seuls membres sont l'association usagère et le réseau CLIP. L'incendie du 8 juillet 2025 a détruit ateliers, boulangerie et logements de résidence ; la reconstruction se fait en chantiers participatifs.",
+   "collectif": {
+    "nom": "En Devenir (La Déviation)",
+    "forme": "association",
+    "annee": 2012
+   },
+   "foncier": {
+    "porteur": "Association Parpaing Libre",
+    "porteur_forme": "association",
+    "surface_ha": 0.27,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "oui",
+     "note": "Associations En Devenir (usagère), Parpaing Libre (propriétaire, loi 1901) et CLIP : chaîne entièrement associative."
+    },
+    "foncier_verrouille": {
+     "valeur": "oui",
+     "note": "Objet de Parpaing Libre : empêcher la revente et garantir l'usage « ad vitam aeternam » ; en cas de défaillance, l'usage est confié à un autre collectif. Le verrou tient au montage CLIP : l'association propriétaire n'a que deux membres, l'association usagère et le CLIP, qui détient « un droit de véto sur la revente ». Mais les statuts ne sont pas publiés : aucune clause d'inaliénabilité opposable aux tiers n'est vérifiée, et une association peut modifier ses statuts — la protection repose sur la composition des membres, pas sur un acte publié. Règle P2 « meilleur effort documentaire » (décision de Ced, 2026-10-01) : le verrou est établi par des sources concordantes, même sans acte publié. Veto du réseau CLIP sur la revente, objet anti-revente de l'association propriétaire."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Plus d'une centaine d'artistes accueilli·es en résidence ; guinguette à prix libre et portes ouvertes au quartier."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Lieu autogéré ; l'association usagère est l'un des deux membres de la propriétaire."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Installation en 2015, achat en 2019 : onze ans d'usage continu en 2026. L'incendie de 2025 n'a pas interrompu la présence du collectif."
+    }
+   },
+   "dimensions": {
+    "acces": "achat_collectif",
+    "titre": "inconnu",
+    "verrou": [
+     "veto_reseau"
+    ],
+    "gouvernance": "inconnu",
+    "economie": "inconnu",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "culture",
+     "habitat"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "inconnu",
+    "echelle": "10_50",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "La Déviation — site",
+     "auteur": "La Déviation",
+     "annee": null,
+     "url": "https://www.ladeviation.org/"
+    },
+    {
+     "titre": "Libérons les parpaings (brochure)",
+     "auteur": "Parpaing Libre",
+     "annee": 2018,
+     "url": "http://www.ladeviation.org/wp-content/uploads/2018/05/ParpaingLibre_brochure_mai.compressed.pdf"
+    },
+    {
+     "titre": "Qu'est-ce que le Clip ?",
+     "auteur": "CLIP — Réseau de lieux en propriété d'usage",
+     "annee": null,
+     "url": "https://clip.ouvaton.org/quest-ce-que-le-clip/"
+    },
+    {
+     "titre": "La Déviation",
+     "auteur": "Arteplan",
+     "annee": null,
+     "url": "https://arteplan.org/initiative/la-deviation/"
+    },
+    {
+     "titre": "À l'Estaque, chantiers participatifs pour reconstruire La Déviation après l'incendie",
+     "auteur": "Made in Marseille",
+     "annee": 2025,
+     "url": "https://madeinmarseille.net/a-la-une-marseille/196220-deviation-chantiers-participatifs-incendie/"
+    },
+    {
+     "titre": "Parpaing Libre (SIREN 833981764)",
+     "auteur": "Annuaire des entreprises",
+     "annee": null,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/parpaing-libre-833981764"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/la-deviation-marseille/"
+  },
+  {
+   "uid": "manifesten-marseille",
+   "nom": "Manifesten",
+   "autres_noms": [],
+   "famille": "lieu_non_marchand",
+   "statut": "corpus",
+   "portes_manquantes": [],
+   "periode": "2008-",
+   "verrou_type": "par_propriete",
+   "localisation": {
+    "commune": "Marseille (1er arrondissement)",
+    "departement": "13",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "lat": 43.3002,
+    "lon": 5.3828
+   },
+   "debut": 2016,
+   "fin": null,
+   "resume": "Café-librairie associatif et lieu de luttes au 59 rue Adolphe-Thiers, Marseille 1er, rouvert par une nouvelle équipe en février 2016. Menacé par la vente des murs en 2020, le collectif (une quinzaine de personnes, « sans chef·fe ni salarié·e ») a lancé une collecte pour acheter le lieu (environ 190 000 € frais compris) ; l'association New Al Dante en devient propriétaire, avec une clause d'incessibilité annoncée, et le lieu entre dans le réseau CLIP. On y trouve une librairie, un bar, des cours de français pour femmes et les réunions d'une quinzaine de collectifs.",
+   "collectif": {
+    "nom": "Manifesten",
+    "forme": "association",
+    "annee": null
+   },
+   "foncier": {
+    "porteur": "Association New Al Dante",
+    "porteur_forme": "association",
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "oui",
+     "note": "Associations New Al Dante (propriétaire) et Manifesten (usagère), réseau CLIP associatif."
+    },
+    "foncier_verrouille": {
+     "valeur": "oui",
+     "note": "« Clause d'incessibilité » annoncée et garantie CLIP, mais texte non publié. Une clause d'inaliénabilité perpétuelle est fragile en droit français (la jurisprudence l'exige temporaire et justifiée par un intérêt sérieux et légitime) : le verrou tient surtout au veto du CLIP. Règle P2 « meilleur effort documentaire » (décision de Ced, 2026-10-01) : le verrou est établi par des sources concordantes, même sans acte publié. Veto du réseau CLIP sur la revente, objet anti-revente de l'association propriétaire."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Café-librairie associatif, cours gratuits de français pour femmes, lieu de réunion d'une quinzaine de collectifs."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Collectif « sans chef·fe ni salarié·e »."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Équipe actuelle depuis le 6 février 2016 : dix ans atteints en février 2026 (location jusqu'à l'achat, puis propriété d'usage). Le lieu existait auparavant sous une autre équipe."
+    }
+   },
+   "dimensions": {
+    "acces": "souscription",
+    "titre": "inconnu",
+    "verrou": [
+     "veto_reseau"
+    ],
+    "gouvernance": "mixte",
+    "economie": "inconnu",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "culture",
+     "education_populaire"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "conflit",
+    "echelle": "10_50",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Manifesten : vive la propriété collective !",
+     "auteur": "CQFD n°192",
+     "annee": 2020,
+     "url": "https://cqfd-journal.org/Manifesten-vive-la-propriete"
+    },
+    {
+     "titre": "Samedi 6 février à 19 h : Manifesten, c'est reparti !",
+     "auteur": "Marseille Infos Autonomes",
+     "annee": 2016,
+     "url": "https://mars-infos.org/samedi-6-fevrier-a-19-h-manifesten-690"
+    },
+    {
+     "titre": "Pour une propriété d'usage et des luttes collectives (tract)",
+     "auteur": "Collectif Manifesten",
+     "annee": 2020,
+     "url": "https://mars-infos.org/IMG/pdf/achetonsmanifesten_-2.pdf"
+    },
+    {
+     "titre": "Manifesten est à vendre : achetons-le !",
+     "auteur": "Marseille Infos Autonomes",
+     "annee": 2020,
+     "url": "https://mars-infos.org/manifesten-est-a-vendre-achetons-5424"
+    },
+    {
+     "titre": "Les lieux",
+     "auteur": "CLIP — Réseau de lieux en propriété d'usage",
+     "annee": null,
+     "url": "https://clip.ouvaton.org/les-projets/"
+    },
+    {
+     "titre": "Compte rendu de l'assemblée générale du 29 janvier 2022",
+     "auteur": "CLIP",
+     "annee": 2022,
+     "url": "https://clip.ouvaton.org/wp-content/uploads/2022/02/clip-ag-2022-01-29-pv.pdf"
+    },
+    {
+     "titre": "Manifesten : vive la propriété collective !",
+     "auteur": "Infolibertaire",
+     "annee": null,
+     "url": "https://www.infolibertaire.net/manifesten-vive-la-propriete-collective/"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/manifesten-marseille/"
+  },
+  {
    "uid": "la-chapelle-toulouse",
    "nom": "La Chapelle (Toulouse)",
    "autres_noms": [
@@ -38,7 +270,7 @@
    "portes": {
     "forme_civile": {
      "valeur": "oui",
-     "note": "Association 1901 usagère, Ville de Toulouse propriétaire : aucun maillon commercial."
+     "note": "Association 1901 usagère, Ville de Toulouse propriétaire : aucun maillon commercial. Règle P1 (décision de Ced, 2026-10-01) : une personne publique propriétaire est admise au cas par cas, si le montage établit clairement un commun. Ici : bail long au profit d'une association usagère autogérée, sans salarié ni subvention, depuis 1993 — commun établi."
     },
     "foncier_verrouille": {
      "valeur": "oui",
@@ -149,7 +381,7 @@
    "portes": {
     "forme_civile": {
      "valeur": "oui",
-     "note": "Association les Tanneries (le collectif dit ne pas fonctionner sur un mode associatif) et Ville de Dijon propriétaire : aucun maillon commercial."
+     "note": "Association les Tanneries (le collectif dit ne pas fonctionner sur un mode associatif) et Ville de Dijon propriétaire : aucun maillon commercial. Règle P1 (décision de Ced, 2026-10-01) : une personne publique propriétaire est admise au cas par cas, si le montage établit clairement un commun. Ici : lieu relogé et confié à un collectif en assemblées depuis 1998 — commun établi."
     },
     "foncier_verrouille": {
      "valeur": "non",
@@ -227,122 +459,6 @@
    "url": "https://libres.actitude.org/f/espace-autogere-des-tanneries/"
   },
   {
-   "uid": "la-deviation-marseille",
-   "nom": "La Déviation",
-   "autres_noms": [
-    "En Devenir"
-   ],
-   "famille": "lieu_non_marchand",
-   "statut": "seuil",
-   "portes_manquantes": [
-    "foncier_verrouille"
-   ],
-   "periode": "2008-",
-   "verrou_type": "par_propriete",
-   "localisation": {
-    "commune": "Marseille (16e arrondissement)",
-    "departement": "13",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "lat": 43.3642,
-    "lon": 5.3161
-   },
-   "debut": 2015,
-   "fin": null,
-   "resume": "Ancienne cimenterie et carrière sur les hauteurs de L'Estaque (Marseille 16e), louée depuis 2015 par un collectif d'artistes issu de l'association En Devenir (2012) et devenue un lieu autogéré de création et de résidences, aussi habité. Le lieu a été acheté au printemps 2019, pour 410 000 € ; un apport de 136 000 €, réuni par des prêts solidaires, a permis d'obtenir des crédits bancaires remboursés par les loyers du collectif ; il est détenu par l'association Parpaing Libre, dont les deux seuls membres sont l'association usagère et le réseau CLIP. L'incendie du 8 juillet 2025 a détruit ateliers, boulangerie et logements de résidence ; la reconstruction se fait en chantiers participatifs.",
-   "collectif": {
-    "nom": "En Devenir (La Déviation)",
-    "forme": "association",
-    "annee": 2012
-   },
-   "foncier": {
-    "porteur": "Association Parpaing Libre",
-    "porteur_forme": "association",
-    "surface_ha": 0.27,
-    "titre_duree_ans": null
-   },
-   "portes": {
-    "forme_civile": {
-     "valeur": "oui",
-     "note": "Associations En Devenir (usagère), Parpaing Libre (propriétaire, loi 1901) et CLIP : chaîne entièrement associative."
-    },
-    "foncier_verrouille": {
-     "valeur": "partiel",
-     "note": "Objet de Parpaing Libre : empêcher la revente et garantir l'usage « ad vitam aeternam » ; en cas de défaillance, l'usage est confié à un autre collectif. Le verrou tient au montage CLIP : l'association propriétaire n'a que deux membres, l'association usagère et le CLIP, qui détient « un droit de véto sur la revente ». Mais les statuts ne sont pas publiés : aucune clause d'inaliénabilité opposable aux tiers n'est vérifiée, et une association peut modifier ses statuts — la protection repose sur la composition des membres, pas sur un acte publié."
-    },
-    "usage_ig": {
-     "valeur": "oui",
-     "note": "Plus d'une centaine d'artistes accueilli·es en résidence ; guinguette à prix libre et portes ouvertes au quartier."
-    },
-    "autogestion": {
-     "valeur": "oui",
-     "note": "Lieu autogéré ; l'association usagère est l'un des deux membres de la propriétaire."
-    },
-    "etabli": {
-     "valeur": "oui",
-     "note": "Installation en 2015, achat en 2019 : onze ans d'usage continu en 2026. L'incendie de 2025 n'a pas interrompu la présence du collectif."
-    }
-   },
-   "dimensions": {
-    "acces": "achat_collectif",
-    "titre": "inconnu",
-    "verrou": [
-     "veto_reseau"
-    ],
-    "gouvernance": "inconnu",
-    "economie": "inconnu",
-    "ouverture": "ouvert_public",
-    "finalite": [
-     "culture",
-     "habitat"
-    ],
-    "filiation": "inconnu",
-    "rapport_etat": "inconnu",
-    "echelle": "10_50",
-    "transmission": "inconnu",
-    "etat": "actif",
-    "fin": null
-   },
-   "sources": [
-    {
-     "titre": "La Déviation — site",
-     "auteur": "La Déviation",
-     "annee": null,
-     "url": "https://www.ladeviation.org/"
-    },
-    {
-     "titre": "Libérons les parpaings (brochure)",
-     "auteur": "Parpaing Libre",
-     "annee": 2018,
-     "url": "http://www.ladeviation.org/wp-content/uploads/2018/05/ParpaingLibre_brochure_mai.compressed.pdf"
-    },
-    {
-     "titre": "Qu'est-ce que le Clip ?",
-     "auteur": "CLIP — Réseau de lieux en propriété d'usage",
-     "annee": null,
-     "url": "https://clip.ouvaton.org/quest-ce-que-le-clip/"
-    },
-    {
-     "titre": "La Déviation",
-     "auteur": "Arteplan",
-     "annee": null,
-     "url": "https://arteplan.org/initiative/la-deviation/"
-    },
-    {
-     "titre": "À l'Estaque, chantiers participatifs pour reconstruire La Déviation après l'incendie",
-     "auteur": "Made in Marseille",
-     "annee": 2025,
-     "url": "https://madeinmarseille.net/a-la-une-marseille/196220-deviation-chantiers-participatifs-incendie/"
-    },
-    {
-     "titre": "Parpaing Libre (SIREN 833981764)",
-     "auteur": "Annuaire des entreprises",
-     "annee": null,
-     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/parpaing-libre-833981764"
-    }
-   ],
-   "url": "https://libres.actitude.org/f/la-deviation-marseille/"
-  },
-  {
    "uid": "ferme-du-berquet",
    "nom": "La Faille — Ferme du Berquet",
    "autres_noms": [
@@ -384,7 +500,7 @@
     },
     "foncier_verrouille": {
      "valeur": "partiel",
-     "note": "Propriété transférée en novembre 2024. Aucune clause d'inaliénabilité publiée dans les statuts du fonds : selon Silence (2023), Antidote « peut vendre un lieu à l'unanimité de son conseil d'administration » (trois administrateur·rices nommé·es par Les Passagères de l'usage). La dévolution de l'actif net d'un fonds de dotation dissous à un autre fonds ou à une fondation RUP est légale (loi 2008, art. 140) mais ne verrouille pas le lieu lui-même ; le bail emphytéotique de 99 ans, qui serait opposable à un acquéreur, n'est pas publié pour ce lieu."
+     "note": "Propriété transférée en novembre 2024. Aucune clause d'inaliénabilité publiée dans les statuts du fonds : selon Silence (2023), Antidote « peut vendre un lieu à l'unanimité de son conseil d'administration » (trois administrateur·rices nommé·es par Les Passagères de l'usage). La dévolution de l'actif net d'un fonds de dotation dissous à un autre fonds ou à une fondation RUP est légale (loi 2008, art. 140) mais ne verrouille pas le lieu lui-même ; le bail emphytéotique de 99 ans, qui serait opposable à un acquéreur, n'est pas publié pour ce lieu. Lecture « meilleur effort » (2026-10-01) : ce n'est pas le défaut de publication qui retient la porte, mais la faculté documentée du fonds de vendre un lieu à l'unanimité de son conseil."
     },
     "usage_ig": {
      "valeur": "oui",
@@ -466,33 +582,35 @@
    "url": "https://libres.actitude.org/f/ferme-du-berquet/"
   },
   {
-   "uid": "manifesten-marseille",
-   "nom": "Manifesten",
-   "autres_noms": [],
+   "uid": "hautes-planches-bretoncelles",
+   "nom": "Les Hautes-Planches",
+   "autres_noms": [
+    "Moulin de Haute Planche"
+   ],
    "famille": "lieu_non_marchand",
    "statut": "seuil",
    "portes_manquantes": [
-    "foncier_verrouille"
+    "etabli"
    ],
    "periode": "2008-",
    "verrou_type": "par_propriete",
    "localisation": {
-    "commune": "Marseille (1er arrondissement)",
-    "departement": "13",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "lat": 43.3002,
-    "lon": 5.3828
+    "commune": "Bretoncelles",
+    "departement": "61",
+    "region": "Normandie",
+    "lat": 48.4388,
+    "lon": 0.9055
    },
-   "debut": 2016,
+   "debut": 2017,
    "fin": null,
-   "resume": "Café-librairie associatif et lieu de luttes au 59 rue Adolphe-Thiers, Marseille 1er, rouvert par une nouvelle équipe en février 2016. Menacé par la vente des murs en 2020, le collectif (une quinzaine de personnes, « sans chef·fe ni salarié·e ») a lancé une collecte pour acheter le lieu (environ 190 000 € frais compris) ; l'association New Al Dante en devient propriétaire, avec une clause d'incessibilité annoncée, et le lieu entre dans le réseau CLIP. On y trouve une librairie, un bar, des cours de français pour femmes et les réunions d'une quinzaine de collectifs.",
+   "resume": "Ancien moulin à Bretoncelles, dans le Perche ornais : lieu d'habitat, d'ateliers et d'activités culturelles, avec des espaces à prix libre accessibles à tous. L'association usagère Hautes Planches, déclarée en mai 2017, occupe et gère le lieu ; l'association Les Donnettes a acheté le corps principal du moulin en octobre 2017, puis une parcelle complémentaire par financement participatif. Montage CLIP : Les Donnettes n'a que deux membres, l'association usagère et le réseau CLIP, garant de la non-revente.",
    "collectif": {
-    "nom": "Manifesten",
+    "nom": "Hautes Planches",
     "forme": "association",
-    "annee": null
+    "annee": 2017
    },
    "foncier": {
-    "porteur": "Association New Al Dante",
+    "porteur": "Association Les Donnettes",
     "porteur_forme": "association",
     "surface_ha": null,
     "titre_duree_ans": null
@@ -500,70 +618,46 @@
    "portes": {
     "forme_civile": {
      "valeur": "oui",
-     "note": "Associations New Al Dante (propriétaire) et Manifesten (usagère), réseau CLIP associatif."
+     "note": "Associations Hautes Planches (usagère), Les Donnettes (propriétaire) et CLIP."
     },
     "foncier_verrouille": {
-     "valeur": "partiel",
-     "note": "« Clause d'incessibilité » annoncée et garantie CLIP, mais texte non publié. Une clause d'inaliénabilité perpétuelle est fragile en droit français (la jurisprudence l'exige temporaire et justifiée par un intérêt sérieux et légitime) : le verrou tient surtout au veto du CLIP."
+     "valeur": "oui",
+     "note": "Le verrou tient au montage CLIP : l'association propriétaire n'a que deux membres, l'association usagère et le CLIP, qui détient « un droit de véto sur la revente ». Mais les statuts ne sont pas publiés : aucune clause d'inaliénabilité opposable aux tiers n'est vérifiée, et une association peut modifier ses statuts — la protection repose sur la composition des membres, pas sur un acte publié. Règle P2 « meilleur effort documentaire » (décision de Ced, 2026-10-01) : le verrou est établi par des sources concordantes, même sans acte publié. Veto du réseau CLIP sur la revente, objet anti-revente de l'association propriétaire."
     },
     "usage_ig": {
      "valeur": "oui",
-     "note": "Café-librairie associatif, cours gratuits de français pour femmes, lieu de réunion d'une quinzaine de collectifs."
+     "note": "Objet : « lieu collectif et solidaire » ; espaces à prix libre accessibles à tous."
     },
     "autogestion": {
      "valeur": "oui",
-     "note": "Collectif « sans chef·fe ni salarié·e »."
+     "note": "Lieu membre d'un réseau de « lieux solidaires et autogérés » ; l'usagère est membre de la propriétaire."
     },
     "etabli": {
-     "valeur": "oui",
-     "note": "Équipe actuelle depuis le 6 février 2016 : dix ans atteints en février 2026 (location jusqu'à l'achat, puis propriété d'usage). Le lieu existait auparavant sous une autre équipe."
+     "valeur": "non",
+     "note": "Association usagère déclarée et achat en 2017 : neuf ans en 2026. Pas encore établi — normal pour un lieu récent."
     }
    },
    "dimensions": {
-    "acces": "souscription",
+    "acces": "achat_collectif",
     "titre": "inconnu",
     "verrou": [
      "veto_reseau"
     ],
-    "gouvernance": "mixte",
+    "gouvernance": "inconnu",
     "economie": "inconnu",
     "ouverture": "ouvert_public",
     "finalite": [
-     "culture",
-     "education_populaire"
+     "habitat",
+     "culture"
     ],
     "filiation": "inconnu",
-    "rapport_etat": "conflit",
-    "echelle": "10_50",
+    "rapport_etat": "inconnu",
+    "echelle": "inconnu",
     "transmission": "inconnu",
     "etat": "actif",
     "fin": null
    },
    "sources": [
-    {
-     "titre": "Manifesten : vive la propriété collective !",
-     "auteur": "CQFD n°192",
-     "annee": 2020,
-     "url": "https://cqfd-journal.org/Manifesten-vive-la-propriete"
-    },
-    {
-     "titre": "Samedi 6 février à 19 h : Manifesten, c'est reparti !",
-     "auteur": "Marseille Infos Autonomes",
-     "annee": 2016,
-     "url": "https://mars-infos.org/samedi-6-fevrier-a-19-h-manifesten-690"
-    },
-    {
-     "titre": "Pour une propriété d'usage et des luttes collectives (tract)",
-     "auteur": "Collectif Manifesten",
-     "annee": 2020,
-     "url": "https://mars-infos.org/IMG/pdf/achetonsmanifesten_-2.pdf"
-    },
-    {
-     "titre": "Manifesten est à vendre : achetons-le !",
-     "auteur": "Marseille Infos Autonomes",
-     "annee": 2020,
-     "url": "https://mars-infos.org/manifesten-est-a-vendre-achetons-5424"
-    },
     {
      "titre": "Les lieux",
      "auteur": "CLIP — Réseau de lieux en propriété d'usage",
@@ -571,19 +665,142 @@
      "url": "https://clip.ouvaton.org/les-projets/"
     },
     {
-     "titre": "Compte rendu de l'assemblée générale du 29 janvier 2022",
-     "auteur": "CLIP",
-     "annee": 2022,
-     "url": "https://clip.ouvaton.org/wp-content/uploads/2022/02/clip-ag-2022-01-29-pv.pdf"
+     "titre": "Qu'est-ce que le Clip ?",
+     "auteur": "CLIP — Réseau de lieux en propriété d'usage",
+     "annee": null,
+     "url": "https://clip.ouvaton.org/quest-ce-que-le-clip/"
     },
     {
-     "titre": "Manifesten : vive la propriété collective !",
-     "auteur": "Infolibertaire",
+     "titre": "Hautes Planches (SIREN 834607483)",
+     "auteur": "Annuaire des entreprises",
      "annee": null,
-     "url": "https://www.infolibertaire.net/manifesten-vive-la-propriete-collective/"
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/hautes-planches-834607483"
+    },
+    {
+     "titre": "Les Donnettes — collecte « Achat du Broc »",
+     "auteur": "Les Donnettes (HelloAsso)",
+     "annee": null,
+     "url": "https://www.helloasso.com/associations/les-donnettes/collectes/achat-du-broc"
+    },
+    {
+     "titre": "Associations de Bretoncelles",
+     "auteur": "Annuaire-mairie",
+     "annee": null,
+     "url": "https://www.annuaire-mairie.fr/association-bretoncelles.html"
     }
    ],
-   "url": "https://libres.actitude.org/f/manifesten-marseille/"
+   "url": "https://libres.actitude.org/f/hautes-planches-bretoncelles/"
+  },
+  {
+   "uid": "longo-mai-limans",
+   "nom": "Longo Maï — Grange Neuve (Limans)",
+   "autres_noms": [
+    "Longo Maï",
+    "Grange Neuve"
+   ],
+   "famille": "communaute_intentionnelle",
+   "statut": "seuil",
+   "portes_manquantes": [
+    "forme_civile"
+   ],
+   "periode": "1968-1989",
+   "verrou_type": "par_propriete",
+   "localisation": {
+    "commune": "Limans",
+    "departement": "04",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "lat": 43.9852,
+    "lon": 5.7311
+   },
+   "debut": 1973,
+   "fin": null,
+   "resume": "En 1973, de jeunes militants issus des groupes Spartakus (Autriche) et Hydra (Suisse) achètent par collecte un domaine d'environ 270 hectares à Limans, près de Forcalquier, avec les fermes de Grange-Neuve et du Pigeonnier : c'est la première coopérative du réseau Longo Maï. Une centaine de personnes y vivent sans salaire, les ressources étant mises en commun, et décident par consensus ; élevage, céréales, maraîchage, transformation, forêt et Radio Zinzine (1981) font vivre le lieu, avec une part importante de dons. Le réseau déclare détenir son foncier en propriété collective inaliénable par une fondation suisse, le Fonds de Terre Européenne. Le lieu a connu la répression d'État (refus de titres de séjour en 1973, opération de police en 1989).",
+   "collectif": {
+    "nom": "Coopérative Longo Maï de Limans (Association européenne Longo Maï)",
+    "forme": "association",
+    "annee": null
+   },
+   "foncier": {
+    "porteur": "Fonds de Terre Européenne (fondation de droit suisse), selon le réseau",
+    "porteur_forme": "fondation",
+    "surface_ha": 270,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Fondation (porteur) et association (collectif), mais le réseau emploie aussi des formes coopératives, GFA et EARL, sans ventilation publique par site."
+    },
+    "foncier_verrouille": {
+     "valeur": "oui",
+     "note": "Inaliénabilité affirmée par le réseau, mais statuts de la fondation et acte liant Limans non publiés ; titre d'usage de la coopérative non documenté. Règle P2 « meilleur effort documentaire » (décision de Ced, 2026-10-01) : le verrou est établi par des sources concordantes, même sans acte publié. Inaliénabilité portée par la fondation propriétaire, affirmée par le réseau."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Accueil, radio locale Radio Zinzine, solidarité internationale, sans rente."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Décisions par consensus des coopérants ; pas de propriétaire qui tranche."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Usage continu depuis 1973."
+    }
+   },
+   "dimensions": {
+    "acces": "souscription",
+    "titre": "inconnu",
+    "verrou": [
+     "inalienabilite_statutaire"
+    ],
+    "gouvernance": "assemblee_consensus",
+    "economie": "caisse_commune",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "agriculture",
+     "artisanat_production",
+     "culture",
+     "habitat"
+    ],
+    "filiation": [
+     "anarchisme",
+     "neo_ruralisme",
+     "autonomie"
+    ],
+    "rapport_etat": "conflit",
+    "echelle": "50_200",
+    "transmission": "generations_renouvelees",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Association Longo Maï",
+     "auteur": "Wikipédia",
+     "annee": null,
+     "url": "https://fr.wikipedia.org/wiki/Association_Longo_Ma%C3%AF"
+    },
+    {
+     "titre": "Longo Maï",
+     "auteur": "Coopérative Longo Maï La Cabrery",
+     "annee": null,
+     "url": "https://www.lacabrery.org/longo-mai/"
+    },
+    {
+     "titre": "L'exceptionnelle longévité de Longo Maï",
+     "auteur": "Martin Barbara, Coopérative Oasis",
+     "annee": 2025,
+     "url": "https://cooperative-oasis.org/articles/lexceptionnelle-longevite-de-longo-mai/"
+    },
+    {
+     "titre": "Pro Longo Maï",
+     "auteur": "Pro Longo Maï",
+     "annee": null,
+     "url": "https://www.prolongomaif.ch/"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/longo-mai-limans/"
   },
   {
    "uid": "quartier-libre-des-lentilleres",
@@ -622,7 +839,7 @@
    "portes": {
     "forme_civile": {
      "valeur": "oui",
-     "note": "Collectif de fait sur un terrain de la Ville de Dijon ; association annoncée pour signer la convention."
+     "note": "Collectif de fait sur un terrain de la Ville de Dijon ; association annoncée pour signer la convention. Règle P1 (décision de Ced, 2026-10-01) : une personne publique propriétaire est admise au cas par cas, si le montage établit clairement un commun. Ici : terres cultivées en assemblées depuis 2010, régularisation négociée par la Ville — commun établi dans l'usage."
     },
     "foncier_verrouille": {
      "valeur": "non",
@@ -684,98 +901,6 @@
     }
    ],
    "url": "https://libres.actitude.org/f/quartier-libre-des-lentilleres/"
-  },
-  {
-   "uid": "59-rivoli",
-   "nom": "59 Rivoli",
-   "autres_noms": [
-    "squat KGB"
-   ],
-   "famille": "occupation_regularisee",
-   "statut": "epreuve",
-   "portes_manquantes": [
-    "foncier_verrouille",
-    "autogestion"
-   ],
-   "periode": "1990-2007",
-   "verrou_type": "aucun",
-   "localisation": {
-    "commune": "Paris",
-    "departement": "75",
-    "region": "Île-de-France",
-    "lat": 48.8566,
-    "lon": 2.3522
-   },
-   "debut": 1999,
-   "fin": null,
-   "resume": "Immeuble haussmannien de la rue de Rivoli à Paris, ancienne propriété du Crédit lyonnais vide depuis huit ans, occupé le 1er novembre 1999 par un collectif d'artistes. La Ville de Paris l'achète le 22 mai 2002 (4,57 M€) ; l'association est déclarée le 3 juin 2002. Après travaux, le lieu rouvre en novembre 2009 sous une convention d'occupation de 3 ans signée le 25 août 2009, prolongée par avenant en 2013. Une trentaine d'artistes y ont leur atelier contre une participation mensuelle ; l'entrée est libre pour des dizaines de milliers de visiteurs par an.",
-   "collectif": {
-    "nom": "Association 59 Rivoli",
-    "forme": "association",
-    "annee": 2002
-   },
-   "foncier": {
-    "porteur": "Ville de Paris",
-    "porteur_forme": "personne_publique",
-    "surface_ha": null,
-    "titre_duree_ans": 3
-   },
-   "portes": {
-    "forme_civile": {
-     "valeur": "oui",
-     "note": "Association 59 Rivoli et Ville de Paris propriétaire : aucun maillon commercial."
-    },
-    "foncier_verrouille": {
-     "valeur": "non",
-     "note": "Convention d'occupation de 3 ans prolongée par avenant : titre court et révocable ; aucun titre long ni inaliénabilité."
-    },
-    "usage_ig": {
-     "valeur": "oui",
-     "note": "Entrée libre et forte fréquentation publique ; participation des artistes de 130 €/mois, sans rente."
-    },
-    "autogestion": {
-     "valeur": "partiel",
-     "note": "Gestion par les artistes (assemblées mensuelles), mais la Ville fixe le cadre par une convention courte et l'inspection générale a formulé des prescriptions sur la sélection des résidents."
-    },
-    "etabli": {
-     "valeur": "oui",
-     "note": "Usage continu depuis 1999."
-    }
-   },
-   "dimensions": {
-    "acces": "occupation",
-    "titre": "convention",
-    "verrou": [
-     "aucun"
-    ],
-    "gouvernance": "mixte",
-    "economie": "inconnu",
-    "ouverture": "ouvert_public",
-    "finalite": [
-     "culture"
-    ],
-    "filiation": "inconnu",
-    "rapport_etat": "conventionnement",
-    "echelle": "10_50",
-    "transmission": "generations_renouvelees",
-    "etat": "actif",
-    "fin": null
-   },
-   "sources": [
-    {
-     "titre": "Rapport d'audit de l'association 59 Rivoli",
-     "auteur": "Inspection générale de la Ville de Paris",
-     "annee": 2012,
-     "url": "https://cdn.paris.fr/paris/2020/02/26/ff60b218a0c4a14f648ad2eceaf0261e.pdf"
-    },
-    {
-     "titre": "L'histoire du lieu",
-     "auteur": "59 Rivoli",
-     "annee": null,
-     "url": "https://59rivoli.org/__trashed-7__trashed/"
-    }
-   ],
-   "url": "https://libres.actitude.org/f/59-rivoli/"
   },
   {
    "uid": "ancrage",
@@ -919,7 +1044,7 @@
     },
     "foncier_verrouille": {
      "valeur": "partiel",
-     "note": "Date du transfert au fonds non publiée (Silence 2023 : l'association « transmettra la propriété » une fois les prêts remboursés). Aucune clause d'inaliénabilité publiée dans les statuts du fonds : selon Silence (2023), Antidote « peut vendre un lieu à l'unanimité de son conseil d'administration » (trois administrateur·rices nommé·es par Les Passagères de l'usage). La dévolution de l'actif net d'un fonds de dotation dissous à un autre fonds ou à une fondation RUP est légale (loi 2008, art. 140) mais ne verrouille pas le lieu lui-même ; le bail emphytéotique de 99 ans, qui serait opposable à un acquéreur, n'est pas publié pour ce lieu."
+     "note": "Date du transfert au fonds non publiée (Silence 2023 : l'association « transmettra la propriété » une fois les prêts remboursés). Aucune clause d'inaliénabilité publiée dans les statuts du fonds : selon Silence (2023), Antidote « peut vendre un lieu à l'unanimité de son conseil d'administration » (trois administrateur·rices nommé·es par Les Passagères de l'usage). La dévolution de l'actif net d'un fonds de dotation dissous à un autre fonds ou à une fondation RUP est légale (loi 2008, art. 140) mais ne verrouille pas le lieu lui-même ; le bail emphytéotique de 99 ans, qui serait opposable à un acquéreur, n'est pas publié pour ce lieu. Lecture « meilleur effort » (2026-10-01) : ce n'est pas le défaut de publication qui retient la porte, mais la faculté documentée du fonds de vendre un lieu à l'unanimité de son conseil."
     },
     "usage_ig": {
      "valeur": "oui",
@@ -1138,7 +1263,7 @@
     },
     "foncier_verrouille": {
      "valeur": "partiel",
-     "note": "Propriété transférée au fonds en novembre 2024. Aucune clause d'inaliénabilité publiée dans les statuts du fonds : selon Silence (2023), Antidote « peut vendre un lieu à l'unanimité de son conseil d'administration » (trois administrateur·rices nommé·es par Les Passagères de l'usage). La dévolution de l'actif net d'un fonds de dotation dissous à un autre fonds ou à une fondation RUP est légale (loi 2008, art. 140) mais ne verrouille pas le lieu lui-même ; le bail emphytéotique de 99 ans, qui serait opposable à un acquéreur, n'est pas publié pour ce lieu."
+     "note": "Propriété transférée au fonds en novembre 2024. Aucune clause d'inaliénabilité publiée dans les statuts du fonds : selon Silence (2023), Antidote « peut vendre un lieu à l'unanimité de son conseil d'administration » (trois administrateur·rices nommé·es par Les Passagères de l'usage). La dévolution de l'actif net d'un fonds de dotation dissous à un autre fonds ou à une fondation RUP est légale (loi 2008, art. 140) mais ne verrouille pas le lieu lui-même ; le bail emphytéotique de 99 ans, qui serait opposable à un acquéreur, n'est pas publié pour ce lieu. Lecture « meilleur effort » (2026-10-01) : ce n'est pas le défaut de publication qui retient la porte, mais la faculté documentée du fonds de vendre un lieu à l'unanimité de son conseil."
     },
     "usage_ig": {
      "valeur": "oui",
@@ -1225,229 +1350,6 @@
     }
    ],
    "url": "https://libres.actitude.org/f/la-marinie/"
-  },
-  {
-   "uid": "hautes-planches-bretoncelles",
-   "nom": "Les Hautes-Planches",
-   "autres_noms": [
-    "Moulin de Haute Planche"
-   ],
-   "famille": "lieu_non_marchand",
-   "statut": "epreuve",
-   "portes_manquantes": [
-    "foncier_verrouille",
-    "etabli"
-   ],
-   "periode": "2008-",
-   "verrou_type": "par_propriete",
-   "localisation": {
-    "commune": "Bretoncelles",
-    "departement": "61",
-    "region": "Normandie",
-    "lat": 48.4388,
-    "lon": 0.9055
-   },
-   "debut": 2017,
-   "fin": null,
-   "resume": "Ancien moulin à Bretoncelles, dans le Perche ornais : lieu d'habitat, d'ateliers et d'activités culturelles, avec des espaces à prix libre accessibles à tous. L'association usagère Hautes Planches, déclarée en mai 2017, occupe et gère le lieu ; l'association Les Donnettes a acheté le corps principal du moulin en octobre 2017, puis une parcelle complémentaire par financement participatif. Montage CLIP : Les Donnettes n'a que deux membres, l'association usagère et le réseau CLIP, garant de la non-revente.",
-   "collectif": {
-    "nom": "Hautes Planches",
-    "forme": "association",
-    "annee": 2017
-   },
-   "foncier": {
-    "porteur": "Association Les Donnettes",
-    "porteur_forme": "association",
-    "surface_ha": null,
-    "titre_duree_ans": null
-   },
-   "portes": {
-    "forme_civile": {
-     "valeur": "oui",
-     "note": "Associations Hautes Planches (usagère), Les Donnettes (propriétaire) et CLIP."
-    },
-    "foncier_verrouille": {
-     "valeur": "partiel",
-     "note": "Le verrou tient au montage CLIP : l'association propriétaire n'a que deux membres, l'association usagère et le CLIP, qui détient « un droit de véto sur la revente ». Mais les statuts ne sont pas publiés : aucune clause d'inaliénabilité opposable aux tiers n'est vérifiée, et une association peut modifier ses statuts — la protection repose sur la composition des membres, pas sur un acte publié."
-    },
-    "usage_ig": {
-     "valeur": "oui",
-     "note": "Objet : « lieu collectif et solidaire » ; espaces à prix libre accessibles à tous."
-    },
-    "autogestion": {
-     "valeur": "oui",
-     "note": "Lieu membre d'un réseau de « lieux solidaires et autogérés » ; l'usagère est membre de la propriétaire."
-    },
-    "etabli": {
-     "valeur": "non",
-     "note": "Association usagère déclarée et achat en 2017 : neuf ans en 2026. Pas encore établi — normal pour un lieu récent."
-    }
-   },
-   "dimensions": {
-    "acces": "achat_collectif",
-    "titre": "inconnu",
-    "verrou": [
-     "veto_reseau"
-    ],
-    "gouvernance": "inconnu",
-    "economie": "inconnu",
-    "ouverture": "ouvert_public",
-    "finalite": [
-     "habitat",
-     "culture"
-    ],
-    "filiation": "inconnu",
-    "rapport_etat": "inconnu",
-    "echelle": "inconnu",
-    "transmission": "inconnu",
-    "etat": "actif",
-    "fin": null
-   },
-   "sources": [
-    {
-     "titre": "Les lieux",
-     "auteur": "CLIP — Réseau de lieux en propriété d'usage",
-     "annee": null,
-     "url": "https://clip.ouvaton.org/les-projets/"
-    },
-    {
-     "titre": "Qu'est-ce que le Clip ?",
-     "auteur": "CLIP — Réseau de lieux en propriété d'usage",
-     "annee": null,
-     "url": "https://clip.ouvaton.org/quest-ce-que-le-clip/"
-    },
-    {
-     "titre": "Hautes Planches (SIREN 834607483)",
-     "auteur": "Annuaire des entreprises",
-     "annee": null,
-     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/hautes-planches-834607483"
-    },
-    {
-     "titre": "Les Donnettes — collecte « Achat du Broc »",
-     "auteur": "Les Donnettes (HelloAsso)",
-     "annee": null,
-     "url": "https://www.helloasso.com/associations/les-donnettes/collectes/achat-du-broc"
-    },
-    {
-     "titre": "Associations de Bretoncelles",
-     "auteur": "Annuaire-mairie",
-     "annee": null,
-     "url": "https://www.annuaire-mairie.fr/association-bretoncelles.html"
-    }
-   ],
-   "url": "https://libres.actitude.org/f/hautes-planches-bretoncelles/"
-  },
-  {
-   "uid": "longo-mai-limans",
-   "nom": "Longo Maï — Grange Neuve (Limans)",
-   "autres_noms": [
-    "Longo Maï",
-    "Grange Neuve"
-   ],
-   "famille": "communaute_intentionnelle",
-   "statut": "epreuve",
-   "portes_manquantes": [
-    "forme_civile",
-    "foncier_verrouille"
-   ],
-   "periode": "1968-1989",
-   "verrou_type": "par_propriete",
-   "localisation": {
-    "commune": "Limans",
-    "departement": "04",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "lat": 43.9852,
-    "lon": 5.7311
-   },
-   "debut": 1973,
-   "fin": null,
-   "resume": "En 1973, de jeunes militants issus des groupes Spartakus (Autriche) et Hydra (Suisse) achètent par collecte un domaine d'environ 270 hectares à Limans, près de Forcalquier, avec les fermes de Grange-Neuve et du Pigeonnier : c'est la première coopérative du réseau Longo Maï. Une centaine de personnes y vivent sans salaire, les ressources étant mises en commun, et décident par consensus ; élevage, céréales, maraîchage, transformation, forêt et Radio Zinzine (1981) font vivre le lieu, avec une part importante de dons. Le réseau déclare détenir son foncier en propriété collective inaliénable par une fondation suisse, le Fonds de Terre Européenne. Le lieu a connu la répression d'État (refus de titres de séjour en 1973, opération de police en 1989).",
-   "collectif": {
-    "nom": "Coopérative Longo Maï de Limans (Association européenne Longo Maï)",
-    "forme": "association",
-    "annee": null
-   },
-   "foncier": {
-    "porteur": "Fonds de Terre Européenne (fondation de droit suisse), selon le réseau",
-    "porteur_forme": "fondation",
-    "surface_ha": 270,
-    "titre_duree_ans": null
-   },
-   "portes": {
-    "forme_civile": {
-     "valeur": "partiel",
-     "note": "Fondation (porteur) et association (collectif), mais le réseau emploie aussi des formes coopératives, GFA et EARL, sans ventilation publique par site."
-    },
-    "foncier_verrouille": {
-     "valeur": "partiel",
-     "note": "Inaliénabilité affirmée par le réseau, mais statuts de la fondation et acte liant Limans non publiés ; titre d'usage de la coopérative non documenté."
-    },
-    "usage_ig": {
-     "valeur": "oui",
-     "note": "Accueil, radio locale Radio Zinzine, solidarité internationale, sans rente."
-    },
-    "autogestion": {
-     "valeur": "oui",
-     "note": "Décisions par consensus des coopérants ; pas de propriétaire qui tranche."
-    },
-    "etabli": {
-     "valeur": "oui",
-     "note": "Usage continu depuis 1973."
-    }
-   },
-   "dimensions": {
-    "acces": "souscription",
-    "titre": "inconnu",
-    "verrou": [
-     "inalienabilite_statutaire"
-    ],
-    "gouvernance": "assemblee_consensus",
-    "economie": "caisse_commune",
-    "ouverture": "accueil_regulier",
-    "finalite": [
-     "agriculture",
-     "artisanat_production",
-     "culture",
-     "habitat"
-    ],
-    "filiation": [
-     "anarchisme",
-     "neo_ruralisme",
-     "autonomie"
-    ],
-    "rapport_etat": "conflit",
-    "echelle": "50_200",
-    "transmission": "generations_renouvelees",
-    "etat": "actif",
-    "fin": null
-   },
-   "sources": [
-    {
-     "titre": "Association Longo Maï",
-     "auteur": "Wikipédia",
-     "annee": null,
-     "url": "https://fr.wikipedia.org/wiki/Association_Longo_Ma%C3%AF"
-    },
-    {
-     "titre": "Longo Maï",
-     "auteur": "Coopérative Longo Maï La Cabrery",
-     "annee": null,
-     "url": "https://www.lacabrery.org/longo-mai/"
-    },
-    {
-     "titre": "L'exceptionnelle longévité de Longo Maï",
-     "auteur": "Martin Barbara, Coopérative Oasis",
-     "annee": 2025,
-     "url": "https://cooperative-oasis.org/articles/lexceptionnelle-longevite-de-longo-mai/"
-    },
-    {
-     "titre": "Pro Longo Maï",
-     "auteur": "Pro Longo Maï",
-     "annee": null,
-     "url": "https://www.prolongomaif.ch/"
-    }
-   ],
-   "url": "https://libres.actitude.org/f/longo-mai-limans/"
   },
   {
    "uid": "sctl-larzac",
@@ -1557,6 +1459,99 @@
     }
    ],
    "url": "https://libres.actitude.org/f/sctl-larzac/"
+  },
+  {
+   "uid": "59-rivoli",
+   "nom": "59 Rivoli",
+   "autres_noms": [
+    "squat KGB"
+   ],
+   "famille": "occupation_regularisee",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "autogestion"
+   ],
+   "periode": "1990-2007",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Paris",
+    "departement": "75",
+    "region": "Île-de-France",
+    "lat": 48.8566,
+    "lon": 2.3522
+   },
+   "debut": 1999,
+   "fin": null,
+   "resume": "Immeuble haussmannien de la rue de Rivoli à Paris, ancienne propriété du Crédit lyonnais vide depuis huit ans, occupé le 1er novembre 1999 par un collectif d'artistes. La Ville de Paris l'achète le 22 mai 2002 (4,57 M€) ; l'association est déclarée le 3 juin 2002. Après travaux, le lieu rouvre en novembre 2009 sous une convention d'occupation de 3 ans signée le 25 août 2009, prolongée par avenant en 2013. Une trentaine d'artistes y ont leur atelier contre une participation mensuelle ; l'entrée est libre pour des dizaines de milliers de visiteurs par an.",
+   "collectif": {
+    "nom": "Association 59 Rivoli",
+    "forme": "association",
+    "annee": 2002
+   },
+   "foncier": {
+    "porteur": "Ville de Paris",
+    "porteur_forme": "personne_publique",
+    "surface_ha": null,
+    "titre_duree_ans": 3
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Association 59 Rivoli et Ville de Paris propriétaire : aucun maillon commercial. Règle P1 (décision de Ced, 2026-10-01) : une personne publique propriétaire est admise au cas par cas, si le montage établit clairement un commun. Ici : la Ville garde la main sur l'usage (convention courte, intervention sur la sélection des résidents) — commun non clairement établi."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Convention d'occupation de 3 ans prolongée par avenant : titre court et révocable ; aucun titre long ni inaliénabilité."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Entrée libre et forte fréquentation publique ; participation des artistes de 130 €/mois, sans rente."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Gestion par les artistes (assemblées mensuelles), mais la Ville fixe le cadre par une convention courte et l'inspection générale a formulé des prescriptions sur la sélection des résidents."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Usage continu depuis 1999."
+    }
+   },
+   "dimensions": {
+    "acces": "occupation",
+    "titre": "convention",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "mixte",
+    "economie": "inconnu",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "culture"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "conventionnement",
+    "echelle": "10_50",
+    "transmission": "generations_renouvelees",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Rapport d'audit de l'association 59 Rivoli",
+     "auteur": "Inspection générale de la Ville de Paris",
+     "annee": 2012,
+     "url": "https://cdn.paris.fr/paris/2020/02/26/ff60b218a0c4a14f648ad2eceaf0261e.pdf"
+    },
+    {
+     "titre": "L'histoire du lieu",
+     "auteur": "59 Rivoli",
+     "annee": null,
+     "url": "https://59rivoli.org/__trashed-7__trashed/"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/59-rivoli/"
   },
   {
    "uid": "arche-borie-noble",
@@ -1670,113 +1665,6 @@
     }
    ],
    "url": "https://libres.actitude.org/f/arche-borie-noble/"
-  },
-  {
-   "uid": "domaine-du-rayol",
-   "nom": "Domaine du Rayol",
-   "autres_noms": [
-    "Jardin des Méditerranées"
-   ],
-   "famille": "lieu_non_marchand",
-   "statut": "epreuve",
-   "portes_manquantes": [
-    "foncier_verrouille",
-    "usage_ig",
-    "autogestion"
-   ],
-   "periode": "1968-1989",
-   "verrou_type": "par_propriete",
-   "localisation": {
-    "commune": "Rayol-Canadel-sur-Mer",
-    "departement": "83",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "lat": 43.1664,
-    "lon": 6.4744
-   },
-   "debut": 1989,
-   "fin": null,
-   "resume": "Domaine côtier des Maures au Rayol-Canadel-sur-Mer (Var), acquis en 1989 par le Conservatoire du littoral après une mobilisation locale contre un projet d'urbanisation. La gestion est confiée par convention à l'Association du Domaine du Rayol (ADORA), déclarée en septembre 1989, qui emploie une trentaine de salariés permanents. Le site, dont le Jardin des Méditerranées, est ouvert au public tous les jours, avec une entrée payante. Épreuve de référence : foncier public inaliénable, mais gestion déléguée à un établissement associatif salarié, sans collectif d'usagers souverain.",
-   "collectif": {
-    "nom": "Association du Domaine du Rayol (ADORA)",
-    "forme": "association",
-    "annee": 1989
-   },
-   "foncier": {
-    "porteur": "Conservatoire de l'espace littoral et des rivages lacustres",
-    "porteur_forme": "personne_publique",
-    "surface_ha": 20,
-    "titre_duree_ans": null
-   },
-   "portes": {
-    "forme_civile": {
-     "valeur": "oui",
-     "note": "Propriétaire : Conservatoire du littoral, personne publique ; gestionnaire : association loi 1901 (ADORA). Aucun maillon commercial documenté dans la chaîne foncier-usage."
-    },
-    "foncier_verrouille": {
-     "valeur": "partiel",
-     "note": "Le terrain est sorti du marché par la propriété du Conservatoire du littoral ; mais le titre de l'association est une convention de gestion dont la durée n'est pas publiée, sans garantie d'usage de 30 ans."
-    },
-    "usage_ig": {
-     "valeur": "partiel",
-     "note": "Ouverture au public toute l'année et protection d'un milieu, mais accès payant et activités commerciales annexes (restaurant, librairie, pépinière)."
-    },
-    "autogestion": {
-     "valeur": "non",
-     "note": "Établissement associatif à direction salariée et conseil élu, gestionnaire délégué d'un propriétaire public qui fixe le cadre par convention : pas d'assemblée d'usagers souveraine sur l'usage."
-    },
-    "etabli": {
-     "valeur": "oui",
-     "note": "Gestion associative continue depuis 1989."
-    }
-   },
-   "dimensions": {
-    "acces": "bail_public",
-    "titre": "convention",
-    "verrou": [
-     "domanialite_publique"
-    ],
-    "gouvernance": "conseil_delegue",
-    "economie": "salariat_structure",
-    "ouverture": "ouvert_public",
-    "finalite": [
-     "milieu_vivant",
-     "culture",
-     "education_populaire"
-    ],
-    "filiation": "inconnu",
-    "rapport_etat": "conventionnement",
-    "echelle": "10_50",
-    "transmission": "generations_renouvelees",
-    "etat": "actif",
-    "fin": null
-   },
-   "sources": [
-    {
-     "titre": "Domaine du Rayol (83, Var)",
-     "auteur": "Conservatoire du littoral",
-     "annee": null,
-     "url": "https://www.conservatoire-du-littoral.fr/siteLittoral/202/28-domaine-du-rayol-83_var.htm"
-    },
-    {
-     "titre": "Les équipes — L'Association du Domaine du Rayol",
-     "auteur": "Domaine du Rayol",
-     "annee": null,
-     "url": "https://www.domainedurayol.org/en/le-domaine/lassociation-du-domaine-du-rayol/les-equipes/"
-    },
-    {
-     "titre": "Domaine du Rayol — site officiel",
-     "auteur": "Association du Domaine du Rayol",
-     "annee": null,
-     "url": "https://www.domainedurayol.org/"
-    },
-    {
-     "titre": "ASS DU DOMAINE DU RAYOL (ADORA) (SIREN 352262653)",
-     "auteur": "Annuaire des entreprises (État)",
-     "annee": 2026,
-     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/ass-du-domaine-du-rayol-adora-352262653"
-    }
-   ],
-   "url": "https://libres.actitude.org/f/domaine-du-rayol/"
   },
   {
    "uid": "ferme-de-lachaud",
@@ -1935,7 +1823,7 @@
     },
     "foncier_verrouille": {
      "valeur": "partiel",
-     "note": "Propriété transférée en novembre 2024. Aucune clause d'inaliénabilité publiée dans les statuts du fonds : selon Silence (2023), Antidote « peut vendre un lieu à l'unanimité de son conseil d'administration » (trois administrateur·rices nommé·es par Les Passagères de l'usage). La dévolution de l'actif net d'un fonds de dotation dissous à un autre fonds ou à une fondation RUP est légale (loi 2008, art. 140) mais ne verrouille pas le lieu lui-même ; le bail emphytéotique de 99 ans, qui serait opposable à un acquéreur, n'est pas publié pour ce lieu."
+     "note": "Propriété transférée en novembre 2024. Aucune clause d'inaliénabilité publiée dans les statuts du fonds : selon Silence (2023), Antidote « peut vendre un lieu à l'unanimité de son conseil d'administration » (trois administrateur·rices nommé·es par Les Passagères de l'usage). La dévolution de l'actif net d'un fonds de dotation dissous à un autre fonds ou à une fondation RUP est légale (loi 2008, art. 140) mais ne verrouille pas le lieu lui-même ; le bail emphytéotique de 99 ans, qui serait opposable à un acquéreur, n'est pas publié pour ce lieu. Lecture « meilleur effort » (2026-10-01) : ce n'est pas le défaut de publication qui retient la porte, mais la faculté documentée du fonds de vendre un lieu à l'unanimité de son conseil."
     },
     "usage_ig": {
      "valeur": "partiel",
@@ -2869,6 +2757,114 @@
     }
    ],
    "url": "https://libres.actitude.org/f/boimondau/"
+  },
+  {
+   "uid": "domaine-du-rayol",
+   "nom": "Domaine du Rayol",
+   "autres_noms": [
+    "Jardin des Méditerranées"
+   ],
+   "famille": "lieu_non_marchand",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion"
+   ],
+   "periode": "1968-1989",
+   "verrou_type": "par_propriete",
+   "localisation": {
+    "commune": "Rayol-Canadel-sur-Mer",
+    "departement": "83",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "lat": 43.1664,
+    "lon": 6.4744
+   },
+   "debut": 1989,
+   "fin": null,
+   "resume": "Domaine côtier des Maures au Rayol-Canadel-sur-Mer (Var), acquis en 1989 par le Conservatoire du littoral après une mobilisation locale contre un projet d'urbanisation. La gestion est confiée par convention à l'Association du Domaine du Rayol (ADORA), déclarée en septembre 1989, qui emploie une trentaine de salariés permanents. Le site, dont le Jardin des Méditerranées, est ouvert au public tous les jours, avec une entrée payante. Épreuve de référence : foncier public inaliénable, mais gestion déléguée à un établissement associatif salarié, sans collectif d'usagers souverain.",
+   "collectif": {
+    "nom": "Association du Domaine du Rayol (ADORA)",
+    "forme": "association",
+    "annee": 1989
+   },
+   "foncier": {
+    "porteur": "Conservatoire de l'espace littoral et des rivages lacustres",
+    "porteur_forme": "personne_publique",
+    "surface_ha": 20,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Propriétaire : Conservatoire du littoral, personne publique ; gestionnaire : association loi 1901 (ADORA). Aucun maillon commercial documenté dans la chaîne foncier-usage. Règle P1 (décision de Ced, 2026-10-01) : une personne publique propriétaire est admise au cas par cas, si le montage établit clairement un commun. Ici : gestion déléguée à une association salariée sous convention, entrée payante — commun non clairement établi."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Le terrain est sorti du marché par la propriété du Conservatoire du littoral ; mais le titre de l'association est une convention de gestion dont la durée n'est pas publiée, sans garantie d'usage de 30 ans."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Ouverture au public toute l'année et protection d'un milieu, mais accès payant et activités commerciales annexes (restaurant, librairie, pépinière)."
+    },
+    "autogestion": {
+     "valeur": "non",
+     "note": "Établissement associatif à direction salariée et conseil élu, gestionnaire délégué d'un propriétaire public qui fixe le cadre par convention : pas d'assemblée d'usagers souveraine sur l'usage."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Gestion associative continue depuis 1989."
+    }
+   },
+   "dimensions": {
+    "acces": "bail_public",
+    "titre": "convention",
+    "verrou": [
+     "domanialite_publique"
+    ],
+    "gouvernance": "conseil_delegue",
+    "economie": "salariat_structure",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "milieu_vivant",
+     "culture",
+     "education_populaire"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "conventionnement",
+    "echelle": "10_50",
+    "transmission": "generations_renouvelees",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Domaine du Rayol (83, Var)",
+     "auteur": "Conservatoire du littoral",
+     "annee": null,
+     "url": "https://www.conservatoire-du-littoral.fr/siteLittoral/202/28-domaine-du-rayol-83_var.htm"
+    },
+    {
+     "titre": "Les équipes — L'Association du Domaine du Rayol",
+     "auteur": "Domaine du Rayol",
+     "annee": null,
+     "url": "https://www.domainedurayol.org/en/le-domaine/lassociation-du-domaine-du-rayol/les-equipes/"
+    },
+    {
+     "titre": "Domaine du Rayol — site officiel",
+     "auteur": "Association du Domaine du Rayol",
+     "annee": null,
+     "url": "https://www.domainedurayol.org/"
+    },
+    {
+     "titre": "ASS DU DOMAINE DU RAYOL (ADORA) (SIREN 352262653)",
+     "auteur": "Annuaire des entreprises (État)",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/ass-du-domaine-du-rayol-adora-352262653"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/domaine-du-rayol/"
   },
   {
    "uid": "familistere-de-guise",

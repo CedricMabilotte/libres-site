@@ -1,6 +1,6 @@
 # Cadre de description — libres.actitude.org
 
-Version 0.1 — 2026-09-30. Source de vérité des clés, des portes et des dimensions.
+Version 0.1.1 — 2026-10-01 (P1 et P2 précisées par Ced). Source de vérité des clés, des portes et des dimensions.
 Toute valeur hors de ce cadre fait échouer le générateur.
 
 ## 0. Objet
@@ -19,8 +19,8 @@ avec la porte où il s'arrête. Le statut se **calcule**, il ne se saisit jamais
 
 | Porte | Clé | Question | `oui` si |
 |---|---|---|---|
-| P1 | `forme_civile` | Toute la chaîne est-elle de droit civil non lucratif ? | Le collectif et le porteur du foncier sont une association (1901, 1908 en Alsace-Moselle), un fonds de dotation, une fondation, une personne publique, ou un collectif de fait. Aucun maillon commercial ou coopératif (SCIC, SAS, SA, SCA, SCOP, coopérative d'habitants), aucune société à parts cessibles. |
-| P2 | `foncier_verrouille` | Le foncier est-il sorti du marché de façon opposable ? | Inaliénabilité inscrite (statuts, acte, domanialité publique) ou dévolution désintéressée verrouillée ; titre d'usage long (≥ 30 ans) ou intégré. Une simple promesse, une mise à disposition gracieuse non écrite ou une propriété privée « bienveillante » ne suffisent pas. |
+| P1 | `forme_civile` | Toute la chaîne est-elle de droit civil non lucratif ? | Le collectif et le porteur du foncier sont une association (1901, 1908 en Alsace-Moselle), un fonds de dotation, une fondation ou un collectif de fait ; une personne publique propriétaire est admise au cas par cas, si le montage établit clairement un commun (sinon `partiel`). Aucun maillon commercial ou coopératif (SCIC, SAS, SA, SCA, SCOP, coopérative d'habitants), aucune société à parts cessibles. |
+| P2 | `foncier_verrouille` | Le foncier est-il sorti du marché de façon opposable ? | Inaliénabilité, veto de réseau, dévolution désintéressée verrouillée ou titre d'usage d'au moins 30 ans, **établis au meilleur effort documentaire** (sources concordantes, acte publié non exigé). Une faculté documentée de vendre, une promesse, une mise à disposition gracieuse non écrite ou une propriété privée « bienveillante » ne suffisent pas. |
 | P3 | `usage_ig` | L'usage est-il non marchand et ouvert au-delà du cercle restreint ? | Pas de rente, pas de loyer spéculatif, activité tournée vers un public ou un territoire (accueil, éducation populaire, soin, culture, lutte, milieu). Un entre-soi, même non lucratif, ne suffit pas. |
 | P4 | `autogestion` | Les usagers décident-ils eux-mêmes ? | Assemblée des usagers souveraine sur l'usage ; pas de fondateur, de propriétaire ou de financeur qui tranche seul. |
 | P5 | `etabli` | Le collectif s'est-il établi ? | Au moins dix ans d'usage continu sur le lieu (ou jusqu'à sa fin, si elle survient après dix ans). |

@@ -83,8 +83,8 @@ dimensions:
     valeur: null
 portes:
   forme_civile:
-    valeur: oui
-    note: 'Association 59 Rivoli et Ville de Paris propriétaire : aucun maillon commercial.'
+    valeur: partiel
+    note: 'Association 59 Rivoli et Ville de Paris propriétaire : aucun maillon commercial. Règle P1 (décision de Ced, 2026-10-01) : une personne publique propriétaire est admise au cas par cas, si le montage établit clairement un commun. Ici : la Ville garde la main sur l''usage (convention courte, intervention sur la sélection des résidents) — commun non clairement établi.'
     source: 1
   foncier_verrouille:
     valeur: non

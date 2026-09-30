@@ -87,8 +87,7 @@ dimensions:
 portes:
   forme_civile:
     valeur: oui
-    note: Collectif de fait sur un terrain de la Ville de Dijon ; association annoncée pour signer la
-      convention.
+    note: 'Collectif de fait sur un terrain de la Ville de Dijon ; association annoncée pour signer la convention. Règle P1 (décision de Ced, 2026-10-01) : une personne publique propriétaire est admise au cas par cas, si le montage établit clairement un commun. Ici : terres cultivées en assemblées depuis 2010, régularisation négociée par la Ville — commun établi dans l''usage.'
     source: 2
   foncier_verrouille:
     valeur: non

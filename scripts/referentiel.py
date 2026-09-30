@@ -59,7 +59,7 @@ FORMES = {"association": "Association", "collectif_de_fait": "Collectif de fait"
           "congregation": "Congrégation", "aucune": "Aucune", "inconnu": "Non établie", None: "Non établie"}
 STATUTS = {
     "corpus": ("Corpus", "Franchit les cinq portes."),
-    "corpus_sous_condition": ("Corpus sous condition", "Franchit les cinq portes grâce à un verrou par titre (bail consenti par le propriétaire), dont l'opposabilité ou la tenue reste à confirmer."),
+    "corpus_sous_condition": ("Corpus sous condition", "Franchit les cinq portes grâce à un verrou par titre : un bail long consenti par un propriétaire qui reste libre de vendre le fonds. Le lieu tient tant que le bail court."),
     "seuil": ("Au seuil", "Une seule porte manque."),
     "epreuve": ("Épreuve", "Instruit et publié ; au moins deux portes manquent."),
 }

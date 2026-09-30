@@ -1,17 +1,17 @@
 # Lectures des prismes croisés — v0.1, 2026-09-30. Chiffres tirés d'analyses/analyses.json (scripts/analyser.py).
 lectures:
   - titre: "La forme civile va avec l'autogestion"
-    chiffre: "P1 × P4 · V = 0,60 · p < 0,001 · n = 37"
+    chiffre: "P1 × P4 · V = 0,74 · p < 0,001 · n = 37"
     texte: |
-      Sur les 13 chaînes entièrement civiles, 11 sont autogérées. Sur les 24 chaînes qui ne franchissent pas pleinement la forme civile, 5 seulement le sont. Le maillon sociétaire n'est pas qu'un détail de montage : là où il entre, la décision passe presque toujours ailleurs que dans l'assemblée des usagers (un conseil, un gérant, des associés extérieurs).
-  - titre: "Le lieu culturel franchit le droit, la terre agricole casse sur le maillon sociétaire"
-    chiffre: "Culture × P1 · V = 0,67 · n = 40 — Agriculture × P1 · V = 0,34 · n = 40"
+      Les onze chaînes entièrement civiles sont toutes autogérées. Sur les vingt-six chaînes qui ne franchissent pas pleinement la forme civile, cinq seulement le sont. Le maillon sociétaire n'est pas qu'un détail de montage : là où il entre, la décision passe presque toujours ailleurs que dans l'assemblée des usagers (un conseil, un gérant, des associés extérieurs).
+  - titre: "Le lieu culturel franchit le droit plus souvent que la ferme"
+    chiffre: "Culture × P1 · V = 0,55 · n = 40 — Culture × statut · V = 0,63 · n = 40"
     texte: |
-      Onze des treize lieux à finalité culturelle ont une chaîne civile ; quatre des treize lieux agricoles seulement. La ferme a besoin d'un exploitant, et l'exploitant prend presque toujours une forme de société (GAEC, EARL, SCEA, SCIC) : c'est là que Terre de Liens, Villarceaux ou Lachaud s'arrêtent. Les six cas du corpus et du seuil ont tous une finalité culturelle ; un seul, le Berquet, est aussi une ferme, et elle est tenue par l'association usagère, sans société d'exploitation établie par les sources.
-  - titre: "Aucune communauté intentionnelle n'approche du corpus"
-    chiffre: "Famille × statut · V = 0,37 · p = 0,035 · n = 41"
+      Neuf des onze lieux à finalité culturelle ont une chaîne civile ; quatre des onze lieux agricoles seulement, un écart qui n'est pas statistiquement net sur ce corpus. La ferme a souvent besoin d'un exploitant, et l'exploitant prend presque toujours une forme de société (GAEC, EARL, SCEA, SCIC) : c'est là que Terre de Liens, Villarceaux ou Lachaud s'arrêtent. Les huit cas du corpus et du seuil ont tous une finalité culturelle ; deux seulement, le Berquet et Longo Maï, sont aussi des fermes.
+  - titre: "Les communautés intentionnelles restent loin, les occupations régularisées s'approchent"
+    chiffre: "Famille × statut · n = 41 · lecture descriptive (p = 0,15)"
     texte: |
-      Les quinze communautés intentionnelles instruites, du phalanstère de Condé à l'Arche et à Longo Maï, sont toutes des épreuves ; aucune ne franchit la forme civile. Les occupations régularisées font l'inverse : trois sur six sont au corpus ou au seuil. Le lieu conquis puis négocié avec une collectivité se retrouve plus près du commun civil que le lieu fondé pour vivre ensemble.
+      Sur quinze communautés intentionnelles instruites, du phalanstère de Condé à l'Arche, une seule approche : Longo Maï, au seuil, arrêtée par la forme civile de son réseau. Les occupations régularisées font l'inverse : trois sur six sont au corpus ou au seuil. Le lieu conquis puis négocié avec une collectivité se retrouve plus près du commun civil que le lieu fondé pour vivre ensemble.
   - titre: "Ce qui a disparu n'avait pas de verrou"
     chiffre: "État × absence de verrou · V = 0,51 · p = 0,004 · n = 36"
     texte: |
@@ -19,7 +19,7 @@ lectures:
   - titre: "Le verrou est une affaire récente"
     chiffre: "Période × type de verrou · n = 39 · tableau creux, lecture descriptive"
     texte: |
-      Avant 1968, un seul cas sur douze a un verrou établi. Depuis 2008, huit sur seize en ont un, dont six par la propriété (fonds de dotation, veto du réseau CLIP, dévolution). L'outil existe désormais ; ce qui manque encore, c'est sa publication : aucun de ces verrous récents n'est inscrit dans un acte publié et opposable.
+      Avant 1968, un seul cas sur douze a un verrou établi. Depuis 2008, huit sur seize en ont un, dont six par la propriété (fonds de dotation, veto du réseau CLIP, dévolution). L'outil existe désormais ; ce qui manque encore, c'est sa publication : ces verrous récents sont établis par des sources concordantes, aucun par un acte publié et opposable.
   - titre: "Le lieu acheté par un fondateur part avec lui"
     chiffre: "Accès × état · n = 33 — Transmission × état · n = 19 · lectures fragiles"
     texte: |

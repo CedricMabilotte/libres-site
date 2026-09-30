@@ -15,3 +15,12 @@
 - P2 : un bail emphytéotique ≥ 30 ans suffit (verrou par titre) → statut distinct « corpus sous condition ».
 - Pas de UUID v7 sur les fiches (données, pas bulles) ; uid = nom de fichier (convention Communs/Communautés).
 - Hébergement GitHub Pages + CNAME Gandi (audit @neo).
+
+## 2026-10-01 — arbitrages de Ced
+| # | Décision |
+|---|---|
+| 8 | P1 : une personne publique propriétaire est admise **au cas par cas, si le montage établit clairement un commun** → La Chapelle, Tanneries, Lentillères `oui` ; 59 Rivoli et Domaine du Rayol `partiel` (la collectivité garde la main sur l'usage). |
+| 9 | P2 : **pas de preuve de publication exigée** ; lecture « au meilleur effort documentaire » pour établir les études de cas → La Déviation, Manifesten, Hautes-Planches, Longo Maï `oui` (verrou établi par sources concordantes) ; lieux Antidote restent `partiel` (faculté documentée de vendre). |
+| 10 | Champ `site` de @igor dans registry.yaml : **oui**, ajouter libres.actitude.org. |
+| 11 | Ligne vox libres : **pas encore** (reste inactive). |
+Résultat : 3 au corpus (dont 1 sous condition), 5 au seuil, 33 épreuves.

@@ -88,10 +88,8 @@ portes:
     note: Associations New Al Dante (propriétaire) et Manifesten (usagère), réseau CLIP associatif.
     source: 3
   foncier_verrouille:
-    valeur: partiel
-    note: '« Clause d''incessibilité » annoncée et garantie CLIP, mais texte non publié. Une clause d''inaliénabilité
-      perpétuelle est fragile en droit français (la jurisprudence l''exige temporaire et justifiée par un intérêt
-      sérieux et légitime) : le verrou tient surtout au veto du CLIP.'
+    valeur: oui
+    note: '« Clause d''incessibilité » annoncée et garantie CLIP, mais texte non publié. Une clause d''inaliénabilité perpétuelle est fragile en droit français (la jurisprudence l''exige temporaire et justifiée par un intérêt sérieux et légitime) : le verrou tient surtout au veto du CLIP. Règle P2 « meilleur effort documentaire » (décision de Ced, 2026-10-01) : le verrou est établi par des sources concordantes, même sans acte publié. Veto du réseau CLIP sur la revente, objet anti-revente de l''association propriétaire.'
     source: 3
   usage_ig:
     valeur: oui

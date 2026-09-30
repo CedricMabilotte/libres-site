@@ -85,9 +85,8 @@ dimensions:
     valeur: null
 portes:
   forme_civile:
-    valeur: oui
-    note: 'Propriétaire : Conservatoire du littoral, personne publique ; gestionnaire : association loi
-      1901 (ADORA). Aucun maillon commercial documenté dans la chaîne foncier-usage.'
+    valeur: partiel
+    note: 'Propriétaire : Conservatoire du littoral, personne publique ; gestionnaire : association loi 1901 (ADORA). Aucun maillon commercial documenté dans la chaîne foncier-usage. Règle P1 (décision de Ced, 2026-10-01) : une personne publique propriétaire est admise au cas par cas, si le montage établit clairement un commun. Ici : gestion déléguée à une association salariée sous convention, entrée payante — commun non clairement établi.'
     source: 1
   foncier_verrouille:
     valeur: partiel

@@ -12,30 +12,57 @@ faces:
     Deux mécanismes. D'abord, la « clause d'incessibilité » n'est pas publiée, et une inaliénabilité perpétuelle tient mal en droit français : tout repose sur le veto du CLIP. Ensuite, un levier qui vise l'activité plutôt que le foncier : un café-bar s'expose à une fermeture administrative ; selon un compte rendu de 2022 non revérifié, le collectif en a déjà combattu une en justice. Précédent : La Bellevilloise, maison du peuple portée par une activité commerciale qui a fini par l'emporter (faillite de 1936).
   ferme-du-berquet: |
     Mécanisme : garde foncière déléguée. Depuis la donation de novembre 2024, le fonds Antidote est propriétaire. Selon Silence (2023), son conseil de trois personnes peut vendre un lieu à l'unanimité. La dévolution légale protège les biens du fonds, pas ce lieu précis, et le bail de 99 ans n'est pas publié. L'usager a cédé la propriété sans recevoir d'acte opposable en retour. Précédent : Villarceaux, où la fondation propriétaire fixe la charte, accorde un usage gratuit limité dans le temps, et a annoncé en 2020 vendre la partie du site rendue par la Région.
+  hautes-planches-bretoncelles: |
+    Mécanisme : un verrou qui tient à la composition de l'association propriétaire, et qui repose sur une dette. Les Donnettes n'a que deux membres, l'association usagère et le CLIP, qui détient le veto sur la revente ; ses statuts, non publiés, restent modifiables. L'achat de 2017 repose sur un emprunt remboursé par les loyers de l'usagère, dont on ne connaît pas le titre. Si ces loyers manquent, la propriétaire porte le défaut, et aucune dévolution n'est documentée. Précédent : la colonie de Bascon, dont le domaine a été vendu à la dissolution de la coopérative (1931).
+  longo-mai-limans: |
+    Mécanisme : la garde du foncier est confiée à une fondation de droit suisse. Seul le réseau affirme l'inaliénabilité. Aucun acte publié ne relie Limans à la fondation ni ne fixe le titre de la coopérative, et les sources divergent sur la fondation propriétaire (Fonds de Terre Européenne ou Pro Longo Maï). Second canal, hypothétique : les formes GFA, EARL ou coopérative, sans détail publié site par site, pourraient placer une société entre la fondation et les usagers. Précédent : Villarceaux, où une fondation suisse accorde à une EARL un usage gratuit de 25 ans.
 mecanismes:
-  - cle: maillon_intercale
-    nom: Maillon sociétaire intercalé
-    description: "Le propriétaire et l'usager sont de droit civil, mais une société est placée entre eux : preneur du bail long, bailleur ou associé commercial. Le titre fort revient à l'intermédiaire ; l'usager n'a qu'une sous-location."
-    exemples: [l-aube, ecolectif, cun-du-larzac]
-  - cle: societariat_financeur
-    nom: Sociétariat financeur
-    description: "Des épargnants extérieurs deviennent associés du propriétaire par des apports remboursables. L'assemblée qui détient le lieu déborde le cercle des usagers ; le bien reste engagé par la dette pendant des décennies."
-    exemples: [oasis-coq-a-lame, hameau-des-buis]
-  - cle: propriete_bienveillante
-    nom: Propriété bienveillante révocable
-    description: "Un fondateur, une fondation ou un bailleur privé prête ou loue sans verrou. Il fixe les conditions, garde la décision et reprend le lieu à l'échéance ou à son départ."
-    exemples: [villarceaux, milieu-libre-de-vaux, la-ruche-rambouillet]
-  - cle: convention_precaire
-    nom: Municipalisation par convention précaire
-    description: "Le propriétaire public régularise par une convention courte ou une délégation de gestion. Il garde le cadre, le calendrier et le contrôle de l'objet ; l'usage se professionnalise ou reste révocable."
-    exemples: [59-rivoli, domaine-du-rayol, zad-notre-dame-des-landes]
-  - cle: liquidation
-    nom: Vente à la faillite ou à la dissolution
-    description: "La structure qui porte le foncier supporte un risque d'exploitation ou bancaire. Quand elle cesse ses paiements ou se dissout, le lieu est vendu, faute de dévolution qui le tienne hors du marché."
-    exemples: [boimondau, la-bellevilloise, colonie-de-bascon]
-  - cle: patrimonialisation
-    nom: Conversion en patrimoine cessible
-    description: "Les droits d'usage deviennent des parts, des actions, un bien héréditaire ou une copropriété. Le commun se referme sur ses détenteurs, puis se vend."
-    exemples: [familistere-de-guise, colonie-conde-sur-vesgre, terre-liberee-luynes]
+- cle: maillon_intercale
+  nom: Maillon sociétaire intercalé
+  description: |-
+    Le propriétaire et l'usager sont de droit civil, mais une société est placée entre eux : preneur du bail long, bailleur ou associé commercial. Le titre fort revient à l'intermédiaire ; l'usager n'a qu'une sous-location.
+  exemples:
+  - l-aube
+  - ecolectif
+  - cun-du-larzac
+- cle: societariat_financeur
+  nom: Sociétariat financeur
+  description: |-
+    Des épargnants extérieurs deviennent associés du propriétaire par des apports remboursables. L'assemblée qui détient le lieu déborde le cercle des usagers ; le bien reste engagé par la dette pendant des décennies.
+  exemples:
+  - oasis-coq-a-lame
+  - hameau-des-buis
+- cle: propriete_bienveillante
+  nom: Propriété bienveillante révocable
+  description: |-
+    Un fondateur, une fondation ou un bailleur privé prête ou loue sans verrou. Il fixe les conditions, garde la décision et reprend le lieu à l'échéance ou à son départ.
+  exemples:
+  - villarceaux
+  - milieu-libre-de-vaux
+  - la-ruche-rambouillet
+- cle: convention_precaire
+  nom: Municipalisation par convention précaire
+  description: |-
+    Le propriétaire public régularise par une convention courte ou une délégation de gestion. Il garde le cadre, le calendrier et le contrôle de l'objet ; l'usage se professionnalise ou reste révocable.
+  exemples:
+  - 59-rivoli
+  - domaine-du-rayol
+  - zad-notre-dame-des-landes
+- cle: liquidation
+  nom: Vente à la faillite ou à la dissolution
+  description: |-
+    La structure qui porte le foncier supporte un risque d'exploitation ou bancaire. Quand elle cesse ses paiements ou se dissout, le lieu est vendu, faute de dévolution qui le tienne hors du marché.
+  exemples:
+  - boimondau
+  - la-bellevilloise
+  - colonie-de-bascon
+- cle: patrimonialisation
+  nom: Conversion en patrimoine cessible
+  description: |-
+    Les droits d'usage deviennent des parts, des actions, un bien héréditaire ou une copropriété. Le commun se referme sur ses détenteurs, puis se vend.
+  exemples:
+  - familistere-de-guise
+  - colonie-conde-sur-vesgre
+  - terre-liberee-luynes
 transversal: |
-  Le corpus montre deux âges de la capture. Jusqu'en 1971, elle passe par les comptes : sociétés à parts, dettes, liquidation, droits d'usage convertis en titres (Familistère, Bellevilloise, Boimondau). Depuis les années 1990, elle passe par le titre : conventions courtes, baux de moins de 30 ans, veto d'un réseau, conseils restreints de fonds. Les cinq cas au seuil n'ont aucun maillon commercial. Leur verrou repose sur une relation (une majorité municipale, la composition d'une association, trois administrateurs), pas sur un acte publié et opposable. Le seul cas qui franchit les cinq portes le doit à un bail public de 40 ans ; or c'est l'objet de ce bail que le propriétaire conteste aujourd'hui, au nom de l'intérêt général. Le conflit se déplace du foncier vers la définition : celui qui décide de ce qu'est un usage d'intérêt général tient le lieu. Limite : les statuts du CLIP et d'Antidote, et plusieurs baux, ne sont pas publiés ; ces lectures restent conditionnelles.
+  Lecture du 30 septembre, sous la règle P2 stricte (une seule entrée au corpus). Le corpus montre deux âges de la capture. Jusqu'en 1971, elle passe par les comptes : sociétés à parts, dettes, liquidation, droits d'usage convertis en titres (Familistère, Bellevilloise, Boimondau). Depuis les années 1990, elle passe par le titre : conventions courtes, baux de moins de 30 ans, veto d'un réseau, conseils restreints de fonds. Les cinq cas au seuil n'ont aucun maillon commercial. Leur verrou repose sur une relation (une majorité municipale, la composition d'une association, trois administrateurs), pas sur un acte publié et opposable. Le seul cas qui franchit les cinq portes le doit à un bail public de 40 ans ; or c'est l'objet de ce bail que le propriétaire conteste aujourd'hui, au nom de l'intérêt général. Le conflit se déplace du foncier vers la définition : celui qui décide de ce qu'est un usage d'intérêt général tient le lieu. Limite : les statuts du CLIP et d'Antidote, et plusieurs baux, ne sont pas publiés ; ces lectures restent conditionnelles.

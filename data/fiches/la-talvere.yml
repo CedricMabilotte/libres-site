@@ -85,12 +85,7 @@ portes:
     source: 2
   foncier_verrouille:
     valeur: partiel
-    note: 'Date du transfert au fonds non publiée (Silence 2023 : l''association « transmettra la propriété » une
-      fois les prêts remboursés). Aucune clause d''inaliénabilité publiée dans les statuts du fonds : selon Silence
-      (2023), Antidote « peut vendre un lieu à l''unanimité de son conseil d''administration » (trois administrateur·rices
-      nommé·es par Les Passagères de l''usage). La dévolution de l''actif net d''un fonds de dotation dissous à
-      un autre fonds ou à une fondation RUP est légale (loi 2008, art. 140) mais ne verrouille pas le lieu lui-même
-      ; le bail emphytéotique de 99 ans, qui serait opposable à un acquéreur, n''est pas publié pour ce lieu.'
+    note: 'Date du transfert au fonds non publiée (Silence 2023 : l''association « transmettra la propriété » une fois les prêts remboursés). Aucune clause d''inaliénabilité publiée dans les statuts du fonds : selon Silence (2023), Antidote « peut vendre un lieu à l''unanimité de son conseil d''administration » (trois administrateur·rices nommé·es par Les Passagères de l''usage). La dévolution de l''actif net d''un fonds de dotation dissous à un autre fonds ou à une fondation RUP est légale (loi 2008, art. 140) mais ne verrouille pas le lieu lui-même ; le bail emphytéotique de 99 ans, qui serait opposable à un acquéreur, n''est pas publié pour ce lieu. Lecture « meilleur effort » (2026-10-01) : ce n''est pas le défaut de publication qui retient la porte, mais la faculté documentée du fonds de vendre un lieu à l''unanimité de son conseil.'
     source: 3
   usage_ig:
     valeur: oui

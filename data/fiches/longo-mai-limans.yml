@@ -97,9 +97,8 @@ portes:
       GFA et EARL, sans ventilation publique par site.
     source: 1
   foncier_verrouille:
-    valeur: partiel
-    note: Inaliénabilité affirmée par le réseau, mais statuts de la fondation et acte liant Limans non
-      publiés ; titre d'usage de la coopérative non documenté.
+    valeur: oui
+    note: 'Inaliénabilité affirmée par le réseau, mais statuts de la fondation et acte liant Limans non publiés ; titre d''usage de la coopérative non documenté. Règle P2 « meilleur effort documentaire » (décision de Ced, 2026-10-01) : le verrou est établi par des sources concordantes, même sans acte publié. Inaliénabilité portée par la fondation propriétaire, affirmée par le réseau.'
     source: 2
   usage_ig:
     valeur: oui

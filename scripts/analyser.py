@@ -130,8 +130,8 @@ acm = {
 # portes, sensibilité, entonnoir
 portes = {code: Counter(((d.get("portes") or {}).get(k) or {}).get("valeur", "inconnu") for d in fiches) for k, code, _, _ in R.PORTES}
 sens = {}
-for var, lib in [(None, "Cadre strict (publié)"), ("p1_souple", "P1 : une forme partiellement civile suffit"),
-                 ("p2_titre_annonce", "P2 : un verrou annoncé mais non publié suffit"), ("p5_cinq_ans", "P5 : cinq ans d'usage suffisent"),
+for var, lib in [(None, "Cadre publié (P2 au meilleur effort documentaire)"), ("p1_souple", "P1 : une forme partiellement civile suffit"),
+                 ("p2_titre_annonce", "P2 : tout verrou partiel vaut franchi"), ("p5_cinq_ans", "P5 : cinq ans d'usage suffisent"),
                  ("partiel_vaut_oui", "Toute porte partielle vaut franchie")]:
     c = Counter(R.calcul(d, var)[0] for d in fiches)
     sens[var or "strict"] = {"libelle": lib, **{k: c.get(k, 0) for k in R.STATUTS},

@@ -205,11 +205,11 @@ corps = f"""<p class="sur">Version {VERSION} · {nb} cas instruits · 1789–202
 <h1>Les collectifs qui ont voulu tenir un lieu en commun, et ce qui leur a manqué</h1>
 <p class="chapeau">libres documente les collectifs autogérés qui se sont installés sur un lieu en France depuis la Révolution pour le tenir hors du marché, en droit civil et pour l'intérêt général. Chaque cas passe cinq portes. Celles qu'il ne franchit pas sont publiées avec lui.</p>
 <div class="chiffres"><div><b>{nb}</b><span>cas instruits, de 1832 à 2024</span></div>
-<div><b>{CNT.get('corpus',0)+CNT.get('corpus_sous_condition',0)}</b><span>franchit les cinq portes, sous condition</span></div>
-<div><b>{CNT.get('seuil',0)}</b><span>au seuil : une seule porte manque, toujours le foncier</span></div>
+<div><b>{CNT.get('corpus',0)+CNT.get('corpus_sous_condition',0)}</b><span>franchissent les cinq portes, dont {CNT.get('corpus_sous_condition',0)} sous condition</span></div>
+<div><b>{CNT.get('seuil',0)}</b><span>au seuil : une seule porte manque</span></div>
 <div><b>{EC['foncier_verrouille']}</b><span>sur {nb} ne franchissent pas la porte du foncier</span></div></div>
 <blockquote class="these">{E(these.strip())}</blockquote>
-<figure>{entonnoir_svg()}<figcaption>Lecture cumulative : combien de cas restent après chaque porte, dans l'ordre P1 à P5. Treize franchissent la forme civile ; un seul franchit ensuite le foncier. <a href="portes/">Détail des portes et analyse de sensibilité</a>.</figcaption></figure>
+<figure>{entonnoir_svg()}<figcaption>Lecture cumulative : combien de cas restent après chaque porte, dans l'ordre P1 à P5. {AN['entonnoir'][0]['restent']} franchissent la forme civile ; {AN['entonnoir'][1]['restent']} franchissent ensuite le foncier. <a href="portes/">Détail des portes et analyse de sensibilité</a>.</figcaption></figure>
 <h2>Le corpus et le seuil</h2>
 {legende()}
 <div class="cartes">{"".join(carte_cas(d, "") for d in corpus + seuil)}</div>
@@ -303,17 +303,17 @@ corps = f"""<h1>Les cinq portes</h1>
 <div class="defile"><table><thead><tr><th>Porte</th>{''.join(f'<th class=n>{E(v)}</th>' for v in R.PVAL.values())}<th class=n>Ne franchit pas</th></tr></thead><tbody>{rows}</tbody></table></div>
 <p class="petit">« Ne franchit pas » additionne partielle, non franchie et non établie. Total : {nb} cas.</p>
 <figure>{entonnoir_svg()}<figcaption>Franchissements cumulés dans l'ordre P1 → P5.</figcaption></figure>
-<h2>Au seuil : le foncier, et lui seul</h2>
-<div class="texte"><p>Cinq cas franchissent quatre portes sur cinq. Tous butent sur la même : aucun acte publié et opposable ne tient leur foncier hors du marché. Aucun n'a de maillon commercial ; leur verrou repose sur une relation (une majorité municipale, la composition d'une association, un conseil de fonds), pas sur un acte.</p></div>
+<h2>Au seuil : une porte manque</h2>
+<div class="texte"><p>{len(seuil)} cas franchissent quatre portes sur cinq. Porte manquante : {", ".join(f"{sum(1 for d in seuil if k in d['_manque'])} × {c} {l.lower()}" for k, c, l, _ in R.PORTES if any(k in d['_manque'] for d in seuil))}. Aucun n'a de maillon commercial dans son usage ; là où le foncier retient, le verrou repose sur une relation (une majorité municipale, un conseil de fonds libre de vendre), pas sur un acte.</p></div>
 <div class="cartes">{''.join(carte_cas(d, '../') for d in seuil)}</div>
 <h2>Deux sortes de verrou</h2>
-<div class="texte"><p>Le <b>verrou par la propriété</b> tient le lieu dans une structure qui ne peut pas le vendre (inaliénabilité, domanialité, dévolution, veto de réseau). Le <b>verrou par un titre</b> protège l'usage par un bail long consenti par un propriétaire qui, lui, reste libre de vendre le fonds : il tient tant que le bail court. Le seul cas qui franchit les cinq portes le fait par un titre ; il est donc affiché « corpus sous condition ».</p>
+<div class="texte"><p>Le <b>verrou par la propriété</b> tient le lieu dans une structure qui ne peut pas le vendre (inaliénabilité, domanialité, dévolution, veto de réseau). Le <b>verrou par un titre</b> protège l'usage par un bail long consenti par un propriétaire qui, lui, reste libre de vendre le fonds : il tient tant que le bail court. Un cas franchit les cinq portes par un titre (La Chapelle) : il est affiché « corpus sous condition ». Les deux autres (La Déviation, Manifesten) tiennent par le veto du réseau CLIP, établi par des sources concordantes mais inscrit dans aucun acte publié.</p>
 <p class="petit">Répartition : verrou par la propriété {vt.get('par_propriete',0)} · par un titre {vt.get('par_titre',0)} · aucun établi {vt.get('aucun',0)}.</p>
 <div class="face eozen"><p class="qui">eozen · la règle P2</p>{para(regle)}</div></div>
 <h2>Sensibilité : ce que devient le résultat si l'on assouplit</h2>
 <div class="texte"><p>Le cadre est strict par choix. Pour qu'on puisse juger ce choix, voici le même corpus lu avec des portes assouplies une à une.</p></div>
 <div class="defile"><table><thead><tr><th>Variante</th><th class=n>Admis</th><th class=n>Au seuil</th><th class=n>Épreuves</th><th>Cas admis</th></tr></thead><tbody>{sens}</tbody></table></div>
-<p class="note-prudence">Même en tenant toute porte partielle pour franchie, moins d'un cas sur quatre entre au corpus. Le résultat ne tient pas qu'à la sévérité du cadre, mais la sévérité compte : c'est pourquoi elle est affichée.</p>
+<p class="note-prudence">Même en tenant toute porte partielle pour franchie, moins d'un cas sur quatre entre au corpus. Le résultat ne tient pas qu'à la sévérité du cadre, mais la sévérité compte : c'est pourquoi elle est affichée. Historique : sous la première lecture de P2 (preuve de publication exigée, 30 septembre), un seul cas entrait.</p>
 <h2>Avant 1901</h2>
 <div class="texte"><p>Jusqu'à la loi du 1<sup>er</sup> juillet 1901, s'associer sans autorisation est interdit (loi Le Chapelier de 1791, article 291 du Code pénal). Les {len(avant)} cas antérieurs empruntent la forme de la société, faute de mieux : leur échec en P1 est d'abord un fait d'époque. Ils sont gardés parce qu'ils montrent ce que devient un lieu sans verrou.</p>
 <p class="petit">{', '.join(f'<a href="../f/{d["uid"]}/">{E(d["nom"])}</a>' for d in avant)}</p></div>"""
@@ -457,7 +457,7 @@ corps = f"""<h1>Trois regards, et une épreuve</h1>
 <h2>L'épreuve du contradicteur</h2>
 <h3>La meilleure objection</h3>{para(c.get('steelman'))}
 <h3>La faille</h3>{para(c.get('faille'))}
-<h3>La thèse, durcie</h3><blockquote class="these">{E((c.get('these') or '').strip())}</blockquote>
+<h3>La thèse, durcie</h3><blockquote class="these">{E((c.get('these') or '').strip())}</blockquote><p class="petit">{E((c.get('note_version') or '').strip())}</p>
 <h3>Les garde-fous qui en découlent</h3><ul>{''.join(f'<li>{E(g)}</li>' for g in c.get('garde_fous') or [])}</ul>
 <p class="petit">Les trois garde-fous sont appliqués : dénominateur et <a href="../portes/">sensibilité</a> publiés, cas antérieurs à 1901 signalés, verrou par titre distingué du verrou par propriété.</p>
 </div>"""
@@ -472,7 +472,8 @@ corps = f"""<h1>Méthode</h1>
 <h2>Le critère d'entrée</h2><p>Un cas entre au corpus seulement s'il franchit les cinq portes. Chaque porte vaut franchie, partielle, non franchie ou non établie, avec une note et une source. Une porte franchie sans note ni source bloque la publication.</p>
 <div class="defile"><table>{prow}</table></div>
 <p><b>Lecture au maillon faible.</b> La chaîne entière est lue, du propriétaire du sol jusqu'au collectif qui l'utilise. Un collectif associatif logé par une société à parts cessibles échoue en P1 ; une ferme portée par une foncière commerciale aussi, même si le fermier est de bonne foi.</p>
-<p><b>Ce qui est admis en P1.</b> Association (loi 1901, ou 1908 en Alsace-Moselle), fonds de dotation, fondation, collectif de fait ; une personne publique peut être propriétaire du sol. Aucun maillon commercial ou coopératif, aucune société à parts cessibles.</p>
+<p><b>Ce qui est admis en P1.</b> Association (loi 1901, ou 1908 en Alsace-Moselle), fonds de dotation, fondation, collectif de fait. Une personne publique peut être propriétaire du sol, au cas par cas, si le montage établit clairement un commun (usage confié durablement à un collectif autogéré) ; elle ne l'est pas quand elle garde la main sur l'usage. Aucun maillon commercial ou coopératif, aucune société à parts cessibles.</p>
+<p><b>Comment se lit P2.</b> Au meilleur effort documentaire : un verrou (inaliénabilité, veto de réseau, dévolution, bail d'au moins 30 ans) établi par des sources concordantes suffit, même si l'acte n'est pas publié. Une faculté documentée de vendre, un titre court ou l'absence de titre retiennent la porte.</p>
 <h2>Les exclusions nommées</h2><p>Foncières et fermes Terre de Liens (société en commandite par actions, actions cessibles), écolieux adossés à la Coopérative Oasis (société coopérative d'intérêt collectif), SCI ou GFA à parts cessibles, SAS ou SCIC « de transition », propriété privée « vertueuse » : instruits et publiés comme épreuves, pour que la frontière soit visible et discutable.</p>
 <h2>Les dimensions</h2><div class="defile"><table>{dimrows}</table></div>
 <p>La période se calcule depuis la date d'installation ; le statut, la distance au corpus et le type de verrou se calculent depuis les portes et les dimensions. Rien de tout cela n'est saisi à la main.</p>

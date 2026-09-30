@@ -92,7 +92,7 @@ dimensions:
 portes:
   forme_civile:
     valeur: oui
-    note: 'Association 1901 usagère, Ville de Toulouse propriétaire : aucun maillon commercial.'
+    note: 'Association 1901 usagère, Ville de Toulouse propriétaire : aucun maillon commercial. Règle P1 (décision de Ced, 2026-10-01) : une personne publique propriétaire est admise au cas par cas, si le montage établit clairement un commun. Ici : bail long au profit d''une association usagère autogérée, sans salarié ni subvention, depuis 1993 — commun établi.'
     source: 2
   foncier_verrouille:
     valeur: oui
