@@ -20,3 +20,10 @@
 - Vérification factuelle de 12 fiches : 7 exactes, 5 corrigées (La Déviation : crédits bancaires et locataire 2015-2019, 0,27 ha ; Berquet : mode de transfert inconnu ; Pommiers : reprise début 2016 ; Longo Maï : Spartakus autrichien, Hydra suisse ; La Ruche : chronologie 1905) + précisions (Tanneries 1997/1998, SCTL 6 357 ha et 99 ans selon larzac.org, Manifesten salarié en 2022).
 - Traces agora posées (non commitées dans agents/ : working tree déjà modifié par d'autres sessions → code-task ct-2026-09-30-libres-commit-traces).
 - Doc de synthèse dans le Project claude.ai « collectifs libres » : claude/libres-v0.1.md.
+
+## 2026-09-30 (fin de soirée) — clôture de la V0.1
+- Traces agora commitées sans toucher aux autres modifications en cours (a585c48, aaf40f9) ; bulle igor corrigée pour le validateur v7.1.
+- Charte revue par @graphiste (valider avec corrections, option B) : terre d'igor #E2622E / #A8451A, ocre texte #8A5F1E, gris #6E685C (AA), statuts portés par la forme sur carte et plan factoriel, impression. `identite-libres.yaml` créé (herite_de identite-igor).
+- Vignettes sociales 1200×630 (accueil + 41 cas) + og:image.
+- Ligne vox `resources/vox/lignes/libres/` proposée, inactive.
+- HTTPS : en attente du certificat GitHub (cache du joker Gandi, TTL 3 h) ; vérification programmée le 2026-10-01 à 01:15 UTC.
