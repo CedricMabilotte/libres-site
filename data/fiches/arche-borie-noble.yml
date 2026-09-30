@@ -1,0 +1,148 @@
+# data/fiches/arche-borie-noble.yml — instruit le 2026-09-30
+uid: arche-borie-noble
+nom: Communauté de l'Arche, La Borie Noble
+autres_noms:
+- Arche de Lanza del Vasto
+famille: communaute_intentionnelle
+resume: La communauté de l'Arche, fondée par Lanza del Vasto dans le sillage de Gandhi, rachète en 1963
+  le domaine de La Borie Noble, à Roqueredonde (Hérault), qui devient l'un de ses lieux principaux. Célibataires
+  et familles y mènent une vie d'agriculture, d'artisanat, de prière et de non-violence ; les revenus
+  sont redistribués selon les besoins et les décisions se prennent à l'unanimité, au consensus ou au vote
+  selon leur importance. La communauté accueille de nombreux hôtes et s'engage dans les luttes locales.
+  Après un déclin des effectifs, la communauté de La Borie Noble a été suspendue et une refondation engagée
+  (Silence n°463) ; une association L'Arche de Lanza del Vasto a son siège sur le lieu.
+localisation:
+  commune: Roqueredonde
+  departement: '34'
+  region: Occitanie
+  lat: 43.805
+  lon: 3.225
+debut: 1963
+fin: null
+collectif:
+  nom: Association L'Arche de Lanza del Vasto
+  forme: association
+  annee: null
+foncier:
+  porteur: Non documenté (domaine racheté en 1963 « par la communauté de l'Arche »)
+  porteur_forme: null
+  surface_ha: null
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: achat_collectif
+    note: Domaine « racheté en 1963 par la communauté de l'Arche ».
+    source: 1
+  titre:
+    valeur: inconnu
+    note: Titre et structure propriétaire non documentés.
+    source: null
+  verrou:
+    valeur: inconnu
+    note: Aucune source sur une inaliénabilité ou une dévolution.
+    source: null
+  gouvernance:
+    valeur: mixte
+    note: Unanimité, consensus ou vote selon l'importance ; coordinateur général historiquement élu à
+      vie.
+    source: 2
+  economie:
+    valeur: caisse_commune
+    note: Agriculture et artisanat, revenus redistribués selon les besoins.
+    source: 2
+  ouverture:
+    valeur: accueil_regulier
+    note: Nombreux hôtes, de quelques jours à plusieurs mois.
+    source: 2
+  finalite:
+    valeur:
+    - spiritualite
+    - agriculture
+    - artisanat_production
+    note: Vie spirituelle, agriculture, artisanat, formation à la non-violence.
+    source: 2
+  filiation:
+    valeur:
+    - non_violence
+    note: Lanza del Vasto (Shantidas), disciple de Gandhi.
+    source: 2
+  rapport_etat:
+    valeur: inconnu
+    note: Engagements militants documentés, rapport au lieu et à l'État non qualifié.
+    source: null
+  echelle:
+    valeur: inconnu
+    note: Effectifs à La Borie Noble non documentés.
+    source: null
+  transmission:
+    valeur: en_cours
+    note: Communauté suspendue, refondation engagée par trois personnes.
+    source: 3
+  etat:
+    valeur: actif
+    note: Présence maintenue sur le lieu, en refondation ; statut actuel à vérifier.
+    source: 3
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: partiel
+    note: Collectif associatif, mais structure propriétaire du domaine non établie.
+    source: 4
+  foncier_verrouille:
+    valeur: inconnu
+    note: Aucune source sur la propriété ni sur un verrou.
+    source: null
+  usage_ig:
+    valeur: oui
+    note: Accueil régulier d'hôtes et formation à la non-violence, au-delà des membres.
+    source: 2
+  autogestion:
+    valeur: partiel
+    note: Décisions collectives (unanimité, consensus, vote), mais coordinateur général historiquement
+      élu à vie ; réforme de la fonction encore en discussion en 2007.
+    source: 2
+  etabli:
+    valeur: oui
+    note: Présence sur le lieu depuis 1963.
+    source: 1
+chronologie:
+- annee: 1963
+  evenement: Rachat du domaine de La Borie Noble par la communauté.
+  source: 1
+fiabilite:
+  verifie:
+  - Rachat en 1963 (Coulomb, 2001).
+  - Mode de décision et économie (Gamblin, 2007).
+  non_confirme:
+  - Date de la suspension et de la refondation de la communauté (Silence n°463, année non vérifiée).
+  - Propriétaire du domaine et forme juridique du porteur.
+  - 'Date de création de l''association (immatriculation SIRENE : 1999, date de déclaration non vérifiée).'
+  - État actuel de la communauté après la refondation.
+liens:
+  communs: null
+sources:
+- titre: 'Résistance non violente et maquis héraultais : la communauté de l''Arche de La Borie Noble'
+  auteur: Emmanuelle Coulomb, Études héraultaises
+  annee: 2001
+  url: https://www.etudesheraultaises.fr/publi/resistance-non-violente-et-maquis-heraultais-la-communaute-de-larche-de-la-borie-noble/
+- titre: 'L''Arche de Lanza del Vasto : un projet de vie radical et intégral au service de la non-violence'
+  auteur: Guillaume Gamblin, Irénées
+  annee: 2007
+  url: https://www.irenees.net/bdf_fiche-acteurs-308_fr.html
+- titre: Des communautés à la recherche d'un nouveau souffle (Silence n°463)
+  auteur: Michel Bernard, Revue Silence
+  annee: null
+  url: https://www.revuesilence.net/numeros/463-Alternatives-dans-l-Herault/des-communautes-a-la-recherche-d-un-nouveau-souffle
+- titre: ASS L'ARCHE DE LANZA DEL VASTO — SIREN 530484906
+  auteur: Societe.com (données SIRENE)
+  annee: null
+  url: https://www.societe.com/societe/ass-l-arche-de-lanza-del-vasto-530484906.html
+- titre: Community of the Ark
+  auteur: Wikipedia (en)
+  annee: null
+  url: https://en.wikipedia.org/wiki/Community_of_the_Ark
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

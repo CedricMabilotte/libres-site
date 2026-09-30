@@ -1,0 +1,140 @@
+# data/fiches/maison-blanche-antre-toit.yml — instruit le 2026-09-30
+uid: maison-blanche-antre-toit
+nom: La Maison Blanche — L'Antre Toit
+autres_noms:
+- L'Antre Toit
+- Maison Blanche
+famille: lieu_non_marchand
+resume: 'Maison d''environ 100 m² à Gaillac (Tarn), utilisée depuis septembre 2019 par l''association L''Antre d''Eux
+  pour héberger et accompagner des jeunes exilé·es en attente de reconnaissance de leur minorité ; cinq y vivent
+  en permanence et vingt à trente sont accueilli·es chaque jour. Une collecte via Antidote vise l''achat de la maison,
+  qui serait ensuite confiée par bail emphytéotique à l''association usagère L''Antre Toit. En décembre 2025, la
+  vente « devrait se faire prochainement » : le transfert n''est pas réalisé.'
+localisation:
+  commune: Gaillac
+  departement: '81'
+  region: Occitanie
+  lat: 43.9119
+  lon: 1.8898
+debut: 2019
+fin: null
+collectif:
+  nom: L'Antre Toit (usagère) / L'Antre d'Eux (accueil)
+  forme: association
+  annee: 2019
+foncier:
+  porteur: Propriétaire actuel non public ; achat par le fonds Antidote en cours
+  porteur_forme: null
+  surface_ha: null
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: souscription
+    note: Collecte de 82 000 € (achat 49 160 €, travaux) en cours.
+    source: 1
+  titre:
+    valeur: inconnu
+    note: Maison mise à disposition avant l'achat ; titre actuel non publié.
+    source: null
+  verrou:
+    valeur:
+    - aucun
+    note: Vente au fonds non encore réalisée en décembre 2025.
+    source: 2
+  gouvernance:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  economie:
+    valeur: inconnu
+    note: Autofinancement du lieu par dons et événements ; ressources des personnes non documentées.
+    source: null
+  ouverture:
+    valeur: accueil_regulier
+    note: Accueil de jour de 20 à 30 jeunes ; hébergement permanent de cinq.
+    source: 1
+  finalite:
+    valeur:
+    - habitat
+    - accueil_soin
+    note: Hébergement et accompagnement (droit, soins, scolarité) de jeunes exilé·es.
+    source: 1
+  filiation:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  rapport_etat:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  echelle:
+    valeur: '10_50'
+    note: Cinq résident·es, une dizaine de bénévoles actif·ves, 20 à 30 jeunes par jour.
+    source: 1
+  transmission:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  etat:
+    valeur: actif
+    note: Achat en cours (décembre 2025).
+    source: 2
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: partiel
+    note: Associations usagère et d'accueil, fonds de dotation acquéreur ; mais le propriétaire actuel est hors
+      de cette chaîne tant que la vente n'est pas signée.
+    source: 1
+  foncier_verrouille:
+    valeur: non
+    note: 'Propriété non encore transférée (vente annoncée « prochainement » en décembre 2025) : mise à disposition
+      sans verrou.'
+    source: 2
+  usage_ig:
+    valeur: oui
+    note: Accueil gratuit de mineur·es isolé·es exilé·es.
+    source: 1
+  autogestion:
+    valeur: oui
+    note: 'Maison autogérée : les jeunes qui y vivent participent aux décisions sur l''avenir du lieu.'
+    source: 3
+  etabli:
+    valeur: non
+    note: 'Usage depuis septembre 2019 : sept ans. Pas encore établi — normal pour un lieu récent.'
+    source: 1
+chronologie:
+- annee: 2019
+  evenement: Début de l'usage de la maison par L'Antre d'Eux (septembre).
+  source: 1
+- annee: 2025
+  evenement: Vente au fonds Antidote annoncée comme prochaine.
+  source: 2
+fiabilite:
+  verifie:
+  - Usage depuis septembre 2019 (collecte HelloAsso).
+  - Achat non réalisé en décembre 2025 (Antidote).
+  non_confirme:
+  - Identité et forme du propriétaire actuel (porteur_forme laissé null ; la fiche Communs parle d'une maison «
+    mise à disposition par des bénévoles »).
+  - Signature de la vente en 2026.
+liens:
+  communs: maison-blanche-antre-toit
+sources:
+- titre: La maison blanche de l'Antre Toit — collecte
+  auteur: La Foncière Antidote (HelloAsso)
+  annee: null
+  url: https://www.helloasso.com/associations/la-fonciere-antidote/collectes/la-maison-blanche-de-l-antre-toit
+- titre: Antidote — accueil et lettres d'information (transferts de propriété de novembre 2024)
+  auteur: Antidote
+  annee: 2025
+  url: https://aventure-antidote.org/
+- titre: Les lieux
+  auteur: Antidote
+  annee: null
+  url: https://aventure-antidote.org/qui-sommes-nous/nos-lieux/
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

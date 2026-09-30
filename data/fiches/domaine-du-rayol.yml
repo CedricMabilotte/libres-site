@@ -1,0 +1,150 @@
+# data/fiches/domaine-du-rayol.yml — instruit le 2026-09-30 (épreuve de référence)
+uid: domaine-du-rayol
+nom: Domaine du Rayol
+autres_noms:
+- Jardin des Méditerranées
+famille: lieu_non_marchand
+resume: 'Domaine côtier des Maures au Rayol-Canadel-sur-Mer (Var), acquis en 1989 par le Conservatoire
+  du littoral après une mobilisation locale contre un projet d''urbanisation. La gestion est confiée par
+  convention à l''Association du Domaine du Rayol (ADORA), déclarée en septembre 1989, qui emploie une
+  trentaine de salariés permanents. Le site, dont le Jardin des Méditerranées, est ouvert au public tous
+  les jours, avec une entrée payante. Épreuve de référence : foncier public inaliénable, mais gestion
+  déléguée à un établissement associatif salarié, sans collectif d''usagers souverain.'
+localisation:
+  commune: Rayol-Canadel-sur-Mer
+  departement: '83'
+  region: Provence-Alpes-Côte d'Azur
+  lat: 43.1664
+  lon: 6.4744
+debut: 1989
+fin: null
+collectif:
+  nom: Association du Domaine du Rayol (ADORA)
+  forme: association
+  annee: 1989
+foncier:
+  porteur: Conservatoire de l'espace littoral et des rivages lacustres
+  porteur_forme: personne_publique
+  surface_ha: 20
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: bail_public
+    note: Acquisition publique par le Conservatoire du littoral en 1989, gestion confiée à l'association.
+    source: 1
+  titre:
+    valeur: convention
+    note: Gestion confiée à l'association par convention avec le Conservatoire ; durée non publiée.
+    source: 1
+  verrou:
+    valeur:
+    - domanialite_publique
+    note: Terrain du Conservatoire du littoral, établissement public.
+    source: 1
+  gouvernance:
+    valeur: conseil_delegue
+    note: Assemblée générale annuelle qui élit un conseil d'administration renouvelé par moitié ; bureau
+      mensuel avec la direction salariée.
+    source: 2
+  economie:
+    valeur: salariat_structure
+    note: Une trentaine de salariés permanents, saisonniers et volontaires en service civique.
+    source: 2
+  ouverture:
+    valeur: ouvert_public
+    note: Ouvert tous les jours de l'année ; visites, expositions, concerts, ateliers.
+    source: 1
+  finalite:
+    valeur:
+    - milieu_vivant
+    - culture
+    - education_populaire
+    note: Protection d'un espace naturel littoral, jardin, activités culturelles et pédagogiques.
+    source: 1
+  filiation:
+    valeur: inconnu
+    note: Aucune source consultée.
+    source: null
+  rapport_etat:
+    valeur: conventionnement
+    note: Gestion associative sous convention d'un établissement public de l'État.
+    source: 1
+  echelle:
+    valeur: '10_50'
+    note: Environ 30 salariés permanents (tranche 20 à 49 au registre).
+    source: 2
+  transmission:
+    valeur: generations_renouvelees
+    note: Association active depuis 1989, conseil renouvelé par moitié tous les deux ans.
+    source: 2
+  etat:
+    valeur: actif
+    note: Association active au registre, site ouvert.
+    source: 4
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: oui
+    note: 'Propriétaire : Conservatoire du littoral, personne publique ; gestionnaire : association loi
+      1901 (ADORA). Aucun maillon commercial documenté dans la chaîne foncier-usage.'
+    source: 1
+  foncier_verrouille:
+    valeur: partiel
+    note: Le terrain est sorti du marché par la propriété du Conservatoire du littoral ; mais le titre
+      de l'association est une convention de gestion dont la durée n'est pas publiée, sans garantie d'usage
+      de 30 ans.
+    source: 1
+  usage_ig:
+    valeur: partiel
+    note: Ouverture au public toute l'année et protection d'un milieu, mais accès payant et activités
+      commerciales annexes (restaurant, librairie, pépinière).
+    source: 1
+  autogestion:
+    valeur: non
+    note: 'Établissement associatif à direction salariée et conseil élu, gestionnaire délégué d''un propriétaire
+      public qui fixe le cadre par convention : pas d''assemblée d''usagers souveraine sur l''usage.'
+    source: 2
+  etabli:
+    valeur: oui
+    note: Gestion associative continue depuis 1989.
+    source: 4
+chronologie:
+- annee: 1989
+  evenement: Acquisition par le Conservatoire du littoral ; déclaration de l'association (11 septembre
+    au registre).
+  source: 1
+fiabilite:
+  verifie:
+  - Acquisition en 1989 par le Conservatoire du littoral, gestion par l'ADORA, ouverture payante toute
+    l'année (Conservatoire du littoral).
+  - Environ 30 salariés, assemblée générale annuelle, conseil renouvelé par moitié (site du Domaine).
+  - ADORA, SIREN 352262653, créée le 11 septembre 1989 (registre public).
+  non_confirme:
+  - 'Surface : 20 ha selon le site du Domaine, 34,43 ha pour le site littoral selon le Conservatoire ;
+    la fiche retient 20 ha.'
+  - Durée, clauses et redevance de la convention de gestion.
+  - Composition du conseil d'administration (part des collectivités).
+liens:
+  communs: domaine-du-rayol
+sources:
+- titre: Domaine du Rayol (83, Var)
+  auteur: Conservatoire du littoral
+  annee: null
+  url: https://www.conservatoire-du-littoral.fr/siteLittoral/202/28-domaine-du-rayol-83_var.htm
+- titre: Les équipes — L'Association du Domaine du Rayol
+  auteur: Domaine du Rayol
+  annee: null
+  url: https://www.domainedurayol.org/en/le-domaine/lassociation-du-domaine-du-rayol/les-equipes/
+- titre: Domaine du Rayol — site officiel
+  auteur: Association du Domaine du Rayol
+  annee: null
+  url: https://www.domainedurayol.org/
+- titre: ASS DU DOMAINE DU RAYOL (ADORA) (SIREN 352262653)
+  auteur: Annuaire des entreprises (État)
+  annee: 2026
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/ass-du-domaine-du-rayol-adora-352262653
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

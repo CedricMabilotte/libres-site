@@ -1,0 +1,157 @@
+# data/fiches/sctl-larzac.yml — instruit le 2026-09-30
+uid: sctl-larzac
+nom: Société civile des terres du Larzac (SCTL)
+autres_noms:
+- SCTL
+- Terres du Larzac
+famille: commun_foncier
+resume: 'Après l''abandon en 1981 du projet d''extension du camp militaire du Larzac, l''État conserve
+  les terres rachetées et en confie la gestion aux habitants : la Société civile des terres du Larzac,
+  constituée en assemblée le 29 novembre 1984, signe le 29 avril 1985 un bail emphytéotique de soixante
+  ans sur quelque 6 300 hectares, prolongé par avenant en 2013 jusqu''au 30 avril 2083. Ses associés sont
+  les fermiers et résidents ; la moitié des parts plus une doit être détenue par les associés exploitants.
+  Un conseil de gérance de onze membres attribue les exploitations par baux ruraux « de carrière » et
+  prêts à usage ; les seules recettes sont les fermages.'
+localisation:
+  commune: La Cavalerie
+  departement: '12'
+  region: Occitanie
+  lat: 44.0092
+  lon: 3.1572
+debut: 1985
+fin: null
+collectif:
+  nom: Société civile des terres du Larzac
+  forme: societe_civile
+  annee: 1985
+foncier:
+  porteur: État
+  porteur_forme: personne_publique
+  surface_ha: 6300
+  titre_duree_ans: 99
+dimensions:
+  acces:
+    valeur: bail_public
+    note: Bail emphytéotique consenti par l'État sur les terres rachetées pour le camp militaire.
+    source: 2
+  titre:
+    valeur: bail_emphyteotique
+    note: Signé en 1985 pour 60 ans, prolongé en 2013 jusqu'en 2083.
+    source: 1
+  verrou:
+    valeur:
+    - bail_long
+    note: Propriété de l'État et bail emphytéotique ; statut domanial précis (public ou privé) non confirmé.
+    source: 1
+  gouvernance:
+    valeur: conseil_delegue
+    note: Assemblée générale des associés, conseil de gérance de onze membres qui attribue les exploitations.
+    source: 1
+  economie:
+    valeur: revenus_individuels_externes
+    note: Chaque fermier vit de son exploitation ; la SCTL ne perçoit que les fermages.
+    source: 1
+  ouverture:
+    valeur: accueil_regulier
+    note: Installation de nouveaux paysans sur le domaine.
+    source: 2
+  finalite:
+    valeur:
+    - agriculture
+    - habitat
+    - lutte_territoriale
+    note: Maintien et installation de paysans, issue de la lutte du Larzac.
+    source: 2
+  filiation:
+    valeur:
+    - non_violence
+    note: Héritière de la lutte non violente du Larzac (1971-1981).
+    source: 2
+  rapport_etat:
+    valeur: conventionnement
+    note: Bail emphytéotique avec l'État propriétaire.
+    source: 1
+  echelle:
+    valeur: inconnu
+    note: 57 baux ruraux et 28 prêts à usage ; nombre de personnes non documenté.
+    source: 1
+  transmission:
+    valeur: generations_renouvelees
+    note: Le conseil de gérance attribue les fermes libérées à de nouveaux installés.
+    source: 1
+  etat:
+    valeur: actif
+    note: En activité.
+    source: 1
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: partiel
+    note: Porteur public (État), mais collectif en société civile à capital, forme hors de la liste admise
+      ; parts liées à la qualité d'usager, cessibilité non documentée.
+    source: 2
+  foncier_verrouille:
+    valeur: oui
+    note: Propriété de l'État et bail emphytéotique jusqu'en 2083 ; la SCTL ne peut ni vendre ni hypothéquer.
+    source: 1
+  usage_ig:
+    valeur: partiel
+    note: Office foncier non rentier au service de l'installation paysanne d'un territoire, mais usage
+      par exploitations agricoles individuelles marchandes.
+    source: 2
+  autogestion:
+    valeur: oui
+    note: Associés = fermiers et résidents ; assemblée générale et conseil de gérance issus des usagers
+      ; l'État ne décide pas de l'attribution.
+    source: 1
+  etabli:
+    valeur: oui
+    note: Fonctionnement continu depuis 1985.
+    source: 1
+chronologie:
+- annee: 1981
+  evenement: Abandon du projet d'extension du camp militaire.
+  source: 2
+- annee: 1984
+  evenement: Assemblée générale constitutive de la SCTL (29 novembre).
+  source: 1
+- annee: 1985
+  evenement: Bail emphytéotique de 60 ans avec l'État (29 avril).
+  source: 2
+- annee: 2013
+  evenement: Avenant prolongeant le bail jusqu'au 30 avril 2083.
+  source: 1
+fiabilite:
+  verifie:
+  - Bail de 60 ans signé le 29 avril 1985 (Bové/AGTER).
+  - Prolongation 2013, échéance 2083, conseil de gérance de 11 membres (Larzac.org).
+  - Moitié des parts plus une aux exploitants (AGTER).
+  non_confirme:
+  - Régime de cession des parts sociales.
+  - Statut domanial (domaine public ou privé de l'État).
+  - Nombre de personnes vivant sur le domaine.
+  - 'Date de constitution : 1984 (AG) ou 1985 (immatriculation, fiche Communs).'
+liens:
+  communs: larzac
+sources:
+- titre: SCTL — Un territoire organisé, gestion foncière
+  auteur: Larzac.org
+  annee: null
+  url: https://larzac.org/accueil/un-territoire-organise/gestion-fonciere/sctl/
+- titre: La Société civile des terres du Larzac (SCTL), une approche novatrice de la gestion foncière
+  auteur: José Bové, AGTER
+  annee: 2002
+  url: https://www.agter.org/bdf/fr/corpus_chemin/fiche-chemin-9.html
+- titre: Soc. civile des terres du Larzac — SIREN 331605527
+  auteur: Annuaire des entreprises (data.gouv)
+  annee: null
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/soc-civile-des-terres-du-larzac-sctl-331605527
+- titre: 'Un office foncier en France : la société civile des terres du Larzac'
+  auteur: HAL / INRAE
+  annee: null
+  url: https://hal.inrae.fr/hal-02857509
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

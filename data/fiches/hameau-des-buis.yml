@@ -1,0 +1,157 @@
+# data/fiches/hameau-des-buis.yml — instruit le 2026-09-30 (épreuve de référence)
+uid: hameau-des-buis
+nom: Le Hameau des Buis
+autres_noms: []
+famille: communaute_intentionnelle
+resume: 'Écohameau intergénérationnel du sud de l''Ardèche, associé à l''origine à l''école La Ferme des
+  Enfants (ouverte sur place en septembre 2008). Le foncier est porté par une société constituée le 12
+  février 2004 : société civile à l''origine, financée par des prêts des résidents remboursés au départ,
+  aujourd''hui SAS coopérative à capital variable qui se déclare « à but non lucratif » et collecte des
+  apports en comptes courants d''associés. Épreuve de référence : porteur foncier sociétaire, sans verrou
+  anti-revente publié.'
+localisation:
+  commune: Berrias-et-Casteljau
+  departement: '07'
+  region: Auvergne-Rhône-Alpes
+  lat: 44.3791
+  lon: 4.2056
+debut: 2004
+fin: null
+collectif:
+  nom: Hameau des Buis (SAS coopérative) et Association du Hameau des Buis
+  forme: cooperative
+  annee: 2004
+foncier:
+  porteur: Hameau des Buis, SAS coopérative à capital variable (société civile jusqu'à sa transformation)
+  porteur_forme: cooperative
+  surface_ha: null
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: achat_collectif
+    note: Opération d'environ 3,1 M€ (terrain, construction, rénovation) financée notamment par les prêts
+      des résidents à la société civile.
+    source: 3
+  titre:
+    valeur: inconnu
+    note: Titre d'occupation des résidents (contrat de résident selon le dossier Communs) non publié.
+    source: null
+  verrou:
+    valeur:
+    - aucun
+    note: Aucune inaliénabilité ni clause de dévolution publiée ; la mention « à but non lucratif » n'est
+      pas assortie de statuts publics.
+    source: 1
+  gouvernance:
+    valeur: mixte
+    note: 'Les apporteurs en compte courant deviennent « associé de la coopérative » : le sociétariat
+      mêle résidents et épargnants extérieurs.'
+    source: 1
+  economie:
+    valeur: inconnu
+    note: Régime économique des résidents non documenté ; la société rembourse les apports et prêts.
+    source: null
+  ouverture:
+    valeur: accueil_regulier
+    note: École sur place depuis 2008 ; participation revendiquée à des réseaux culturels et environnementaux
+      extérieurs.
+    source: 3
+  finalite:
+    valeur:
+    - habitat
+    - education_populaire
+    note: Habitat intergénérationnel (logements pour personnes retraitées) et école sur site.
+    source: 3
+  filiation:
+    valeur: inconnu
+    note: Aucune source consultée.
+    source: null
+  rapport_etat:
+    valeur: inconnu
+    note: Aucune source consultée.
+    source: null
+  echelle:
+    valeur: '10_50'
+    note: Une vingtaine de logements prévus en 2009.
+    source: 3
+  transmission:
+    valeur: inconnu
+    note: Recomposition après le départ de l'association cofondatrice signalée par le dossier Communs,
+      non revérifiée.
+    source: null
+  etat:
+    valeur: actif
+    note: Société active ; changement de forme sans changement de personne morale (SIREN inchangé depuis
+      2004).
+    source: 2
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: non
+    note: 'Porteur foncier : SAS coopérative à capital variable (société par actions, catégorie juridique
+      5710). Avant la transformation, société civile dont une part était détenue par une SARL (dossier
+      Communs). Dans les deux états, maillon sociétaire à parts.'
+    source: 2
+  foncier_verrouille:
+    valeur: non
+    note: Aucune inaliénabilité, dévolution ni titre d'usage long publiés ; comptes courants bloqués «
+      au minimum pendant 3 ans » seulement, puis remboursables.
+    source: 1
+  usage_ig:
+    valeur: partiel
+    note: École et accueil intergénérationnel ouverts au-delà des résidents, mais l'habitat reste réservé
+      aux prêteurs-résidents.
+    source: 3
+  autogestion:
+    valeur: partiel
+    note: 'Gouvernance coopérative revendiquée, mais les épargnants extérieurs deviennent associés de
+      la société propriétaire : l''assemblée n''est pas celle des seuls usagers.'
+    source: 1
+  etabli:
+    valeur: oui
+    note: 'Société constituée en 2004, école en fonctionnement depuis 2008 : plus de dix ans d''usage.'
+    source: 2
+chronologie:
+- annee: 2004
+  evenement: '12 février : constitution de la société portant le foncier.'
+  source: 2
+- annee: 2008
+  evenement: Ouverture de l'école La Ferme des Enfants sur le site.
+  source: 3
+- annee: 2009
+  evenement: Chantier d'un bâtiment d'une vingtaine de logements ; coût total d'environ 3,1 M€.
+  source: 3
+fiabilite:
+  verifie:
+  - 'Forme actuelle : SAS coopérative à capital variable, comptes courants d''associés bloqués au moins
+    trois ans (site du lieu).'
+  - SIREN 453458622, date de création 12 février 2004, catégorie SAS, siège à Berrias-et-Casteljau (registre
+    public).
+  - Financement par prêts des résidents à la société civile ; école ouverte en 2008 (retour d'expérience
+    2009).
+  non_confirme:
+  - 'Commune : la documentation de 2009 indique Lablachère, le registre public situe le siège à Berrias-et-Casteljau
+    (communes voisines) ; la fiche retient le registre.'
+  - 'Dates de 2021 et 2023 et part détenue par une SARL : dossier Communs, non revérifiées sur source
+    primaire.'
+  - Statuts de la coopérative, titres d'occupation et montants versés par les résidents.
+liens:
+  communs: hameau-des-buis
+sources:
+- titre: Épargne éthique et solidaire
+  auteur: Hameau des Buis
+  annee: null
+  url: https://hameaudesbuis.org/epargne-ethique-et-solidaire/
+- titre: HAMEAU DES BUIS (SIREN 453458622)
+  auteur: Annuaire des entreprises (État)
+  annee: 2026
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/453458622
+- titre: « Le Hameau des Buis », Lablachère (07) — retour d'expérience
+  auteur: Ville & Aménagement Durable
+  annee: 2009
+  url: https://www.enviroboite.net/IMG/pdf/0911_Rex_Hameau_Buis_VAD.pdf
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

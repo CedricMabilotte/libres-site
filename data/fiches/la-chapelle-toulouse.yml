@@ -1,0 +1,165 @@
+# data/fiches/la-chapelle-toulouse.yml — instruit le 2026-09-30
+uid: la-chapelle-toulouse
+nom: La Chapelle (Toulouse)
+autres_noms:
+- La Chapelle Casanova
+- Atelier Idéal
+famille: occupation_regularisee
+resume: Ancienne chapelle de Toulouse, investie en 1993 et devenue un lieu autogéré d'expérimentation
+  sociale, culturelle et militante, sans salarié ni subvention. La Ville, qui a acquis le bâtiment au
+  diocèse en 2009, a signé le 19 janvier 2018 avec l'association un bail emphytéotique de 40 ans assorti
+  d'une promesse de vente conditionnée à la mise aux normes. Après sept ans de travaux, le lieu a été
+  conforme ERP en janvier 2025 et environ 1 300 donateurs ont réuni 100 000 € pour le rachat. La mairie
+  a retiré la délibération de vente en septembre 2025 puis annoncé en février 2026 une suspension de trois
+  ans, contestant l'intérêt général de certaines activités.
+localisation:
+  commune: Toulouse
+  departement: '31'
+  region: Occitanie
+  lat: 43.6045
+  lon: 1.444
+debut: 1993
+fin: null
+collectif:
+  nom: Association Atelier Idéal
+  forme: association
+  annee: 1995
+foncier:
+  porteur: Ville de Toulouse
+  porteur_forme: personne_publique
+  surface_ha: null
+  titre_duree_ans: 40
+dimensions:
+  acces:
+    valeur: occupation
+    note: Lieu investi en 1993, décrit par la presse comme ancien squat.
+    source: 5
+  titre:
+    valeur: bail_emphyteotique
+    note: Bail emphytéotique de 40 ans signé le 19 janvier 2018 avec promesse de vente.
+    source: 2
+  verrou:
+    valeur:
+    - bail_long
+    note: Bail emphytéotique de 40 ans ; vente à l'association suspendue.
+    source: 4
+  gouvernance:
+    valeur: assemblee_consensus
+    note: Fonctionnement horizontal, décision au consensus, collège solidaire de co-responsables formé
+      des membres actifs.
+    source: 1
+  economie:
+    valeur: activites_non_marchandes
+    note: Aucun salarié, bénévolat inscrit dans les statuts, participations aux frais modulées ; jamais
+      de subvention.
+    source: 1
+  ouverture:
+    valeur: ouvert_public
+    note: Lieu au service de la vie culturelle, militante et associative toulousaine, accessible aux petites
+      associations.
+    source: 1
+  finalite:
+    valeur:
+    - culture
+    - education_populaire
+    - lutte_territoriale
+    note: Événements culturels, bibliothèque, accueil d'associations militantes.
+    source: 1
+  filiation:
+    valeur: inconnu
+    note: La mairie évoque des activités « d'obédience anarchiste » ; filiation non revendiquée dans les
+      sources consultées.
+    source: 4
+  rapport_etat:
+    valeur: conflit
+    note: Retrait de la délibération de vente (26 septembre 2025), suspension de trois ans annoncée en
+      février 2026.
+    source: 4
+  echelle:
+    valeur: inconnu
+    note: Aucun effectif publié.
+    source: null
+  transmission:
+    valeur: generations_renouvelees
+    note: Plus de trente ans d'activité continue et renouvellement de l'association usagère.
+    source: 3
+  etat:
+    valeur: actif
+    note: Actif en 2026, rachat bloqué.
+    source: 4
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: oui
+    note: 'Association 1901 usagère, Ville de Toulouse propriétaire : aucun maillon commercial.'
+    source: 2
+  foncier_verrouille:
+    valeur: oui
+    note: 'Bail emphytéotique de 40 ans signé le 19 janvier 2018 (≥ 30 ans). Fragilité : la mairie exige
+      de démontrer la conformité de l''activité à l''objet du bail.'
+    source: 2
+  usage_ig:
+    valeur: oui
+    note: Lieu non marchand, bénévole, ouvert à la vie associative et culturelle, participations modulées.
+    source: 1
+  autogestion:
+    valeur: oui
+    note: Décision au consensus, collège solidaire de co-responsables, aucune subvention ni financeur.
+    source: 1
+  etabli:
+    valeur: oui
+    note: Usage continu depuis 1993.
+    source: 3
+chronologie:
+- annee: 1993
+  evenement: Le lieu est investi et devient un espace autogéré.
+  source: 1
+- annee: 2009
+  evenement: La Ville achète le bâtiment au diocèse (200 000 €).
+  source: 3
+- annee: 2018
+  evenement: Bail emphytéotique de 40 ans et promesse de vente (19 janvier).
+  source: 2
+- annee: 2025
+  evenement: Conformité ERP (17 janvier) ; 100 000 € réunis ; délibération de vente retirée (26 septembre).
+  source: 2
+- annee: 2026
+  evenement: La mairie annonce une suspension de la vente pour trois ans.
+  source: 4
+fiabilite:
+  verifie:
+  - Activité depuis 1993
+  - Bail emphytéotique de 40 ans signé en janvier 2018
+  - Blocage de la vente 2025-2026
+  non_confirme:
+  - Vote effectif du conseil municipal du 6 février 2026
+  - Association exactement signataire du bail (Atelier Idéal ou association La Chapelle)
+  - Montage futur à quatre associations membres (source militante non revérifiée)
+liens:
+  communs: null
+sources:
+- titre: À propos
+  auteur: La Chapelle Toulouse
+  annee: null
+  url: https://lachapelletoulouse.com/a-propos/
+- titre: Achat collectif !
+  auteur: La Chapelle Toulouse
+  annee: 2025
+  url: https://lachapelletoulouse.com/communications/
+- titre: Le rachat de la Chapelle freiné par la mairie de Toulouse
+  auteur: Mediacités
+  annee: 2025
+  url: https://www.mediacites.fr/culture/toulouse/2025/11/25/le-rachat-de-la-chapelle-freine-par-la-mairie-de-toulouse/
+- titre: La mairie de Toulouse va suspendre la vente de La Chapelle
+  auteur: Mediacités
+  annee: 2026
+  url: https://www.mediacites.fr/breve/toulouse/2026/02/03/la-mairie-et-de-toulouse-va-suspendre-la-vente-de-la-chapelle/
+- titre: 'Toulouse : La Chapelle va devenir la propriété de ses occupants'
+  auteur: Le Journal toulousain
+  annee: 2024
+  url: https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/toulouse-chapelle-devenir-propriete-occupants-297495/
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

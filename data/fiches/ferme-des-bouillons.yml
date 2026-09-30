@@ -1,0 +1,144 @@
+# data/fiches/ferme-des-bouillons.yml — instruit le 2026-09-30
+uid: ferme-des-bouillons
+nom: Ferme des Bouillons
+autres_noms: []
+famille: occupation_regularisee
+resume: Ferme de Mont-Saint-Aignan, près de Rouen, achetée en 2012 par Immochan, filiale immobilière d'Auchan,
+  pour un projet commercial, et occupée à partir de décembre 2012. Portée par l'Association de protection
+  de la ferme des Bouillons, l'occupation y développe maraîchage biologique, marché hebdomadaire, AMAP,
+  conférences et fêtes ; le terrain est reclassé en zone naturelle en 2014. Le 18 août 2015, la SAFER
+  écarte le projet d'achat collectif et valide la vente à une SCI familiale ; le lieu est évacué le 19
+  août 2015. L'association poursuit ses activités ailleurs. L'occupation n'a jamais été régularisée.
+localisation:
+  commune: Mont-Saint-Aignan
+  departement: '76'
+  region: Normandie
+  lat: 49.463
+  lon: 1.088
+debut: 2012
+fin: 2015
+collectif:
+  nom: Association de protection de la ferme des Bouillons (APFB)
+  forme: association
+  annee: null
+foncier:
+  porteur: Immochan (groupe Auchan), puis SCI familiale
+  porteur_forme: societe_commerciale
+  surface_ha: null
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: occupation
+    note: Occupation à partir de décembre 2012.
+    source: 2
+  titre:
+    valeur: sans_titre
+    note: Aucun titre ; projet d'achat collectif écarté par la SAFER.
+    source: 2
+  verrou:
+    valeur:
+    - aucun
+    note: Vente à une SCI familiale validée par la SAFER le 18 août 2015.
+    source: 2
+  gouvernance:
+    valeur: inconnu
+    note: Fonctionnement dit autogéré ; modalités de décision non documentées.
+    source: 1
+  economie:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  ouverture:
+    valeur: ouvert_public
+    note: Marché hebdomadaire, conférences, fêtes, accueil de scolaires.
+    source: 2
+  finalite:
+    valeur:
+    - agriculture
+    - education_populaire
+    - culture
+    - lutte_territoriale
+    note: Maraîchage bio, AMAP, éducation populaire, opposition au projet commercial.
+    source: 1
+  filiation:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  rapport_etat:
+    valeur: conflit
+    note: Évacuation par les forces de l'ordre le 19 août 2015.
+    source: 1
+  echelle:
+    valeur: inconnu
+    note: Aucun effectif publié pour la ferme.
+    source: null
+  transmission:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  etat:
+    valeur: disparu
+    note: Évacuation et vente en 2015.
+    source: 1
+  fin:
+    valeur: expulsion
+    note: Évacuation le 19 août 2015 après validation de la vente par la SAFER.
+    source: 2
+portes:
+  forme_civile:
+    valeur: non
+    note: 'Propriétaire du foncier : Immochan, société commerciale du groupe Auchan, puis une SCI.'
+    source: 3
+  foncier_verrouille:
+    valeur: non
+    note: Aucun titre ; foncier vendu à une SCI en 2015.
+    source: 2
+  usage_ig:
+    valeur: oui
+    note: Maraîchage bio, marché, AMAP, conférences et accueil scolaire ouverts au public.
+    source: 1
+  autogestion:
+    valeur: inconnu
+    note: « Fonctionnement autogéré » affirmé, mais sans description des instances de décision.
+    source: 1
+  etabli:
+    valeur: non
+    note: Environ 32 mois d'occupation (décembre 2012 - août 2015).
+    source: 1
+chronologie:
+- annee: 2012
+  evenement: Achat par Immochan ; début de l'occupation en décembre.
+  source: 2
+- annee: 2014
+  evenement: Reclassement du terrain en zone naturelle.
+  source: 3
+- annee: 2015
+  evenement: La SAFER valide la vente à une SCI (18 août) ; évacuation (19 août).
+  source: 2
+fiabilite:
+  verifie:
+  - Occupation décembre 2012 - août 2015
+  - Vente à une SCI validée par la SAFER
+  non_confirme:
+  - Lien entre la SCI acquéreuse et le groupe Auchan (affirmé par la presse militante)
+  - Usage actuel du terrain
+  - Surface
+liens:
+  communs: null
+sources:
+- titre: La ferme des Bouillons « délocalisée » vit toujours !
+  auteur: Ensemble !
+  annee: 2015
+  url: https://ensemble-mouvement.com/la-ferme-des-bouillons-delocalisee-vit-toujours/
+- titre: 'Résistance agricole : la Ferme des Bouillons'
+  auteur: Mr Mondialisation
+  annee: 2015
+  url: https://mrmondialisation.org/resistance-agricole-la-ferme-des-bouillons/
+- titre: La ferme bouillonne
+  auteur: CQFD
+  annee: null
+  url: https://cqfd-journal.org/La-ferme-bouillonne
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

@@ -1,0 +1,168 @@
+# data/fiches/la-deviation-marseille.yml — instruit le 2026-09-30
+uid: la-deviation-marseille
+nom: La Déviation
+autres_noms:
+- En Devenir
+famille: lieu_non_marchand
+resume: Ancienne cimenterie et carrière sur les hauteurs de L'Estaque (Marseille 16e), occupée depuis 2015 par un
+  collectif d'artistes issu de l'association En Devenir (2012) et devenue un lieu autogéré de création et de résidences,
+  aussi habité. Le lieu a été acheté au printemps 2019, pour 410 000 € et sans banque, grâce à des prêts solidaires
+  ; il est détenu par l'association Parpaing Libre, dont les deux seuls membres sont l'association usagère et le
+  réseau CLIP. L'incendie du 8 juillet 2025 a détruit ateliers, boulangerie et logements de résidence ; la reconstruction
+  se fait en chantiers participatifs.
+localisation:
+  commune: Marseille (16e arrondissement)
+  departement: '13'
+  region: Provence-Alpes-Côte d'Azur
+  lat: 43.3642
+  lon: 5.3161
+debut: 2015
+fin: null
+collectif:
+  nom: En Devenir (La Déviation)
+  forme: association
+  annee: 2012
+foncier:
+  porteur: Association Parpaing Libre
+  porteur_forme: association
+  surface_ha: 0.15
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: achat_collectif
+    note: 'Achat en 2019 pour 410 000 € sans banque : apports, prêts de proches, financement participatif.'
+    source: 2
+  titre:
+    valeur: inconnu
+    note: Loyer non rentier prévu par le modèle CLIP ; nature et durée du titre non publiées.
+    source: null
+  verrou:
+    valeur:
+    - veto_reseau
+    note: 'Objet de Parpaing Libre : « empêcher la revente […] ad vitam aeternam » ; veto du CLIP sur la revente.'
+    source: 2
+  gouvernance:
+    valeur: inconnu
+    note: Artistes gestionnaires associé·es aux décisions ; règle non précisée.
+    source: null
+  economie:
+    valeur: inconnu
+    note: Le lieu s'autofinance (cotisations, guinguette à prix libre, pain) ; ressources des personnes non documentées.
+    source: null
+  ouverture:
+    valeur: ouvert_public
+    note: Guinguette à prix libre, portes ouvertes, vie de quartier.
+    source: 1
+  finalite:
+    valeur:
+    - culture
+    - habitat
+    note: Création et résidences artistiques ; habitats légers en carrière.
+    source: 1
+  filiation:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  rapport_etat:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  echelle:
+    valeur: '10_50'
+    note: Une quinzaine de membres actifs.
+    source: 4
+  transmission:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  etat:
+    valeur: actif
+    note: Reconstruction par chantiers participatifs après l'incendie de juillet 2025.
+    source: 5
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: oui
+    note: 'Associations En Devenir (usagère), Parpaing Libre (propriétaire, loi 1901) et CLIP : chaîne entièrement
+      associative.'
+    source: 6
+  foncier_verrouille:
+    valeur: partiel
+    note: 'Objet de Parpaing Libre : empêcher la revente et garantir l''usage « ad vitam aeternam » ; en cas de
+      défaillance, l''usage est confié à un autre collectif. Le verrou tient au montage CLIP : l''association propriétaire
+      n''a que deux membres, l''association usagère et le CLIP, qui détient « un droit de véto sur la revente ».
+      Mais les statuts ne sont pas publiés : aucune clause d''inaliénabilité opposable aux tiers n''est vérifiée,
+      et une association peut modifier ses statuts — la protection repose sur la composition des membres, pas sur
+      un acte publié.'
+    source: 2
+  usage_ig:
+    valeur: oui
+    note: Plus d'une centaine d'artistes accueilli·es en résidence ; guinguette à prix libre et portes ouvertes
+      au quartier.
+    source: 1
+  autogestion:
+    valeur: oui
+    note: Lieu autogéré ; l'association usagère est l'un des deux membres de la propriétaire.
+    source: 3
+  etabli:
+    valeur: oui
+    note: 'Installation en 2015, achat en 2019 : onze ans d''usage continu en 2026. L''incendie de 2025 n''a pas
+      interrompu la présence du collectif.'
+    source: 1
+chronologie:
+- annee: 2012
+  evenement: Création de l'association En Devenir.
+  source: 1
+- annee: 2015
+  evenement: Installation dans l'ancienne cimenterie.
+  source: 1
+- annee: 2017
+  evenement: Déclaration de l'association Parpaing Libre (26 octobre).
+  source: 6
+- annee: 2019
+  evenement: Achat du lieu (410 000 €) par Parpaing Libre.
+  source: 2
+- annee: 2025
+  evenement: Incendie du 8 juillet ; début de la reconstruction.
+  source: 5
+fiabilite:
+  verifie:
+  - Installation en 2015, achat en 2019 (ladeviation.org).
+  - Deux membres et veto du CLIP (brochure, CLIP).
+  - Incendie du 8 juillet 2025.
+  non_confirme:
+  - Texte des statuts de Parpaing Libre (clause d'inaliénabilité, dévolution).
+  - Nature et durée du titre d'usage.
+  - Statut de l'occupation entre 2015 et 2019 (location ou autre).
+liens:
+  communs: la-deviation-marseille
+sources:
+- titre: La Déviation — site
+  auteur: La Déviation
+  annee: null
+  url: https://www.ladeviation.org/
+- titre: Libérons les parpaings (brochure)
+  auteur: Parpaing Libre
+  annee: 2018
+  url: http://www.ladeviation.org/wp-content/uploads/2018/05/ParpaingLibre_brochure_mai.compressed.pdf
+- titre: Qu'est-ce que le Clip ?
+  auteur: CLIP — Réseau de lieux en propriété d'usage
+  annee: null
+  url: https://clip.ouvaton.org/quest-ce-que-le-clip/
+- titre: La Déviation
+  auteur: Arteplan
+  annee: null
+  url: https://arteplan.org/initiative/la-deviation/
+- titre: À l'Estaque, chantiers participatifs pour reconstruire La Déviation après l'incendie
+  auteur: Made in Marseille
+  annee: 2025
+  url: https://madeinmarseille.net/a-la-une-marseille/196220-deviation-chantiers-participatifs-incendie/
+- titre: Parpaing Libre (SIREN 833981764)
+  auteur: Annuaire des entreprises
+  annee: null
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/parpaing-libre-833981764
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

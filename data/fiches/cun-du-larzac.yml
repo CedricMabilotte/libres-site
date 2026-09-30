@@ -1,0 +1,164 @@
+# data/fiches/cun-du-larzac.yml — instruit le 2026-09-30
+uid: cun-du-larzac
+nom: Le Cun du Larzac
+autres_noms:
+- Cun
+famille: lieu_non_marchand
+resume: En 1975, pendant la lutte du Larzac contre l'extension du camp militaire, quatre objecteurs de
+  conscience insoumis occupent illégalement une maison appartenant à l'armée, près de Millau. Après une
+  réinstallation précaire, le Cun s'implante légalement en 1981 dans un habitat construit pour le projet
+  et devient un lieu d'accueil, de formation à la non-violence et d'expériences écologiques. Après des
+  crises financières au milieu des années 1990, l'association est liquidée (2001) puis réorganisée (2002)
+  en lieu d'accueil pour des associations adhérentes ; une SCI du Cun gère les locations et a signé en
+  2008 un bail de 40 ans avec l'association Champs du Monde. Un éco-camping y est exploité par une SARL
+  coopérative.
+localisation:
+  commune: Millau
+  departement: '12'
+  region: Occitanie
+  lat: 44.0983
+  lon: 3.0779
+debut: 1975
+fin: null
+collectif:
+  nom: Le Cun du Larzac (association)
+  forme: association
+  annee: 1978
+foncier:
+  porteur: SCI du Cun (associés non documentés)
+  porteur_forme: societe_civile_parts_cessibles
+  surface_ha: null
+  titre_duree_ans: 40
+dimensions:
+  acces:
+    valeur: occupation
+    note: Occupation illégale d'une maison de l'armée en 1975, puis implantation légale en 1981 (mode
+      d'acquisition non précisé).
+    source: 1
+  titre:
+    valeur: inconnu
+    note: La SCI du Cun loue aux structures ; titre de l'association Le Cun non documenté (bail de 40
+      ans consenti à Champs du Monde).
+    source: 1
+  verrou:
+    valeur:
+    - aucun
+    note: Aucune inaliénabilité documentée ; foncier porté par une SCI.
+    source: 1
+  gouvernance:
+    valeur: mixte
+    note: Décision par consensus avec médiation externe ; conseil d'administration de délégués des associations
+      adhérentes.
+    source: 1
+  economie:
+    valeur: activites_marchandes_annexes
+    note: Accueil de groupes, camping (dont SARL coopérative d'éco-camping).
+    source: 3
+  ouverture:
+    valeur: ouvert_public
+    note: Accueil de groupes, formations, camping.
+    source: 1
+  finalite:
+    valeur:
+    - lutte_territoriale
+    - education_populaire
+    - accueil_soin
+    - agriculture
+    note: Lutte du Larzac, formation à la non-violence, accueil, travaux agricoles.
+    source: 1
+  filiation:
+    valeur:
+    - non_violence
+    - ecologie_politique
+    note: Objecteurs de conscience ; solidarité, écologie, non-violence.
+    source: 1
+  rapport_etat:
+    valeur: regularisation
+    note: Occupation d'un bien de l'armée, puis implantation légale en 1981.
+    source: 1
+  echelle:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  transmission:
+    valeur: en_cours
+    note: Réorganisation de 2002 et reprise par de nouvelles structures (2008).
+    source: 1
+  etat:
+    valeur: transforme
+    note: Liquidation de l'association historique (2001), réorganisation en fédération d'associations
+      (2002).
+    source: 1
+  fin:
+    valeur: faillite
+    note: Crises financières des années 1990 et liquidation de mars 2001, suivie d'une réorganisation.
+    source: 1
+portes:
+  forme_civile:
+    valeur: non
+    note: Foncier porté par une SCI (parts présumées cessibles) et éco-camping exploité par une SARL coopérative.
+    source: 3
+  foncier_verrouille:
+    valeur: partiel
+    note: Bail de 40 ans (2008) au profit de l'association Champs du Monde, mais bailleur SCI sans inaliénabilité
+      connue.
+    source: 1
+  usage_ig:
+    valeur: oui
+    note: Accueil, formation à la non-violence, engagement dans la lutte du Larzac.
+    source: 1
+  autogestion:
+    valeur: partiel
+    note: Consensus et conseil de délégués ; liquidation et restructuration liées à des conflits internes.
+    source: 1
+  etabli:
+    valeur: oui
+    note: Présence continue depuis 1975.
+    source: 1
+chronologie:
+- annee: 1975
+  evenement: Occupation d'une maison de l'armée par quatre objecteurs.
+  source: 1
+- annee: 1981
+  evenement: Implantation légale dans un habitat construit.
+  source: 1
+- annee: 2001
+  evenement: Liquidation (mars).
+  source: 1
+- annee: 2002
+  evenement: Réorganisation (janvier).
+  source: 1
+- annee: 2006
+  evenement: Création de la SARL coopérative Eco camping du Larzac.
+  source: 3
+- annee: 2008
+  evenement: Bail de 40 ans entre la SCI du Cun et l'association Champs du Monde.
+  source: 1
+fiabilite:
+  verifie:
+  - Occupation 1975 et régularisation 1981 (Irénées).
+  - SCI du Cun et bail de 40 ans (Irénées).
+  - 'Association (SIRENE : 1978) ; SARL coopérative (RNE : 2006).'
+  non_confirme:
+  - Associés de la SCI et cessibilité des parts.
+  - Mode d'acquisition du terrain en 1981 et rapport au domaine de la SCTL.
+  - Lien exact entre l'association historique liquidée en 2001 et l'association SIRENE active.
+liens:
+  communs: null
+sources:
+- titre: Cun du Larzac — un lieu d'enracinement, d'expériences et d'accueil
+  auteur: Irénées
+  annee: 2007
+  url: https://www.irenees.net/bdf_fiche-acteurs-305_fr.html
+- titre: LE CUN DU LARZAC — SIREN 312067986
+  auteur: Societe.com (données SIRENE)
+  annee: null
+  url: https://www.societe.com/societe/le-cun-du-larzac-312067986.html
+- titre: ECO CAMPING DU LARZAC — SIREN 497669663
+  auteur: Pappers (données RNE)
+  annee: null
+  url: https://www.pappers.fr/entreprise/eco-camping-du-larzac-497669663
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

@@ -1,0 +1,135 @@
+# data/fiches/communes-libertaires-ariege-villeneuve-du-bosc.yml — instruit le 2026-09-30
+uid: communes-libertaires-ariege-villeneuve-du-bosc
+nom: Communes libertaires d'Ariège (Villeneuve-du-Bosc)
+autres_noms:
+- Communauté libertaire de Villeneuve-du-Bosc
+famille: communaute_intentionnelle
+resume: En 1970, une communauté libertaire s'installe dans le noyau villageois abandonné de Villeneuve-du-Bosc,
+  près de Foix, pour y mener une expérience de « commune libertaire » dans le sillage du néo-ruralisme
+  d'après 1968. La commune administrative est rattachée à Saint-Jean-de-Verges en 1975. D'autres communautés
+  ariégeoises de la même période sont citées sans détail. Le mode d'accès au lieu, la gouvernance et la
+  date de fin ne sont documentés par aucune source consultée.
+localisation:
+  commune: Saint-Jean-de-Verges
+  departement: 09
+  region: Occitanie
+  lat: 43.02
+  lon: 1.62
+debut: 1970
+fin: null
+collectif:
+  nom: Communauté libertaire de Villeneuve-du-Bosc
+  forme: collectif_de_fait
+  annee: 1970
+foncier:
+  porteur: inconnu
+  porteur_forme: inconnu
+  surface_ha: null
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: inconnu
+    note: '« S''installe » dans un village abandonné : occupation, location ou achat non établi.'
+    source: 2
+  titre:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  verrou:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  gouvernance:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  economie:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  ouverture:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  finalite:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  filiation:
+    valeur:
+    - anarchisme
+    - neo_ruralisme
+    note: Communauté libertaire fondée en 1970 ; expérience de « commune libertaire » après Mai 68.
+    source: 1
+  rapport_etat:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  echelle:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  transmission:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  etat:
+    valeur: disparu
+    note: Aucune activité connue ; date et cause de fin non sourcées.
+    source: 2
+  fin:
+    valeur: null
+    note: Cause de fin non documentée.
+    source: null
+portes:
+  forme_civile:
+    valeur: inconnu
+    note: Forme du collectif et propriétaire du lieu non documentés.
+    source: null
+  foncier_verrouille:
+    valeur: inconnu
+    note: Mode d'accès au lieu non documenté.
+    source: null
+  usage_ig:
+    valeur: inconnu
+    note: Aucune source sur l'usage.
+    source: null
+  autogestion:
+    valeur: inconnu
+    note: Aucune source sur la gouvernance.
+    source: null
+  etabli:
+    valeur: inconnu
+    note: Date de fin non sourcée ; une « dispersion rapide » est avancée sans source vérifiée.
+    source: null
+chronologie:
+- annee: 1970
+  evenement: Fondation de la communauté libertaire de Villeneuve-du-Bosc.
+  source: 1
+- annee: 1975
+  evenement: Rattachement de la commune de Villeneuve-du-Bosc à Saint-Jean-de-Verges.
+  source: 2
+fiabilite:
+  verifie:
+  - Fondation en 1970 dans un village abandonné près de Foix
+  - Rattachement communal de 1975
+  non_confirme:
+  - Mode d'accès au lieu (occupation supposée)
+  - Date et cause de fin
+  - Autres communes ariégeoises (Sarrat d'Uscla, Le Bosc, Planel-du-Bis) citées sans source primaire
+  - Ouvrage d'analyse de 1972 (Théorie et pratique de la vie en communauté, Bélibaste) non consulté
+liens:
+  communs: null
+sources:
+- titre: Communauté libertaire
+  auteur: Wikipédia
+  annee: null
+  url: https://fr.wikipedia.org/wiki/Communauté_libertaire
+- titre: Villeneuve-du-Bosc
+  auteur: Wikipédia
+  annee: null
+  url: https://fr.wikipedia.org/wiki/Villeneuve-du-Bosc
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

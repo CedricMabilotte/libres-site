@@ -1,0 +1,143 @@
+# data/fiches/ancrage.yml — instruit le 2026-09-30
+uid: ancrage
+nom: Ancrage
+autres_noms: []
+famille: lieu_non_marchand
+resume: Immeuble de quatre étages (environ 360 m²) dans le quartier des Trois Maisons, à Nancy, acheté en 2022 par
+  le collectif Ancrage, né d'une lutte de quartier contre la gentrification, grâce à des dons, des subventions de
+  fondations, des prêts privés et un emprunt bancaire. On y trouve trois logements, un atelier d'imprimerie, une
+  bibliothèque féministe, une zone de gratuité, des repas solidaires et un espace d'éducation populaire. Le lieu
+  fonctionne sur le bénévolat et des relations non marchandes ; le portage par le fonds Antidote est annoncé mais
+  aucun transfert n'est documenté.
+localisation:
+  commune: Nancy
+  departement: '54'
+  region: Grand Est
+  lat: 48.6881
+  lon: 6.1734
+debut: 2022
+fin: null
+collectif:
+  nom: Ancrage
+  forme: association
+  annee: 2020
+foncier:
+  porteur: Association Ancrage (acquéreuse en 2022) ; portage par Antidote annoncé
+  porteur_forme: association
+  surface_ha: null
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: achat_collectif
+    note: 'Achat en 2022 : dons, subventions de fondations, prêts privés et bancaires.'
+    source: 1
+  titre:
+    valeur: propriete
+    note: Le collectif a acheté le bâtiment ; transfert au fonds Antidote non documenté.
+    source: 1
+  verrou:
+    valeur: inconnu
+    note: Ni clause statutaire publiée, ni transfert au fonds documenté.
+    source: null
+  gouvernance:
+    valeur: inconnu
+    note: « Les participant·es décident ensemble » ; règle non précisée.
+    source: null
+  economie:
+    valeur: inconnu
+    note: Lieu financé par dons ; activités gratuites ou à prix libre ; ressources des personnes non documentées.
+    source: null
+  ouverture:
+    valeur: ouvert_public
+    note: Bibliothèque, permanences, repas et événements publics.
+    source: 1
+  finalite:
+    valeur:
+    - habitat
+    - education_populaire
+    - culture
+    note: Trois logements, imprimerie, bibliothèque, éducation populaire.
+    source: 2
+  filiation:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  rapport_etat:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  echelle:
+    valeur: moins_10
+    note: Collectif de six personnes en 2023 ; trois résident·es.
+    source: 3
+  transmission:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  etat:
+    valeur: actif
+    note: Fête de soutien annoncée en août 2026.
+    source: 1
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: oui
+    note: Association loi 1901 (créée en 2020) propriétaire ; fonds de dotation partenaire.
+    source: 4
+  foncier_verrouille:
+    valeur: partiel
+    note: Association propriétaire sans clause d'inaliénabilité publiée ; objet statutaire de pérenniser la vocation
+      collective des lieux, mais pas de transfert à Antidote ni de bail documenté. Même après transfert, le fonds
+      peut vendre à l'unanimité de son CA (Silence 2023).
+    source: 3
+  usage_ig:
+    valeur: oui
+    note: Bénévolat et relations non marchandes ; la plupart des activités sont gratuites.
+    source: 1
+  autogestion:
+    valeur: oui
+    note: Les participant·es à la vie du lieu décident ensemble des orientations de l'association.
+    source: 1
+  etabli:
+    valeur: non
+    note: 'Achat en 2022 : quatre ans. Pas encore établi — normal pour un lieu récent.'
+    source: 1
+chronologie:
+- annee: 2020
+  evenement: Déclaration de l'association Ancrage (12 mai).
+  source: 4
+- annee: 2022
+  evenement: Achat de l'immeuble.
+  source: 1
+fiabilite:
+  verifie:
+  - Création de l'association le 12 mai 2020 (Pappers).
+  - Achat en 2022 et fonctionnement non marchand (Manif'Est, 2026).
+  non_confirme:
+  - Titulaire actuel du titre (association ou fonds Antidote).
+  - Existence d'un bail emphytéotique.
+  - Effectif actuel (six personnes en 2023).
+liens:
+  communs: ancrage
+sources:
+- titre: '[Nancy] Fête de soutien à Ancrage'
+  auteur: Manif'Est
+  annee: 2026
+  url: https://manif-est.info/Nancy-Fete-de-soutien-a-Ancrage-4153.html
+- titre: Les lieux
+  auteur: Antidote
+  annee: null
+  url: https://aventure-antidote.org/qui-sommes-nous/nos-lieux/
+- titre: 'L''Antidote : des lieux que personne ne possède (Silence n°517, repris par Pressenza)'
+  auteur: Revue Silence
+  annee: 2023
+  url: https://www.pressenza.com/fr/2023/01/lantidote-des-lieux-que-personne-ne-possede/
+- titre: Association Ancrage (SIREN 888168697)
+  auteur: Pappers
+  annee: null
+  url: https://www.pappers.fr/entreprise/ancrage-888168697
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

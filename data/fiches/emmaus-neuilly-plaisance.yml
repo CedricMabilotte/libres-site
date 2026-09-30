@@ -1,0 +1,159 @@
+# data/fiches/emmaus-neuilly-plaisance.yml — instruit le 2026-09-30
+uid: emmaus-neuilly-plaisance
+nom: Première communauté Emmaüs (Neuilly-Plaisance)
+autres_noms:
+- Neuilly Emmaüs Avenir
+- Communauté Emmaüs de Neuilly-Plaisance
+famille: communaute_intentionnelle
+resume: En octobre 1947, l'abbé Pierre et Lucie Coutaz s'installent au 38 avenue Paul-Doumer à Neuilly-Plaisance,
+  maison qu'ils aménagent en auberge de jeunesse baptisée Emmaüs. En 1949, la rencontre avec Georges Legay,
+  premier compagnon, en fait un lieu d'accueil inconditionnel où les compagnons vivent de la récupération
+  et de la revente d'objets. Le mouvement s'étend (terrain de Champs-Fleuris en 1950, site de Neuilly-sur-Marne),
+  l'association Emmaüs est créée en 1954. Les communautés de Neuilly-Plaisance et Neuilly-sur-Marne fusionnent
+  en 2011 sous le nom de Neuilly Emmaüs Avenir, organisme d'accueil communautaire (OACAS) d'environ 80
+  compagnons.
+localisation:
+  commune: Neuilly-Plaisance
+  departement: '93'
+  region: Île-de-France
+  lat: 48.8631
+  lon: 2.5064
+debut: 1949
+fin: null
+collectif:
+  nom: Neuilly Emmaüs Avenir
+  forme: association
+  annee: 2011
+foncier:
+  porteur: Maison achetée par l'abbé Pierre (1947-1949) ; propriétaire actuel non documenté
+  porteur_forme: null
+  surface_ha: null
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: achat_prive_fondateur
+    note: Maison achetée par l'abbé Pierre (Henri Grouès).
+    source: 2
+  titre:
+    valeur: inconnu
+    note: Titre actuel de la communauté sur le 38 avenue Paul-Doumer non documenté.
+    source: null
+  verrou:
+    valeur: inconnu
+    note: Aucune source sur la propriété actuelle ni sur une clause de dévolution.
+    source: null
+  gouvernance:
+    valeur: inconnu
+    note: Place des compagnons dans les décisions non documentée ; période fondatrice sous l'autorité
+      de l'abbé Pierre.
+    source: null
+  economie:
+    valeur: activites_marchandes_annexes
+    note: Collecte, réparation et revente d'objets (plus de 3 000 t/an), sans subvention de fonctionnement
+      ; la vente est la ressource principale, catégorie imparfaite.
+    source: 3
+  ouverture:
+    valeur: ouvert_public
+    note: Accueil inconditionnel ; ventes ouvertes au public.
+    source: 4
+  finalite:
+    valeur:
+    - accueil_soin
+    - habitat
+    note: Accueil et hébergement de personnes sans logis, travail solidaire.
+    source: 3
+  filiation:
+    valeur:
+    - christianisme_communautaire
+    note: Fondation par un prêtre catholique ; épisode biblique d'Emmaüs.
+    source: 2
+  rapport_etat:
+    valeur: conventionnement
+    note: Statut d'OACAS reconnu par l'État depuis 2008-2009.
+    source: 4
+  echelle:
+    valeur: '50_200'
+    note: Environ 80 compagnes et compagnons (sites de Neuilly-Plaisance et Neuilly-sur-Marne).
+    source: 3
+  transmission:
+    valeur: generations_renouvelees
+    note: Communauté en activité depuis 1949, fusion de 2011.
+    source: 3
+  etat:
+    valeur: actif
+    note: En activité.
+    source: 3
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: partiel
+    note: Association (OACAS), mais propriétaire actuel du lieu non établi ; maison achetée à l'origine
+      par l'abbé Pierre, personne privée.
+    source: 2
+  foncier_verrouille:
+    valeur: inconnu
+    note: Aucune source sur la propriété actuelle, une inaliénabilité ou une dévolution.
+    source: null
+  usage_ig:
+    valeur: oui
+    note: Accueil inconditionnel de personnes en détresse, ventes solidaires ouvertes.
+    source: 4
+  autogestion:
+    valeur: inconnu
+    note: Gouvernance réelle non documentée ; autorité de fondateur à l'origine.
+    source: null
+  etabli:
+    valeur: oui
+    note: Usage continu sur le site depuis 1949.
+    source: 3
+chronologie:
+- annee: 1947
+  evenement: Installation de l'abbé Pierre au 38 avenue Paul-Doumer (octobre).
+  source: 1
+- annee: 1949
+  evenement: Georges Legay, premier compagnon ; naissance de la communauté.
+  source: 3
+- annee: 1950
+  evenement: Achat du terrain de Champs-Fleuris (logements d'urgence).
+  source: 1
+- annee: 1954
+  evenement: Création de l'association Emmaüs.
+  source: 2
+- annee: 2011
+  evenement: 'Fusion des communautés de Neuilly-Plaisance et Neuilly-sur-Marne : Neuilly Emmaüs Avenir.'
+  source: 3
+fiabilite:
+  verifie:
+  - Adresse et date d'installation (Département 93, 2023).
+  - Achat par l'abbé Pierre (Wikipédia).
+  - Fusion 2011, statut OACAS, ~80 compagnons (site de la communauté).
+  non_confirme:
+  - Propriétaire actuel et titre d'occupation.
+  - Rôle statutaire des compagnons dans la gouvernance.
+  - 'Achat de la maison : 1947 ou 1949 selon les sources.'
+  - 'Limite du cadre (§5) : les révélations publiques de 2024 sur les violences sexuelles attribuées à
+    l''abbé Pierre ne sont pas instruites ici.'
+liens:
+  communs: null
+sources:
+- titre: La Seine-Saint-Denis, berceau d'Emmaüs
+  auteur: Département de la Seine-Saint-Denis (I. Lopez)
+  annee: 2023
+  url: https://seinesaintdenis.fr/actualite/culture-patrimoine/memoire/La-SeineSaintDenisberceaudEmmaus/
+- titre: Mouvement Emmaüs
+  auteur: Wikipédia
+  annee: null
+  url: https://fr.wikipedia.org/wiki/Mouvement_Emma%C3%BCs
+- titre: Histoire ; Neuilly Emmaüs Avenir
+  auteur: Neuilly Emmaüs Avenir
+  annee: null
+  url: https://www.neuillyemmausavenir.fr/neuilly-emmaus-avenir/
+- titre: Communauté Emmaüs
+  auteur: Wikipédia
+  annee: null
+  url: https://fr.wikipedia.org/wiki/Communaut%C3%A9_Emma%C3%BCs
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

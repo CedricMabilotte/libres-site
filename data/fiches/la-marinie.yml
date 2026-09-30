@@ -1,0 +1,173 @@
+# data/fiches/la-marinie.yml — instruit le 2026-09-30
+uid: la-marinie
+nom: Les Communs de la Marinie
+autres_noms:
+- La Marinie
+famille: commun_foncier
+resume: Ferme d'environ 27 hectares du hameau de la Marinie, à Causse-et-Diège (nord Aveyron). L'aventure collective
+  commence en 2017 ; l'association Les Communs de la Marinie, créée en 2021, réunit les usager·es du lieu. Une collecte
+  lancée en 2021 a permis l'entrée du lieu dans Antidote, et la propriété a été transférée au fonds de dotation
+  en novembre 2024. On y cultive céréales et oléagineux, on y fait pain et savons, et le lieu accueille ateliers,
+  projections et soirées.
+localisation:
+  commune: Causse-et-Diège
+  departement: '12'
+  region: Occitanie
+  lat: 44.5249
+  lon: 2.0322
+debut: 2017
+fin: null
+collectif:
+  nom: Les Communs de la Marinie
+  forme: association
+  annee: 2021
+foncier:
+  porteur: Fonds de dotation Antidote
+  porteur_forme: fonds_dotation
+  surface_ha: 27
+  titre_duree_ans: 99
+dimensions:
+  acces:
+    valeur: souscription
+    note: Collecte de dons lancée en 2021 via Antidote ; titre de propriété transféré au fonds en novembre 2024.
+    source: 7
+  titre:
+    valeur: bail_emphyteotique
+    note: Bail emphytéotique de 99 ans à redevance modique prévu par le modèle Antidote ; l'acte propre à ce lieu
+      n'est pas publié.
+    source: 3
+  verrou:
+    valeur:
+    - devolution_desinteressee
+    note: Dévolution légale de l'actif d'un fonds de dotation à un organisme non lucratif ; revente possible à l'unanimité
+      du CA (Silence 2023) ; aucune clause d'inaliénabilité publiée.
+    source: 5
+  gouvernance:
+    valeur: conseil_delegue
+    note: Selon le site du lieu (relevé par la fiche Communs), un conseil arbitre l'attribution des espaces, les
+      gros travaux et la désignation des représentant·es.
+    source: 6
+  economie:
+    valeur: activites_marchandes_annexes
+    note: Production et vente de pain et de savons (usager principal « Aux Prés en bulles »).
+    source: 1
+  ouverture:
+    valeur: ouvert_public
+    note: Ateliers, projections, cours et soirées ouverts.
+    source: 1
+  finalite:
+    valeur:
+    - agriculture
+    - artisanat_production
+    - culture
+    note: Céréales et oléagineux, boulangerie, savonnerie, propositions culturelles.
+    source: 1
+  filiation:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  rapport_etat:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  echelle:
+    valeur: inconnu
+    note: Noyau d'ami·es et bénévoles mentionné sans effectif chiffré.
+    source: null
+  transmission:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  etat:
+    valeur: actif
+    note: Transfert du titre de propriété célébré au printemps 2025 ; seconde phase de collecte pour les rénovations.
+    source: 2
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: oui
+    note: Association loi 1901 usagère ; propriété d'un fonds de dotation piloté par l'association Les Passagères
+      de l'usage.
+    source: 3
+  foncier_verrouille:
+    valeur: partiel
+    note: 'Propriété transférée au fonds en novembre 2024. Aucune clause d''inaliénabilité publiée dans les statuts
+      du fonds : selon Silence (2023), Antidote « peut vendre un lieu à l''unanimité de son conseil d''administration
+      » (trois administrateur·rices nommé·es par Les Passagères de l''usage). La dévolution de l''actif net d''un
+      fonds de dotation dissous à un autre fonds ou à une fondation RUP est légale (loi 2008, art. 140) mais ne
+      verrouille pas le lieu lui-même ; le bail emphytéotique de 99 ans, qui serait opposable à un acquéreur, n''est
+      pas publié pour ce lieu.'
+    source: 4
+  usage_ig:
+    valeur: oui
+    note: Activité agricole et artisanale sans rente foncière, ouverte au territoire (ventes, ateliers, soirées).
+    source: 1
+  autogestion:
+    valeur: oui
+    note: L'association des usager·es décide des usages ; chaque lieu envoie deux délégué·es au Conseil communal
+      des Passagères de l'usage (consensus, à défaut majorité qualifiée), qui pilote le fonds.
+    source: 3
+  etabli:
+    valeur: non
+    note: 'Aventure commencée en 2017 : neuf ans en 2026. Pas encore établi — normal pour un lieu récent.'
+    source: 1
+chronologie:
+- annee: 2017
+  evenement: Début de l'aventure collective à la Marinie.
+  source: 1
+- annee: 2021
+  evenement: Création de l'association Les Communs de la Marinie ; lancement de la collecte avec Antidote.
+  source: 7
+- annee: 2024
+  evenement: Transfert de la propriété au fonds de dotation Antidote (novembre).
+  source: 2
+fiabilite:
+  verifie:
+  - Début en 2017 (Antidote, Les lieux).
+  - Transfert de propriété à Antidote en novembre 2024 (Antidote, lettre d'avril 2025).
+  - Revente possible à l'unanimité du CA d'Antidote (Silence n°517).
+  non_confirme:
+  - Signature et durée du bail emphytéotique propre au lieu.
+  - Surface exacte (27 ha selon Communs/Socialter).
+  - 'Silence (2023) situerait le début en 2015 : divergence avec la page Antidote (2017).'
+  - 'Site du lieu injoignable le 2026-09-30 : gouvernance reprise de la fiche Communs.'
+liens:
+  communs: la-marinie
+sources:
+- titre: Les lieux
+  auteur: Antidote
+  annee: null
+  url: https://aventure-antidote.org/qui-sommes-nous/nos-lieux/
+- titre: Antidote — accueil et lettres d'information (transferts de propriété de novembre 2024)
+  auteur: Antidote
+  annee: 2025
+  url: https://aventure-antidote.org/
+- titre: Notre fonctionnement
+  auteur: Antidote
+  annee: null
+  url: https://aventure-antidote.org/comment-ca-marche/notre-fonctionnement/
+- titre: 'L''Antidote : des lieux que personne ne possède (Silence n°517, repris par Pressenza)'
+  auteur: Revue Silence
+  annee: 2023
+  url: https://www.pressenza.com/fr/2023/01/lantidote-des-lieux-que-personne-ne-possede/
+- titre: Loi n° 2008-776 du 4 août 2008 de modernisation de l'économie, art. 140 (fonds de dotation)
+  auteur: Légifrance
+  annee: 2008
+  url: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000019283050
+- titre: Les Communs de la Marinie — site
+  auteur: Les Communs de la Marinie
+  annee: null
+  url: https://lescommunsdelamarinie.fr/
+- titre: Les communs de la Marinie — collecte
+  auteur: La Foncière Antidote (HelloAsso)
+  annee: 2021
+  url: https://www.helloasso.com/associations/la-fonciere-antidote/collectes/les-communs-de-la-marinie
+- titre: La foncière Antidote, un fonds de dotation pour pérenniser les luttes
+  auteur: Socialter
+  annee: 2023
+  url: https://www.socialter.fr/article/la-fonciere-antidote-fond-dotation-lutte
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

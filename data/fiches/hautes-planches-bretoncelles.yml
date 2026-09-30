@@ -1,0 +1,146 @@
+# data/fiches/hautes-planches-bretoncelles.yml — instruit le 2026-09-30
+uid: hautes-planches-bretoncelles
+nom: Les Hautes-Planches
+autres_noms:
+- Moulin de Haute Planche
+famille: lieu_non_marchand
+resume: 'Ancien moulin à Bretoncelles, dans le Perche ornais : lieu d''habitat, d''ateliers et d''activités culturelles,
+  avec des espaces à prix libre accessibles à tous. L''association usagère Hautes Planches, déclarée en mai 2017,
+  occupe et gère le lieu ; l''association Les Donnettes a acheté le corps principal du moulin en octobre 2017, puis
+  une parcelle complémentaire par financement participatif. Montage CLIP : Les Donnettes n''a que deux membres,
+  l''association usagère et le réseau CLIP, garant de la non-revente.'
+localisation:
+  commune: Bretoncelles
+  departement: '61'
+  region: Normandie
+  lat: 48.4388
+  lon: 0.9055
+debut: 2017
+fin: null
+collectif:
+  nom: Hautes Planches
+  forme: association
+  annee: 2017
+foncier:
+  porteur: Association Les Donnettes
+  porteur_forme: association
+  surface_ha: null
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: achat_collectif
+    note: Achat par l'association propriétaire, emprunt remboursé par les loyers (modèle CLIP) ; parcelle du Broc
+      par collecte.
+    source: 4
+  titre:
+    valeur: inconnu
+    note: Usagère locataire de la propriétaire (modèle CLIP) ; titre et durée non publiés.
+    source: null
+  verrou:
+    valeur:
+    - veto_reseau
+    note: CLIP second et seul autre membre de la propriétaire, avec veto sur la revente.
+    source: 2
+  gouvernance:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  economie:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  ouverture:
+    valeur: ouvert_public
+    note: Mise à disposition d'espaces « à prix libre, accessibles à tous ».
+    source: 3
+  finalite:
+    valeur:
+    - habitat
+    - culture
+    note: Projet mixte artistique et habitat.
+    source: 1
+  filiation:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  rapport_etat:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  echelle:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  transmission:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  etat:
+    valeur: actif
+    note: Listé parmi les lieux du CLIP.
+    source: 1
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: oui
+    note: Associations Hautes Planches (usagère), Les Donnettes (propriétaire) et CLIP.
+    source: 5
+  foncier_verrouille:
+    valeur: partiel
+    note: 'Le verrou tient au montage CLIP : l''association propriétaire n''a que deux membres, l''association usagère
+      et le CLIP, qui détient « un droit de véto sur la revente ». Mais les statuts ne sont pas publiés : aucune
+      clause d''inaliénabilité opposable aux tiers n''est vérifiée, et une association peut modifier ses statuts
+      — la protection repose sur la composition des membres, pas sur un acte publié.'
+    source: 2
+  usage_ig:
+    valeur: oui
+    note: 'Objet : « lieu collectif et solidaire » ; espaces à prix libre accessibles à tous.'
+    source: 3
+  autogestion:
+    valeur: oui
+    note: Lieu membre d'un réseau de « lieux solidaires et autogérés » ; l'usagère est membre de la propriétaire.
+    source: 2
+  etabli:
+    valeur: non
+    note: 'Association usagère déclarée et achat en 2017 : neuf ans en 2026. Pas encore établi — normal pour un
+      lieu récent.'
+    source: 3
+chronologie:
+- annee: 2017
+  evenement: Déclaration de l'association Hautes Planches (18 mai) ; achat du moulin par Les Donnettes (octobre).
+  source: 3
+fiabilite:
+  verifie:
+  - Déclaration de l'usagère le 18 mai 2017 ; objet et prix libre (Annuaire des entreprises).
+  - Montage à deux membres avec le CLIP.
+  non_confirme:
+  - 'Date d''achat (octobre 2017, fiche Communs) : non revérifiée à la source.'
+  - Statuts des Donnettes ; titre d'usage ; effectif (une quinzaine selon Communs).
+liens:
+  communs: hautes-planches-bretoncelles
+sources:
+- titre: Les lieux
+  auteur: CLIP — Réseau de lieux en propriété d'usage
+  annee: null
+  url: https://clip.ouvaton.org/les-projets/
+- titre: Qu'est-ce que le Clip ?
+  auteur: CLIP — Réseau de lieux en propriété d'usage
+  annee: null
+  url: https://clip.ouvaton.org/quest-ce-que-le-clip/
+- titre: Hautes Planches (SIREN 834607483)
+  auteur: Annuaire des entreprises
+  annee: null
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/hautes-planches-834607483
+- titre: Les Donnettes — collecte « Achat du Broc »
+  auteur: Les Donnettes (HelloAsso)
+  annee: null
+  url: https://www.helloasso.com/associations/les-donnettes/collectes/achat-du-broc
+- titre: Associations de Bretoncelles
+  auteur: Annuaire-mairie
+  annee: null
+  url: https://www.annuaire-mairie.fr/association-bretoncelles.html
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

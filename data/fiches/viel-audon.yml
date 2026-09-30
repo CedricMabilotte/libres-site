@@ -1,0 +1,153 @@
+# data/fiches/viel-audon.yml — instruit le 2026-09-30
+uid: viel-audon
+nom: Le Viel Audon
+autres_noms:
+- Hameau du Viel Audon
+famille: lieu_non_marchand
+resume: 'Hameau abandonné des gorges de l''Ardèche, à Balazuc, le Viel Audon est redécouvert en 1972 par
+  de jeunes gens : les ruines sont achetées et reconstruites pierre à pierre par des chantiers de jeunes
+  bénévoles. Pour résoudre la question de la propriété, le site est confié à l''association Le Mat par
+  un bail emphytéotique de 99 ans. Le hameau associe aujourd''hui l''association Le Mat (accueil, éducation
+  à l''environnement), l''Association des jeunes de chantier, une ferme en SCEA et d''autres structures
+  ; 15 à 20 personnes y vivent à l''année. Un conseil de hameau réunit les résidents chaque trimestre
+  ; les salariés sont payés au SMIC avec prime d''ancienneté.'
+localisation:
+  commune: Balazuc
+  departement: '07'
+  region: Auvergne-Rhône-Alpes
+  lat: 44.5075
+  lon: 4.3717
+debut: 1972
+fin: null
+collectif:
+  nom: Association Le Mat
+  forme: association
+  annee: null
+foncier:
+  porteur: Bailleur non documenté (ruines achetées dans les années 1970, acquéreur non précisé)
+  porteur_forme: null
+  surface_ha: null
+  titre_duree_ans: 99
+dimensions:
+  acces:
+    valeur: inconnu
+    note: « Les ruines sont achetées » ; acquéreur non précisé.
+    source: 2
+  titre:
+    valeur: bail_emphyteotique
+    note: Site donné « à l'association pour 99 ans » par bail emphytéotique ; date de l'acte non connue.
+    source: 1
+  verrou:
+    valeur:
+    - bail_long
+    note: Bail emphytéotique de 99 ans ; aucune inaliénabilité documentée sur le tréfonds.
+    source: 1
+  gouvernance:
+    valeur: mixte
+    note: Conseil de hameau trimestriel des résidents, repas hebdomadaires, séminaire annuel ; décisions
+      formelles dans chaque structure.
+    source: 2
+  economie:
+    valeur: salariat_structure
+    note: Treize salariés répartis entre les structures, rémunérés au SMIC plus ancienneté.
+    source: 2
+  ouverture:
+    valeur: ouvert_public
+    note: Scolaires, stages, randonneurs, chantiers jusqu'à 50 bénévoles.
+    source: 2
+  finalite:
+    valeur:
+    - education_populaire
+    - agriculture
+    - habitat
+    note: Éducation à l'environnement, chantiers de jeunes, ferme, habitat permanent.
+    source: 3
+  filiation:
+    valeur:
+    - education_populaire
+    - neo_ruralisme
+    note: Chantiers de jeunes (adhésion à Études et chantiers), retour à la campagne des années 1970.
+    source: 1
+  rapport_etat:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  echelle:
+    valeur: '10_50'
+    note: 15 à 20 résidents permanents, 13 salariés.
+    source: 2
+  transmission:
+    valeur: inconnu
+    note: Présidence du Mat par la même personne de 1977 à 2002 ; relève non documentée.
+    source: 1
+  etat:
+    valeur: actif
+    note: En activité.
+    source: 3
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: partiel
+    note: Association Le Mat preneuse, mais bailleur non identifié et ferme portée par une SCEA (société
+      civile à parts).
+    source: 4
+  foncier_verrouille:
+    valeur: oui
+    note: Bail emphytéotique de 99 ans au profit de l'association (titre d'usage ≥ 30 ans) ; périmètre
+      exact (bâti, terres de la SCEA) non précisé.
+    source: 1
+  usage_ig:
+    valeur: oui
+    note: Éducation à l'environnement, chantiers de jeunes, accueil de scolaires et de groupes.
+    source: 2
+  autogestion:
+    valeur: partiel
+    note: Conseil de hameau des résidents, mais décisions réparties entre plusieurs personnes morales
+      ; souveraineté de l'assemblée non établie.
+    source: 2
+  etabli:
+    valeur: oui
+    note: Usage continu depuis 1972.
+    source: 2
+chronologie:
+- annee: 1972
+  evenement: Redécouverte du hameau, achat des ruines, premiers chantiers de jeunes.
+  source: 2
+- annee: 1977
+  evenement: Début d'une présidence de l'association Le Mat qui dure jusqu'en 2002.
+  source: 1
+- annee: 1991
+  evenement: Création de la SCEA Le Vieil Audon (ferme).
+  source: 4
+fiabilite:
+  verifie:
+  - Bail emphytéotique de 99 ans à l'association (Barras, REPAS).
+  - Gouvernance, salariat, effectifs (Silence n°515).
+  non_confirme:
+  - Identité du bailleur (fondateurs ? autre ?) et date du bail.
+  - 'Date de création de l''association Le Mat (SIRENE : 1984 ; présidence attestée dès 1977).'
+  - Périmètre couvert par le bail.
+liens:
+  communs: null
+sources:
+- titre: Chantier ouvert au public — le Viel Audon, village coopératif (fiche ECM-0026)
+  auteur: Béatrice Barras, éditions REPAS (2008, rééd. 2014), fiche Habitat coopér'actif
+  annee: 2008
+  url: https://habitat-cooperactif.eu/wp-content/uploads/2019/04/ECM0026_le-Viel-Audon-village-coop%C3%A9ratif.pdf
+- titre: Le Viel Audon, des ruines à l'écovillage (Silence n°515)
+  auteur: Michel Bernard, Revue Silence
+  annee: null
+  url: https://www.revuesilence.net/numeros/515-Nucleaire-l-impasse-programmee-500/le-viel-audon-des-ruines-a-l-ecovillage
+- titre: Le Viel Audon
+  auteur: Association Le Mat
+  annee: null
+  url: https://levielaudon.org/
+- titre: SCEA Le Vieil Audon — SIREN 382332161
+  auteur: Annuaire des entreprises (data.gouv)
+  annee: null
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/scea-le-vieil-audon-382332161
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

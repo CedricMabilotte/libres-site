@@ -1,0 +1,168 @@
+# data/fiches/l-aube.yml — instruit le 2026-09-30 (épreuve de référence)
+uid: l-aube
+nom: L'Aube
+autres_noms:
+- Centre de l'Aube
+- L'Aub'ascule
+famille: communaute_intentionnelle
+resume: 'Écolieu de la vallée de la Drôme, au lieu-dit Les Combeaux (Piégros-la-Clastre), lieu de stages
+  depuis la fin des années 1970. L''association Accueil et Échanges, propriétaire depuis plus de dix ans,
+  en a fait donation au fonds de dotation Fraternité pour Demain, qui a consenti un bail emphytéotique
+  de 99 ans à la Coopérative Oasis ; celle-ci sous-loue au collectif habitant, constitué en 2024 en association
+  (L''Aub''ascule). Le lieu porte des activités de stages, d''accueil solidaire et de permaculture, et
+  une obligation réelle environnementale. Épreuve de référence : foncier en fonds de dotation, mais un
+  maillon coopératif intercalé entre le propriétaire et les usagers.'
+localisation:
+  commune: Piégros-la-Clastre
+  departement: '26'
+  region: Auvergne-Rhône-Alpes
+  lat: 44.6879
+  lon: 5.0944
+debut: 2022
+fin: null
+collectif:
+  nom: L'Aub'ascule
+  forme: association
+  annee: 2024
+foncier:
+  porteur: Fonds de dotation Fraternité pour Demain
+  porteur_forme: fonds_dotation
+  surface_ha: null
+  titre_duree_ans: 99
+dimensions:
+  acces:
+    valeur: don_legs
+    note: Donation du lieu par l'association Accueil et Échanges au fonds de dotation.
+    source: 1
+  titre:
+    valeur: bail_emphyteotique
+    note: Bail emphytéotique de 99 ans consenti par le fonds à la Coopérative Oasis, qui sous-loue au
+      collectif ; titre du collectif (sous-location) de durée non publiée.
+    source: 1
+  verrou:
+    valeur:
+    - bail_long
+    note: Bail de 99 ans au profit de la Coopérative Oasis, chargée de veiller « à long terme » au respect
+      des volontés du donateur ; statuts et dévolution du fonds non publiés.
+    source: 1
+  gouvernance:
+    valeur: mixte
+    note: Le collectif gère le quotidien ; la Coopérative Oasis, preneuse du bail, l'a installé et assure
+      un accompagnement sur la vie collective.
+    source: 2
+  economie:
+    valeur: inconnu
+    note: Répartition entre stages rémunérés, accueil solidaire et autres revenus non documentée.
+    source: null
+  ouverture:
+    valeur: accueil_regulier
+    note: Pôle d'accueil de stages et pôle d'accueil solidaire.
+    source: 2
+  finalite:
+    valeur:
+    - accueil_soin
+    - habitat
+    - agriculture
+    - milieu_vivant
+    note: Stages, accueil solidaire, permaculture, ORE (interdiction des intrants chimiques, limitation
+      des défrichements).
+    source: 2
+  filiation:
+    valeur:
+    - ecologie_politique
+    note: Réseau de la Coopérative Oasis ; fondateurs réunis lors de la formation Pépinière Oasis en 2021.
+    source: 2
+  rapport_etat:
+    valeur: inconnu
+    note: Aucune source consultée.
+    source: null
+  echelle:
+    valeur: inconnu
+    note: Une quinzaine d'habitants selon le dossier Communs, non revérifié.
+    source: null
+  transmission:
+    valeur: en_cours
+    note: Collectif récent installé par la Coopérative Oasis, succédant à l'association donatrice.
+    source: 2
+  etat:
+    valeur: actif
+    note: Association L'Aub'ascule active au registre.
+    source: 3
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: non
+    note: 'Maillon intermédiaire : la Coopérative Oasis, société anonyme coopérative (SCIC), est preneuse
+      du bail emphytéotique de 99 ans et sous-loue au collectif. Propriétaire (fonds de dotation) et collectif
+      (association) sont civils ; la chaîne échoue par l''intermédiaire coopératif.'
+    source: 1
+  foncier_verrouille:
+    valeur: partiel
+    note: 'Propriété d''un fonds de dotation et bail de 99 ans : sortie du marché engagée ; mais le bail
+      long bénéficie à la Coopérative Oasis, non au collectif, dont la sous-location n''a pas de durée
+      publiée, et les statuts du fonds (inaliénabilité, dévolution) ne sont pas publiés.'
+    source: 1
+  usage_ig:
+    valeur: partiel
+    note: Accueil solidaire de personnes vulnérables et stages ouverts attestés ; régime économique des
+      stages non documenté.
+    source: 2
+  autogestion:
+    valeur: partiel
+    note: Collectif autogéré au quotidien, mais choisi et installé par la Coopérative Oasis, qui conserve
+      un rôle de garant au titre du bail.
+    source: 2
+  etabli:
+    valeur: non
+    note: 'Collectif actuel installé à partir de 2022, association constituée en 2024 : moins de dix ans.'
+    source: 3
+chronologie:
+- annee: 1982
+  evenement: Déclaration de l'association Accueil et Échanges aux Combeaux (registre public).
+  source: 4
+- annee: 2021
+  evenement: Rencontre des futurs membres du collectif lors de la formation Pépinière Oasis.
+  source: 2
+- annee: 2022
+  evenement: Donation au fonds Fraternité pour Demain selon la Coopérative Oasis.
+  source: 2
+- annee: 2024
+  evenement: Donation datée de mars 2024 par le fonds ; déclaration de l'association L'Aub'ascule (septembre).
+  source: 1
+fiabilite:
+  verifie:
+  - 'Donateur : association Accueil et Échanges ; bail emphytéotique de 99 ans à la Coopérative Oasis
+    avec sous-location au collectif (Fraternité pour Demain).'
+  - Gestion confiée à la Coopérative Oasis, qui installe le collectif ; ORE (Coopérative Oasis).
+  - L'Aub'ascule, SIREN 938330586, créée le 25 septembre 2024 ; Coopérative Oasis, SIREN 835189002, catégorie
+    société anonyme (registre public).
+  non_confirme:
+  - 'Date de la donation : 2022 (Coopérative Oasis) ou mars 2024 (Fraternité pour Demain).'
+  - Durée, loyer et clauses de la sous-location au collectif.
+  - Statuts du fonds de dotation (inaliénabilité, dévolution).
+  - 'Période 1970-2022 : un collectif antérieur (association Accueil et Échanges, 1982) pourrait être
+    instruit comme cas distinct.'
+liens:
+  communs: l-aube
+sources:
+- titre: Sanctuarisation du Centre de l'Aube
+  auteur: Fonds de dotation Fraternité pour Demain
+  annee: 2024
+  url: https://fraternitepourdemain.org/projets/sanctuarisation-du-centre-de-laube/
+- titre: L'Aube
+  auteur: Coopérative Oasis
+  annee: null
+  url: https://cooperative-oasis.org/oasis/aube/
+- titre: L'AUB'ASCULE (SIREN 938330586)
+  auteur: Annuaire des entreprises (État)
+  annee: 2026
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/l-aub-ascule-938330586
+- titre: ASSOC ACCUEIL & ECHANGES (SIREN 328052659)
+  auteur: Annuaire des entreprises (État)
+  annee: 2026
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/328052659
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

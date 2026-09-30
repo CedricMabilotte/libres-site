@@ -1,0 +1,152 @@
+# data/fiches/l-essai-aiglemont.yml — instruit le 2026-09-30
+uid: l-essai-aiglemont
+nom: L'Essai – Colonie communiste d'Aiglemont
+autres_noms:
+- Colonie libertaire d'Aiglemont
+- Milieu libre d'Aiglemont
+famille: communaute_intentionnelle
+resume: 'Colonie communiste libertaire fondée en juin 1903 par Fortuné Henry dans la clairière du Gesly,
+  à Aiglemont (Ardennes), sur un terrain d''environ un hectare qu''il achète lui-même. Des terres communales
+  attenantes sont ensuite louées pour la culture. Financée par des souscriptions libertaires, elle compte
+  11 colons en octobre 1904 et 20 en 1905, vit de maraîchage et d''élevage, et édite à partir de 1906
+  le journal Le Cubilot. Poursuites judiciaires, difficultés financières et conflits la défont : Henry
+  et sa compagne partent les derniers en juillet 1908 et un huissier liquide la colonie en mars 1909.'
+localisation:
+  commune: Aiglemont
+  departement: 08
+  region: Grand Est
+  lat: 49.7909
+  lon: 4.7679
+debut: 1903
+fin: 1909
+collectif:
+  nom: L'Essai (colonie communiste d'Aiglemont)
+  forme: collectif_de_fait
+  annee: 1903
+foncier:
+  porteur: Fortuné Henry (achat en nom propre) ; terres communales louées
+  porteur_forme: personne_privee
+  surface_ha: 1
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: achat_prive_fondateur
+    note: « Il acheta un terrain d'un hectare » dans la clairière du Vieux Gesly.
+    source: 1
+  titre:
+    valeur: propriete
+    note: Propriété du fondateur ; location de terres communales pour le seigle, les pommes de terre et
+      les betteraves.
+    source: 2
+  verrou:
+    valeur:
+    - aucun
+    note: Liquidation par huissier en mars 1909.
+    source: 1
+  gouvernance:
+    valeur: mixte
+    note: Henry, figure centrale, dit vouloir « impersonnaliser la tentative » face aux accusations d'en
+      faire son fief.
+    source: 2
+  economie:
+    valeur: autosubsistance
+    note: Visée d'autonomie alimentaire, vente des surplus sur les marchés, souscriptions.
+    source: 1
+  ouverture:
+    valeur: accueil_regulier
+    note: Visiteurs, personnes hébergées temporairement, journal tourné vers les ouvriers de la vallée.
+    source: 2
+  finalite:
+    valeur:
+    - agriculture
+    - artisanat_production
+    note: Maraîchage, élevage, menuiserie, imprimerie.
+    source: 1
+  filiation:
+    valeur:
+    - anarchisme
+    note: Colonie libertaire liée au Libertaire.
+    source: 1
+  rapport_etat:
+    valeur: conflit
+    note: Condamnations pour contrebande (1905), coups et blessures (1907), inculpation pour injures envers
+      l'armée (1907).
+    source: 1
+  echelle:
+    valeur: '10_50'
+    note: 11 colons en octobre 1904, 20 en 1905.
+    source: 1
+  transmission:
+    valeur: fondateurs_seuls
+    note: Le fondateur est le dernier à partir.
+    source: 1
+  etat:
+    valeur: disparu
+    note: Liquidée en 1909.
+    source: 1
+  fin:
+    valeur: faillite
+    note: Désagrégation (poursuites, difficultés financières, conflits) puis liquidation par huissier.
+    source: 1
+portes:
+  forme_civile:
+    valeur: non
+    note: Terrain propriété privée du fondateur ; aucune personne morale identifiée.
+    source: 1
+  foncier_verrouille:
+    valeur: non
+    note: Propriété privée ; liquidation en 1909.
+    source: 1
+  usage_ig:
+    valeur: partiel
+    note: Propagande et presse ouvertes sur les luttes locales, mais communauté de colons fermée.
+    source: 1
+  autogestion:
+    valeur: partiel
+    note: Prééminence contestée du fondateur ; conflits sur le partage du travail.
+    source: 1
+  etabli:
+    valeur: non
+    note: 'Juin 1903 - juillet 1908 : environ cinq ans.'
+    source: 1
+chronologie:
+- annee: 1903
+  evenement: 'Juin : installation de Fortuné Henry ; fin septembre-octobre : premiers colons.'
+  source: 1
+- annee: 1905
+  evenement: Vingt colons ; construction du foyer principal (mars).
+  source: 2
+- annee: 1906
+  evenement: Imprimerie ; premier numéro du Cubilot (juin).
+  source: 1
+- annee: 1908
+  evenement: 'Juillet : départ des derniers colons.'
+  source: 1
+- annee: 1909
+  evenement: 'Mars : liquidation par huissier.'
+  source: 1
+fiabilite:
+  verifie:
+  - Achat du terrain par Henry, départ en juillet 1908, liquidation en mars 1909 (Maitron).
+  non_confirme:
+  - Prix du terrain (environ 800 F selon anarchiv) ; surface initiale de 2 ha 71 ca évoquée par une autre
+    source.
+liens:
+  communs: null
+sources:
+- titre: HENRY Fortuné [HENRY Jean, Charles, Fortuné]
+  auteur: Dictionnaire des anarchistes (Maitron)
+  annee: null
+  url: https://maitron.fr/henry-fortune-henry-jean-charles-fortune-dictionnaire-des-anarchistes/
+- titre: L'Essai
+  auteur: Wikipédia
+  annee: 2025
+  url: https://fr.wikipedia.org/wiki/L'Essai
+- titre: Fortuné Henry et Franco Dossena fondent une colonie libertaire au lieu dit Le Gesly
+  auteur: Anarchiv
+  annee: 2019
+  url: https://anarchiv.wordpress.com/2019/06/14/fortune-henry-et-franco-dossena-fondent-une-colonie-libertaire-au-lieu-dit-le-gesly-dans-la-foret-daiglemont/
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

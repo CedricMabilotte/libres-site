@@ -1,0 +1,172 @@
+# data/fiches/villarceaux.yml — instruit le 2026-09-30 (épreuve de référence)
+uid: villarceaux
+nom: Bergerie de Villarceaux
+autres_noms:
+- Domaine de Villarceaux
+famille: commun_foncier
+resume: 'Domaine d''environ 600 ha à Chaussy (Val-d''Oise), dans le Parc naturel régional du Vexin français,
+  propriété depuis 1976 de la Fondation Charles Léopold Mayer pour le Progrès de l''Homme (FPH), fondation
+  dont le siège est en Suisse. La ferme, reprise en 1995 et conduite en agroécologie, est exploitée par
+  l''EARL du Chemin Neuf, à qui la fondation a accordé en 2006 un accès gratuit aux terres et aux bâtiments
+  pour 25 ans sous charte agroécologique ; l''association Écosite gère un centre de séminaires. Les châteaux
+  et le parc sont confiés depuis 1989 à la Région Île-de-France par bail emphytéotique de 99 ans ; un
+  golf est exploité sur le domaine. Épreuve de référence : propriété privée « vertueuse » sans verrou,
+  mise à disposition par prêt à usage.'
+localisation:
+  commune: Chaussy
+  departement: '95'
+  region: Île-de-France
+  lat: 49.1153
+  lon: 1.7075
+debut: 1995
+fin: null
+collectif:
+  nom: EARL du Chemin Neuf (exploitation) et association Écosite de Villarceaux (accueil)
+  forme: societe_civile
+  annee: 2006
+foncier:
+  porteur: Fondation Charles Léopold Mayer pour le Progrès de l'Homme (FPH)
+  porteur_forme: fondation
+  surface_ha: 600
+  titre_duree_ans: 25
+dimensions:
+  acces:
+    valeur: inconnu
+    note: Fondation propriétaire depuis 1976 ; mode d'acquisition (achat, don) non documenté par les sources
+      consultées.
+    source: null
+  titre:
+    valeur: commodat
+    note: Accès gratuit aux terres et infrastructures pour 25 ans à partir de 2006, sous condition de
+      respect de principes agroécologiques ; la FPH mentionne des commodats parmi les arrangements du
+      domaine.
+    source: 3
+  verrou:
+    valeur:
+    - aucun
+    note: 'La fondation a déclaré en 2020 que si la Région lui rendait le site des châteaux, elle le vendrait
+      : aucun engagement d''inaliénabilité.'
+    source: 2
+  gouvernance:
+    valeur: mixte
+    note: Chaque entité du domaine (EARL, Écosite, golf, Région) est gérée selon un arrangement propre
+      avec la fondation propriétaire.
+    source: 1
+  economie:
+    valeur: activites_marchandes_annexes
+    note: Exploitation agricole biologique marchande, centre de séminaires, golf exploité commercialement.
+    source: 1
+  ouverture:
+    valeur: accueil_regulier
+    note: Centre d'accueil de séminaires géré par l'association Écosite.
+    source: 1
+  finalite:
+    valeur:
+    - agriculture
+    - milieu_vivant
+    - education_populaire
+    note: Transition agroécologique d'un domaine agricole et forestier, accueil de séminaires et de formation.
+    source: 1
+  filiation:
+    valeur:
+    - ecologie_politique
+    note: Laboratoire de transition agroécologique soutenu par la fondation depuis 1995.
+    source: 3
+  rapport_etat:
+    valeur: conventionnement
+    note: Bail emphytéotique de 99 ans consenti en 1989 à la Région Île-de-France sur les châteaux et
+      le parc.
+    source: 2
+  echelle:
+    valeur: inconnu
+    note: Aucune source consultée.
+    source: null
+  transmission:
+    valeur: inconnu
+    note: Échéance de l'accès gratuit de 2006 en 2031 ; reconduction non documentée.
+    source: null
+  etat:
+    valeur: actif
+    note: Exploitation et Écosite en activité selon la fondation.
+    source: 1
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: non
+    note: 'Usage agricole par une EARL (exploitation agricole à responsabilité limitée, société à parts)
+      ; golf exploité commercialement sur le domaine ; propriétaire : fondation de droit suisse selon
+      le dossier Communs, dont la forme au regard du droit français n''est pas établie.'
+    source: 1
+  foncier_verrouille:
+    valeur: non
+    note: Propriété privée de fondation sans inaliénabilité publiée ; la FPH a annoncé en 2020 qu'elle
+      vendrait le site rendu par la Région ; titre agricole gratuit de 25 ans, sous le seuil de 30 ans
+      et sans droit au renouvellement.
+    source: 2
+  usage_ig:
+    valeur: partiel
+    note: Transition agroécologique et accueil réels, mais usages dominés par une exploitation marchande,
+      un centre de séminaires et un golf commercial.
+    source: 1
+  autogestion:
+    valeur: non
+    note: 'Pas de collectif d''usagers : entités séparées liées chacune à la fondation propriétaire, qui
+      fixe les conditions (charte) et reprend la main à l''échéance.'
+    source: 1
+  etabli:
+    valeur: oui
+    note: Ferme reprise en 1995 et conduite en continu depuis ; EARL sous accès gratuit depuis 2006.
+    source: 4
+chronologie:
+- annee: 1976
+  evenement: La fondation devient propriétaire du domaine.
+  source: 3
+- annee: 1989
+  evenement: Bail emphytéotique de 99 ans à la Région Île-de-France sur les châteaux et le parc.
+  source: 2
+- annee: 1995
+  evenement: Reprise de la Bergerie et début de la transition agroécologique.
+  source: 4
+- annee: 2006
+  evenement: Accès gratuit aux terres et bâtiments accordé à l'exploitant pour 25 ans, sous charte agroécologique.
+  source: 3
+- annee: 2020
+  evenement: La Région cherche à se dégager du bail ; la fondation annonce qu'elle vendrait le site rendu.
+  source: 2
+fiabilite:
+  verifie:
+  - Propriété de la FPH, environ 600 ha, entités du domaine (EARL du Chemin Neuf, Écosite, golf, bail
+    emphytéotique des châteaux) (FPH).
+  - Accès gratuit de 25 ans accordé en 2006 sous charte agroécologique ; propriété depuis 1976 (Resilience.org
+    / ARC2020).
+  - Bail de 99 ans de 1989 à la Région et déclaration de la fondation sur une vente éventuelle (Le Parisien,
+    relayé en 2020).
+  non_confirme:
+  - Forme juridique exacte de la fondation au regard du droit français.
+  - Acte de commodat (non publié) et sa reconduction après 2031.
+  - Issue, après 2020, du retrait envisagé par la Région.
+  - 'Surface : 600 ha (FPH), 650 ha (ARC2020), 700 ha (Pollinis).'
+liens:
+  communs: villarceaux
+sources:
+- titre: La Bergerie de Villarceaux
+  auteur: Fondation Charles Léopold Mayer pour le Progrès de l'Homme
+  annee: null
+  url: https://www.fph.ch/article16.html
+- titre: 'Val-d''Oise : l''avenir du domaine de Villarceaux plus que jamais incertain'
+  auteur: Les Amis de Villarceaux (d'après Le Parisien)
+  annee: 2020
+  url: https://www.amisdevillarceaux.fr/val-doise-lavenir-du-domaine-de-villarceaux-plus-que-jamais-incertain/
+- titre: The EU has the funds but lacks focus — this farm shows what's possible with both
+  auteur: ARC2020 / Resilience.org
+  annee: 2025
+  url: https://www.resilience.org/stories/2025-06-19/the-eu-has-the-funds-but-lacks-focus-this-farm-shows-whats-possible-with-both/
+- titre: La bergerie de Villarceaux
+  auteur: Pollinis
+  annee: null
+  url: https://www.pollinis.org/la-bergerie-de-villarceaux/
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

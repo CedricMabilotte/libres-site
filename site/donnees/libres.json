@@ -1,0 +1,4455 @@
+{
+ "version": "0.1",
+ "licence": "CC BY-NC-SA 4.0",
+ "cas": [
+  {
+   "uid": "la-chapelle-toulouse",
+   "nom": "La Chapelle (Toulouse)",
+   "autres_noms": [
+    "La Chapelle Casanova",
+    "Atelier Idéal"
+   ],
+   "famille": "occupation_regularisee",
+   "statut": "corpus_sous_condition",
+   "portes_manquantes": [],
+   "periode": "1990-2007",
+   "verrou_type": "par_titre",
+   "localisation": {
+    "commune": "Toulouse",
+    "departement": "31",
+    "region": "Occitanie",
+    "lat": 43.6045,
+    "lon": 1.444
+   },
+   "debut": 1993,
+   "fin": null,
+   "resume": "Ancienne chapelle de Toulouse, investie en 1993 et devenue un lieu autogéré d'expérimentation sociale, culturelle et militante, sans salarié ni subvention. La Ville, qui a acquis le bâtiment au diocèse en 2009, a signé le 19 janvier 2018 avec l'association un bail emphytéotique de 40 ans assorti d'une promesse de vente conditionnée à la mise aux normes. Après sept ans de travaux, le lieu a été conforme ERP en janvier 2025 et environ 1 300 donateurs ont réuni 100 000 € pour le rachat. La mairie a retiré la délibération de vente en septembre 2025 puis annoncé en février 2026 une suspension de trois ans, contestant l'intérêt général de certaines activités.",
+   "collectif": {
+    "nom": "Association Atelier Idéal",
+    "forme": "association",
+    "annee": 1995
+   },
+   "foncier": {
+    "porteur": "Ville de Toulouse",
+    "porteur_forme": "personne_publique",
+    "surface_ha": null,
+    "titre_duree_ans": 40
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "oui",
+     "note": "Association 1901 usagère, Ville de Toulouse propriétaire : aucun maillon commercial."
+    },
+    "foncier_verrouille": {
+     "valeur": "oui",
+     "note": "Bail emphytéotique de 40 ans signé le 19 janvier 2018 (≥ 30 ans). Fragilité : la mairie exige de démontrer la conformité de l'activité à l'objet du bail."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Lieu non marchand, bénévole, ouvert à la vie associative et culturelle, participations modulées."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Décision au consensus, collège solidaire de co-responsables, aucune subvention ni financeur."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Usage continu depuis 1993."
+    }
+   },
+   "dimensions": {
+    "acces": "occupation",
+    "titre": "bail_emphyteotique",
+    "verrou": [
+     "bail_long"
+    ],
+    "gouvernance": "assemblee_consensus",
+    "economie": "activites_non_marchandes",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "culture",
+     "education_populaire",
+     "lutte_territoriale"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "conflit",
+    "echelle": "inconnu",
+    "transmission": "generations_renouvelees",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "À propos",
+     "auteur": "La Chapelle Toulouse",
+     "annee": null,
+     "url": "https://lachapelletoulouse.com/a-propos/"
+    },
+    {
+     "titre": "Achat collectif !",
+     "auteur": "La Chapelle Toulouse",
+     "annee": 2025,
+     "url": "https://lachapelletoulouse.com/communications/"
+    },
+    {
+     "titre": "Le rachat de la Chapelle freiné par la mairie de Toulouse",
+     "auteur": "Mediacités",
+     "annee": 2025,
+     "url": "https://www.mediacites.fr/culture/toulouse/2025/11/25/le-rachat-de-la-chapelle-freine-par-la-mairie-de-toulouse/"
+    },
+    {
+     "titre": "La mairie de Toulouse va suspendre la vente de La Chapelle",
+     "auteur": "Mediacités",
+     "annee": 2026,
+     "url": "https://www.mediacites.fr/breve/toulouse/2026/02/03/la-mairie-et-de-toulouse-va-suspendre-la-vente-de-la-chapelle/"
+    },
+    {
+     "titre": "Toulouse : La Chapelle va devenir la propriété de ses occupants",
+     "auteur": "Le Journal toulousain",
+     "annee": 2024,
+     "url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/toulouse-chapelle-devenir-propriete-occupants-297495/"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/la-chapelle-toulouse/"
+  },
+  {
+   "uid": "espace-autogere-des-tanneries",
+   "nom": "Espace autogéré des Tanneries",
+   "autres_noms": [
+    "Les Tanneries"
+   ],
+   "famille": "occupation_regularisee",
+   "statut": "seuil",
+   "portes_manquantes": [
+    "foncier_verrouille"
+   ],
+   "periode": "1990-2007",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Dijon",
+    "departement": "21",
+    "region": "Bourgogne-Franche-Comté",
+    "lat": 47.322,
+    "lon": 5.0415
+   },
+   "debut": 1998,
+   "fin": null,
+   "resume": "Espace social, culturel et politique autogéré de Dijon, ouvert en octobre 1998 dans d'anciens bâtiments industriels du boulevard de Chicago. Une convention d'occupation gratuite est obtenue en 2002 après cinq ans de menaces d'expulsion. Menacé par des projets municipaux, le collectif négocie un relogement : la Ville finance des travaux (environ 1,5 M€) dans un ancien entrepôt de 900 m², où il s'installe en 2015 sous un bail de 12 ans renouvelable. Le lieu combine habitat collectif, salle de concert et activités publiques non marchandes ; le renouvellement du bail est incertain.",
+   "collectif": {
+    "nom": "Association les Tanneries",
+    "forme": "association",
+    "annee": null
+   },
+   "foncier": {
+    "porteur": "Ville de Dijon",
+    "porteur_forme": "personne_publique",
+    "surface_ha": null,
+    "titre_duree_ans": 12
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "oui",
+     "note": "Association les Tanneries (le collectif dit ne pas fonctionner sur un mode associatif) et Ville de Dijon propriétaire : aucun maillon commercial."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Bail de 12 ans renouvelable (sous le seuil de 30 ans) sur un bien municipal ; renouvellement incertain selon le collectif en 2021."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Activités publiques non marchandes et subversives, ouverture régulière au public."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Assemblée des habitant·es, refus de subventions de fonctionnement."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Usage continu depuis 1998, relogé en 2015."
+    }
+   },
+   "dimensions": {
+    "acces": "occupation",
+    "titre": "convention",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "assemblee_consensus",
+    "economie": "inconnu",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "habitat",
+     "culture",
+     "education_populaire"
+    ],
+    "filiation": [
+     "anarchisme",
+     "autonomie"
+    ],
+    "rapport_etat": "conventionnement",
+    "echelle": "inconnu",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Espace autogéré des Tanneries",
+     "auteur": "Tanneries (squat.net)",
+     "annee": 2014,
+     "url": "https://tanneries.squat.net/"
+    },
+    {
+     "titre": "Dijon : les Tanneries ne se laisseront pas expulser !",
+     "auteur": "Le Numéro zéro",
+     "annee": 2007,
+     "url": "https://lenumerozero.info/Les-Tanneries-ne-se-laisseront-pas-expulser"
+    },
+    {
+     "titre": "Communiqué de mise au point : avenir de l'espace autogéré des Tanneries",
+     "auteur": "Le Numéro zéro",
+     "annee": 2011,
+     "url": "https://lenumerozero.info/Communique-de-mise-au-point-Avenir-de-l-espace-autogere-des-Tanneries-a-Dijon"
+    },
+    {
+     "titre": "Les Tanneries 2",
+     "auteur": "La Facto",
+     "annee": null,
+     "url": "https://lafacto.fr/ressources/les-tanneries-2"
+    },
+    {
+     "titre": "Les Tanneries, a legalized alternative space",
+     "auteur": "Europe Convergence",
+     "annee": 2021,
+     "url": "https://europeconvergence.com/index.php/2021/08/17/les-tanneries-a-legalized-alternative-space/"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/espace-autogere-des-tanneries/"
+  },
+  {
+   "uid": "la-deviation-marseille",
+   "nom": "La Déviation",
+   "autres_noms": [
+    "En Devenir"
+   ],
+   "famille": "lieu_non_marchand",
+   "statut": "seuil",
+   "portes_manquantes": [
+    "foncier_verrouille"
+   ],
+   "periode": "2008-",
+   "verrou_type": "par_propriete",
+   "localisation": {
+    "commune": "Marseille (16e arrondissement)",
+    "departement": "13",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "lat": 43.3642,
+    "lon": 5.3161
+   },
+   "debut": 2015,
+   "fin": null,
+   "resume": "Ancienne cimenterie et carrière sur les hauteurs de L'Estaque (Marseille 16e), occupée depuis 2015 par un collectif d'artistes issu de l'association En Devenir (2012) et devenue un lieu autogéré de création et de résidences, aussi habité. Le lieu a été acheté au printemps 2019, pour 410 000 € et sans banque, grâce à des prêts solidaires ; il est détenu par l'association Parpaing Libre, dont les deux seuls membres sont l'association usagère et le réseau CLIP. L'incendie du 8 juillet 2025 a détruit ateliers, boulangerie et logements de résidence ; la reconstruction se fait en chantiers participatifs.",
+   "collectif": {
+    "nom": "En Devenir (La Déviation)",
+    "forme": "association",
+    "annee": 2012
+   },
+   "foncier": {
+    "porteur": "Association Parpaing Libre",
+    "porteur_forme": "association",
+    "surface_ha": 0.15,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "oui",
+     "note": "Associations En Devenir (usagère), Parpaing Libre (propriétaire, loi 1901) et CLIP : chaîne entièrement associative."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Objet de Parpaing Libre : empêcher la revente et garantir l'usage « ad vitam aeternam » ; en cas de défaillance, l'usage est confié à un autre collectif. Le verrou tient au montage CLIP : l'association propriétaire n'a que deux membres, l'association usagère et le CLIP, qui détient « un droit de véto sur la revente ». Mais les statuts ne sont pas publiés : aucune clause d'inaliénabilité opposable aux tiers n'est vérifiée, et une association peut modifier ses statuts — la protection repose sur la composition des membres, pas sur un acte publié."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Plus d'une centaine d'artistes accueilli·es en résidence ; guinguette à prix libre et portes ouvertes au quartier."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Lieu autogéré ; l'association usagère est l'un des deux membres de la propriétaire."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Installation en 2015, achat en 2019 : onze ans d'usage continu en 2026. L'incendie de 2025 n'a pas interrompu la présence du collectif."
+    }
+   },
+   "dimensions": {
+    "acces": "achat_collectif",
+    "titre": "inconnu",
+    "verrou": [
+     "veto_reseau"
+    ],
+    "gouvernance": "inconnu",
+    "economie": "inconnu",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "culture",
+     "habitat"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "inconnu",
+    "echelle": "10_50",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "La Déviation — site",
+     "auteur": "La Déviation",
+     "annee": null,
+     "url": "https://www.ladeviation.org/"
+    },
+    {
+     "titre": "Libérons les parpaings (brochure)",
+     "auteur": "Parpaing Libre",
+     "annee": 2018,
+     "url": "http://www.ladeviation.org/wp-content/uploads/2018/05/ParpaingLibre_brochure_mai.compressed.pdf"
+    },
+    {
+     "titre": "Qu'est-ce que le Clip ?",
+     "auteur": "CLIP — Réseau de lieux en propriété d'usage",
+     "annee": null,
+     "url": "https://clip.ouvaton.org/quest-ce-que-le-clip/"
+    },
+    {
+     "titre": "La Déviation",
+     "auteur": "Arteplan",
+     "annee": null,
+     "url": "https://arteplan.org/initiative/la-deviation/"
+    },
+    {
+     "titre": "À l'Estaque, chantiers participatifs pour reconstruire La Déviation après l'incendie",
+     "auteur": "Made in Marseille",
+     "annee": 2025,
+     "url": "https://madeinmarseille.net/a-la-une-marseille/196220-deviation-chantiers-participatifs-incendie/"
+    },
+    {
+     "titre": "Parpaing Libre (SIREN 833981764)",
+     "auteur": "Annuaire des entreprises",
+     "annee": null,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/parpaing-libre-833981764"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/la-deviation-marseille/"
+  },
+  {
+   "uid": "ferme-du-berquet",
+   "nom": "La Faille — Ferme du Berquet",
+   "autres_noms": [
+    "Ferme du Berquet",
+    "La Faille"
+   ],
+   "famille": "commun_foncier",
+   "statut": "seuil",
+   "portes_manquantes": [
+    "foncier_verrouille"
+   ],
+   "periode": null,
+   "verrou_type": "par_propriete",
+   "localisation": {
+    "commune": "Monoblet",
+    "departement": "30",
+    "region": "Occitanie",
+    "lat": 43.9971,
+    "lon": 3.8814
+   },
+   "debut": null,
+   "fin": null,
+   "resume": "Lieu collectif autogéré de Monoblet, en Sud-Cévennes (Gard), qui mène depuis plus de douze ans des activités agricoles et culturelles. Un collectif d'une dizaine de personnes y pratique le maraîchage en traction animale et la culture et transformation de la châtaigne, son activité économique principale, et organise concerts à bas coût et résidences à prix libre. L'association La Faille en gère l'usage ; la propriété a été transférée au fonds de dotation Antidote en novembre 2024.",
+   "collectif": {
+    "nom": "La Faille",
+    "forme": "association",
+    "annee": null
+   },
+   "foncier": {
+    "porteur": "Fonds de dotation Antidote",
+    "porteur_forme": "fonds_dotation",
+    "surface_ha": null,
+    "titre_duree_ans": 99
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "oui",
+     "note": "Association La Faille usagère ; propriété d'un fonds de dotation."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Propriété transférée en novembre 2024. Aucune clause d'inaliénabilité publiée dans les statuts du fonds : selon Silence (2023), Antidote « peut vendre un lieu à l'unanimité de son conseil d'administration » (trois administrateur·rices nommé·es par Les Passagères de l'usage). La dévolution de l'actif net d'un fonds de dotation dissous à un autre fonds ou à une fondation RUP est légale (loi 2008, art. 140) mais ne verrouille pas le lieu lui-même ; le bail emphytéotique de 99 ans, qui serait opposable à un acquéreur, n'est pas publié pour ce lieu."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Culture accessible en milieu rural (bas coût, prix libre) ; accueil de compagnies peu subventionnées."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Lieu collectif autogéré à gouvernance horizontale ; stage public « Peut-on fonctionner sans chef·fe·s » accueilli à la ferme."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "« Activités culturelles et agricoles depuis 12 ans » (page Antidote rédigée vers 2022) : plus de dix ans d'usage."
+    }
+   },
+   "dimensions": {
+    "acces": "don_legs",
+    "titre": "bail_emphyteotique",
+    "verrou": [
+     "devolution_desinteressee"
+    ],
+    "gouvernance": "inconnu",
+    "economie": "activites_marchandes_annexes",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "agriculture",
+     "culture"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "inconnu",
+    "echelle": "10_50",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Les lieux",
+     "auteur": "Antidote",
+     "annee": null,
+     "url": "https://aventure-antidote.org/qui-sommes-nous/nos-lieux/"
+    },
+    {
+     "titre": "Antidote — accueil et lettres d'information (transferts de propriété de novembre 2024)",
+     "auteur": "Antidote",
+     "annee": 2025,
+     "url": "https://aventure-antidote.org/"
+    },
+    {
+     "titre": "Notre fonctionnement",
+     "auteur": "Antidote",
+     "annee": null,
+     "url": "https://aventure-antidote.org/comment-ca-marche/notre-fonctionnement/"
+    },
+    {
+     "titre": "L'Antidote : des lieux que personne ne possède (Silence n°517, repris par Pressenza)",
+     "auteur": "Revue Silence",
+     "annee": 2023,
+     "url": "https://www.pressenza.com/fr/2023/01/lantidote-des-lieux-que-personne-ne-possede/"
+    },
+    {
+     "titre": "Loi n° 2008-776 du 4 août 2008 de modernisation de l'économie, art. 140 (fonds de dotation)",
+     "auteur": "Légifrance",
+     "annee": 2008,
+     "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000019283050"
+    },
+    {
+     "titre": "Ferme du Berquet à Monoblet",
+     "auteur": "AlterCampagne",
+     "annee": null,
+     "url": "https://inscriptions.altercampagne.net/alternative/ferme-du-berquet"
+    },
+    {
+     "titre": "Stage « Peut-on fonctionner sans chef·fe·s » à la Ferme du Berquet",
+     "auteur": "CPIE du Gard",
+     "annee": null,
+     "url": "https://cpiegard.fr/stage-peut-fonctionner-sans-cheffes-la-ferme-du-berquet"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/ferme-du-berquet/"
+  },
+  {
+   "uid": "manifesten-marseille",
+   "nom": "Manifesten",
+   "autres_noms": [],
+   "famille": "lieu_non_marchand",
+   "statut": "seuil",
+   "portes_manquantes": [
+    "foncier_verrouille"
+   ],
+   "periode": "2008-",
+   "verrou_type": "par_propriete",
+   "localisation": {
+    "commune": "Marseille (1er arrondissement)",
+    "departement": "13",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "lat": 43.3002,
+    "lon": 5.3828
+   },
+   "debut": 2016,
+   "fin": null,
+   "resume": "Café-librairie associatif et lieu de luttes au 59 rue Adolphe-Thiers, Marseille 1er, rouvert par une nouvelle équipe en février 2016. Menacé par la vente des murs en 2020, le collectif (une quinzaine de personnes, « sans chef·fe ni salarié·e ») a lancé une collecte pour acheter le lieu (environ 190 000 € frais compris) ; l'association New Al Dante en devient propriétaire, avec une clause d'incessibilité annoncée, et le lieu entre dans le réseau CLIP. On y trouve une librairie, un bar, des cours de français pour femmes et les réunions d'une quinzaine de collectifs.",
+   "collectif": {
+    "nom": "Manifesten",
+    "forme": "association",
+    "annee": null
+   },
+   "foncier": {
+    "porteur": "Association New Al Dante",
+    "porteur_forme": "association",
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "oui",
+     "note": "Associations New Al Dante (propriétaire) et Manifesten (usagère), réseau CLIP associatif."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "« Clause d'incessibilité » annoncée et garantie CLIP, mais texte non publié. Une clause d'inaliénabilité perpétuelle est fragile en droit français (la jurisprudence l'exige temporaire et justifiée par un intérêt sérieux et légitime) : le verrou tient surtout au veto du CLIP."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Café-librairie associatif, cours gratuits de français pour femmes, lieu de réunion d'une quinzaine de collectifs."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Collectif « sans chef·fe ni salarié·e »."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Équipe actuelle depuis le 6 février 2016 : dix ans atteints en février 2026 (location jusqu'à l'achat, puis propriété d'usage). Le lieu existait auparavant sous une autre équipe."
+    }
+   },
+   "dimensions": {
+    "acces": "souscription",
+    "titre": "inconnu",
+    "verrou": [
+     "veto_reseau"
+    ],
+    "gouvernance": "mixte",
+    "economie": "inconnu",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "culture",
+     "education_populaire"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "conflit",
+    "echelle": "10_50",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Manifesten : vive la propriété collective !",
+     "auteur": "CQFD n°192",
+     "annee": 2020,
+     "url": "https://cqfd-journal.org/Manifesten-vive-la-propriete"
+    },
+    {
+     "titre": "Samedi 6 février à 19 h : Manifesten, c'est reparti !",
+     "auteur": "Marseille Infos Autonomes",
+     "annee": 2016,
+     "url": "https://mars-infos.org/samedi-6-fevrier-a-19-h-manifesten-690"
+    },
+    {
+     "titre": "Pour une propriété d'usage et des luttes collectives (tract)",
+     "auteur": "Collectif Manifesten",
+     "annee": 2020,
+     "url": "https://mars-infos.org/IMG/pdf/achetonsmanifesten_-2.pdf"
+    },
+    {
+     "titre": "Manifesten est à vendre : achetons-le !",
+     "auteur": "Marseille Infos Autonomes",
+     "annee": 2020,
+     "url": "https://mars-infos.org/manifesten-est-a-vendre-achetons-5424"
+    },
+    {
+     "titre": "Les lieux",
+     "auteur": "CLIP — Réseau de lieux en propriété d'usage",
+     "annee": null,
+     "url": "https://clip.ouvaton.org/les-projets/"
+    },
+    {
+     "titre": "Compte rendu de l'assemblée générale du 29 janvier 2022",
+     "auteur": "CLIP",
+     "annee": 2022,
+     "url": "https://clip.ouvaton.org/wp-content/uploads/2022/02/clip-ag-2022-01-29-pv.pdf"
+    },
+    {
+     "titre": "Manifesten : vive la propriété collective !",
+     "auteur": "Infolibertaire",
+     "annee": null,
+     "url": "https://www.infolibertaire.net/manifesten-vive-la-propriete-collective/"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/manifesten-marseille/"
+  },
+  {
+   "uid": "quartier-libre-des-lentilleres",
+   "nom": "Quartier libre des Lentillères",
+   "autres_noms": [
+    "Les Lentillères"
+   ],
+   "famille": "occupation_regularisee",
+   "statut": "seuil",
+   "portes_manquantes": [
+    "foncier_verrouille"
+   ],
+   "periode": "2008-",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Dijon",
+    "departement": "21",
+    "region": "Bourgogne-Franche-Comté",
+    "lat": 47.322,
+    "lon": 5.0415
+   },
+   "debut": 2010,
+   "fin": null,
+   "resume": "Anciennes terres maraîchères de l'est de Dijon, près des anciens abattoirs, occupées depuis mars 2010 par une manifestation-défrichage contre un projet d'écoquartier de 1 400 logements, suspendu en 2019. La Ville a racheté en juin 2023 environ 80 % du site de 8,7 ha à la SPLAAD et à l'EPFL de Côte-d'Or (4,25 M€). En septembre 2025, un compromis a été annoncé : une association à créer signerait une convention de mise à disposition, les occupant·es cédant 1,14 ha pour 60 logements sociaux. Environ 100 personnes y vivent ; le lieu associe jardins, marché à prix libre et activités culturelles.",
+   "collectif": {
+    "nom": "Quartier libre des Lentillères",
+    "forme": "collectif_de_fait",
+    "annee": 2010
+   },
+   "foncier": {
+    "porteur": "Ville de Dijon",
+    "porteur_forme": "personne_publique",
+    "surface_ha": 8.7,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "oui",
+     "note": "Collectif de fait sur un terrain de la Ville de Dijon ; association annoncée pour signer la convention."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Aucun titre signé confirmé ; convention de mise à disposition annoncée, durée inconnue ; terrain municipal aliénable et classé urbanisable, 1,14 ha cédé pour construction."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Jardins, marché à prix libre, espace ouvert au public."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Décisions en assemblées collectives d'habitant·es et jardinier·es."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Occupation continue depuis mars 2010."
+    }
+   },
+   "dimensions": {
+    "acces": "occupation",
+    "titre": "sans_titre",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "assemblee_consensus",
+    "economie": "inconnu",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "agriculture",
+     "habitat",
+     "culture",
+     "lutte_territoriale"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "regularisation",
+    "echelle": "50_200",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Dijon : la Ville devient propriétaire du terrain occupé aux Lentillères",
+     "auteur": "Infos Dijon",
+     "annee": 2023,
+     "url": "https://www.infos-dijon.com/news/vie-locale/vie-locale/dijon-la-ville-devient-proprietaire-du-terrain-occupe-aux-lentilleres.html"
+    },
+    {
+     "titre": "À Dijon, l'unique ZAD urbaine de France négocie avec la mairie",
+     "auteur": "Batirama",
+     "annee": 2025,
+     "url": "https://www.batirama.com/article/83011-a-dijon-l-unique-zad-urbaine-de-france-negocie-avec-la-mairie.html"
+    },
+    {
+     "titre": "Quartier libre des Lentillères",
+     "auteur": "Quartier libre des Lentillères",
+     "annee": null,
+     "url": "https://lentilleres.potager.org/"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/quartier-libre-des-lentilleres/"
+  },
+  {
+   "uid": "59-rivoli",
+   "nom": "59 Rivoli",
+   "autres_noms": [
+    "squat KGB"
+   ],
+   "famille": "occupation_regularisee",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "foncier_verrouille",
+    "autogestion"
+   ],
+   "periode": "1990-2007",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Paris",
+    "departement": "75",
+    "region": "Île-de-France",
+    "lat": 48.8566,
+    "lon": 2.3522
+   },
+   "debut": 1999,
+   "fin": null,
+   "resume": "Immeuble haussmannien de la rue de Rivoli à Paris, ancienne propriété du Crédit lyonnais vide depuis huit ans, occupé le 1er novembre 1999 par un collectif d'artistes. La Ville de Paris l'achète le 22 mai 2002 (4,57 M€) ; l'association est déclarée le 3 juin 2002. Après travaux, le lieu rouvre en novembre 2009 sous une convention d'occupation de 3 ans signée le 25 août 2009, prolongée par avenant en 2013. Une trentaine d'artistes y ont leur atelier contre une participation mensuelle ; l'entrée est libre pour des dizaines de milliers de visiteurs par an.",
+   "collectif": {
+    "nom": "Association 59 Rivoli",
+    "forme": "association",
+    "annee": 2002
+   },
+   "foncier": {
+    "porteur": "Ville de Paris",
+    "porteur_forme": "personne_publique",
+    "surface_ha": null,
+    "titre_duree_ans": 3
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "oui",
+     "note": "Association 59 Rivoli et Ville de Paris propriétaire : aucun maillon commercial."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Convention d'occupation de 3 ans prolongée par avenant : titre court et révocable ; aucun titre long ni inaliénabilité."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Entrée libre et forte fréquentation publique ; participation des artistes de 130 €/mois, sans rente."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Gestion par les artistes (assemblées mensuelles), mais la Ville fixe le cadre par une convention courte et l'inspection générale a formulé des prescriptions sur la sélection des résidents."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Usage continu depuis 1999."
+    }
+   },
+   "dimensions": {
+    "acces": "occupation",
+    "titre": "convention",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "mixte",
+    "economie": "inconnu",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "culture"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "conventionnement",
+    "echelle": "10_50",
+    "transmission": "generations_renouvelees",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Rapport d'audit de l'association 59 Rivoli",
+     "auteur": "Inspection générale de la Ville de Paris",
+     "annee": 2012,
+     "url": "https://cdn.paris.fr/paris/2020/02/26/ff60b218a0c4a14f648ad2eceaf0261e.pdf"
+    },
+    {
+     "titre": "L'histoire du lieu",
+     "auteur": "59 Rivoli",
+     "annee": null,
+     "url": "https://59rivoli.org/__trashed-7__trashed/"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/59-rivoli/"
+  },
+  {
+   "uid": "ancrage",
+   "nom": "Ancrage",
+   "autres_noms": [],
+   "famille": "lieu_non_marchand",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "foncier_verrouille",
+    "etabli"
+   ],
+   "periode": "2008-",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Nancy",
+    "departement": "54",
+    "region": "Grand Est",
+    "lat": 48.6881,
+    "lon": 6.1734
+   },
+   "debut": 2022,
+   "fin": null,
+   "resume": "Immeuble de quatre étages (environ 360 m²) dans le quartier des Trois Maisons, à Nancy, acheté en 2022 par le collectif Ancrage, né d'une lutte de quartier contre la gentrification, grâce à des dons, des subventions de fondations, des prêts privés et un emprunt bancaire. On y trouve trois logements, un atelier d'imprimerie, une bibliothèque féministe, une zone de gratuité, des repas solidaires et un espace d'éducation populaire. Le lieu fonctionne sur le bénévolat et des relations non marchandes ; le portage par le fonds Antidote est annoncé mais aucun transfert n'est documenté.",
+   "collectif": {
+    "nom": "Ancrage",
+    "forme": "association",
+    "annee": 2020
+   },
+   "foncier": {
+    "porteur": "Association Ancrage (acquéreuse en 2022) ; portage par Antidote annoncé",
+    "porteur_forme": "association",
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "oui",
+     "note": "Association loi 1901 (créée en 2020) propriétaire ; fonds de dotation partenaire."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Association propriétaire sans clause d'inaliénabilité publiée ; objet statutaire de pérenniser la vocation collective des lieux, mais pas de transfert à Antidote ni de bail documenté. Même après transfert, le fonds peut vendre à l'unanimité de son CA (Silence 2023)."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Bénévolat et relations non marchandes ; la plupart des activités sont gratuites."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Les participant·es à la vie du lieu décident ensemble des orientations de l'association."
+    },
+    "etabli": {
+     "valeur": "non",
+     "note": "Achat en 2022 : quatre ans. Pas encore établi — normal pour un lieu récent."
+    }
+   },
+   "dimensions": {
+    "acces": "achat_collectif",
+    "titre": "propriete",
+    "verrou": "inconnu",
+    "gouvernance": "inconnu",
+    "economie": "inconnu",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "habitat",
+     "education_populaire",
+     "culture"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "inconnu",
+    "echelle": "moins_10",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "[Nancy] Fête de soutien à Ancrage",
+     "auteur": "Manif'Est",
+     "annee": 2026,
+     "url": "https://manif-est.info/Nancy-Fete-de-soutien-a-Ancrage-4153.html"
+    },
+    {
+     "titre": "Les lieux",
+     "auteur": "Antidote",
+     "annee": null,
+     "url": "https://aventure-antidote.org/qui-sommes-nous/nos-lieux/"
+    },
+    {
+     "titre": "L'Antidote : des lieux que personne ne possède (Silence n°517, repris par Pressenza)",
+     "auteur": "Revue Silence",
+     "annee": 2023,
+     "url": "https://www.pressenza.com/fr/2023/01/lantidote-des-lieux-que-personne-ne-possede/"
+    },
+    {
+     "titre": "Association Ancrage (SIREN 888168697)",
+     "auteur": "Pappers",
+     "annee": null,
+     "url": "https://www.pappers.fr/entreprise/ancrage-888168697"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/ancrage/"
+  },
+  {
+   "uid": "la-talvere",
+   "nom": "La Talvère",
+   "autres_noms": [],
+   "famille": "lieu_non_marchand",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "foncier_verrouille",
+    "etabli"
+   ],
+   "periode": "2008-",
+   "verrou_type": "par_propriete",
+   "localisation": {
+    "commune": "Bio",
+    "departement": "46",
+    "region": "Occitanie",
+    "lat": 44.7769,
+    "lon": 1.7896
+   },
+   "debut": 2019,
+   "fin": null,
+   "resume": "Ancienne maison, grande grange et dépendances sur les causses du Quercy, à Bio (Lot), acquises à partir de 2019 dans le sillage de la reprise d'une ferme voisine par Terre de Liens. Une dizaine de personnes actives y font vivre un lieu partagé et autogéré : stages, rencontres, réunions, hébergements ponctuels. La collecte d'Antidote (plus de 200 000 € pour un objectif de 215 000 €) désigne le fonds comme « acheteur et futur propriétaire », l'usage étant confié à l'association par bail emphytéotique.",
+   "collectif": {
+    "nom": "La Talvère",
+    "forme": "association",
+    "annee": 2019
+   },
+   "foncier": {
+    "porteur": "Fonds de dotation Antidote (acheteur et futur propriétaire)",
+    "porteur_forme": "fonds_dotation",
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "oui",
+     "note": "Association loi 1901 usagère ; fonds de dotation acquéreur."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Date du transfert au fonds non publiée (Silence 2023 : l'association « transmettra la propriété » une fois les prêts remboursés). Aucune clause d'inaliénabilité publiée dans les statuts du fonds : selon Silence (2023), Antidote « peut vendre un lieu à l'unanimité de son conseil d'administration » (trois administrateur·rices nommé·es par Les Passagères de l'usage). La dévolution de l'actif net d'un fonds de dotation dissous à un autre fonds ou à une fondation RUP est légale (loi 2008, art. 140) mais ne verrouille pas le lieu lui-même ; le bail emphytéotique de 99 ans, qui serait opposable à un acquéreur, n'est pas publié pour ce lieu."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Lieu partagé qui accueille stages, rencontres et hébergements ponctuels."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Lieu autogéré par une dizaine de personnes qui se répartissent l'accueil, le soin, la gestion et la communication."
+    },
+    "etabli": {
+     "valeur": "non",
+     "note": "Depuis 2019 : sept ans. Pas encore établi — normal pour un lieu récent."
+    }
+   },
+   "dimensions": {
+    "acces": "souscription",
+    "titre": "bail_emphyteotique",
+    "verrou": [
+     "devolution_desinteressee"
+    ],
+    "gouvernance": "inconnu",
+    "economie": "inconnu",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "education_populaire"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "inconnu",
+    "echelle": "10_50",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Les lieux",
+     "auteur": "Antidote",
+     "annee": null,
+     "url": "https://aventure-antidote.org/qui-sommes-nous/nos-lieux/"
+    },
+    {
+     "titre": "Collecte La Talvère / Antidote — phase 5",
+     "auteur": "La Foncière Antidote (HelloAsso)",
+     "annee": null,
+     "url": "https://www.helloasso.com/associations/la-fonciere-antidote/collectes/collecte-la-talvere-antidote"
+    },
+    {
+     "titre": "L'Antidote : des lieux que personne ne possède (Silence n°517, repris par Pressenza)",
+     "auteur": "Revue Silence",
+     "annee": 2023,
+     "url": "https://www.pressenza.com/fr/2023/01/lantidote-des-lieux-que-personne-ne-possede/"
+    },
+    {
+     "titre": "Le fonds de dotation",
+     "auteur": "La Talvère",
+     "annee": 2019,
+     "url": "https://latalvere.org/le-fonds-de-dotation/"
+    },
+    {
+     "titre": "Loi n° 2008-776 du 4 août 2008 de modernisation de l'économie, art. 140 (fonds de dotation)",
+     "auteur": "Légifrance",
+     "annee": 2008,
+     "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000019283050"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/la-talvere/"
+  },
+  {
+   "uid": "viel-audon",
+   "nom": "Le Viel Audon",
+   "autres_noms": [
+    "Hameau du Viel Audon"
+   ],
+   "famille": "lieu_non_marchand",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "autogestion"
+   ],
+   "periode": "1968-1989",
+   "verrou_type": "par_titre",
+   "localisation": {
+    "commune": "Balazuc",
+    "departement": "07",
+    "region": "Auvergne-Rhône-Alpes",
+    "lat": 44.5075,
+    "lon": 4.3717
+   },
+   "debut": 1972,
+   "fin": null,
+   "resume": "Hameau abandonné des gorges de l'Ardèche, à Balazuc, le Viel Audon est redécouvert en 1972 par de jeunes gens : les ruines sont achetées et reconstruites pierre à pierre par des chantiers de jeunes bénévoles. Pour résoudre la question de la propriété, le site est confié à l'association Le Mat par un bail emphytéotique de 99 ans. Le hameau associe aujourd'hui l'association Le Mat (accueil, éducation à l'environnement), l'Association des jeunes de chantier, une ferme en SCEA et d'autres structures ; 15 à 20 personnes y vivent à l'année. Un conseil de hameau réunit les résidents chaque trimestre ; les salariés sont payés au SMIC avec prime d'ancienneté.",
+   "collectif": {
+    "nom": "Association Le Mat",
+    "forme": "association",
+    "annee": null
+   },
+   "foncier": {
+    "porteur": "Bailleur non documenté (ruines achetées dans les années 1970, acquéreur non précisé)",
+    "porteur_forme": null,
+    "surface_ha": null,
+    "titre_duree_ans": 99
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Association Le Mat preneuse, mais bailleur non identifié et ferme portée par une SCEA (société civile à parts)."
+    },
+    "foncier_verrouille": {
+     "valeur": "oui",
+     "note": "Bail emphytéotique de 99 ans au profit de l'association (titre d'usage ≥ 30 ans) ; périmètre exact (bâti, terres de la SCEA) non précisé."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Éducation à l'environnement, chantiers de jeunes, accueil de scolaires et de groupes."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Conseil de hameau des résidents, mais décisions réparties entre plusieurs personnes morales ; souveraineté de l'assemblée non établie."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Usage continu depuis 1972."
+    }
+   },
+   "dimensions": {
+    "acces": "inconnu",
+    "titre": "bail_emphyteotique",
+    "verrou": [
+     "bail_long"
+    ],
+    "gouvernance": "mixte",
+    "economie": "salariat_structure",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "education_populaire",
+     "agriculture",
+     "habitat"
+    ],
+    "filiation": [
+     "education_populaire",
+     "neo_ruralisme"
+    ],
+    "rapport_etat": "inconnu",
+    "echelle": "10_50",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Chantier ouvert au public — le Viel Audon, village coopératif (fiche ECM-0026)",
+     "auteur": "Béatrice Barras, éditions REPAS (2008, rééd. 2014), fiche Habitat coopér'actif",
+     "annee": 2008,
+     "url": "https://habitat-cooperactif.eu/wp-content/uploads/2019/04/ECM0026_le-Viel-Audon-village-coop%C3%A9ratif.pdf"
+    },
+    {
+     "titre": "Le Viel Audon, des ruines à l'écovillage (Silence n°515)",
+     "auteur": "Michel Bernard, Revue Silence",
+     "annee": null,
+     "url": "https://www.revuesilence.net/numeros/515-Nucleaire-l-impasse-programmee-500/le-viel-audon-des-ruines-a-l-ecovillage"
+    },
+    {
+     "titre": "Le Viel Audon",
+     "auteur": "Association Le Mat",
+     "annee": null,
+     "url": "https://levielaudon.org/"
+    },
+    {
+     "titre": "SCEA Le Vieil Audon — SIREN 382332161",
+     "auteur": "Annuaire des entreprises (data.gouv)",
+     "annee": null,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/scea-le-vieil-audon-382332161"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/viel-audon/"
+  },
+  {
+   "uid": "la-marinie",
+   "nom": "Les Communs de la Marinie",
+   "autres_noms": [
+    "La Marinie"
+   ],
+   "famille": "commun_foncier",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "foncier_verrouille",
+    "etabli"
+   ],
+   "periode": "2008-",
+   "verrou_type": "par_propriete",
+   "localisation": {
+    "commune": "Causse-et-Diège",
+    "departement": "12",
+    "region": "Occitanie",
+    "lat": 44.5249,
+    "lon": 2.0322
+   },
+   "debut": 2017,
+   "fin": null,
+   "resume": "Ferme d'environ 27 hectares du hameau de la Marinie, à Causse-et-Diège (nord Aveyron). L'aventure collective commence en 2017 ; l'association Les Communs de la Marinie, créée en 2021, réunit les usager·es du lieu. Une collecte lancée en 2021 a permis l'entrée du lieu dans Antidote, et la propriété a été transférée au fonds de dotation en novembre 2024. On y cultive céréales et oléagineux, on y fait pain et savons, et le lieu accueille ateliers, projections et soirées.",
+   "collectif": {
+    "nom": "Les Communs de la Marinie",
+    "forme": "association",
+    "annee": 2021
+   },
+   "foncier": {
+    "porteur": "Fonds de dotation Antidote",
+    "porteur_forme": "fonds_dotation",
+    "surface_ha": 27,
+    "titre_duree_ans": 99
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "oui",
+     "note": "Association loi 1901 usagère ; propriété d'un fonds de dotation piloté par l'association Les Passagères de l'usage."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Propriété transférée au fonds en novembre 2024. Aucune clause d'inaliénabilité publiée dans les statuts du fonds : selon Silence (2023), Antidote « peut vendre un lieu à l'unanimité de son conseil d'administration » (trois administrateur·rices nommé·es par Les Passagères de l'usage). La dévolution de l'actif net d'un fonds de dotation dissous à un autre fonds ou à une fondation RUP est légale (loi 2008, art. 140) mais ne verrouille pas le lieu lui-même ; le bail emphytéotique de 99 ans, qui serait opposable à un acquéreur, n'est pas publié pour ce lieu."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Activité agricole et artisanale sans rente foncière, ouverte au territoire (ventes, ateliers, soirées)."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "L'association des usager·es décide des usages ; chaque lieu envoie deux délégué·es au Conseil communal des Passagères de l'usage (consensus, à défaut majorité qualifiée), qui pilote le fonds."
+    },
+    "etabli": {
+     "valeur": "non",
+     "note": "Aventure commencée en 2017 : neuf ans en 2026. Pas encore établi — normal pour un lieu récent."
+    }
+   },
+   "dimensions": {
+    "acces": "souscription",
+    "titre": "bail_emphyteotique",
+    "verrou": [
+     "devolution_desinteressee"
+    ],
+    "gouvernance": "conseil_delegue",
+    "economie": "activites_marchandes_annexes",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "agriculture",
+     "artisanat_production",
+     "culture"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "inconnu",
+    "echelle": "inconnu",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Les lieux",
+     "auteur": "Antidote",
+     "annee": null,
+     "url": "https://aventure-antidote.org/qui-sommes-nous/nos-lieux/"
+    },
+    {
+     "titre": "Antidote — accueil et lettres d'information (transferts de propriété de novembre 2024)",
+     "auteur": "Antidote",
+     "annee": 2025,
+     "url": "https://aventure-antidote.org/"
+    },
+    {
+     "titre": "Notre fonctionnement",
+     "auteur": "Antidote",
+     "annee": null,
+     "url": "https://aventure-antidote.org/comment-ca-marche/notre-fonctionnement/"
+    },
+    {
+     "titre": "L'Antidote : des lieux que personne ne possède (Silence n°517, repris par Pressenza)",
+     "auteur": "Revue Silence",
+     "annee": 2023,
+     "url": "https://www.pressenza.com/fr/2023/01/lantidote-des-lieux-que-personne-ne-possede/"
+    },
+    {
+     "titre": "Loi n° 2008-776 du 4 août 2008 de modernisation de l'économie, art. 140 (fonds de dotation)",
+     "auteur": "Légifrance",
+     "annee": 2008,
+     "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000019283050"
+    },
+    {
+     "titre": "Les Communs de la Marinie — site",
+     "auteur": "Les Communs de la Marinie",
+     "annee": null,
+     "url": "https://lescommunsdelamarinie.fr/"
+    },
+    {
+     "titre": "Les communs de la Marinie — collecte",
+     "auteur": "La Foncière Antidote (HelloAsso)",
+     "annee": 2021,
+     "url": "https://www.helloasso.com/associations/la-fonciere-antidote/collectes/les-communs-de-la-marinie"
+    },
+    {
+     "titre": "La foncière Antidote, un fonds de dotation pour pérenniser les luttes",
+     "auteur": "Socialter",
+     "annee": 2023,
+     "url": "https://www.socialter.fr/article/la-fonciere-antidote-fond-dotation-lutte"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/la-marinie/"
+  },
+  {
+   "uid": "hautes-planches-bretoncelles",
+   "nom": "Les Hautes-Planches",
+   "autres_noms": [
+    "Moulin de Haute Planche"
+   ],
+   "famille": "lieu_non_marchand",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "foncier_verrouille",
+    "etabli"
+   ],
+   "periode": "2008-",
+   "verrou_type": "par_propriete",
+   "localisation": {
+    "commune": "Bretoncelles",
+    "departement": "61",
+    "region": "Normandie",
+    "lat": 48.4388,
+    "lon": 0.9055
+   },
+   "debut": 2017,
+   "fin": null,
+   "resume": "Ancien moulin à Bretoncelles, dans le Perche ornais : lieu d'habitat, d'ateliers et d'activités culturelles, avec des espaces à prix libre accessibles à tous. L'association usagère Hautes Planches, déclarée en mai 2017, occupe et gère le lieu ; l'association Les Donnettes a acheté le corps principal du moulin en octobre 2017, puis une parcelle complémentaire par financement participatif. Montage CLIP : Les Donnettes n'a que deux membres, l'association usagère et le réseau CLIP, garant de la non-revente.",
+   "collectif": {
+    "nom": "Hautes Planches",
+    "forme": "association",
+    "annee": 2017
+   },
+   "foncier": {
+    "porteur": "Association Les Donnettes",
+    "porteur_forme": "association",
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "oui",
+     "note": "Associations Hautes Planches (usagère), Les Donnettes (propriétaire) et CLIP."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Le verrou tient au montage CLIP : l'association propriétaire n'a que deux membres, l'association usagère et le CLIP, qui détient « un droit de véto sur la revente ». Mais les statuts ne sont pas publiés : aucune clause d'inaliénabilité opposable aux tiers n'est vérifiée, et une association peut modifier ses statuts — la protection repose sur la composition des membres, pas sur un acte publié."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Objet : « lieu collectif et solidaire » ; espaces à prix libre accessibles à tous."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Lieu membre d'un réseau de « lieux solidaires et autogérés » ; l'usagère est membre de la propriétaire."
+    },
+    "etabli": {
+     "valeur": "non",
+     "note": "Association usagère déclarée et achat en 2017 : neuf ans en 2026. Pas encore établi — normal pour un lieu récent."
+    }
+   },
+   "dimensions": {
+    "acces": "achat_collectif",
+    "titre": "inconnu",
+    "verrou": [
+     "veto_reseau"
+    ],
+    "gouvernance": "inconnu",
+    "economie": "inconnu",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "habitat",
+     "culture"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "inconnu",
+    "echelle": "inconnu",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Les lieux",
+     "auteur": "CLIP — Réseau de lieux en propriété d'usage",
+     "annee": null,
+     "url": "https://clip.ouvaton.org/les-projets/"
+    },
+    {
+     "titre": "Qu'est-ce que le Clip ?",
+     "auteur": "CLIP — Réseau de lieux en propriété d'usage",
+     "annee": null,
+     "url": "https://clip.ouvaton.org/quest-ce-que-le-clip/"
+    },
+    {
+     "titre": "Hautes Planches (SIREN 834607483)",
+     "auteur": "Annuaire des entreprises",
+     "annee": null,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/hautes-planches-834607483"
+    },
+    {
+     "titre": "Les Donnettes — collecte « Achat du Broc »",
+     "auteur": "Les Donnettes (HelloAsso)",
+     "annee": null,
+     "url": "https://www.helloasso.com/associations/les-donnettes/collectes/achat-du-broc"
+    },
+    {
+     "titre": "Associations de Bretoncelles",
+     "auteur": "Annuaire-mairie",
+     "annee": null,
+     "url": "https://www.annuaire-mairie.fr/association-bretoncelles.html"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/hautes-planches-bretoncelles/"
+  },
+  {
+   "uid": "longo-mai-limans",
+   "nom": "Longo Maï — Grange Neuve (Limans)",
+   "autres_noms": [
+    "Longo Maï",
+    "Grange Neuve"
+   ],
+   "famille": "communaute_intentionnelle",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille"
+   ],
+   "periode": "1968-1989",
+   "verrou_type": "par_propriete",
+   "localisation": {
+    "commune": "Limans",
+    "departement": "04",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "lat": 43.9852,
+    "lon": 5.7311
+   },
+   "debut": 1973,
+   "fin": null,
+   "resume": "En 1973, de jeunes militants issus des groupes Spartakus (Suisse) et Hydra (Autriche) achètent par collecte un domaine d'environ 270 hectares à Limans, près de Forcalquier, avec les fermes de Grange-Neuve et du Pigeonnier : c'est la première coopérative du réseau Longo Maï. Une centaine de personnes y vivent sans salaire, les ressources étant mises en commun, et décident par consensus ; élevage, céréales, maraîchage, transformation, forêt et Radio Zinzine (1981) font vivre le lieu, avec une part importante de dons. Le réseau déclare détenir son foncier en propriété collective inaliénable par une fondation suisse, le Fonds de Terre Européenne. Le lieu a connu la répression d'État (refus de titres de séjour en 1973, opération de police en 1989).",
+   "collectif": {
+    "nom": "Coopérative Longo Maï de Limans (Association européenne Longo Maï)",
+    "forme": "association",
+    "annee": null
+   },
+   "foncier": {
+    "porteur": "Fonds de Terre Européenne (fondation de droit suisse), selon le réseau",
+    "porteur_forme": "fondation",
+    "surface_ha": 270,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Fondation (porteur) et association (collectif), mais le réseau emploie aussi des formes coopératives, GFA et EARL, sans ventilation publique par site."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Inaliénabilité affirmée par le réseau, mais statuts de la fondation et acte liant Limans non publiés ; titre d'usage de la coopérative non documenté."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Accueil, radio locale Radio Zinzine, solidarité internationale, sans rente."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Décisions par consensus des coopérants ; pas de propriétaire qui tranche."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Usage continu depuis 1973."
+    }
+   },
+   "dimensions": {
+    "acces": "souscription",
+    "titre": "inconnu",
+    "verrou": [
+     "inalienabilite_statutaire"
+    ],
+    "gouvernance": "assemblee_consensus",
+    "economie": "caisse_commune",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "agriculture",
+     "artisanat_production",
+     "culture",
+     "habitat"
+    ],
+    "filiation": [
+     "anarchisme",
+     "neo_ruralisme",
+     "autonomie"
+    ],
+    "rapport_etat": "conflit",
+    "echelle": "50_200",
+    "transmission": "generations_renouvelees",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Association Longo Maï",
+     "auteur": "Wikipédia",
+     "annee": null,
+     "url": "https://fr.wikipedia.org/wiki/Association_Longo_Ma%C3%AF"
+    },
+    {
+     "titre": "Longo Maï",
+     "auteur": "Coopérative Longo Maï La Cabrery",
+     "annee": null,
+     "url": "https://www.lacabrery.org/longo-mai/"
+    },
+    {
+     "titre": "L'exceptionnelle longévité de Longo Maï",
+     "auteur": "Martin Barbara, Coopérative Oasis",
+     "annee": 2025,
+     "url": "https://cooperative-oasis.org/articles/lexceptionnelle-longevite-de-longo-mai/"
+    },
+    {
+     "titre": "Pro Longo Maï",
+     "auteur": "Pro Longo Maï",
+     "annee": null,
+     "url": "https://www.prolongomaif.ch/"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/longo-mai-limans/"
+  },
+  {
+   "uid": "sctl-larzac",
+   "nom": "Société civile des terres du Larzac (SCTL)",
+   "autres_noms": [
+    "SCTL",
+    "Terres du Larzac"
+   ],
+   "famille": "commun_foncier",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "usage_ig"
+   ],
+   "periode": "1968-1989",
+   "verrou_type": "par_titre",
+   "localisation": {
+    "commune": "La Cavalerie",
+    "departement": "12",
+    "region": "Occitanie",
+    "lat": 44.0092,
+    "lon": 3.1572
+   },
+   "debut": 1985,
+   "fin": null,
+   "resume": "Après l'abandon en 1981 du projet d'extension du camp militaire du Larzac, l'État conserve les terres rachetées et en confie la gestion aux habitants : la Société civile des terres du Larzac, constituée en assemblée le 29 novembre 1984, signe le 29 avril 1985 un bail emphytéotique de soixante ans sur quelque 6 300 hectares, prolongé par avenant en 2013 jusqu'au 30 avril 2083. Ses associés sont les fermiers et résidents ; la moitié des parts plus une doit être détenue par les associés exploitants. Un conseil de gérance de onze membres attribue les exploitations par baux ruraux « de carrière » et prêts à usage ; les seules recettes sont les fermages.",
+   "collectif": {
+    "nom": "Société civile des terres du Larzac",
+    "forme": "societe_civile",
+    "annee": 1985
+   },
+   "foncier": {
+    "porteur": "État",
+    "porteur_forme": "personne_publique",
+    "surface_ha": 6300,
+    "titre_duree_ans": 99
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Porteur public (État), mais collectif en société civile à capital, forme hors de la liste admise ; parts liées à la qualité d'usager, cessibilité non documentée."
+    },
+    "foncier_verrouille": {
+     "valeur": "oui",
+     "note": "Propriété de l'État et bail emphytéotique jusqu'en 2083 ; la SCTL ne peut ni vendre ni hypothéquer."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Office foncier non rentier au service de l'installation paysanne d'un territoire, mais usage par exploitations agricoles individuelles marchandes."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Associés = fermiers et résidents ; assemblée générale et conseil de gérance issus des usagers ; l'État ne décide pas de l'attribution."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Fonctionnement continu depuis 1985."
+    }
+   },
+   "dimensions": {
+    "acces": "bail_public",
+    "titre": "bail_emphyteotique",
+    "verrou": [
+     "bail_long"
+    ],
+    "gouvernance": "conseil_delegue",
+    "economie": "revenus_individuels_externes",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "agriculture",
+     "habitat",
+     "lutte_territoriale"
+    ],
+    "filiation": [
+     "non_violence"
+    ],
+    "rapport_etat": "conventionnement",
+    "echelle": "inconnu",
+    "transmission": "generations_renouvelees",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "SCTL — Un territoire organisé, gestion foncière",
+     "auteur": "Larzac.org",
+     "annee": null,
+     "url": "https://larzac.org/accueil/un-territoire-organise/gestion-fonciere/sctl/"
+    },
+    {
+     "titre": "La Société civile des terres du Larzac (SCTL), une approche novatrice de la gestion foncière",
+     "auteur": "José Bové, AGTER",
+     "annee": 2002,
+     "url": "https://www.agter.org/bdf/fr/corpus_chemin/fiche-chemin-9.html"
+    },
+    {
+     "titre": "Soc. civile des terres du Larzac — SIREN 331605527",
+     "auteur": "Annuaire des entreprises (data.gouv)",
+     "annee": null,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/soc-civile-des-terres-du-larzac-sctl-331605527"
+    },
+    {
+     "titre": "Un office foncier en France : la société civile des terres du Larzac",
+     "auteur": "HAL / INRAE",
+     "annee": null,
+     "url": "https://hal.inrae.fr/hal-02857509"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/sctl-larzac/"
+  },
+  {
+   "uid": "arche-borie-noble",
+   "nom": "Communauté de l'Arche, La Borie Noble",
+   "autres_noms": [
+    "Arche de Lanza del Vasto"
+   ],
+   "famille": "communaute_intentionnelle",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "autogestion"
+   ],
+   "periode": "1946-1967",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Roqueredonde",
+    "departement": "34",
+    "region": "Occitanie",
+    "lat": 43.805,
+    "lon": 3.225
+   },
+   "debut": 1963,
+   "fin": null,
+   "resume": "La communauté de l'Arche, fondée par Lanza del Vasto dans le sillage de Gandhi, rachète en 1963 le domaine de La Borie Noble, à Roqueredonde (Hérault), qui devient l'un de ses lieux principaux. Célibataires et familles y mènent une vie d'agriculture, d'artisanat, de prière et de non-violence ; les revenus sont redistribués selon les besoins et les décisions se prennent à l'unanimité, au consensus ou au vote selon leur importance. La communauté accueille de nombreux hôtes et s'engage dans les luttes locales. Après un déclin des effectifs, la communauté de La Borie Noble a été suspendue et une refondation engagée (Silence n°463) ; une association L'Arche de Lanza del Vasto a son siège sur le lieu.",
+   "collectif": {
+    "nom": "Association L'Arche de Lanza del Vasto",
+    "forme": "association",
+    "annee": null
+   },
+   "foncier": {
+    "porteur": "Non documenté (domaine racheté en 1963 « par la communauté de l'Arche »)",
+    "porteur_forme": null,
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Collectif associatif, mais structure propriétaire du domaine non établie."
+    },
+    "foncier_verrouille": {
+     "valeur": "inconnu",
+     "note": "Aucune source sur la propriété ni sur un verrou."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Accueil régulier d'hôtes et formation à la non-violence, au-delà des membres."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Décisions collectives (unanimité, consensus, vote), mais coordinateur général historiquement élu à vie ; réforme de la fonction encore en discussion en 2007."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Présence sur le lieu depuis 1963."
+    }
+   },
+   "dimensions": {
+    "acces": "achat_collectif",
+    "titre": "inconnu",
+    "verrou": "inconnu",
+    "gouvernance": "mixte",
+    "economie": "caisse_commune",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "spiritualite",
+     "agriculture",
+     "artisanat_production"
+    ],
+    "filiation": [
+     "non_violence"
+    ],
+    "rapport_etat": "inconnu",
+    "echelle": "inconnu",
+    "transmission": "en_cours",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Résistance non violente et maquis héraultais : la communauté de l'Arche de La Borie Noble",
+     "auteur": "Emmanuelle Coulomb, Études héraultaises",
+     "annee": 2001,
+     "url": "https://www.etudesheraultaises.fr/publi/resistance-non-violente-et-maquis-heraultais-la-communaute-de-larche-de-la-borie-noble/"
+    },
+    {
+     "titre": "L'Arche de Lanza del Vasto : un projet de vie radical et intégral au service de la non-violence",
+     "auteur": "Guillaume Gamblin, Irénées",
+     "annee": 2007,
+     "url": "https://www.irenees.net/bdf_fiche-acteurs-308_fr.html"
+    },
+    {
+     "titre": "Des communautés à la recherche d'un nouveau souffle (Silence n°463)",
+     "auteur": "Michel Bernard, Revue Silence",
+     "annee": null,
+     "url": "https://www.revuesilence.net/numeros/463-Alternatives-dans-l-Herault/des-communautes-a-la-recherche-d-un-nouveau-souffle"
+    },
+    {
+     "titre": "ASS L'ARCHE DE LANZA DEL VASTO — SIREN 530484906",
+     "auteur": "Societe.com (données SIRENE)",
+     "annee": null,
+     "url": "https://www.societe.com/societe/ass-l-arche-de-lanza-del-vasto-530484906.html"
+    },
+    {
+     "titre": "Community of the Ark",
+     "auteur": "Wikipedia (en)",
+     "annee": null,
+     "url": "https://en.wikipedia.org/wiki/Community_of_the_Ark"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/arche-borie-noble/"
+  },
+  {
+   "uid": "domaine-du-rayol",
+   "nom": "Domaine du Rayol",
+   "autres_noms": [
+    "Jardin des Méditerranées"
+   ],
+   "famille": "lieu_non_marchand",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion"
+   ],
+   "periode": "1968-1989",
+   "verrou_type": "par_propriete",
+   "localisation": {
+    "commune": "Rayol-Canadel-sur-Mer",
+    "departement": "83",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "lat": 43.1664,
+    "lon": 6.4744
+   },
+   "debut": 1989,
+   "fin": null,
+   "resume": "Domaine côtier des Maures au Rayol-Canadel-sur-Mer (Var), acquis en 1989 par le Conservatoire du littoral après une mobilisation locale contre un projet d'urbanisation. La gestion est confiée par convention à l'Association du Domaine du Rayol (ADORA), déclarée en septembre 1989, qui emploie une trentaine de salariés permanents. Le site, dont le Jardin des Méditerranées, est ouvert au public tous les jours, avec une entrée payante. Épreuve de référence : foncier public inaliénable, mais gestion déléguée à un établissement associatif salarié, sans collectif d'usagers souverain.",
+   "collectif": {
+    "nom": "Association du Domaine du Rayol (ADORA)",
+    "forme": "association",
+    "annee": 1989
+   },
+   "foncier": {
+    "porteur": "Conservatoire de l'espace littoral et des rivages lacustres",
+    "porteur_forme": "personne_publique",
+    "surface_ha": 20,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "oui",
+     "note": "Propriétaire : Conservatoire du littoral, personne publique ; gestionnaire : association loi 1901 (ADORA). Aucun maillon commercial documenté dans la chaîne foncier-usage."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Le terrain est sorti du marché par la propriété du Conservatoire du littoral ; mais le titre de l'association est une convention de gestion dont la durée n'est pas publiée, sans garantie d'usage de 30 ans."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Ouverture au public toute l'année et protection d'un milieu, mais accès payant et activités commerciales annexes (restaurant, librairie, pépinière)."
+    },
+    "autogestion": {
+     "valeur": "non",
+     "note": "Établissement associatif à direction salariée et conseil élu, gestionnaire délégué d'un propriétaire public qui fixe le cadre par convention : pas d'assemblée d'usagers souveraine sur l'usage."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Gestion associative continue depuis 1989."
+    }
+   },
+   "dimensions": {
+    "acces": "bail_public",
+    "titre": "convention",
+    "verrou": [
+     "domanialite_publique"
+    ],
+    "gouvernance": "conseil_delegue",
+    "economie": "salariat_structure",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "milieu_vivant",
+     "culture",
+     "education_populaire"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "conventionnement",
+    "echelle": "10_50",
+    "transmission": "generations_renouvelees",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Domaine du Rayol (83, Var)",
+     "auteur": "Conservatoire du littoral",
+     "annee": null,
+     "url": "https://www.conservatoire-du-littoral.fr/siteLittoral/202/28-domaine-du-rayol-83_var.htm"
+    },
+    {
+     "titre": "Les équipes — L'Association du Domaine du Rayol",
+     "auteur": "Domaine du Rayol",
+     "annee": null,
+     "url": "https://www.domainedurayol.org/en/le-domaine/lassociation-du-domaine-du-rayol/les-equipes/"
+    },
+    {
+     "titre": "Domaine du Rayol — site officiel",
+     "auteur": "Association du Domaine du Rayol",
+     "annee": null,
+     "url": "https://www.domainedurayol.org/"
+    },
+    {
+     "titre": "ASS DU DOMAINE DU RAYOL (ADORA) (SIREN 352262653)",
+     "auteur": "Annuaire des entreprises (État)",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/ass-du-domaine-du-rayol-adora-352262653"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/domaine-du-rayol/"
+  },
+  {
+   "uid": "ferme-de-lachaud",
+   "nom": "Ferme de Lachaud",
+   "autres_noms": [
+    "Domaine de Lachaud",
+    "La ferme des possibles"
+   ],
+   "famille": "commun_foncier",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "autogestion"
+   ],
+   "periode": "2008-",
+   "verrou_type": "par_titre",
+   "localisation": {
+    "commune": "Gentioux-Pigerolles",
+    "departement": "23",
+    "region": "Nouvelle-Aquitaine",
+    "lat": 45.7851,
+    "lon": 2.0192
+   },
+   "debut": 2008,
+   "fin": null,
+   "resume": "Domaine agricole et naturel de 130 ha au hameau de Lachaud, à Gentioux-Pigerolles (Creuse), sur le plateau de Millevaches, acquis en 2008 par la Communauté de communes du Plateau de Gentioux avec l'association Le Champ des Possibles et le conservatoire régional des espaces naturels. Le conservatoire tient 75 ha de landes et tourbières par bail emphytéotique signé le 5 octobre 2010 ; les terres agricoles ont été louées au GAEC de la Fève, installé en avril 2008 (brebis limousines), aujourd'hui radié. Le hameau accueille aussi l'association Le Champ des Possibles, l'espace-test agricole Paysan Dès Demain (2013) et des habitants, artisans et chercheurs. Épreuve de référence : foncier public et gestion conservatoire civile, mais usage agricole par des exploitants sociétaires ou individuels.",
+   "collectif": {
+    "nom": "Le Champ des Possibles (association) avec les exploitants agricoles du site",
+    "forme": "association",
+    "annee": 2008
+   },
+   "foncier": {
+    "porteur": "Communauté de communes du Plateau de Gentioux",
+    "porteur_forme": "personne_publique",
+    "surface_ha": 130,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Propriétaire public et conservatoire associatif sont civils, mais l'usage agricole, principal usage du domaine, a été confié à un GAEC (société civile agricole à parts, radiée depuis), puis à des exploitants privés."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Propriété d'une collectivité et bail emphytéotique de 30 ans sur 75 ha ; mais le reste relève du domaine privé de la collectivité, sans inaliénabilité publiée, et le titre agricole est un bail sans durée publiée."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Foncier public voué à la préservation des landes et tourbières, à l'agriculture paysanne, à la formation (espace-test régional) et à la recherche : activités tournées vers le territoire, sans rente foncière."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Décision collective revendiquée par les résidents en 2008, mais les baux et l'affectation des terres relèvent de la collectivité propriétaire ; pas d'assemblée d'usagers souveraine documentée."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Usage continu depuis 2008 (exploitation, association, conservatoire)."
+    }
+   },
+   "dimensions": {
+    "acces": "bail_public",
+    "titre": "bail_rural",
+    "verrou": [
+     "bail_long"
+    ],
+    "gouvernance": "mixte",
+    "economie": "activites_marchandes_annexes",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "agriculture",
+     "milieu_vivant",
+     "education_populaire"
+    ],
+    "filiation": [
+     "neo_ruralisme"
+    ],
+    "rapport_etat": "conventionnement",
+    "echelle": "10_50",
+    "transmission": "generations_renouvelees",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Domaine de Lachaud",
+     "auteur": "Conservatoire d'espaces naturels du Limousin",
+     "annee": null,
+     "url": "https://www.conservatoirelimousin.com/la-liste-des-sites/site/17-domaine-de-lachaud.html"
+    },
+    {
+     "titre": "La ferme des possibles, Lachaud",
+     "auteur": "IPNS, journal du plateau de Millevaches",
+     "annee": 2008,
+     "url": "https://www.journal-ipns.org/les-articles/894-la-ferme-des-possibles-lachaud"
+    },
+    {
+     "titre": "Fiche de ferme — Ferme de Lachaud",
+     "auteur": "CIVAM Limousin",
+     "annee": null,
+     "url": "https://www.civamlimousin.com/images/fiches_ferme/FICHE_FERME_GAEC_DE_LACHAUD.pdf"
+    },
+    {
+     "titre": "GAEC DE LA FEVE (SIREN 503873085)",
+     "auteur": "Annuaire des entreprises (État)",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/503873085"
+    },
+    {
+     "titre": "PAYSAN DES DEMAIN (SIREN 797645470)",
+     "auteur": "Annuaire des entreprises (État)",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/797645470"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/ferme-de-lachaud/"
+  },
+  {
+   "uid": "keriskis",
+   "nom": "Keriskis",
+   "autres_noms": [],
+   "famille": "commun_foncier",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "foncier_verrouille",
+    "usage_ig",
+    "etabli"
+   ],
+   "periode": "2008-",
+   "verrou_type": "par_propriete",
+   "localisation": {
+    "commune": "Non publiée (Centre-Bretagne)",
+    "departement": "56",
+    "region": "Bretagne",
+    "lat": null,
+    "lon": null
+   },
+   "debut": 2017,
+   "fin": null,
+   "resume": "Ancienne ferme du Centre-Bretagne (Morbihan), acquise en 2017 et transmise au fonds de dotation Antidote en novembre 2024, après plusieurs années de travail pour la sortir de la propriété privée. Le lieu autogéré cherche à créer entraide et lien social pour des personnes isolées ou marginalisées en milieu rural, et offre mise au vert, rencontres politiques et chantiers collectifs, souvent en mixité choisie. Le collectif rénove la ferme en chantiers participatifs, mène des activités agricoles non marchandes et se réunit en assemblée à chaque saison, avec des commissions.",
+   "collectif": {
+    "nom": "Keriskis",
+    "forme": "association",
+    "annee": null
+   },
+   "foncier": {
+    "porteur": "Fonds de dotation Antidote",
+    "porteur_forme": "fonds_dotation",
+    "surface_ha": null,
+    "titre_duree_ans": 99
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "oui",
+     "note": "Collectif usager associatif (Antidote) ; propriété d'un fonds de dotation."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Propriété transférée en novembre 2024. Aucune clause d'inaliénabilité publiée dans les statuts du fonds : selon Silence (2023), Antidote « peut vendre un lieu à l'unanimité de son conseil d'administration » (trois administrateur·rices nommé·es par Les Passagères de l'usage). La dévolution de l'actif net d'un fonds de dotation dissous à un autre fonds ou à une fondation RUP est légale (loi 2008, art. 140) mais ne verrouille pas le lieu lui-même ; le bail emphytéotique de 99 ans, qui serait opposable à un acquéreur, n'est pas publié pour ce lieu."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Usage non marchand tourné vers des personnes isolées ; ouverture au public non documentée, accueil souvent en mixité choisie."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Lieu autogéré : assemblées saisonnières et commissions thématiques."
+    },
+    "etabli": {
+     "valeur": "non",
+     "note": "Acquis en 2017 : neuf ans en 2026. Pas encore établi — normal pour un lieu récent."
+    }
+   },
+   "dimensions": {
+    "acces": "don_legs",
+    "titre": "bail_emphyteotique",
+    "verrou": [
+     "devolution_desinteressee"
+    ],
+    "gouvernance": "inconnu",
+    "economie": "inconnu",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "agriculture",
+     "accueil_soin"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "inconnu",
+    "echelle": "inconnu",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Les lieux",
+     "auteur": "Antidote",
+     "annee": null,
+     "url": "https://aventure-antidote.org/qui-sommes-nous/nos-lieux/"
+    },
+    {
+     "titre": "Antidote — accueil et lettres d'information (transferts de propriété de novembre 2024)",
+     "auteur": "Antidote",
+     "annee": 2025,
+     "url": "https://aventure-antidote.org/"
+    },
+    {
+     "titre": "Notre fonctionnement",
+     "auteur": "Antidote",
+     "annee": null,
+     "url": "https://aventure-antidote.org/comment-ca-marche/notre-fonctionnement/"
+    },
+    {
+     "titre": "L'Antidote : des lieux que personne ne possède (Silence n°517, repris par Pressenza)",
+     "auteur": "Revue Silence",
+     "annee": 2023,
+     "url": "https://www.pressenza.com/fr/2023/01/lantidote-des-lieux-que-personne-ne-possede/"
+    },
+    {
+     "titre": "Loi n° 2008-776 du 4 août 2008 de modernisation de l'économie, art. 140 (fonds de dotation)",
+     "auteur": "Légifrance",
+     "annee": 2008,
+     "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000019283050"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/keriskis/"
+  },
+  {
+   "uid": "la-fraternelle-saint-claude",
+   "nom": "La Fraternelle – Maison du Peuple de Saint-Claude",
+   "autres_noms": [
+    "La Frat",
+    "Maison du Peuple de Saint-Claude",
+    "Les Coopérateurs du Jura"
+   ],
+   "famille": "lieu_non_marchand",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "autogestion"
+   ],
+   "periode": "1871-1914",
+   "verrou_type": "par_propriete",
+   "localisation": {
+    "commune": "Saint-Claude",
+    "departement": "39",
+    "region": "Bourgogne-Franche-Comté",
+    "lat": 46.4098,
+    "lon": 5.8802
+   },
+   "debut": 1894,
+   "fin": null,
+   "resume": "Coopérative d'alimentation, de production et de prévoyance fondée en 1881 par le Cercle ouvrier de Saint-Claude. Elle achète en 1894 la maison Dumoulin, 12 rue de la Poyat, et construit en 1908-1910 la Maison du Peuple (commerces, imprimerie, théâtre-cinéma, bibliothèque, bourse du travail). En 1965 elle fusionne avec d'autres coopératives pour former Les Coopérateurs du Jura. Le 22 mai 1984, à la fusion de ceux-ci dans l'Union des coopérateurs, ses administrateurs créent l'association loi 1901 La fraternelle et lui apportent la propriété de la Maison du Peuple. L'association y gère depuis un centre culturel d'éducation populaire ouvert au public.",
+   "collectif": {
+    "nom": "Association La fraternelle (héritière de la coopérative La Fraternelle, 1881-1984)",
+    "forme": "association",
+    "annee": 1984
+   },
+   "foncier": {
+    "porteur": "Association La fraternelle (depuis 1984) ; auparavant la coopérative",
+    "porteur_forme": "association",
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Depuis 1984, association loi 1901 propriétaire et gestionnaire (oui) ; de 1894 à 1984, coopérative constituée en société anonyme à actions (non). Lecture de la trajectoire au maillon faible."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Aucune inaliénabilité statutaire ; dévolution non lucrative pour les membres mais ouverte aux sociétés coopératives."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Centre culturel ouvert à toutes et tous, mission qualifiée de service public, agrément d'éducation populaire."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Assemblée générale des adhérents souveraine en droit, gestion par un conseil d'administration et une équipe salariée ; le public n'est pas membre de droit."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Présence continue au 12 rue de la Poyat depuis 1894."
+    }
+   },
+   "dimensions": {
+    "acces": "achat_collectif",
+    "titre": "propriete",
+    "verrou": [
+     "devolution_desinteressee"
+    ],
+    "gouvernance": "conseil_delegue",
+    "economie": "salariat_structure",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "consommation",
+     "culture",
+     "education_populaire"
+    ],
+    "filiation": [
+     "mouvement_ouvrier",
+     "education_populaire"
+    ],
+    "rapport_etat": "conventionnement",
+    "echelle": "inconnu",
+    "transmission": "generations_renouvelees",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Coopérative ouvrière « la Fraternelle » (fonds FRAT39_1Z)",
+     "auteur": "Archives départementales du Jura",
+     "annee": null,
+     "url": "https://archives39.fr/ark:/36595/2wbg1pmkf3nt"
+    },
+    {
+     "titre": "Statuts de l’association La fraternelle",
+     "auteur": "Association La fraternelle",
+     "annee": 2025,
+     "url": "https://www.maisondupeuple.fr/wp-content/uploads/2025/06/statuts_lafraternelle_2025_signes.pdf"
+    },
+    {
+     "titre": "Maison du Peuple / Saint-Claude",
+     "auteur": "Jura Musées",
+     "annee": null,
+     "url": "https://www.juramusees.fr/site/maison-du-peuple/"
+    },
+    {
+     "titre": "Maison du Peuple, Saint-Claude (étude d’inventaire, 1992)",
+     "auteur": "Région Bourgogne-Franche-Comté, Inventaire du patrimoine",
+     "annee": 1992,
+     "url": "https://patrimoine.bourgognefranchecomte.fr/etudes-d-inventaire/maison-du-peuple-saint-claude"
+    },
+    {
+     "titre": "Maison du Peuple (Saint-Claude)",
+     "auteur": "Wikipédia",
+     "annee": 2025,
+     "url": "https://fr.wikipedia.org/wiki/Maison_du_Peuple_(Saint-Claude)"
+    },
+    {
+     "titre": "La fraternelle (page association)",
+     "auteur": "Association La fraternelle",
+     "annee": 2026,
+     "url": "https://www.maisondupeuple.fr/la-fraternelle/"
+    },
+    {
+     "titre": "« La Fraternelle », Maison du Peuple à Saint-Claude (Jura)",
+     "auteur": "Michel Guet, charlesfourier.fr",
+     "annee": 2005,
+     "url": "https://www.charlesfourier.fr/spip.php?article303"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/la-fraternelle-saint-claude/"
+  },
+  {
+   "uid": "maison-blanche-antre-toit",
+   "nom": "La Maison Blanche — L'Antre Toit",
+   "autres_noms": [
+    "L'Antre Toit",
+    "Maison Blanche"
+   ],
+   "famille": "lieu_non_marchand",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "etabli"
+   ],
+   "periode": "2008-",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Gaillac",
+    "departement": "81",
+    "region": "Occitanie",
+    "lat": 43.9119,
+    "lon": 1.8898
+   },
+   "debut": 2019,
+   "fin": null,
+   "resume": "Maison d'environ 100 m² à Gaillac (Tarn), utilisée depuis septembre 2019 par l'association L'Antre d'Eux pour héberger et accompagner des jeunes exilé·es en attente de reconnaissance de leur minorité ; cinq y vivent en permanence et vingt à trente sont accueilli·es chaque jour. Une collecte via Antidote vise l'achat de la maison, qui serait ensuite confiée par bail emphytéotique à l'association usagère L'Antre Toit. En décembre 2025, la vente « devrait se faire prochainement » : le transfert n'est pas réalisé.",
+   "collectif": {
+    "nom": "L'Antre Toit (usagère) / L'Antre d'Eux (accueil)",
+    "forme": "association",
+    "annee": 2019
+   },
+   "foncier": {
+    "porteur": "Propriétaire actuel non public ; achat par le fonds Antidote en cours",
+    "porteur_forme": null,
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Associations usagère et d'accueil, fonds de dotation acquéreur ; mais le propriétaire actuel est hors de cette chaîne tant que la vente n'est pas signée."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Propriété non encore transférée (vente annoncée « prochainement » en décembre 2025) : mise à disposition sans verrou."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Accueil gratuit de mineur·es isolé·es exilé·es."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Maison autogérée : les jeunes qui y vivent participent aux décisions sur l'avenir du lieu."
+    },
+    "etabli": {
+     "valeur": "non",
+     "note": "Usage depuis septembre 2019 : sept ans. Pas encore établi — normal pour un lieu récent."
+    }
+   },
+   "dimensions": {
+    "acces": "souscription",
+    "titre": "inconnu",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "inconnu",
+    "economie": "inconnu",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "habitat",
+     "accueil_soin"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "inconnu",
+    "echelle": "10_50",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "La maison blanche de l'Antre Toit — collecte",
+     "auteur": "La Foncière Antidote (HelloAsso)",
+     "annee": null,
+     "url": "https://www.helloasso.com/associations/la-fonciere-antidote/collectes/la-maison-blanche-de-l-antre-toit"
+    },
+    {
+     "titre": "Antidote — accueil et lettres d'information (transferts de propriété de novembre 2024)",
+     "auteur": "Antidote",
+     "annee": 2025,
+     "url": "https://aventure-antidote.org/"
+    },
+    {
+     "titre": "Les lieux",
+     "auteur": "Antidote",
+     "annee": null,
+     "url": "https://aventure-antidote.org/qui-sommes-nous/nos-lieux/"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/maison-blanche-antre-toit/"
+  },
+  {
+   "uid": "la-ruche-rambouillet",
+   "nom": "La Ruche",
+   "autres_noms": [
+    "La Ruche de Sébastien Faure",
+    "Le Pâtis"
+   ],
+   "famille": "lieu_non_marchand",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "autogestion"
+   ],
+   "periode": "1871-1914",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Rambouillet",
+    "departement": "78",
+    "region": "Île-de-France",
+    "lat": 48.6538,
+    "lon": 1.8339
+   },
+   "debut": 1904,
+   "fin": 1917,
+   "resume": "École libertaire fondée par Sébastien Faure, qui loue en janvier 1904 un domaine agricole d'environ 25 ha au lieu-dit Le Pâtis, à l'entrée de Rambouillet (alors Seine-et-Oise). Une quarantaine d'enfants de familles pauvres ou orphelins y sont accueillis gratuitement par des éducateurs bénévoles. Le lieu vit des conférences de Faure (environ 75 % des recettes), de dons et de ses productions (miel, laitages, légumes, imprimerie). La mobilisation de 1914 le prive de ses collaborateurs et de ses ressources ; il ferme en février 1917.",
+   "collectif": {
+    "nom": "La Ruche",
+    "forme": "collectif_de_fait",
+    "annee": 1904
+   },
+   "foncier": {
+    "porteur": "Propriétaire privé non identifié (bail consenti à Sébastien Faure)",
+    "porteur_forme": "personne_privee",
+    "surface_ha": 25,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Collectif de fait, mais foncier porté par un bailleur privé ; aucune structure civile non lucrative identifiée."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Simple location, durée inconnue."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Accueil gratuit d'enfants pauvres ou orphelins, enseignants bénévoles ; ventes accessoires."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Assemblée hebdomadaire attestée, mais Faure décide et finance."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Janvier 1904 - février 1917 : treize ans sur le même domaine."
+    }
+   },
+   "dimensions": {
+    "acces": "inconnu",
+    "titre": "inconnu",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "mixte",
+    "economie": "revenus_individuels_externes",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "education_populaire",
+     "agriculture"
+    ],
+    "filiation": [
+     "anarchisme",
+     "education_populaire"
+    ],
+    "rapport_etat": "inconnu",
+    "echelle": "50_200",
+    "transmission": "fondateurs_seuls",
+    "etat": "disparu",
+    "fin": "dissolution_volontaire"
+   },
+   "sources": [
+    {
+     "titre": "La Rûche, une école libertaire à Rambouillet",
+     "auteur": "Les Balades rambolitaines",
+     "annee": 2022,
+     "url": "https://www.lesbaladesrambolitaines.org/2022/04/10/la-ruche-une-ecole-libertaire-a-rambouillet/"
+    },
+    {
+     "titre": "La Ruche (école)",
+     "auteur": "Wikipédia",
+     "annee": 2025,
+     "url": "https://fr.wikipedia.org/wiki/La_Ruche_(école)"
+    },
+    {
+     "titre": "Sébastien Faure and the La Ruche Experimental School",
+     "auteur": "Kate Sharpley Library",
+     "annee": null,
+     "url": "https://www.katesharpleylibrary.net/8cz9hr"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/la-ruche-rambouillet/"
+  },
+  {
+   "uid": "cun-du-larzac",
+   "nom": "Le Cun du Larzac",
+   "autres_noms": [
+    "Cun"
+   ],
+   "famille": "lieu_non_marchand",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "autogestion"
+   ],
+   "periode": "1968-1989",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Millau",
+    "departement": "12",
+    "region": "Occitanie",
+    "lat": 44.0983,
+    "lon": 3.0779
+   },
+   "debut": 1975,
+   "fin": null,
+   "resume": "En 1975, pendant la lutte du Larzac contre l'extension du camp militaire, quatre objecteurs de conscience insoumis occupent illégalement une maison appartenant à l'armée, près de Millau. Après une réinstallation précaire, le Cun s'implante légalement en 1981 dans un habitat construit pour le projet et devient un lieu d'accueil, de formation à la non-violence et d'expériences écologiques. Après des crises financières au milieu des années 1990, l'association est liquidée (2001) puis réorganisée (2002) en lieu d'accueil pour des associations adhérentes ; une SCI du Cun gère les locations et a signé en 2008 un bail de 40 ans avec l'association Champs du Monde. Un éco-camping y est exploité par une SARL coopérative.",
+   "collectif": {
+    "nom": "Le Cun du Larzac (association)",
+    "forme": "association",
+    "annee": 1978
+   },
+   "foncier": {
+    "porteur": "SCI du Cun (associés non documentés)",
+    "porteur_forme": "societe_civile_parts_cessibles",
+    "surface_ha": null,
+    "titre_duree_ans": 40
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Foncier porté par une SCI (parts présumées cessibles) et éco-camping exploité par une SARL coopérative."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Bail de 40 ans (2008) au profit de l'association Champs du Monde, mais bailleur SCI sans inaliénabilité connue."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Accueil, formation à la non-violence, engagement dans la lutte du Larzac."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Consensus et conseil de délégués ; liquidation et restructuration liées à des conflits internes."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Présence continue depuis 1975."
+    }
+   },
+   "dimensions": {
+    "acces": "occupation",
+    "titre": "inconnu",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "mixte",
+    "economie": "activites_marchandes_annexes",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "lutte_territoriale",
+     "education_populaire",
+     "accueil_soin",
+     "agriculture"
+    ],
+    "filiation": [
+     "non_violence",
+     "ecologie_politique"
+    ],
+    "rapport_etat": "regularisation",
+    "echelle": "inconnu",
+    "transmission": "en_cours",
+    "etat": "transforme",
+    "fin": "faillite"
+   },
+   "sources": [
+    {
+     "titre": "Cun du Larzac — un lieu d'enracinement, d'expériences et d'accueil",
+     "auteur": "Irénées",
+     "annee": 2007,
+     "url": "https://www.irenees.net/bdf_fiche-acteurs-305_fr.html"
+    },
+    {
+     "titre": "LE CUN DU LARZAC — SIREN 312067986",
+     "auteur": "Societe.com (données SIRENE)",
+     "annee": null,
+     "url": "https://www.societe.com/societe/le-cun-du-larzac-312067986.html"
+    },
+    {
+     "titre": "ECO CAMPING DU LARZAC — SIREN 497669663",
+     "auteur": "Pappers (données RNE)",
+     "annee": null,
+     "url": "https://www.pappers.fr/entreprise/eco-camping-du-larzac-497669663"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/cun-du-larzac/"
+  },
+  {
+   "uid": "emmaus-neuilly-plaisance",
+   "nom": "Première communauté Emmaüs (Neuilly-Plaisance)",
+   "autres_noms": [
+    "Neuilly Emmaüs Avenir",
+    "Communauté Emmaüs de Neuilly-Plaisance"
+   ],
+   "famille": "communaute_intentionnelle",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "autogestion"
+   ],
+   "periode": "1946-1967",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Neuilly-Plaisance",
+    "departement": "93",
+    "region": "Île-de-France",
+    "lat": 48.8631,
+    "lon": 2.5064
+   },
+   "debut": 1949,
+   "fin": null,
+   "resume": "En octobre 1947, l'abbé Pierre et Lucie Coutaz s'installent au 38 avenue Paul-Doumer à Neuilly-Plaisance, maison qu'ils aménagent en auberge de jeunesse baptisée Emmaüs. En 1949, la rencontre avec Georges Legay, premier compagnon, en fait un lieu d'accueil inconditionnel où les compagnons vivent de la récupération et de la revente d'objets. Le mouvement s'étend (terrain de Champs-Fleuris en 1950, site de Neuilly-sur-Marne), l'association Emmaüs est créée en 1954. Les communautés de Neuilly-Plaisance et Neuilly-sur-Marne fusionnent en 2011 sous le nom de Neuilly Emmaüs Avenir, organisme d'accueil communautaire (OACAS) d'environ 80 compagnons.",
+   "collectif": {
+    "nom": "Neuilly Emmaüs Avenir",
+    "forme": "association",
+    "annee": 2011
+   },
+   "foncier": {
+    "porteur": "Maison achetée par l'abbé Pierre (1947-1949) ; propriétaire actuel non documenté",
+    "porteur_forme": null,
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Association (OACAS), mais propriétaire actuel du lieu non établi ; maison achetée à l'origine par l'abbé Pierre, personne privée."
+    },
+    "foncier_verrouille": {
+     "valeur": "inconnu",
+     "note": "Aucune source sur la propriété actuelle, une inaliénabilité ou une dévolution."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Accueil inconditionnel de personnes en détresse, ventes solidaires ouvertes."
+    },
+    "autogestion": {
+     "valeur": "inconnu",
+     "note": "Gouvernance réelle non documentée ; autorité de fondateur à l'origine."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Usage continu sur le site depuis 1949."
+    }
+   },
+   "dimensions": {
+    "acces": "achat_prive_fondateur",
+    "titre": "inconnu",
+    "verrou": "inconnu",
+    "gouvernance": "inconnu",
+    "economie": "activites_marchandes_annexes",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "accueil_soin",
+     "habitat"
+    ],
+    "filiation": [
+     "christianisme_communautaire"
+    ],
+    "rapport_etat": "conventionnement",
+    "echelle": "50_200",
+    "transmission": "generations_renouvelees",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "La Seine-Saint-Denis, berceau d'Emmaüs",
+     "auteur": "Département de la Seine-Saint-Denis (I. Lopez)",
+     "annee": 2023,
+     "url": "https://seinesaintdenis.fr/actualite/culture-patrimoine/memoire/La-SeineSaintDenisberceaudEmmaus/"
+    },
+    {
+     "titre": "Mouvement Emmaüs",
+     "auteur": "Wikipédia",
+     "annee": null,
+     "url": "https://fr.wikipedia.org/wiki/Mouvement_Emma%C3%BCs"
+    },
+    {
+     "titre": "Histoire ; Neuilly Emmaüs Avenir",
+     "auteur": "Neuilly Emmaüs Avenir",
+     "annee": null,
+     "url": "https://www.neuillyemmausavenir.fr/neuilly-emmaus-avenir/"
+    },
+    {
+     "titre": "Communauté Emmaüs",
+     "auteur": "Wikipédia",
+     "annee": null,
+     "url": "https://fr.wikipedia.org/wiki/Communaut%C3%A9_Emma%C3%BCs"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/emmaus-neuilly-plaisance/"
+  },
+  {
+   "uid": "ecolectif",
+   "nom": "Écolectif",
+   "autres_noms": [
+    "EcolectiF"
+   ],
+   "famille": "communaute_intentionnelle",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig"
+   ],
+   "periode": "2008-",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Gensac-de-Boulogne",
+    "departement": "31",
+    "region": "Occitanie",
+    "lat": 43.2593,
+    "lon": 0.6037
+   },
+   "debut": 2009,
+   "fin": null,
+   "resume": "Écohameau créé en 2009 sur un domaine agricole de 46 ha à Gensac-de-Boulogne (Haute-Garonne), où vivent une vingtaine d'adultes et une vingtaine d'enfants dans un habitat autoconstruit. Le lieu est acquis et administré par la SCI Terres d'Ecolectif (2012), dont l'association collégiale Chemins d'Ecolectif détient 90 % des parts et la société M.V. Finances 10 % ; l'association, qui décide « à zéro objection », anime le lieu, et la SCI perçoit des loyers. Membre du réseau de la Coopérative Oasis. Épreuve de référence : société civile à parts avec un associé commercial.",
+   "collectif": {
+    "nom": "Chemins d'Ecolectif",
+    "forme": "association",
+    "annee": 2012
+   },
+   "foncier": {
+    "porteur": "SCI Terres d'Ecolectif",
+    "porteur_forme": "societe_civile_parts_cessibles",
+    "surface_ha": 46,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Porteur foncier : SCI Terres d'Ecolectif, société civile à parts sociales ; 10 % des parts détenues par la société M.V. Finances. Maillon d'usage (association Chemins d'Ecolectif) civil ; la chaîne échoue par le foncier."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Aucune inaliénabilité, dévolution désintéressée ni titre d'usage long publiés : le bien est la propriété ordinaire d'une SCI, aliénable par décision de ses associés."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Lieu de vie résidentiel à loyers, activités agricoles et artisanales ; ouverture à un public extérieur non documentée comme régulière."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "L'association des habitants décide à zéro objection et détient 90 % des parts de la SCI : les usagers tiennent la décision."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Collectif créé en 2009, SCI en 2012 : plus de dix ans d'usage."
+    }
+   },
+   "dimensions": {
+    "acces": "achat_collectif",
+    "titre": "inconnu",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "assemblee_consensus",
+    "economie": "activites_marchandes_annexes",
+    "ouverture": "inconnu",
+    "finalite": [
+     "habitat",
+     "agriculture",
+     "artisanat_production"
+    ],
+    "filiation": [
+     "ecologie_politique"
+    ],
+    "rapport_etat": "inconnu",
+    "echelle": "10_50",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Cadre légal",
+     "auteur": "Écolectif",
+     "annee": null,
+     "url": "https://ecolectif.jimdofree.com/pr%C3%A9sentation/cadre-l%C3%A9gal/"
+    },
+    {
+     "titre": "TERRES D'ECOLECTIF (SIREN 751111386)",
+     "auteur": "Annuaire des entreprises (État)",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/751111386"
+    },
+    {
+     "titre": "Écolectif",
+     "auteur": "Coopérative Oasis",
+     "annee": null,
+     "url": "https://cooperative-oasis.org/oasis/ecolectif/"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/ecolectif/"
+  },
+  {
+   "uid": "villarceaux",
+   "nom": "Bergerie de Villarceaux",
+   "autres_noms": [
+    "Domaine de Villarceaux"
+   ],
+   "famille": "commun_foncier",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion"
+   ],
+   "periode": "1990-2007",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Chaussy",
+    "departement": "95",
+    "region": "Île-de-France",
+    "lat": 49.1153,
+    "lon": 1.7075
+   },
+   "debut": 1995,
+   "fin": null,
+   "resume": "Domaine d'environ 600 ha à Chaussy (Val-d'Oise), dans le Parc naturel régional du Vexin français, propriété depuis 1976 de la Fondation Charles Léopold Mayer pour le Progrès de l'Homme (FPH), fondation dont le siège est en Suisse. La ferme, reprise en 1995 et conduite en agroécologie, est exploitée par l'EARL du Chemin Neuf, à qui la fondation a accordé en 2006 un accès gratuit aux terres et aux bâtiments pour 25 ans sous charte agroécologique ; l'association Écosite gère un centre de séminaires. Les châteaux et le parc sont confiés depuis 1989 à la Région Île-de-France par bail emphytéotique de 99 ans ; un golf est exploité sur le domaine. Épreuve de référence : propriété privée « vertueuse » sans verrou, mise à disposition par prêt à usage.",
+   "collectif": {
+    "nom": "EARL du Chemin Neuf (exploitation) et association Écosite de Villarceaux (accueil)",
+    "forme": "societe_civile",
+    "annee": 2006
+   },
+   "foncier": {
+    "porteur": "Fondation Charles Léopold Mayer pour le Progrès de l'Homme (FPH)",
+    "porteur_forme": "fondation",
+    "surface_ha": 600,
+    "titre_duree_ans": 25
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Usage agricole par une EARL (exploitation agricole à responsabilité limitée, société à parts) ; golf exploité commercialement sur le domaine ; propriétaire : fondation de droit suisse selon le dossier Communs, dont la forme au regard du droit français n'est pas établie."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Propriété privée de fondation sans inaliénabilité publiée ; la FPH a annoncé en 2020 qu'elle vendrait le site rendu par la Région ; titre agricole gratuit de 25 ans, sous le seuil de 30 ans et sans droit au renouvellement."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Transition agroécologique et accueil réels, mais usages dominés par une exploitation marchande, un centre de séminaires et un golf commercial."
+    },
+    "autogestion": {
+     "valeur": "non",
+     "note": "Pas de collectif d'usagers : entités séparées liées chacune à la fondation propriétaire, qui fixe les conditions (charte) et reprend la main à l'échéance."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Ferme reprise en 1995 et conduite en continu depuis ; EARL sous accès gratuit depuis 2006."
+    }
+   },
+   "dimensions": {
+    "acces": "inconnu",
+    "titre": "commodat",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "mixte",
+    "economie": "activites_marchandes_annexes",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "agriculture",
+     "milieu_vivant",
+     "education_populaire"
+    ],
+    "filiation": [
+     "ecologie_politique"
+    ],
+    "rapport_etat": "conventionnement",
+    "echelle": "inconnu",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "La Bergerie de Villarceaux",
+     "auteur": "Fondation Charles Léopold Mayer pour le Progrès de l'Homme",
+     "annee": null,
+     "url": "https://www.fph.ch/article16.html"
+    },
+    {
+     "titre": "Val-d'Oise : l'avenir du domaine de Villarceaux plus que jamais incertain",
+     "auteur": "Les Amis de Villarceaux (d'après Le Parisien)",
+     "annee": 2020,
+     "url": "https://www.amisdevillarceaux.fr/val-doise-lavenir-du-domaine-de-villarceaux-plus-que-jamais-incertain/"
+    },
+    {
+     "titre": "The EU has the funds but lacks focus — this farm shows what's possible with both",
+     "auteur": "ARC2020 / Resilience.org",
+     "annee": 2025,
+     "url": "https://www.resilience.org/stories/2025-06-19/the-eu-has-the-funds-but-lacks-focus-this-farm-shows-whats-possible-with-both/"
+    },
+    {
+     "titre": "La bergerie de Villarceaux",
+     "auteur": "Pollinis",
+     "annee": null,
+     "url": "https://www.pollinis.org/la-bergerie-de-villarceaux/"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/villarceaux/"
+  },
+  {
+   "uid": "boimondau",
+   "nom": "Communauté de travail Boimondau",
+   "autres_noms": [
+    "Boîtiers de Montres du Dauphiné",
+    "Communauté de travail Marcel Barbu"
+   ],
+   "famille": "communaute_intentionnelle",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion"
+   ],
+   "periode": "1915-1945",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Valence",
+    "departement": "26",
+    "region": "Auvergne-Rhône-Alpes",
+    "lat": 44.9334,
+    "lon": 4.8924
+   },
+   "debut": 1941,
+   "fin": 1971,
+   "resume": "Marcel Barbu installe en 1941 à Valence, dans une ancienne vinaigrerie, un atelier de boîtiers de montres qu'il abandonne à la communauté : la Communauté de travail Marcel Barbu est fondée le 14 janvier 1943, prend le nom de Boimondau en 1947 et le statut de SCOP « à forme communautaire » en 1948. Une assemblée générale élit pour trois ans un chef de communauté doté du pouvoir exécutif ; la rémunération suit un barème, et la communauté développe coopérative de consommation, logements, colonie de vacances, ciné-club. Barbu part en 1946, Marcel Mermoz en 1951, la Règle est suspendue en 1958. En cessation de paiement en avril 1971, la SCOP est liquidée par le tribunal de Romans en septembre 1971.",
+   "collectif": {
+    "nom": "Boimondau (SCOP à forme communautaire)",
+    "forme": "cooperative",
+    "annee": 1948
+   },
+   "foncier": {
+    "porteur": "La communauté elle-même (SCOP à partir de 1948) ; locaux acquis en 1941",
+    "porteur_forme": "cooperative",
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "SCOP (coopérative ouvrière de production) : maillon coopératif, exclu par la porte."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Actif liquidé en 1971 ; aucun verrou opposable."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Entreprise industrielle marchande ; services sociaux et culturels surtout internes."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Assemblée générale souveraine pour l'élection, mais chef à pouvoir exécutif étendu ; Règle suspendue en 1958."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Trente ans de présence continue à Valence (1941-1971)."
+    }
+   },
+   "dimensions": {
+    "acces": "achat_prive_fondateur",
+    "titre": "propriete",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "mixte",
+    "economie": "salariat_structure",
+    "ouverture": "cercle_restreint",
+    "finalite": [
+     "artisanat_production",
+     "education_populaire",
+     "habitat"
+    ],
+    "filiation": [
+     "personnalisme",
+     "mouvement_ouvrier"
+    ],
+    "rapport_etat": "inconnu",
+    "echelle": "plus_200",
+    "transmission": "inconnu",
+    "etat": "disparu",
+    "fin": "faillite"
+   },
+   "sources": [
+    {
+     "titre": "Boimondau",
+     "auteur": "Wikipédia (sources : Desroche & Lebret 1944, Mermoz 1978)",
+     "annee": null,
+     "url": "https://fr.wikipedia.org/wiki/Boimondau"
+    },
+    {
+     "titre": "Faire des hommes libres — Boimondau et les communautés de travail à Valence (recension de l'ouvrage de Michel Chaudy)",
+     "auteur": "Association Autogestion",
+     "annee": null,
+     "url": "https://autogestion.asso.fr/faire-des-hommes-libres-boimondau-et-les-communautes-de-travail-a-valence/"
+    },
+    {
+     "titre": "Boimondau — historique (exposition)",
+     "auteur": "Lectura Plus",
+     "annee": null,
+     "url": "https://www.lectura.plus/expositions/boimondau/historique-page1.html"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/boimondau/"
+  },
+  {
+   "uid": "familistere-de-guise",
+   "nom": "Familistère de Guise",
+   "autres_noms": [
+    "Palais social",
+    "Association coopérative du capital et du travail"
+   ],
+   "famille": "communaute_intentionnelle",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion"
+   ],
+   "periode": "1789-1870",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Guise",
+    "departement": "02",
+    "region": "Hauts-de-France",
+    "lat": 49.8973,
+    "lon": 3.6229
+   },
+   "debut": 1859,
+   "fin": 1968,
+   "resume": "Habitation collective (« Palais social ») construite à partir de 1859 à Guise par l'industriel fouriériste Jean-Baptiste André Godin pour les travailleurs de ses usines. Le 13 août 1880, Godin apporte terrains, immeubles et usines à l'« Association coopérative du capital et du travail, société du Familistère de Guise », constituée pour 99 ans. L'association gère logements, économats, écoles et caisses de secours ; seuls les associés, résidents, forment l'assemblée. Le 22 juin 1968, l'assemblée générale extraordinaire dissout la société, les titres d'épargne deviennent des actions de Godin SA et les logements passent en copropriété. Le site est aujourd'hui un musée géré par un syndicat mixte.",
+   "collectif": {
+    "nom": "Association coopérative du capital et du travail, société du Familistère de Guise",
+    "forme": "cooperative",
+    "annee": 1880
+   },
+   "foncier": {
+    "porteur": "J.-B. A. Godin (1859-1880), puis la Société du Familistère (1880-1968)",
+    "porteur_forme": "cooperative",
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Société à capital (parts héritables ou achetables par des « intéressés », intérêt du capital jusqu'à 5 %) ; porteur antérieur : le fondateur à titre privé."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Aucune inaliénabilité : société à durée limitée, dissoute en 1968, logements vendus en copropriété."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Services sociaux, scolaires et culturels réels, mais habitat locatif réservé aux travailleurs de l'entreprise."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Seuls les associés (résidents depuis cinq ans, détenteurs d'au moins 500 F de parts) délibèrent ; Godin gérant jusqu'à sa mort en 1888."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Habitation continue de 1859-1860 à 1968 ; Association 1880-1968."
+    }
+   },
+   "dimensions": {
+    "acces": "achat_prive_fondateur",
+    "titre": "propriete",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "mixte",
+    "economie": "salariat_structure",
+    "ouverture": "cercle_restreint",
+    "finalite": [
+     "habitat",
+     "artisanat_production",
+     "education_populaire"
+    ],
+    "filiation": [
+     "socialisme_utopique"
+    ],
+    "rapport_etat": "inconnu",
+    "echelle": "plus_200",
+    "transmission": "generations_renouvelees",
+    "etat": "disparu",
+    "fin": "dissolution_volontaire"
+   },
+   "sources": [
+    {
+     "titre": "L'Association coopérative du capital et du travail",
+     "auteur": "Le Familistère de Guise (syndicat mixte)",
+     "annee": 2019,
+     "url": "https://www.familistere.com/fr/decouvrir/cent-ans-d-experimentation-sociale/l-association-cooperative"
+    },
+    {
+     "titre": "Familistère de Guise",
+     "auteur": "Wikipédia",
+     "annee": 2025,
+     "url": "https://fr.wikipedia.org/wiki/Familistère_de_Guise"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/familistere-de-guise/"
+  },
+  {
+   "uid": "ferme-de-pommiers",
+   "nom": "Ferme de Pommiers",
+   "autres_noms": [
+    "GAEC des Bergers de la Sure"
+   ],
+   "famille": "commun_foncier",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion"
+   ],
+   "periode": "2008-",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "La Sure en Chartreuse",
+    "departement": "38",
+    "region": "Auvergne-Rhône-Alpes",
+    "lat": 45.3361,
+    "lon": 5.6744
+   },
+   "debut": 2016,
+   "fin": null,
+   "resume": "Ferme d'élevage ovin laitier de moyenne montagne à La Sure en Chartreuse (ancienne commune de Pommiers-la-Placette, Isère). Depuis janvier 2016, elle est exploitée par un GAEC de deux associés (brebis, fromages et yaourts biologiques, apiculture). En 2018, la Fondation Terre de Liens a acquis par collecte de dons 6 ha de prairie attenants, présentés comme « une première étape » de préservation de la ferme. Épreuve de référence : le porteur (fondation reconnue d'utilité publique, et non la Foncière commerciale) est de droit civil, mais l'usage est celui d'une exploitation agricole sociétaire, titulaire d'un bail rural.",
+   "collectif": {
+    "nom": "GAEC des Bergers de la Sure",
+    "forme": "societe_civile",
+    "annee": 2016
+   },
+   "foncier": {
+    "porteur": "Fondation Terre de Liens (pour les 6 ha acquis en 2018)",
+    "porteur_forme": "fondation",
+    "surface_ha": 6,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Maillon d'usage : GAEC (groupement agricole d'exploitation en commun), société civile agricole dont les parts sociales sont cessibles sous agrément. Le porteur foncier (Fondation Terre de Liens, fondation reconnue d'utilité publique) est, lui, de droit civil non lucratif : la chaîne échoue par l'usage, non par le foncier."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Seuls 6 ha sont documentés comme propriété de la Fondation ; le titre d'usage est un bail rural (durée non publiée), en deçà du seuil de 30 ans ; la donation du reste de la ferme n'est pas confirmée par les sources consultées."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Agriculture paysanne biologique non spéculative, mais l'usage est celui d'une exploitation marchande privée ; aucune activité ouverte au public n'est documentée."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Les deux associés décident de l'exploitation ; le devenir du foncier relève de la Fondation propriétaire, non d'une assemblée d'usagers."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "GAEC installé en janvier 2016 : dix ans d'usage continu atteints en 2026."
+    }
+   },
+   "dimensions": {
+    "acces": "souscription",
+    "titre": "bail_rural",
+    "verrou": "inconnu",
+    "gouvernance": "mixte",
+    "economie": "activites_marchandes_annexes",
+    "ouverture": "inconnu",
+    "finalite": [
+     "agriculture"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "inconnu",
+    "echelle": "moins_10",
+    "transmission": "en_cours",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "La Ferme de Pommiers — Fermes Terre de Liens",
+     "auteur": "Terre de Liens",
+     "annee": null,
+     "url": "https://fermes.terredeliens.org/rhone-alpes/fermes-de-la-r%C3%A9gion-rh%C3%B4ne-alpes/la-ferme-de-pommiers/"
+    },
+    {
+     "titre": "La collecte de dons pour la ferme de Pommiers est lancée !",
+     "auteur": "Terre de Liens Rhône-Alpes",
+     "annee": 2018,
+     "url": "https://terredeliens.org/rhone-alpes/actu/la-collecte-de-dons-pour-la-ferme-de-pommiers-est-lancee-10-12-2018/"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/ferme-de-pommiers/"
+  },
+  {
+   "uid": "ferme-des-bouillons",
+   "nom": "Ferme des Bouillons",
+   "autres_noms": [],
+   "famille": "occupation_regularisee",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "autogestion",
+    "etabli"
+   ],
+   "periode": "2008-",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Mont-Saint-Aignan",
+    "departement": "76",
+    "region": "Normandie",
+    "lat": 49.463,
+    "lon": 1.088
+   },
+   "debut": 2012,
+   "fin": 2015,
+   "resume": "Ferme de Mont-Saint-Aignan, près de Rouen, achetée en 2012 par Immochan, filiale immobilière d'Auchan, pour un projet commercial, et occupée à partir de décembre 2012. Portée par l'Association de protection de la ferme des Bouillons, l'occupation y développe maraîchage biologique, marché hebdomadaire, AMAP, conférences et fêtes ; le terrain est reclassé en zone naturelle en 2014. Le 18 août 2015, la SAFER écarte le projet d'achat collectif et valide la vente à une SCI familiale ; le lieu est évacué le 19 août 2015. L'association poursuit ses activités ailleurs. L'occupation n'a jamais été régularisée.",
+   "collectif": {
+    "nom": "Association de protection de la ferme des Bouillons (APFB)",
+    "forme": "association",
+    "annee": null
+   },
+   "foncier": {
+    "porteur": "Immochan (groupe Auchan), puis SCI familiale",
+    "porteur_forme": "societe_commerciale",
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Propriétaire du foncier : Immochan, société commerciale du groupe Auchan, puis une SCI."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Aucun titre ; foncier vendu à une SCI en 2015."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Maraîchage bio, marché, AMAP, conférences et accueil scolaire ouverts au public."
+    },
+    "autogestion": {
+     "valeur": "inconnu",
+     "note": "« Fonctionnement autogéré » affirmé, mais sans description des instances de décision."
+    },
+    "etabli": {
+     "valeur": "non",
+     "note": "Environ 32 mois d'occupation (décembre 2012 - août 2015)."
+    }
+   },
+   "dimensions": {
+    "acces": "occupation",
+    "titre": "sans_titre",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "inconnu",
+    "economie": "inconnu",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "agriculture",
+     "education_populaire",
+     "culture",
+     "lutte_territoriale"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "conflit",
+    "echelle": "inconnu",
+    "transmission": "inconnu",
+    "etat": "disparu",
+    "fin": "expulsion"
+   },
+   "sources": [
+    {
+     "titre": "La ferme des Bouillons « délocalisée » vit toujours !",
+     "auteur": "Ensemble !",
+     "annee": 2015,
+     "url": "https://ensemble-mouvement.com/la-ferme-des-bouillons-delocalisee-vit-toujours/"
+    },
+    {
+     "titre": "Résistance agricole : la Ferme des Bouillons",
+     "auteur": "Mr Mondialisation",
+     "annee": 2015,
+     "url": "https://mrmondialisation.org/resistance-agricole-la-ferme-des-bouillons/"
+    },
+    {
+     "titre": "La ferme bouillonne",
+     "auteur": "CQFD",
+     "annee": null,
+     "url": "https://cqfd-journal.org/La-ferme-bouillonne"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/ferme-des-bouillons/"
+  },
+  {
+   "uid": "la-bellevilloise",
+   "nom": "La Bellevilloise",
+   "autres_noms": [
+    "Maison du peuple de la rue Boyer"
+   ],
+   "famille": "lieu_non_marchand",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion"
+   ],
+   "periode": "1871-1914",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Paris",
+    "departement": "75",
+    "region": "Île-de-France",
+    "lat": 48.8625,
+    "lon": 2.3966
+   },
+   "debut": 1910,
+   "fin": 1936,
+   "resume": "Coopérative ouvrière de consommation fondée le 21 janvier 1877 par des ouvriers mécaniciens de Belleville, d'inspiration proudhonienne. Elle fait construire en 1908-1910 sa Maison du peuple au 19-21 rue Boyer (Paris 20e), agrandie en 1927 (salle Lénine au n° 25). Magasins, mutuelle, dispensaires, patronage laïque, université populaire La Semaille, cinéma et salles de réunion ouvertes aux organisations ouvrières y cohabitent. Elle compte 9 000 sociétaires en 1912 et 15 000 en 1929. Elle fait faillite en 1936, à la suite de la chute de la Banque ouvrière et paysanne ; certaines activités durent jusqu'en 1939.",
+   "collectif": {
+    "nom": "La Bellevilloise, coopérative ouvrière de consommation",
+    "forme": "cooperative",
+    "annee": 1877
+   },
+   "foncier": {
+    "porteur": "La Bellevilloise (coopérative)",
+    "porteur_forme": "cooperative",
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Coopérative de consommation à sociétaires associés aux bénéfices ; forme juridique précise non vérifiée, mais maillon coopératif exclu par le cadre."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Aucune inaliénabilité : faillite et liquidation, bâtiments réaffectés."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Éducation populaire et salles ouvertes, mais cœur commercial et services (mutuelle) réservés aux adhérents."
+    },
+    "autogestion": {
+     "valeur": "inconnu",
+     "note": "Fonctionnement des assemblées de sociétaires non documenté par les sources consultées."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Maison du peuple rue Boyer de 1910 à 1936 (26 ans) ; coopérative active depuis 1877."
+    }
+   },
+   "dimensions": {
+    "acces": "inconnu",
+    "titre": "inconnu",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "inconnu",
+    "economie": "inconnu",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "consommation",
+     "education_populaire",
+     "culture",
+     "accueil_soin"
+    ],
+    "filiation": [
+     "mouvement_ouvrier"
+    ],
+    "rapport_etat": "inconnu",
+    "echelle": "inconnu",
+    "transmission": "generations_renouvelees",
+    "etat": "disparu",
+    "fin": "faillite"
+   },
+   "sources": [
+    {
+     "titre": "La Bellevilloise",
+     "auteur": "Wikipédia",
+     "annee": 2025,
+     "url": "https://fr.wikipedia.org/wiki/La_Bellevilloise"
+    },
+    {
+     "titre": "Coopérative la Bellevilloise. Paris (1877-1939)",
+     "auteur": "Bibliothèque nationale de France, data.bnf.fr",
+     "annee": null,
+     "url": "https://data.bnf.fr/fr/13754110/cooperative_la_bellevilloise_paris/"
+    },
+    {
+     "titre": "1877 – La Bellevilloise",
+     "auteur": "Nicolas Bonnell, Paris Unplugged",
+     "annee": 2013,
+     "url": "https://www.paris-unplugged.fr/1877-la-bellevilloise/"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/la-bellevilloise/"
+  },
+  {
+   "uid": "colonie-conde-sur-vesgre",
+   "nom": "La Colonie de Condé-sur-Vesgre",
+   "autres_noms": [
+    "Colonie sociétaire",
+    "Phalanstère de Condé-sur-Vesgre",
+    "Ménage sociétaire"
+   ],
+   "famille": "communaute_intentionnelle",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion"
+   ],
+   "periode": "1789-1870",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Condé-sur-Vesgre",
+    "departement": "78",
+    "region": "Île-de-France",
+    "lat": 48.7308,
+    "lon": 1.669
+   },
+   "debut": 1832,
+   "fin": null,
+   "resume": "Première tentative fouriériste (1832) sur 460-480 ha apportés ou achetés par J.-A. Devay et A. Baudet-Dulary, portée par une société anonyme par actions ; liquidée le 24 avril 1836, les terres retournant à leurs propriétaires. Après la Société des Cartonniers (1846-1859), le Ménage sociétaire, locataire depuis 1850, rachète en 1860 un domaine de 34 ha et le place dans une société civile immobilière à parts. Le lieu existe toujours : une association loi 1901, le Ménage sociétaire, y réunit des familles sociétaires qui l'occupent surtout en fin de semaine et en vacances.",
+   "collectif": {
+    "nom": "Ménage sociétaire de La Colonie",
+    "forme": "association",
+    "annee": 1850
+   },
+   "foncier": {
+    "porteur": "Société civile immobilière de La Colonie (constituée en 1860)",
+    "porteur_forme": "societe_civile_parts_cessibles",
+    "surface_ha": 35,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Société anonyme par actions (1832), puis société civile immobilière à parts (1860) versant un dividende (10 F par part en 1870) ; parts de société civile cessibles (art. 1861 C. civ.). Maillon faible : le porteur du foncier."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Aucune inaliénabilité : terres rendues aux propriétaires en 1836, dissolution forcée de la Société des Cartonniers et mise en vente en 1859 ; depuis 1860 propriété d'une société à parts."
+    },
+    "usage_ig": {
+     "valeur": "non",
+     "note": "Usage résidentiel et de loisir des membres (week-ends, vacances) : cercle restreint."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Assemblée générale des sociétaires (1860) et statuts donnant « une importance égale à tous les sociétaires » ; mais droits liés à la détention de parts, et fonctionnement actuel non documenté."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Usage continu par le Ménage sociétaire depuis 1850 (locataire) puis 1860 (propriétaire via la SCI) ; rupture 1836-1840 après la liquidation initiale."
+    }
+   },
+   "dimensions": {
+    "acces": "achat_collectif",
+    "titre": "inconnu",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "inconnu",
+    "economie": "revenus_individuels_externes",
+    "ouverture": "cercle_restreint",
+    "finalite": [
+     "habitat",
+     "agriculture"
+    ],
+    "filiation": [
+     "socialisme_utopique"
+    ],
+    "rapport_etat": "inconnu",
+    "echelle": "10_50",
+    "transmission": "generations_renouvelees",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "La Colonie (Condé-sur-Vesgre)",
+     "auteur": "Wikipédia",
+     "annee": 2025,
+     "url": "https://fr.wikipedia.org/wiki/La_Colonie_(Condé-sur-Vesgre)"
+    },
+    {
+     "titre": "Chronologie colonienne, 1832-1878",
+     "auteur": "Danielle Duizabo",
+     "annee": 2003,
+     "url": "https://la-colonie.org/public/wp-content/medias/2008/11/chronologie_colonienne.pdf"
+    },
+    {
+     "titre": "La Colonie de Condé-sur-Vesgre (accueil, « Un mode de vie original », mentions légales)",
+     "auteur": "Ménage sociétaire de La Colonie",
+     "annee": 2024,
+     "url": "https://la-colonie.org/public/"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/colonie-conde-sur-vesgre/"
+  },
+  {
+   "uid": "la-porcheritz-perche",
+   "nom": "La Porcheritz",
+   "autres_noms": [],
+   "famille": "lieu_non_marchand",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "etabli"
+   ],
+   "periode": null,
+   "verrou_type": "par_propriete",
+   "localisation": {
+    "commune": "Vichères",
+    "departement": "28",
+    "region": "Centre-Val de Loire",
+    "lat": 48.2636,
+    "lon": 0.9068
+   },
+   "debut": null,
+   "fin": null,
+   "resume": "Lieu d'habitat collectif à Vichères (Eure-et-Loir), dans le Perche, membre du réseau CLIP. L'association Les Habitants de la Porcheritz (2013) a pour objet de créer un habitat collectif, solidaire et autogéré ; l'association propriétaire La Porcheritz (2014) a pour second membre le CLIP. Le compte rendu d'AG du CLIP de janvier 2022 décrit un collectif qui vit sur place. La date et l'acte d'achat du foncier ne sont pas publics.",
+   "collectif": {
+    "nom": "Les Habitants de la Porcheritz",
+    "forme": "association",
+    "annee": 2013
+   },
+   "foncier": {
+    "porteur": "Association La Porcheritz",
+    "porteur_forme": "association",
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Chaîne associative (habitante, propriétaire, CLIP) ; mais la détention effective du foncier par l'association propriétaire n'est pas documentée."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Le verrou tient au montage CLIP : l'association propriétaire n'a que deux membres, l'association usagère et le CLIP, qui détient « un droit de véto sur la revente ». Mais les statuts ne sont pas publiés : aucune clause d'inaliénabilité opposable aux tiers n'est vérifiée, et une association peut modifier ses statuts — la protection repose sur la composition des membres, pas sur un acte publié. L'acte d'achat lui-même n'est pas retrouvé."
+    },
+    "usage_ig": {
+     "valeur": "inconnu",
+     "note": "Habitat collectif ; aucune activité ouverte au-delà du collectif n'est documentée."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Objet statutaire d'habitat autogéré ; plénières et médiation interne relevées au CR d'AG CLIP 2022."
+    },
+    "etabli": {
+     "valeur": "inconnu",
+     "note": "Date d'installation non sourcée ; association habitante déclarée en 2013, lieu habité en 2022."
+    }
+   },
+   "dimensions": {
+    "acces": "inconnu",
+    "titre": "inconnu",
+    "verrou": [
+     "veto_reseau"
+    ],
+    "gouvernance": "inconnu",
+    "economie": "inconnu",
+    "ouverture": "inconnu",
+    "finalite": [
+     "habitat"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "inconnu",
+    "echelle": "inconnu",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Les lieux",
+     "auteur": "CLIP — Réseau de lieux en propriété d'usage",
+     "annee": null,
+     "url": "https://clip.ouvaton.org/les-projets/"
+    },
+    {
+     "titre": "Qu'est-ce que le Clip ?",
+     "auteur": "CLIP — Réseau de lieux en propriété d'usage",
+     "annee": null,
+     "url": "https://clip.ouvaton.org/quest-ce-que-le-clip/"
+    },
+    {
+     "titre": "Les Habitants de la Porcheritz (W751219283)",
+     "auteur": "Gralon",
+     "annee": null,
+     "url": "https://www.gralon.net/mairies-france/eure-et-loir/association-les-habitants-de-la-porcheritz-vicheres_W751219283.htm"
+    },
+    {
+     "titre": "La Porcheritz (SIREN 810886952)",
+     "auteur": "Annuaire des entreprises",
+     "annee": null,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/la-porcheritz-810886952"
+    },
+    {
+     "titre": "Compte rendu de l'assemblée générale du 29 janvier 2022",
+     "auteur": "CLIP",
+     "annee": 2022,
+     "url": "https://clip.ouvaton.org/wp-content/uploads/2022/02/clip-ag-2022-01-29-pv.pdf"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/la-porcheritz-perche/"
+  },
+  {
+   "uid": "hameau-des-buis",
+   "nom": "Le Hameau des Buis",
+   "autres_noms": [],
+   "famille": "communaute_intentionnelle",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion"
+   ],
+   "periode": "1990-2007",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Berrias-et-Casteljau",
+    "departement": "07",
+    "region": "Auvergne-Rhône-Alpes",
+    "lat": 44.3791,
+    "lon": 4.2056
+   },
+   "debut": 2004,
+   "fin": null,
+   "resume": "Écohameau intergénérationnel du sud de l'Ardèche, associé à l'origine à l'école La Ferme des Enfants (ouverte sur place en septembre 2008). Le foncier est porté par une société constituée le 12 février 2004 : société civile à l'origine, financée par des prêts des résidents remboursés au départ, aujourd'hui SAS coopérative à capital variable qui se déclare « à but non lucratif » et collecte des apports en comptes courants d'associés. Épreuve de référence : porteur foncier sociétaire, sans verrou anti-revente publié.",
+   "collectif": {
+    "nom": "Hameau des Buis (SAS coopérative) et Association du Hameau des Buis",
+    "forme": "cooperative",
+    "annee": 2004
+   },
+   "foncier": {
+    "porteur": "Hameau des Buis, SAS coopérative à capital variable (société civile jusqu'à sa transformation)",
+    "porteur_forme": "cooperative",
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Porteur foncier : SAS coopérative à capital variable (société par actions, catégorie juridique 5710). Avant la transformation, société civile dont une part était détenue par une SARL (dossier Communs). Dans les deux états, maillon sociétaire à parts."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Aucune inaliénabilité, dévolution ni titre d'usage long publiés ; comptes courants bloqués « au minimum pendant 3 ans » seulement, puis remboursables."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "École et accueil intergénérationnel ouverts au-delà des résidents, mais l'habitat reste réservé aux prêteurs-résidents."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Gouvernance coopérative revendiquée, mais les épargnants extérieurs deviennent associés de la société propriétaire : l'assemblée n'est pas celle des seuls usagers."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Société constituée en 2004, école en fonctionnement depuis 2008 : plus de dix ans d'usage."
+    }
+   },
+   "dimensions": {
+    "acces": "achat_collectif",
+    "titre": "inconnu",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "mixte",
+    "economie": "inconnu",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "habitat",
+     "education_populaire"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "inconnu",
+    "echelle": "10_50",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Épargne éthique et solidaire",
+     "auteur": "Hameau des Buis",
+     "annee": null,
+     "url": "https://hameaudesbuis.org/epargne-ethique-et-solidaire/"
+    },
+    {
+     "titre": "HAMEAU DES BUIS (SIREN 453458622)",
+     "auteur": "Annuaire des entreprises (État)",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/453458622"
+    },
+    {
+     "titre": "« Le Hameau des Buis », Lablachère (07) — retour d'expérience",
+     "auteur": "Ville & Aménagement Durable",
+     "annee": 2009,
+     "url": "https://www.enviroboite.net/IMG/pdf/0911_Rex_Hameau_Buis_VAD.pdf"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/hameau-des-buis/"
+  },
+  {
+   "uid": "zad-notre-dame-des-landes",
+   "nom": "ZAD de Notre-Dame-des-Landes",
+   "autres_noms": [
+    "Ex-ZAD de Notre-Dame-des-Landes",
+    "Zone à défendre de Notre-Dame-des-Landes"
+   ],
+   "famille": "occupation_regularisee",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion"
+   ],
+   "periode": "2008-",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Notre-Dame-des-Landes",
+    "departement": "44",
+    "region": "Pays de la Loire",
+    "lat": 47.38,
+    "lon": -1.71
+   },
+   "debut": 2009,
+   "fin": null,
+   "resume": "Bocage de l'ancien projet d'aéroport du Grand Ouest, occupé à partir de la fin des années 2000 par des opposant·es au projet. Après l'abandon de l'aéroport (17 janvier 2018) et les expulsions d'avril 2018, l'usage a été régularisé par étapes : rétrocession de 895 ha au Département de Loire-Atlantique (vote du 25 mars 2019), baux ruraux à clauses environnementales, puis vote le 10 octobre 2024 de baux emphytéotiques de 25 ans au profit d'associations de représentants des usagers pour régulariser des habitats. En parallèle, le fonds de dotation « La Terre en commun », lancé fin 2018, rachète des bâtis et terres pour les placer hors du marché. Environ 200 personnes y vivaient en 2020.",
+   "collectif": {
+    "nom": "Assemblée des usages et associations de représentants des usagers",
+    "forme": "collectif_de_fait",
+    "annee": 2017
+   },
+   "foncier": {
+    "porteur": "Département de Loire-Atlantique (majorité des terres) ; fonds de dotation « La Terre en commun » (bâtis et parcelles acquis)",
+    "porteur_forme": "personne_publique",
+    "surface_ha": null,
+    "titre_duree_ans": 25
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Porteurs non lucratifs (Département, fonds de dotation, collectif de fait), mais la forme juridique des titulaires des baux ruraux (exploitations individuelles, GAEC ou sociétés) n'est pas documentée : maillon non vérifiable."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Foncier majoritairement dans le domaine privé du Département, aliénable ; baux emphytéotiques de 25 ans (sous le seuil de 30 ans), signature non confirmée ; baux ruraux de 9 ans. Seules les acquisitions du fonds de dotation visent l'inaliénabilité, sans statuts consultés."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Lutte territoriale et préservation du bocage d'intérêt général, mais exploitations agricoles sous baux individuels et régime d'ouverture non documenté."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Associations de représentants des usagers titulaires des baux 2024 ; mais le Département propriétaire arrête les baux et la commission permanente décide : pas de souveraineté établie des usagers sur le foncier."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Occupation continue depuis la fin des années 2000 (appel « Habitants qui résistent » vers 2009), environ 200 habitant·es en 2020, régularisation votée en 2024."
+    }
+   },
+   "dimensions": {
+    "acces": "occupation",
+    "titre": "bail_rural",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "inconnu",
+    "economie": "inconnu",
+    "ouverture": "inconnu",
+    "finalite": [
+     "agriculture",
+     "habitat",
+     "lutte_territoriale",
+     "milieu_vivant"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "regularisation",
+    "echelle": "50_200",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Feu vert du département sur la rétrocession des terres",
+     "auteur": "Terre-net",
+     "annee": 2019,
+     "url": "https://www.terre-net.fr/idees-et-debats/article/146613/feu-vert-du-departement-sur-la-retrocession-des-terres"
+    },
+    {
+     "titre": "Sur l'ex-Zad, les élus ne veulent pas d'« un nouveau Larzac »",
+     "auteur": "La Minute",
+     "annee": 2024,
+     "url": "https://laminute.info/2024/10/14/sur-lex-zad-les-elus-ne-veulent-pas-d-un-nouveau-larzac/"
+    },
+    {
+     "titre": "Notre-Dame-des-Landes : des habitats illégaux vont être régularisés",
+     "auteur": "Breizh-info",
+     "annee": 2024,
+     "url": "https://www.breizh-info.com/2024/10/21/239223/notre-dame-des-landes-des-habitats-illegaux-vont-etre-regularises-une-victoire-des-zadistes-contre-le-droit/"
+    },
+    {
+     "titre": "Un fonds de dotation pour Notre-Dame-des-Landes",
+     "auteur": "Forum civique européen",
+     "annee": 2019,
+     "url": "https://forumcivique.org/fr/artikel/un-fonds-de-dotation-pour-notre-dame-des-landes/"
+    },
+    {
+     "titre": "ZAD de Notre-Dame-des-Landes",
+     "auteur": "Wikipedia (en)",
+     "annee": null,
+     "url": "https://en.wikipedia.org/wiki/ZAD_de_Notre-Dame-des-Landes"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/zad-notre-dame-des-landes/"
+  },
+  {
+   "uid": "colonie-de-bascon",
+   "nom": "Colonie naturiste et végétalienne de Bascon",
+   "autres_noms": [
+    "Milieu libre de Bascon",
+    "La Basconnaise"
+   ],
+   "famille": "communaute_intentionnelle",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion",
+    "etabli"
+   ],
+   "periode": "1871-1914",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Essômes-sur-Marne",
+    "departement": "02",
+    "region": "Hauts-de-France",
+    "lat": 49.033,
+    "lon": 3.3427
+   },
+   "debut": 1911,
+   "fin": 1951,
+   "resume": "Au hameau de Bascon, à 800 m de Vaux près de Château-Thierry, Georges Butaud et Sophia Zaïkowska tentent en 1911 un nouveau milieu libre, dissous en 1912 ; une colonie communiste végétalienne y renaît en 1914. Au début de 1920, Butaud fonde une société coopérative pour mettre en valeur des terres incultes ; un baraquement racheté à l'armée américaine abrite une dizaine de colons l'hiver, une vingtaine l'été. Très fréquentée de 1919 à 1926, la colonie perd ses fondateurs en 1926. La coopérative est dissoute en 1931 et le domaine vendu ; le baraquement abrite une colonie de vacances naturienne jusqu'en 1951.",
+   "collectif": {
+    "nom": "Colonie végétalienne de Bascon (société coopérative à partir de 1920)",
+    "forme": "cooperative",
+    "annee": 1920
+   },
+   "foncier": {
+    "porteur": "Société coopérative fondée par G. Butaud (1920-1931)",
+    "porteur_forme": "cooperative",
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Société coopérative porteuse du foncier."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Domaine vendu à la dissolution (1931)."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Accueil de pensionnaires et de visiteurs, mais communauté de convaincus ; colonie de vacances après 1931."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Libre association sans contrat, mais rôle moteur de Butaud ; gouvernance de la coopérative non documentée."
+    },
+    "etabli": {
+     "valeur": "partiel",
+     "note": "Présence 1911-1931 (vingt ans) mais discontinue : dissolution de 1912, refondation en 1914, guerre (la région de Château-Thierry est au front en 1918) ; activité pleine surtout en 1919-1926."
+    }
+   },
+   "dimensions": {
+    "acces": "inconnu",
+    "titre": "propriete",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "inconnu",
+    "economie": "autosubsistance",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "agriculture",
+     "habitat"
+    ],
+    "filiation": [
+     "anarchisme"
+    ],
+    "rapport_etat": "inconnu",
+    "echelle": "10_50",
+    "transmission": "inconnu",
+    "etat": "disparu",
+    "fin": "vente"
+   },
+   "sources": [
+    {
+     "titre": "La colonie végétalienne de Bascon",
+     "auteur": "Familistère de Guise, La fabrique des utopies",
+     "annee": null,
+     "url": "https://fabrique-des-utopies.familistere.com/intranet.php/D4/utopia?id=102"
+    },
+    {
+     "titre": "Vaux et Bascon, deux milieux libres au début du XXe siècle (d'après T. Legendre, 2006)",
+     "auteur": "Site de la mairie d'Essômes-sur-Marne",
+     "annee": null,
+     "url": "http://messomes.free.fr/ME/bascon.htm"
+    },
+    {
+     "titre": "BUTAUD Georges",
+     "auteur": "Jean Maitron, Rolf Dupuy, Dictionnaire des anarchistes (Maitron)",
+     "annee": null,
+     "url": "https://maitron.fr/butaud-georges-dictionnaire-des-anarchistes/"
+    },
+    {
+     "titre": "Une colonie naturiste et végétalienne en Picardie",
+     "auteur": "La Terre d'abord",
+     "annee": null,
+     "url": "https://laterredabord.fr/?p=6709"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/colonie-de-bascon/"
+  },
+  {
+   "uid": "communes-libertaires-ariege-villeneuve-du-bosc",
+   "nom": "Communes libertaires d'Ariège (Villeneuve-du-Bosc)",
+   "autres_noms": [
+    "Communauté libertaire de Villeneuve-du-Bosc"
+   ],
+   "famille": "communaute_intentionnelle",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion",
+    "etabli"
+   ],
+   "periode": "1968-1989",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Saint-Jean-de-Verges",
+    "departement": "09",
+    "region": "Occitanie",
+    "lat": 43.02,
+    "lon": 1.62
+   },
+   "debut": 1970,
+   "fin": null,
+   "resume": "En 1970, une communauté libertaire s'installe dans le noyau villageois abandonné de Villeneuve-du-Bosc, près de Foix, pour y mener une expérience de « commune libertaire » dans le sillage du néo-ruralisme d'après 1968. La commune administrative est rattachée à Saint-Jean-de-Verges en 1975. D'autres communautés ariégeoises de la même période sont citées sans détail. Le mode d'accès au lieu, la gouvernance et la date de fin ne sont documentés par aucune source consultée.",
+   "collectif": {
+    "nom": "Communauté libertaire de Villeneuve-du-Bosc",
+    "forme": "collectif_de_fait",
+    "annee": 1970
+   },
+   "foncier": {
+    "porteur": "inconnu",
+    "porteur_forme": "inconnu",
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "inconnu",
+     "note": "Forme du collectif et propriétaire du lieu non documentés."
+    },
+    "foncier_verrouille": {
+     "valeur": "inconnu",
+     "note": "Mode d'accès au lieu non documenté."
+    },
+    "usage_ig": {
+     "valeur": "inconnu",
+     "note": "Aucune source sur l'usage."
+    },
+    "autogestion": {
+     "valeur": "inconnu",
+     "note": "Aucune source sur la gouvernance."
+    },
+    "etabli": {
+     "valeur": "inconnu",
+     "note": "Date de fin non sourcée ; une « dispersion rapide » est avancée sans source vérifiée."
+    }
+   },
+   "dimensions": {
+    "acces": "inconnu",
+    "titre": "inconnu",
+    "verrou": "inconnu",
+    "gouvernance": "inconnu",
+    "economie": "inconnu",
+    "ouverture": "inconnu",
+    "finalite": "inconnu",
+    "filiation": [
+     "anarchisme",
+     "neo_ruralisme"
+    ],
+    "rapport_etat": "inconnu",
+    "echelle": "inconnu",
+    "transmission": "inconnu",
+    "etat": "disparu",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Communauté libertaire",
+     "auteur": "Wikipédia",
+     "annee": null,
+     "url": "https://fr.wikipedia.org/wiki/Communauté_libertaire"
+    },
+    {
+     "titre": "Villeneuve-du-Bosc",
+     "auteur": "Wikipédia",
+     "annee": null,
+     "url": "https://fr.wikipedia.org/wiki/Villeneuve-du-Bosc"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/communes-libertaires-ariege-villeneuve-du-bosc/"
+  },
+  {
+   "uid": "l-aube",
+   "nom": "L'Aube",
+   "autres_noms": [
+    "Centre de l'Aube",
+    "L'Aub'ascule"
+   ],
+   "famille": "communaute_intentionnelle",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion",
+    "etabli"
+   ],
+   "periode": "2008-",
+   "verrou_type": "par_titre",
+   "localisation": {
+    "commune": "Piégros-la-Clastre",
+    "departement": "26",
+    "region": "Auvergne-Rhône-Alpes",
+    "lat": 44.6879,
+    "lon": 5.0944
+   },
+   "debut": 2022,
+   "fin": null,
+   "resume": "Écolieu de la vallée de la Drôme, au lieu-dit Les Combeaux (Piégros-la-Clastre), lieu de stages depuis la fin des années 1970. L'association Accueil et Échanges, propriétaire depuis plus de dix ans, en a fait donation au fonds de dotation Fraternité pour Demain, qui a consenti un bail emphytéotique de 99 ans à la Coopérative Oasis ; celle-ci sous-loue au collectif habitant, constitué en 2024 en association (L'Aub'ascule). Le lieu porte des activités de stages, d'accueil solidaire et de permaculture, et une obligation réelle environnementale. Épreuve de référence : foncier en fonds de dotation, mais un maillon coopératif intercalé entre le propriétaire et les usagers.",
+   "collectif": {
+    "nom": "L'Aub'ascule",
+    "forme": "association",
+    "annee": 2024
+   },
+   "foncier": {
+    "porteur": "Fonds de dotation Fraternité pour Demain",
+    "porteur_forme": "fonds_dotation",
+    "surface_ha": null,
+    "titre_duree_ans": 99
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Maillon intermédiaire : la Coopérative Oasis, société anonyme coopérative (SCIC), est preneuse du bail emphytéotique de 99 ans et sous-loue au collectif. Propriétaire (fonds de dotation) et collectif (association) sont civils ; la chaîne échoue par l'intermédiaire coopératif."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Propriété d'un fonds de dotation et bail de 99 ans : sortie du marché engagée ; mais le bail long bénéficie à la Coopérative Oasis, non au collectif, dont la sous-location n'a pas de durée publiée, et les statuts du fonds (inaliénabilité, dévolution) ne sont pas publiés."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Accueil solidaire de personnes vulnérables et stages ouverts attestés ; régime économique des stages non documenté."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Collectif autogéré au quotidien, mais choisi et installé par la Coopérative Oasis, qui conserve un rôle de garant au titre du bail."
+    },
+    "etabli": {
+     "valeur": "non",
+     "note": "Collectif actuel installé à partir de 2022, association constituée en 2024 : moins de dix ans."
+    }
+   },
+   "dimensions": {
+    "acces": "don_legs",
+    "titre": "bail_emphyteotique",
+    "verrou": [
+     "bail_long"
+    ],
+    "gouvernance": "mixte",
+    "economie": "inconnu",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "accueil_soin",
+     "habitat",
+     "agriculture",
+     "milieu_vivant"
+    ],
+    "filiation": [
+     "ecologie_politique"
+    ],
+    "rapport_etat": "inconnu",
+    "echelle": "inconnu",
+    "transmission": "en_cours",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Sanctuarisation du Centre de l'Aube",
+     "auteur": "Fonds de dotation Fraternité pour Demain",
+     "annee": 2024,
+     "url": "https://fraternitepourdemain.org/projets/sanctuarisation-du-centre-de-laube/"
+    },
+    {
+     "titre": "L'Aube",
+     "auteur": "Coopérative Oasis",
+     "annee": null,
+     "url": "https://cooperative-oasis.org/oasis/aube/"
+    },
+    {
+     "titre": "L'AUB'ASCULE (SIREN 938330586)",
+     "auteur": "Annuaire des entreprises (État)",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/l-aub-ascule-938330586"
+    },
+    {
+     "titre": "ASSOC ACCUEIL & ECHANGES (SIREN 328052659)",
+     "auteur": "Annuaire des entreprises (État)",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/328052659"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/l-aube/"
+  },
+  {
+   "uid": "l-essai-aiglemont",
+   "nom": "L'Essai – Colonie communiste d'Aiglemont",
+   "autres_noms": [
+    "Colonie libertaire d'Aiglemont",
+    "Milieu libre d'Aiglemont"
+   ],
+   "famille": "communaute_intentionnelle",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion",
+    "etabli"
+   ],
+   "periode": "1871-1914",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Aiglemont",
+    "departement": "08",
+    "region": "Grand Est",
+    "lat": 49.7909,
+    "lon": 4.7679
+   },
+   "debut": 1903,
+   "fin": 1909,
+   "resume": "Colonie communiste libertaire fondée en juin 1903 par Fortuné Henry dans la clairière du Gesly, à Aiglemont (Ardennes), sur un terrain d'environ un hectare qu'il achète lui-même. Des terres communales attenantes sont ensuite louées pour la culture. Financée par des souscriptions libertaires, elle compte 11 colons en octobre 1904 et 20 en 1905, vit de maraîchage et d'élevage, et édite à partir de 1906 le journal Le Cubilot. Poursuites judiciaires, difficultés financières et conflits la défont : Henry et sa compagne partent les derniers en juillet 1908 et un huissier liquide la colonie en mars 1909.",
+   "collectif": {
+    "nom": "L'Essai (colonie communiste d'Aiglemont)",
+    "forme": "collectif_de_fait",
+    "annee": 1903
+   },
+   "foncier": {
+    "porteur": "Fortuné Henry (achat en nom propre) ; terres communales louées",
+    "porteur_forme": "personne_privee",
+    "surface_ha": 1,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Terrain propriété privée du fondateur ; aucune personne morale identifiée."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Propriété privée ; liquidation en 1909."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Propagande et presse ouvertes sur les luttes locales, mais communauté de colons fermée."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Prééminence contestée du fondateur ; conflits sur le partage du travail."
+    },
+    "etabli": {
+     "valeur": "non",
+     "note": "Juin 1903 - juillet 1908 : environ cinq ans."
+    }
+   },
+   "dimensions": {
+    "acces": "achat_prive_fondateur",
+    "titre": "propriete",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "mixte",
+    "economie": "autosubsistance",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "agriculture",
+     "artisanat_production"
+    ],
+    "filiation": [
+     "anarchisme"
+    ],
+    "rapport_etat": "conflit",
+    "echelle": "10_50",
+    "transmission": "fondateurs_seuls",
+    "etat": "disparu",
+    "fin": "faillite"
+   },
+   "sources": [
+    {
+     "titre": "HENRY Fortuné [HENRY Jean, Charles, Fortuné]",
+     "auteur": "Dictionnaire des anarchistes (Maitron)",
+     "annee": null,
+     "url": "https://maitron.fr/henry-fortune-henry-jean-charles-fortune-dictionnaire-des-anarchistes/"
+    },
+    {
+     "titre": "L'Essai",
+     "auteur": "Wikipédia",
+     "annee": 2025,
+     "url": "https://fr.wikipedia.org/wiki/L'Essai"
+    },
+    {
+     "titre": "Fortuné Henry et Franco Dossena fondent une colonie libertaire au lieu dit Le Gesly",
+     "auteur": "Anarchiv",
+     "annee": 2019,
+     "url": "https://anarchiv.wordpress.com/2019/06/14/fortune-henry-et-franco-dossena-fondent-une-colonie-libertaire-au-lieu-dit-le-gesly-dans-la-foret-daiglemont/"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/l-essai-aiglemont/"
+  },
+  {
+   "uid": "milieu-libre-de-vaux",
+   "nom": "Milieu libre de Vaux",
+   "autres_noms": [
+    "La Clairière de Vaux",
+    "Le Milieu libre"
+   ],
+   "famille": "communaute_intentionnelle",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion",
+    "etabli"
+   ],
+   "periode": "1871-1914",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Essômes-sur-Marne",
+    "departement": "02",
+    "region": "Hauts-de-France",
+    "lat": 49.033,
+    "lon": 3.3427
+   },
+   "debut": 1903,
+   "fin": 1907,
+   "resume": "Premier « milieu libre » anarchiste en France, préparé en 1902 à Paris par une Société pour la création et le développement d'un milieu libre (environ 250 co-sociétaires fin 1902). À Vaux, hameau d'Essômes-sur-Marne, Alphonse Boutin vend deux maisons à la société et met deux hectares à disposition, à condition de participer. La colonie se constitue en février 1903 en société coopérative « Le Milieu libre » ; Georges Butaud et Sophia Zaïkowska l'animent. Dès juillet 1903, Boutin se retire et reprend son apport ; la colonie loue 10 ha à Bascon. Réduite à sept personnes fin 1905, elle se dissout en février 1907.",
+   "collectif": {
+    "nom": "Le Milieu libre (société coopérative)",
+    "forme": "cooperative",
+    "annee": 1903
+   },
+   "foncier": {
+    "porteur": "Alphonse Boutin (2 ha, apport retiré en 1903) ; maisons achetées par la société ; 10 ha loués à Bascon",
+    "porteur_forme": "personne_privee",
+    "surface_ha": 2,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Société coopérative à parts nominatives (20 × 50 F) ; foncier d'un particulier."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Terres apportées puis reprises par leur propriétaire, remplacées par une location."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Visites et propagande ouvertes, mais vie communautaire réservée aux colons."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Idéal de libre association, contredit par les conflits d'autorité autour de Butaud."
+    },
+    "etabli": {
+     "valeur": "non",
+     "note": "1903-1907 : moins de dix ans."
+    }
+   },
+   "dimensions": {
+    "acces": "achat_collectif",
+    "titre": "propriete",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "mixte",
+    "economie": "caisse_commune",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "agriculture",
+     "artisanat_production"
+    ],
+    "filiation": [
+     "anarchisme"
+    ],
+    "rapport_etat": "inconnu",
+    "echelle": "10_50",
+    "transmission": "inconnu",
+    "etat": "disparu",
+    "fin": "dissolution_volontaire"
+   },
+   "sources": [
+    {
+     "titre": "Le Milieu libre de Vaux",
+     "auteur": "Familistère de Guise, La fabrique des utopies",
+     "annee": null,
+     "url": "https://fabrique-des-utopies.familistere.com/intranet.php/D4/utopia?id=106"
+    },
+    {
+     "titre": "La Clairière de Vaux",
+     "auteur": "Wikipédia",
+     "annee": 2025,
+     "url": "https://fr.wikipedia.org/wiki/La_Clairière_de_Vaux"
+    },
+    {
+     "titre": "BUTAUD Georges",
+     "auteur": "Jean Maitron, Rolf Dupuy, Dictionnaire des anarchistes (Maitron)",
+     "annee": null,
+     "url": "https://maitron.fr/butaud-georges-dictionnaire-des-anarchistes/"
+    },
+    {
+     "titre": "Vaux et Bascon, deux milieux libres au début du XXe siècle (d'après T. Legendre, 2006)",
+     "auteur": "Site de la mairie d'Essômes-sur-Marne",
+     "annee": null,
+     "url": "http://messomes.free.fr/ME/bascon.htm"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/milieu-libre-de-vaux/"
+  },
+  {
+   "uid": "oasis-coq-a-lame",
+   "nom": "Oasis du Coq à l'Âme",
+   "autres_noms": [
+    "Domaine d'Echoisy"
+   ],
+   "famille": "communaute_intentionnelle",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion",
+    "etabli"
+   ],
+   "periode": "2008-",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Cellettes",
+    "departement": "16",
+    "region": "Nouvelle-Aquitaine",
+    "lat": 45.8641,
+    "lon": 0.1447
+   },
+   "debut": 2021,
+   "fin": null,
+   "resume": "Écolieu installé fin 2021 sur le domaine d'Echoisy, à Cellettes (Charente), par une vingtaine de foyers. Le foncier appartient à une SCIC (société coopérative d'intérêt collectif), financée par des apports des membres en comptes courants d'associés remboursables sur vingt-cinq ans ; l'usage est confié à l'Association des habitants du domaine d'Echoisy, à côté de l'association historique du projet. Membre de la Coopérative Oasis, le lieu a signé le 28 août 2025, avec son appui, une obligation réelle environnementale de 99 ans. Épreuve de référence : porteur foncier coopératif et installation trop récente.",
+   "collectif": {
+    "nom": "Association des habitants du domaine d'Echoisy",
+    "forme": "association",
+    "annee": null
+   },
+   "foncier": {
+    "porteur": "SCIC de l'Oasis du Coq à l'Âme",
+    "porteur_forme": "cooperative",
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Porteur foncier : SCIC, société coopérative (forme commerciale à lucrativité encadrée), au capital détenu par des sociétaires et financée par comptes courants d'associés remboursables. Le maillon d'usage (associations) est civil ; la chaîne échoue par le foncier."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "L'ORE de 99 ans signée le 28 août 2025 attache au terrain des obligations environnementales opposables, mais aucune inaliénabilité ni dévolution désintéressée n'est publiée pour la SCIC, et le bien reste gagé par 25 ans de remboursements d'apports."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Accueil régulier et protection du milieu attestés, mais le lieu est d'abord l'habitat d'une vingtaine de foyers et son équilibre repose sur des activités économiques."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Gouvernance partagée « une personne, une voix » dans la SCIC, mais le sociétariat propriétaire (environ 300 membres) déborde le collectif des usagers ; articulation entre associations et SCIC non publiée."
+    },
+    "etabli": {
+     "valeur": "non",
+     "note": "Installation fin 2021 : moins de dix ans d'usage."
+    }
+   },
+   "dimensions": {
+    "acces": "achat_collectif",
+    "titre": "inconnu",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "mixte",
+    "economie": "activites_marchandes_annexes",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "habitat",
+     "agriculture",
+     "milieu_vivant",
+     "education_populaire"
+    ],
+    "filiation": [
+     "ecologie_politique"
+    ],
+    "rapport_etat": "inconnu",
+    "echelle": "10_50",
+    "transmission": "en_cours",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Les structures — Oasis du Coq à l'Âme",
+     "auteur": "Oasis du Coq à l'Âme",
+     "annee": null,
+     "url": "https://oasis-ducoqalame.fr/presentation-de-loasis-du-coq-a-lame/les-structures/"
+    },
+    {
+     "titre": "Oasis du Coq à l'Âme",
+     "auteur": "Coopérative Oasis",
+     "annee": 2025,
+     "url": "https://cooperative-oasis.org/oasis/oasis-du-coq-a-lame/"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/oasis-coq-a-lame/"
+  },
+  {
+   "uid": "terre-liberee-luynes",
+   "nom": "Terre Libérée (Louis Rimbault)",
+   "autres_noms": [
+    "École pratique de végétalisme",
+    "Le Pin"
+   ],
+   "famille": "communaute_intentionnelle",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion",
+    "etabli"
+   ],
+   "periode": "1915-1945",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Luynes",
+    "departement": "37",
+    "region": "Centre-Val de Loire",
+    "lat": 47.3847,
+    "lon": 0.5547
+   },
+   "debut": 1923,
+   "fin": 1949,
+   "resume": "À la fin de 1923, Louis Rimbault et Clémence Rimbault acquièrent pour 16 000 francs une dizaine d'hectares au lieu-dit Le Pin, à Luynes, près de Tours, pour y fonder « Terre Libérée », école pratique de végétalisme d'inspiration anarchiste. Le projet prévoit une société coopérative d'au plus vingt sociétaires adultes, avec habitations et jardins individuels, un conseil hebdomadaire et un administrateur tournant ; rien ne permet d'établir que ce fonctionnement ait été effectif. Le lieu reçoit plusieurs centaines de visiteurs les premières années, puis décline après 1927 ; Rimbault, paralysé par un accident en 1932, cherche à vendre dès 1933. Il meurt sur place en 1949 ; sa veuve vend le domaine en viager.",
+   "collectif": {
+    "nom": "Terre Libérée (société coopérative de sociétaires)",
+    "forme": "cooperative",
+    "annee": null
+   },
+   "foncier": {
+    "porteur": "Non établi : terrain acheté en 1923 (au nom des Rimbault ou de la société, non documenté) ; vendu en viager par la veuve",
+    "porteur_forme": null,
+    "surface_ha": 10,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Société coopérative à souscription (3 000 F par sociétaire) ; propriétaire en titre non établi, possiblement personne privée."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Aucun verrou ; domaine mis en vente dès 1933, vendu en viager après 1949."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Visites et démonstrations ouvertes au public, mais sociétariat fermé (20 adultes) à maisons et jardins individuels."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Conseil des sociétaires prévu, fonctionnement effectif non établi ; direction de Rimbault."
+    },
+    "etabli": {
+     "valeur": "partiel",
+     "note": "Présence 1923-1949 (26 ans), mais la vie collective décline dès 1927 et Rimbault cherche à vendre dès 1933."
+    }
+   },
+   "dimensions": {
+    "acces": "inconnu",
+    "titre": "inconnu",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "mixte",
+    "economie": "autosubsistance",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "agriculture",
+     "habitat",
+     "education_populaire",
+     "accueil_soin"
+    ],
+    "filiation": [
+     "anarchisme",
+     "non_violence"
+    ],
+    "rapport_etat": "indifference",
+    "echelle": "inconnu",
+    "transmission": "fondateurs_seuls",
+    "etat": "disparu",
+    "fin": "vente"
+   },
+   "sources": [
+    {
+     "titre": "Louis Rimbault et « Terre Libérée », 1923-1949 (brochure)",
+     "auteur": "Infokiosques (compilation, auteur non indiqué)",
+     "annee": null,
+     "url": "https://infokiosques.net/IMG/pdf/Louis_Rimbault.pdf"
+    },
+    {
+     "titre": "Louis Rimbault",
+     "auteur": "Wikipédia (croisé avec le Maitron, dictionnaire des anarchistes, 2014)",
+     "annee": null,
+     "url": "https://fr.wikipedia.org/wiki/Louis_Rimbault"
+    },
+    {
+     "titre": "Terre Libérée (notice)",
+     "auteur": "Familistère de Guise — La fabrique des utopies",
+     "annee": null,
+     "url": "https://fabrique-des-utopies.familistere.com/intranet.php/D4/utopia?id=110"
+    },
+    {
+     "titre": "RIMBAULT Louis, Édouard — Dictionnaire des anarchistes",
+     "auteur": "Le Maitron",
+     "annee": 2014,
+     "url": "https://maitron.fr/spip.php?article154676"
+    },
+    {
+     "titre": "L'autre terre libérée — l'association",
+     "auteur": "Association L'autre terre libérée",
+     "annee": null,
+     "url": "https://lautreterreliberee.fr/association"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/terre-liberee-luynes/"
+  }
+ ]
+}

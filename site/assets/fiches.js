@@ -1,0 +1,4 @@
+(function(){var q=document.getElementById("q"),s={famille:"f-famille",statut:"f-statut",periode:"f-periode",manque:"f-manque"},rows=[].slice.call(document.querySelectorAll("#table-cas tbody tr")),out=document.getElementById("compte");
+function go(){var t=(q.value||"").toLowerCase().trim(),n=0;rows.forEach(function(r){var ok=!t||r.dataset.texte.indexOf(t)>-1;for(var k in s){var v=document.getElementById(s[k]).value;if(!v)continue;if(k==="manque"){if((" "+r.dataset.manque+" ").indexOf(" "+v+" ")<0)ok=false}else if(r.dataset[k]!==v)ok=false}r.hidden=!ok;if(ok)n++});out.textContent=n+" cas affichés"}
+q.addEventListener("input",go);for(var k in s)document.getElementById(s[k]).addEventListener("change",go);
+var p=new URLSearchParams(location.search);["statut","famille","periode","manque"].forEach(function(k){if(p.get(k))document.getElementById(s[k]).value=p.get(k)});go();})();

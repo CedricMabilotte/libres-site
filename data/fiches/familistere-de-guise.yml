@@ -1,0 +1,160 @@
+# data/fiches/familistere-de-guise.yml — instruit le 2026-09-30
+uid: familistere-de-guise
+nom: Familistère de Guise
+autres_noms:
+- Palais social
+- Association coopérative du capital et du travail
+famille: communaute_intentionnelle
+resume: Habitation collective (« Palais social ») construite à partir de 1859 à Guise par l'industriel
+  fouriériste Jean-Baptiste André Godin pour les travailleurs de ses usines. Le 13 août 1880, Godin apporte
+  terrains, immeubles et usines à l'« Association coopérative du capital et du travail, société du Familistère
+  de Guise », constituée pour 99 ans. L'association gère logements, économats, écoles et caisses de secours
+  ; seuls les associés, résidents, forment l'assemblée. Le 22 juin 1968, l'assemblée générale extraordinaire
+  dissout la société, les titres d'épargne deviennent des actions de Godin SA et les logements passent
+  en copropriété. Le site est aujourd'hui un musée géré par un syndicat mixte.
+localisation:
+  commune: Guise
+  departement: '02'
+  region: Hauts-de-France
+  lat: 49.8973
+  lon: 3.6229
+debut: 1859
+fin: 1968
+collectif:
+  nom: Association coopérative du capital et du travail, société du Familistère de Guise
+  forme: cooperative
+  annee: 1880
+foncier:
+  porteur: J.-B. A. Godin (1859-1880), puis la Société du Familistère (1880-1968)
+  porteur_forme: cooperative
+  surface_ha: null
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: achat_prive_fondateur
+    note: Construit par Godin sur ses terrains ; apporté en capital à l'Association en 1880 (capital-apport
+      de 4,6 millions de francs).
+    source: 1
+  titre:
+    valeur: propriete
+    note: L'Association est propriétaire des immeubles de 1880 à 1968.
+    source: 1
+  verrou:
+    valeur:
+    - aucun
+    note: Société constituée pour 99 ans, dissoute en 1968 ; titres convertis en actions.
+    source: 1
+  gouvernance:
+    valeur: mixte
+    note: Administrateur-gérant élu par l'assemblée des associés (sauf le fondateur), assisté de conseils
+      ; assemblée réservée à la catégorie des associés.
+    source: 1
+  economie:
+    valeur: salariat_structure
+    note: Les membres sont salariés de l'Association ; la participation aux bénéfices « se greffe » sur
+      le salariat.
+    source: 1
+  ouverture:
+    valeur: cercle_restreint
+    note: Habitat et services réservés aux travailleurs de l'Association et à leurs familles.
+    source: 1
+  finalite:
+    valeur:
+    - habitat
+    - artisanat_production
+    - education_populaire
+    note: Exploitation locative de l'habitation, industrie (poêles), frais d'éducation pris sur les bénéfices.
+    source: 1
+  filiation:
+    valeur:
+    - socialisme_utopique
+    note: Godin, disciple de Fourier, vise « l'association intégrale ».
+    source: 1
+  rapport_etat:
+    valeur: inconnu
+    note: Aucune source consultée.
+    source: null
+  echelle:
+    valeur: plus_200
+    note: 1 748 habitants en 1889.
+    source: 2
+  transmission:
+    valeur: generations_renouvelees
+    note: L'Association fonctionne 80 ans après la mort de Godin (1888) dans un cadre presque inchangé.
+    source: 1
+  etat:
+    valeur: disparu
+    note: Association dissoute en 1968 ; bâtiments devenus musée (Musée de France) et copropriété.
+    source: 2
+  fin:
+    valeur: dissolution_volontaire
+    note: Vote de l'assemblée générale extraordinaire du 22 juin 1968, après des années de difficultés
+      industrielles ; puis vente des logements.
+    source: 1
+portes:
+  forme_civile:
+    valeur: non
+    note: 'Société à capital (parts héritables ou achetables par des « intéressés », intérêt du capital
+      jusqu''à 5 %) ; porteur antérieur : le fondateur à titre privé.'
+    source: 1
+  foncier_verrouille:
+    valeur: non
+    note: 'Aucune inaliénabilité : société à durée limitée, dissoute en 1968, logements vendus en copropriété.'
+    source: 2
+  usage_ig:
+    valeur: partiel
+    note: Services sociaux, scolaires et culturels réels, mais habitat locatif réservé aux travailleurs
+      de l'entreprise.
+    source: 1
+  autogestion:
+    valeur: partiel
+    note: Seuls les associés (résidents depuis cinq ans, détenteurs d'au moins 500 F de parts) délibèrent
+      ; Godin gérant jusqu'à sa mort en 1888.
+    source: 1
+  etabli:
+    valeur: oui
+    note: Habitation continue de 1859-1860 à 1968 ; Association 1880-1968.
+    source: 1
+chronologie:
+- annee: 1859
+  evenement: Début de la construction du Palais social.
+  source: 2
+- annee: 1860
+  evenement: Création d'un conseil du Familistère élu par les habitants.
+  source: 1
+- annee: 1880
+  evenement: '13 août : statuts de l''Association coopérative du capital et du travail signés par Godin
+    et 14 salariés.'
+  source: 1
+- annee: 1889
+  evenement: 1 748 habitants.
+  source: 2
+- annee: 1968
+  evenement: '22 juin : dissolution, création de Godin SA ; logements en copropriété.'
+  source: 1
+- annee: 1991
+  evenement: Protection au titre des monuments historiques.
+  source: 2
+fiabilite:
+  verifie:
+  - Date, dénomination, apport et gouvernance de l'Association (site du Familistère).
+  - Dissolution du 22 juin 1968.
+  non_confirme:
+  - Forme juridique exacte de la société de 1880 (commandite ?) non établie par les sources consultées.
+  - Le dossier interne (memoire-candidats-educ-pop.md) date la formule de 1880 ; la fiche retient 1859
+    comme installation sur le lieu.
+liens:
+  communs: null
+sources:
+- titre: L'Association coopérative du capital et du travail
+  auteur: Le Familistère de Guise (syndicat mixte)
+  annee: 2019
+  url: https://www.familistere.com/fr/decouvrir/cent-ans-d-experimentation-sociale/l-association-cooperative
+- titre: Familistère de Guise
+  auteur: Wikipédia
+  annee: 2025
+  url: https://fr.wikipedia.org/wiki/Familistère_de_Guise
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

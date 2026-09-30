@@ -1,0 +1,144 @@
+# data/fiches/la-talvere.yml — instruit le 2026-09-30
+uid: la-talvere
+nom: La Talvère
+autres_noms: []
+famille: lieu_non_marchand
+resume: 'Ancienne maison, grande grange et dépendances sur les causses du Quercy, à Bio (Lot), acquises à partir
+  de 2019 dans le sillage de la reprise d''une ferme voisine par Terre de Liens. Une dizaine de personnes actives
+  y font vivre un lieu partagé et autogéré : stages, rencontres, réunions, hébergements ponctuels. La collecte d''Antidote
+  (plus de 200 000 € pour un objectif de 215 000 €) désigne le fonds comme « acheteur et futur propriétaire », l''usage
+  étant confié à l''association par bail emphytéotique.'
+localisation:
+  commune: Bio
+  departement: '46'
+  region: Occitanie
+  lat: 44.7769
+  lon: 1.7896
+debut: 2019
+fin: null
+collectif:
+  nom: La Talvère
+  forme: association
+  annee: 2019
+foncier:
+  porteur: Fonds de dotation Antidote (acheteur et futur propriétaire)
+  porteur_forme: fonds_dotation
+  surface_ha: null
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: souscription
+    note: Collecte de 200 223 € auprès de 340 contributeur·ices pour 215 000 €.
+    source: 2
+  titre:
+    valeur: bail_emphyteotique
+    note: « Le bien acquis est donné en usage à l'association La Talvère » par bail emphytéotique ; durée non publiée.
+    source: 2
+  verrou:
+    valeur:
+    - devolution_desinteressee
+    note: Dévolution légale de l'actif du fonds ; aucune clause d'inaliénabilité publiée.
+    source: 5
+  gouvernance:
+    valeur: inconnu
+    note: Attention aux modes relationnels et de gouvernance ; règle non précisée.
+    source: null
+  economie:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  ouverture:
+    valeur: accueil_regulier
+    note: Stages, rencontres, réunions, hébergements ponctuels.
+    source: 1
+  finalite:
+    valeur:
+    - education_populaire
+    note: Stages, rencontres et cercles.
+    source: 1
+  filiation:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  rapport_etat:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  echelle:
+    valeur: '10_50'
+    note: Une dizaine de personnes actives.
+    source: 1
+  transmission:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  etat:
+    valeur: actif
+    note: Collecte en phase 5 (rénovation de la grange).
+    source: 2
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: oui
+    note: Association loi 1901 usagère ; fonds de dotation acquéreur.
+    source: 2
+  foncier_verrouille:
+    valeur: partiel
+    note: 'Date du transfert au fonds non publiée (Silence 2023 : l''association « transmettra la propriété » une
+      fois les prêts remboursés). Aucune clause d''inaliénabilité publiée dans les statuts du fonds : selon Silence
+      (2023), Antidote « peut vendre un lieu à l''unanimité de son conseil d''administration » (trois administrateur·rices
+      nommé·es par Les Passagères de l''usage). La dévolution de l''actif net d''un fonds de dotation dissous à
+      un autre fonds ou à une fondation RUP est légale (loi 2008, art. 140) mais ne verrouille pas le lieu lui-même
+      ; le bail emphytéotique de 99 ans, qui serait opposable à un acquéreur, n''est pas publié pour ce lieu.'
+    source: 3
+  usage_ig:
+    valeur: oui
+    note: Lieu partagé qui accueille stages, rencontres et hébergements ponctuels.
+    source: 1
+  autogestion:
+    valeur: oui
+    note: Lieu autogéré par une dizaine de personnes qui se répartissent l'accueil, le soin, la gestion et la communication.
+    source: 1
+  etabli:
+    valeur: non
+    note: 'Depuis 2019 : sept ans. Pas encore établi — normal pour un lieu récent.'
+    source: 1
+chronologie:
+- annee: 2019
+  evenement: Création de l'association et début de la collecte.
+  source: 4
+fiabilite:
+  verifie:
+  - Début en 2019.
+  - Antidote désigné comme acheteur, usage par bail emphytéotique (HelloAsso).
+  non_confirme:
+  - Date du transfert effectif de propriété au fonds.
+  - Signature et durée du bail.
+liens:
+  communs: la-talvere
+sources:
+- titre: Les lieux
+  auteur: Antidote
+  annee: null
+  url: https://aventure-antidote.org/qui-sommes-nous/nos-lieux/
+- titre: Collecte La Talvère / Antidote — phase 5
+  auteur: La Foncière Antidote (HelloAsso)
+  annee: null
+  url: https://www.helloasso.com/associations/la-fonciere-antidote/collectes/collecte-la-talvere-antidote
+- titre: 'L''Antidote : des lieux que personne ne possède (Silence n°517, repris par Pressenza)'
+  auteur: Revue Silence
+  annee: 2023
+  url: https://www.pressenza.com/fr/2023/01/lantidote-des-lieux-que-personne-ne-possede/
+- titre: Le fonds de dotation
+  auteur: La Talvère
+  annee: 2019
+  url: https://latalvere.org/le-fonds-de-dotation/
+- titre: Loi n° 2008-776 du 4 août 2008 de modernisation de l'économie, art. 140 (fonds de dotation)
+  auteur: Légifrance
+  annee: 2008
+  url: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000019283050
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

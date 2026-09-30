@@ -1,0 +1,150 @@
+# data/fiches/la-porcheritz-perche.yml — instruit le 2026-09-30
+uid: la-porcheritz-perche
+nom: La Porcheritz
+autres_noms: []
+famille: lieu_non_marchand
+resume: Lieu d'habitat collectif à Vichères (Eure-et-Loir), dans le Perche, membre du réseau CLIP. L'association
+  Les Habitants de la Porcheritz (2013) a pour objet de créer un habitat collectif, solidaire et autogéré ; l'association
+  propriétaire La Porcheritz (2014) a pour second membre le CLIP. Le compte rendu d'AG du CLIP de janvier 2022
+  décrit un collectif qui vit sur place. La date et l'acte d'achat du foncier ne sont pas publics.
+localisation:
+  commune: Vichères
+  departement: '28'
+  region: Centre-Val de Loire
+  lat: 48.2636
+  lon: 0.9068
+debut: null
+fin: null
+collectif:
+  nom: Les Habitants de la Porcheritz
+  forme: association
+  annee: 2013
+foncier:
+  porteur: Association La Porcheritz
+  porteur_forme: association
+  surface_ha: null
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: inconnu
+    note: Acte d'achat non retrouvé.
+    source: null
+  titre:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  verrou:
+    valeur:
+    - veto_reseau
+    note: 'Schéma CLIP : veto du réseau sur la revente.'
+    source: 2
+  gouvernance:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  economie:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  ouverture:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  finalite:
+    valeur:
+    - habitat
+    note: 'Objet : « créer un projet d''habitat collectif, solidaire et autogéré ».'
+    source: 3
+  filiation:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  rapport_etat:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  echelle:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  transmission:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  etat:
+    valeur: actif
+    note: Collectif vivant sur place en 2022.
+    source: 5
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: partiel
+    note: Chaîne associative (habitante, propriétaire, CLIP) ; mais la détention effective du foncier par l'association
+      propriétaire n'est pas documentée.
+    source: 4
+  foncier_verrouille:
+    valeur: partiel
+    note: 'Le verrou tient au montage CLIP : l''association propriétaire n''a que deux membres, l''association usagère
+      et le CLIP, qui détient « un droit de véto sur la revente ». Mais les statuts ne sont pas publiés : aucune
+      clause d''inaliénabilité opposable aux tiers n''est vérifiée, et une association peut modifier ses statuts
+      — la protection repose sur la composition des membres, pas sur un acte publié. L''acte d''achat lui-même n''est
+      pas retrouvé.'
+    source: 2
+  usage_ig:
+    valeur: inconnu
+    note: Habitat collectif ; aucune activité ouverte au-delà du collectif n'est documentée.
+    source: null
+  autogestion:
+    valeur: oui
+    note: Objet statutaire d'habitat autogéré ; plénières et médiation interne relevées au CR d'AG CLIP 2022.
+    source: 3
+  etabli:
+    valeur: inconnu
+    note: Date d'installation non sourcée ; association habitante déclarée en 2013, lieu habité en 2022.
+    source: null
+chronologie:
+- annee: 2013
+  evenement: Déclaration de l'association Les Habitants de la Porcheritz.
+  source: 3
+- annee: 2014
+  evenement: Déclaration de l'association propriétaire La Porcheritz (12 juin).
+  source: 4
+- annee: 2022
+  evenement: Le CR d'AG du CLIP décrit un collectif vivant sur place.
+  source: 5
+fiabilite:
+  verifie:
+  - Objet de l'association habitante (Gralon).
+  - Association propriétaire déclarée en 2014.
+  - Lieu habité en 2022.
+  non_confirme:
+  - Date d'installation et d'achat.
+  - Statuts, titre d'usage, ouverture du lieu.
+liens:
+  communs: la-porcheritz-perche
+sources:
+- titre: Les lieux
+  auteur: CLIP — Réseau de lieux en propriété d'usage
+  annee: null
+  url: https://clip.ouvaton.org/les-projets/
+- titre: Qu'est-ce que le Clip ?
+  auteur: CLIP — Réseau de lieux en propriété d'usage
+  annee: null
+  url: https://clip.ouvaton.org/quest-ce-que-le-clip/
+- titre: Les Habitants de la Porcheritz (W751219283)
+  auteur: Gralon
+  annee: null
+  url: https://www.gralon.net/mairies-france/eure-et-loir/association-les-habitants-de-la-porcheritz-vicheres_W751219283.htm
+- titre: La Porcheritz (SIREN 810886952)
+  auteur: Annuaire des entreprises
+  annee: null
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/la-porcheritz-810886952
+- titre: Compte rendu de l'assemblée générale du 29 janvier 2022
+  auteur: CLIP
+  annee: 2022
+  url: https://clip.ouvaton.org/wp-content/uploads/2022/02/clip-ag-2022-01-29-pv.pdf
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

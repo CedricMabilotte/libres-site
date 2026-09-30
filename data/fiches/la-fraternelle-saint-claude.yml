@@ -1,0 +1,184 @@
+# data/fiches/la-fraternelle-saint-claude.yml — instruit le 2026-09-30
+uid: la-fraternelle-saint-claude
+nom: La Fraternelle – Maison du Peuple de Saint-Claude
+autres_noms:
+- La Frat
+- Maison du Peuple de Saint-Claude
+- Les Coopérateurs du Jura
+famille: lieu_non_marchand
+resume: Coopérative d'alimentation, de production et de prévoyance fondée en 1881 par le Cercle ouvrier
+  de Saint-Claude. Elle achète en 1894 la maison Dumoulin, 12 rue de la Poyat, et construit en 1908-1910
+  la Maison du Peuple (commerces, imprimerie, théâtre-cinéma, bibliothèque, bourse du travail). En 1965
+  elle fusionne avec d'autres coopératives pour former Les Coopérateurs du Jura. Le 22 mai 1984, à la
+  fusion de ceux-ci dans l'Union des coopérateurs, ses administrateurs créent l'association loi 1901 La
+  fraternelle et lui apportent la propriété de la Maison du Peuple. L'association y gère depuis un centre
+  culturel d'éducation populaire ouvert au public.
+localisation:
+  commune: Saint-Claude
+  departement: '39'
+  region: Bourgogne-Franche-Comté
+  lat: 46.4098
+  lon: 5.8802
+debut: 1894
+fin: null
+collectif:
+  nom: Association La fraternelle (héritière de la coopérative La Fraternelle, 1881-1984)
+  forme: association
+  annee: 1984
+foncier:
+  porteur: Association La fraternelle (depuis 1984) ; auparavant la coopérative
+  porteur_forme: association
+  surface_ha: null
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: achat_collectif
+    note: Achat par la coopérative en 1894 ; apport à l'association en 1984.
+    source: 1
+  titre:
+    valeur: propriete
+    note: 'Statuts : siège « dans le bâtiment de la Maison du Peuple, dont l''association est propriétaire
+      ».'
+    source: 2
+  verrou:
+    valeur:
+    - devolution_desinteressee
+    note: 'Partiel : actif non répartissable entre membres en cas de dissolution, mais attribuable à des
+      associations, des sociétés coopératives ou des collectivités ; aucune clause d''inaliénabilité.'
+    source: 2
+  gouvernance:
+    valeur: conseil_delegue
+    note: Assemblée générale à la majorité absolue ; conseil d'administration de 12 à 20 membres élus
+      pour trois ans ; membres de droit (Région, Département) non éligibles.
+    source: 2
+  economie:
+    valeur: salariat_structure
+    note: Équipes salariées permanente et intermittente, plus des bénévoles.
+    source: 2
+  ouverture:
+    valeur: ouvert_public
+    note: « Le centre culturel pluridisciplinaire, ses espaces, sont ouverts à toutes et à tous. »
+    source: 2
+  finalite:
+    valeur:
+    - consommation
+    - culture
+    - education_populaire
+    note: Coopérative de consommation jusqu'en 1984 ; aujourd'hui culture, spectacle vivant, cinéma, archives,
+      éducation populaire.
+    source: 2
+  filiation:
+    valeur:
+    - mouvement_ouvrier
+    - education_populaire
+    note: Continuité revendiquée avec le mouvement coopératif et ouvrier de Saint-Claude ; agrément d'éducation
+      populaire (2005).
+    source: 2
+  rapport_etat:
+    valeur: conventionnement
+    note: Agrément d'éducation populaire, licences de spectacle, collectivités membres de droit.
+    source: 6
+  echelle:
+    valeur: inconnu
+    note: Effectif salarié non relevé.
+    source: null
+  transmission:
+    valeur: generations_renouvelees
+    note: Coopérative 1881-1984 puis association depuis 1984, conseil renouvelé par tiers chaque année.
+    source: 2
+  etat:
+    valeur: actif
+    note: Association active en 2025-2026.
+    source: 6
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: partiel
+    note: Depuis 1984, association loi 1901 propriétaire et gestionnaire (oui) ; de 1894 à 1984, coopérative
+      constituée en société anonyme à actions (non). Lecture de la trajectoire au maillon faible.
+    source: 2
+  foncier_verrouille:
+    valeur: partiel
+    note: Aucune inaliénabilité statutaire ; dévolution non lucrative pour les membres mais ouverte aux
+      sociétés coopératives.
+    source: 2
+  usage_ig:
+    valeur: oui
+    note: Centre culturel ouvert à toutes et tous, mission qualifiée de service public, agrément d'éducation
+      populaire.
+    source: 2
+  autogestion:
+    valeur: partiel
+    note: Assemblée générale des adhérents souveraine en droit, gestion par un conseil d'administration
+      et une équipe salariée ; le public n'est pas membre de droit.
+    source: 2
+  etabli:
+    valeur: oui
+    note: Présence continue au 12 rue de la Poyat depuis 1894.
+    source: 1
+chronologie:
+- annee: 1881
+  evenement: Fondation de la coopérative par le Cercle ouvrier.
+  source: 1
+- annee: 1894
+  evenement: Achat des bâtiments du 12 rue de la Poyat.
+  source: 1
+- annee: 1910
+  evenement: Achèvement de la Maison du Peuple (1908-1910).
+  source: 4
+- annee: 1965
+  evenement: Fusion en Les Coopérateurs du Jura.
+  source: 1
+- annee: 1984
+  evenement: '22 mai : création de l''association et apport de la propriété de la Maison du Peuple.'
+  source: 2
+- annee: 1993
+  evenement: Inscription partielle au titre des monuments historiques.
+  source: 5
+- annee: 2025
+  evenement: Nouveaux statuts votés.
+  source: 2
+fiabilite:
+  verifie:
+  - 'Propriété associative depuis 1984 : statuts 2025, Archives du Jura, Jura Musées.'
+  - Association créée le 24 mai 1984 (déclaration) ; statuts datant l'acte d'apport du 22 mai 1984.
+  non_confirme:
+  - 'Une source (charlesfourier.fr, 2005) écrit que la Maison serait « échue à la ville de Saint-Claude
+    » : contredite par les trois sources ci-dessus.'
+  - Forme exacte de la coopérative (« S.A. la Fraternelle » selon l'Inventaire régional).
+liens:
+  communs: null
+sources:
+- titre: Coopérative ouvrière « la Fraternelle » (fonds FRAT39_1Z)
+  auteur: Archives départementales du Jura
+  annee: null
+  url: https://archives39.fr/ark:/36595/2wbg1pmkf3nt
+- titre: Statuts de l’association La fraternelle
+  auteur: Association La fraternelle
+  annee: 2025
+  url: https://www.maisondupeuple.fr/wp-content/uploads/2025/06/statuts_lafraternelle_2025_signes.pdf
+- titre: Maison du Peuple / Saint-Claude
+  auteur: Jura Musées
+  annee: null
+  url: https://www.juramusees.fr/site/maison-du-peuple/
+- titre: Maison du Peuple, Saint-Claude (étude d’inventaire, 1992)
+  auteur: Région Bourgogne-Franche-Comté, Inventaire du patrimoine
+  annee: 1992
+  url: https://patrimoine.bourgognefranchecomte.fr/etudes-d-inventaire/maison-du-peuple-saint-claude
+- titre: Maison du Peuple (Saint-Claude)
+  auteur: Wikipédia
+  annee: 2025
+  url: https://fr.wikipedia.org/wiki/Maison_du_Peuple_(Saint-Claude)
+- titre: La fraternelle (page association)
+  auteur: Association La fraternelle
+  annee: 2026
+  url: https://www.maisondupeuple.fr/la-fraternelle/
+- titre: « La Fraternelle », Maison du Peuple à Saint-Claude (Jura)
+  auteur: Michel Guet, charlesfourier.fr
+  annee: 2005
+  url: https://www.charlesfourier.fr/spip.php?article303
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

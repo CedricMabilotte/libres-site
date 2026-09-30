@@ -1,0 +1,146 @@
+# data/fiches/ferme-de-pommiers.yml — instruit le 2026-09-30 (épreuve de référence)
+uid: ferme-de-pommiers
+nom: Ferme de Pommiers
+autres_noms:
+- GAEC des Bergers de la Sure
+famille: commun_foncier
+resume: 'Ferme d''élevage ovin laitier de moyenne montagne à La Sure en Chartreuse (ancienne commune de
+  Pommiers-la-Placette, Isère). Depuis janvier 2016, elle est exploitée par un GAEC de deux associés (brebis,
+  fromages et yaourts biologiques, apiculture). En 2018, la Fondation Terre de Liens a acquis par collecte
+  de dons 6 ha de prairie attenants, présentés comme « une première étape » de préservation de la ferme.
+  Épreuve de référence : le porteur (fondation reconnue d''utilité publique, et non la Foncière commerciale)
+  est de droit civil, mais l''usage est celui d''une exploitation agricole sociétaire, titulaire d''un
+  bail rural.'
+localisation:
+  commune: La Sure en Chartreuse
+  departement: '38'
+  region: Auvergne-Rhône-Alpes
+  lat: 45.3361
+  lon: 5.6744
+debut: 2016
+fin: null
+collectif:
+  nom: GAEC des Bergers de la Sure
+  forme: societe_civile
+  annee: 2016
+foncier:
+  porteur: Fondation Terre de Liens (pour les 6 ha acquis en 2018)
+  porteur_forme: fondation
+  surface_ha: 6
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: souscription
+    note: 6 ha acquis en 2018 par la Fondation Terre de Liens grâce à une collecte de dons ouverte au
+      public.
+    source: 2
+  titre:
+    valeur: bail_rural
+    note: Le GAEC exploite les terres de la Fondation ; la forme de bail rural est celle du dispositif
+      Terre de Liens, sa durée et ses clauses ne sont pas publiées.
+    source: 1
+  verrou:
+    valeur: inconnu
+    note: Statuts de la Fondation et clause éventuelle d'inaliénabilité des 6 ha non consultés ; aucun
+      verrou propre à la ferme publié.
+    source: null
+  gouvernance:
+    valeur: mixte
+    note: Le GAEC décide de l'exploitation ; le foncier relève des instances de la Fondation Terre de
+      Liens, propriétaire.
+    source: 1
+  economie:
+    valeur: activites_marchandes_annexes
+    note: Revenus tirés de la vente des produits de la ferme (fromages, yaourts, agneaux, miel).
+    source: 1
+  ouverture:
+    valeur: inconnu
+    note: Vente directe attestée ; accueil du public sur la ferme non documenté par les sources consultées.
+    source: null
+  finalite:
+    valeur:
+    - agriculture
+    note: Élevage ovin laitier, transformation, apiculture, en agriculture biologique.
+    source: 1
+  filiation:
+    valeur: inconnu
+    note: Aucune source consultée.
+    source: null
+  rapport_etat:
+    valeur: inconnu
+    note: Aucune source consultée.
+    source: null
+  echelle:
+    valeur: moins_10
+    note: Deux associés exploitants.
+    source: 2
+  transmission:
+    valeur: en_cours
+    note: Le dispositif Terre de Liens vise la préservation de la ferme au-delà des exploitants actuels
+      ; seule une « première étape » (6 ha) est documentée.
+    source: 2
+  etat:
+    valeur: actif
+    note: Exploitation en activité selon la fiche de ferme Terre de Liens.
+    source: 1
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: non
+    note: 'Maillon d''usage : GAEC (groupement agricole d''exploitation en commun), société civile agricole
+      dont les parts sociales sont cessibles sous agrément. Le porteur foncier (Fondation Terre de Liens,
+      fondation reconnue d''utilité publique) est, lui, de droit civil non lucratif : la chaîne échoue
+      par l''usage, non par le foncier.'
+    source: 1
+  foncier_verrouille:
+    valeur: partiel
+    note: Seuls 6 ha sont documentés comme propriété de la Fondation ; le titre d'usage est un bail rural
+      (durée non publiée), en deçà du seuil de 30 ans ; la donation du reste de la ferme n'est pas confirmée
+      par les sources consultées.
+    source: 1
+  usage_ig:
+    valeur: partiel
+    note: Agriculture paysanne biologique non spéculative, mais l'usage est celui d'une exploitation marchande
+      privée ; aucune activité ouverte au public n'est documentée.
+    source: 1
+  autogestion:
+    valeur: partiel
+    note: Les deux associés décident de l'exploitation ; le devenir du foncier relève de la Fondation
+      propriétaire, non d'une assemblée d'usagers.
+    source: 1
+  etabli:
+    valeur: oui
+    note: 'GAEC installé en janvier 2016 : dix ans d''usage continu atteints en 2026.'
+    source: 1
+chronologie:
+- annee: 2016
+  evenement: Constitution du GAEC des Bergers de la Sure et installation sur la ferme.
+  source: 1
+- annee: 2018
+  evenement: Collecte de dons de la Fondation Terre de Liens ; acquisition de 6 ha de prairie.
+  source: 2
+fiabilite:
+  verifie:
+  - Propriété de 6 ha par la Fondation Terre de Liens, acquis en 2018 par collecte de dons (Terre de Liens).
+  - Exploitation par le GAEC des Bergers de la Sure depuis janvier 2016 (Terre de Liens).
+  non_confirme:
+  - 'Donation du reste de la ferme par les cédants à la Fondation, annoncée dans le dossier Communs (engagée
+    en 2015) : finalisation et périmètre non établis.'
+  - Durée, clauses et loyer du bail rural.
+  - Surface totale de la ferme.
+liens:
+  communs: ferme-de-pommiers
+sources:
+- titre: La Ferme de Pommiers — Fermes Terre de Liens
+  auteur: Terre de Liens
+  annee: null
+  url: https://fermes.terredeliens.org/rhone-alpes/fermes-de-la-r%C3%A9gion-rh%C3%B4ne-alpes/la-ferme-de-pommiers/
+- titre: La collecte de dons pour la ferme de Pommiers est lancée !
+  auteur: Terre de Liens Rhône-Alpes
+  annee: 2018
+  url: https://terredeliens.org/rhone-alpes/actu/la-collecte-de-dons-pour-la-ferme-de-pommiers-est-lancee-10-12-2018/
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

@@ -1,0 +1,152 @@
+# data/fiches/keriskis.yml — instruit le 2026-09-30
+uid: keriskis
+nom: Keriskis
+autres_noms: []
+famille: commun_foncier
+resume: Ancienne ferme du Centre-Bretagne (Morbihan), acquise en 2017 et transmise au fonds de dotation Antidote
+  en novembre 2024, après plusieurs années de travail pour la sortir de la propriété privée. Le lieu autogéré cherche
+  à créer entraide et lien social pour des personnes isolées ou marginalisées en milieu rural, et offre mise au
+  vert, rencontres politiques et chantiers collectifs, souvent en mixité choisie. Le collectif rénove la ferme en
+  chantiers participatifs, mène des activités agricoles non marchandes et se réunit en assemblée à chaque saison,
+  avec des commissions.
+localisation:
+  commune: Non publiée (Centre-Bretagne)
+  departement: '56'
+  region: Bretagne
+  lat: null
+  lon: null
+debut: 2017
+fin: null
+collectif:
+  nom: Keriskis
+  forme: association
+  annee: null
+foncier:
+  porteur: Fonds de dotation Antidote
+  porteur_forme: fonds_dotation
+  surface_ha: null
+  titre_duree_ans: 99
+dimensions:
+  acces:
+    valeur: don_legs
+    note: Ferme acquise en 2017 puis transmise au fonds Antidote en novembre 2024 (donation).
+    source: 2
+  titre:
+    valeur: bail_emphyteotique
+    note: Bail de 99 ans prévu par le modèle Antidote ; acte non publié.
+    source: 3
+  verrou:
+    valeur:
+    - devolution_desinteressee
+    note: Dévolution légale de l'actif du fonds ; aucune clause d'inaliénabilité publiée.
+    source: 5
+  gouvernance:
+    valeur: inconnu
+    note: Assemblées générales saisonnières et commissions (accessibilité, travaux, juridique) ; règle de décision
+      non précisée.
+    source: null
+  economie:
+    valeur: inconnu
+    note: Activités agricoles décrites comme non marchandes ; ressources des personnes non documentées.
+    source: null
+  ouverture:
+    valeur: accueil_regulier
+    note: Mise au vert, rencontres politiques, chantiers collectifs, souvent en mixité choisie.
+    source: 1
+  finalite:
+    valeur:
+    - agriculture
+    - accueil_soin
+    note: Verger, potager, vannerie ; entraide pour personnes isolées en milieu rural.
+    source: 1
+  filiation:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  rapport_etat:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  echelle:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  transmission:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  etat:
+    valeur: actif
+    note: Transféré à Antidote en novembre 2024 ; rénovation par chantiers.
+    source: 2
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: oui
+    note: Collectif usager associatif (Antidote) ; propriété d'un fonds de dotation.
+    source: 3
+  foncier_verrouille:
+    valeur: partiel
+    note: 'Propriété transférée en novembre 2024. Aucune clause d''inaliénabilité publiée dans les statuts du fonds
+      : selon Silence (2023), Antidote « peut vendre un lieu à l''unanimité de son conseil d''administration » (trois
+      administrateur·rices nommé·es par Les Passagères de l''usage). La dévolution de l''actif net d''un fonds de
+      dotation dissous à un autre fonds ou à une fondation RUP est légale (loi 2008, art. 140) mais ne verrouille
+      pas le lieu lui-même ; le bail emphytéotique de 99 ans, qui serait opposable à un acquéreur, n''est pas publié
+      pour ce lieu.'
+    source: 4
+  usage_ig:
+    valeur: partiel
+    note: Usage non marchand tourné vers des personnes isolées ; ouverture au public non documentée, accueil souvent
+      en mixité choisie.
+    source: 1
+  autogestion:
+    valeur: oui
+    note: 'Lieu autogéré : assemblées saisonnières et commissions thématiques.'
+    source: 1
+  etabli:
+    valeur: non
+    note: 'Acquis en 2017 : neuf ans en 2026. Pas encore établi — normal pour un lieu récent.'
+    source: 1
+chronologie:
+- annee: 2017
+  evenement: Acquisition de la ferme.
+  source: 1
+- annee: 2024
+  evenement: Transmission au fonds Antidote (novembre).
+  source: 2
+fiabilite:
+  verifie:
+  - Acquisition 2017, transmission à Antidote en novembre 2024.
+  - Assemblées saisonnières et commissions.
+  non_confirme:
+  - 'Commune (non publiée) : lat/lon laissés null.'
+  - Nom et forme exacte de la structure usagère.
+  - Qui a acquis en 2017 et à quel titre ; signature du bail.
+liens:
+  communs: keriskis
+sources:
+- titre: Les lieux
+  auteur: Antidote
+  annee: null
+  url: https://aventure-antidote.org/qui-sommes-nous/nos-lieux/
+- titre: Antidote — accueil et lettres d'information (transferts de propriété de novembre 2024)
+  auteur: Antidote
+  annee: 2025
+  url: https://aventure-antidote.org/
+- titre: Notre fonctionnement
+  auteur: Antidote
+  annee: null
+  url: https://aventure-antidote.org/comment-ca-marche/notre-fonctionnement/
+- titre: 'L''Antidote : des lieux que personne ne possède (Silence n°517, repris par Pressenza)'
+  auteur: Revue Silence
+  annee: 2023
+  url: https://www.pressenza.com/fr/2023/01/lantidote-des-lieux-que-personne-ne-possede/
+- titre: Loi n° 2008-776 du 4 août 2008 de modernisation de l'économie, art. 140 (fonds de dotation)
+  auteur: Légifrance
+  annee: 2008
+  url: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000019283050
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

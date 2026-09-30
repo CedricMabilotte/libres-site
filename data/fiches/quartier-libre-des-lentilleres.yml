@@ -1,0 +1,151 @@
+# data/fiches/quartier-libre-des-lentilleres.yml — instruit le 2026-09-30
+uid: quartier-libre-des-lentilleres
+nom: Quartier libre des Lentillères
+autres_noms:
+- Les Lentillères
+famille: occupation_regularisee
+resume: 'Anciennes terres maraîchères de l''est de Dijon, près des anciens abattoirs, occupées depuis
+  mars 2010 par une manifestation-défrichage contre un projet d''écoquartier de 1 400 logements, suspendu
+  en 2019. La Ville a racheté en juin 2023 environ 80 % du site de 8,7 ha à la SPLAAD et à l''EPFL de
+  Côte-d''Or (4,25 M€). En septembre 2025, un compromis a été annoncé : une association à créer signerait
+  une convention de mise à disposition, les occupant·es cédant 1,14 ha pour 60 logements sociaux. Environ
+  100 personnes y vivent ; le lieu associe jardins, marché à prix libre et activités culturelles.'
+localisation:
+  commune: Dijon
+  departement: '21'
+  region: Bourgogne-Franche-Comté
+  lat: 47.322
+  lon: 5.0415
+debut: 2010
+fin: null
+collectif:
+  nom: Quartier libre des Lentillères
+  forme: collectif_de_fait
+  annee: 2010
+foncier:
+  porteur: Ville de Dijon
+  porteur_forme: personne_publique
+  surface_ha: 8.7
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: occupation
+    note: Occupation lancée par une manifestation de 200 personnes armées de bêches en mars 2010.
+    source: 3
+  titre:
+    valeur: sans_titre
+    note: Convention de mise à disposition annoncée en septembre 2025 ; signature et durée non confirmées.
+    source: 2
+  verrou:
+    valeur:
+    - aucun
+    note: Terrain municipal classé urbanisable au PLU de 2019 ; aucun titre long.
+    source: 2
+  gouvernance:
+    valeur: assemblee_consensus
+    note: Organisation collective par assemblées régulières.
+    source: 3
+  economie:
+    valeur: inconnu
+    note: Aucune source sur ce qui fait vivre les habitant·es.
+    source: null
+  ouverture:
+    valeur: ouvert_public
+    note: Espace « ouvert, poreux », marché à prix libre.
+    source: 3
+  finalite:
+    valeur:
+    - agriculture
+    - habitat
+    - culture
+    - lutte_territoriale
+    note: Maraîchage, habitat, activités culturelles, opposition à l'urbanisation.
+    source: 2
+  filiation:
+    valeur: inconnu
+    note: 'Presse locale : militant·es anarchistes, écologistes et anticapitalistes ; non revendiqué dans
+      les sources propres consultées.'
+    source: 1
+  rapport_etat:
+    valeur: regularisation
+    note: Rachat municipal 2023, compromis de septembre 2025.
+    source: 2
+  echelle:
+    valeur: '50_200'
+    note: Environ 100 occupant·es.
+    source: 2
+  transmission:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  etat:
+    valeur: actif
+    note: Actif en 2025.
+    source: 2
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: oui
+    note: Collectif de fait sur un terrain de la Ville de Dijon ; association annoncée pour signer la
+      convention.
+    source: 2
+  foncier_verrouille:
+    valeur: non
+    note: Aucun titre signé confirmé ; convention de mise à disposition annoncée, durée inconnue ; terrain
+      municipal aliénable et classé urbanisable, 1,14 ha cédé pour construction.
+    source: 2
+  usage_ig:
+    valeur: oui
+    note: Jardins, marché à prix libre, espace ouvert au public.
+    source: 3
+  autogestion:
+    valeur: oui
+    note: Décisions en assemblées collectives d'habitant·es et jardinier·es.
+    source: 3
+  etabli:
+    valeur: oui
+    note: Occupation continue depuis mars 2010.
+    source: 2
+chronologie:
+- annee: 2010
+  evenement: Manifestation-défrichage et début de l'occupation (mars).
+  source: 3
+- annee: 2019
+  evenement: Suspension du projet d'urbanisation par la mairie.
+  source: 1
+- annee: 2023
+  evenement: La Ville rachète 80 % du site (vote du 19 juin).
+  source: 1
+- annee: 2025
+  evenement: 'Compromis : convention de mise à disposition à une association, cession de 1,14 ha pour
+    60 logements sociaux.'
+  source: 2
+fiabilite:
+  verifie:
+  - Occupation depuis mars 2010
+  - Rachat municipal de juin 2023
+  - Compromis de septembre 2025
+  non_confirme:
+  - Signature, durée et redevance de la convention
+  - Création de l'association signataire
+  - Effet des municipales de mars 2026 sur l'accord
+liens:
+  communs: null
+sources:
+- titre: 'Dijon : la Ville devient propriétaire du terrain occupé aux Lentillères'
+  auteur: Infos Dijon
+  annee: 2023
+  url: https://www.infos-dijon.com/news/vie-locale/vie-locale/dijon-la-ville-devient-proprietaire-du-terrain-occupe-aux-lentilleres.html
+- titre: À Dijon, l'unique ZAD urbaine de France négocie avec la mairie
+  auteur: Batirama
+  annee: 2025
+  url: https://www.batirama.com/article/83011-a-dijon-l-unique-zad-urbaine-de-france-negocie-avec-la-mairie.html
+- titre: Quartier libre des Lentillères
+  auteur: Quartier libre des Lentillères
+  annee: null
+  url: https://lentilleres.potager.org/
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

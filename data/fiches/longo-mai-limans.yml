@@ -1,0 +1,159 @@
+# data/fiches/longo-mai-limans.yml — instruit le 2026-09-30
+uid: longo-mai-limans
+nom: Longo Maï — Grange Neuve (Limans)
+autres_noms:
+- Longo Maï
+- Grange Neuve
+famille: communaute_intentionnelle
+resume: 'En 1973, de jeunes militants issus des groupes Spartakus (Suisse) et Hydra (Autriche) achètent
+  par collecte un domaine d''environ 270 hectares à Limans, près de Forcalquier, avec les fermes de Grange-Neuve
+  et du Pigeonnier : c''est la première coopérative du réseau Longo Maï. Une centaine de personnes y vivent
+  sans salaire, les ressources étant mises en commun, et décident par consensus ; élevage, céréales, maraîchage,
+  transformation, forêt et Radio Zinzine (1981) font vivre le lieu, avec une part importante de dons.
+  Le réseau déclare détenir son foncier en propriété collective inaliénable par une fondation suisse,
+  le Fonds de Terre Européenne. Le lieu a connu la répression d''État (refus de titres de séjour en 1973,
+  opération de police en 1989).'
+localisation:
+  commune: Limans
+  departement: '04'
+  region: Provence-Alpes-Côte d'Azur
+  lat: 43.9852
+  lon: 5.7311
+debut: 1973
+fin: null
+collectif:
+  nom: Coopérative Longo Maï de Limans (Association européenne Longo Maï)
+  forme: association
+  annee: null
+foncier:
+  porteur: Fonds de Terre Européenne (fondation de droit suisse), selon le réseau
+  porteur_forme: fondation
+  surface_ha: 270
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: souscription
+    note: Domaine acheté en 1973 par une collecte du groupe fondateur.
+    source: 1
+  titre:
+    valeur: inconnu
+    note: Titre liant la coopérative à la fondation non documenté.
+    source: null
+  verrou:
+    valeur:
+    - inalienabilite_statutaire
+    note: Le réseau déclare le foncier en « propriété collective inaliénable » de la fondation ; statuts
+      non consultés.
+    source: 2
+  gouvernance:
+    valeur: assemblee_consensus
+    note: Décisions par consensus ; réunions hebdomadaires ; commissions et assemblées inter-coopératives.
+    source: 2
+  economie:
+    valeur: caisse_commune
+    note: Pas de salaire, ressources mises en commun, argent de poche ; environ la moitié des besoins
+      couverts par des dons (2004).
+    source: 3
+  ouverture:
+    valeur: accueil_regulier
+    note: Accueil de visiteurs et de volontaires ; radio locale Radio Zinzine.
+    source: 3
+  finalite:
+    valeur:
+    - agriculture
+    - artisanat_production
+    - culture
+    - habitat
+    note: Élevage, cultures, transformation, forêt, radio, habitat.
+    source: 3
+  filiation:
+    valeur:
+    - anarchisme
+    - neo_ruralisme
+    - autonomie
+    note: Coopérative d'inspiration libertaire, issue de l'après-68.
+    source: 3
+  rapport_etat:
+    valeur: conflit
+    note: Refus de titres de séjour (1973), opération de 200 CRS et gendarmes (1989).
+    source: 1
+  echelle:
+    valeur: '50_200'
+    note: Environ 100 habitants.
+    source: 3
+  transmission:
+    valeur: generations_renouvelees
+    note: Fondateurs encore présents aux côtés de nouvelles générations.
+    source: 3
+  etat:
+    valeur: actif
+    note: En activité.
+    source: 3
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: partiel
+    note: Fondation (porteur) et association (collectif), mais le réseau emploie aussi des formes coopératives,
+      GFA et EARL, sans ventilation publique par site.
+    source: 1
+  foncier_verrouille:
+    valeur: partiel
+    note: Inaliénabilité affirmée par le réseau, mais statuts de la fondation et acte liant Limans non
+      publiés ; titre d'usage de la coopérative non documenté.
+    source: 2
+  usage_ig:
+    valeur: oui
+    note: Accueil, radio locale Radio Zinzine, solidarité internationale, sans rente.
+    source: 3
+  autogestion:
+    valeur: oui
+    note: Décisions par consensus des coopérants ; pas de propriétaire qui tranche.
+    source: 2
+  etabli:
+    valeur: oui
+    note: Usage continu depuis 1973.
+    source: 3
+chronologie:
+- annee: 1973
+  evenement: Achat du domaine de Limans par collecte ; refus de titres de séjour à huit fondateurs.
+  source: 1
+- annee: 1981
+  evenement: Création de Radio Zinzine.
+  source: 1
+- annee: 1989
+  evenement: Opération de police sur le lieu.
+  source: 1
+fiabilite:
+  verifie:
+  - Achat 1973, ~270 ha, collecte (Wikipédia, fiche Communs limans).
+  - Consensus et mise en commun (La Cabrery).
+  - ~100 habitants, pas de salaire (Oasis, 2025).
+  non_confirme:
+  - 'Détention du foncier de Limans par le Fonds de Terre Européenne : affirmée par le réseau (La Cabrery),
+    non établie par acte ; Oasis l''attribue à la fondation Pro Longo Maï.'
+  - Forme juridique exacte de la coopérative de Limans (Wikipédia cite GFA, EARL, coopérative).
+  - Titre d'usage et redevance.
+liens:
+  communs: limans
+sources:
+- titre: Association Longo Maï
+  auteur: Wikipédia
+  annee: null
+  url: https://fr.wikipedia.org/wiki/Association_Longo_Ma%C3%AF
+- titre: Longo Maï
+  auteur: Coopérative Longo Maï La Cabrery
+  annee: null
+  url: https://www.lacabrery.org/longo-mai/
+- titre: L'exceptionnelle longévité de Longo Maï
+  auteur: Martin Barbara, Coopérative Oasis
+  annee: 2025
+  url: https://cooperative-oasis.org/articles/lexceptionnelle-longevite-de-longo-mai/
+- titre: Pro Longo Maï
+  auteur: Pro Longo Maï
+  annee: null
+  url: https://www.prolongomaif.ch/
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

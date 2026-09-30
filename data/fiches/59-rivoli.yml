@@ -1,0 +1,145 @@
+# data/fiches/59-rivoli.yml — instruit le 2026-09-30
+uid: 59-rivoli
+nom: 59 Rivoli
+autres_noms:
+- squat KGB
+famille: occupation_regularisee
+resume: Immeuble haussmannien de la rue de Rivoli à Paris, ancienne propriété du Crédit lyonnais vide
+  depuis huit ans, occupé le 1er novembre 1999 par un collectif d'artistes. La Ville de Paris l'achète
+  le 22 mai 2002 (4,57 M€) ; l'association est déclarée le 3 juin 2002. Après travaux, le lieu rouvre
+  en novembre 2009 sous une convention d'occupation de 3 ans signée le 25 août 2009, prolongée par avenant
+  en 2013. Une trentaine d'artistes y ont leur atelier contre une participation mensuelle ; l'entrée est
+  libre pour des dizaines de milliers de visiteurs par an.
+localisation:
+  commune: Paris
+  departement: '75'
+  region: Île-de-France
+  lat: 48.8566
+  lon: 2.3522
+debut: 1999
+fin: null
+collectif:
+  nom: Association 59 Rivoli
+  forme: association
+  annee: 2002
+foncier:
+  porteur: Ville de Paris
+  porteur_forme: personne_publique
+  surface_ha: null
+  titre_duree_ans: 3
+dimensions:
+  acces:
+    valeur: occupation
+    note: Occupation d'un immeuble vacant le 1er novembre 1999.
+    source: 1
+  titre:
+    valeur: convention
+    note: Convention d'occupation de 3 ans (25 août 2009), prolongée par avenant (25 février 2013).
+    source: 1
+  verrou:
+    valeur:
+    - aucun
+    note: Convention courte ; aucune clause d'inaliénabilité documentée.
+    source: 1
+  gouvernance:
+    valeur: mixte
+    note: Assemblées mensuelles, conseil d'administration de 23 membres et bureau de 5 ; Ville propriétaire
+      qui audite et renouvelle la convention.
+    source: 1
+  economie:
+    valeur: inconnu
+    note: Aucune source sur les revenus des artistes.
+    source: null
+  ouverture:
+    valeur: ouvert_public
+    note: Entrée libre, du mardi au dimanche ; 40 000 à 70 000 visiteurs par an selon les sources.
+    source: 2
+  finalite:
+    valeur:
+    - culture
+    note: Ateliers d'artistes et centre d'art.
+    source: 2
+  filiation:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  rapport_etat:
+    valeur: conventionnement
+    note: Rachat par la Ville et convention d'occupation.
+    source: 1
+  echelle:
+    valeur: '10_50'
+    note: 'Une trentaine d''artistes : 20 permanents et jusqu''à 10 résidents tournants.'
+    source: 1
+  transmission:
+    valeur: generations_renouvelees
+    note: Résidences tournantes de 1 à 3 mois et renouvellement semestriel des permanents.
+    source: 1
+  etat:
+    valeur: actif
+    note: Ouvert au public en 2026 selon le site du lieu.
+    source: 2
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: oui
+    note: 'Association 59 Rivoli et Ville de Paris propriétaire : aucun maillon commercial.'
+    source: 1
+  foncier_verrouille:
+    valeur: non
+    note: 'Convention d''occupation de 3 ans prolongée par avenant : titre court et révocable ; aucun
+      titre long ni inaliénabilité.'
+    source: 1
+  usage_ig:
+    valeur: oui
+    note: Entrée libre et forte fréquentation publique ; participation des artistes de 130 €/mois, sans
+      rente.
+    source: 1
+  autogestion:
+    valeur: partiel
+    note: Gestion par les artistes (assemblées mensuelles), mais la Ville fixe le cadre par une convention
+      courte et l'inspection générale a formulé des prescriptions sur la sélection des résidents.
+    source: 1
+  etabli:
+    valeur: oui
+    note: Usage continu depuis 1999.
+    source: 1
+chronologie:
+- annee: 1999
+  evenement: Occupation de l'immeuble (1er novembre).
+  source: 1
+- annee: 2002
+  evenement: Achat par la Ville de Paris (22 mai) ; déclaration de l'association (3 juin).
+  source: 1
+- annee: 2009
+  evenement: Convention d'occupation de 3 ans (25 août) ; réouverture (9 novembre).
+  source: 1
+- annee: 2012
+  evenement: Audit de l'Inspection générale de la Ville de Paris.
+  source: 1
+- annee: 2013
+  evenement: Prolongation de la convention par avenant.
+  source: 1
+fiabilite:
+  verifie:
+  - Occupation 1999, achat municipal 2002, convention 2009
+  non_confirme:
+  - Titre en vigueur après 2013
+  - Période exacte de fermeture pour travaux
+  - Continuité du collectif pendant les travaux
+liens:
+  communs: null
+sources:
+- titre: Rapport d'audit de l'association 59 Rivoli
+  auteur: Inspection générale de la Ville de Paris
+  annee: 2012
+  url: https://cdn.paris.fr/paris/2020/02/26/ff60b218a0c4a14f648ad2eceaf0261e.pdf
+- titre: L'histoire du lieu
+  auteur: 59 Rivoli
+  annee: null
+  url: https://59rivoli.org/__trashed-7__trashed/
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

@@ -1,0 +1,158 @@
+# data/fiches/la-bellevilloise.yml — instruit le 2026-09-30
+uid: la-bellevilloise
+nom: La Bellevilloise
+autres_noms:
+- Maison du peuple de la rue Boyer
+famille: lieu_non_marchand
+resume: Coopérative ouvrière de consommation fondée le 21 janvier 1877 par des ouvriers mécaniciens de
+  Belleville, d'inspiration proudhonienne. Elle fait construire en 1908-1910 sa Maison du peuple au 19-21
+  rue Boyer (Paris 20e), agrandie en 1927 (salle Lénine au n° 25). Magasins, mutuelle, dispensaires, patronage
+  laïque, université populaire La Semaille, cinéma et salles de réunion ouvertes aux organisations ouvrières
+  y cohabitent. Elle compte 9 000 sociétaires en 1912 et 15 000 en 1929. Elle fait faillite en 1936, à
+  la suite de la chute de la Banque ouvrière et paysanne ; certaines activités durent jusqu'en 1939.
+localisation:
+  commune: Paris
+  departement: '75'
+  region: Île-de-France
+  lat: 48.8625
+  lon: 2.3966
+debut: 1910
+fin: 1936
+collectif:
+  nom: La Bellevilloise, coopérative ouvrière de consommation
+  forme: cooperative
+  annee: 1877
+foncier:
+  porteur: La Bellevilloise (coopérative)
+  porteur_forme: cooperative
+  surface_ha: null
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: inconnu
+    note: Construction de la Maison du peuple rue Boyer en 1908-1910 ; mode d'acquisition du terrain non
+      vérifié.
+    source: 1
+  titre:
+    valeur: inconnu
+    note: Propriété coopérative probable, non vérifiée sur acte.
+    source: 1
+  verrou:
+    valeur:
+    - aucun
+    note: Faillite puis liquidation ; bâtiments réaffectés (cinéma, maroquinerie, lieu événementiel).
+    source: 1
+  gouvernance:
+    valeur: inconnu
+    note: Direction socialiste jusqu'en 1924, puis sous l'influence du PCF ; organes statutaires non consultés.
+    source: 1
+  economie:
+    valeur: inconnu
+    note: Commerce coopératif (40 magasins) finançant les œuvres ; statut des personnes y travaillant
+      non documenté.
+    source: 1
+  ouverture:
+    valeur: ouvert_public
+    note: Salles ouvertes aux organisations ouvrières, conférences publiques, cinéma de quartier.
+    source: 1
+  finalite:
+    valeur:
+    - consommation
+    - education_populaire
+    - culture
+    - accueil_soin
+    note: Coopérative de consommation, université populaire, musique et théâtre, dispensaires.
+    source: 1
+  filiation:
+    valeur:
+    - mouvement_ouvrier
+    note: Ouvriers mécaniciens proudhoniens ; Bourse des coopératives socialistes.
+    source: 1
+  rapport_etat:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  echelle:
+    valeur: inconnu
+    note: Sociétaires nombreux (15 000 en 1929) mais nombre de personnes œuvrant sur le lieu inconnu.
+    source: 1
+  transmission:
+    valeur: generations_renouvelees
+    note: Fonctionne de 1877 à 1936 avec renouvellement des directions.
+    source: 1
+  etat:
+    valeur: disparu
+    note: Coopérative disparue ; bâtiment devenu salle de concert et lieu événementiel.
+    source: 1
+  fin:
+    valeur: faillite
+    note: Faillite de 1936, aggravée par la chute de la Banque ouvrière et paysanne.
+    source: 1
+portes:
+  forme_civile:
+    valeur: non
+    note: Coopérative de consommation à sociétaires associés aux bénéfices ; forme juridique précise non
+      vérifiée, mais maillon coopératif exclu par le cadre.
+    source: 1
+  foncier_verrouille:
+    valeur: non
+    note: 'Aucune inaliénabilité : faillite et liquidation, bâtiments réaffectés.'
+    source: 1
+  usage_ig:
+    valeur: partiel
+    note: Éducation populaire et salles ouvertes, mais cœur commercial et services (mutuelle) réservés
+      aux adhérents.
+    source: 1
+  autogestion:
+    valeur: inconnu
+    note: Fonctionnement des assemblées de sociétaires non documenté par les sources consultées.
+    source: 1
+  etabli:
+    valeur: oui
+    note: Maison du peuple rue Boyer de 1910 à 1936 (26 ans) ; coopérative active depuis 1877.
+    source: 1
+chronologie:
+- annee: 1877
+  evenement: '21 janvier : fondation ; dépôt d''épicerie rue Henri-Chevreau.'
+  source: 1
+- annee: 1909
+  evenement: Hébergement de l'université populaire La Semaille.
+  source: 1
+- annee: 1910
+  evenement: Maison du peuple rue Boyer (construite 1908-1910) ; congrès socialiste en août.
+  source: 1
+- annee: 1927
+  evenement: Immeuble du 25 rue Boyer, salle Lénine.
+  source: 1
+- annee: 1936
+  evenement: Faillite.
+  source: 1
+- annee: 1939
+  evenement: Fin des dernières activités.
+  source: 2
+fiabilite:
+  verifie:
+  - Dates de fondation et de faillite (Wikipédia, BnF 1877-1939, Paris Unplugged).
+  non_confirme:
+  - Propriété coopérative des immeubles rue Boyer (affirmée par le dossier interne, non vérifiée sur acte).
+  - Forme juridique exacte (société anonyme coopérative à capital variable ?).
+  - Article Wikipédia signalé « à sourcer ».
+liens:
+  communs: null
+sources:
+- titre: La Bellevilloise
+  auteur: Wikipédia
+  annee: 2025
+  url: https://fr.wikipedia.org/wiki/La_Bellevilloise
+- titre: Coopérative la Bellevilloise. Paris (1877-1939)
+  auteur: Bibliothèque nationale de France, data.bnf.fr
+  annee: null
+  url: https://data.bnf.fr/fr/13754110/cooperative_la_bellevilloise_paris/
+- titre: 1877 – La Bellevilloise
+  auteur: Nicolas Bonnell, Paris Unplugged
+  annee: 2013
+  url: https://www.paris-unplugged.fr/1877-la-bellevilloise/
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

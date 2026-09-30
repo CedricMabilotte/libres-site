@@ -1,0 +1,171 @@
+# data/fiches/colonie-conde-sur-vesgre.yml — instruit le 2026-09-30
+uid: colonie-conde-sur-vesgre
+nom: La Colonie de Condé-sur-Vesgre
+autres_noms:
+- Colonie sociétaire
+- Phalanstère de Condé-sur-Vesgre
+- Ménage sociétaire
+famille: communaute_intentionnelle
+resume: 'Première tentative fouriériste (1832) sur 460-480 ha apportés ou achetés par J.-A. Devay et A.
+  Baudet-Dulary, portée par une société anonyme par actions ; liquidée le 24 avril 1836, les terres retournant
+  à leurs propriétaires. Après la Société des Cartonniers (1846-1859), le Ménage sociétaire, locataire
+  depuis 1850, rachète en 1860 un domaine de 34 ha et le place dans une société civile immobilière à parts.
+  Le lieu existe toujours : une association loi 1901, le Ménage sociétaire, y réunit des familles sociétaires
+  qui l''occupent surtout en fin de semaine et en vacances.'
+localisation:
+  commune: Condé-sur-Vesgre
+  departement: '78'
+  region: Île-de-France
+  lat: 48.7308
+  lon: 1.669
+debut: 1832
+fin: null
+collectif:
+  nom: Ménage sociétaire de La Colonie
+  forme: association
+  annee: 1850
+foncier:
+  porteur: Société civile immobilière de La Colonie (constituée en 1860)
+  porteur_forme: societe_civile_parts_cessibles
+  surface_ha: 35
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: achat_collectif
+    note: '1860 : acquisition du domaine de 34 ha par quatre sociétaires « agissant au nom de leurs amis
+      », financée par le capital souscrit (parts). En 1832, apport de terres par Devay et achat par Baudet-Dulary.'
+    source: 2
+  titre:
+    valeur: inconnu
+    note: Titre d'usage de l'association vis-à-vis de la société civile propriétaire non documenté publiquement.
+    source: 3
+  verrou:
+    valeur:
+    - aucun
+    note: 'Aucun verrou connu : statuts de 1860 rédigés pour « donner des garanties exceptionnelles aux
+      capitaux engagés » ; parts émises par émissions successives.'
+    source: 2
+  gouvernance:
+    valeur: inconnu
+    note: Organes attestés (administrateur, syndicat, comité) ; répartition réelle des pouvoirs non documentée
+      publiquement.
+    source: 3
+  economie:
+    valeur: revenus_individuels_externes
+    note: 'Déduit : propriété occupée « essentiellement pendant les week-ends et vacances » ; en 1860
+      les recettes venaient des loyers payés par les sociétaires (7 F/m²).'
+    source: 3
+  ouverture:
+    valeur: cercle_restreint
+    note: Occupation par les membres de l'association ; archives réservées « aux colons et à leurs amis
+      ».
+    source: 3
+  finalite:
+    valeur:
+    - habitat
+    - agriculture
+    note: Habitat commun (Ménage sociétaire) ; finalité agricole seulement dans l'épisode 1832-1836.
+    source: 2
+  filiation:
+    valeur:
+    - socialisme_utopique
+    note: Fondée sur les idées de Charles Fourier.
+    source: 1
+  rapport_etat:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  echelle:
+    valeur: '10_50'
+    note: Une quinzaine de familles sociétaires depuis 1860 (effectif actuel non publié) ; 60 colons et
+      environ 150 ouvriers en 1833.
+    source: 1
+  transmission:
+    valeur: generations_renouvelees
+    note: Familles sociétaires qui se perpétuent depuis 1860 ; site actuel édité par le Ménage sociétaire.
+    source: 1
+  etat:
+    valeur: actif
+    note: Association active, site la-colonie.org.
+    source: 3
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: non
+    note: 'Société anonyme par actions (1832), puis société civile immobilière à parts (1860) versant
+      un dividende (10 F par part en 1870) ; parts de société civile cessibles (art. 1861 C. civ.). Maillon
+      faible : le porteur du foncier.'
+    source: 2
+  foncier_verrouille:
+    valeur: non
+    note: 'Aucune inaliénabilité : terres rendues aux propriétaires en 1836, dissolution forcée de la
+      Société des Cartonniers et mise en vente en 1859 ; depuis 1860 propriété d''une société à parts.'
+    source: 2
+  usage_ig:
+    valeur: non
+    note: 'Usage résidentiel et de loisir des membres (week-ends, vacances) : cercle restreint.'
+    source: 3
+  autogestion:
+    valeur: partiel
+    note: Assemblée générale des sociétaires (1860) et statuts donnant « une importance égale à tous les
+      sociétaires » ; mais droits liés à la détention de parts, et fonctionnement actuel non documenté.
+    source: 2
+  etabli:
+    valeur: oui
+    note: Usage continu par le Ménage sociétaire depuis 1850 (locataire) puis 1860 (propriétaire via la
+      SCI) ; rupture 1836-1840 après la liquidation initiale.
+    source: 2
+chronologie:
+- annee: 1832
+  evenement: Souscription du journal Le Phalanstère ; fondation de la Colonie sociétaire sur 460-480 ha
+    (société anonyme au capital de 1 200 000 F).
+  source: 2
+- annee: 1836
+  evenement: '24 avril : dissolution ; les terres retournent à Devay et Baudet-Dulary.'
+  source: 2
+- annee: 1846
+  evenement: Baudet-Dulary détache 34 ha ; Société des Cartonniers ; bâtiment principal achevé en 1848.
+  source: 2
+- annee: 1850
+  evenement: Des sociétaires prennent la propriété à bail et fondent le Ménage sociétaire.
+  source: 2
+- annee: 1859
+  evenement: Dissolution forcée de la Société des Cartonniers (tribunal de Mantes) ; mise en vente.
+  source: 2
+- annee: 1860
+  evenement: Acquisition des 34 ha par le Ménage sociétaire (22 juillet) ; société civile immobilière
+    (statuts du 11 novembre).
+  source: 2
+- annee: 1870
+  evenement: 327 parts de 200 F détenues par 120 actionnaires, dividende de 10 F par part.
+  source: 2
+fiabilite:
+  verifie:
+  - Chronologie 1832-1878 (Duizabo 2003, d'après le rapport Morellet de 1870).
+  - Association loi 1901 éditrice du site (mentions légales).
+  - Domaine actuel de 35 ha (site officiel).
+  non_confirme:
+  - Que la SCI de 1860 soit encore le porteur du foncier aujourd'hui (le site évoque « deux structures
+    juridiques » sans les nommer).
+  - Régime actuel de cessibilité des parts (clause d'agrément ?).
+  - 'Surface : 460 ha selon Wikipédia, 480 ha (109 + 351) selon Duizabo pour 1832.'
+liens:
+  communs: null
+sources:
+- titre: La Colonie (Condé-sur-Vesgre)
+  auteur: Wikipédia
+  annee: 2025
+  url: https://fr.wikipedia.org/wiki/La_Colonie_(Condé-sur-Vesgre)
+- titre: Chronologie colonienne, 1832-1878
+  auteur: Danielle Duizabo
+  annee: 2003
+  url: https://la-colonie.org/public/wp-content/medias/2008/11/chronologie_colonienne.pdf
+- titre: La Colonie de Condé-sur-Vesgre (accueil, « Un mode de vie original », mentions légales)
+  auteur: Ménage sociétaire de La Colonie
+  annee: 2024
+  url: https://la-colonie.org/public/
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

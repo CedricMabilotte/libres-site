@@ -1,0 +1,41 @@
+# Faces @antimeta (captures) — 2026-09-30. Mécanismes, jamais des personnes.
+faces:
+  la-chapelle-toulouse: |
+    Levier : la promesse de vente conditionnée. La Ville de Toulouse loue le lieu en bail emphytéotique depuis 2018. Elle a retiré la délibération de vente (septembre 2025), puis suspendu la cession pour trois ans en contestant l'intérêt général de certaines activités : le propriétaire public se fait juge du contenu. Second risque, dans le montage lui-même : si le rachat aboutit, le bail de 40 ans, opposable, laisse place à une propriété associative sans inaliénabilité publiée. Précédent : 59 Rivoli, où la Ville de Paris, propriétaire, tient l'usage par une convention courte et intervient sur la sélection des résidents.
+  espace-autogere-des-tanneries: |
+    Mécanisme : municipalisation par titre court. En 2015, le relogement dans un entrepôt que la Ville de Dijon a rénové (environ 1,5 M€) a échangé un lieu conquis contre un bail de 12 ans renouvelable. Cet investissement public peut peser comme une dette morale ; le renouvellement devient un levier sur un projet qui se dit anticapitaliste. L'échéance tomberait vers 2027-2028, mais elle n'est pas confirmée. Le terrain avait déjà été menacé en 2007 par un pôle de santé privé. Précédent : 59 Rivoli, occupation régularisée par un achat municipal puis une convention de trois ans prolongée par avenant.
+  quartier-libre-des-lentilleres: |
+    Mécanisme : une régularisation payée par une cession. Le compromis de septembre 2025 cède 1,14 ha pour 60 logements sociaux. En échange, une association encore à créer obtiendrait une convention de mise à disposition de durée inconnue. Le collectif de fait doit donc se donner un signataire, et le terrain municipal reste aliénable et urbanisable. Chaque élection peut rouvrir l'accord. Précédent : Notre-Dame-des-Landes, régularisée par étapes en baux de moins de 30 ans, le Département gardant la main.
+  la-deviation-marseille: |
+    Mécanisme : un verrou qui tient à la composition de l'association propriétaire. La revente est empêchée seulement parce que Parpaing Libre n'a que deux membres : l'association usagère et le réseau CLIP, qui dispose d'un droit de veto. Les statuts ne sont pas publiés et peuvent être modifiés : le lieu dépend de la durée de vie d'un tiers, pas d'un acte opposable. Risque hypothétique, sans source : un financement conditionné pour reconstruire après l'incendie de 2025. Précédent : le milieu libre de Vaux, où celui qui avait apporté les terres les a reprises, faute d'acte pour l'en empêcher.
+  manifesten-marseille: |
+    Deux mécanismes. D'abord, la « clause d'incessibilité » n'est pas publiée, et une inaliénabilité perpétuelle tient mal en droit français : tout repose sur le veto du CLIP. Ensuite, un levier qui vise l'activité plutôt que le foncier : un café-bar s'expose à une fermeture administrative ; selon un compte rendu de 2022 non revérifié, le collectif en a déjà combattu une en justice. Précédent : La Bellevilloise, maison du peuple portée par une activité commerciale qui a fini par l'emporter (faillite de 1936).
+  ferme-du-berquet: |
+    Mécanisme : garde foncière déléguée. Depuis la donation de novembre 2024, le fonds Antidote est propriétaire. Selon Silence (2023), son conseil de trois personnes peut vendre un lieu à l'unanimité. La dévolution légale protège les biens du fonds, pas ce lieu précis, et le bail de 99 ans n'est pas publié. L'usager a cédé la propriété sans recevoir d'acte opposable en retour. Précédent : Villarceaux, où la fondation propriétaire fixe la charte, accorde un usage gratuit limité dans le temps, et a annoncé en 2020 vendre la partie du site rendue par la Région.
+mecanismes:
+  - cle: maillon_intercale
+    nom: Maillon sociétaire intercalé
+    description: "Le propriétaire et l'usager sont de droit civil, mais une société est placée entre eux : preneur du bail long, bailleur ou associé commercial. Le titre fort revient à l'intermédiaire ; l'usager n'a qu'une sous-location."
+    exemples: [l-aube, ecolectif, cun-du-larzac]
+  - cle: societariat_financeur
+    nom: Sociétariat financeur
+    description: "Des épargnants extérieurs deviennent associés du propriétaire par des apports remboursables. L'assemblée qui détient le lieu déborde le cercle des usagers ; le bien reste engagé par la dette pendant des décennies."
+    exemples: [oasis-coq-a-lame, hameau-des-buis]
+  - cle: propriete_bienveillante
+    nom: Propriété bienveillante révocable
+    description: "Un fondateur, une fondation ou un bailleur privé prête ou loue sans verrou. Il fixe les conditions, garde la décision et reprend le lieu à l'échéance ou à son départ."
+    exemples: [villarceaux, milieu-libre-de-vaux, la-ruche-rambouillet]
+  - cle: convention_precaire
+    nom: Municipalisation par convention précaire
+    description: "Le propriétaire public régularise par une convention courte ou une délégation de gestion. Il garde le cadre, le calendrier et le contrôle de l'objet ; l'usage se professionnalise ou reste révocable."
+    exemples: [59-rivoli, domaine-du-rayol, zad-notre-dame-des-landes]
+  - cle: liquidation
+    nom: Vente à la faillite ou à la dissolution
+    description: "La structure qui porte le foncier supporte un risque d'exploitation ou bancaire. Quand elle cesse ses paiements ou se dissout, le lieu est vendu, faute de dévolution qui le tienne hors du marché."
+    exemples: [boimondau, la-bellevilloise, colonie-de-bascon]
+  - cle: patrimonialisation
+    nom: Conversion en patrimoine cessible
+    description: "Les droits d'usage deviennent des parts, des actions, un bien héréditaire ou une copropriété. Le commun se referme sur ses détenteurs, puis se vend."
+    exemples: [familistere-de-guise, colonie-conde-sur-vesgre, terre-liberee-luynes]
+transversal: |
+  Le corpus montre deux âges de la capture. Jusqu'en 1971, elle passe par les comptes : sociétés à parts, dettes, liquidation, droits d'usage convertis en titres (Familistère, Bellevilloise, Boimondau). Depuis les années 1990, elle passe par le titre : conventions courtes, baux de moins de 30 ans, veto d'un réseau, conseils restreints de fonds. Les cinq cas au seuil n'ont aucun maillon commercial. Leur verrou repose sur une relation (une majorité municipale, la composition d'une association, trois administrateurs), pas sur un acte publié et opposable. Le seul cas qui franchit les cinq portes le doit à un bail public de 40 ans ; or c'est l'objet de ce bail que le propriétaire conteste aujourd'hui, au nom de l'intérêt général. Le conflit se déplace du foncier vers la définition : celui qui décide de ce qu'est un usage d'intérêt général tient le lieu. Limite : les statuts du CLIP et d'Antidote, et plusieurs baux, ne sont pas publiés ; ces lectures restent conditionnelles.

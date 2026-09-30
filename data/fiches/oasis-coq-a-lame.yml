@@ -1,0 +1,154 @@
+# data/fiches/oasis-coq-a-lame.yml — instruit le 2026-09-30 (épreuve de référence)
+uid: oasis-coq-a-lame
+nom: Oasis du Coq à l'Âme
+autres_noms:
+- Domaine d'Echoisy
+famille: communaute_intentionnelle
+resume: 'Écolieu installé fin 2021 sur le domaine d''Echoisy, à Cellettes (Charente), par une vingtaine
+  de foyers. Le foncier appartient à une SCIC (société coopérative d''intérêt collectif), financée par
+  des apports des membres en comptes courants d''associés remboursables sur vingt-cinq ans ; l''usage
+  est confié à l''Association des habitants du domaine d''Echoisy, à côté de l''association historique
+  du projet. Membre de la Coopérative Oasis, le lieu a signé le 28 août 2025, avec son appui, une obligation
+  réelle environnementale de 99 ans. Épreuve de référence : porteur foncier coopératif et installation
+  trop récente.'
+localisation:
+  commune: Cellettes
+  departement: '16'
+  region: Nouvelle-Aquitaine
+  lat: 45.8641
+  lon: 0.1447
+debut: 2021
+fin: null
+collectif:
+  nom: Association des habitants du domaine d'Echoisy
+  forme: association
+  annee: null
+foncier:
+  porteur: SCIC de l'Oasis du Coq à l'Âme
+  porteur_forme: cooperative
+  surface_ha: null
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: achat_collectif
+    note: Achat par la SCIC, financé par les comptes courants d'associés des membres (de 500 à 200 000
+      € par personne), remboursables sur 25 ans.
+    source: 1
+  titre:
+    valeur: inconnu
+    note: Bail emphytéotique de la SCIC à l'association des habitants selon le dossier Communs ; durée
+      et redevance non publiées, non confirmé par les pages consultées.
+    source: null
+  verrou:
+    valeur:
+    - aucun
+    note: Aucune inaliénabilité ni dévolution publiée pour la SCIC. L'ORE de 99 ans protège le milieu
+      (labour profond, coupes rases, chimie interdits) mais n'empêche pas la vente du bien.
+    source: 2
+  gouvernance:
+    valeur: mixte
+    note: SCIC « une personne, une voix » (capital de 16 000 €, 5 parts de 100 € au plus par sociétaire),
+      plusieurs structures articulées ; environ 300 membres autour des foyers résidents.
+    source: 1
+  economie:
+    valeur: activites_marchandes_annexes
+    note: Remboursement des apports prévu « grâce au développement des activités économiques » du site.
+    source: 1
+  ouverture:
+    valeur: accueil_regulier
+    note: Plus de 250 personnes accueillies en séjours d'immersion en 2024-2025 ; stagiaires de la Pépinière
+      Oasis chaque année.
+    source: 2
+  finalite:
+    valeur:
+    - habitat
+    - agriculture
+    - milieu_vivant
+    - education_populaire
+    note: Habitat partagé, activités agricoles et d'animation, ORE de protection de la biodiversité, séjours
+      d'immersion.
+    source: 2
+  filiation:
+    valeur:
+    - ecologie_politique
+    note: Membre du réseau de la Coopérative Oasis.
+    source: 2
+  rapport_etat:
+    valeur: inconnu
+    note: Aucune source consultée.
+    source: null
+  echelle:
+    valeur: '10_50'
+    note: Une vingtaine de foyers permanents.
+    source: 2
+  transmission:
+    valeur: en_cours
+    note: Collectif installé fin 2021, fondateurs encore en place.
+    source: 2
+  etat:
+    valeur: actif
+    note: En activité.
+    source: 2
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: non
+    note: 'Porteur foncier : SCIC, société coopérative (forme commerciale à lucrativité encadrée), au
+      capital détenu par des sociétaires et financée par comptes courants d''associés remboursables. Le
+      maillon d''usage (associations) est civil ; la chaîne échoue par le foncier.'
+    source: 1
+  foncier_verrouille:
+    valeur: partiel
+    note: L'ORE de 99 ans signée le 28 août 2025 attache au terrain des obligations environnementales
+      opposables, mais aucune inaliénabilité ni dévolution désintéressée n'est publiée pour la SCIC, et
+      le bien reste gagé par 25 ans de remboursements d'apports.
+    source: 2
+  usage_ig:
+    valeur: partiel
+    note: Accueil régulier et protection du milieu attestés, mais le lieu est d'abord l'habitat d'une
+      vingtaine de foyers et son équilibre repose sur des activités économiques.
+    source: 2
+  autogestion:
+    valeur: partiel
+    note: Gouvernance partagée « une personne, une voix » dans la SCIC, mais le sociétariat propriétaire
+      (environ 300 membres) déborde le collectif des usagers ; articulation entre associations et SCIC
+      non publiée.
+    source: 1
+  etabli:
+    valeur: non
+    note: 'Installation fin 2021 : moins de dix ans d''usage.'
+    source: 2
+chronologie:
+- annee: 2021
+  evenement: Installation du collectif sur le domaine d'Echoisy (fin 2021).
+  source: 2
+- annee: 2025
+  evenement: '28 août : signature d''une obligation réelle environnementale de 99 ans, avec l''appui de
+    la Coopérative Oasis.'
+  source: 2
+fiabilite:
+  verifie:
+  - SCIC propriétaire du foncier, capital de 16 000 €, principe une personne une voix, comptes courants
+    d'associés remboursables sur 25 ans (site du lieu).
+  - Installation fin 2021, une vingtaine de foyers, ORE de 99 ans du 28 août 2025 (Coopérative Oasis).
+  non_confirme:
+  - Bail emphytéotique SCIC → association des habitants (durée, redevance), mentionné par le dossier Communs.
+  - Surface (26 ha) et prix d'achat (environ 800 000 €) donnés par le dossier Communs, non retrouvés dans
+    les pages consultées.
+  - Nature de la société de conseil en énergie citée parmi les structures par la Coopérative Oasis.
+liens:
+  communs: oasis-coq-a-lame
+sources:
+- titre: Les structures — Oasis du Coq à l'Âme
+  auteur: Oasis du Coq à l'Âme
+  annee: null
+  url: https://oasis-ducoqalame.fr/presentation-de-loasis-du-coq-a-lame/les-structures/
+- titre: Oasis du Coq à l'Âme
+  auteur: Coopérative Oasis
+  annee: 2025
+  url: https://cooperative-oasis.org/oasis/oasis-du-coq-a-lame/
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

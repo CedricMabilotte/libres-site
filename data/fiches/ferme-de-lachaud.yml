@@ -1,0 +1,176 @@
+# data/fiches/ferme-de-lachaud.yml — instruit le 2026-09-30 (épreuve de référence)
+uid: ferme-de-lachaud
+nom: Ferme de Lachaud
+autres_noms:
+- Domaine de Lachaud
+- La ferme des possibles
+famille: commun_foncier
+resume: 'Domaine agricole et naturel de 130 ha au hameau de Lachaud, à Gentioux-Pigerolles (Creuse), sur
+  le plateau de Millevaches, acquis en 2008 par la Communauté de communes du Plateau de Gentioux avec
+  l''association Le Champ des Possibles et le conservatoire régional des espaces naturels. Le conservatoire
+  tient 75 ha de landes et tourbières par bail emphytéotique signé le 5 octobre 2010 ; les terres agricoles
+  ont été louées au GAEC de la Fève, installé en avril 2008 (brebis limousines), aujourd''hui radié. Le
+  hameau accueille aussi l''association Le Champ des Possibles, l''espace-test agricole Paysan Dès Demain
+  (2013) et des habitants, artisans et chercheurs. Épreuve de référence : foncier public et gestion conservatoire
+  civile, mais usage agricole par des exploitants sociétaires ou individuels.'
+localisation:
+  commune: Gentioux-Pigerolles
+  departement: '23'
+  region: Nouvelle-Aquitaine
+  lat: 45.7851
+  lon: 2.0192
+debut: 2008
+fin: null
+collectif:
+  nom: Le Champ des Possibles (association) avec les exploitants agricoles du site
+  forme: association
+  annee: 2008
+foncier:
+  porteur: Communauté de communes du Plateau de Gentioux
+  porteur_forme: personne_publique
+  surface_ha: 130
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: bail_public
+    note: Acquisition par l'intercommunalité en 2008, puis location aux usagers (bail emphytéotique au
+      conservatoire, bail au GAEC).
+    source: 1
+  titre:
+    valeur: bail_rural
+    note: Terres agricoles louées au GAEC ; un bail rural à clauses environnementales était prévu sur
+      les parcelles du conservatoire. Durée non publiée.
+    source: 1
+  verrou:
+    valeur:
+    - bail_long
+    note: Bail emphytéotique de 30 ans (5 octobre 2010) au conservatoire sur 75 ha ; aucune inaliénabilité
+      publiée pour le reste du domaine, propriété privée d'une collectivité.
+    source: 1
+  gouvernance:
+    valeur: mixte
+    note: Propriétaire public, gestionnaire conservatoire, exploitants et association de projet ; décision
+      collective revendiquée par les résidents en 2008.
+    source: 2
+  economie:
+    valeur: activites_marchandes_annexes
+    note: Élevage ovin avec vente directe d'agneaux ; artisans du bâtiment ; laboratoire de recherche
+      en écologie.
+    source: 2
+  ouverture:
+    valeur: accueil_regulier
+    note: Espace-test agricole régional installé sur le site depuis 2013 ; restauration écologique et
+      recherche.
+    source: 5
+  finalite:
+    valeur:
+    - agriculture
+    - milieu_vivant
+    - education_populaire
+    note: Agriculture paysanne, restauration de landes et tourbières, formation (espace-test), recherche.
+    source: 1
+  filiation:
+    valeur:
+    - neo_ruralisme
+    note: Installation de jeunes agricultrices, familles, artisans et chercheurs sur le plateau de Millevaches
+      en 2008.
+    source: 2
+  rapport_etat:
+    valeur: conventionnement
+    note: Foncier d'une collectivité loué par baux au conservatoire et aux exploitants ; subvention du
+      Parc naturel régional pour la rénovation.
+    source: 2
+  echelle:
+    valeur: '10_50'
+    note: Huit adultes et leurs enfants en 2008.
+    source: 2
+  transmission:
+    valeur: generations_renouvelees
+    note: Le GAEC de 2008 est radié ; d'autres exploitants sont en place selon la fiche CIVAM, et l'espace-test
+      installe de nouveaux paysans.
+    source: 3
+  etat:
+    valeur: actif
+    note: Site en activité (exploitation, conservatoire, espace-test).
+    source: 3
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: non
+    note: Propriétaire public et conservatoire associatif sont civils, mais l'usage agricole, principal
+      usage du domaine, a été confié à un GAEC (société civile agricole à parts, radiée depuis), puis
+      à des exploitants privés.
+    source: 4
+  foncier_verrouille:
+    valeur: partiel
+    note: Propriété d'une collectivité et bail emphytéotique de 30 ans sur 75 ha ; mais le reste relève
+      du domaine privé de la collectivité, sans inaliénabilité publiée, et le titre agricole est un bail
+      sans durée publiée.
+    source: 1
+  usage_ig:
+    valeur: oui
+    note: 'Foncier public voué à la préservation des landes et tourbières, à l''agriculture paysanne,
+      à la formation (espace-test régional) et à la recherche : activités tournées vers le territoire,
+      sans rente foncière.'
+    source: 1
+  autogestion:
+    valeur: partiel
+    note: Décision collective revendiquée par les résidents en 2008, mais les baux et l'affectation des
+      terres relèvent de la collectivité propriétaire ; pas d'assemblée d'usagers souveraine documentée.
+    source: 2
+  etabli:
+    valeur: oui
+    note: Usage continu depuis 2008 (exploitation, association, conservatoire).
+    source: 3
+chronologie:
+- annee: 2008
+  evenement: '29 janvier : acquisition par la Communauté de communes ; début 2008 : installation du GAEC
+    de la Fève.'
+  source: 1
+- annee: 2010
+  evenement: '5 octobre : bail emphytéotique entre la Communauté de communes et le conservatoire régional
+    sur 75 ha.'
+  source: 1
+- annee: 2013
+  evenement: Création de l'espace-test agricole Paysan Dès Demain à Lachaud.
+  source: 5
+fiabilite:
+  verifie:
+  - Acquisition du 29 janvier 2008, 130 ha, bail emphytéotique du 5 octobre 2010 sur 75 ha, GAEC de la
+    Fève (CEN Limousin).
+  - Collectif de 2008, décision collective, subvention du Parc (IPNS, décembre 2008).
+  - GAEC de la Fève créé le 1er avril 2008, radié ; Le Champ des Possibles déclarée en 2008 ; Paysan Dès
+    Demain en 2013 (registre public).
+  non_confirme:
+  - 'Surface et date : 138 ha pour 275 000 € en 2007 selon IPNS, 130 ha au 29 janvier 2008 selon le conservatoire.'
+  - Forme et titre des exploitants actuels ; durée des baux agricoles.
+  - Intercommunalité propriétaire aujourd'hui, après les fusions d'intercommunalités.
+  - 'Aucune fiche lieu Communs n''existe encore (seulement un lead : discovery/leads/ferme-de-lachaud.md).'
+liens:
+  communs: null
+sources:
+- titre: Domaine de Lachaud
+  auteur: Conservatoire d'espaces naturels du Limousin
+  annee: null
+  url: https://www.conservatoirelimousin.com/la-liste-des-sites/site/17-domaine-de-lachaud.html
+- titre: La ferme des possibles, Lachaud
+  auteur: IPNS, journal du plateau de Millevaches
+  annee: 2008
+  url: https://www.journal-ipns.org/les-articles/894-la-ferme-des-possibles-lachaud
+- titre: Fiche de ferme — Ferme de Lachaud
+  auteur: CIVAM Limousin
+  annee: null
+  url: https://www.civamlimousin.com/images/fiches_ferme/FICHE_FERME_GAEC_DE_LACHAUD.pdf
+- titre: GAEC DE LA FEVE (SIREN 503873085)
+  auteur: Annuaire des entreprises (État)
+  annee: 2026
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/503873085
+- titre: PAYSAN DES DEMAIN (SIREN 797645470)
+  auteur: Annuaire des entreprises (État)
+  annee: 2026
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/797645470
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

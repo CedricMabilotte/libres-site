@@ -1,0 +1,153 @@
+# data/fiches/ecolectif.yml — instruit le 2026-09-30 (épreuve de référence)
+uid: ecolectif
+nom: Écolectif
+autres_noms:
+- EcolectiF
+famille: communaute_intentionnelle
+resume: 'Écohameau créé en 2009 sur un domaine agricole de 46 ha à Gensac-de-Boulogne (Haute-Garonne),
+  où vivent une vingtaine d''adultes et une vingtaine d''enfants dans un habitat autoconstruit. Le lieu
+  est acquis et administré par la SCI Terres d''Ecolectif (2012), dont l''association collégiale Chemins
+  d''Ecolectif détient 90 % des parts et la société M.V. Finances 10 % ; l''association, qui décide «
+  à zéro objection », anime le lieu, et la SCI perçoit des loyers. Membre du réseau de la Coopérative
+  Oasis. Épreuve de référence : société civile à parts avec un associé commercial.'
+localisation:
+  commune: Gensac-de-Boulogne
+  departement: '31'
+  region: Occitanie
+  lat: 43.2593
+  lon: 0.6037
+debut: 2009
+fin: null
+collectif:
+  nom: Chemins d'Ecolectif
+  forme: association
+  annee: 2012
+foncier:
+  porteur: SCI Terres d'Ecolectif
+  porteur_forme: societe_civile_parts_cessibles
+  surface_ha: 46
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: achat_collectif
+    note: « Une Société Civile Immobilière pour acquérir et administrer le lieu » ; apports des membres
+      « avec droit de reprise ».
+    source: 1
+  titre:
+    valeur: inconnu
+    note: Les résidents versent des loyers à la SCI ; nature et durée des baux non publiées.
+    source: null
+  verrou:
+    valeur:
+    - aucun
+    note: Aucune inaliénabilité ni clause de dévolution publiée ; la SCI provisionne « le remboursement
+      rapide des apports des personnes qui partent ».
+    source: 1
+  gouvernance:
+    valeur: assemblee_consensus
+    note: « Association collégiale dirigée par un Cercle d'Administration » ; « les décisions sont prises
+      à zéro objection ».
+    source: 1
+  economie:
+    valeur: activites_marchandes_annexes
+    note: Artisanat (bois, laine, céramique), soins, musique, maraîchage, boulangerie au feu de bois,
+      élevages.
+    source: 3
+  ouverture:
+    valeur: inconnu
+    note: Accueil (chambres d'amis, activités) mentionné sans régime d'ouverture au public documenté.
+    source: null
+  finalite:
+    valeur:
+    - habitat
+    - agriculture
+    - artisanat_production
+    note: Habitat autoconstruit, maraîchage (3 000 m²), vergers, pépinière, élevages, ateliers.
+    source: 3
+  filiation:
+    valeur:
+    - ecologie_politique
+    note: Membre du réseau de la Coopérative Oasis ; « écologie relationnelle ».
+    source: 3
+  rapport_etat:
+    valeur: inconnu
+    note: Aucune source consultée.
+    source: null
+  echelle:
+    valeur: '10_50'
+    note: Environ 20 adultes et 20 enfants.
+    source: 3
+  transmission:
+    valeur: inconnu
+    note: Aucune source consultée.
+    source: null
+  etat:
+    valeur: actif
+    note: SCI active au registre, lieu habité.
+    source: 2
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: non
+    note: 'Porteur foncier : SCI Terres d''Ecolectif, société civile à parts sociales ; 10 % des parts
+      détenues par la société M.V. Finances. Maillon d''usage (association Chemins d''Ecolectif) civil
+      ; la chaîne échoue par le foncier.'
+    source: 1
+  foncier_verrouille:
+    valeur: non
+    note: 'Aucune inaliénabilité, dévolution désintéressée ni titre d''usage long publiés : le bien est
+      la propriété ordinaire d''une SCI, aliénable par décision de ses associés.'
+    source: 1
+  usage_ig:
+    valeur: partiel
+    note: Lieu de vie résidentiel à loyers, activités agricoles et artisanales ; ouverture à un public
+      extérieur non documentée comme régulière.
+    source: 3
+  autogestion:
+    valeur: oui
+    note: 'L''association des habitants décide à zéro objection et détient 90 % des parts de la SCI :
+      les usagers tiennent la décision.'
+    source: 1
+  etabli:
+    valeur: oui
+    note: 'Collectif créé en 2009, SCI en 2012 : plus de dix ans d''usage.'
+    source: 3
+chronologie:
+- annee: 2009
+  evenement: Création de l'écohameau.
+  source: 3
+- annee: 2012
+  evenement: '29 janvier : constitution de l''association Chemins d''Ecolectif ; 7 mars : immatriculation
+    de la SCI Terres d''Ecolectif.'
+  source: 1
+fiabilite:
+  verifie:
+  - Répartition du capital 90 % association / 10 % M.V. Finances ; décisions à zéro objection (site du
+    lieu).
+  - SCI Terres d'Ecolectif, SIREN 751111386, créée le 7 mars 2012 (registre public).
+  - Création en 2009, 46 ha, environ 20 adultes et 20 enfants (Coopérative Oasis).
+  non_confirme:
+  - Date d'installation physique sur le domaine (2009 ou 2012).
+  - Durée des baux et montant des loyers (60 à 200 € selon le dossier Communs).
+  - Rôle et rémunération de M.V. Finances, également associée de la société du Hameau des Buis selon le
+    dossier Communs.
+liens:
+  communs: ecolectif
+sources:
+- titre: Cadre légal
+  auteur: Écolectif
+  annee: null
+  url: https://ecolectif.jimdofree.com/pr%C3%A9sentation/cadre-l%C3%A9gal/
+- titre: TERRES D'ECOLECTIF (SIREN 751111386)
+  auteur: Annuaire des entreprises (État)
+  annee: 2026
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/751111386
+- titre: Écolectif
+  auteur: Coopérative Oasis
+  annee: null
+  url: https://cooperative-oasis.org/oasis/ecolectif/
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

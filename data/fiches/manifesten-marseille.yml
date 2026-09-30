@@ -1,0 +1,164 @@
+# data/fiches/manifesten-marseille.yml — instruit le 2026-09-30
+uid: manifesten-marseille
+nom: Manifesten
+autres_noms: []
+famille: lieu_non_marchand
+resume: Café-librairie associatif et lieu de luttes au 59 rue Adolphe-Thiers, Marseille 1er, rouvert par une nouvelle
+  équipe en février 2016. Menacé par la vente des murs en 2020, le collectif (une quinzaine de personnes, « sans
+  chef·fe ni salarié·e ») a lancé une collecte pour acheter le lieu (environ 190 000 € frais compris) ; l'association
+  New Al Dante en devient propriétaire, avec une clause d'incessibilité annoncée, et le lieu entre dans le réseau
+  CLIP. On y trouve une librairie, un bar, des cours de français pour femmes et les réunions d'une quinzaine de
+  collectifs.
+localisation:
+  commune: Marseille (1er arrondissement)
+  departement: '13'
+  region: Provence-Alpes-Côte d'Azur
+  lat: 43.3002
+  lon: 5.3828
+debut: 2016
+fin: null
+collectif:
+  nom: Manifesten
+  forme: association
+  annee: null
+foncier:
+  porteur: Association New Al Dante
+  porteur_forme: association
+  surface_ha: null
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: souscription
+    note: Collecte de dons et prêts lancée en novembre 2020 pour environ 190 000 €.
+    source: 4
+  titre:
+    valeur: inconnu
+    note: Lien juridique entre New Al Dante et l'association Manifesten non publié.
+    source: null
+  verrou:
+    valeur:
+    - veto_reseau
+    note: « Clause d'incessibilité » annoncée ; CLIP et New Al Dante s'engagent à trouver un autre collectif si
+      Manifesten périclite.
+    source: 3
+  gouvernance:
+    valeur: mixte
+    note: 'Trois cercles : collège juridique, collectif d''une vingtaine de personnes, cercle large (CR d''AG CLIP
+      2022).'
+    source: 6
+  economie:
+    valeur: inconnu
+    note: Lieu tenu bénévolement, « sans salarié·e » ; ressources des personnes non documentées.
+    source: null
+  ouverture:
+    valeur: ouvert_public
+    note: Café-librairie ouvert à tous, refus de l'entre-soi militant.
+    source: 4
+  finalite:
+    valeur:
+    - culture
+    - education_populaire
+    note: Librairie de 1 200 titres, cours de français, réunions, projections.
+    source: 4
+  filiation:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  rapport_etat:
+    valeur: conflit
+    note: Procédure gagnée contre une fermeture administrative (CR d'AG CLIP 2022, selon le relevé Communs).
+    source: 6
+  echelle:
+    valeur: '10_50'
+    note: « On est une quinzaine à mener ce combat ».
+    source: 3
+  transmission:
+    valeur: inconnu
+    note: Aucune source trouvée.
+    source: null
+  etat:
+    valeur: actif
+    note: Listé parmi les lieux du CLIP.
+    source: 5
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: oui
+    note: Associations New Al Dante (propriétaire) et Manifesten (usagère), réseau CLIP associatif.
+    source: 3
+  foncier_verrouille:
+    valeur: partiel
+    note: '« Clause d''incessibilité » annoncée et garantie CLIP, mais texte non publié. Une clause d''inaliénabilité
+      perpétuelle est fragile en droit français (la jurisprudence l''exige temporaire et justifiée par un intérêt
+      sérieux et légitime) : le verrou tient surtout au veto du CLIP.'
+    source: 3
+  usage_ig:
+    valeur: oui
+    note: Café-librairie associatif, cours gratuits de français pour femmes, lieu de réunion d'une quinzaine de
+      collectifs.
+    source: 4
+  autogestion:
+    valeur: oui
+    note: Collectif « sans chef·fe ni salarié·e ».
+    source: 3
+  etabli:
+    valeur: oui
+    note: 'Équipe actuelle depuis le 6 février 2016 : dix ans atteints en février 2026 (location jusqu''à l''achat,
+      puis propriété d''usage). Le lieu existait auparavant sous une autre équipe.'
+    source: 2
+chronologie:
+- annee: 2016
+  evenement: Réouverture du lieu par une nouvelle équipe (6 février).
+  source: 2
+- annee: 2020
+  evenement: 'Mise en vente des murs ; appel « Manifesten est à vendre : achetons-le ! ».'
+  source: 4
+- annee: 2021
+  evenement: Achat par New Al Dante et entrée dans le réseau CLIP.
+  source: 7
+fiabilite:
+  verifie:
+  - Réouverture en février 2016 (Mars-Infos, CQFD).
+  - Propriété New Al Dante, clause d'incessibilité et engagement CLIP (tract de 2020).
+  - Collectif d'une quinzaine sans salarié·e.
+  non_confirme:
+  - Date exacte de l'acte d'achat (14 février 2021 selon le lead Communs).
+  - Texte de la clause d'incessibilité ; titre d'usage.
+  - Nature et issue de la procédure contre la fermeture administrative (lue par Communs dans le CR d'AG 2022, non
+    revérifiée).
+liens:
+  communs: null
+sources:
+- titre: 'Manifesten : vive la propriété collective !'
+  auteur: CQFD n°192
+  annee: 2020
+  url: https://cqfd-journal.org/Manifesten-vive-la-propriete
+- titre: 'Samedi 6 février à 19 h : Manifesten, c''est reparti !'
+  auteur: Marseille Infos Autonomes
+  annee: 2016
+  url: https://mars-infos.org/samedi-6-fevrier-a-19-h-manifesten-690
+- titre: Pour une propriété d'usage et des luttes collectives (tract)
+  auteur: Collectif Manifesten
+  annee: 2020
+  url: https://mars-infos.org/IMG/pdf/achetonsmanifesten_-2.pdf
+- titre: 'Manifesten est à vendre : achetons-le !'
+  auteur: Marseille Infos Autonomes
+  annee: 2020
+  url: https://mars-infos.org/manifesten-est-a-vendre-achetons-5424
+- titre: Les lieux
+  auteur: CLIP — Réseau de lieux en propriété d'usage
+  annee: null
+  url: https://clip.ouvaton.org/les-projets/
+- titre: Compte rendu de l'assemblée générale du 29 janvier 2022
+  auteur: CLIP
+  annee: 2022
+  url: https://clip.ouvaton.org/wp-content/uploads/2022/02/clip-ag-2022-01-29-pv.pdf
+- titre: 'Manifesten : vive la propriété collective !'
+  auteur: Infolibertaire
+  annee: null
+  url: https://www.infolibertaire.net/manifesten-vive-la-propriete-collective/
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

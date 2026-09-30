@@ -1,0 +1,58 @@
+# data/fiches/<uid>.yml — uid = nom du fichier (minuscules, tirets)
+uid: exemple-lieu
+nom: "Nom usuel du collectif ou du lieu"
+autres_noms: []
+famille: communaute_intentionnelle   # cf. cadre §3
+resume: >-
+  3 à 5 phrases factuelles : qui, où, depuis quand, comment le lieu a été obtenu,
+  ce qui s'y fait, où en est le collectif.
+localisation:
+  commune: "Commune"
+  departement: "07"            # code INSEE du département
+  region: "Auvergne-Rhône-Alpes"
+  lat: 44.5                    # centre de la commune (jamais une adresse privée)
+  lon: 4.3
+debut: 1973                    # installation sur le lieu
+fin: null                      # année de fin, ou null si actif
+collectif:
+  nom: "Association X"
+  forme: association           # cadre §4 forme_collectif
+  annee: 1974
+foncier:
+  porteur: "Fonds de dotation Y"
+  porteur_forme: fonds_dotation  # cadre §4 porteur_foncier
+  surface_ha: 20               # ou null
+  titre_duree_ans: 99          # ou null
+dimensions:
+  acces:        {valeur: achat_collectif, note: "…", source: 1}
+  titre:        {valeur: bail_emphyteotique, note: "…", source: 1}
+  verrou:       {valeur: [inalienabilite_statutaire, bail_long], note: "…", source: 2}
+  gouvernance:  {valeur: assemblee_consensus, note: "…", source: 2}
+  economie:     {valeur: activites_non_marchandes, note: "…", source: 2}
+  ouverture:    {valeur: accueil_regulier, note: "…", source: 2}
+  finalite:     {valeur: [agriculture, education_populaire], note: "…", source: 2}
+  filiation:    {valeur: [neo_ruralisme, ecologie_politique], note: "…", source: 3}
+  rapport_etat: {valeur: conventionnement, note: "…", source: 3}
+  echelle:      {valeur: 10_50, note: "…", source: 3}
+  transmission: {valeur: generations_renouvelees, note: "…", source: 3}
+  etat:         {valeur: actif, note: "…", source: 3}
+  fin:          {valeur: null}   # une des valeurs de fin si disparu/transformé
+portes:
+  forme_civile:       {valeur: oui, note: "Association 1901 usufruitière, fonds de dotation propriétaire.", source: 1}
+  foncier_verrouille: {valeur: oui, note: "Inaliénabilité statutaire du fonds + bail emphytéotique 99 ans.", source: 2}
+  usage_ig:           {valeur: oui, note: "…", source: 2}
+  autogestion:        {valeur: oui, note: "…", source: 2}
+  etabli:             {valeur: oui, note: "Usage continu depuis 1973.", source: 1}
+chronologie:
+  - {annee: 1973, evenement: "Installation.", source: 1}
+fiabilite:
+  verifie: ["…"]
+  non_confirme: ["…"]
+liens:
+  communs: null        # uid de la fiche communs.actitude.org, si elle existe
+sources:               # numérotées dans l'ordre ; `source: n` renvoie ici (1-indexé)
+  - {titre: "Titre de la source", auteur: "Auteur ou éditeur", annee: 2020, url: "https://…"}
+faces:                 # ajoutées après instruction, fiches du corpus d'abord
+  igor: null
+  eozen: null
+  antimeta: null

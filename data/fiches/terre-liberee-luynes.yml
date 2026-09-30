@@ -1,0 +1,172 @@
+# data/fiches/terre-liberee-luynes.yml — instruit le 2026-09-30
+uid: terre-liberee-luynes
+nom: Terre Libérée (Louis Rimbault)
+autres_noms:
+- École pratique de végétalisme
+- Le Pin
+famille: communaute_intentionnelle
+resume: À la fin de 1923, Louis Rimbault et Clémence Rimbault acquièrent pour 16 000 francs une dizaine
+  d'hectares au lieu-dit Le Pin, à Luynes, près de Tours, pour y fonder « Terre Libérée », école pratique
+  de végétalisme d'inspiration anarchiste. Le projet prévoit une société coopérative d'au plus vingt sociétaires
+  adultes, avec habitations et jardins individuels, un conseil hebdomadaire et un administrateur tournant
+  ; rien ne permet d'établir que ce fonctionnement ait été effectif. Le lieu reçoit plusieurs centaines
+  de visiteurs les premières années, puis décline après 1927 ; Rimbault, paralysé par un accident en 1932,
+  cherche à vendre dès 1933. Il meurt sur place en 1949 ; sa veuve vend le domaine en viager.
+localisation:
+  commune: Luynes
+  departement: '37'
+  region: Centre-Val de Loire
+  lat: 47.3847
+  lon: 0.5547
+debut: 1923
+fin: 1949
+collectif:
+  nom: Terre Libérée (société coopérative de sociétaires)
+  forme: cooperative
+  annee: null
+foncier:
+  porteur: 'Non établi : terrain acheté en 1923 (au nom des Rimbault ou de la société, non documenté)
+    ; vendu en viager par la veuve'
+  porteur_forme: null
+  surface_ha: 10
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: inconnu
+    note: Achat de 16 000 F fin 1923 ; l'acquéreur en titre (Rimbault ou société) n'est pas établi.
+    source: 1
+  titre:
+    valeur: inconnu
+    note: Titre exact non documenté ; la vente par la veuve suggère une propriété personnelle, non prouvée.
+    source: 2
+  verrou:
+    valeur:
+    - aucun
+    note: Aucune clause ; domaine vendu en viager après 1949.
+    source: 2
+  gouvernance:
+    valeur: mixte
+    note: Conseil des sociétaires hebdomadaire et administrateur tournant prévus par les statuts ; direction
+      effective de Rimbault jusqu'en 1949.
+    source: 1
+  economie:
+    valeur: autosubsistance
+    note: Autosubsistance projetée (fruits, légumes, vigne, pensions de visiteurs, soins payants) ; refus
+      de toute aide officielle.
+    source: 1
+  ouverture:
+    valeur: accueil_regulier
+    note: 'Visites quotidiennes avec démonstrations de cuisine végétalienne : 300 visiteurs en dix mois,
+      environ 200 en 1929 ; accueil de réfugiés en 1940.'
+    source: 1
+  finalite:
+    valeur:
+    - agriculture
+    - habitat
+    - education_populaire
+    - accueil_soin
+    note: École de végétalisme, cultures, habitat, pavillons prévus pour malades et visiteurs.
+    source: 1
+  filiation:
+    valeur:
+    - anarchisme
+    - non_violence
+    note: Anarchisme individualiste, végétalisme, non-violence ; adhésion en 1926 à l'Association paysanne
+      anarchiste.
+    source: 2
+  rapport_etat:
+    valeur: indifference
+    note: Refus de toute aide officielle et de tout recours à la justice d'État.
+    source: 1
+  echelle:
+    valeur: inconnu
+    note: Vingt sociétaires adultes au plus prévus ; effectif réel non documenté.
+    source: 1
+  transmission:
+    valeur: fondateurs_seuls
+    note: L'expérience s'arrête à la mort de Rimbault (1949).
+    source: 5
+  etat:
+    valeur: disparu
+    note: Fin en 1949.
+    source: 5
+  fin:
+    valeur: vente
+    note: Vente en viager par la veuve après 1949 ; tentative de vente dès 1933.
+    source: 2
+portes:
+  forme_civile:
+    valeur: non
+    note: Société coopérative à souscription (3 000 F par sociétaire) ; propriétaire en titre non établi,
+      possiblement personne privée.
+    source: 1
+  foncier_verrouille:
+    valeur: non
+    note: Aucun verrou ; domaine mis en vente dès 1933, vendu en viager après 1949.
+    source: 2
+  usage_ig:
+    valeur: partiel
+    note: Visites et démonstrations ouvertes au public, mais sociétariat fermé (20 adultes) à maisons
+      et jardins individuels.
+    source: 1
+  autogestion:
+    valeur: partiel
+    note: Conseil des sociétaires prévu, fonctionnement effectif non établi ; direction de Rimbault.
+    source: 1
+  etabli:
+    valeur: partiel
+    note: Présence 1923-1949 (26 ans), mais la vie collective décline dès 1927 et Rimbault cherche à vendre
+      dès 1933.
+    source: 1
+chronologie:
+- annee: 1923
+  evenement: Achat du terrain du Pin (16 000 F) ; fondation en novembre.
+  source: 1
+- annee: 1926
+  evenement: Mort de Clémence Rimbault ; adhésion à l'Association paysanne anarchiste.
+  source: 1
+- annee: 1932
+  evenement: Accident de Louis Rimbault (paralysie).
+  source: 1
+- annee: 1933
+  evenement: Rimbault propose de vendre le lieu.
+  source: 1
+- annee: 1949
+  evenement: Mort de Louis Rimbault (10 novembre) ; fin de l'expérience, vente en viager.
+  source: 5
+fiabilite:
+  verifie:
+  - Achat fin 1923, 16 000 F, 10 ha au Pin (brochure infokiosques).
+  - Société coopérative, 20 sociétaires max, souscription 3 000 F (brochure).
+  - Mort de Rimbault le 10 novembre 1949 (L'autre terre libérée).
+  non_confirme:
+  - Titulaire du titre de propriété.
+  - 'Vente en viager : Wikipédia seul (Maitron inaccessible, 403).'
+  - Effectif réel des sociétaires.
+liens:
+  communs: null
+sources:
+- titre: Louis Rimbault et « Terre Libérée », 1923-1949 (brochure)
+  auteur: Infokiosques (compilation, auteur non indiqué)
+  annee: null
+  url: https://infokiosques.net/IMG/pdf/Louis_Rimbault.pdf
+- titre: Louis Rimbault
+  auteur: Wikipédia (croisé avec le Maitron, dictionnaire des anarchistes, 2014)
+  annee: null
+  url: https://fr.wikipedia.org/wiki/Louis_Rimbault
+- titre: Terre Libérée (notice)
+  auteur: Familistère de Guise — La fabrique des utopies
+  annee: null
+  url: https://fabrique-des-utopies.familistere.com/intranet.php/D4/utopia?id=110
+- titre: RIMBAULT Louis, Édouard — Dictionnaire des anarchistes
+  auteur: Le Maitron
+  annee: 2014
+  url: https://maitron.fr/spip.php?article154676
+- titre: L'autre terre libérée — l'association
+  auteur: Association L'autre terre libérée
+  annee: null
+  url: https://lautreterreliberee.fr/association
+faces:
+  igor: null
+  eozen: null
+  antimeta: null
