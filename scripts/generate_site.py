@@ -96,7 +96,7 @@ NAV = [("", "Accueil"), ("fiches/", "Les cas"), ("portes/", "Les portes"), ("pri
 def rel(depth):
     return "../" * depth
 
-def page(chemin, titre, corps, description="", depth=None):
+def page(chemin, titre, corps, description="", depth=None, image="_accueil"):
     depth = chemin.count("/") if depth is None else depth
     r = rel(depth)
     nav = "".join(f'<a href="{r}{h}"{" aria-current=page" if (h and chemin.startswith(h)) or (not h and chemin == "") else ""}>{E(l)}</a>' for h, l in NAV)
@@ -106,7 +106,7 @@ def page(chemin, titre, corps, description="", depth=None):
     doc = f"""<!doctype html>
 <html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{E(t)}</title><meta name="description" content="{E(desc)}"><link rel="canonical" href="{canon}">
-<meta property="og:title" content="{E(t)}"><meta property="og:description" content="{E(desc)}"><meta property="og:url" content="{canon}"><meta property="og:type" content="website"><meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="{E(t)}"><meta property="og:description" content="{E(desc)}"><meta property="og:url" content="{canon}"><meta property="og:type" content="website"><meta property="og:locale" content="fr_FR"><meta property="og:image" content="{BASE}/assets/cards/{image}.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="{r}assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="{r}assets/style.css">
 <script>try{{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}}catch(e){{}}</script>
 </head><body>
@@ -175,6 +175,9 @@ if OUT.exists():
     shutil.rmtree(OUT)
 OUT.mkdir()
 shutil.copytree(ASSETS, OUT / "assets", ignore=shutil.ignore_patterns("france-departements.json"))
+for d in fiches:
+    if not (ASSETS / "cards" / f"{d['uid']}.jpg").exists():
+        err(f"{d['uid']} : vignette manquante (python3 scripts/social_cards.py)")
 (OUT / "CNAME").write_text("libres.actitude.org\n")
 PRISMES = {}
 pp = ROOT / "data" / "prismes.yml"
@@ -286,7 +289,7 @@ for i, d in enumerate(fiches):
 <dt>Citer</dt><dd class="petit">« {E(d['nom'])} », libres.actitude.org, v{VERSION}, {BASE}/f/{u}/</dd>
 </dl><p class="petit"><a href="../{prev_['uid']}/">← {E(prev_['nom'])}</a><br><a href="../{next_['uid']}/">{E(next_['nom'])} →</a></p>
 <p class="petit">Une erreur, un fait manquant ? <a href="../../droit-de-reponse/">Droit de réponse</a></p></aside></div>"""
-    page(f"f/{u}/", d["nom"], corps, description=(d.get("resume") or "")[:200])
+    page(f"f/{u}/", d["nom"], corps, description=(d.get("resume") or "")[:200], image=u)
 
 # ------------------------------------------------------------------ portes
 PORTES_CNT = AN["portes"]
