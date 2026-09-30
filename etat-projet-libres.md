@@ -27,3 +27,10 @@
 - Vignettes sociales 1200×630 (accueil + 41 cas) + og:image.
 - Ligne vox `resources/vox/lignes/libres/` proposée, inactive.
 - HTTPS : en attente du certificat GitHub (cache du joker Gandi, TTL 3 h) ; vérification programmée le 2026-10-01 à 01:15 UTC.
+
+## 2026-10-01 — arbitrages de Ced appliqués
+- P1 : personne publique admise au cas par cas si le montage établit clairement un commun (59 Rivoli et Rayol passent `partiel`).
+- P2 : lecture au meilleur effort documentaire (pas de preuve de publication) → La Déviation et Manifesten entrent au corpus ; Hautes-Planches (P5) et Longo Maï (P1) au seuil ; lieux Antidote restent `partiel` (faculté documentée de vendre).
+- Résultat : 2 corpus + 1 corpus sous condition (La Chapelle), 5 seuil, 33 épreuves. Prismes réécrits (V P1×P4 = 0,74), thèse mise à jour, faces trio pour les 2 nouveaux cas au seuil, vignettes régénérées.
+- Registre : site libres en commentaire du champ site d'@igor. Ligne vox : pas encore.
+- Redirection Telegram vue par Ced : cache du joker Gandi (*.actitude.org → t.me) + 301 mis en cache par le navigateur ; DNS correct. HTTPS relancé au passage de 01:15 UTC.
