@@ -14,3 +14,9 @@
 - Antidote / CLIP : statuts et baux non publiés → P2 partiel ; demander les actes (droit de réponse).
 - Ariège (Villeneuve-du-Bosc) : fiche quasi vide, à instruire sur sources primaires.
 - Transmission et économie non documentées pour > 40 % des cas.
+
+## 2026-09-30 (suite) — mise en ligne et vérification
+- En ligne : repo CedricMabilotte/libres-site, Pages (workflow), CNAME Gandi `libres` créé. HTTPS : certificat en attente (vérification programmée) ; http OK.
+- Vérification factuelle de 12 fiches : 7 exactes, 5 corrigées (La Déviation : crédits bancaires et locataire 2015-2019, 0,27 ha ; Berquet : mode de transfert inconnu ; Pommiers : reprise début 2016 ; Longo Maï : Spartakus autrichien, Hydra suisse ; La Ruche : chronologie 1905) + précisions (Tanneries 1997/1998, SCTL 6 357 ha et 99 ans selon larzac.org, Manifesten salarié en 2022).
+- Traces agora posées (non commitées dans agents/ : working tree déjà modifié par d'autres sessions → code-task ct-2026-09-30-libres-commit-traces).
+- Doc de synthèse dans le Project claude.ai « collectifs libres » : claude/libres-v0.1.md.
