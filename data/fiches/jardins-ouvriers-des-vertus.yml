@@ -1,0 +1,176 @@
+# data/fiches/jardins-ouvriers-des-vertus.yml — instruit le 2026-10-01
+uid: jardins-ouvriers-des-vertus
+nom: Jardins ouvriers des Vertus
+autres_noms:
+- Jardins d'Aubervilliers
+- Jardins à défendre (JAD)
+famille: commun_foncier
+resume: Jardins familiaux d'Aubervilliers, sur le glacis du fort, fondés le 29 novembre 1935 par la Société des
+  jardins ouvriers des Vertus, dernière trace des cultures maraîchères de la plaine des Vertus. Environ 2,6 ha de
+  parcelles cultivées pour les besoins des jardiniers. Intégrés depuis 2014 à la ZAC du Fort d'Aubervilliers portée
+  par Grand Paris Aménagement, ils sont amputés en 2021 pour les abords d'une piscine d'entraînement olympique,
+  malgré une occupation de plusieurs mois (« Jardins à défendre »), puis menacés par le chantier d'une gare de la
+  ligne 15. Deux arrêts de la cour administrative d'appel de Paris (2022, 2024) encadrent la part des jardins classée
+  en zone urbaine.
+localisation:
+  commune: Aubervilliers
+  departement: '93'
+  region: Île-de-France
+  lat: 48.9128
+  lon: 2.3886
+debut: 1935
+fin: null
+collectif:
+  nom: Société des jardins ouvriers des Vertus
+  forme: association
+  annee: 1935
+foncier:
+  porteur: Grand Paris Aménagement (établissement public de l'État)
+  porteur_forme: personne_publique
+  surface_ha: 2.6
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: inconnu
+    note: Conditions d'attribution des terrains en 1935 non documentées.
+    source: null
+  titre:
+    valeur: inconnu
+    note: Titre de l'association sur les terrains non publié.
+    source: null
+  verrou:
+    valeur:
+    - aucun
+    note: Terrains inclus dans une ZAC ; une partie classée en zone urbaine et détruite en 2021.
+    source: 1
+  gouvernance:
+    valeur: inconnu
+    note: Association de jardiniers ; en 2021, le bureau signe la convention prévoyant l'éviction de 19 jardiniers,
+      contre l'avis du collectif de défense.
+    source: 1
+  economie:
+    valeur: autosubsistance
+    note: Production vivrière des jardiniers pour leurs propres besoins.
+    source: 4
+  ouverture:
+    valeur: cercle_restreint
+    note: Parcelles attribuées à des jardiniers ; ouverture ponctuelle lors des mobilisations.
+    source: 1
+  finalite:
+    valeur:
+    - agriculture
+    - milieu_vivant
+    - lutte_territoriale
+    note: Culture potagère ; refuge d'espèces protégées identifié par l'étude environnementale de la ZAC ; lutte
+      2020-2024.
+    source: 1
+  filiation:
+    valeur:
+    - mouvement_ouvrier
+    note: Jardins ouvriers fondés par des ouvriers du voisinage.
+    source: 1
+  rapport_etat:
+    valeur: conflit
+    note: Contentieux administratif contre le PLUi, expulsion d'occupants jugée illégale par le juge de l'exécution
+      de Bobigny (2022), poursuites pénales suivies de relaxes.
+    source: 1
+  echelle:
+    valeur: inconnu
+    note: Nombre de jardiniers non publié ; le collectif évoque des centaines de bénéficiaires.
+    source: 4
+  transmission:
+    valeur: generations_renouvelees
+    note: Jardins cultivés sans interruption connue depuis 1935.
+    source: 1
+  etat:
+    valeur: actif
+    note: Actif, sur une emprise réduite.
+    source: 2
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: partiel
+    note: 'Association de jardiniers ; propriétaire public (Grand Paris Aménagement) qui aménage une ZAC : le montage
+      n''établit pas un commun.'
+    source: 3
+  foncier_verrouille:
+    valeur: non
+    note: 'Aucun verrou : 4 000 m² détruits en 2021, emprise de gare maintenue ; la protection tient au zonage du
+      PLUi, modifiable.'
+    source: 2
+  usage_ig:
+    valeur: partiel
+    note: Usage non marchand par nature (jardins familiaux), mais parcelles attribuées à des jardiniers individuels.
+    source: 1
+  autogestion:
+    valeur: partiel
+    note: Association de jardiniers, mais conflit entre le bureau et une partie des usagers en 2021.
+    source: 1
+  etabli:
+    valeur: oui
+    note: Culture continue depuis 1935.
+    source: 1
+chronologie:
+- annee: 1935
+  evenement: Fondation de la Société des jardins ouvriers des Vertus (29 novembre).
+  source: 1
+- annee: 2014
+  evenement: Inclusion dans la ZAC du Fort d'Aubervilliers.
+  source: 1
+- annee: 2021
+  evenement: Convention tripartite, transfert des parcelles à Grand Paris Aménagement (1er avril), occupation et
+    destruction d'environ 4 000 m².
+  source: 1
+- annee: 2022
+  evenement: 'CAA Paris, 10 février, n° 21PA02476 : injonction de modifier le PLUi pour protéger les jardins ; relaxe
+    de huit militants (16 septembre).'
+  source: 2
+- annee: 2024
+  evenement: 'CAA Paris, 25 avril, n° 23PA02768 : la modification du PLUi du 11 avril 2023 respecte l''injonction
+    ; requête rejetée.'
+  source: 2
+fiabilite:
+  verifie:
+  - Fondation en 1935
+  - Arrêts de la CAA de Paris n° 21PA02476 (10 février 2022) et n° 23PA02768 (25 avril 2024)
+  - Grand Paris Aménagement propriétaire des terrains en 2021
+  non_confirme:
+  - Propriétaire et titre d'occupation avant 2021
+  - Nombre de jardiniers
+  - Décision du juge de l'exécution de Bobigny (mars 2022), connue par des sources militantes seulement
+dossier_juridique: 'Volet agricole : les jardins familiaux sont la catégorie légale d''une culture collective sans
+  chef d''exploitation, à l''exclusion de tout usage commercial (code rural, art. L. 561-1 et suivants) ; le cadre
+  ne protège pas le foncier. Volet contentieux : CAA Paris, 10 février 2022, n° 21PA02476, annulation du refus de
+  Plaine Commune de modifier le PLUi et injonction de ne classer en zone urbaine que la part strictement nécessaire
+  à la gare et au centre nautique ; CAA Paris, 25 avril 2024, n° 23PA02768, rejet de la requête de la société des
+  Jardins des Vertus et d''Environnement 93 contre la modification du 11 avril 2023. Tribunal judiciaire de Bobigny,
+  16 septembre 2022 : relaxe de huit militants poursuivis pour entrave à des travaux publics.'
+liens:
+  communs: null
+sources:
+- titre: Jardins ouvriers des Vertus
+  auteur: Wikipédia
+  annee: 2026
+  url: https://fr.wikipedia.org/wiki/Jardins_ouvriers_des_Vertus
+- titre: 'JO 2024 et jardins ouvriers des Vertus : la modification du plan local d''urbanisme respecte l''injonction
+    de la Cour'
+  auteur: Cour administrative d'appel de Paris
+  annee: 2024
+  url: https://paris.cour-administrative-appel.fr/decisions-de-justice/dernieres-decisions/j0-2024-et-jardins-ouvriers-des-vertus-la-modification-du-plan-local-d-urbanisme-respecte-l-injonction-de-la-cour
+- titre: 'Les jardins ouvriers d''Aubervilliers : un éden menacé'
+  auteur: CQFD
+  annee: 2021
+  url: https://cqfd-journal.org/Les-jardins-ouvriers-d
+- titre: Quatre ans de luttes pour les Jardins ouvriers d'Aubervilliers
+  auteur: Collectif de défense des Jardins
+  annee: null
+  url: https://www.jardinsaubervilliers.fr/lutte.html
+- titre: Les défenseurs des jardins ouvriers d'Aubervilliers ont été relaxés
+  auteur: Reporterre
+  annee: 2022
+  url: https://reporterre.net/Les-defenseurs-des-jardins-ouvriers-d-Aubervilliers-ont-ete-relaxes
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

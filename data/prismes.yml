@@ -1,26 +1,26 @@
 # Lectures des prismes croisés — v0.1, 2026-09-30. Chiffres tirés d'analyses/analyses.json (scripts/analyser.py).
 lectures:
   - titre: "La forme civile va avec l'autogestion"
-    chiffre: "P1 × P4 · V = 0,74 · p < 0,001 · n = 37"
+    chiffre: "P1 × P4 · V = 0,64 · p < 0,001 · n = 41"
     texte: |
-      Les onze chaînes entièrement civiles sont toutes autogérées. Sur les vingt-six chaînes qui ne franchissent pas pleinement la forme civile, cinq seulement le sont. Le maillon sociétaire n'est pas qu'un détail de montage : là où il entre, la décision passe presque toujours ailleurs que dans l'assemblée des usagers (un conseil, un gérant, des associés extérieurs).
+      Onze des douze chaînes entièrement civiles sont autogérées. Sur les vingt-neuf chaînes qui ne franchissent pas pleinement la forme civile, six seulement le sont. Le maillon sociétaire n'est pas qu'un détail de montage : là où il entre, la décision passe presque toujours ailleurs que dans l'assemblée des usagers (un conseil, un gérant, des associés extérieurs).
   - titre: "Le lieu culturel franchit le droit plus souvent que la ferme"
-    chiffre: "Culture × P1 · V = 0,55 · n = 40 — Culture × statut · V = 0,63 · n = 40"
+    chiffre: "Culture × P1 · V = 0,48 · n = 45 — Culture × statut · V = 0,62 · n = 45"
     texte: |
-      Neuf des onze lieux à finalité culturelle ont une chaîne civile ; quatre des onze lieux agricoles seulement, un écart qui n'est pas statistiquement net sur ce corpus. La ferme a souvent besoin d'un exploitant, et l'exploitant prend presque toujours une forme de société (GAEC, EARL, SCEA, SCIC) : c'est là que Terre de Liens, Villarceaux ou Lachaud s'arrêtent. Les huit cas du corpus et du seuil ont tous une finalité culturelle ; deux seulement, le Berquet et Longo Maï, sont aussi des fermes.
+      Neuf des douze lieux à finalité culturelle ont une chaîne civile ; cinq des douze lieux agricoles seulement, un écart qui n'est pas statistiquement net sur ce corpus. La ferme a souvent besoin d'un exploitant, et l'exploitant prend presque toujours une forme de société (GAEC, EARL, SCEA, SCIC) : c'est là que Terre de Liens, Villarceaux ou Lachaud s'arrêtent. Les huit cas du corpus et du seuil ont tous une finalité culturelle ; deux seulement, le Berquet et Longo Maï, sont aussi des fermes.
   - titre: "Les communautés intentionnelles restent loin, les occupations régularisées s'approchent"
-    chiffre: "Famille × statut · n = 41 · lecture descriptive (p = 0,15)"
+    chiffre: "Famille × statut · n = 46 · lecture descriptive (p = 0,08)"
     texte: |
-      Sur quinze communautés intentionnelles instruites, du phalanstère de Condé à l'Arche, une seule approche : Longo Maï, au seuil, arrêtée par la forme civile de son réseau. Les occupations régularisées font l'inverse : trois sur six sont au corpus ou au seuil. Le lieu conquis puis négocié avec une collectivité se retrouve plus près du commun civil que le lieu fondé pour vivre ensemble.
+      Sur dix-sept communautés intentionnelles instruites, du phalanstère de Condé à l'Arche, une seule approche : Longo Maï, au seuil, arrêtée par la forme civile de son réseau. Les occupations régularisées font l'inverse : trois sur six sont au corpus ou au seuil. Le lieu conquis puis négocié avec une collectivité se retrouve plus près du commun civil que le lieu fondé pour vivre ensemble.
   - titre: "Ce qui a disparu n'avait pas de verrou"
-    chiffre: "État × absence de verrou · V = 0,51 · p = 0,004 · n = 36"
+    chiffre: "État × absence de verrou · V = 0,51 · p = 0,003 · n = 39"
     texte: |
-      Les neuf collectifs disparus dont le montage est connu n'avaient aucun verrou sur leur lieu ; parmi les actifs, dix sur vingt-six n'en ont pas non plus. La lecture est prudente : la plupart des disparus sont antérieurs aux outils (association en 1901, fonds de dotation en 2008). Mais elle rejoint le constat de communs.actitude.org : ce qui verrouille le foncier ne disparaît pas avec le groupe.
+      Les neuf collectifs disparus dont le montage est connu n'avaient aucun verrou sur leur lieu ; parmi les actifs, onze sur vingt-huit n'en ont pas non plus. La lecture est prudente : la plupart des disparus sont antérieurs aux outils (association en 1901, fonds de dotation en 2008). Mais elle rejoint le constat de communs.actitude.org : ce qui verrouille le foncier ne disparaît pas avec le groupe.
   - titre: "Le verrou est une affaire récente"
-    chiffre: "Période × type de verrou · n = 39 · tableau creux, lecture descriptive"
+    chiffre: "Période × type de verrou · n = 44 · tableau creux, lecture descriptive"
     texte: |
-      Avant 1968, un seul cas sur douze a un verrou établi. Depuis 2008, huit sur seize en ont un, dont six par la propriété (fonds de dotation, veto du réseau CLIP, dévolution). L'outil existe désormais ; ce qui manque encore, c'est sa publication : ces verrous récents sont établis par des sources concordantes, aucun par un acte publié et opposable.
+      Avant 1968, un seul cas sur treize a un verrou établi. Depuis 2008, neuf sur vingt en ont un, dont six par la propriété (fonds de dotation, veto du réseau CLIP, dévolution). L'outil existe désormais ; ce qui manque encore, c'est sa publication : ces verrous récents sont établis par des sources concordantes, aucun par un acte publié et opposable.
   - titre: "Le lieu acheté par un fondateur part avec lui"
-    chiffre: "Accès × état · n = 33 — Transmission × état · n = 19 · lectures fragiles"
+    chiffre: "Accès × état · V = 0,42 · n = 36 — Transmission × état · V = 0,55 · n = 24 · lectures fragiles"
     texte: |
-      Trois des quatre lieux achetés par un fondateur ont disparu ; quinze des seize lieux obtenus par achat collectif ou souscription sont actifs. Même dessin pour la relève : les trois collectifs restés aux mains de leurs fondateurs ont tous fini, neuf des onze qui ont renouvelé leurs générations sont actifs. Pour plus de la moitié des cas, la transmission n'est pas documentée : c'est le premier chantier de la version suivante.
+      Trois des quatre lieux achetés par un fondateur ont disparu ; dix-huit des dix-neuf lieux obtenus par achat collectif ou souscription sont actifs. Même dessin pour la relève : les trois collectifs restés aux mains de leurs fondateurs ont tous fini, onze des treize qui ont renouvelé leurs générations sont actifs. Pour plus de la moitié des cas, la transmission n'est pas documentée : c'est le premier chantier de la version suivante.

@@ -1,0 +1,159 @@
+# data/fiches/ferme-legere-meracq.yml — instruit le 2026-10-01
+uid: ferme-legere-meracq
+nom: Ferme Légère
+autres_noms: []
+famille: communaute_intentionnelle
+resume: Écolieu collectif rural du Béarn, à Méracq, issu d'un groupe écovillage né en 2006-2007 près d'Oloron ;
+  le lieu est acheté à l'été 2015 et investi en octobre 2015. Une maison, des granges, 11 ha de prairie et de bois,
+  trois serres, un potager et un verger, des ânes, moutons, chèvres, abeilles et poules. Les activités agricoles
+  vivrières sont portées par le groupe, les activités professionnelles par une personne. Une SCI (une part de 2
+  000 € par sociétaire) possède le lieu et le loue par bail rural de 25 ans à l'association Ferme Légère, dont les
+  résidents sont bénévoles et vivent de revenus extérieurs.
+localisation:
+  commune: Méracq
+  departement: '64'
+  region: Nouvelle-Aquitaine
+  lat: 43.5103
+  lon: -0.3838
+debut: 2015
+fin: null
+collectif:
+  nom: Association Ferme Légère
+  forme: association
+  annee: null
+foncier:
+  porteur: SCI Loustalots
+  porteur_forme: societe_civile_parts_cessibles
+  surface_ha: 11
+  titre_duree_ans: 25
+dimensions:
+  acces:
+    valeur: achat_collectif
+    note: Achat à l'été 2015 par une SCI de résidents, financée par parts et comptes courants sans intérêt, sans
+      emprunt bancaire.
+    source: 1
+  titre:
+    valeur: bail_rural
+    note: Bail rural de 25 ans tacitement reconductible entre la SCI et l'association, loyer agricole.
+    source: 1
+  verrou:
+    valeur:
+    - bail_long
+    note: Bail rural de 25 ans ; aucune clause d'inaliénabilité publiée pour la SCI.
+    source: 1
+  gouvernance:
+    valeur: assemblee_majoritaire
+    note: Une personne, une voix dans la SCI (une part chacun) comme dans l'association ; gouvernance partagée inspirée
+      de l'Université du Nous. Mode exact de décision non précisé.
+    source: 1
+  economie:
+    valeur: revenus_individuels_externes
+    note: L'association ne rémunère pas les résidents, bénévoles ; forfait nourriture et loyer des parties privées
+      ; petit revenu extérieur nécessaire.
+    source: 1
+  ouverture:
+    valeur: accueil_regulier
+    note: Stages, journées découvertes, résidences, wwoofing, refuge LPO.
+    source: 3
+  finalite:
+    valeur:
+    - agriculture
+    - habitat
+    - education_populaire
+    - milieu_vivant
+    note: Autonomie vivrière, expérimentation d'un mode de vie à empreinte inférieure à une planète, partage d'expérience.
+    source: 3
+  filiation:
+    valeur:
+    - ecologie_politique
+    - autonomie
+    - neo_ruralisme
+    note: Issu du groupe pour la décroissance Gédéol d'Oloron.
+    source: 2
+  rapport_etat:
+    valeur: indifference
+    note: Moment « désagréable » lors de la demande de permis de construire en 2015 ; pas de conflit durable documenté.
+    source: 2
+  echelle:
+    valeur: moins_10
+    note: Quelques résidents ; effectif exact non publié.
+    source: 3
+  transmission:
+    valeur: en_cours
+    note: Crises de 2016-2017 et 2023 suivies de départs ; cooptation de nouveaux résidents.
+    source: 2
+  etat:
+    valeur: actif
+    note: Site mis à jour en septembre 2026.
+    source: 3
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: non
+    note: Le foncier est porté par une SCI dont chaque résident doit acquérir une part ; maillon société civile
+      à parts sociales.
+    source: 1
+  foncier_verrouille:
+    valeur: partiel
+    note: Bail rural de 25 ans reconductible au profit de l'association, en deçà du seuil de 30 ans ; pas d'inaliénabilité
+      publiée.
+    source: 1
+  usage_ig:
+    valeur: partiel
+    note: Accueil de stages et de visiteurs, partage d'expérience publié sous licence libre ; mais lieu de vie d'abord
+      résidentiel et vivrier.
+    source: 3
+  autogestion:
+    valeur: oui
+    note: Les membres décident de l'organisation de la vie sur le lieu et des travaux ; une personne, une voix.
+    source: 1
+  etabli:
+    valeur: oui
+    note: Installation en octobre 2015, usage continu depuis plus de dix ans.
+    source: 2
+chronologie:
+- annee: 2014
+  evenement: Relance du projet sous le nom Ferme Légère ; appel à financement en décembre.
+  source: 2
+- annee: 2015
+  evenement: Achat du lieu de Méracq à l'été ; installation en octobre.
+  source: 2
+- annee: 2017
+  evenement: Serres, début de la production de légumes et premiers marchés ; pain à partir de juin.
+  source: 2
+- annee: 2023
+  evenement: Deuxième crise interne suivie de départs.
+  source: 2
+fiabilite:
+  verifie:
+  - Montage SCI propriétaire et association preneuse à bail rural de 25 ans
+  - Résidents bénévoles non rémunérés
+  - Chronologie 2014-2024 publiée par le collectif
+  non_confirme:
+  - Clauses d'agrément et de cession des parts de la SCI
+  - Régime MSA de l'activité agricole de l'association
+  - Statut des produits vendus sur les marchés à partir de 2017
+dossier_juridique: 'Montage dissocié : la SCI propriétaire donne à bail rural de 25 ans le lieu à l''association,
+  qui porte les activités agricoles vivrières avec des résidents bénévoles ; une activité agricole professionnelle
+  éventuelle est portée par une personne. Le bail rural suppose un preneur exploitant : la qualité d''exploitant
+  de l''association au regard de la MSA et du contrôle des structures n''est pas documentée. Aucun contentieux connu.'
+liens:
+  communs: null
+sources:
+- titre: Présentation détaillée de la Ferme Légère
+  auteur: Ferme Légère
+  annee: 2026
+  url: https://fermelegere.greli.net/projet/details-du-projet.html
+- titre: Historique de la Ferme Légère
+  auteur: Ferme Légère
+  annee: 2026
+  url: https://fermelegere.greli.net/projet/historique-ferme-legere.html
+- titre: Présentation de la Ferme Légère
+  auteur: Ferme Légère
+  annee: 2026
+  url: https://fermelegere.greli.net/projet/presentation.html
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

@@ -1667,6 +1667,115 @@
    "url": "https://libres.actitude.org/f/arche-borie-noble/"
   },
   {
+   "uid": "ferme-de-l-oseraie",
+   "nom": "Ferme de l'Oseraie",
+   "autres_noms": [
+    "Le Jardin des 400 goûts"
+   ],
+   "famille": "communaute_intentionnelle",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "autogestion"
+   ],
+   "periode": "2008-",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Berville-sur-Seine",
+    "departement": "76",
+    "region": "Normandie",
+    "lat": 49.4728,
+    "lon": 0.8952
+   },
+   "debut": 2011,
+   "fin": null,
+   "resume": "Ferme collective de Berville-sur-Seine, dans le Parc naturel régional des Boucles de la Seine normande, tenue depuis 2011 par un collectif issu des mouvements étudiants rouennais. La maison a été achetée par l'association Le Jardin des 400 goûts grâce à des dons et des apports ; les terres (6 à 7 ha) et les bâtiments agricoles sont loués, également par une association. Maraîchage, verger, pain au levain, jus de pomme : personne n'est salarié, les recettes vont à une caisse commune, les personnes qui aident aux chantiers ouverts repartent avec des légumes gratuitement ou à prix libre, le reste est vendu au marché et en AMAP à Rouen. En 2018, l'équipe fondatrice a transmis la ferme à une équipe entièrement nouvelle sans rachat des bâtiments.",
+   "collectif": {
+    "nom": "Le Jardin des 400 goûts",
+    "forme": "association",
+    "annee": 2011
+   },
+   "foncier": {
+    "porteur": "Association Le Jardin des 400 goûts (maison) ; propriétaire des terres louées non identifié",
+    "porteur_forme": "association",
+    "surface_ha": 7,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Collectif et propriétaire de la maison : associations loi 1901. Le propriétaire des terres louées n'est pas identifié."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Maison sortie de la propriété individuelle (« le foncier n'est pas rattaché aux personnes présentes »), mais aucun verrou opposable publié ; terres seulement louées."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Chantiers ouverts, légumes gratuits ou à prix libre, jus de pomme à prix libre lors de luttes, fêtes publiques ; aucun profit personnel."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Collectif sans hiérarchie apparente, répartition libre des tâches, mais instances de décision non documentées."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Usage continu depuis 2011, soit plus de dix ans, avec changement complet d'équipe en 2018."
+    }
+   },
+   "dimensions": {
+    "acces": "achat_collectif",
+    "titre": "propriete",
+    "verrou": "inconnu",
+    "gouvernance": "inconnu",
+    "economie": "caisse_commune",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "agriculture",
+     "habitat",
+     "lutte_territoriale",
+     "culture"
+    ],
+    "filiation": [
+     "neo_ruralisme",
+     "autonomie"
+    ],
+    "rapport_etat": "indifference",
+    "echelle": "moins_10",
+    "transmission": "generations_renouvelees",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Des fermes associatives et militantes",
+     "auteur": "Lola Keraron, Silence n° 535",
+     "annee": 2024,
+     "url": "https://www.revuesilence.net/numeros/535-Creer-une-ferme-collective/des-fermes-associatives-et-militantes"
+    },
+    {
+     "titre": "La ferme collective de l'Oseraie cherche des forces vives",
+     "auteur": "À l'ouest (Rouen)",
+     "annee": 2018,
+     "url": "https://a-louest.info/La-ferme-collective-de-l-Oseraie-cherche-des-forces-vives-301"
+    },
+    {
+     "titre": "Ferme de l'Oseraie, production de légumes, fruits et pain",
+     "auteur": "Le Jardin des 400 goûts",
+     "annee": null,
+     "url": "https://lejardindes400gout.wixsite.com/ferme-de-l-oseraie"
+    },
+    {
+     "titre": "Le Jardin des 400 goûts (SIREN 538 684 721)",
+     "auteur": "Societe.com, d'après Insee",
+     "annee": 2026,
+     "url": "https://www.societe.com/societe/le-jardin-des-400-gouts-538684721.html"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/ferme-de-l-oseraie/"
+  },
+  {
    "uid": "ferme-de-lachaud",
    "nom": "Ferme de Lachaud",
    "autres_noms": [
@@ -1781,6 +1890,110 @@
     }
    ],
    "url": "https://libres.actitude.org/f/ferme-de-lachaud/"
+  },
+  {
+   "uid": "ferme-legere-meracq",
+   "nom": "Ferme Légère",
+   "autres_noms": [],
+   "famille": "communaute_intentionnelle",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig"
+   ],
+   "periode": "2008-",
+   "verrou_type": "par_titre",
+   "localisation": {
+    "commune": "Méracq",
+    "departement": "64",
+    "region": "Nouvelle-Aquitaine",
+    "lat": 43.5103,
+    "lon": -0.3838
+   },
+   "debut": 2015,
+   "fin": null,
+   "resume": "Écolieu collectif rural du Béarn, à Méracq, issu d'un groupe écovillage né en 2006-2007 près d'Oloron ; le lieu est acheté à l'été 2015 et investi en octobre 2015. Une maison, des granges, 11 ha de prairie et de bois, trois serres, un potager et un verger, des ânes, moutons, chèvres, abeilles et poules. Les activités agricoles vivrières sont portées par le groupe, les activités professionnelles par une personne. Une SCI (une part de 2 000 € par sociétaire) possède le lieu et le loue par bail rural de 25 ans à l'association Ferme Légère, dont les résidents sont bénévoles et vivent de revenus extérieurs.",
+   "collectif": {
+    "nom": "Association Ferme Légère",
+    "forme": "association",
+    "annee": null
+   },
+   "foncier": {
+    "porteur": "SCI Loustalots",
+    "porteur_forme": "societe_civile_parts_cessibles",
+    "surface_ha": 11,
+    "titre_duree_ans": 25
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Le foncier est porté par une SCI dont chaque résident doit acquérir une part ; maillon société civile à parts sociales."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Bail rural de 25 ans reconductible au profit de l'association, en deçà du seuil de 30 ans ; pas d'inaliénabilité publiée."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Accueil de stages et de visiteurs, partage d'expérience publié sous licence libre ; mais lieu de vie d'abord résidentiel et vivrier."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Les membres décident de l'organisation de la vie sur le lieu et des travaux ; une personne, une voix."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Installation en octobre 2015, usage continu depuis plus de dix ans."
+    }
+   },
+   "dimensions": {
+    "acces": "achat_collectif",
+    "titre": "bail_rural",
+    "verrou": [
+     "bail_long"
+    ],
+    "gouvernance": "assemblee_majoritaire",
+    "economie": "revenus_individuels_externes",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "agriculture",
+     "habitat",
+     "education_populaire",
+     "milieu_vivant"
+    ],
+    "filiation": [
+     "ecologie_politique",
+     "autonomie",
+     "neo_ruralisme"
+    ],
+    "rapport_etat": "indifference",
+    "echelle": "moins_10",
+    "transmission": "en_cours",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Présentation détaillée de la Ferme Légère",
+     "auteur": "Ferme Légère",
+     "annee": 2026,
+     "url": "https://fermelegere.greli.net/projet/details-du-projet.html"
+    },
+    {
+     "titre": "Historique de la Ferme Légère",
+     "auteur": "Ferme Légère",
+     "annee": 2026,
+     "url": "https://fermelegere.greli.net/projet/historique-ferme-legere.html"
+    },
+    {
+     "titre": "Présentation de la Ferme Légère",
+     "auteur": "Ferme Légère",
+     "annee": 2026,
+     "url": "https://fermelegere.greli.net/projet/presentation.html"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/ferme-legere-meracq/"
   },
   {
    "uid": "keriskis",
@@ -2966,6 +3179,116 @@
    "url": "https://libres.actitude.org/f/familistere-de-guise/"
   },
   {
+   "uid": "ferme-associative-pays-du-mont-blanc",
+   "nom": "Ferme associative du Pays du Mont-Blanc",
+   "autres_noms": [
+    "Une ferme pour tous",
+    "Ferme de Lépigny"
+   ],
+   "famille": "commun_foncier",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion",
+    "etabli"
+   ],
+   "periode": "2008-",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Domancy",
+    "departement": "74",
+    "region": "Auvergne-Rhône-Alpes",
+    "lat": 45.909,
+    "lon": 6.6644
+   },
+   "debut": 2019,
+   "fin": null,
+   "resume": "Ferme maraîchère de Lépigny, à Domancy (Haute-Savoie), cultivée depuis 2005. Quand la propriétaire annonce en 2014 son intention de vendre, un collectif citoyen crée en août 2018 l'association Ferme associative du Pays du Mont-Blanc, soutenue par la Confédération paysanne de Haute-Savoie, qui achète le lieu en mai 2019 grâce à un financement participatif ; le terrain a été payé à 80 % par des dons de citoyens, d'entreprises, d'associations et de collectivités. L'association loue les terres et deux appartements à des paysans installés (légumes, verger, apiculture, semences), entretient le lieu, tient des jardins partagés pour ses adhérents et organise des fêtes publiques.",
+   "collectif": {
+    "nom": "Ferme associative du Pays du Mont-Blanc",
+    "forme": "association",
+    "annee": 2018
+   },
+   "foncier": {
+    "porteur": "Ferme associative du Pays du Mont-Blanc",
+    "porteur_forme": "association",
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "oui",
+     "note": "Association loi 1901 propriétaire du foncier ; aucun maillon commercial dans la propriété."
+    },
+    "foncier_verrouille": {
+     "valeur": "inconnu",
+     "note": "Propriété associative, mais statuts non consultés : ni inaliénabilité ni dévolution établies."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Terres et logements loués à des paysans qui vendent leur production ; usage public limité aux fêtes, jardins d'adhérents et animations."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Conseil d'administration à dominante citoyenne (10 citoyens, 1 paysan) : les usagers agricoles y sont minoritaires."
+    },
+    "etabli": {
+     "valeur": "non",
+     "note": "Propriété associative depuis 2019, moins de dix ans."
+    }
+   },
+   "dimensions": {
+    "acces": "souscription",
+    "titre": "propriete",
+    "verrou": [
+     "inconnu"
+    ],
+    "gouvernance": "conseil_delegue",
+    "economie": "activites_marchandes_annexes",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "agriculture",
+     "education_populaire"
+    ],
+    "filiation": [
+     "inconnu"
+    ],
+    "rapport_etat": "conventionnement",
+    "echelle": "10_50",
+    "transmission": "en_cours",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Ferme associative du Pays du Mont-Blanc",
+     "auteur": "Ferme associative du Pays du Mont-Blanc",
+     "annee": 2026,
+     "url": "https://unefermepourtous.com/"
+    },
+    {
+     "titre": "Historique",
+     "auteur": "Ferme associative du Pays du Mont-Blanc",
+     "annee": null,
+     "url": "https://unefermepourtous.com/historique/"
+    },
+    {
+     "titre": "Une ferme pour tous au pays du Mont-Blanc",
+     "auteur": "Tour de France Agri",
+     "annee": null,
+     "url": "https://tdfagri.wordpress.com/une-ferme-pour-tous-au-pays-du-mont-blanc/"
+    },
+    {
+     "titre": "La Confédération paysanne soutient le projet « Une ferme pour tous »",
+     "auteur": "Confédération paysanne de Haute-Savoie",
+     "annee": 2018,
+     "url": "https://haute-savoie.confederationpaysanne.fr/actu.php?id=7921"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/ferme-associative-pays-du-mont-blanc/"
+  },
+  {
    "uid": "ferme-de-pommiers",
    "nom": "Ferme de Pommiers",
    "autres_noms": [
@@ -3159,6 +3482,123 @@
    "url": "https://libres.actitude.org/f/ferme-des-bouillons/"
   },
   {
+   "uid": "jardins-ouvriers-des-vertus",
+   "nom": "Jardins ouvriers des Vertus",
+   "autres_noms": [
+    "Jardins d'Aubervilliers",
+    "Jardins à défendre (JAD)"
+   ],
+   "famille": "commun_foncier",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion"
+   ],
+   "periode": "1915-1945",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Aubervilliers",
+    "departement": "93",
+    "region": "Île-de-France",
+    "lat": 48.9128,
+    "lon": 2.3886
+   },
+   "debut": 1935,
+   "fin": null,
+   "resume": "Jardins familiaux d'Aubervilliers, sur le glacis du fort, fondés le 29 novembre 1935 par la Société des jardins ouvriers des Vertus, dernière trace des cultures maraîchères de la plaine des Vertus. Environ 2,6 ha de parcelles cultivées pour les besoins des jardiniers. Intégrés depuis 2014 à la ZAC du Fort d'Aubervilliers portée par Grand Paris Aménagement, ils sont amputés en 2021 pour les abords d'une piscine d'entraînement olympique, malgré une occupation de plusieurs mois (« Jardins à défendre »), puis menacés par le chantier d'une gare de la ligne 15. Deux arrêts de la cour administrative d'appel de Paris (2022, 2024) encadrent la part des jardins classée en zone urbaine.",
+   "collectif": {
+    "nom": "Société des jardins ouvriers des Vertus",
+    "forme": "association",
+    "annee": 1935
+   },
+   "foncier": {
+    "porteur": "Grand Paris Aménagement (établissement public de l'État)",
+    "porteur_forme": "personne_publique",
+    "surface_ha": 2.6,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Association de jardiniers ; propriétaire public (Grand Paris Aménagement) qui aménage une ZAC : le montage n'établit pas un commun."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Aucun verrou : 4 000 m² détruits en 2021, emprise de gare maintenue ; la protection tient au zonage du PLUi, modifiable."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Usage non marchand par nature (jardins familiaux), mais parcelles attribuées à des jardiniers individuels."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Association de jardiniers, mais conflit entre le bureau et une partie des usagers en 2021."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Culture continue depuis 1935."
+    }
+   },
+   "dimensions": {
+    "acces": "inconnu",
+    "titre": "inconnu",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "inconnu",
+    "economie": "autosubsistance",
+    "ouverture": "cercle_restreint",
+    "finalite": [
+     "agriculture",
+     "milieu_vivant",
+     "lutte_territoriale"
+    ],
+    "filiation": [
+     "mouvement_ouvrier"
+    ],
+    "rapport_etat": "conflit",
+    "echelle": "inconnu",
+    "transmission": "generations_renouvelees",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Jardins ouvriers des Vertus",
+     "auteur": "Wikipédia",
+     "annee": 2026,
+     "url": "https://fr.wikipedia.org/wiki/Jardins_ouvriers_des_Vertus"
+    },
+    {
+     "titre": "JO 2024 et jardins ouvriers des Vertus : la modification du plan local d'urbanisme respecte l'injonction de la Cour",
+     "auteur": "Cour administrative d'appel de Paris",
+     "annee": 2024,
+     "url": "https://paris.cour-administrative-appel.fr/decisions-de-justice/dernieres-decisions/j0-2024-et-jardins-ouvriers-des-vertus-la-modification-du-plan-local-d-urbanisme-respecte-l-injonction-de-la-cour"
+    },
+    {
+     "titre": "Les jardins ouvriers d'Aubervilliers : un éden menacé",
+     "auteur": "CQFD",
+     "annee": 2021,
+     "url": "https://cqfd-journal.org/Les-jardins-ouvriers-d"
+    },
+    {
+     "titre": "Quatre ans de luttes pour les Jardins ouvriers d'Aubervilliers",
+     "auteur": "Collectif de défense des Jardins",
+     "annee": null,
+     "url": "https://www.jardinsaubervilliers.fr/lutte.html"
+    },
+    {
+     "titre": "Les défenseurs des jardins ouvriers d'Aubervilliers ont été relaxés",
+     "auteur": "Reporterre",
+     "annee": 2022,
+     "url": "https://reporterre.net/Les-defenseurs-des-jardins-ouvriers-d-Aubervilliers-ont-ete-relaxes"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/jardins-ouvriers-des-vertus/"
+  },
+  {
    "uid": "la-bellevilloise",
    "nom": "La Bellevilloise",
    "autres_noms": [
@@ -3262,6 +3702,101 @@
     }
    ],
    "url": "https://libres.actitude.org/f/la-bellevilloise/"
+  },
+  {
+   "uid": "la-caillasse-cucuron",
+   "nom": "La Caillasse",
+   "autres_noms": [],
+   "famille": "commun_foncier",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "autogestion",
+    "etabli"
+   ],
+   "periode": "2008-",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Cucuron",
+    "departement": "84",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "lat": 43.7801,
+    "lon": 5.4401
+   },
+   "debut": 2018,
+   "fin": 2025,
+   "resume": "Collectif né en 2018 à Cucuron (Vaucluse), sur les coteaux sud du Luberon, qui cultive bénévolement environ un hectare d'oliveraie, un hectare de maraîchage et cinq hectares de vignes lors de chantiers collectifs deux à trois fois par mois. L'huile est partagée entre bénévoles, les légumes sont donnés en soutien à des luttes, la vente du vin couvre les charges. Les parcelles ont d'abord été mises à disposition de manière informelle ; une partie de l'oliveraie est acquise après une levée de fonds en 2023. L'association a été transformée en SCOP (SARL) immatriculée au RCS en février 2025, les membres souhaitant se rémunérer.",
+   "collectif": {
+    "nom": "La Caillasse",
+    "forme": "association",
+    "annee": 2018
+   },
+   "foncier": {
+    "porteur": "Propriétaires privés (mises à disposition informelles) ; acquéreur de la partie d'oliveraie achetée en 2023 non précisé",
+    "porteur_forme": "personne_privee",
+    "surface_ha": 7,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "L'association est devenue une SARL coopérative ouvrière de production (SCOP) en 2025 ; foncier en propriété privée."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Mises à disposition informelles de courte durée ; aucun verrou documenté sur la partie achetée en 2023."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Production non lucrative de 2018 à 2024 : dons de légumes à des luttes, chantiers ouverts, vente du vin limitée à la couverture des charges."
+    },
+    "autogestion": {
+     "valeur": "inconnu",
+     "note": "Fonctionnement collectif décrit, instances non documentées."
+    },
+    "etabli": {
+     "valeur": "non",
+     "note": "Environ sept ans d'usage associatif (2018-2025) avant la transformation."
+    }
+   },
+   "dimensions": {
+    "acces": "occupation",
+    "titre": "sans_titre",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "inconnu",
+    "economie": "activites_non_marchandes",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "agriculture",
+     "lutte_territoriale"
+    ],
+    "filiation": [
+     "ecologie_politique"
+    ],
+    "rapport_etat": "regularisation",
+    "echelle": "10_50",
+    "transmission": "en_cours",
+    "etat": "transforme",
+    "fin": "inconnu"
+   },
+   "sources": [
+    {
+     "titre": "Des fermes associatives et militantes",
+     "auteur": "Lola Keraron, Silence n° 535",
+     "annee": 2024,
+     "url": "https://www.revuesilence.net/numeros/535-Creer-une-ferme-collective/des-fermes-associatives-et-militantes"
+    },
+    {
+     "titre": "LA CAILLASSE (SIREN 852 243 641)",
+     "auteur": "Pappers, d'après RNE et Insee",
+     "annee": 2026,
+     "url": "https://www.pappers.fr/entreprise/association-la-caillasse-852243641"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/la-caillasse-cucuron/"
   },
   {
    "uid": "colonie-conde-sur-vesgre",

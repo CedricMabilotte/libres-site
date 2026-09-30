@@ -34,3 +34,8 @@
 - Résultat : 2 corpus + 1 corpus sous condition (La Chapelle), 5 seuil, 33 épreuves. Prismes réécrits (V P1×P4 = 0,74), thèse mise à jour, faces trio pour les 2 nouveaux cas au seuil, vignettes régénérées.
 - Registre : site libres en commentaire du champ site d'@igor. Ligne vox : pas encore.
 - Redirection Telegram vue par Ced : cache du joker Gandi (*.actitude.org → t.me) + 301 mis en cache par le navigateur ; DNS correct. HTTPS relancé au passage de 01:15 UTC.
+
+## 2026-10-01 — association agricole sans chef d'exploitation
+- Demande de Ced : documenter « Ferme 14 » et l'association reconnue par la CA de Grenoble comme association non employeuse à activité agricole sans chef d'exploitation.
+- Résultat : ni « Ferme 14 » ni l'arrêt n'ont été retrouvés (Judilibre, presse, réseaux). Décision grenobloise la plus proche, en sens inverse : CA Grenoble 16/11/2023 RG 22/00174 (pension d'équidés, président déclaré chef d'exploitation). Source de Ced demandée.
+- Ajouts : 5 fiches (Ferme de l'Oseraie 76, La Caillasse 84, Ferme légère Méracq 64, Ferme associative du Pays du Mont-Blanc 74, Jardins ouvriers des Vertus 93), toutes épreuves, avec clé `dossier_juridique` ; page « Dossier : association et activité agricole » (docs/dossier-association-agricole.md). 46 cas.

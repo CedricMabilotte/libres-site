@@ -90,7 +90,7 @@ fiches.sort(key=lambda d: (ORDRE_ST[d["_statut"]], len(d["_manque"]), d["nom"].l
 CNT = Counter(d["_statut"] for d in fiches)
 
 # ------------------------------------------------------------------ gabarit
-NAV = [("", "Accueil"), ("fiches/", "Les cas"), ("portes/", "Les portes"), ("prismes/", "Prismes"),
+NAV = [("", "Accueil"), ("fiches/", "Les cas"), ("portes/", "Les portes"), ("prismes/", "Prismes"), ("dossiers/association-agricole/", "Dossier"),
        ("carte/", "Carte"), ("frise/", "Frise"), ("regards/", "Regards"), ("methode/", "Méthode")]
 
 def rel(depth):
@@ -191,7 +191,7 @@ EC = AN["echecs_par_porte"]
 
 def entonnoir_svg():
     w, h, bh = 640, 40 * 6 + 10, 26
-    items = [("41 cas instruits", nb)] + [(f'{e["porte"]} {e["libelle"]}', e["restent"]) for e in AN["entonnoir"]]
+    items = [(f"{nb} cas instruits", nb)] + [(f'{e["porte"]} {e["libelle"]}', e["restent"]) for e in AN["entonnoir"]]
     rows = []
     for i, (lib, n) in enumerate(items):
         y = 8 + i * 40
@@ -204,7 +204,7 @@ these = (regards.get("contradicteur") or {}).get("these", "")
 corps = f"""<p class="sur">Version {VERSION} · {nb} cas instruits · 1789–2026</p>
 <h1>Les collectifs qui ont voulu tenir un lieu en commun, et ce qui leur a manqué</h1>
 <p class="chapeau">libres documente les collectifs autogérés qui se sont installés sur un lieu en France depuis la Révolution pour le tenir hors du marché, en droit civil et pour l'intérêt général. Chaque cas passe cinq portes. Celles qu'il ne franchit pas sont publiées avec lui.</p>
-<div class="chiffres"><div><b>{nb}</b><span>cas instruits, de 1832 à 2024</span></div>
+<div class="chiffres"><div><b>{nb}</b><span>cas instruits, de 1832 à 2022</span></div>
 <div><b>{CNT.get('corpus',0)+CNT.get('corpus_sous_condition',0)}</b><span>franchissent les cinq portes, dont {CNT.get('corpus_sous_condition',0)} sous condition</span></div>
 <div><b>{CNT.get('seuil',0)}</b><span>au seuil : une seule porte manque</span></div>
 <div><b>{EC['foncier_verrouille']}</b><span>sur {nb} ne franchissent pas la porte du foncier</span></div></div>
@@ -267,6 +267,7 @@ for i, d in enumerate(fiches):
     communs = f'<dt>Montage détaillé</dt><dd><a href="{COMMUNS}/l/{lc}/">fiche sur communs.actitude.org</a></dd>' if lc else ""
     avant = '<p class="note-prudence">Avant 1901, la liberté d\'association n\'existe pas en France : la porte P1 était juridiquement indisponible. Ce cas est lu avec la grille, mais son échec en P1 est d\'abord un fait d\'époque.</p>' if d["_avant1901"] else ""
     cond = f'<p class="note-prudence">{E(R.STATUTS[d["_statut"]][1])}</p>' if d["_statut"] == "corpus_sous_condition" else ""
+    dj = f'<h2>Dossier juridique</h2>{para(d.get("dossier_juridique"))}<p class="petit">Information générale, pas un conseil. Voir aussi le <a href="../../dossiers/association-agricole/">dossier « association et activité agricole »</a>.</p>' if d.get("dossier_juridique") else ""
     prev_, next_ = fiches[i - 1], fiches[(i + 1) % len(fiches)]
     corps = f"""<p class="sur">{E(R.FAMILLES[d['famille']])}</p><h1>{E(d['nom'])}</h1>
 <p class="meta">{E(lieu(d))} · {E(dates(d))}{' · aussi : ' + E(', '.join(d['autres_noms'])) if d.get('autres_noms') else ''}</p>
@@ -275,7 +276,7 @@ for i, d in enumerate(fiches):
 <p class="chapeau">{E((d.get('resume') or '').strip())}</p>
 <h2>Les cinq portes</h2><ul class="portes-liste">{ptxt}</ul>
 {faces}
-<h2>Chronologie</h2><ul class="chrono">{chrono}</ul>
+{dj}<h2>Chronologie</h2><ul class="chrono">{chrono}</ul>
 <h2>Prismes</h2><div class="defile"><table>{dims}</table></div>
 <h2>Fiabilité</h2>{fiab}
 <h2>Sources</h2><ol class="sources">{srcs}</ol>
@@ -377,7 +378,7 @@ def modlib(v, m):
         return m
     return lib_dim(v, m) if v in R.DIM else m
 labs = "".join(f'<text x="{sx(m["x"])+4:.1f}" y="{sy(m["y"])-4:.1f}" font-size="11" fill="var(--encre-2)">▪ {E(modlib(m["var"], m["mod"]))}</text>' for m in acm["modalites"] if (m["var"], m["mod"]) in MODS_AFF)
-acm_svg = f'<svg viewBox="0 0 {W} {H}" style="width:100%;height:auto" role="img" aria-labelledby="acm-t"><title id="acm-t">Plan factoriel des 41 cas (analyse des correspondances multiples)</title><line x1="{M}" x2="{W-M}" y1="{sy(0):.1f}" y2="{sy(0):.1f}" stroke="var(--filet)"/><line y1="{M}" y2="{H-M}" x1="{sx(0):.1f}" x2="{sx(0):.1f}" stroke="var(--filet)"/>{labs}{pts}</svg>'
+acm_svg = f'<svg viewBox="0 0 {W} {H}" style="width:100%;height:auto" role="img" aria-labelledby="acm-t"><title id="acm-t">Plan factoriel des {nb} cas (analyse des correspondances multiples)</title><line x1="{M}" x2="{W-M}" y1="{sy(0):.1f}" y2="{sy(0):.1f}" stroke="var(--filet)"/><line y1="{M}" y2="{H-M}" x1="{sx(0):.1f}" x2="{sx(0):.1f}" stroke="var(--filet)"/>{labs}{pts}</svg>'
 corps = f"""<h1>Prismes croisés</h1>
 <p class="chapeau">Les {nb} cas sont décrits sur une vingtaine de dimensions. On les croise ici deux à deux, puis toutes ensemble, pour voir ce qui va avec quoi.</p>
 <p class="note-prudence">{E(AN['avertissement'])} Les valeurs « non établi » sont exclues de chaque croisement : l'effectif n varie d'une paire à l'autre.</p>
@@ -396,7 +397,7 @@ corps = f"""<h1>Prismes croisés</h1>
 <figure>{acm_svg}<figcaption>Analyse des correspondances multiples sur {len(acm['variables'])} dimensions (famille, période, formes, titre, accès, verrou, gouvernance, économie, ouverture, état, portes). Axe horizontal : {acm['inertie_benzecri'][0]*100:.0f} % de l'inertie corrigée ; vertical : {acm['inertie_benzecri'][1]*100:.0f} %. Points : cas (disque cerclé : corpus sous condition ; anneau épais : seuil ; petit disque pointillé : épreuve) ; carrés : modalités choisies. Deux points proches partagent beaucoup de modalités ; la distance n'a pas d'autre sens.</figcaption></figure>
 <h2>Six mécanismes de capture</h2><p class="petit">Typologie proposée par antimeta à partir des épreuves.</p><div class="mecanismes">{mecs}</div>
 <script src="../assets/croise.js" defer></script>"""
-page("prismes/", "Prismes croisés", corps, "Corrélations multi-thématiques entre les dimensions des 41 cas : associations, matrice, croisements, plan factoriel, mécanismes de capture.")
+page("prismes/", "Prismes croisés", corps, "Corrélations multi-thématiques entre les dimensions des "+str(nb)+" cas : associations, matrice, croisements, plan factoriel, mécanismes de capture.")
 
 # ------------------------------------------------------------------ carte
 import math
@@ -461,7 +462,7 @@ corps = f"""<h1>Trois regards, et une épreuve</h1>
 <h3>Les garde-fous qui en découlent</h3><ul>{''.join(f'<li>{E(g)}</li>' for g in c.get('garde_fous') or [])}</ul>
 <p class="petit">Les trois garde-fous sont appliqués : dénominateur et <a href="../portes/">sensibilité</a> publiés, cas antérieurs à 1901 signalés, verrou par titre distingué du verrou par propriété.</p>
 </div>"""
-page("regards/", "Regards", corps, "Lectures d'igor, d'eozen et d'antimeta sur les 41 cas, et l'épreuve du contradicteur.")
+page("regards/", "Regards", corps, "Lectures d'igor, d'eozen et d'antimeta sur les cas instruits, et l'épreuve du contradicteur.")
 
 # ------------------------------------------------------------------ méthode
 dimrows = "".join(f"<tr><th scope=row>{E(lib)}</th><td>{E(', '.join(vals.values()))}{' (plusieurs possibles)' if multi else ''}</td></tr>" for k, (lib, multi, vals) in R.DIM.items())
@@ -484,6 +485,17 @@ corps = f"""<h1>Méthode</h1>
 </div>"""
 page("methode/", "Méthode", corps, "Critère d'entrée à cinq portes, dimensions, exclusions nommées, limites et sources de libres.")
 
+# ------------------------------------------------------------------ dossiers
+import markdown as _md
+_dp = ROOT / "docs" / "dossier-association-agricole.md"
+if _dp.exists():
+    _html = _md.markdown(_dp.read_text(encoding="utf-8"), extensions=["tables"])
+    _html = re.sub(r"<h1>.*?</h1>", "", _html, count=1, flags=re.S)
+    _cas = [d for d in fiches if d.get("dossier_juridique")]
+    corps = f"""<p class="sur">Dossier</p><h1>Une association peut-elle cultiver sans chef d'exploitation ?</h1>
+<div class="texte">{_html}<h2>Cas documentés</h2><ul>{''.join(f'<li><a href="../../f/{d['uid']}/">{E(d['nom'])}</a> — {E(lieu(d))}</li>' for d in _cas)}</ul>
+<p class="note-prudence">Information juridique générale, pas un conseil. Tout montage se vérifie avec un avocat ou un conseil spécialisé (MSA, fiscalité agricole).</p></div>"""
+    page("dossiers/association-agricole/", "Association et activité agricole", corps, "Textes, positions de la MSA, décisions de justice et cas documentés : une association peut-elle exercer une activité agricole sans chef d'exploitation ?")
 # ------------------------------------------------------------------ données
 PUB = []
 for d in fiches:

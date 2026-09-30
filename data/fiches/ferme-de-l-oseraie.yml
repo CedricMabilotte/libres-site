@@ -1,0 +1,164 @@
+# data/fiches/ferme-de-l-oseraie.yml — instruit le 2026-10-01
+uid: ferme-de-l-oseraie
+nom: Ferme de l'Oseraie
+autres_noms:
+- Le Jardin des 400 goûts
+famille: communaute_intentionnelle
+resume: 'Ferme collective de Berville-sur-Seine, dans le Parc naturel régional des Boucles de la Seine normande,
+  tenue depuis 2011 par un collectif issu des mouvements étudiants rouennais. La maison a été achetée par l''association
+  Le Jardin des 400 goûts grâce à des dons et des apports ; les terres (6 à 7 ha) et les bâtiments agricoles sont
+  loués, également par une association. Maraîchage, verger, pain au levain, jus de pomme : personne n''est salarié,
+  les recettes vont à une caisse commune, les personnes qui aident aux chantiers ouverts repartent avec des légumes
+  gratuitement ou à prix libre, le reste est vendu au marché et en AMAP à Rouen. En 2018, l''équipe fondatrice a
+  transmis la ferme à une équipe entièrement nouvelle sans rachat des bâtiments.'
+localisation:
+  commune: Berville-sur-Seine
+  departement: '76'
+  region: Normandie
+  lat: 49.4728
+  lon: 0.8952
+debut: 2011
+fin: null
+collectif:
+  nom: Le Jardin des 400 goûts
+  forme: association
+  annee: 2011
+foncier:
+  porteur: Association Le Jardin des 400 goûts (maison) ; propriétaire des terres louées non identifié
+  porteur_forme: association
+  surface_ha: 7
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: achat_collectif
+    note: Maison achetée en statut associatif grâce à des dons et à des apports.
+    source: 2
+  titre:
+    valeur: propriete
+    note: Propriété associative de la maison ; les 6 ha de terres et les bâtiments agricoles sont loués par le biais
+      d'une association (nature et durée du bail non publiées).
+    source: 2
+  verrou:
+    valeur: inconnu
+    note: Aucune clause d'inaliénabilité ni de dévolution publiée ; les apports individuels ont été remboursés.
+    source: 1
+  gouvernance:
+    valeur: inconnu
+    note: Liste de tâches hebdomadaire, chacun travaille « à la mesure de ce qu'il veut faire » ; mode de décision
+      non décrit.
+    source: 1
+  economie:
+    valeur: caisse_commune
+    note: Aucun salarié ; les recettes (pain, marché, AMAP) alimentent une caisse commune qui paie les charges ;
+      les habitants ont un travail à côté ou le RSA.
+    source: 1
+  ouverture:
+    valeur: accueil_regulier
+    note: '« Jeudis du kiff » : chantiers ouverts à toute personne, légumes gratuits ou à prix libre pour les participants
+      ; fêtes et soirées publiques.'
+    source: 1
+  finalite:
+    valeur:
+    - agriculture
+    - habitat
+    - lutte_territoriale
+    - culture
+    note: Maraîchage, arboriculture, boulangerie, écriture et édition de textes, soutien à des luttes.
+    source: 3
+  filiation:
+    valeur:
+    - neo_ruralisme
+    - autonomie
+    note: Collectif né des mouvements étudiants de 2011 à Rouen ; « paysannerie différente », personnes venues d'autres
+      milieux.
+    source: 2
+  rapport_etat:
+    valeur: indifference
+    note: Contrôles de police sur l'absence de travail dissimulé, sans suite connue.
+    source: 1
+  echelle:
+    valeur: moins_10
+    note: Cinq personnes sur place en 2018 comme en 2024.
+    source: 1
+  transmission:
+    valeur: generations_renouvelees
+    note: Transmission en 2018 à une équipe entièrement nouvelle, sans rachat des bâtiments.
+    source: 1
+  etat:
+    valeur: actif
+    note: Actif en 2024.
+    source: 1
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: partiel
+    note: 'Collectif et propriétaire de la maison : associations loi 1901. Le propriétaire des terres louées n''est
+      pas identifié.'
+    source: 2
+  foncier_verrouille:
+    valeur: partiel
+    note: Maison sortie de la propriété individuelle (« le foncier n'est pas rattaché aux personnes présentes »),
+      mais aucun verrou opposable publié ; terres seulement louées.
+    source: 2
+  usage_ig:
+    valeur: oui
+    note: Chantiers ouverts, légumes gratuits ou à prix libre, jus de pomme à prix libre lors de luttes, fêtes publiques
+      ; aucun profit personnel.
+    source: 1
+  autogestion:
+    valeur: partiel
+    note: Collectif sans hiérarchie apparente, répartition libre des tâches, mais instances de décision non documentées.
+    source: 1
+  etabli:
+    valeur: oui
+    note: Usage continu depuis 2011, soit plus de dix ans, avec changement complet d'équipe en 2018.
+    source: 1
+chronologie:
+- annee: 2011
+  evenement: Création de l'association (5 avril) ; installation à la ferme après un appel à dons.
+  source: 4
+- annee: 2018
+  evenement: Appel à repreneurs ; transmission à une équipe entièrement nouvelle.
+  source: 2
+- annee: 2024
+  evenement: 'Reportage : cinq habitants, caisse commune, aucun salarié.'
+  source: 1
+fiabilite:
+  verifie:
+  - Association Le Jardin des 400 goûts, créée le 5 avril 2011, siège à la ferme
+  - Absence de salariés et caisse commune (2024)
+  - Transmission de 2018
+  non_confirme:
+  - 'Surface : 6 ha selon le collectif (2018), 7 ha selon Silence (2024)'
+  - Propriétaire et nature du bail des terres
+  - Statut MSA de l'activité (affiliation de l'association ou des membres)
+  - Identité de la « ferme collective déjà déclarée » à Rouen évoquée par La Caillasse
+dossier_juridique: 'Ferme sans chef d''exploitation ni salarié : production agricole réalisée par des membres bénévoles
+  d''une association, recettes versées à une caisse commune. Le collectif rapporte que la police est venue plusieurs
+  fois vérifier l''absence de travail dissimulé, sans suite à ce jour (« on est un peu une aberration, de leur point
+  de vue »). Un essai de salariat en contrats aidés a été abandonné. Le régime social retenu par la MSA n''est pas
+  publié. Aucun contentieux connu.'
+liens:
+  communs: null
+sources:
+- titre: Des fermes associatives et militantes
+  auteur: Lola Keraron, Silence n° 535
+  annee: 2024
+  url: https://www.revuesilence.net/numeros/535-Creer-une-ferme-collective/des-fermes-associatives-et-militantes
+- titre: La ferme collective de l'Oseraie cherche des forces vives
+  auteur: À l'ouest (Rouen)
+  annee: 2018
+  url: https://a-louest.info/La-ferme-collective-de-l-Oseraie-cherche-des-forces-vives-301
+- titre: Ferme de l'Oseraie, production de légumes, fruits et pain
+  auteur: Le Jardin des 400 goûts
+  annee: null
+  url: https://lejardindes400gout.wixsite.com/ferme-de-l-oseraie
+- titre: Le Jardin des 400 goûts (SIREN 538 684 721)
+  auteur: Societe.com, d'après Insee
+  annee: 2026
+  url: https://www.societe.com/societe/le-jardin-des-400-gouts-538684721.html
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

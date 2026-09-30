@@ -18,7 +18,7 @@ async def main():
     fiches, _ = R.charger()
     async with async_playwright() as p:
         b = await p.chromium.launch(); pg = await b.new_page(viewport={"width": 1200, "height": 630})
-        items = [("_accueil", "Collectifs autogérés et lieux en communs · France depuis 1789", "Les collectifs qui ont voulu tenir un lieu en commun, et ce qui leur a manqué", "41 cas instruits · cinq portes · prismes croisés", None)]
+        items = [("_accueil", "Collectifs autogérés et lieux en communs · France depuis 1789", "Les collectifs qui ont voulu tenir un lieu en commun, et ce qui leur a manqué", f"{len(fiches)} cas instruits · cinq portes · prismes croisés", None)]
         for d in fiches:
             st, _, pv = R.calcul(d)
             l = d.get("localisation") or {}
