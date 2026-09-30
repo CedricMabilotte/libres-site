@@ -248,7 +248,7 @@
    },
    "debut": 2015,
    "fin": null,
-   "resume": "Ancienne cimenterie et carrière sur les hauteurs de L'Estaque (Marseille 16e), occupée depuis 2015 par un collectif d'artistes issu de l'association En Devenir (2012) et devenue un lieu autogéré de création et de résidences, aussi habité. Le lieu a été acheté au printemps 2019, pour 410 000 € et sans banque, grâce à des prêts solidaires ; il est détenu par l'association Parpaing Libre, dont les deux seuls membres sont l'association usagère et le réseau CLIP. L'incendie du 8 juillet 2025 a détruit ateliers, boulangerie et logements de résidence ; la reconstruction se fait en chantiers participatifs.",
+   "resume": "Ancienne cimenterie et carrière sur les hauteurs de L'Estaque (Marseille 16e), louée depuis 2015 par un collectif d'artistes issu de l'association En Devenir (2012) et devenue un lieu autogéré de création et de résidences, aussi habité. Le lieu a été acheté au printemps 2019, pour 410 000 € ; un apport de 136 000 €, réuni par des prêts solidaires, a permis d'obtenir des crédits bancaires remboursés par les loyers du collectif ; il est détenu par l'association Parpaing Libre, dont les deux seuls membres sont l'association usagère et le réseau CLIP. L'incendie du 8 juillet 2025 a détruit ateliers, boulangerie et logements de résidence ; la reconstruction se fait en chantiers participatifs.",
    "collectif": {
     "nom": "En Devenir (La Déviation)",
     "forme": "association",
@@ -257,7 +257,7 @@
    "foncier": {
     "porteur": "Association Parpaing Libre",
     "porteur_forme": "association",
-    "surface_ha": 0.15,
+    "surface_ha": 0.27,
     "titre_duree_ans": null
    },
    "portes": {
@@ -400,7 +400,7 @@
     }
    },
    "dimensions": {
-    "acces": "don_legs",
+    "acces": "inconnu",
     "titre": "bail_emphyteotique",
     "verrou": [
      "devolution_desinteressee"
@@ -1361,7 +1361,7 @@
    },
    "debut": 1973,
    "fin": null,
-   "resume": "En 1973, de jeunes militants issus des groupes Spartakus (Suisse) et Hydra (Autriche) achètent par collecte un domaine d'environ 270 hectares à Limans, près de Forcalquier, avec les fermes de Grange-Neuve et du Pigeonnier : c'est la première coopérative du réseau Longo Maï. Une centaine de personnes y vivent sans salaire, les ressources étant mises en commun, et décident par consensus ; élevage, céréales, maraîchage, transformation, forêt et Radio Zinzine (1981) font vivre le lieu, avec une part importante de dons. Le réseau déclare détenir son foncier en propriété collective inaliénable par une fondation suisse, le Fonds de Terre Européenne. Le lieu a connu la répression d'État (refus de titres de séjour en 1973, opération de police en 1989).",
+   "resume": "En 1973, de jeunes militants issus des groupes Spartakus (Autriche) et Hydra (Suisse) achètent par collecte un domaine d'environ 270 hectares à Limans, près de Forcalquier, avec les fermes de Grange-Neuve et du Pigeonnier : c'est la première coopérative du réseau Longo Maï. Une centaine de personnes y vivent sans salaire, les ressources étant mises en commun, et décident par consensus ; élevage, céréales, maraîchage, transformation, forêt et Radio Zinzine (1981) font vivre le lieu, avec une part importante de dons. Le réseau déclare détenir son foncier en propriété collective inaliénable par une fondation suisse, le Fonds de Terre Européenne. Le lieu a connu la répression d'État (refus de titres de séjour en 1973, opération de police en 1989).",
    "collectif": {
     "nom": "Coopérative Longo Maï de Limans (Association européenne Longo Maï)",
     "forme": "association",
@@ -1482,7 +1482,7 @@
    "foncier": {
     "porteur": "État",
     "porteur_forme": "personne_publique",
-    "surface_ha": 6300,
+    "surface_ha": 6357,
     "titre_duree_ans": 99
    },
    "portes": {
@@ -2994,7 +2994,7 @@
    },
    "debut": 2016,
    "fin": null,
-   "resume": "Ferme d'élevage ovin laitier de moyenne montagne à La Sure en Chartreuse (ancienne commune de Pommiers-la-Placette, Isère). Depuis janvier 2016, elle est exploitée par un GAEC de deux associés (brebis, fromages et yaourts biologiques, apiculture). En 2018, la Fondation Terre de Liens a acquis par collecte de dons 6 ha de prairie attenants, présentés comme « une première étape » de préservation de la ferme. Épreuve de référence : le porteur (fondation reconnue d'utilité publique, et non la Foncière commerciale) est de droit civil, mais l'usage est celui d'une exploitation agricole sociétaire, titulaire d'un bail rural.",
+   "resume": "Ferme d'élevage ovin laitier de moyenne montagne à La Sure en Chartreuse (ancienne commune de Pommiers-la-Placette, Isère). Depuis début 2016, l'activité est reprise, puis exploitée par un GAEC de deux associés (brebis, fromages et yaourts biologiques, apiculture). En 2018, la Fondation Terre de Liens a acquis par collecte de dons 6 ha de prairie attenants, présentés comme « une première étape » de préservation de la ferme. Épreuve de référence : le porteur (fondation reconnue d'utilité publique, et non la Foncière commerciale) est de droit civil, mais l'usage est celui d'une exploitation agricole sociétaire, titulaire d'un bail rural.",
    "collectif": {
     "nom": "GAEC des Bergers de la Sure",
     "forme": "societe_civile",
@@ -3025,7 +3025,7 @@
     },
     "etabli": {
      "valeur": "oui",
-     "note": "GAEC installé en janvier 2016 : dix ans d'usage continu atteints en 2026."
+     "note": "Reprise de l'activité début 2016 (GAEC constitué ensuite, date non publiée) : dix ans d'usage continu atteints en 2026."
     }
    },
    "dimensions": {

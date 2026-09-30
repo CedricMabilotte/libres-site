@@ -154,9 +154,9 @@
    "fragile": false
   },
   "P1|acces": {
-   "v": 0.004,
-   "p": 0.3971,
-   "n": 33,
+   "v": 0.0,
+   "p": 0.5005,
+   "n": 32,
    "cellules_faibles": 0.92,
    "table": {
     "lignes": [
@@ -184,7 +184,7 @@
       3,
       0,
       1,
-      2,
+      1,
       4,
       3
      ]
@@ -1186,9 +1186,9 @@
    "fragile": false
   },
   "P2|acces": {
-   "v": 0.14,
-   "p": 0.3311,
-   "n": 31,
+   "v": 0.108,
+   "p": 0.3568,
+   "n": 30,
    "cellules_faibles": 0.75,
    "table": {
     "lignes": [
@@ -1208,7 +1208,7 @@
       9,
       3,
       2,
-      3,
+      2,
       6,
       6
      ],
@@ -2187,9 +2187,9 @@
    "fragile": false
   },
   "P3|acces": {
-   "v": 0.26,
-   "p": 0.1982,
-   "n": 33,
+   "v": 0.362,
+   "p": 0.1008,
+   "n": 32,
    "cellules_faibles": 0.92,
    "table": {
     "lignes": [
@@ -2217,7 +2217,7 @@
       5,
       1,
       1,
-      1,
+      0,
       6,
       5
      ]
@@ -3163,9 +3163,9 @@
    "fragile": false
   },
   "P4|acces": {
-   "v": 0.227,
-   "p": 0.2433,
-   "n": 31,
+   "v": 0.197,
+   "p": 0.2786,
+   "n": 30,
    "cellules_faibles": 0.92,
    "table": {
     "lignes": [
@@ -3193,7 +3193,7 @@
       4,
       0,
       1,
-      2,
+      1,
       3,
       5
      ]
@@ -4108,9 +4108,9 @@
    "fragile": false
   },
   "P5|acces": {
-   "v": 0.044,
-   "p": 0.3899,
-   "n": 33,
+   "v": 0.28,
+   "p": 0.1805,
+   "n": 32,
    "cellules_faibles": 0.92,
    "table": {
     "lignes": [
@@ -4138,7 +4138,7 @@
       6,
       3,
       3,
-      1,
+      0,
       6,
       3
      ]
@@ -5057,8 +5057,8 @@
   },
   "acces|distance": {
    "v": 0.0,
-   "p": 0.7308,
-   "n": 33,
+   "p": 0.7026,
+   "n": 32,
    "cellules_faibles": 1.0,
    "table": {
     "lignes": [
@@ -5104,7 +5104,7 @@
      ],
      [
       0,
-      1,
+      0,
       0,
       1,
       0,
@@ -5132,16 +5132,15 @@
    "fragile": true
   },
   "acces|echelle": {
-   "v": 0.245,
-   "p": 0.2083,
-   "n": 22,
+   "v": 0.313,
+   "p": 0.1203,
+   "n": 21,
    "cellules_faibles": 1.0,
    "table": {
     "lignes": [
      "achat_collectif",
      "achat_prive_fondateur",
      "bail_public",
-     "don_legs",
      "occupation",
      "souscription"
     ],
@@ -5172,12 +5171,6 @@
      ],
      [
       1,
-      0,
-      0,
-      0
-     ],
-     [
-      1,
       2,
       0,
       0
@@ -5195,15 +5188,14 @@
   },
   "acces|economie": {
    "v": 0.0,
-   "p": 0.5684,
-   "n": 19,
+   "p": 0.4163,
+   "n": 18,
    "cellules_faibles": 1.0,
    "table": {
     "lignes": [
      "achat_collectif",
      "achat_prive_fondateur",
      "bail_public",
-     "don_legs",
      "occupation",
      "souscription"
     ],
@@ -5242,14 +5234,6 @@
      ],
      [
       1,
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      1,
       1,
       0,
       0,
@@ -5270,9 +5254,9 @@
    "fragile": true
   },
   "acces|etat": {
-   "v": 0.339,
-   "p": 0.0659,
-   "n": 33,
+   "v": 0.327,
+   "p": 0.0804,
+   "n": 32,
    "cellules_faibles": 0.89,
    "table": {
     "lignes": [
@@ -5305,7 +5289,7 @@
       0
      ],
      [
-      3,
+      2,
       0,
       0
      ],
@@ -5325,9 +5309,9 @@
    "fragile": true
   },
   "acces|famille": {
-   "v": 0.611,
+   "v": 0.595,
    "p": 0.0,
-   "n": 33,
+   "n": 32,
    "cellules_faibles": 1.0,
    "table": {
     "lignes": [
@@ -5364,7 +5348,7 @@
       0
      ],
      [
-      2,
+      1,
       1,
       0,
       0
@@ -5579,9 +5563,9 @@
    "fragile": true
   },
   "acces|finalite:accueil_soin": {
-   "v": 0.339,
-   "p": 0.116,
-   "n": 33,
+   "v": 0.519,
+   "p": 0.0192,
+   "n": 32,
    "cellules_faibles": 0.75,
    "table": {
     "lignes": [
@@ -5610,7 +5594,7 @@
       0
      ],
      [
-      1,
+      0,
       2
      ],
      [
@@ -5628,8 +5612,8 @@
   },
   "acces|finalite:agriculture": {
    "v": 0.0,
-   "p": 0.5156,
-   "n": 33,
+   "p": 0.644,
+   "n": 32,
    "cellules_faibles": 0.92,
    "table": {
     "lignes": [
@@ -5659,7 +5643,7 @@
      ],
      [
       0,
-      3
+      2
      ],
      [
       3,
@@ -5675,9 +5659,9 @@
    "fragile": true
   },
   "acces|finalite:artisanat_production": {
-   "v": 0.398,
-   "p": 0.0692,
-   "n": 33,
+   "v": 0.382,
+   "p": 0.0845,
+   "n": 32,
    "cellules_faibles": 0.83,
    "table": {
     "lignes": [
@@ -5706,7 +5690,7 @@
       0
      ],
      [
-      3,
+      2,
       0
      ],
      [
@@ -5723,9 +5707,9 @@
    "fragile": true
   },
   "acces|finalite:culture": {
-   "v": 0.134,
-   "p": 0.3338,
-   "n": 33,
+   "v": 0.253,
+   "p": 0.2101,
+   "n": 32,
    "cellules_faibles": 0.92,
    "table": {
     "lignes": [
@@ -5755,7 +5739,7 @@
      ],
      [
       2,
-      1
+      0
      ],
      [
       2,
@@ -5772,8 +5756,8 @@
   },
   "acces|finalite:education_populaire": {
    "v": 0.0,
-   "p": 0.5677,
-   "n": 33,
+   "p": 0.6859,
+   "n": 32,
    "cellules_faibles": 0.92,
    "table": {
     "lignes": [
@@ -5802,7 +5786,7 @@
       2
      ],
      [
-      3,
+      2,
       0
      ],
      [
@@ -5820,8 +5804,8 @@
   },
   "acces|finalite:habitat": {
    "v": 0.0,
-   "p": 0.5423,
-   "n": 33,
+   "p": 0.6035,
+   "n": 32,
    "cellules_faibles": 0.92,
    "table": {
     "lignes": [
@@ -5850,7 +5834,7 @@
       1
      ],
      [
-      2,
+      1,
       1
      ],
      [
@@ -5867,9 +5851,9 @@
    "fragile": true
   },
   "acces|finalite:lutte_territoriale": {
-   "v": 0.656,
-   "p": 0.002,
-   "n": 33,
+   "v": 0.65,
+   "p": 0.0027,
+   "n": 32,
    "cellules_faibles": 0.83,
    "table": {
     "lignes": [
@@ -5898,7 +5882,7 @@
       1
      ],
      [
-      3,
+      2,
       0
      ],
      [
@@ -5915,9 +5899,9 @@
    "fragile": true
   },
   "acces|finalite:milieu_vivant": {
-   "v": 0.345,
-   "p": 0.1106,
-   "n": 33,
+   "v": 0.388,
+   "p": 0.0804,
+   "n": 32,
    "cellules_faibles": 0.75,
    "table": {
     "lignes": [
@@ -5946,7 +5930,7 @@
       2
      ],
      [
-      2,
+      1,
       1
      ],
      [
@@ -5963,9 +5947,9 @@
    "fragile": true
   },
   "acces|forme_collectif": {
-   "v": 0.261,
-   "p": 0.1194,
-   "n": 33,
+   "v": 0.243,
+   "p": 0.1495,
+   "n": 32,
    "cellules_faibles": 0.92,
    "table": {
     "lignes": [
@@ -6002,7 +5986,7 @@
       1
      ],
      [
-      3,
+      2,
       0,
       0,
       0
@@ -6080,9 +6064,9 @@
    "fragile": true
   },
   "acces|ouverture": {
-   "v": 0.327,
-   "p": 0.0904,
-   "n": 30,
+   "v": 0.377,
+   "p": 0.0546,
+   "n": 29,
    "cellules_faibles": 1.0,
    "table": {
     "lignes": [
@@ -6117,7 +6101,7 @@
      [
       2,
       0,
-      1
+      0
      ],
      [
       0,
@@ -6218,9 +6202,9 @@
    "fragile": true
   },
   "acces|porteur": {
-   "v": 0.533,
-   "p": 0.0003,
-   "n": 30,
+   "v": 0.511,
+   "p": 0.0008,
+   "n": 29,
    "cellules_faibles": 1.0,
    "table": {
     "lignes": [
@@ -6276,7 +6260,7 @@
       0,
       0,
       0,
-      3,
+      2,
       0,
       0,
       0,
@@ -6357,10 +6341,10 @@
    "fragile": true
   },
   "acces|statut": {
-   "v": 0.076,
-   "p": 0.3755,
-   "n": 33,
-   "cellules_faibles": 0.83,
+   "v": 0.149,
+   "p": 0.3212,
+   "n": 32,
+   "cellules_faibles": 0.75,
    "table": {
     "lignes": [
      "achat_collectif",
@@ -6388,7 +6372,7 @@
       3
      ],
      [
-      1,
+      0,
       2
      ],
      [
@@ -6405,9 +6389,9 @@
    "fragile": true
   },
   "acces|titre": {
-   "v": 0.445,
-   "p": 0.024,
-   "n": 21,
+   "v": 0.41,
+   "p": 0.047,
+   "n": 20,
    "cellules_faibles": 1.0,
    "table": {
     "lignes": [
@@ -6448,7 +6432,7 @@
       0
      ],
      [
-      3,
+      2,
       0,
       0,
       0,
@@ -6529,9 +6513,9 @@
    "fragile": true
   },
   "acces|verrou:aucun": {
-   "v": 0.588,
-   "p": 0.011,
-   "n": 29,
+   "v": 0.565,
+   "p": 0.0169,
+   "n": 28,
    "cellules_faibles": 1.0,
    "table": {
     "lignes": [
@@ -6560,7 +6544,7 @@
       0
      ],
      [
-      3,
+      2,
       0
      ],
      [
@@ -6577,9 +6561,9 @@
    "fragile": true
   },
   "acces|verrou:bail_long": {
-   "v": 0.439,
-   "p": 0.0604,
-   "n": 29,
+   "v": 0.483,
+   "p": 0.0428,
+   "n": 28,
    "cellules_faibles": 0.83,
    "table": {
     "lignes": [
@@ -6608,7 +6592,7 @@
       2
      ],
      [
-      2,
+      1,
       1
      ],
      [
@@ -6625,9 +6609,9 @@
    "fragile": true
   },
   "acces|verrou:devolution_desinteressee": {
-   "v": 0.406,
-   "p": 0.0815,
-   "n": 29,
+   "v": 0.257,
+   "p": 0.2228,
+   "n": 28,
    "cellules_faibles": 0.83,
    "table": {
     "lignes": [
@@ -6657,7 +6641,7 @@
      ],
      [
       1,
-      2
+      1
      ],
      [
       7,
@@ -6674,8 +6658,8 @@
   },
   "acces|verrou:veto_reseau": {
    "v": 0.0,
-   "p": 0.5208,
-   "n": 29,
+   "p": 0.5556,
+   "n": 28,
    "cellules_faibles": 0.83,
    "table": {
     "lignes": [
@@ -6704,7 +6688,7 @@
       0
      ],
      [
-      3,
+      2,
       0
      ],
      [
@@ -6721,9 +6705,9 @@
    "fragile": true
   },
   "acces|verrou_type": {
-   "v": 0.483,
-   "p": 0.0058,
-   "n": 33,
+   "v": 0.482,
+   "p": 0.007,
+   "n": 32,
    "cellules_faibles": 0.94,
    "table": {
     "lignes": [
@@ -6757,7 +6741,7 @@
      ],
      [
       0,
-      2,
+      1,
       1
      ],
      [
@@ -23081,22 +23065,22 @@
    "fragile": true
   },
   {
-   "a": "acces",
-   "b": "finalite:lutte_territoriale",
-   "v": 0.656,
-   "p": 0.002,
-   "n": 33,
-   "cellules_faibles": 0.83,
-   "mecanique": false,
-   "fragile": true
-  },
-  {
    "a": "economie",
    "b": "finalite:agriculture",
    "v": 0.653,
    "p": 0.0104,
    "n": 24,
    "cellules_faibles": 0.92,
+   "mecanique": false,
+   "fragile": true
+  },
+  {
+   "a": "acces",
+   "b": "finalite:lutte_territoriale",
+   "v": 0.65,
+   "p": 0.0027,
+   "n": 32,
+   "cellules_faibles": 0.83,
    "mecanique": false,
    "fragile": true
   },
@@ -23161,16 +23145,6 @@
    "fragile": true
   },
   {
-   "a": "acces",
-   "b": "famille",
-   "v": 0.611,
-   "p": 0.0,
-   "n": 33,
-   "cellules_faibles": 1.0,
-   "mecanique": false,
-   "fragile": true
-  },
-  {
    "a": "finalite:culture",
    "b": "gouvernance",
    "v": 0.61,
@@ -23221,22 +23195,22 @@
    "fragile": true
   },
   {
+   "a": "acces",
+   "b": "famille",
+   "v": 0.595,
+   "p": 0.0,
+   "n": 32,
+   "cellules_faibles": 1.0,
+   "mecanique": false,
+   "fragile": true
+  },
+  {
    "a": "P5",
    "b": "rapport_etat",
    "v": 0.59,
    "p": 0.0329,
    "n": 17,
    "cellules_faibles": 0.88,
-   "mecanique": false,
-   "fragile": true
-  },
-  {
-   "a": "acces",
-   "b": "verrou:aucun",
-   "v": 0.588,
-   "p": 0.011,
-   "n": 29,
-   "cellules_faibles": 1.0,
    "mecanique": false,
    "fragile": true
   },
@@ -23276,6 +23250,16 @@
    "v": 0.567,
    "p": 0.0114,
    "n": 35,
+   "cellules_faibles": 1.0,
+   "mecanique": false,
+   "fragile": true
+  },
+  {
+   "a": "acces",
+   "b": "verrou:aucun",
+   "v": 0.565,
+   "p": 0.0169,
+   "n": 28,
    "cellules_faibles": 1.0,
    "mecanique": false,
    "fragile": true
@@ -23351,16 +23335,6 @@
    "fragile": true
   },
   {
-   "a": "acces",
-   "b": "porteur",
-   "v": 0.533,
-   "p": 0.0003,
-   "n": 30,
-   "cellules_faibles": 1.0,
-   "mecanique": false,
-   "fragile": true
-  },
-  {
    "a": "forme_collectif",
    "b": "verrou:aucun",
    "v": 0.528,
@@ -23377,6 +23351,16 @@
    "p": 0.0024,
    "n": 35,
    "cellules_faibles": 0.9,
+   "mecanique": false,
+   "fragile": true
+  },
+  {
+   "a": "acces",
+   "b": "finalite:accueil_soin",
+   "v": 0.519,
+   "p": 0.0192,
+   "n": 32,
+   "cellules_faibles": 0.75,
    "mecanique": false,
    "fragile": true
   },
@@ -23406,6 +23390,16 @@
    "v": 0.514,
    "p": 0.0407,
    "n": 23,
+   "cellules_faibles": 1.0,
+   "mecanique": false,
+   "fragile": true
+  },
+  {
+   "a": "acces",
+   "b": "porteur",
+   "v": 0.511,
+   "p": 0.0008,
+   "n": 29,
    "cellules_faibles": 1.0,
    "mecanique": false,
    "fragile": true
@@ -23502,10 +23496,20 @@
   },
   {
    "a": "acces",
-   "b": "verrou_type",
+   "b": "verrou:bail_long",
    "v": 0.483,
-   "p": 0.0058,
-   "n": 33,
+   "p": 0.0428,
+   "n": 28,
+   "cellules_faibles": 0.83,
+   "mecanique": false,
+   "fragile": true
+  },
+  {
+   "a": "acces",
+   "b": "verrou_type",
+   "v": 0.482,
+   "p": 0.007,
+   "n": 32,
    "cellules_faibles": 0.94,
    "mecanique": false,
    "fragile": true
@@ -23611,16 +23615,6 @@
    "fragile": true
   },
   {
-   "a": "acces",
-   "b": "titre",
-   "v": 0.445,
-   "p": 0.024,
-   "n": 21,
-   "cellules_faibles": 1.0,
-   "mecanique": false,
-   "fragile": true
-  },
-  {
    "a": "famille",
    "b": "gouvernance",
    "v": 0.442,
@@ -23687,6 +23681,16 @@
    "p": 0.0179,
    "n": 36,
    "cellules_faibles": 0.67,
+   "mecanique": false,
+   "fragile": true
+  },
+  {
+   "a": "acces",
+   "b": "titre",
+   "v": 0.41,
+   "p": 0.047,
+   "n": 20,
+   "cellules_faibles": 1.0,
    "mecanique": false,
    "fragile": true
   },
@@ -23798,622 +23802,622 @@
   "individus": [
    {
     "uid": "59-rivoli",
-    "x": 0.467,
-    "y": -1.006
+    "x": 0.477,
+    "y": -0.993
    },
    {
     "uid": "ancrage",
-    "x": 0.387,
-    "y": 0.522
+    "x": 0.391,
+    "y": 0.555
    },
    {
     "uid": "arche-borie-noble",
-    "x": -0.32,
-    "y": 0.082
+    "x": -0.316,
+    "y": 0.087
    },
    {
     "uid": "boimondau",
-    "x": -1.306,
-    "y": -0.005
+    "x": -1.305,
+    "y": -0.024
    },
    {
     "uid": "colonie-conde-sur-vesgre",
-    "x": -0.606,
-    "y": -0.107
+    "x": -0.603,
+    "y": -0.114
    },
    {
     "uid": "colonie-de-bascon",
-    "x": -1.253,
-    "y": 0.274
+    "x": -1.254,
+    "y": 0.266
    },
    {
     "uid": "communes-libertaires-ariege-villeneuve-du-bosc",
-    "x": -0.978,
-    "y": -0.742
+    "x": -0.972,
+    "y": -0.751
    },
    {
     "uid": "cun-du-larzac",
-    "x": 0.091,
-    "y": -0.347
+    "x": 0.098,
+    "y": -0.342
    },
    {
     "uid": "domaine-du-rayol",
-    "x": 0.458,
-    "y": -0.299
-   },
-   {
-    "uid": "ecolectif",
-    "x": 0.045,
-    "y": -0.042
-   },
-   {
-    "uid": "emmaus-neuilly-plaisance",
-    "x": -0.17,
-    "y": -0.071
-   },
-   {
-    "uid": "espace-autogere-des-tanneries",
-    "x": 0.729,
-    "y": -1.075
-   },
-   {
-    "uid": "familistere-de-guise",
-    "x": -1.265,
-    "y": -0.041
-   },
-   {
-    "uid": "ferme-de-lachaud",
-    "x": 0.284,
+    "x": 0.466,
     "y": -0.289
    },
    {
+    "uid": "ecolectif",
+    "x": 0.05,
+    "y": -0.036
+   },
+   {
+    "uid": "emmaus-neuilly-plaisance",
+    "x": -0.165,
+    "y": -0.078
+   },
+   {
+    "uid": "espace-autogere-des-tanneries",
+    "x": 0.74,
+    "y": -1.055
+   },
+   {
+    "uid": "familistere-de-guise",
+    "x": -1.263,
+    "y": -0.059
+   },
+   {
+    "uid": "ferme-de-lachaud",
+    "x": 0.287,
+    "y": -0.299
+   },
+   {
     "uid": "ferme-de-pommiers",
-    "x": 0.032,
-    "y": -0.053
+    "x": 0.035,
+    "y": -0.071
    },
    {
     "uid": "ferme-des-bouillons",
-    "x": 0.205,
-    "y": -0.66
+    "x": 0.213,
+    "y": -0.636
    },
    {
     "uid": "ferme-du-berquet",
-    "x": 0.869,
-    "y": 0.635
+    "x": 0.846,
+    "y": 0.493
    },
    {
     "uid": "hameau-des-buis",
-    "x": -0.647,
-    "y": -0.096
+    "x": -0.645,
+    "y": -0.101
    },
    {
     "uid": "hautes-planches-bretoncelles",
-    "x": 0.703,
-    "y": 0.692
+    "x": 0.708,
+    "y": 0.729
    },
    {
     "uid": "keriskis",
-    "x": 0.653,
-    "y": 0.883
+    "x": 0.618,
+    "y": 0.887
    },
    {
     "uid": "l-aube",
-    "x": 0.1,
-    "y": 0.521
+    "x": 0.068,
+    "y": 0.522
    },
    {
     "uid": "l-essai-aiglemont",
-    "x": -1.194,
-    "y": 0.092
+    "x": -1.193,
+    "y": 0.084
    },
    {
     "uid": "la-bellevilloise",
-    "x": -0.798,
-    "y": 0.054
+    "x": -0.794,
+    "y": 0.053
    },
    {
     "uid": "la-chapelle-toulouse",
-    "x": 0.925,
-    "y": -1.005
+    "x": 0.933,
+    "y": -0.994
    },
    {
     "uid": "la-deviation-marseille",
-    "x": 0.725,
-    "y": 0.536
+    "x": 0.73,
+    "y": 0.57
    },
    {
     "uid": "la-fraternelle-saint-claude",
-    "x": 0.081,
-    "y": 0.418
+    "x": 0.087,
+    "y": 0.438
    },
    {
     "uid": "la-marinie",
-    "x": 0.844,
+    "x": 0.842,
     "y": 0.69
    },
    {
     "uid": "la-porcheritz-perche",
-    "x": 0.623,
-    "y": 0.783
+    "x": 0.627,
+    "y": 0.819
    },
    {
     "uid": "la-ruche-rambouillet",
-    "x": -0.666,
+    "x": -0.662,
     "y": -0.139
    },
    {
     "uid": "la-talvere",
-    "x": 0.748,
-    "y": 0.848
+    "x": 0.746,
+    "y": 0.864
    },
    {
     "uid": "longo-mai-limans",
-    "x": 0.258,
-    "y": 0.14
+    "x": 0.263,
+    "y": 0.149
    },
    {
     "uid": "maison-blanche-antre-toit",
-    "x": 0.31,
-    "y": 0.491
+    "x": 0.313,
+    "y": 0.515
    },
    {
     "uid": "manifesten-marseille",
-    "x": 0.707,
-    "y": 0.537
+    "x": 0.713,
+    "y": 0.567
    },
    {
     "uid": "milieu-libre-de-vaux",
-    "x": -1.051,
-    "y": 0.287
+    "x": -1.05,
+    "y": 0.286
    },
    {
     "uid": "oasis-coq-a-lame",
-    "x": -0.385,
+    "x": -0.384,
     "y": 0.261
    },
    {
     "uid": "quartier-libre-des-lentilleres",
-    "x": 0.613,
-    "y": -1.047
+    "x": 0.624,
+    "y": -1.024
    },
    {
     "uid": "sctl-larzac",
-    "x": 0.422,
-    "y": -0.425
+    "x": 0.425,
+    "y": -0.444
    },
    {
     "uid": "terre-liberee-luynes",
-    "x": -1.197,
-    "y": 0.191
+    "x": -1.198,
+    "y": 0.179
    },
    {
     "uid": "viel-audon",
-    "x": 0.31,
-    "y": -0.225
+    "x": 0.314,
+    "y": -0.224
    },
    {
     "uid": "villarceaux",
-    "x": -0.111,
-    "y": -0.223
+    "x": -0.109,
+    "y": -0.246
    },
    {
     "uid": "zad-notre-dame-des-landes",
-    "x": 0.055,
-    "y": -1.001
+    "x": 0.063,
+    "y": -0.995
    }
   ],
   "modalites": [
    {
     "var": "famille",
     "mod": "commun_foncier",
-    "x": 0.621,
-    "y": 0.323,
+    "x": 0.612,
+    "y": 0.268,
     "effectif": 7
    },
    {
     "var": "famille",
     "mod": "communaute_intentionnelle",
-    "x": -0.966,
-    "y": 0.092,
+    "x": -0.967,
+    "y": 0.083,
     "effectif": 15
    },
    {
     "var": "famille",
     "mod": "lieu_non_marchand",
-    "x": 0.411,
-    "y": 0.552,
+    "x": 0.418,
+    "y": 0.588,
     "effectif": 13
    },
    {
     "var": "famille",
     "mod": "occupation_regularisee",
-    "x": 0.725,
-    "y": -1.791,
+    "x": 0.739,
+    "y": -1.765,
     "effectif": 6
    },
    {
     "var": "periode",
     "mod": "1789-1870",
-    "x": -1.359,
-    "y": -0.137,
+    "x": -1.357,
+    "y": -0.162,
     "effectif": 2
    },
    {
     "var": "periode",
     "mod": "1871-1914",
-    "x": -1.182,
-    "y": 0.305,
+    "x": -1.18,
+    "y": 0.306,
     "effectif": 6
    },
    {
     "var": "periode",
     "mod": "1915-1945",
-    "x": -1.819,
-    "y": 0.172,
+    "x": -1.82,
+    "y": 0.144,
     "effectif": 2
    },
    {
     "var": "periode",
     "mod": "1946-1967",
-    "x": -0.356,
-    "y": 0.01,
+    "x": -0.35,
+    "y": 0.009,
     "effectif": 2
    },
    {
     "var": "periode",
     "mod": "1968-1989",
-    "x": 0.136,
-    "y": -0.587,
+    "x": 0.144,
+    "y": -0.589,
     "effectif": 6
    },
    {
     "var": "periode",
     "mod": "1990-2007",
-    "x": 0.396,
-    "y": -1.263,
+    "x": 0.406,
+    "y": -1.26,
     "effectif": 5
    },
    {
     "var": "periode",
     "mod": "2008-",
     "x": 0.547,
-    "y": 0.335,
+    "y": 0.36,
     "effectif": 16
    },
    {
     "var": "porteur",
     "mod": "association",
-    "x": 0.781,
-    "y": 1.078,
+    "x": 0.789,
+    "y": 1.139,
     "effectif": 6
    },
    {
     "var": "porteur",
     "mod": "cooperative",
-    "x": -1.369,
-    "y": 0.138,
+    "x": -1.368,
+    "y": 0.122,
     "effectif": 6
    },
    {
     "var": "porteur",
     "mod": "fondation",
-    "x": 0.087,
-    "y": -0.084,
+    "x": 0.092,
+    "y": -0.105,
     "effectif": 3
    },
    {
     "var": "porteur",
     "mod": "fonds_dotation",
-    "x": 0.934,
-    "y": 1.327,
+    "x": 0.908,
+    "y": 1.284,
     "effectif": 5
    },
    {
     "var": "porteur",
     "mod": "personne_privee",
-    "x": -1.41,
-    "y": 0.148,
+    "x": -1.409,
+    "y": 0.143,
     "effectif": 3
    },
    {
     "var": "porteur",
     "mod": "personne_publique",
-    "x": 0.718,
-    "y": -1.425,
+    "x": 0.73,
+    "y": -1.416,
     "effectif": 8
    },
    {
     "var": "porteur",
     "mod": "societe_civile_parts_cessibles",
-    "x": -0.228,
-    "y": -0.306,
+    "x": -0.221,
+    "y": -0.305,
     "effectif": 3
    },
    {
     "var": "forme_collectif",
     "mod": "association",
-    "x": 0.505,
-    "y": 0.208,
+    "x": 0.507,
+    "y": 0.22,
     "effectif": 26
    },
    {
     "var": "forme_collectif",
     "mod": "collectif_de_fait",
-    "x": -0.631,
-    "y": -1.052,
+    "x": -0.623,
+    "y": -1.05,
     "effectif": 5
    },
    {
     "var": "forme_collectif",
     "mod": "cooperative",
-    "x": -1.561,
-    "y": 0.176,
+    "x": -1.56,
+    "y": 0.159,
     "effectif": 7
    },
    {
     "var": "forme_collectif",
     "mod": "societe_civile",
-    "x": 0.166,
-    "y": -0.433,
+    "x": 0.17,
+    "y": -0.472,
     "effectif": 3
    },
    {
     "var": "gouvernance",
     "mod": "assemblee_consensus",
-    "x": 0.747,
-    "y": -1.124,
+    "x": 0.759,
+    "y": -1.101,
     "effectif": 5
    },
    {
     "var": "gouvernance",
     "mod": "conseil_delegue",
-    "x": 0.656,
-    "y": 0.178,
+    "x": 0.662,
+    "y": 0.184,
     "effectif": 4
    },
    {
     "var": "gouvernance",
     "mod": "mixte",
-    "x": -0.526,
-    "y": -0.049,
+    "x": -0.525,
+    "y": -0.056,
     "effectif": 17
    },
    {
     "var": "economie",
     "mod": "activites_marchandes_annexes",
     "x": 0.242,
-    "y": 0.115,
+    "y": 0.077,
     "effectif": 9
    },
    {
     "var": "economie",
     "mod": "autosubsistance",
-    "x": -1.765,
-    "y": 0.344,
+    "x": -1.768,
+    "y": 0.328,
     "effectif": 3
    },
    {
     "var": "economie",
     "mod": "caisse_commune",
-    "x": -0.539,
-    "y": 0.314,
+    "x": -0.535,
+    "y": 0.323,
     "effectif": 3
    },
    {
     "var": "economie",
     "mod": "revenus_individuels_externes",
-    "x": -0.412,
-    "y": -0.414,
+    "x": -0.407,
+    "y": -0.432,
     "effectif": 3
    },
    {
     "var": "economie",
     "mod": "salariat_structure",
-    "x": -0.501,
-    "y": -0.057,
+    "x": -0.495,
+    "y": -0.059,
     "effectif": 5
    },
    {
     "var": "ouverture",
     "mod": "accueil_regulier",
-    "x": -0.368,
-    "y": 0.336,
+    "x": -0.372,
+    "y": 0.333,
     "effectif": 16
    },
    {
     "var": "ouverture",
     "mod": "cercle_restreint",
-    "x": -1.539,
-    "y": -0.095,
+    "x": -1.537,
+    "y": -0.123,
     "effectif": 3
    },
    {
     "var": "ouverture",
     "mod": "ouvert_public",
-    "x": 0.611,
-    "y": -0.18,
+    "x": 0.618,
+    "y": -0.168,
     "effectif": 17
    },
    {
     "var": "titre",
     "mod": "bail_emphyteotique",
-    "x": 0.885,
-    "y": 0.445,
+    "x": 0.871,
+    "y": 0.417,
     "effectif": 8
    },
    {
     "var": "titre",
     "mod": "bail_rural",
-    "x": 0.18,
-    "y": -0.83,
+    "x": 0.187,
+    "y": -0.846,
     "effectif": 3
    },
    {
     "var": "titre",
     "mod": "convention",
-    "x": 0.801,
-    "y": -1.472,
+    "x": 0.816,
+    "y": -1.448,
     "effectif": 3
    },
    {
     "var": "titre",
     "mod": "propriete",
-    "x": -1.163,
+    "x": -1.161,
     "y": 0.41,
     "effectif": 7
    },
    {
     "var": "titre",
     "mod": "sans_titre",
-    "x": 0.595,
-    "y": -1.583,
+    "x": 0.609,
+    "y": -1.543,
     "effectif": 2
    },
    {
     "var": "acces",
     "mod": "achat_collectif",
-    "x": -0.155,
-    "y": 0.474,
+    "x": -0.15,
+    "y": 0.497,
     "effectif": 10
    },
    {
     "var": "acces",
     "mod": "achat_prive_fondateur",
-    "x": -1.43,
-    "y": -0.012,
+    "x": -1.428,
+    "y": -0.036,
     "effectif": 4
    },
    {
     "var": "acces",
     "mod": "bail_public",
-    "x": 0.564,
-    "y": -0.626,
+    "x": 0.571,
+    "y": -0.64,
     "effectif": 3
    },
    {
     "var": "acces",
     "mod": "don_legs",
-    "x": 0.786,
-    "y": 1.26,
-    "effectif": 3
+    "x": 0.499,
+    "y": 1.309,
+    "effectif": 2
    },
    {
     "var": "acces",
     "mod": "occupation",
-    "x": 0.64,
-    "y": -1.627,
+    "x": 0.654,
+    "y": -1.604,
     "effectif": 7
    },
    {
     "var": "acces",
     "mod": "souscription",
-    "x": 0.702,
-    "y": 0.82,
+    "x": 0.706,
+    "y": 0.841,
     "effectif": 6
    },
    {
     "var": "verrou_type",
     "mod": "aucun",
-    "x": -0.524,
+    "x": -0.518,
     "y": -0.326,
     "effectif": 25
    },
    {
     "var": "verrou_type",
     "mod": "par_propriete",
-    "x": 0.881,
-    "y": 0.988,
+    "x": 0.879,
+    "y": 0.999,
     "effectif": 11
    },
    {
     "var": "verrou_type",
     "mod": "par_titre",
-    "x": 0.593,
-    "y": -0.528,
+    "x": 0.59,
+    "y": -0.535,
     "effectif": 5
    },
    {
     "var": "etat",
     "mod": "actif",
-    "x": 0.441,
-    "y": 0.066,
+    "x": 0.443,
+    "y": 0.073,
     "effectif": 30
    },
    {
     "var": "etat",
     "mod": "disparu",
-    "x": -1.381,
-    "y": -0.128,
+    "x": -1.379,
+    "y": -0.138,
     "effectif": 10
    },
    {
     "var": "P1",
     "mod": "non",
-    "x": -0.439,
-    "y": -0.009,
+    "x": -0.436,
+    "y": -0.01,
     "effectif": 27
    },
    {
     "var": "P1",
     "mod": "oui",
-    "x": 0.987,
-    "y": 0.13,
+    "x": 0.988,
+    "y": 0.143,
     "effectif": 13
    },
    {
     "var": "P2",
     "mod": "non",
-    "x": -0.02,
-    "y": 0.129,
+    "x": -0.019,
+    "y": 0.133,
     "effectif": 35
    },
    {
     "var": "P2",
     "mod": "oui",
-    "x": 0.802,
-    "y": -1.023,
+    "x": 0.811,
+    "y": -1.03,
     "effectif": 3
    },
    {
     "var": "P3",
     "mod": "non",
-    "x": -0.65,
-    "y": 0.028,
+    "x": -0.652,
+    "y": 0.016,
     "effectif": 18
    },
    {
     "var": "P3",
     "mod": "oui",
-    "x": 0.56,
-    "y": -0.024,
+    "x": 0.567,
+    "y": -0.011,
     "effectif": 21
    },
    {
     "var": "P4",
     "mod": "non",
-    "x": -0.562,
-    "y": -0.151,
+    "x": -0.56,
+    "y": -0.157,
     "effectif": 21
    },
    {
     "var": "P4",
     "mod": "oui",
-    "x": 0.868,
-    "y": 0.367,
+    "x": 0.87,
+    "y": 0.381,
     "effectif": 16
    },
    {
     "var": "P5",
     "mod": "non",
-    "x": -0.126,
-    "y": 0.727,
+    "x": -0.132,
+    "y": 0.744,
     "effectif": 13
    },
    {
     "var": "P5",
     "mod": "oui",
-    "x": 0.066,
-    "y": -0.363,
+    "x": 0.072,
+    "y": -0.37,
     "effectif": 26
    }
   ]
