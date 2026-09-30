@@ -347,8 +347,17 @@ x0, x1, y0, y1 = min(xs), max(xs), min(ys), max(ys)
 W, H, M = 760, 520, 40
 sx = lambda x: M + (x - x0) / (x1 - x0 or 1) * (W - 2 * M)
 sy = lambda y: H - M - (y - y0) / (y1 - y0 or 1) * (H - 2 * M)
-coul = {"corpus": "var(--foret)", "corpus_sous_condition": "var(--brique)", "seuil": "var(--ocre)", "epreuve": "var(--inconnu)"}
-pts = "".join(f'<a href="../f/{p["uid"]}/"><circle cx="{sx(p["x"]):.1f}" cy="{sy(p["y"]):.1f}" r="{7 if PAR_UID[p["uid"]]["_statut"]!="epreuve" else 5}" fill="{coul[PAR_UID[p["uid"]]["_statut"]]}" opacity=".9"><title>{E(PAR_UID[p["uid"]]["nom"])} — {E(R.STATUTS[PAR_UID[p["uid"]]["_statut"]][0])}</title></circle></a>' for p in acm["individus"])
+coul = {"corpus": "var(--foret)", "corpus_sous_condition": "var(--brique)", "seuil": "var(--ocre-texte)", "epreuve": "var(--inconnu)"}
+
+def marque(st, x, y, k=1.0):
+    """Forme + couleur par statut (jamais la couleur seule)."""
+    if st in ("corpus", "corpus_sous_condition"):
+        return f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{7*k:.1f}" fill="{coul[st]}"/><circle cx="{x:.1f}" cy="{y:.1f}" r="{11*k:.1f}" fill="none" stroke="{coul[st]}" stroke-width="{2*k:.1f}"/>'
+    if st == "seuil":
+        return f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{7*k:.1f}" fill="var(--papier)" stroke="var(--ocre-texte)" stroke-width="{3.5*k:.1f}"/>'
+    return f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{5*k:.1f}" fill="var(--inconnu)" fill-opacity=".55" stroke="var(--inconnu)" stroke-width="{1.2*k:.1f}" stroke-dasharray="{2*k:.1f} {1.5*k:.1f}"/>'
+
+pts = "".join(f'<a href="../f/{p["uid"]}/"><g>{marque(PAR_UID[p["uid"]]["_statut"], sx(p["x"]), sy(p["y"]), .8)}<title>{E(PAR_UID[p["uid"]]["nom"])} — {E(R.STATUTS[PAR_UID[p["uid"]]["_statut"]][0])}</title></g></a>' for p in acm["individus"])
 MODS_AFF = {("P2", "oui"), ("P1", "oui"), ("P1", "non"), ("P4", "oui"), ("P4", "non"), ("porteur", "cooperative"), ("porteur", "personne_publique"), ("porteur", "fonds_dotation"),
             ("forme_collectif", "cooperative"), ("forme_collectif", "collectif_de_fait"), ("etat", "disparu"), ("famille", "occupation_regularisee"), ("famille", "communaute_intentionnelle"),
             ("famille", "commun_foncier"), ("famille", "lieu_non_marchand"), ("verrou_type", "par_propriete"), ("verrou_type", "aucun"), ("periode", "2008-"), ("periode", "1871-1914"), ("economie", "salariat_structure"), ("gouvernance", "assemblee_consensus")}
@@ -381,7 +390,7 @@ corps = f"""<h1>Prismes croisés</h1>
 <label>Lignes<select id="x-a"></select></label><label>Colonnes<select id="x-b"></select></label></form>
 <div id="x-sortie" class="defile" aria-live="polite"></div>
 <h2>Plan factoriel</h2>
-<figure>{acm_svg}<figcaption>Analyse des correspondances multiples sur {len(acm['variables'])} dimensions (famille, période, formes, titre, accès, verrou, gouvernance, économie, ouverture, état, portes). Axe horizontal : {acm['inertie_benzecri'][0]*100:.0f} % de l'inertie corrigée ; vertical : {acm['inertie_benzecri'][1]*100:.0f} %. Points : cas (vert forêt corpus, brique corpus sous condition, ocre seuil, gris épreuve) ; carrés : modalités choisies. Deux points proches partagent beaucoup de modalités ; la distance n'a pas d'autre sens.</figcaption></figure>
+<figure>{acm_svg}<figcaption>Analyse des correspondances multiples sur {len(acm['variables'])} dimensions (famille, période, formes, titre, accès, verrou, gouvernance, économie, ouverture, état, portes). Axe horizontal : {acm['inertie_benzecri'][0]*100:.0f} % de l'inertie corrigée ; vertical : {acm['inertie_benzecri'][1]*100:.0f} %. Points : cas (disque cerclé : corpus sous condition ; anneau épais : seuil ; petit disque pointillé : épreuve) ; carrés : modalités choisies. Deux points proches partagent beaucoup de modalités ; la distance n'a pas d'autre sens.</figcaption></figure>
 <h2>Six mécanismes de capture</h2><p class="petit">Typologie proposée par antimeta à partir des épreuves.</p><div class="mecanismes">{mecs}</div>
 <script src="../assets/croise.js" defer></script>"""
 page("prismes/", "Prismes croisés", corps, "Corrélations multi-thématiques entre les dimensions des 41 cas : associations, matrice, croisements, plan factoriel, mécanismes de capture.")
@@ -398,14 +407,14 @@ for d in sorted(fiches, key=lambda d: -ORDRE_ST[d["_statut"]]):
     l = d.get("localisation") or {}
     if isinstance(l.get("lat"), (int, float)) and isinstance(l.get("lon"), (int, float)):
         x, y = pr(l["lon"], l["lat"])
-        r_ = 9 if d["_statut"] != "epreuve" else 6
-        pts.append(f'<a href="../f/{d["uid"]}/"><circle cx="{x:.1f}" cy="{y:.1f}" r="{r_}" fill="{coul[d["_statut"]]}"><title>{E(d["nom"])} — {E(lieu(d))} — {E(R.STATUTS[d["_statut"]][0])}</title></circle></a>')
+        pts.append(f'<a href="../f/{d["uid"]}/"><g>{marque(d["_statut"], x, y, 1.0)}<title>{E(d["nom"])} — {E(lieu(d))} — {E(R.STATUTS[d["_statut"]][0])}</title></g></a>')
     else:
         sans.append(d)
+MARQ_CSC, MARQ_SEUIL, MARQ_EPR = marque("corpus_sous_condition", 9, 9, .7), marque("seuil", 9, 9, .9), marque("epreuve", 9, 9, 1.2)
 liste = "".join(f'<li><a href="../f/{d["uid"]}/">{E(d["nom"])}</a> — {E(lieu(d))} — {E(R.STATUTS[d["_statut"]][0])}</li>' for d in sorted(fiches, key=lambda d: (str((d.get("localisation") or {}).get("departement")), d["nom"])))
 corps = f"""<h1>Carte</h1>
 <p class="chapeau">Les {nb} cas, placés au centre de leur commune (jamais à une adresse). Aucune tuile ni requête extérieure : le fond est dessiné ici, d'après les contours de l'IGN.</p>
-<div class="legende"><span><svg width="14" height="14" aria-hidden="true"><circle cx="7" cy="7" r="6" fill="var(--brique)"/></svg>corpus sous condition</span><span><svg width="14" height="14" aria-hidden="true"><circle cx="7" cy="7" r="6" fill="var(--ocre)"/></svg>au seuil</span><span><svg width="14" height="14" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="var(--inconnu)"/></svg>épreuve</span></div>
+<div class="legende"><span><svg width="18" height="18" aria-hidden="true">{MARQ_CSC}</svg>corpus sous condition (disque cerclé)</span><span><svg width="18" height="18" aria-hidden="true">{MARQ_SEUIL}</svg>au seuil (anneau épais)</span><span><svg width="18" height="18" aria-hidden="true">{MARQ_EPR}</svg>épreuve (petit disque pointillé)</span></div>
 <figure><svg class="carte-france" viewBox="0 0 1060 1000" style="width:100%;max-width:760px;height:auto" role="img" aria-labelledby="carte-t"><title id="carte-t">Carte de France métropolitaine des cas instruits</title>{paths}{"".join(pts)}</svg>
 <figcaption>Fond : départements, d'après IGN ADMIN EXPRESS (Licence Ouverte 2.0), simplifiés. {len(sans)} cas sans commune publiée ne sont pas placés.</figcaption></figure>
 <h2>Liste équivalente, par département</h2><ul class="petit">{liste}</ul>"""
@@ -431,7 +440,7 @@ axes = "".join(f'<line class="ligne" x1="{GX+(t-A0)/(A1-A0)*(FW-GX):.1f}" x2="{G
 corps = f"""<h1>Frise</h1>
 <p class="chapeau">Chaque barre va de l'installation sur le lieu à la fin du collectif, ou jusqu'à aujourd'hui s'il est actif. Repères : 1789, 1830, 1870, 1901 (liberté d'association), 1945, 1968, 2008 (fonds de dotation).</p>
 <figure><svg class="frise-svg" viewBox="0 0 {FW} {40+len(tri)*LH}" role="img" aria-labelledby="frise-t"><title id="frise-t">Durée d'existence des {nb} cas, de 1789 à aujourd'hui</title>{axes}{"".join(barres)}</svg>
-<figcaption>Couleur : statut (brique corpus sous condition, ocre seuil, gris épreuve). Les dates sont celles établies par les sources de chaque fiche.</figcaption></figure>"""
+<figcaption>Couleur : statut (brique corpus sous condition, ocre seuil, gris épreuve) ; barre en pointillé : collectif encore actif. Le nom et l'infobulle donnent le statut en texte. Les dates sont celles établies par les sources de chaque fiche.</figcaption></figure>"""
 page("frise/", "Frise", corps, "Frise chronologique des collectifs instruits par libres, de 1789 à aujourd'hui.")
 
 # ------------------------------------------------------------------ regards
