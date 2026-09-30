@@ -4,9 +4,9 @@ nom: La Déviation
 autres_noms:
 - En Devenir
 famille: lieu_non_marchand
-resume: Ancienne cimenterie et carrière sur les hauteurs de L'Estaque (Marseille 16e), occupée depuis 2015 par un
+resume: Ancienne cimenterie et carrière sur les hauteurs de L'Estaque (Marseille 16e), louée depuis 2015 par un
   collectif d'artistes issu de l'association En Devenir (2012) et devenue un lieu autogéré de création et de résidences,
-  aussi habité. Le lieu a été acheté au printemps 2019, pour 410 000 € et sans banque, grâce à des prêts solidaires
+  aussi habité. Le lieu a été acheté au printemps 2019, pour 410 000 € : un apport de 136 000 €, réuni par des prêts solidaires, a permis d'obtenir des crédits bancaires remboursés par les loyers du collectif
   ; il est détenu par l'association Parpaing Libre, dont les deux seuls membres sont l'association usagère et le
   réseau CLIP. L'incendie du 8 juillet 2025 a détruit ateliers, boulangerie et logements de résidence ; la reconstruction
   se fait en chantiers participatifs.
@@ -25,12 +25,12 @@ collectif:
 foncier:
   porteur: Association Parpaing Libre
   porteur_forme: association
-  surface_ha: 0.15
+  surface_ha: 0.27
   titre_duree_ans: null
 dimensions:
   acces:
     valeur: achat_collectif
-    note: 'Achat en 2019 pour 410 000 € sans banque : apports, prêts de proches, financement participatif.'
+    note: 'Achat en 2019 pour 410 000 € : apport de 136 000 € (prêts de proches, financement participatif) adossé à des crédits bancaires remboursés par les loyers du collectif.'
     source: 2
   titre:
     valeur: inconnu
@@ -129,12 +129,12 @@ chronologie:
 fiabilite:
   verifie:
   - Installation en 2015, achat en 2019 (ladeviation.org).
+  - Collectif locataire de 2015 à 2019 ; crédits bancaires remboursés par ses loyers (zeste.coop).
   - Deux membres et veto du CLIP (brochure, CLIP).
   - Incendie du 8 juillet 2025.
   non_confirme:
   - Texte des statuts de Parpaing Libre (clause d'inaliénabilité, dévolution).
   - Nature et durée du titre d'usage.
-  - Statut de l'occupation entre 2015 et 2019 (location ou autre).
 liens:
   communs: la-deviation-marseille
 sources:

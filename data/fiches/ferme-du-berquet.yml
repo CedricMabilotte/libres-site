@@ -29,8 +29,8 @@ foncier:
   titre_duree_ans: 99
 dimensions:
   acces:
-    valeur: don_legs
-    note: Transfert au fonds Antidote par donation (premiers transferts de novembre 2024).
+    valeur: inconnu
+    note: Propriété transférée au fonds Antidote en novembre 2024 ; mode du transfert (don ou achat par le fonds) non établi.
     source: 2
   titre:
     valeur: bail_emphyteotique

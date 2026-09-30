@@ -27,7 +27,7 @@ collectif:
 foncier:
   porteur: État
   porteur_forme: personne_publique
-  surface_ha: 6300
+  surface_ha: 6357
   titre_duree_ans: 99
 dimensions:
   acces:
@@ -36,7 +36,7 @@ dimensions:
     source: 2
   titre:
     valeur: bail_emphyteotique
-    note: Signé en 1985 pour 60 ans, prolongé en 2013 jusqu'en 2083.
+    note: Signé le 29 avril 1985 ; larzac.org donne une durée de 99 ans jusqu'au 30 avril 2083, AGTER 60 ans prolongés en 2013 jusqu'en 2083. Échéance 2083 concordante.
     source: 1
   verrou:
     valeur:

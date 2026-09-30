@@ -5,7 +5,7 @@ autres_noms:
 - GAEC des Bergers de la Sure
 famille: commun_foncier
 resume: 'Ferme d''élevage ovin laitier de moyenne montagne à La Sure en Chartreuse (ancienne commune de
-  Pommiers-la-Placette, Isère). Depuis janvier 2016, elle est exploitée par un GAEC de deux associés (brebis,
+  Pommiers-la-Placette, Isère). Depuis début 2016, l''activité est reprise, puis exploitée par un GAEC de deux associés (brebis,
   fromages et yaourts biologiques, apiculture). En 2018, la Fondation Terre de Liens a acquis par collecte
   de dons 6 ha de prairie attenants, présentés comme « une première étape » de préservation de la ferme.
   Épreuve de référence : le porteur (fondation reconnue d''utilité publique, et non la Foncière commerciale)
@@ -111,7 +111,7 @@ portes:
     source: 1
   etabli:
     valeur: oui
-    note: 'GAEC installé en janvier 2016 : dix ans d''usage continu atteints en 2026.'
+    note: 'Reprise de l''activité début 2016 (GAEC constitué ensuite, date non publiée) : dix ans d''usage continu atteints en 2026.'
     source: 1
 chronologie:
 - annee: 2016
@@ -123,7 +123,7 @@ chronologie:
 fiabilite:
   verifie:
   - Propriété de 6 ha par la Fondation Terre de Liens, acquis en 2018 par collecte de dons (Terre de Liens).
-  - Exploitation par le GAEC des Bergers de la Sure depuis janvier 2016 (Terre de Liens).
+  - Reprise de l'activité début 2016, puis GAEC des Bergers de la Sure (Terre de Liens).
   non_confirme:
   - 'Donation du reste de la ferme par les cédants à la Fondation, annoncée dans le dossier Communs (engagée
     en 2015) : finalisation et périmètre non établis.'

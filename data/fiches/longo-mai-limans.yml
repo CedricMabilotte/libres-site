@@ -5,7 +5,7 @@ autres_noms:
 - Longo Maï
 - Grange Neuve
 famille: communaute_intentionnelle
-resume: 'En 1973, de jeunes militants issus des groupes Spartakus (Suisse) et Hydra (Autriche) achètent
+resume: 'En 1973, de jeunes militants issus des groupes Spartakus (Autriche) et Hydra (Suisse) achètent
   par collecte un domaine d''environ 270 hectares à Limans, près de Forcalquier, avec les fermes de Grange-Neuve
   et du Pigeonnier : c''est la première coopérative du réseau Longo Maï. Une centaine de personnes y vivent
   sans salaire, les ressources étant mises en commun, et décident par consensus ; élevage, céréales, maraîchage,
@@ -51,8 +51,7 @@ dimensions:
     source: 2
   economie:
     valeur: caisse_commune
-    note: Pas de salaire, ressources mises en commun, argent de poche ; environ la moitié des besoins
-      couverts par des dons (2004).
+    note: Pas de salaire, ressources mises en commun, argent de poche.
     source: 3
   ouverture:
     valeur: accueil_regulier
