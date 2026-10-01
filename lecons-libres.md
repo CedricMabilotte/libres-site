@@ -8,3 +8,6 @@
 - 2026-10-01 : les numéros d'arrêts du blog kohenavocats.fr sont faux ou sans rapport : ne jamais citer une décision sans l'avoir vue sur Judilibre/Juricaf.
 - 2026-10-01 : collèges successifs (recherche parallèle → lecture critique par les voix → comblement ciblé → vérification) : la lecture critique a trouvé les erreurs que la recherche ne voyait pas (jardins familiaux = parcelles individuelles ; partage de la récolte = avantage en nature ; société créée de fait).
 - 2026-10-01 : liens .md entre dossiers convertis en ../slug/ par le générateur ; tableaux et URL longues : overflow-wrap:anywhere sur mobile.
+- 2026-10-01 : Paged.js 0.4 n'applique pas une taille de page nommée différente (@page matrice { size: A4 landscape }) : toutes les pages restent au format du premier @page. Matrice gardée en portrait.
+- 2026-10-01 : la version imprimable vit un niveau plus bas que le dossier : ses liens relatifs sont réécrits en URL absolues (utile aussi dans le PDF).
+- 2026-10-01 : un texte juridique écrit comme « montage qui évite les qualifications » fournit à l'adversaire l'élément intentionnel ; écrire la qualification revendiquée et les pièces remises sur demande.

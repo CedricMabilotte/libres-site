@@ -489,8 +489,35 @@ corps = f"""<h1>Méthode</h1>
 page("methode/", "Méthode", corps, "Critère d'entrée à cinq portes, dimensions, exclusions nommées, limites et sources de libres.")
 
 # ------------------------------------------------------------------ dossiers
+IMPRIMABLES = {"modele-ideal"}
+def imprimer(slug, titre, chap, html_):
+    """Version A4 mise en page par Paged.js (dossiers/<slug>/imprimer/)."""
+    try:
+        DATE_IMPR = subprocess.run(["git", "log", "-1", "--format=%cs", "--", f"docs/dossiers/{slug}.md"], cwd=ROOT, capture_output=True, text=True).stdout.strip() or "2026-10-01"
+    except Exception:
+        DATE_IMPR = "2026-10-01"
+    from urllib.parse import urljoin
+    html_ = re.sub(r'href="(\.\./[^"]*)"', lambda m: 'href="' + urljoin(f"{BASE}/dossiers/{slug}/", m.group(1)) + '"', html_)
+    parts = re.split(r"(?=<h2)", html_)
+    out = [f'<section class="couverture"><p class="sur">libres · dossier</p><h1>{E(titre)}</h1><p class="chapeau">{E(chap)}</p>{parts[0]}<p class="pied-couv">libres.actitude.org/dossiers/{slug}/ · version du {DATE_IMPR} · CC BY-NC-SA 4.0<br>Information juridique générale, pas un conseil.</p></section>']
+    for c in parts[1:]:
+        h = re.match(r"<h2[^>]*>(.*?)</h2>", c, re.S); t = h.group(1) if h else ""
+        cls = "matrice" if "matrice" in t.lower() else ("dims" if "dimension par dimension" in t.lower() else "partie")
+        if cls == "dims":
+            bl = re.split(r"(?=<h3)", c)
+            c = bl[0] + "".join(f'<div class="fiche">{x}<div class="notes" aria-hidden="true">Notes de l\'assemblée</div></div>' for x in bl[1:])
+        out.append(f'<section class="{cls}">{c}</section>')
+    doc = f"""<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{E(titre)} — libres (A4)</title><meta name="robots" content="noindex"><link rel="canonical" href="{BASE}/dossiers/{slug}/">
+<link rel="stylesheet" href="../../../assets/imprimer.css">
+<script>window.PagedConfig={{auto:true}};</script><script src="../../../assets/paged.polyfill.min.js"></script>
+</head><body><p class="ecran-seul"><a href="../">← retour au dossier</a> · Imprimer en A4 (Ctrl+P, marges « aucune »)</p>
+<article class="impr">{''.join(out)}</article></body></html>"""
+    d = OUT / "dossiers" / slug / "imprimer"; d.mkdir(parents=True, exist_ok=True)
+    (d / "index.html").write_text(doc, encoding="utf-8")
 import markdown as _md
-DOSSIERS_ORDRE = ["association-agricole", "association-ig-benevole", "rescrits-et-prises-de-position", "sous-les-seuils", "voies-communautaires", "defendre-le-modele", "chef-d-exploitation", "autorisation-d-exploiter", "benevolat-et-recolte",
+DOSSIERS_ORDRE = ["modele-ideal", "association-agricole", "association-ig-benevole", "rescrits-et-prises-de-position", "sous-les-seuils", "voies-communautaires", "defendre-le-modele", "chef-d-exploitation", "autorisation-d-exploiter", "benevolat-et-recolte",
                   "accident-et-assurance", "fiscalite-et-prix-libre", "aliments-hors-marche", "foncier-commodat-bail", "oacas-et-communautes",
                   "habitat-et-urbanisme", "formes-voisines", "documenter-un-cas"]
 _dd = ROOT / "docs" / "dossiers"
@@ -512,6 +539,10 @@ for slug in _ordre:
             (" · " if 0 < i < len(_ordre) - 1 else "") + (f'<a href="../{_ordre[i+1]}/">dossier suivant →</a>' if i < len(_ordre) - 1 else "") + "</p>")
     corps = f"""<p class="sur"><a href="../">Dossiers</a></p><h1>{E(titre)}</h1><p class="chapeau">{E(chap)}</p>
 <div class="texte dossier">{html_}<p class="note-prudence">Information juridique générale, pas un conseil. Tout acte se prépare avec un avocat ou un notaire ; tout point fiscal avec un rescrit ou un expert-comptable.</p>{nav_}</div>"""
+    if slug in IMPRIMABLES:
+        pdf = (ASSETS / "pdf" / f"{slug}.pdf").exists()
+        corps = corps.replace('<div class="texte dossier">', '<div class="texte dossier"><p class="imprimable">Version A4 : <a href="imprimer/">mise en page imprimable</a>' + (f' · <a href="../../assets/pdf/{slug}.pdf">PDF</a>' if pdf else "") + '</p>', 1)
+        imprimer(slug, titre, chap, html_)
     page(f"dossiers/{slug}/", titre, corps, chap[:200])
     _liste.append((slug, titre, chap))
 if _liste:

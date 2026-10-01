@@ -55,3 +55,11 @@
 - Vérification : 64 références (7 corrections), 14 reformulations @eozen, 8 fiches (5 corrigées ; propriétaire du verger de Secondigny = MFR de Frécul).
 - Constat central : **aucun rescrit MSA ni fiscal publié ou revendiqué** pour une association agricole en bénévolat pur. Les cas les plus proches (vergers conservatoires, maisons de semences, forêts-jardins) vivent sous les seuils sans validation écrite. 67 cas.
 - Note : un agent a créé /home/ced/codes/ (copie locale du Code rural, Code civil, Code de l'urbanisme) et $HOME/w/ (sauvegardes) hors du dossier projet.
+
+## 2026-10-01 — dossier « modèle cible » (workflow, 22 agents)
+- Passe méta (pensée critique, @eozen, @antimeta, @igor) → `recherche/M-meta.md` : questions, 6 prismes (Π1 démarchandisation des flux, Π2 suffisance et convivialité, Π3 gouvernance sans chef, Π4 reproduction et externalités, Π5 licéité et preuve, Π6 capture et réversibilité) × 10 dimensions (foncier, gouvernance, travail, récolte, argent, subsistance, échelle et vivant, habitat, État et preuve, transmission).
+- Instruction ligne par ligne, rédaction, 5 critiques (@eozen, @contradicteur, @antimeta, @igor, @lumen), révision (52 remplacements, 17 manques traités, liens vérifiés).
+- `docs/dossiers/modele-ideal.md`, placé en tête des dossiers. Matrice 60 cellules : 11 possibles, 32 sous conditions, 10 non jugées, 2 impossibles en droit actuel (nourrir d'abord les cultivateurs ; protection sociale sans salariat), 5 hors droit. Aucun cas du corpus n'atteint la cible.
+- Durcissement @contradicteur intégré : le lieu revendique sa qualification au lieu d'éviter les contrôles ; liste des adhérents remise sur demande ; le quart de SMA borne l'affiliation, pas la requalification en salariat.
+- Version A4 Paged.js (`/dossiers/modele-ideal/imprimer/`, 17 pages, une fiche par dimension avec espace de notes d'assemblée) et PDF `assets/pdf/modele-ideal.pdf` produit par `scripts/imprimer.py` (Playwright). Polyfill Paged.js 0.4.3 (MIT) embarqué localement.
+- Reste : corps ~4 500 mots (au-dessus de la cible 4 000) ; questions renvoyées au §9 (taille minimale du groupe, calendrier saisonnier, parcours d'arrivée/départ, reprise du commodat en veille, régime de la donation d'immeuble).
