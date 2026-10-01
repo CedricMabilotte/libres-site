@@ -4,7 +4,7 @@
 
 > **En bref**
 > - Sous le quart de la surface minimale d'assujettissement (SMA), pondérée par les coefficients des cultures spécialisées, aucun texte n'assujettit qui que ce soit au régime agricole : ni chef d'exploitation, ni cotisant de solidarité, ni assurance accidents (ATEXA) [1].
-> - Les 150 heures ne servent que lorsque l'activité ne peut pas être mesurée en surface ; pour un potager ou un verger, seul compte le quart de SMA [1].
+> - Les 150 heures ne servent que lorsque l'activité ne peut pas être mesurée en surface ; pour un potager ou un verger, le décret ne retient que le quart de SMA [1]. Mais selon l'instruction de 2015, dès qu'il y a vente ou transformation, leurs heures s'ajoutent à la surface convertie en heures, pour la cotisation de solidarité aussi [11].
 > - Le seuil s'applique à l'exploitation entière et à la personne qui la dirige, pas à chaque membre ; selon la MSA, une personne morale n'a pas de cotisant de solidarité [1][10].
 > - Converti en mètres carrés, le quart de SMA en maraîchage de pleine terre va d'environ 1 750 m² (Indre-et-Loire) à 4 500 m² (Orne) [5][8].
 > - Le seuil ne règle ni le contrôle des structures, ni l'impôt, ni l'identification des animaux, ni les règles sanitaires [14][15][16][19].

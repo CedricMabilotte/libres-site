@@ -277,7 +277,7 @@ Quatre règles fondent le tableau. D'abord, la pédagogie n'est pas une tutelle 
 |---|---|---|---|
 | Atelier de greffe, de taille, de semences | admis | prestation ouverte à tous « en droit comme en fait » (BOI-IR-RICI-250-20, § 100) [88] | gratuit ; réservé aux donateurs, il devient une contrepartie |
 | Greffon ou plant fait par l'apprenant | admis | don manuel de faible valeur, partie de l'atelier | pas de prix, pas d'envoi postal |
-| Graines du domaine public | admis | cession gratuite à des non-professionnels ([C. rur., L. 661-8](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041985047)) [89] | jamais à un professionnel, jamais une variété protégée |
+| Graines du domaine public | admis | cession gratuite ou onéreuse à des non-professionnels depuis la loi n° 2020-699 ([C. rur., L. 661-8](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041985047)) [89] | jamais à un professionnel, jamais une variété protégée ; ni vigne, ni plants potagers non inscrits vendus [117][118] |
 | Frais remboursés au réel | admis | remboursement sur justificatif | au-delà des frais, c'est une rémunération [90] |
 | Assurance accident | admis | assurance volontaire des bénévoles [81] | dans les deux associations |
 | Repas de chantier | admis | ouvert à toute personne présente, visiteurs compris, servi par la socioculturelle | ni pointage, ni lien avec les heures |
@@ -602,3 +602,5 @@ Chaque source porte sa fonction : elle fonde un choix du montage (texte, décisi
 114. Code général des impôts, art. 1382, 6° (exonération des bâtiments ruraux) : [Légifrance, LEGIARTI000054712995](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054712995), consulté le 2026-10-01. Fonde un choix.
 115. Code de l'urbanisme, art. L. 151-11 (changement de destination en zone agricole, avis conforme de la CDPENAF) : [Légifrance, LEGIARTI000047303685](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047303685), consulté le 2026-10-01. Fonde un choix.
 116. Code général des impôts, art. 978 (réduction d'impôt sur la fortune immobilière au titre des dons) : [Légifrance, LEGIARTI000051217495](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051217495), consulté le 2026-10-01. Fonde un choix.
+117. Code rural, art. R. 661-35 (vigne) : [Légifrance, LEGIARTI000036457123](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036457123), consulté le 2026-10-01. Fonde un choix.
+118. Directive 2008/72/CE, art. 3 et 9 (jeunes plants de légumes) : [EUR-Lex](https://eur-lex.europa.eu/eli/dir/2008/72/oj), consulté le 2026-10-01. Fonde un choix.

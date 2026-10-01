@@ -60,9 +60,12 @@ Erreur à éviter : **délivrer un reçu fiscal pour un prix libre.** Une somme 
 | Consommation sur place (repas collectifs, chantiers) | Hors champ | Aucune recette | Repas aux bénévoles = avantage en nature possible (social) |
 | Partage gratuit entre membres | Hors champ | Aucune recette | Distribution indirecte ? Cercle restreint pour les dons [13] |
 | Don à des tiers (banque alimentaire, voisins) | Hors champ | Aucune recette | Règles sanitaires (dossier « aliments hors marché ») |
-| Prix libre, occasionnel | Livraison probable ; dispense sous 46 000 € [9] | Recette ; 4 P ; franchise 81 051 € [3][4] | Rescrit conseillé |
+| Prix libre, occasionnel | Livraison probable ; dispense sous 46 000 € [9] | Récolte : 24 % (206-5), hors franchise [1][4] ; autres recettes : 4 P, franchise [3][4] | Rescrit conseillé |
+| Ventes aux membres | Exonérées dans la limite de 10 % des recettes totales [21] | Recette, comme ci-dessus | Cercle restreint pour les dons [13] |
 | Prix libre ou fixe, régulier | Idem ; RSA au-delà de 46 000 € | IS 24 % (206-5) ou droit commun [1][2] | Expert-comptable indispensable |
 | Aides PAC | Hors champ (subvention non liée au prix) | Recette de l'exploitation agricole | Révèle une exploitation (§ 7) |
+
+**La franchise, datée.** Elle vaut 80 011 € pour la TVA des recettes encaissées en 2025 [22], puis 81 051 € à compter du 1er janvier 2026 ; pour l'IS, 81 051 € dès l'exercice clos le 31 décembre 2025 [4]. Elle ne couvre pas les revenus agricoles : le BOFiP en exclut les recettes taxées au taux réduit de l'article 219 bis [4].
 
 ## 6. Dons et reçus fiscaux
 
@@ -92,7 +95,7 @@ La dotation jeunes agriculteurs reste fermée à une association (CRPM, art. D. 
 
 ## Ce qui reste incertain
 
-- **Articulation de l'article 206-5 et de la franchise** pour des ventes agricoles d'une association : les textes consultés ne disent pas si ces ventes relèvent du 206-5 (24 %) ou du secteur lucratif sous franchise. Rescrit L. 80 B nécessaire avant toute vente régulière.
+- **Articulation de l'article 206-5 et de la franchise** pour des ventes agricoles d'une association : le BOFiP exclut de la franchise les recettes taxées à 24 % [4] ; reste à savoir si la culture est indissociable de l'objet non lucratif (§ 2). Rescrit L. 80 B nécessaire avant toute vente régulière.
 - **Partage de la récolte entre membres** : distribution indirecte au sens de la gestion désintéressée ? Non tranché.
 - **Prix libre sans obligation de payer** : hors champ de la TVA au sens de Tolsma ? Non jugé.
 - **Seuil de 46 000 €** : recettes agricoles de l'association seule ; le mode de calcul en cas d'activités mixtes demande un expert-comptable.
@@ -103,7 +106,7 @@ La dotation jeunes agriculteurs reste fermée à une association (CRPM, art. D. 
 1. Code général des impôts, art. 206 (1 bis et 5), version au 1er sept. 2026. https://codes.droit.org/payloads/Code%20g%C3%A9n%C3%A9ral%20des%20imp%C3%B4ts.xml — consulté le 2026-10-01 (via R1).
 2. CGI, art. 219 bis (taux de 24 %). Même URL — consulté le 2026-10-01 (via R1).
 3. BOI-IS-CHAMP-10-50-10-20-20170607, § 500-690 (gestion intéressée, 4 P). https://bofip.impots.gouv.fr/bofip/2358-PGP.html/identifiant=BOI-IS-CHAMP-10-50-10-20-20170607 — consulté le 2026-10-01.
-4. Actualité BOFiP du 5 août 2026, « Franchise des impôts commerciaux – mise à jour du montant » ; BOI-IS-CHAMP-10-50-20-20-20260805, § 1 et 60 ; relais : https://auditstrategy.fr/2026/09/07/associations-la-franchise-des-impots-commerciaux-est-revalorisee/ — consulté le 2026-10-01.
+4. Actualité BOFiP du 5 août 2026, « Franchise des impôts commerciaux – mise à jour du montant » ; BOI-IS-CHAMP-10-50-20-20-20260805, § 1, 10, 60 et 140-150 ; relais : https://auditstrategy.fr/2026/09/07/associations-la-franchise-des-impots-commerciaux-est-revalorisee/ — consulté le 2026-10-01.
 5. CGI, art. 261-7-1° d ; Associathèque, « Focus gestion désintéressée ». https://www.associatheque.fr/fr/focus-gestion-desinteressee.html — consulté le 2026-10-01.
 6. CE, 22 oct. 1980, n° 04906 ; CAA Nancy, 4 oct. 1994, n° 91NC00044 ; CAA Versailles, 23 nov. 2010, n° 09VE00166 (rapport R2-jurisprudence, section d) — consulté le 2026-10-01.
 7. BOI-TVA-CHAMP-10-10-10-20120912 (lien direct, Tolsma, opérations gratuites). https://bofip.impots.gouv.fr/bofip/162-PGP.html/identifiant=BOI-TVA-CHAMP-10-10-10-20120912 — consulté le 2026-10-01.
@@ -120,3 +123,5 @@ La dotation jeunes agriculteurs reste fermée à une association (CRPM, art. D. 
 18. Notice Telepac « Le caractère agriculteur "actif" pour la campagne 2026 », p. 3 ; CRPM, art. D. 343-4. https://www.telepac.agriculture.gouv.fr/telepac/pdf/tde/2026/Exploitation_notice_eligibilite_demandeur_metropole.pdf — consulté le 2026-10-01 (via R1).
 19. CGI, art. 1450 (LEGIARTI000021641794). https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021641794 — consulté le 2026-10-01 (via R1).
 20. BOI-IR-RICI-250-20-20120912 (dépenses ouvrant droit à réduction, contreparties). https://bofip.impots.gouv.fr/bofip/5868-PGP.html/identifiant=BOI-IR-RICI-250-20-20120912 — repéré le 2026-10-01 (page non chargée).
+21. Code général des impôts, art. 261, 7, 1° a à c (version du code local au 1er sept. 2026) : [Légifrance, LEGIARTI000054374042](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054374042), consulté le 2026-10-01.
+22. BOI-IS-CHAMP-10-50-20-20-20250416, § 1 et 10 (80 011 € : IS des exercices clos à compter du 31 décembre 2024, TVA des recettes encaissées à compter du 1er janvier 2025) : [BOFiP](https://bofip.impots.gouv.fr/bofip/2659-PGP.html/identifiant=BOI-IS-CHAMP-10-50-20-20-20250416), consulté le 2026-10-01.

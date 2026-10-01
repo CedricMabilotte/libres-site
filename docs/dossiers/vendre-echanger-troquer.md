@@ -246,17 +246,13 @@ Dans la frise du cas, tout se place en 2029, avant la première fête.
 
 Aucun contrôle publié ne vise une petite vente associative ; ce silence ne prouve aucune tolérance. Celles qui vendent peu resserrent la forme ; celles qui vendent en circuit marchand ont des salariés. Les sources lues ne disent pas combien d'heures coûtent, chez les premières, le comptage et les registres. Un nom sur une étiquette relève aussi du droit des marques : un tribunal a retenu en 2024 l'usage « dans la vie des affaires » d'une association de croqueurs [83].
 
-## 10. Corrections à reporter dans les dossiers voisins
-
-1. **[Modèle cible § 6](../modele-ideal/#6-ce-quon-peut-donner-par-soin-et-pedagogie-et-ce-quon-ne-peut-pas)**, ligne « Graines du domaine public » : cession gratuite **ou onéreuse** à des non-professionnels depuis la loi n° 2020-699 [39] ; ajouter « ni vigne, ni plants potagers non inscrits vendus ».
-2. **Capacité de vendre** : citer L. 442-10 C. com. (ord. n° 2019-359) ; l'actuel L. 442-7 vise les prix abusivement bas.
-3. **[Fiscalité et prix libre § 5](../fiscalite-et-prix-libre/#5-mode-de-cession-impot-et-formalites)** : la franchise ne couvre pas les revenus agricoles [32] ; ajouter les ventes aux membres (10 %) et dater la franchise en base (2025 et 2026).
-4. **[Sous les seuils](../sous-les-seuils/)**, deuxième point de l'En bref : l'instruction de 2015 ajoute les heures de vente et de transformation à la surface convertie, pour la cotisation de solidarité aussi [5].
-5. **[Aliments hors marché](../aliments-hors-marche/)**, § 4 et § 6 : les œufs en remise directe ne vont qu'au consommateur final ; les 80 km et les 30 ruches ne visent que les produits d'origine animale [84] ; l'exemple des fêtes de village vient du guide de la Commission de 2012 [55].
-6. **Vente au déballage** : plus de déclaration en mairie depuis le 27 mai 2026 [25].
-7. **Relations privilégiées** : la section du BOFiP est BOI-IS-CHAMP-10-50-10-30.
-8. **Franchise 2025** : 80 011 € pour la TVA des recettes de 2025 [31] ; pour l'IS, l'exercice clos le 31 décembre 2025 relève déjà de 81 051 € [32] ; 78 596 € est une valeur antérieure.
-
+## 10. Mises à jour des dossiers voisins
+Ces précisions ont été reportées le 1er octobre 2026 dans les dossiers voisins :
+- [Modèle cible](../modele-ideal/), § 6 : graines du domaine public cédées gratuitement ou à titre onéreux à des non-professionnels, ni vigne ni plants potagers non inscrits vendus [39].
+- [Fiscalité et prix libre](../fiscalite-et-prix-libre/), § 5 : franchise datée (80 011 € pour la TVA de 2025, 81 051 € ensuite et pour l'IS clos fin 2025), exclusion des revenus agricoles, ventes aux membres sous 10 % [32].
+- [Sous les seuils](../sous-les-seuils/), En bref : heures de vente et de transformation ajoutées à la surface convertie selon l'instruction de 2015 [5].
+- [Aliments hors marché](../aliments-hors-marche/), § 1, 4 et 6 : œufs au seul consommateur final, 80 km et 30 ruches réservés aux produits d'origine animale [84], fêtes de village rattachées au guide de la Commission de 2012 [55].
+Les autres précisions (L. 442-10 du code de commerce, fin de la déclaration de déballage, section du BOFiP sur les relations privilégiées, ancienne valeur de 78 596 €) ne visaient que des notes de travail : aucun dossier publié ne les reprenait.
 ## Ce qui reste incertain
 
 - **Heures** : pour le seuil de chef d'exploitation, la loi convertit la surface en heures (L. 722-5, II) ; pour le quart de SMA, seule l'instruction de 2015 le fait dès qu'il y a vente, D. 731-34 non. Jamais jugé ; c'est l'incertitude qui pèse le plus.

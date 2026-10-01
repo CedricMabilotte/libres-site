@@ -4,7 +4,7 @@
 
 > **En bref**
 > - La gratuité ne fait pas sortir du droit sanitaire : la « mise sur le marché » couvre toute cession « à titre gratuit ou onéreux », par une entreprise « dans un but lucratif ou non » [1].
-> - Restent hors du paquet hygiène la production et la préparation pour un usage domestique privé, et les activités occasionnelles sans organisation [2][4].
+> - Restent hors du paquet hygiène la production et la préparation pour un usage domestique privé, et les activités occasionnelles sans organisation [2][14].
 > - Les œufs et le miel bruts cédés directement au consommateur en petites quantités relèvent de règles nationales allégées ; pour les fruits et légumes bruts, aucune règle nationale n'a été trouvée [2][5].
 > - Viande de boucherie : abattoir agréé obligatoire ; l'abattage familial ne sert que la famille de l'éleveur [7]. Volailles et lapins : tuerie à la ferme possible dans des limites strictes [6].
 > - Tout détenteur d'animaux, association comprise, doit se déclarer : volailles en mairie, ruches chaque année dès la première, ovins, caprins et bovins identifiés [9][10][11][13].
@@ -20,7 +20,7 @@ Une association qui cultive et distribue régulièrement sa récolte au-delà du
 Deux portes de sortie existent :
 
 - **L'usage domestique privé.** Le règlement (CE) n° 852/2004 ne s'applique ni « à la production primaire destinée à un usage domestique privé », ni à la préparation domestique pour la consommation domestique privée (art. 1er, 2, a et b) [2]. Un repas pris en commun par les membres qui ont cultivé s'en rapproche. Une distribution hebdomadaire à des dizaines d'adhérents s'en éloigne.
-- **L'activité occasionnelle.** Les règles visent les entreprises, ce qui suppose « une certaine continuité des activités et un certain degré d'organisation » (considérant 9) [2]. La Commission en tire que la manipulation occasionnelle d'aliments par des particuliers, lors d'une fête de village ou d'école par exemple, n'est pas couverte [4].
+- **L'activité occasionnelle.** Les règles visent les entreprises, ce qui suppose « une certaine continuité des activités et un certain degré d'organisation » (considérant 9) [2]. La Commission en tire que la manipulation occasionnelle d'aliments par des particuliers, lors d'une fête de village ou d'école par exemple, n'est pas couverte [14].
 
 Entre les deux, la zone grise est large : un collectif structuré, avec planning et distribution régulière, a toutes les chances d'être regardé comme une entreprise.
 
@@ -49,7 +49,7 @@ Un **produit primaire** est brut : légume, fruit, œuf, miel, lait. Dès qu'on 
 |---|---|---|---|
 | Fruits, légumes bruts | Remise directe en petites quantités | Hygiène de production primaire ; déclaration si activité régulière | 852/2004 [2] |
 | Conserves, confitures, pain | Règlement 852/2004 entier | Déclaration DDPP, plan d'hygiène | 852/2004 art. 6 [2][8] |
-| Œufs | Directe, sur place ou marché à 80 km | Déclaration, code producteur, registre | Arrêté 2009, ann. II [5][8] |
+| Œufs | Directe, au seul consommateur final (ni commerce, ni cantine) | Déclaration, code producteur, registre | Arrêté 2009, ann. II [5][8] |
 | Miel | Directe, limite de 30 ruches | Déclaration annuelle des ruches | Arrêté 2009, ann. III [5][11] |
 | Lait cru | Autorisation préfectorale | Cerfa 14788, analyses, étiquetage | Arrêté du 13 juillet 2012 [9] |
 | Volailles, lapins | Tuerie à la ferme (EANA) dans des limites | Déclaration Cerfa 13984 | 853/2004 art. 1er, 3, d [3][6] |
@@ -82,10 +82,10 @@ Ces déclarations ne disent rien du statut agricole de l'association, mais elles
 |---|---|---|
 | Repas collectif des membres | Usage domestique privé probable [2] | Aucune, hors déclaration des animaux |
 | Partage régulier entre adhérents | Zone grise : entreprise si organisation et continuité [2][4] | Déclaration DDPP prudente |
-| Fête annuelle, buvette | Activité occasionnelle, hors champ selon la Commission [4] | Aucune spécifique |
+| Fête annuelle, buvette | Activité occasionnelle, hors champ selon la Commission [14] | Aucune spécifique |
 | Don à une banque alimentaire | Mise sur le marché gratuite [1] | Traçabilité, convention [12] |
 | Prix libre régulier | Mise sur le marché [1] | Comme une vente directe |
-| Vente à un commerce local (80 km) | Remise directe, puis agrément au-delà | Déclaration, agrément ou dérogation [5] |
+| Vente à un commerce local | Produits animaux (œufs exclus) : remise directe à 80 km au plus, miel sous 30 ruches, puis agrément au-delà ; végétaux bruts : ni distance ni agrément [5] | Déclaration, agrément ou dérogation pour les produits animaux [5] |
 
 ## Ce qui reste incertain
 
@@ -111,3 +111,4 @@ Ces déclarations ne disent rien du statut agricole de l'association, mais elles
 11. Ministère de l'Agriculture, « La déclaration de ruches : chaque année du 1er septembre au 31 décembre ». https://agriculture.gouv.fr/la-declaration-de-ruches-du-1er-septembre-au-31-decembre ; démarche : https://mesdemarches.agriculture.gouv.fr/demarches/particulier/effectuer-une-declaration-55/article/declarer-des-ruches — repéré le 2026-10-01 (page non chargée).
 12. Instruction technique DGAL/SDSSA/2017-551 sur les dons alimentaires ; « Don alimentaire : les règles à respecter ». https://agriculture.gouv.fr/don-alimentaire-les-regles-respecter — repéré le 2026-10-01 (page non chargée).
 13. Préfecture des Landes, « Ovins et caprins : obligations du détenteur ». https://www.landes.gouv.fr/Services-de-l-Etat/Emploi.-Travail.-Solidarites-et-Protection-des-Populations/Service-Veterinaire-Sante-Protection-Animales-et-Environnement/Ovins-et-caprins-obligations-du-detenteur — repéré le 2026-10-01 (page non chargée ; obligations bovines et ovines citées d'après les règles générales, à vérifier).
+14. Commission européenne, document d'orientation sur l'application du règlement (CE) n° 852/2004, 18 juin 2012, § 3.8 et 6.2 : [DRAAF Occitanie](https://draaf.occitanie.agriculture.gouv.fr/IMG/pdf/documentorientation_application852_2004_cle8198b9.pdf), consulté le 2026-10-01.
