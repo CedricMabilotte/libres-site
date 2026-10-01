@@ -489,7 +489,19 @@ corps = f"""<h1>Méthode</h1>
 page("methode/", "Méthode", corps, "Critère d'entrée à cinq portes, dimensions, exclusions nommées, limites et sources de libres.")
 
 # ------------------------------------------------------------------ dossiers
+def insecables(h):
+    """Espaces insécables à la française, hors balises."""
+    p_ = re.split(r'(<[^>]+>)', h)
+    for i in range(0, len(p_), 2):
+        t = p_[i]
+        t = re.sub(r'« ', '«\u202f', t); t = re.sub(r' ([»;!?])', '\u202f\\1', t); t = t.replace(' :', '\u00a0:')
+        t = re.sub(r'(\d) (?=\d{3}\b)', '\\1\u202f', t); t = re.sub(r'(\d) (€|%|ha|ans)\b', '\\1\u00a0\\2', t)
+        t = re.sub(r'(?<!\S)(art\.|n°|§|p\.|al\.) ', '\\1\u00a0', t)
+        p_[i] = t
+    return "".join(p_)
 IMPRIMABLES = {"modele-ideal"}
+TETE_COURANTE = {"modele-ideal": "Marcher libres sur une terre libre"}
+THEAD_JS = """<script>class TheadRepete extends Paged.Handler{afterPageLayout(page,_p,_b,chunker){page.querySelectorAll("table[data-split-from]").forEach(t=>{if(t.querySelector("thead"))return;const s=chunker.source.querySelector(`[data-ref="${t.dataset.ref}"] thead`);if(s)t.insertBefore(s.cloneNode(true),t.firstChild);});}}Paged.registerHandlers(TheadRepete);</script>"""
 def imprimer(slug, titre, chap, html_):
     """Version A4 mise en page par Paged.js (dossiers/<slug>/imprimer/)."""
     try:
@@ -498,25 +510,84 @@ def imprimer(slug, titre, chap, html_):
         DATE_IMPR = "2026-10-01"
     from urllib.parse import urljoin
     html_ = re.sub(r'href="(\.\./[^"]*)"', lambda m: 'href="' + urljoin(f"{BASE}/dossiers/{slug}/", m.group(1)) + '"', html_)
+    html_ = re.sub(r'(id|href)="(#?)(\d[^"]*)"', r'\1="\2x\3"', html_)
+    html_ = re.sub(r'<h2( id="[^"]*")?>', r'<h2\1 class="rt">', html_)
+    html_ = re.sub(r'\s*<a [^>]*>Approfondir</a>\.?', '', html_)
+    html_ = re.sub(r',\s*consulté le 2026-10-01', '', html_)
+    html_ = re.sub(r'<table>(?=\s*<thead>\s*<tr>(?:\s*<th[^>]*>.*?</th>){6,})', '<table class="large">', html_, flags=re.S)
+    html_ = re.sub(r'<summary>.*?</summary>', '', html_, flags=re.S)
+    html_ = re.sub(r'<details([^>]*)>', r'<div\1>', html_).replace('</details>', '</div>')
+    html_ = insecables(html_)
+    ent = re.findall(r'<h([23]) id="([^"]+)"[^>]*>(.*?)</h\1>', html_, re.S)
     parts = re.split(r"(?=<h2)", html_)
-    out = [f'<section class="couverture"><p class="sur">libres · dossier</p><h1>{E(titre)}</h1><p class="chapeau">{E(chap)}</p>{parts[0]}<p class="pied-couv">libres.actitude.org/dossiers/{slug}/ · version du {DATE_IMPR} · CC BY-NC-SA 4.0<br>Information juridique générale, pas un conseil.</p></section>']
+    tete = parts[0]
+    av = re.search(r'<p><strong>Avertissement\.</strong>.*?</p>', tete, re.S)
+    avert = av.group(0).replace("<p>", '<p class="avert">', 1) if av else ""
+    if av:
+        tete = tete.replace(av.group(0), "", 1)
+    tete = tete.replace("<blockquote>", '<blockquote class="bref">', 1).replace("<p><strong>En bref</strong></p>", '<p class="bref-titre">En bref</p>', 1)
+    mode = ('<p class="mode">Les numéros en exposant renvoient aux sources numérotées en fin de document ; chaque source est rappelée en bas de page à sa première citation. '
+            'Les termes soulignés de pointillés sont définis au lexique.</p>')
+    out = [f'<section class="couverture"><p class="sur">libres · dossier</p><h1>{E(titre)}</h1><p class="chapeau">{E(chap)}</p>{tete}{avert}{mode}<p class="pied-couv">libres.actitude.org/dossiers/{slug}/ · version du {DATE_IMPR} · CC BY-NC-SA 4.0</p></section>']
+    out.append('<section class="sommaire"><p class="sur">Sommaire</p><ol class="toc">' + "".join(f'<li class="t{n}"><a href="#{i}">{re.sub(r"<[^>]+>", "", x)}</a></li>' for n, i, x in ent) + '</ol></section>')
     for c in parts[1:]:
-        h = re.match(r"<h2[^>]*>(.*?)</h2>", c, re.S); t = h.group(1) if h else ""
-        cls = "matrice" if "matrice" in t.lower() else ("dims" if "dimension par dimension" in t.lower() else "partie")
-        if cls == "dims":
-            bl = re.split(r"(?=<h3)", c)
-            c = bl[0] + "".join(f'<div class="fiche">{x}<div class="notes" aria-hidden="true">Notes de l\'assemblée</div></div>' for x in bl[1:])
+        h = re.match(r"<h2[^>]*>(.*?)</h2>", c, re.S); tl = re.sub(r"<[^>]+>", "", h.group(1) if h else "").strip().lower()
+        cls = "lexique" if tl == "lexique" else "sources" if tl == "sources" else "matrice" if ("matrice" in tl or "grille" in tl) else "partie"
         out.append(f'<section class="{cls}">{c}</section>')
+    tc = TETE_COURANTE.get(slug, titre.split(" : ")[0])
+    style = (f'<style>@page{{@top-left{{content:"libres · {tc}";font:600 7.5pt var(--sans);color:#8A5F1E;letter-spacing:.04em;text-transform:uppercase}}'
+             f'@bottom-left{{content:"libres.actitude.org · version du {DATE_IMPR} · information juridique générale, pas un conseil";font:400 7pt var(--sans);color:#58534A}}}}</style>')
     doc = f"""<!doctype html>
 <html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{E(titre)} — libres (A4)</title><meta name="robots" content="noindex"><link rel="canonical" href="{BASE}/dossiers/{slug}/">
-<link rel="stylesheet" href="../../../assets/imprimer.css">
-<script>window.PagedConfig={{auto:true}};</script><script src="../../../assets/paged.polyfill.min.js"></script>
+<link rel="stylesheet" href="../../../assets/imprimer.css">{style}
+<script>window.PagedConfig={{auto:true}};</script><script src="../../../assets/paged.polyfill.min.js"></script>{THEAD_JS}
 </head><body><p class="ecran-seul"><a href="../">← retour au dossier</a> · Imprimer en A4 (Ctrl+P, marges « aucune »)</p>
 <article class="impr">{''.join(out)}</article></body></html>"""
     d = OUT / "dossiers" / slug / "imprimer"; d.mkdir(parents=True, exist_ok=True)
     (d / "index.html").write_text(doc, encoding="utf-8")
 import markdown as _md
+def lier_notes(h):
+    """Appels [n] -> exposant lié directement à l'URL de la source n + note de bas de page (impression, 1re occurrence)."""
+    m = re.search(r'<h2[^>]*>Sources</h2>', h)
+    if not m:
+        return h
+    corps, src = h[:m.start()], h[m.start():]
+    src = re.sub(r'(?<!["=>])(https?://[^\s<>"]+[^\s<>".,;:)])', r'<a href="\1" rel="noopener">\1</a>', src)
+    ol = re.search(r'<ol>(.*?)</ol>', src, re.S)
+    if not ol:
+        return corps + src
+    items = re.findall(r'<li>(.*?)</li>', ol.group(1), re.S)
+    notes = {}
+    for i, it in enumerate(items, 1):
+        u = re.search(r'href="(https?://[^"]+)"', it)
+        lg = re.search(r'(LEGIARTI\d{12})', it)
+        notes[i] = (u.group(1) if u else (f"https://www.legifrance.gouv.fr/codes/article_lc/{lg.group(1)}" if lg else None), it)
+    k = iter(range(1, len(items) + 1))
+    src = re.sub(r'(?<![/">])(LEGIARTI\d{12})', r'<a href="https://www.legifrance.gouv.fr/codes/article_lc/\1" rel="noopener">\1</a>', src)
+    ol = re.search(r'<ol>(.*?)</ol>', src, re.S)
+    src = src[:ol.start()] + "<ol>" + re.sub(r'<li>', lambda _: f'<li id="s-{next(k)}">', ol.group(1)) + "</ol>" + src[ol.end():]
+    vus = set()
+    d0 = corps.find('<h2')
+    def court(txt):
+        t = re.sub(r"<[^>]+>", "", txt)
+        t = re.split(r"\s:\s", t, 1)[0]
+        t = re.sub(r"\s*\([^)]*\)", "", t)
+        return t.rstrip(" .") + "."
+    def rep(mm):
+        liens, fns = [], []
+        for n in map(int, re.findall(r"\d+", mm.group(1))):
+            if n not in notes:
+                err(f"note [{n}] sans source"); continue
+            url, txt = notes[n]
+            titre = E(re.sub(r"<[^>]+>", "", txt))[:300]
+            liens.append(f'<a href="{url or f"#s-{n}"}" title="{titre}"' + (' rel="noopener"' if url else "") + f'>{n}</a>')
+            if n not in vus and mm.start() > d0:
+                vus.add(n); fns.append(f'<span class="fn"><b>{n}.</b> {court(txt)}</span>')
+        return '<sup class="appel">' + '<span class="sep">,</span>'.join(liens) + '</sup>' + "".join(fns)
+    corps = re.sub(r'[ \u00a0]*(\[\d{1,3}\](?:[ \u00a0]*\[\d{1,3}\])*)', rep, corps)
+    corps = re.sub(r'([^\s<>]+)(<sup class="appel">.*?</sup>)', r'<span class="nw">\1\2</span>', corps)
+    return corps + src
 DOSSIERS_ORDRE = ["modele-ideal", "association-agricole", "association-ig-benevole", "rescrits-et-prises-de-position", "sous-les-seuils", "voies-communautaires", "defendre-le-modele", "chef-d-exploitation", "autorisation-d-exploiter", "benevolat-et-recolte",
                   "accident-et-assurance", "fiscalite-et-prix-libre", "aliments-hors-marche", "foncier-commodat-bail", "oacas-et-communautes",
                   "habitat-et-urbanisme", "formes-voisines", "documenter-un-cas"]
@@ -531,9 +602,10 @@ for slug in _ordre:
     body = src[m.end():] if m else src
     if c:
         body = body.replace(c.group(0), "", 1)
-    html_ = _md.markdown(body, extensions=["tables"])
+    html_ = _md.markdown(body, extensions=["tables", "toc"])
     html_ = re.sub(r'<a href="(https?://[^"]+)"', r'<a href="\1" rel="noopener"', html_)
     html_ = re.sub(r'href="(?:\./)?([a-z0-9-]+)\.md(#[^"]*)?"', lambda m: 'href="../' + m.group(1) + '/' + (m.group(2) or "") + '"', html_)
+    html_ = lier_notes(html_)
     i = _ordre.index(slug)
     nav_ = ('<p class="petit">' + (f'<a href="../{_ordre[i-1]}/">← dossier précédent</a>' if i > 0 else "") +
             (" · " if 0 < i < len(_ordre) - 1 else "") + (f'<a href="../{_ordre[i+1]}/">dossier suivant →</a>' if i < len(_ordre) - 1 else "") + "</p>")

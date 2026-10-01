@@ -5,13 +5,11 @@
 @font-face{font-family:"IBM Plex Sans";src:url(fonts/ibm-plex-sans-latin-600-normal.woff2) format("woff2");font-weight:600}
 :root{--encre:#22201B;--encre-2:#58534A;--filet:#D6CDB8;--brique:#A8451A;--ocre:#8A5F1E;--sable:#ECE6D6;--sans:"IBM Plex Sans",system-ui,sans-serif}
 @page{size:A4;margin:20mm 18mm 20mm 20mm;
-  @top-left{content:"libres · Modèle cible";font:600 7.5pt var(--sans);color:#8A5F1E;letter-spacing:.04em;text-transform:uppercase}
   @top-right{content:string(sect);font:400 7.5pt var(--sans);color:#58534A}
-  @bottom-right{content:counter(page) " / " counter(pages);font:400 7.5pt var(--sans);color:#58534A}
-  @bottom-left{content:"libres.actitude.org · information juridique générale, pas un conseil";font:400 7pt var(--sans);color:#6E685C}}
-@page:first{@top-left{content:none}@top-right{content:none}}
+  @bottom-right{content:counter(page) " / " counter(pages);font:400 7.5pt var(--sans);color:#58534A}}
+@page:first{@top-left{content:none}@top-right{content:none}@bottom-left{content:none}@bottom-right{content:none}}
 html{background:#d9d4c7}
-body{margin:0;color:var(--encre);font:9.6pt/1.45 "Source Serif 4",Georgia,serif;font-optical-sizing:auto;hyphens:auto;-webkit-hyphens:auto}
+body{margin:0;color:var(--encre);font:10pt/1.45 "Source Serif 4",Georgia,serif;font-optical-sizing:auto;hyphens:auto;-webkit-hyphens:auto}
 a{color:var(--brique);text-decoration:none;overflow-wrap:anywhere}
 li,p,td{overflow-wrap:break-word}
 .ecran-seul{font:400 10pt var(--sans);padding:.6rem 1rem;margin:0}
@@ -22,15 +20,14 @@ li,p,td{overflow-wrap:break-word}
 .couverture h1{font-size:23pt;line-height:1.12;font-weight:650;margin:22mm 0 6mm;color:var(--encre);border-top:3px solid #E2622E;padding-top:6mm}
 .couverture .chapeau{font-style:italic;font-size:11pt;line-height:1.45;color:var(--encre-2);margin:0 0 8mm}
 .couverture blockquote{margin:0;padding:4mm 5mm;background:var(--sable);border-left:3px solid var(--brique)}
-.couverture blockquote p{margin:0 0 2mm;font:600 9pt var(--sans)}
+.couverture blockquote p{margin:0 0 2mm;font:inherit}
 .couverture blockquote ul{margin:0;padding-left:4.5mm}
 .couverture blockquote li{margin:0 0 1.6mm}
-.pied-couv{font:400 7.5pt var(--sans);color:#6E685C;margin-top:8mm}
-h2{font:600 13pt/1.25 var(--sans);color:var(--brique);margin:0 0 4mm;string-set:sect content(text);break-after:avoid}
-section.partie,section.dims,section.matrice{break-before:page}
-section.partie+section.partie{break-before:auto}
+.pied-couv{font:400 7.5pt var(--sans);color:#58534A;margin-top:8mm}
+h2{font:600 13pt/1.25 var(--sans);color:var(--brique);margin:0 0 4mm;break-after:avoid}
+.rt{string-set:sect content(text)}
 section.partie+section.partie h2{margin-top:7mm}
-h3{font:600 10.5pt/1.3 var(--sans);margin:5mm 0 2mm;break-after:avoid;string-set:sect content(text)}
+h3{font:600 10.5pt/1.3 var(--sans);margin:5mm 0 2mm;break-after:avoid}
 .dims .fiche{break-before:page}
 .dims h2+.fiche{break-before:auto}
 .notes{margin-top:6mm;height:62mm;border-top:.5pt solid var(--filet);font:400 7pt var(--sans);color:#8C8576;padding-top:1.5mm;background:repeating-linear-gradient(to bottom,transparent 0,transparent 7.6mm,#E2DBC9 7.6mm,#E2DBC9 7.9mm);break-inside:avoid}
@@ -47,3 +44,45 @@ tr{break-inside:avoid}
 .matrice table{font-size:7.6pt}
 .matrice td:first-child{font-weight:600;width:11%}
 .matrice p{font-size:8pt;text-align:left}
+
+.fn{float:footnote;display:block;font:400 6.8pt/1.3 var(--sans);color:#3d3a33;text-align:left}
+::footnote-call{content:none}
+::footnote-marker{content:none}
+@page{@footnote{border-top:.5pt solid #D6CDB8;padding-top:1.5mm;margin-top:3mm}}
+
+/* révision graphiste 2026-10-01 */
+@font-face{font-family:"IBM Plex Sans";src:url(fonts/ibm-plex-sans-latin-500-normal.woff2) format("woff2");font-weight:500}
+section.sommaire,section.sommaire+section{break-before:page}
+section.matrice{break-before:page;break-after:page}
+section.lexique{break-before:page}
+section.partie+section.partie h2,section.lexique+section.sources h2{margin-top:7mm}
+section.partie>:not(table),section.lexique>*,section.sources>*,section.matrice>:not(table){max-width:132mm}
+sup.appel{font:400 6.6pt/0 var(--sans);margin-left:.5pt}
+sup.appel a{color:var(--brique)}
+sup.appel .sep{color:var(--encre-2);margin-right:.6pt}
+.fn{max-width:132mm}
+th,td{overflow-wrap:break-word;hyphens:auto}
+td a{overflow-wrap:anywhere}
+th:first-child,td:first-child{hyphens:manual}
+summary{display:none}
+details{display:block}
+table.large td,table.large th{min-width:13mm}
+table.large{font-size:7.2pt}
+table.large th,table.large td{padding:1mm 1.1mm}
+.couverture h1{margin-top:14mm}
+.couverture .bref-titre{font:600 8pt var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--ocre);margin:0 0 3mm}
+.couverture blockquote li{margin:0 0 1.8mm;text-align:left}
+.couverture .avert,.couverture .mode{font:400 7.8pt/1.45 var(--sans);color:var(--encre-2);text-align:left;margin:6mm 0 0;padding-top:2.5mm;border-top:.5pt solid var(--filet)}
+.couverture .mode{margin-top:2mm;border:0;padding:0}
+.couverture .avert strong{font-weight:600;color:var(--encre)}
+.pied-couv{margin-top:3mm;color:var(--encre-2)}
+.toc{list-style:none;margin:0;padding:0;font:400 9pt/1.35 var(--sans)}
+.toc li{margin:0}
+.toc .t2{font-weight:600;margin-top:2.6mm}
+.toc .t3{padding-left:7mm;font-size:8.4pt;color:var(--encre-2)}
+.toc a{display:block;position:relative;padding-right:12mm;color:inherit}
+.toc a::after{content:target-counter(attr(href url),page);position:absolute;right:0;top:0;font-variant-numeric:tabular-nums}
+a[href^="#g-"]{color:inherit;text-decoration:underline dotted var(--brique);text-decoration-thickness:.7pt;text-underline-offset:1.6pt;text-decoration-skip-ink:none}
+.nw{white-space:nowrap}
+div.matrice table{font-size:6.9pt}
+div.matrice th,div.matrice td{padding:.8mm 1mm}

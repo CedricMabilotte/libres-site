@@ -11,3 +11,7 @@
 - 2026-10-01 : Paged.js 0.4 n'applique pas une taille de page nommée différente (@page matrice { size: A4 landscape }) : toutes les pages restent au format du premier @page. Matrice gardée en portrait.
 - 2026-10-01 : la version imprimable vit un niveau plus bas que le dossier : ses liens relatifs sont réécrits en URL absolues (utile aussi dans le PDF).
 - 2026-10-01 : un texte juridique écrit comme « montage qui évite les qualifications » fournit à l'adversaire l'élément intentionnel ; écrire la qualification revendiquée et les pièces remises sur demande.
+- 2026-10-01 : Paged.js (target-counter, querySelector) plante sur les id qui commencent par un chiffre (ids « 1-… » de l'extension toc) : préfixer les id et les href internes dans la version imprimée.
+- 2026-10-01 : un <details> fermé reste fermé à l'impression ; le convertir en <div> et retirer <summary> dans la version imprimée.
+- 2026-10-01 : overflow-wrap:anywhere sur les cellules casse les nombres (« 20/30 ») ; le réserver aux liens.
+- 2026-10-01 : un workflow en arrière-plan survit à une reprise de session ; vérifier son état avant de le croire mort (journal.jsonl), puis TaskStop avant resume.

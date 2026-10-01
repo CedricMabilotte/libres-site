@@ -63,3 +63,13 @@
 - Durcissement @contradicteur intégré : le lieu revendique sa qualification au lieu d'éviter les contrôles ; liste des adhérents remise sur demande ; le quart de SMA borne l'affiliation, pas la requalification en salariat.
 - Version A4 Paged.js (`/dossiers/modele-ideal/imprimer/`, 17 pages, une fiche par dimension avec espace de notes d'assemblée) et PDF `assets/pdf/modele-ideal.pdf` produit par `scripts/imprimer.py` (Playwright). Polyfill Paged.js 0.4.3 (MIT) embarqué localement.
 - Reste : corps ~4 500 mots (au-dessus de la cible 4 000) ; questions renvoyées au §9 (taille minimale du groupe, calendrier saisonnier, parcours d'arrivée/départ, reprise du commodat en veille, régime de la donation d'immeuble).
+
+## 2026-10-01 — dossier « modèle cible » v2 : trois parties (workflow, 27 agents)
+- Consignes de Ced : philosophie concrète « marcher libres sur une terre libre » ; nue-propriété en fonds de dotation ; communs et droits d'usage par groupe bénéficiaire ; dons acceptables par soin et pédagogie ; lexique et notes liées ; références associatives strictes ; cas idéal « possible » ; puis modèle à trois parties (fonds de dotation, association socioculturelle, association agricole).
+- Verdict : raisonnable sous sept conditions (titres directs fonds → associations, gratuité stricte, deux associations d'intérêt général, séparation réelle et non-cumul, toute la culture dans l'agricole, argent public seulement à la socioculturelle, groupe d'au moins ~15 réguliers ; sinon variante à deux parties).
+- Titres : commodat écrit de 30 ans puis droit réel de jouissance spéciale daté (Maison de Poésie, Cass. 3e civ. 2012, 2016) si un rescrit en écarte le coût ; usufruit écarté (taxé comme libéralité). ORE de 99 ans. Accord SAFER requis 10 ans en cas de rétrocession (R. 142-1).
+- Cas fictif « Les Communaux du Bief » (Gâtine, 3 ha, ~150 000 € de collecte, 6 500 à 16 500 €/an, frise 2027-2058). Faisceau de droits × 10 groupes ; tableau des gestes permis, à risque, exclus.
+- 116 sources, lexique de 38 entrées ; notes : appel lié directement à la source + note courte en bas de page à l'impression.
+- Recherche : recherche/M2-R1 à R7 ; v1 dans recherche/modele-ideal-v1.md.
+- Mise en page revue par @graphiste : colonne de 132 mm à 10 pt, sommaire paginé, couverture (En bref seul, avertissement au pied), appels collés et regroupés, notes courtes, en-têtes de tableau répétés, termes du lexique soulignés en pointillé, grille sur sa propre page, insécables. PDF 32 p.
+- Reste : gabarit d'identité imprimé (niveaux 2 et 3, identite-libres.yaml sans bloc `imprime:`) à décider ; contacts à prendre (questions rédigées dans M2-R3).
