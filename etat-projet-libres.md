@@ -73,3 +73,8 @@
 - Recherche : recherche/M2-R1 à R7 ; v1 dans recherche/modele-ideal-v1.md.
 - Mise en page revue par @graphiste : colonne de 132 mm à 10 pt, sommaire paginé, couverture (En bref seul, avertissement au pied), appels collés et regroupés, notes courtes, en-têtes de tableau répétés, termes du lexique soulignés en pointillé, grille sur sa propre page, insécables. PDF 32 p.
 - Reste : gabarit d'identité imprimé (niveaux 2 et 3, identite-libres.yaml sans bloc `imprime:`) à décider ; contacts à prendre (questions rédigées dans M2-R3).
+
+## 2026-10-01 — dossier « Vendre, échanger, troquer » (workflow, 21 agents)
+- Périmètre de l'association agricole du montage à trois parties : 24 seuils datés 2025/2026, matrice de 22 gestes × 8 régimes, échelle de paliers 0 (donner) à 4 (jamais), clauses de statuts par palier, fiches fête de soutien / graines et greffons / foin, Communaux du Bief recalculés (≈ 1 730 € de ventes et troc par an, IS de 0 à ≈ 350 €), effets sur le fonds et la socioculturelle. 85 sources, 26 entrées de lexique. Notes : recherche/V-R1 à V-R8.
+- Seuils clés : franchise lucrative 80 011 € (TVA 2025) / 81 051 € (2026) ; 6 manifestations de soutien ; ventes aux membres ≤ 10 % ; revenus agricoles d'une association à l'IS 24 % sans franchise ; TVA agricole au-delà de 46 000 € ; heures de vente comptées par la MSA (instruction 2015-370) ; L. 442-7 C. com. (vente prévue aux statuts).
+- Huit corrections à reporter dans les dossiers voisins : listées au dossier (§ « corrections à reporter »).

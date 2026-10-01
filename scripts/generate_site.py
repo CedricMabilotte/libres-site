@@ -499,8 +499,8 @@ def insecables(h):
         t = re.sub(r'(?<!\S)(art\.|n°|§|p\.|al\.) ', '\\1\u00a0', t)
         p_[i] = t
     return "".join(p_)
-IMPRIMABLES = {"modele-ideal"}
-TETE_COURANTE = {"modele-ideal": "Marcher libres sur une terre libre"}
+IMPRIMABLES = {"modele-ideal", "vendre-echanger-troquer"}
+TETE_COURANTE = {"modele-ideal": "Marcher libres sur une terre libre", "vendre-echanger-troquer": "Vendre, échanger, troquer"}
 THEAD_JS = """<script>class TheadRepete extends Paged.Handler{afterPageLayout(page,_p,_b,chunker){page.querySelectorAll("table[data-split-from]").forEach(t=>{if(t.querySelector("thead"))return;const s=chunker.source.querySelector(`[data-ref="${t.dataset.ref}"] thead`);if(s)t.insertBefore(s.cloneNode(true),t.firstChild);});}}Paged.registerHandlers(TheadRepete);</script>"""
 def imprimer(slug, titre, chap, html_):
     """Version A4 mise en page par Paged.js (dossiers/<slug>/imprimer/)."""
@@ -588,7 +588,7 @@ def lier_notes(h):
     corps = re.sub(r'[ \u00a0]*(\[\d{1,3}\](?:[ \u00a0]*\[\d{1,3}\])*)', rep, corps)
     corps = re.sub(r'([^\s<>]+)(<sup class="appel">.*?</sup>)', r'<span class="nw">\1\2</span>', corps)
     return corps + src
-DOSSIERS_ORDRE = ["modele-ideal", "association-agricole", "association-ig-benevole", "rescrits-et-prises-de-position", "sous-les-seuils", "voies-communautaires", "defendre-le-modele", "chef-d-exploitation", "autorisation-d-exploiter", "benevolat-et-recolte",
+DOSSIERS_ORDRE = ["modele-ideal", "vendre-echanger-troquer", "association-agricole", "association-ig-benevole", "rescrits-et-prises-de-position", "sous-les-seuils", "voies-communautaires", "defendre-le-modele", "chef-d-exploitation", "autorisation-d-exploiter", "benevolat-et-recolte",
                   "accident-et-assurance", "fiscalite-et-prix-libre", "aliments-hors-marche", "foncier-commodat-bail", "oacas-et-communautes",
                   "habitat-et-urbanisme", "formes-voisines", "documenter-un-cas"]
 _dd = ROOT / "docs" / "dossiers"

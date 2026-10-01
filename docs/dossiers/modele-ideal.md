@@ -293,6 +293,8 @@ Quatre règles fondent le tableau. D'abord, la pédagogie n'est pas une tutelle 
 | Accès réservé aux membres | exclu | cercle restreint | — |
 | Récolte dans une offre payante | exclu | vente, lucrativité | — |
 
+Ce que l'association agricole peut tout de même céder, et à quelles conditions, est détaillé dans [ce que l'association agricole peut vendre, échanger ou troquer](../vendre-echanger-troquer/).
+
 Contre-exemple : les « jeudis du kiff » de la [Ferme de l'Oseraie](../../f/ferme-de-l-oseraie/), chantiers ouverts où les participants reçoivent des légumes gratuits ou à prix libre : le légume y devient la contrepartie du travail.
 **Ce que reçoivent ceux qui cultivent.** Rien de plus que le public : une place dans la décision, un geste appris, un repas partagé. C'est sans doute la première cause de départ ; aucun cas du corpus ne le confirme, c'est une hypothèse, suivie chaque année parmi les critères du [§ 10](#10-juger-le-lieu-sans-rendement-et-ce-qui-fait-tenir-trente-ans) (départs et leurs raisons).
 
