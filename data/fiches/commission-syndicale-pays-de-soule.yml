@@ -1,0 +1,145 @@
+# data/fiches/commission-syndicale-pays-de-soule.yml — instruit le 2026-10-01
+uid: commission-syndicale-pays-de-soule
+nom: Commission syndicale du Pays de Soule
+autres_noms:
+- Xiberoko Zindikata
+- Estives indivises de Soule
+famille: commun_foncier
+resume: Estives, pâturages et forêts indivis entre 43 communes de Soule (Pays basque), gérés en commun depuis la création de la commission syndicale en juin 1838, en application de la loi de juillet 1837, sur des terres régies par la coutume de Soule de 1520. Le territoire couvre 14 132 hectares, entre 600 et 2 017 mètres, pour moitié pâturages et pour moitié forêts. En 2018, 232 éleveurs y estivaient près de 6 000 unités de bétail autour de 43 cayolars, cabanes pastorales tenues en indivision par des sociétés d'éleveurs. La commission emploie 19 équivalents temps plein et gère aussi 35 chalets locatifs à Iraty.
+localisation:
+  commune: Mauléon-Licharre
+  departement: '64'
+  region: Nouvelle-Aquitaine
+  lat: 43.214
+  lon: -0.8842
+debut: 1838
+fin: null
+collectif:
+  nom: Commission syndicale du Pays de Soule
+  forme: personne_publique
+  annee: 1838
+foncier:
+  porteur: Les 43 communes souletines, en indivision
+  porteur_forme: personne_publique
+  surface_ha: 14132
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: heritage
+    note: Terres communes régies par la coutume de Soule de 1520, transmises aux communes et gérées en indivision depuis 1838.
+    source: 2
+  titre:
+    valeur: propriete
+    note: Propriété indivise des communes ; les cayolars et un terrain adjacent sont, depuis 1881, en pleine propriété indivise des éleveurs, avec droit de pacage.
+    source: 2
+  verrou:
+    valeur:
+    - inconnu
+    note: Aucune inaliénabilité publiée ; les estives sont gérées par conventions d'occupation du domaine privé.
+    source: 2
+  gouvernance:
+    valeur: conseil_delegue
+    note: Assemblée plénière de 43 élus, dont 25 agriculteurs ; règlement domanial des estives.
+    source: 2
+  economie:
+    valeur: revenus_individuels_externes
+    note: Les éleveurs vivent de leurs exploitations ; la commission emploie 19 équivalents temps plein pour un budget de plus de 3 millions d'euros.
+    source: 2
+  ouverture:
+    valeur: ouvert_public
+    note: Montagne parcourue, tourisme encadré (35 chalets locatifs à Iraty).
+    source: 1
+  finalite:
+    valeur:
+    - agriculture
+    - milieu_vivant
+    note: Agropastoralisme, sylviculture, préservation des milieux et des paysages.
+    source: 2
+  filiation:
+    valeur:
+    - inconnu
+    note: Gestion coutumière antérieure aux filiations du cadre.
+    source: null
+  rapport_etat:
+    valeur: inconnu
+    note: Institution de droit public ; la source signale un « flou bien commun / bien public ».
+    source: 2
+  echelle:
+    valeur: plus_200
+    note: 232 éleveurs en 2018 ; plus de 150 éleveurs autour des cayolars.
+    source: 1
+  transmission:
+    valeur: generations_renouvelees
+    note: Gestion continue depuis 1838.
+    source: 1
+  etat:
+    valeur: actif
+    note: Présentée au colloque du Sénat sur les communs fonciers (21 octobre 2022).
+    source: 2
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: partiel
+    note: Personne morale de droit public (CGCT, art. L. 5222-1) gérant un commun pastoral coutumier ; aucune forme civile dans la chaîne, sauf les sociétés de cayolar.
+    source: 3
+  foncier_verrouille:
+    valeur: partiel
+    note: Indivision intercommunale continue depuis 1838 ; aucun verrou d'inaliénabilité publié.
+    source: 2
+  usage_ig:
+    valeur: partiel
+    note: Usage pastoral partagé et ouvert, mais exercé par des éleveurs professionnels pour leur production.
+    source: 2
+  autogestion:
+    valeur: partiel
+    note: Délégués des conseils municipaux, majoritairement agriculteurs ; les usagers ne décident pas en tant que tels.
+    source: 2
+  etabli:
+    valeur: oui
+    note: Gestion continue depuis 1838.
+    source: 1
+chronologie:
+- annee: 1520
+  evenement: 'Coutume de Soule : parcours pastoraux sur les terres communes.'
+  source: 2
+- annee: 1838
+  evenement: Création de la commission syndicale (juin), en application de la loi de juillet 1837.
+  source: 1
+- annee: 1881
+  evenement: Titres d'affièvement des cayolars transformés en titres de propriété indivise.
+  source: 2
+- annee: 2018
+  evenement: 232 éleveurs, près de 6 000 unités de bétail.
+  source: 1
+- annee: 2022
+  evenement: Présentation au colloque « La relance des communs fonciers » (Sénat, 21 octobre).
+  source: 2
+fiabilite:
+  verifie:
+  - Création en 1838
+  - 14 132 ha, 43 communes
+  - Assemblée de 43 élus dont 25 agriculteurs
+  non_confirme:
+  - Mode d'attribution des estives et tarifs
+  - Place exacte des groupements pastoraux
+dossier_juridique: 'Biens indivis entre communes : CGCT, art. L. 5222-1 et suivants (issus de la loi de 1837), personne morale de droit public administrée par une commission syndicale de délégués des conseils municipaux, présidée par un syndic. Les éleveurs peuvent s''organiser en groupements pastoraux (C. rur., art. L. 113-3 : société, association, syndicat ou GIE, agrément préfectoral, durée minimale de neuf ans) ; ils restent individuellement exploitants affiliés à la MSA. Les droits d''usage (pacage, affouage, soutrage) relèvent du code civil (art. 625 et suivants, cités par la commission).'
+liens:
+  communs: null
+sources:
+- titre: 'Communs de la nature : Commission syndicale de Soule'
+  auteur: Les communs (wiki)
+  annee: null
+  url: https://yeswiki.lescommuns.org/communsnaturels/LaCommissionSyndicaleDeSoule
+- titre: La gestion collective au cœur du système souletin
+  auteur: Coralie Artano Garmendia (EHMEB), colloque du Sénat
+  annee: 2022
+  url: https://www.fac-droit.univ-smb.fr/wp-content/uploads/2023/02/4-2-Coralie-Artano-Gestion-collective-Pays-de-Soule.pdf
+- titre: Code général des collectivités territoriales, art. L. 5222-1
+  auteur: Légifrance
+  annee: 2005
+  url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006393271
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

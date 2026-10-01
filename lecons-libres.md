@@ -5,3 +5,6 @@
 - 2026-09-30 : garde-fou provenance : « Claude » matche « Saint-Claude » → motif `(?<!Saint-)\bClaude\b`.
 - 2026-09-30 : le transfert de fichiers device→cloud (stage) a échoué toute la session ; tout le travail s'est fait sur la machine de Ced (python, playwright, gh présents).
 - 2026-09-30 : un commit a poussé une fiche YAML invalide (« : » dans un scalaire non quoté) → CI en échec. Hook pre-commit local ajouté (générateur obligatoire) ; éditer les fiches par yaml.safe_load/dump plutôt que par remplacement de texte.
+- 2026-10-01 : les numéros d'arrêts du blog kohenavocats.fr sont faux ou sans rapport : ne jamais citer une décision sans l'avoir vue sur Judilibre/Juricaf.
+- 2026-10-01 : collèges successifs (recherche parallèle → lecture critique par les voix → comblement ciblé → vérification) : la lecture critique a trouvé les erreurs que la recherche ne voyait pas (jardins familiaux = parcelles individuelles ; partage de la récolte = avantage en nature ; société créée de fait).
+- 2026-10-01 : liens .md entre dossiers convertis en ../slug/ par le générateur ; tableaux et URL longues : overflow-wrap:anywhere sur mobile.

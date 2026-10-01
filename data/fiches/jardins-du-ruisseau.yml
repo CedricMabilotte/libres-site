@@ -1,0 +1,145 @@
+# data/fiches/jardins-du-ruisseau.yml — instruit le 2026-10-01
+uid: jardins-du-ruisseau
+nom: Les Jardins du Ruisseau
+autres_noms:
+- Les amis des Jardins du Ruisseau
+famille: commun_foncier
+resume: 'Jardin partagé d''environ 1,5 hectare sur le quai et les talus de l''ancienne Petite Ceinture, porte de Clignancourt (Paris 18e). Proposé dès 1998 par des riverains, porté à partir d''octobre 2000 par une association, le projet obtient l''accord de la SNCF, de l''État et de la Ville et les jardins sont inaugurés en juin 2004. Le terrain appartient à SNCF Réseau ; la Ville de Paris le loue, l''a aménagé et en a confié la gestion exclusive à l''association par convention. Rucher, poulailler, vigne, mare, compost, accueil des écoles : l''un des premiers jardins partagés parisiens, adhérent de la charte Main Verte.'
+localisation:
+  commune: Paris 18e Arrondissement
+  departement: '75'
+  region: Île-de-France
+  lat: 48.8919
+  lon: 2.3487
+debut: 2004
+fin: null
+collectif:
+  nom: Les Jardins du Ruisseau
+  forme: association
+  annee: 2000
+foncier:
+  porteur: SNCF Réseau (propriétaire), Ville de Paris (locataire)
+  porteur_forme: societe_commerciale
+  surface_ha: 1.5
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: bail_public
+    note: Terrain loué par la Ville de Paris à SNCF Réseau, puis confié à l'association par une convention de gestion exclusive.
+    source: 2
+  titre:
+    valeur: convention
+    note: Convention de gestion exclusive signée entre la Ville et l'association ; durée non publiée.
+    source: 2
+  verrou:
+    valeur:
+    - aucun
+    note: Aucun verrou publié ; le titre dépend d'une location de la Ville et d'une convention.
+    source: 2
+  gouvernance:
+    valeur: conseil_delegue
+    note: Conseil d'administration de neuf bénévoles élus pour trois ans par l'assemblée générale annuelle ; bureau désigné en son sein.
+    source: 2
+  economie:
+    valeur: activites_non_marchandes
+    note: Association d'adhérents ; une salariée coordinatrice depuis mai 2016.
+    source: 2
+  ouverture:
+    valeur: ouvert_public
+    note: Visites, animations pédagogiques pour les écoles, événements culturels.
+    source: 2
+  finalite:
+    valeur:
+    - agriculture
+    - education_populaire
+    - milieu_vivant
+    note: Jardinage, éducation à l'environnement, rucher, mare, refuges à insectes, aucun produit phytosanitaire.
+    source: 2
+  filiation:
+    valeur:
+    - inconnu
+    note: Initiative de riverains ; aucune filiation revendiquée trouvée.
+    source: null
+  rapport_etat:
+    valeur: conventionnement
+    note: Projet examiné par la commission extra-municipale sur la Petite Ceinture (1998-2000), aménagé par les services des parcs et jardins de la Ville.
+    source: 1
+  echelle:
+    valeur: plus_200
+    note: 350 membres individuels et 13 membres partenaires en 2016.
+    source: 2
+  transmission:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  etat:
+    valeur: actif
+    note: Site de l'association à jour (2021).
+    source: 1
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: non
+    note: 'Collectif associatif, mais le propriétaire SNCF Réseau est une société anonyme (à capitaux publics depuis 2020) ; la Ville n''est que locataire : maillon commercial.'
+    source: 3
+  foncier_verrouille:
+    valeur: non
+    note: Location de la Ville et convention de gestion ; aucun verrou opposable.
+    source: 2
+  usage_ig:
+    valeur: oui
+    note: Usage non marchand, ouvert au public et aux écoles ; animations et éducation à l'environnement.
+    source: 2
+  autogestion:
+    valeur: oui
+    note: Assemblée générale des adhérents qui élit le conseil ; aucun fondateur ni financeur décideur documenté.
+    source: 2
+  etabli:
+    valeur: oui
+    note: Jardins ouverts depuis juin 2004.
+    source: 1
+chronologie:
+- annee: 1998
+  evenement: Proposition de jardins pédagogiques par l'association de riverains L'Écuyer à la tulipe.
+  source: 1
+- annee: 2000
+  evenement: Création de l'association Les amis des Jardins du Ruisseau (octobre).
+  source: 1
+- annee: 2004
+  evenement: Inauguration des jardins (juin).
+  source: 1
+- annee: 2016
+  evenement: Première salariée ; 350 membres.
+  source: 2
+fiabilite:
+  verifie:
+  - Chronologie 1998-2004
+  - Propriété SNCF Réseau, location par la Ville, convention de gestion exclusive
+  non_confirme:
+  - Durée de la convention et du bail de la Ville
+  - Effectif actuel
+dossier_juridique: 'Les jardins partagés n''ont pas de statut légal. La proposition de loi relative aux jardins collectifs adoptée par le Sénat le 14 octobre 2003 les définissait (jardins « créés ou animés collectivement, ayant pour objet de développer des liens sociaux de proximité ») et leur donnait un bail d''au moins trois ans avec préavis de six mois ; aucun texte promulgué correspondant n''a été trouvé. Le cadre effectif est contractuel : convention avec la collectivité et, à Paris, charte Main Verte. Aucune vente : pas de revenu professionnel, donc pas de cotisation de solidarité MSA (art. D. 731-34, voir R1).'
+liens:
+  communs: null
+sources:
+- titre: Un des premiers jardins partagés à Paris
+  auteur: Les Jardins du Ruisseau
+  annee: 2021
+  url: https://lesjardinsduruisseau.fr/equipement/
+- titre: L'association
+  auteur: Les Jardins du Ruisseau
+  annee: null
+  url: https://lesjardinsduruisseau.fr/association-jardins-ruisseau/
+- titre: SNCF Réseau
+  auteur: Wikipédia
+  annee: 2026
+  url: https://fr.wikipedia.org/wiki/SNCF_R%C3%A9seau
+- titre: Jardins collectifs, texte adopté n° 2 (2003-2004)
+  auteur: Sénat
+  annee: 2003
+  url: https://www.senat.fr/leg/tas03-02.html
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

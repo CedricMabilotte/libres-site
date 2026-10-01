@@ -1,0 +1,135 @@
+# data/fiches/les-semeuses-bure.yml — instruit le 2026-10-01
+uid: les-semeuses-bure
+nom: Les Semeuses
+autres_noms: []
+famille: commun_foncier
+resume: Collectif de maraîchage né à l'automne 2019 parmi les opposants au projet Cigéo d'enfouissement de déchets nucléaires, structuré en association à Mandres-en-Barrois (Meuse) en février 2020. En 2023, huit maraîchères et maraîchers cultivent environ trois hectares mis à disposition par un agriculteur voisin, avec une serre dans le jardin de la maison associative L'Augustine. Les légumes sont vendus à prix libre indicatif sur des marchés hebdomadaires et en paniers à Commercy et Nancy ; un bar et une cantine à prix libre se sont greffés sur la distribution. L'association emploie trois personnes à temps partiel, les cinq autres membres étant bénévoles.
+localisation:
+  commune: Mandres-en-Barrois
+  departement: '55'
+  region: Grand Est
+  lat: 48.5028
+  lon: 5.3988
+debut: 2020
+fin: null
+collectif:
+  nom: Les Semeuses
+  forme: association
+  annee: 2020
+foncier:
+  porteur: Agriculteur voisin (mise à disposition d'environ 3 ha de ses terres)
+  porteur_forme: personne_privee
+  surface_ha: 3
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: inconnu
+    note: Terres mises à disposition par un agriculteur opposant à Cigéo ; forme de l'accord non publiée.
+    source: 1
+  titre:
+    valeur: inconnu
+    note: '« Mis à leur disposition » : commodat, bail ou accord verbal non précisé.'
+    source: 1
+  verrou:
+    valeur:
+    - aucun
+    note: Mise à disposition par un propriétaire privé ; aucun verrou documenté.
+    source: 1
+  gouvernance:
+    valeur: inconnu
+    note: Projet décrit comme autogéré, avec une « personne d'astreinte » tournante pour planifier semis et récoltes ; instances non documentées.
+    source: 1
+  economie:
+    valeur: revenus_individuels_externes
+    note: Trois emplois à temps partiel, cinq bénévoles ; des membres travaillent à l'extérieur ; ventes à prix libre et dons.
+    source: 1
+  ouverture:
+    valeur: ouvert_public
+    note: Marchés hebdomadaires dans les villages, paniers en ville, bar et cantine à prix libre ouverts aux habitants.
+    source: 1
+  finalite:
+    valeur:
+    - agriculture
+    - lutte_territoriale
+    note: Maraîchage en rotation biologique conçu comme une manière de lutter contre Cigéo et la désertification du territoire.
+    source: 1
+  filiation:
+    valeur:
+    - ecologie_politique
+    - autonomie
+    note: Lutte antinucléaire, « autonomie et prise en charge collective de notre subsistance ».
+    source: 1
+  rapport_etat:
+    valeur: conflit
+    note: Collectif né après trois ans de répression et de procès des opposants à Cigéo (2016-2019).
+    source: 1
+  echelle:
+    valeur: moins_10
+    note: Huit membres en 2023.
+    source: 1
+  transmission:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  etat:
+    valeur: actif
+    note: Association active au répertoire Sirene.
+    source: 2
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: non
+    note: Association, mais terres d'un propriétaire privé mises à disposition.
+    source: 1
+  foncier_verrouille:
+    valeur: non
+    note: Mise à disposition par un particulier, sans titre long documenté.
+    source: 1
+  usage_ig:
+    valeur: oui
+    note: Vente à prix libre pour rendre les légumes accessibles aux villageois et aux étudiants précaires ; lieu de rencontre ouvert dans un village sans commerce.
+    source: 1
+  autogestion:
+    valeur: inconnu
+    note: Fonctionnement collectif décrit, instances non documentées.
+    source: 1
+  etabli:
+    valeur: non
+    note: Activité depuis 2020.
+    source: 1
+chronologie:
+- annee: 2019
+  evenement: Après une relaxe devant la cour d'appel de Nancy en mars, des opposants à Cigéo lancent un collectif paysan à l'automne.
+  source: 1
+- annee: 2020
+  evenement: 'Création de l''association Les Semeuses à Mandres-en-Barrois (25 février), activité déclarée : culture de légumes.'
+  source: 2
+- annee: 2023
+  evenement: Huit membres, trois emplois à temps partiel ; projet de rencontres des luttes paysannes et rurales.
+  source: 1
+fiabilite:
+  verifie:
+  - Association créée le 25 février 2020, code d'activité 01.13Z (culture de légumes) au répertoire Sirene
+  - Trois emplois à temps partiel et cinq bénévoles en 2023 (Reporterre)
+  - Environ trois hectares mis à disposition par un agriculteur voisin
+  non_confirme:
+  - Forme de la mise à disposition des terres
+  - Régime MSA des membres et de l'association
+  - Situation après 2023
+dossier_juridique: 'Association immatriculée avec une activité agricole principale (01.13Z, culture de légumes) : elle se présente comme l''exploitante. Elle n''est pas « sans salarié » : en 2023, trois membres sont embauchés à temps partiel (un CDI, deux contrats aidés), cinq sont bénévoles ; le répertoire indique une tranche de 1 à 2 salariés. Les ventes se font à « prix libre et solidaire », avec une participation indicative calculée sur le coût réel de production. Trois membres préparent un baccalauréat professionnel agricole (conduite et gestion de l''entreprise agricole). Aucune source sur l''affiliation MSA. Contexte : forte présence des gendarmes autour de Bure, contrôles et procès des opposants entre 2016 et 2019.'
+liens:
+  communs: null
+sources:
+- titre: Près de Bure, des maraîchères cultivent les terres confisquées par le nucléaire
+  auteur: Franck Dépretz, Reporterre
+  annee: 2023
+  url: https://reporterre.net/Pres-de-Bure-des-maraicheres-cultivent-les-terres-confisquees-par-le-nucleaire
+- titre: LES SEMEUSES (SIREN 892 618 703)
+  auteur: Annuaire des entreprises, d'après Sirene (Insee)
+  annee: 2026
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/892618703
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

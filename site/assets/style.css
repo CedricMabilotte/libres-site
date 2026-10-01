@@ -119,4 +119,5 @@ footer.site a{color:var(--encre-2)}
 .mecanismes{display:grid;grid-template-columns:repeat(auto-fill,minmax(19rem,1fr));gap:1rem}
 .mecanismes div{border-top:2px solid var(--ocre);padding-top:.5rem;font-size:.95rem}
 .visu-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.dossier{overflow-wrap:anywhere;min-width:0}.dossier table{margin:1rem 0;font-size:.85rem;display:block;overflow-x:auto;max-width:100%}.dossier h2{font-size:1.3rem}.dossier blockquote{border-left:3px solid var(--brique-2);margin:1rem 0;padding:.2rem 0 .2rem 1rem}.dossier ol li,.dossier ul li{margin:.2rem 0}
 @media print{.empreinte i,.carte-france circle,.carte-france rect,.legende svg{print-color-adjust:exact;-webkit-print-color-adjust:exact}header.site nav,button.theme,.filtres{display:none}body{background:#fff}}

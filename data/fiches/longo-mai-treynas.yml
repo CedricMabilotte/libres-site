@@ -1,0 +1,185 @@
+# data/fiches/longo-mai-treynas.yml — instruit le 2026-10-01
+uid: longo-mai-treynas
+nom: Longo Maï — Treynas
+autres_noms:
+- Longo Maï Ardèche
+- Coopérative de Treynas
+famille: communaute_intentionnelle
+resume: Communauté du réseau Longo Maï installée depuis la fin des années 1980 au hameau de Treynas, sur la commune de Chanéac (haute Ardèche). Une vingtaine d'adultes et d'enfants y vivaient en 2016 de cultures, d'élevage, de transformation et de toute la filière forêt-bois (bûcheronnage, débardage à cheval, scierie, menuiserie, charpente). Depuis 2002 selon Silence, la communauté est l'association loi 1901 Longo Maï Ardèche, inscrite à la MSA, dont tous les membres sont bénévoles ; elle loue 52 ha de terres agricoles et 100 ha de forêt à Fonds de Terre, fondation du réseau propriétaire des lieux. Elle vend produits de la ferme, bois transformé et prestations, et a été autosuffisante plusieurs années sans recourir aux dons du réseau. En 2025, l'AFP y décrit une trentaine de membres, sans hiérarchie ni salariat, vivant principalement de l'exploitation forestière et du sciage, avec un compte commun et des décisions prises par consensus.
+localisation:
+  commune: Chanéac
+  departement: '07'
+  region: Auvergne-Rhône-Alpes
+  lat: 44.9313
+  lon: 4.3127
+debut: null
+fin: null
+collectif:
+  nom: Association européenne Longo Maï (Longo Maï Ardèche)
+  forme: association
+  annee: 1998
+foncier:
+  porteur: Fonds de Terre (Fonds de Terre Européen), fondation de droit suisse du réseau Longo Maï
+  porteur_forme: fondation
+  surface_ha: 152
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: inconnu
+    note: Mode d'acquisition du hameau par le réseau non documenté.
+    source: null
+  titre:
+    valeur: inconnu
+    note: L'association « loue » terres et forêts à la fondation ; nature et durée du contrat non publiées.
+    source: 1
+  verrou:
+    valeur:
+    - inalienabilite_statutaire
+    note: Toutes les coopératives du réseau sont propriété de la fondation, présentée par le réseau comme une « propriété collective inaliénable » ; statuts de la fondation non consultés.
+    source: 3
+  gouvernance:
+    valeur: assemblee_consensus
+    note: 'Pratique déclarée du réseau : pas de règles écrites ni de vote, décisions par consensus. À Treynas, réunions communes et décisions par consensus selon l''AFP (2025).'
+    source: 8
+  economie:
+    valeur: caisse_commune
+    note: Membres bénévoles ; l'association finance les besoins fondamentaux (nourriture, travaux des maisons) à partir des ventes ; refus du salariat dans le réseau. En 2025, l'argent des activités est versé sur un compte utilisé par tous (AFP).
+    source: 1
+  ouverture:
+    valeur: accueil_regulier
+    note: Accueil régulier de stagiaires en menuiserie, bûcheronnage, débardage à cheval et charpente.
+    source: 1
+  finalite:
+    valeur:
+    - agriculture
+    - artisanat_production
+    - milieu_vivant
+    note: Légumes, céréales, volailles, brebis, fromages ; filière forêt-bois intégrée ; sylviculture sans coupe rase.
+    source: 1
+  filiation:
+    valeur:
+    - neo_ruralisme
+    - autonomie
+    note: Recherche d'« indépendance matérielle » (nourriture, logement, chauffage) et « résistance à une société individualiste et capitaliste ».
+    source: 1
+  rapport_etat:
+    valeur: inconnu
+    note: Inscription à la MSA ; aucune relation conflictuelle ni convention documentée.
+    source: 1
+  echelle:
+    valeur: '10_50'
+    note: « Une vingtaine d'adultes et d'enfants » en 2016 ; « une trentaine de membres » en 2025 (AFP).
+    source: 8
+  transmission:
+    valeur: inconnu
+    note: Aucune source sur le renouvellement des membres depuis 2016.
+    source: null
+  etat:
+    valeur: actif
+    note: Coopérative listée par le réseau en 2026 ; reportage AFP de janvier 2025 publié le 31 mars 2025.
+    source: 7
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: oui
+    note: Association loi 1901 (collectif) locataire d'une fondation (propriétaire) ; aucune société repérée au répertoire sur la commune pour ce lieu.
+    source: 1
+  foncier_verrouille:
+    valeur: oui
+    note: Propriété de la fondation du réseau, affirmée par Silence (2016) et par le réseau (« propriété collective inaliénable ») ; statuts et titre d'usage non publiés. Règle P2 au meilleur effort documentaire (décision de Ced, 2026-10-01), lecture alignée sur la fiche Limans.
+    source: 3
+  usage_ig:
+    valeur: oui
+    note: Pas de rente ; accueil et formation de stagiaires, transmission des savoir-faire au-delà du collectif.
+    source: 1
+  autogestion:
+    valeur: oui
+    note: Coopérative autogérée du réseau ; décisions par consensus des coopérants, chaque coopérative se gérant elle-même.
+    source: 2
+  etabli:
+    valeur: oui
+    note: Expérience collective depuis la fin des années 1980, toujours active en 2026.
+    source: 1
+chronologie:
+- annee: 1990
+  evenement: Un ami bûcheron initie un membre à un bûcheronnage attentif aux dynamiques forestières.
+  source: 1
+- annee: 1994
+  evenement: Le collectif décide de reconstruire les bâtiments avec le bois de sa forêt.
+  source: 1
+- annee: 1998
+  evenement: Création de l'« Association européenne Longo Maï » à Chanéac (répertoire Sirene).
+  source: 5
+- annee: 2000
+  evenement: 'Achat d''une scie à ruban : toute la filière bois est intégrée.'
+  source: 1
+- annee: 2002
+  evenement: La communauté devient officiellement l'association loi 1901 Longo Maï Ardèche, inscrite à la MSA (selon Silence).
+  source: 1
+- annee: 2004
+  evenement: Début du débardage à cheval.
+  source: 1
+- annee: 2025
+  evenement: 'Reportage AFP : une trentaine de membres, sans hiérarchie ni salariat, revenus tirés surtout du bois (Douglas, scierie), maisons appartenant à une fondation.'
+  source: 8
+- annee: 2025
+  evenement: Une « Fondation Longo Mai » de siège bâlois (Suisse) est inscrite au répertoire Sirene (création au 1er janvier 2025, activité d'administration d'immeubles) ; lien avec Fonds de Terre non établi.
+  source: 9
+fiabilite:
+  verifie:
+  - Association inscrite à la MSA, membres tous bénévoles (Silence, 2016)
+  - Location de 52 ha agricoles et 100 ha de forêt à la fondation propriétaire (Silence, 2016)
+  - Association active à Chanéac, non employeuse, au répertoire Sirene
+  - Absence de salariat, compte commun et décisions par consensus en 2025 (AFP)
+  non_confirme:
+  - Date d'installation exacte (« fin des années 80 »)
+  - Écart entre la création au répertoire (1998) et la date de 2002 donnée par Silence
+  - Qualité sous laquelle la MSA a enregistré l'association (chef d'exploitation désigné, cotisant de solidarité, autre)
+  - Nature et durée du contrat de location avec la fondation
+  - Effectif actuel (« une trentaine de membres » selon l'AFP en 2025, adultes et enfants non distingués)
+  - Rapport entre Fonds de Terre et la « Fondation Longo Mai » inscrite au répertoire Sirene en 2025
+dossier_juridique: 'Cas le plus net trouvé d''une association agricole sans salarié déclarée à la MSA : selon Silence (2016), « depuis 2002, la communauté de Treynas est officiellement l''association loi 1901 Longo Maï Ardèche, inscrite à la MSA, et ses membres sont tous bénévoles ». Le répertoire Sirene montre une association créée en 1998 à Chanéac, non employeuse, avec un code d''activité d''ingénierie (71.12B) et non agricole. La qualité d''affiliation retenue par la caisse n''est pas publiée ; aucune source ne dit si un membre est déclaré chef d''exploitation. L''association vend aliments, bois transformé et prestations en forêt et en construction ; régime fiscal de ces ventes non documenté. Elle est locataire de la fondation propriétaire ; la nature du contrat n''est pas connue (une association peut être preneuse d''un bail rural : Cass. 3e civ., 14 janvier 2015, n° 13-26.380). Le reportage AFP de 2025 confirme l''absence de salariat mais ne dit rien du régime MSA. Aucun contentieux publié sur le statut social ou agricole.'
+liens:
+  communs: null
+sources:
+- titre: Paysans forestiers de Treynas
+  auteur: Pascale Laussel, Silence n° 449
+  annee: 2016
+  url: https://www.revuesilence.net/numeros/449-Vivre-avec-la-foret/paysans-forestiers-de-treynas
+- titre: Une révolution vivante depuis 50 ans
+  auteur: Nicholas Bell, Silence n° 527
+  annee: 2023
+  url: https://www.revuesilence.net/numeros/527-Vivre-et-resister-a-Longo-Mai/une-revolution-vivante-depuis-50-ans
+- titre: Longo Maï
+  auteur: Coopérative Longo Maï La Cabrery
+  annee: null
+  url: https://www.lacabrery.org/longo-mai/
+- titre: La Cabrery, des vins nature anticapitalistes et féministes
+  auteur: Lola Keraron, Silence n° 527
+  annee: 2023
+  url: https://www.revuesilence.net/numeros/527-Vivre-et-resister-a-Longo-Mai/la-cabrery-des-vins-natures-anticapitalistes-et-feministes
+- titre: ASS EUROPEENNE LONGO MAI (SIREN 419 752 316)
+  auteur: Annuaire des entreprises, d'après Sirene (Insee)
+  annee: 2026
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/419752316
+- titre: Communauté Longo Maï de Treynas
+  auteur: Réseau pour les Alternatives Forestières
+  annee: null
+  url: https://www.alternativesforestieres.org/Communaute-Longo-Mai-de-Treynas-356
+- titre: Longo Maï, des coopératives autogérées à travers l'Europe
+  auteur: Mas de Granier
+  annee: null
+  url: https://masdegranier.org/longo-mai/
+- titre: En Ardèche, la communauté autogérée Longo Maï a pris racine
+  auteur: AFP, reprise par France 24 et La Gazette France (31 mars 2025)
+  annee: 2025
+  url: https://www.lagazettefrance.fr/article/en-ardeche-la-communaute-autogeree-longo-mai-a-pris-racine
+- titre: FONDATION LONGO MAI (SIREN 988 546 610)
+  auteur: Annuaire des entreprises, d'après Sirene (Insee)
+  annee: 2026
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/988546610
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

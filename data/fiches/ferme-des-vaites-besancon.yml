@@ -1,0 +1,154 @@
+# data/fiches/ferme-des-vaites-besancon.yml — instruit le 2026-10-01
+uid: ferme-des-vaites-besancon
+nom: La petite ferme des Vaîtes
+autres_noms:
+- Ferme des Vaîtes
+famille: commun_foncier
+resume: 'Petite ferme d''élevage de petits animaux (volailles, chèvres, porcs, cochons d''Inde, lapins) tenue depuis 2015 par une association loi 1901 sur un espace vert municipal de l''écoquartier des Vaîtes, à Besançon. Elle se définit comme « associative, bénévole, participative, écologique et pédagogique » : aucun salarié, soins quotidiens répartis entre bénévoles, soin collectif le samedi matin, ateliers pédagogiques. Les animaux ne sont ni consommés ni vendus ; l''association vit de cotisations, de subventions, de dons et de ventes d''objets. En 2019, une inspection vétérinaire déclenchée par un signalement n''a relevé aucune anomalie de bien-être animal.'
+localisation:
+  commune: Besançon
+  departement: '25'
+  region: Bourgogne-Franche-Comté
+  lat: 47.2602
+  lon: 6.0123
+debut: 2015
+fin: null
+collectif:
+  nom: Ferme des Vaites
+  forme: association
+  annee: 2015
+foncier:
+  porteur: Ville de Besançon (espace vert municipal de l'écoquartier des Vaîtes)
+  porteur_forme: personne_publique
+  surface_ha: null
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: inconnu
+    note: Modalités d'attribution de l'espace vert à l'association non publiées.
+    source: null
+  titre:
+    valeur: inconnu
+    note: 'Objet statutaire : gestion et usage bénévoles d''un espace vert municipal ; aucune convention publiée.'
+    source: 2
+  verrou:
+    valeur: inconnu
+    note: Aucune source sur la nature domaniale de l'espace ni sur un titre écrit.
+    source: null
+  gouvernance:
+    valeur: conseil_delegue
+    note: Assemblée générale annuelle à la majorité ; conseil d'administration élu qui dirige l'association ; voix prépondérante du président en cas d'égalité.
+    source: 2
+  economie:
+    valeur: activites_non_marchandes
+    note: Animaux « ni consommés ni vendus » ; cotisations, subventions, dons, ventes d'objets ; aucun salarié.
+    source: 4
+  ouverture:
+    valeur: ouvert_public
+    note: Ouverte à toute personne adhérente ; accueil le samedi matin ; ateliers et journées festives.
+    source: 1
+  finalite:
+    valeur:
+    - agriculture
+    - education_populaire
+    - milieu_vivant
+    note: Élevage de petits animaux, ateliers pédagogiques sur la biodiversité et les savoir-faire d'autonomie.
+    source: 1
+  filiation:
+    valeur:
+    - ecologie_politique
+    note: « Pas d'intrants, valorisation du réemploi » ; ferme « écologique ».
+    source: 1
+  rapport_etat:
+    valeur: inconnu
+    note: Inspection vétérinaire sur signalement en 2019, sans suite défavorable ; relation avec la Ville propriétaire non documentée.
+    source: 3
+  echelle:
+    valeur: inconnu
+    note: Nombre d'adhérents et de bénévoles non publié.
+    source: null
+  transmission:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  etat:
+    valeur: actif
+    note: Association active au répertoire Sirene ; derniers billets publics en 2022.
+    source: 5
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: partiel
+    note: Association loi 1901 sur un terrain de la Ville ; personne publique admise au cas par cas, mais aucun titre ni montage de commun publié.
+    source: 2
+  foncier_verrouille:
+    valeur: inconnu
+    note: Aucun titre d'usage documenté.
+    source: null
+  usage_ig:
+    valeur: oui
+    note: Non marchand (animaux ni vendus ni consommés), ouvert à tout adhérent, ateliers pédagogiques pour le quartier et les écoles.
+    source: 1
+  autogestion:
+    valeur: partiel
+    note: Assemblée des adhérents souveraine selon les statuts, mais l'usage d'un espace municipal dépend d'une décision de la Ville dont le cadre n'est pas publié.
+    source: 2
+  etabli:
+    valeur: partiel
+    note: Association créée en 2015 ; activité documentée jusqu'en 2022, continuité au-delà non établie.
+    source: 5
+chronologie:
+- annee: 2015
+  evenement: Déclaration de l'association à la préfecture du Doubs (16 septembre).
+  source: 5
+- annee: 2018
+  evenement: 'Année scolaire 2018-2019 : onze thèmes d''ateliers pédagogiques sur la biodiversité et l''autonomie.'
+  source: 6
+- annee: 2019
+  evenement: Inspection surprise des services vétérinaires après un signalement ; aucune anomalie relevée, demande d'identifier petits ruminants et porcs.
+  source: 3
+- annee: 2022
+  evenement: Assemblée générale du 19 mars, dernier billet public repéré.
+  source: 6
+fiabilite:
+  verifie:
+  - Association loi 1901 sans salarié, objet statutaire sur un espace vert municipal
+  - Inspection vétérinaire de 2019 et ses suites
+  - Association active au répertoire Sirene (W251004570)
+  non_confirme:
+  - Titre d'occupation (convention avec la Ville)
+  - Activité après 2022
+  - Date de début des élevages, peut-être antérieure à l'association
+dossier_juridique: 'Élevage associatif sans salarié et sans vente. La seule interaction administrative documentée est sanitaire : en juillet 2019, une vétérinaire de la direction départementale chargée de la protection des populations a inspecté la ferme à la suite d''un signalement de militantes opposées à la détention d''animaux ; elle n''a relevé aucune anomalie de bien-être, n''a pas consulté le registre d''élevage (tenu par l''association « plus par souci d''efficacité que par obligation légale ») et a demandé de déclarer et d''identifier par boucles les petits ruminants et les porcs. Aucune déclaration à la MSA ni à la PAC n''est mentionnée dans les sources publiques.'
+liens:
+  communs: null
+sources:
+- titre: À propos
+  auteur: La petite ferme des Vaîtes
+  annee: null
+  url: https://fermedesvaitesblog.wordpress.com/a-propos/
+- titre: Statuts
+  auteur: La petite ferme des Vaîtes
+  annee: null
+  url: https://fermedesvaitesblog.wordpress.com/statuts/
+- titre: Visite surprise des services vétérinaires et compte-rendu
+  auteur: La petite ferme des Vaîtes
+  annee: 2019
+  url: https://fermedesvaitesblog.wordpress.com/2019/07/16/visite-surprise-des-services-veterinaires-et-compte-rendu/
+- titre: Ferme des Vaites
+  auteur: HelloAsso
+  annee: null
+  url: https://www.helloasso.com/associations/ferme-des-vaites
+- titre: FERME DES VAITES (SIREN 839 667 300, RNA W251004570)
+  auteur: Annuaire des entreprises, d'après Sirene (Insee) et RNA
+  annee: 2026
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/839667300
+- titre: La petite ferme des Vaîtes (accueil du blog)
+  auteur: La petite ferme des Vaîtes
+  annee: 2022
+  url: https://fermedesvaitesblog.wordpress.com/
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

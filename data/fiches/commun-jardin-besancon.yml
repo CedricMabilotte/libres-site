@@ -1,0 +1,137 @@
+# data/fiches/commun-jardin-besancon.yml — instruit le 2026-10-01
+uid: commun-jardin-besancon
+nom: Commun Jardin
+autres_noms: []
+famille: commun_foncier
+resume: Collectif de maraîchage biologique sur petite surface formé à Besançon début 2022 par des personnes qui gardent toutes une autre activité professionnelle (enseignement, ingénierie, livraison, orthophonie). Après trois ans sur l'espace-test « Graines de maraîchers » de Grand Besançon Métropole à Chalezeule, il cultive depuis l'été 2025 1,5 ha à Port Douvot, sur un terrain confié par la Ville de Besançon par bail rural de neuf ans. Six maraîchers et une dizaine de bénévoles réguliers y produisent une quarantaine de variétés, vendues en paniers (10 ou 16 euros, prix réduits pour les revenus modestes), en Biocoop et à des restaurants. L'association a été immatriculée en 2024.
+localisation:
+  commune: Besançon
+  departement: '25'
+  region: Bourgogne-Franche-Comté
+  lat: 47.2602
+  lon: 6.0123
+debut: 2025
+fin: null
+collectif:
+  nom: Commun Jardin
+  forme: association
+  annee: 2024
+foncier:
+  porteur: Ville de Besançon
+  porteur_forme: personne_publique
+  surface_ha: 1.5
+  titre_duree_ans: 9
+dimensions:
+  acces:
+    valeur: bail_public
+    note: Terrain confié par la Ville après passage par l'espace-test de la Métropole.
+    source: 1
+  titre:
+    valeur: bail_rural
+    note: Bail rural de neuf ans ; preneur (association ou membres) non précisé.
+    source: 1
+  verrou:
+    valeur:
+    - aucun
+    note: Bail rural de neuf ans, sans verrou au-delà.
+    source: 1
+  gouvernance:
+    valeur: inconnu
+    note: Association présidée ; mode de décision non documenté.
+    source: 1
+  economie:
+    valeur: revenus_individuels_externes
+    note: Tous les membres exercent une seconde activité « pour être viables sans s'épuiser ».
+    source: 1
+  ouverture:
+    valeur: accueil_regulier
+    note: Bénévoles réguliers, ateliers et découvertes scolaires ; distribution sur place.
+    source: 1
+  finalite:
+    valeur:
+    - agriculture
+    - education_populaire
+    note: Maraîchage biologique, transmission et accueil des habitants.
+    source: 1
+  filiation:
+    valeur: inconnu
+    note: Aucune référence revendiquée dans les sources.
+    source: null
+  rapport_etat:
+    valeur: conventionnement
+    note: Espace-test de Grand Besançon Métropole (2022-2025), puis bail rural avec la Ville.
+    source: 1
+  echelle:
+    valeur: '10_50'
+    note: Six maraîchers et une dizaine de bénévoles réguliers.
+    source: 1
+  transmission:
+    valeur: inconnu
+    note: Collectif récent.
+    source: null
+  etat:
+    valeur: actif
+    note: Distributions de paniers au printemps 2026.
+    source: 1
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: partiel
+    note: Association sur un terrain de la Ville ; bail rural ordinaire, sans montage de commun établi.
+    source: 1
+  foncier_verrouille:
+    valeur: non
+    note: Bail rural de neuf ans, inférieur au seuil de trente ans.
+    source: 1
+  usage_ig:
+    valeur: partiel
+    note: Prix réduits pour les revenus modestes et ouverture aux habitants, mais vente marchande (paniers, Biocoop, restaurants) avec un objectif de rentabilité.
+    source: 1
+  autogestion:
+    valeur: inconnu
+    note: Aucune source sur les instances.
+    source: null
+  etabli:
+    valeur: non
+    note: Installation à Port Douvot à l'été 2025 ; collectif formé en 2022.
+    source: 1
+chronologie:
+- annee: 2022
+  evenement: Le collectif entre à l'espace-test « Graines de maraîchers » à Chalezeule (4 000 m² en plein champ, 500 m² de serres).
+  source: 2
+- annee: 2024
+  evenement: 'Immatriculation de l''association Commun Jardin (13 septembre), activité déclarée : culture de légumes.'
+  source: 3
+- annee: 2025
+  evenement: Installation sur 1,5 ha à Port Douvot, bail rural de neuf ans avec la Ville (été).
+  source: 1
+fiabilite:
+  verifie:
+  - Bail rural de neuf ans consenti par la Ville sur 1,5 ha (webzine de la Métropole, 2026)
+  - Association immatriculée en 2024, code 01.13Z
+  - Pluriactivité de tous les membres
+  non_confirme:
+  - 'Preneur du bail : association ou membres'
+  - Statut social des maraîchers (cotisants de solidarité, chefs d'exploitation, autre)
+  - Existence de salariés
+dossier_juridique: 'Cas d''un collectif pluriactif sans revenu agricole principal, accompagné par la collectivité : espace-test de Grand Besançon Métropole pendant trois ans, puis bail rural de neuf ans consenti par la Ville sur un terrain municipal. Le bail rural suppose un preneur exploitant ; les sources ne disent pas s''il a été consenti à l''association (immatriculée en 2024 avec le code 01.13Z, culture de légumes) ou à des membres. Le temps de travail réparti entre six personnes ayant chacune un autre emploi pose la question de l''activité minimale d''assujettissement à la MSA (cotisation de solidarité possible pour chacune), sans source sur la solution retenue. Vente marchande en paniers, en magasin et à des restaurants.'
+liens:
+  communs: null
+sources:
+- titre: Commun Jardin prend racine à Port Douvot
+  auteur: Héloïse Laurent, webzine de Grand Besançon Métropole
+  annee: 2026
+  url: https://webzine.besancon.fr/2026/03/27/commun-jardin-prend-racine-a-port-douvot/
+- titre: 'Graines de maraîchers : ça pousse !'
+  auteur: Webzine de Grand Besançon Métropole
+  annee: 2022
+  url: https://plus.besancon.fr/2022/09/20/graines-de-maraichers-ca-pousse/
+- titre: COMMUN JARDIN (SIREN 937 808 921, RNA W251010723)
+  auteur: Annuaire des entreprises, d'après Sirene (Insee) et RNA
+  annee: 2026
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/937808921
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

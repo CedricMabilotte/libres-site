@@ -90,7 +90,7 @@ fiches.sort(key=lambda d: (ORDRE_ST[d["_statut"]], len(d["_manque"]), d["nom"].l
 CNT = Counter(d["_statut"] for d in fiches)
 
 # ------------------------------------------------------------------ gabarit
-NAV = [("", "Accueil"), ("fiches/", "Les cas"), ("portes/", "Les portes"), ("prismes/", "Prismes"), ("dossiers/association-agricole/", "Dossier"),
+NAV = [("", "Accueil"), ("fiches/", "Les cas"), ("portes/", "Les portes"), ("prismes/", "Prismes"), ("dossiers/", "Dossiers"),
        ("carte/", "Carte"), ("frise/", "Frise"), ("regards/", "Regards"), ("methode/", "Méthode")]
 
 def rel(depth):
@@ -214,6 +214,9 @@ corps = f"""<p class="sur">Version {VERSION} · {nb} cas instruits · 1789–202
 {legende()}
 <div class="cartes">{"".join(carte_cas(d, "") for d in corpus + seuil)}</div>
 <p><a href="fiches/">Voir les {nb} cas, épreuves comprises</a> · <a href="prismes/">Lire les prismes croisés</a> · <a href="regards/">Les trois regards</a></p>
+<h2>Dossier : cultiver sans chef d'exploitation</h2>
+<div class="texte"><p>Une question traverse les cas : une association peut-elle cultiver un lieu en commun sans chef d'exploitation ni salarié ? Treize dossiers réunissent le droit, les décisions de justice, les cas et les propositions de réforme pour défendre ce modèle.</p>
+<p><a href="dossiers/association-agricole/">Lire le dossier principal</a> · <a href="dossiers/defendre-le-modele/">Défendre le modèle</a> · <a href="dossiers/">Tous les dossiers</a></p></div>
 <h2>Ce que libres n'est pas</h2>
 <div class="texte"><p>Ni un palmarès, ni un annuaire des lieux sympathiques. Les contre-modèles souvent présentés comme des communs (foncières et fermes Terre de Liens, écolieux adossés à la Coopérative Oasis, SCI ou SCIC « de transition ») sont instruits avec la même grille et publiés comme épreuves : la critique porte sur le montage, jamais sur les personnes. Le montage foncier détaillé de chaque lieu relève de <a href="{COMMUNS}">communs.actitude.org</a>.</p></div>"""
 page("", "libres", corps)
@@ -267,7 +270,7 @@ for i, d in enumerate(fiches):
     communs = f'<dt>Montage détaillé</dt><dd><a href="{COMMUNS}/l/{lc}/">fiche sur communs.actitude.org</a></dd>' if lc else ""
     avant = '<p class="note-prudence">Avant 1901, la liberté d\'association n\'existe pas en France : la porte P1 était juridiquement indisponible. Ce cas est lu avec la grille, mais son échec en P1 est d\'abord un fait d\'époque.</p>' if d["_avant1901"] else ""
     cond = f'<p class="note-prudence">{E(R.STATUTS[d["_statut"]][1])}</p>' if d["_statut"] == "corpus_sous_condition" else ""
-    dj = f'<h2>Dossier juridique</h2>{para(d.get("dossier_juridique"))}<p class="petit">Information générale, pas un conseil. Voir aussi le <a href="../../dossiers/association-agricole/">dossier « association et activité agricole »</a>.</p>' if d.get("dossier_juridique") else ""
+    dj = f'<h2>Dossier juridique</h2>{para(d.get("dossier_juridique"))}<p class="petit">Information générale, pas un conseil. Voir aussi le <a href="../../dossiers/association-agricole/">dossier « Une association peut-elle cultiver sans chef d\'exploitation ? »</a>.</p>' if d.get("dossier_juridique") else ""
     prev_, next_ = fiches[i - 1], fiches[(i + 1) % len(fiches)]
     corps = f"""<p class="sur">{E(R.FAMILLES[d['famille']])}</p><h1>{E(d['nom'])}</h1>
 <p class="meta">{E(lieu(d))} · {E(dates(d))}{' · aussi : ' + E(', '.join(d['autres_noms'])) if d.get('autres_noms') else ''}</p>
@@ -308,7 +311,7 @@ corps = f"""<h1>Les cinq portes</h1>
 <div class="texte"><p>{len(seuil)} cas franchissent quatre portes sur cinq. Porte manquante : {", ".join(f"{sum(1 for d in seuil if k in d['_manque'])} × {c} {l.lower()}" for k, c, l, _ in R.PORTES if any(k in d['_manque'] for d in seuil))}. Aucun n'a de maillon commercial dans son usage ; là où le foncier retient, le verrou repose sur une relation (une majorité municipale, un conseil de fonds libre de vendre), pas sur un acte.</p></div>
 <div class="cartes">{''.join(carte_cas(d, '../') for d in seuil)}</div>
 <h2>Deux sortes de verrou</h2>
-<div class="texte"><p>Le <b>verrou par la propriété</b> tient le lieu dans une structure qui ne peut pas le vendre (inaliénabilité, domanialité, dévolution, veto de réseau). Le <b>verrou par un titre</b> protège l'usage par un bail long consenti par un propriétaire qui, lui, reste libre de vendre le fonds : il tient tant que le bail court. Un cas franchit les cinq portes par un titre (La Chapelle) : il est affiché « corpus sous condition ». Les deux autres (La Déviation, Manifesten) tiennent par le veto du réseau CLIP, établi par des sources concordantes mais inscrit dans aucun acte publié.</p>
+<div class="texte"><p>Le <b>verrou par la propriété</b> tient le lieu dans une structure qui ne peut pas le vendre (inaliénabilité, domanialité, dévolution, veto de réseau). Le <b>verrou par un titre</b> protège l'usage par un bail long consenti par un propriétaire qui, lui, reste libre de vendre le fonds : il tient tant que le bail court. Un cas franchit les cinq portes par un titre (La Chapelle) : il est affiché « corpus sous condition ». Les autres tiennent par la propriété : le veto du réseau CLIP (La Déviation, Manifesten) ou une fondation propriétaire (Treynas), établis par des sources concordantes mais inscrits dans aucun acte publié.</p>
 <p class="petit">Répartition : verrou par la propriété {vt.get('par_propriete',0)} · par un titre {vt.get('par_titre',0)} · aucun établi {vt.get('aucun',0)}.</p>
 <div class="face eozen"><p class="qui">eozen · la règle P2</p>{para(regle)}</div></div>
 <h2>Sensibilité : ce que devient le résultat si l'on assouplit</h2>
@@ -487,15 +490,37 @@ page("methode/", "Méthode", corps, "Critère d'entrée à cinq portes, dimensio
 
 # ------------------------------------------------------------------ dossiers
 import markdown as _md
-_dp = ROOT / "docs" / "dossier-association-agricole.md"
-if _dp.exists():
-    _html = _md.markdown(_dp.read_text(encoding="utf-8"), extensions=["tables"])
-    _html = re.sub(r"<h1>.*?</h1>", "", _html, count=1, flags=re.S)
-    _cas = [d for d in fiches if d.get("dossier_juridique")]
-    corps = f"""<p class="sur">Dossier</p><h1>Une association peut-elle cultiver sans chef d'exploitation ?</h1>
-<div class="texte">{_html}<h2>Cas documentés</h2><ul>{''.join(f'<li><a href="../../f/{d['uid']}/">{E(d['nom'])}</a> — {E(lieu(d))}</li>' for d in _cas)}</ul>
-<p class="note-prudence">Information juridique générale, pas un conseil. Tout montage se vérifie avec un avocat ou un conseil spécialisé (MSA, fiscalité agricole).</p></div>"""
-    page("dossiers/association-agricole/", "Association et activité agricole", corps, "Textes, positions de la MSA, décisions de justice et cas documentés : une association peut-elle exercer une activité agricole sans chef d'exploitation ?")
+DOSSIERS_ORDRE = ["association-agricole", "defendre-le-modele", "chef-d-exploitation", "autorisation-d-exploiter", "benevolat-et-recolte",
+                  "accident-et-assurance", "fiscalite-et-prix-libre", "aliments-hors-marche", "foncier-commodat-bail", "oacas-et-communautes",
+                  "habitat-et-urbanisme", "formes-voisines", "documenter-un-cas"]
+_dd = ROOT / "docs" / "dossiers"
+_files = {f.stem: f for f in _dd.glob("*.md")} if _dd.exists() else {}
+_ordre = [k for k in DOSSIERS_ORDRE if k in _files] + sorted(k for k in _files if k not in DOSSIERS_ORDRE)
+_liste = []
+for slug in _ordre:
+    src = _files[slug].read_text(encoding="utf-8")
+    m = re.search(r"^# (.+)$", src, re.M); titre = m.group(1).strip() if m else slug
+    c = re.search(r"^\*(.+)\*\s*$", src, re.M); chap = c.group(1).strip() if c else ""
+    body = src[m.end():] if m else src
+    if c:
+        body = body.replace(c.group(0), "", 1)
+    html_ = _md.markdown(body, extensions=["tables"])
+    html_ = re.sub(r'<a href="(https?://[^"]+)"', r'<a href="\1" rel="noopener"', html_)
+    html_ = re.sub(r'href="(?:\./)?([a-z0-9-]+)\.md(#[^"]*)?"', lambda m: 'href="../' + m.group(1) + '/' + (m.group(2) or "") + '"', html_)
+    i = _ordre.index(slug)
+    nav_ = ('<p class="petit">' + (f'<a href="../{_ordre[i-1]}/">← dossier précédent</a>' if i > 0 else "") +
+            (" · " if 0 < i < len(_ordre) - 1 else "") + (f'<a href="../{_ordre[i+1]}/">dossier suivant →</a>' if i < len(_ordre) - 1 else "") + "</p>")
+    corps = f"""<p class="sur"><a href="../">Dossiers</a></p><h1>{E(titre)}</h1><p class="chapeau">{E(chap)}</p>
+<div class="texte dossier">{html_}<p class="note-prudence">Information juridique générale, pas un conseil. Tout acte se prépare avec un avocat ou un notaire ; tout point fiscal avec un rescrit ou un expert-comptable.</p>{nav_}</div>"""
+    page(f"dossiers/{slug}/", titre, corps, chap[:200])
+    _liste.append((slug, titre, chap))
+if _liste:
+    cartes = "".join(f'<article class="carte-cas"><h3><a href="{s}/">{E(t)}</a></h3><p class="meta">{E(c)}</p></article>' for s, t, c in _liste)
+    corps = f"""<h1>Dossiers</h1><p class="chapeau">Une question traverse les cas : une association peut-elle cultiver un lieu en commun sans chef d'exploitation ni salarié ? Ces dossiers rassemblent le droit, les décisions, les cas et les propositions pour défendre ce modèle.</p>
+<p class="note-prudence">Établis par plusieurs collèges successifs (recherche, lecture critique par les voix du projet, comblement des manques), avec les sources de chaque affirmation. Information générale, pas un conseil.</p>
+<div class="cartes">{cartes}</div>"""
+    page("dossiers/", "Dossiers", corps, "Dossiers d'analyse : association et activité agricole sans chef d'exploitation, bénévolat, contrôle des structures, fiscalité, foncier, OACAS, réformes.")
+
 # ------------------------------------------------------------------ données
 PUB = []
 for d in fiches:

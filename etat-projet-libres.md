@@ -39,3 +39,11 @@
 - Demande de Ced : documenter « Ferme 14 » et l'association reconnue par la CA de Grenoble comme association non employeuse à activité agricole sans chef d'exploitation.
 - Résultat : ni « Ferme 14 » ni l'arrêt n'ont été retrouvés (Judilibre, presse, réseaux). Décision grenobloise la plus proche, en sens inverse : CA Grenoble 16/11/2023 RG 22/00174 (pension d'équidés, président déclaré chef d'exploitation). Source de Ced demandée.
 - Ajouts : 5 fiches (Ferme de l'Oseraie 76, La Caillasse 84, Ferme légère Méracq 64, Ferme associative du Pays du Mont-Blanc 74, Jardins ouvriers des Vertus 93), toutes épreuves, avec clé `dossier_juridique` ; page « Dossier : association et activité agricole » (docs/dossier-association-agricole.md). 46 cas.
+
+## 2026-10-01 — collèges d'agents : « Une association peut-elle cultiver sans chef d'exploitation ? »
+- Collège 1 (recherche, 5 chercheurs) : textes et doctrine (R1), jurisprudence (R2, ~20 décisions nouvelles), cas de fermes associatives (R3, 7 fiches), formes voisines (R4, 6 fiches), comparaisons et généalogie (R5). Notes dans `recherche/`.
+- Collège 2 (lecture critique) : @eozen, @igor, @antimeta, @contradicteur, @valorisation → `recherche/college2-lectures.md`.
+- Collège 3 (comblement + rédaction, 6 rédacteurs) : 13 dossiers dans `docs/dossiers/` (dossier maître, défendre le modèle, chef d'exploitation, autorisation d'exploiter, bénévolat et récolte, accident et assurance, fiscalité et prix libre, aliments hors marché, foncier, OACAS, habitat et urbanisme, formes voisines, documenter un cas).
+- Vérification : 62 références contrôlées (5 corrections), cohérence juridique @eozen (23 reformulations appliquées), 18 fiches vérifiées (1 correction) ; itération 5 sur les oublis (loi 1901 et société créée de fait, cotisations au-delà du seuil, RGPD, habitat).
+- Résultat : 59 cas ; corpus 3 + 1 sous condition (Treynas entre au corpus) ; 5 au seuil ; section /dossiers/ en ligne ; prismes réécrits (+ 7e lecture : « cultiver sans chef : possible, rarement établi »).
+- Point dur identifié : autorisation d'exploiter (L331-2 I 3° b) pour toute structure sans membre exploitant. Arrêt « grenoblois » favorable : seulement deux jugements de première instance (TJ Grenoble 2021), infirmés en appel.

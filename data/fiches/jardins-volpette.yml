@@ -1,0 +1,158 @@
+# data/fiches/jardins-volpette.yml — instruit le 2026-10-01
+uid: jardins-volpette
+nom: Jardins Volpette
+autres_noms:
+- Association du Foyer et du jardin de l'Ouvrier
+- Jardins ouvriers du père Volpette
+famille: commun_foncier
+resume: Jardins ouvriers de Saint-Étienne fondés en 1894 par le jésuite Félix Volpette, sur le modèle de l'œuvre de Félicie Hervieu à Sedan. Le premier terrain, deux hectares au-dessus du Clapier, est acheté 200 francs et divisé en cinquante lots ; d'autres sont donnés ou cédés pour une location symbolique par la Société des Houillères. L'association, rebaptisée du nom de son fondateur en 1938, compte environ 3 400 jardins à cette date et gère en 2005 quarante hectares répartis en 45 sections, cultivés par 1 650 jardiniers pour les besoins de leur foyer.
+localisation:
+  commune: Saint-Étienne
+  departement: '42'
+  region: Auvergne-Rhône-Alpes
+  lat: 45.4241
+  lon: 4.3665
+debut: 1894
+fin: null
+collectif:
+  nom: Association des jardins Volpette
+  forme: association
+  annee: null
+foncier:
+  porteur: Propriétaires multiples non documentés (terrains achetés, donnés ou prêtés depuis 1894)
+  porteur_forme: inconnu
+  surface_ha: 40
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: achat_collectif
+    note: Premier terrain (Champ Sainte-Marie, 2 ha) acheté 200 francs en 1894 ; terrains voisins donnés (champ Saint-Joseph, 13 000 m² offerts en 1898) ; trois terrains cédés en 1899 par la Société des Houillères pour une location symbolique.
+    source: 1
+  titre:
+    valeur: inconnu
+    note: Titres actuels des 45 sections non publiés ; la source signale dès 1908 un « flou » sur la propriété de certaines terres.
+    source: 1
+  verrou:
+    valeur:
+    - inconnu
+    note: Aucun acte publié.
+    source: null
+  gouvernance:
+    valeur: conseil_delegue
+    note: Conseil d'administration de 15 membres ; depuis 1902, des chefs de section font le lien entre jardiniers et bureau. Présidence assurée par des religieux jusqu'en 1998.
+    source: 1
+  economie:
+    valeur: autosubsistance
+    note: Parcelles de 150 à 200 m² cultivées pour le foyer ; redevance selon surface et eau.
+    source: 1
+  ouverture:
+    valeur: cercle_restreint
+    note: Parcelles attribuées à des jardiniers ; règlement d'origine réservé aux ménages sans jardin suffisant.
+    source: 1
+  finalite:
+    valeur:
+    - agriculture
+    note: Culture potagère vivrière.
+    source: 1
+  filiation:
+    valeur:
+    - christianisme_communautaire
+    note: Catholicisme social, dans le sillage de l'encyclique Rerum Novarum (1891) et du discours d'Albert de Mun à Saint-Étienne (1892).
+    source: 1
+  rapport_etat:
+    valeur: inconnu
+    note: Aucune source sur les relations avec la commune ou l'État.
+    source: null
+  echelle:
+    valeur: plus_200
+    note: 1 650 jardiniers en 2005 ; 4 000 ouvriers bénéficiaires en 1907.
+    source: 1
+  transmission:
+    valeur: generations_renouvelees
+    note: 'Successions à la tête de l''association : père de Thoisy (jusqu''en 1975), père Richard, père André Fournier (dernier religieux, 1998), puis direction laïque.'
+    source: 1
+  etat:
+    valeur: actif
+    note: Association gestionnaire recensée par le réseau Le Passe-Jardins.
+    source: 2
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: inconnu
+    note: Le collectif est une association ; les propriétaires des 45 sections ne sont pas documentés (achats, dons et prêts d'entreprises à l'origine).
+    source: 1
+  foncier_verrouille:
+    valeur: inconnu
+    note: Aucun acte ni verrou publié.
+    source: null
+  usage_ig:
+    valeur: partiel
+    note: Usage non marchand par nature (jardins familiaux), mais parcelles attribuées à des jardiniers individuels.
+    source: 1
+  autogestion:
+    valeur: partiel
+    note: Conseil de 15 membres et chefs de section ; direction religieuse jusqu'en 1998 ; rôle de l'assemblée des jardiniers non documenté.
+    source: 1
+  etabli:
+    valeur: oui
+    note: Jardins cultivés sans interruption connue depuis 1894.
+    source: 1
+chronologie:
+- annee: 1894
+  evenement: Achat du Champ Sainte-Marie (2 ha, 50 lots), premiers jardins ouvriers de Félix Volpette.
+  source: 1
+- annee: 1898
+  evenement: 18 hectares, 410 jardins, 400 familles.
+  source: 1
+- annee: 1899
+  evenement: La Société des Houillères cède trois terrains pour une location symbolique.
+  source: 1
+- annee: 1902
+  evenement: Les « champs » deviennent des « sections » dotées de chefs de section.
+  source: 1
+- annee: 1908
+  evenement: Échec de la caisse rurale et de la cité Jeanne-d'Arc associée aux jardins.
+  source: 1
+- annee: 1938
+  evenement: L'association prend le nom de Volpette ; environ 3 400 jardins.
+  source: 1
+- annee: 1975
+  evenement: 2 500 jardins à la mort du père de Thoisy.
+  source: 1
+- annee: 2005
+  evenement: 40 hectares, 45 sections, 1 650 jardiniers.
+  source: 1
+fiabilite:
+  verifie:
+  - Fondation par Félix Volpette à la fin du XIXe siècle
+  - Échelle (40 ha, 45 sections en 2005)
+  - Conseil de 15 membres
+  non_confirme:
+  - 'Année de fondation : 1894 selon Forez Info, 1895 selon Wikipédia (d''après B. Rivatton)'
+  - Propriétaires et titres actuels des sections
+  - Date de déclaration de l'association
+dossier_juridique: 'Les jardins familiaux sont la seule culture collective que le code rural organise expressément sans exploitant : l''article L. 561-1 impose aux associations de jardins ouvriers, qui répartissent des parcelles « que leurs exploitants cultivent personnellement, en vue de subvenir aux besoins de leur foyer, à l''exclusion de tout usage commercial », la forme d''association déclarée ou reconnue d''utilité publique (loi du 26 juillet 1952, codifiée). L''article L. 562-1 ouvre la préemption de la SAFER à leur demande ; l''article L. 563-1 leur garantit des terrains équivalents en cas d''expropriation. Côté MSA, faute de revenu professionnel, la cotisation de solidarité n''est pas due (art. D. 731-34, voir recherche R1). Le régime ne verrouille pas le foncier.'
+liens:
+  communs: null
+sources:
+- titre: « La terre est le moyen... » Les jardins ouvriers et familiaux
+  auteur: Forez Info
+  annee: 2008
+  url: https://www.forez-info.com/encyclopedie/histoire/51-qla-terre-est-le-moyenq-les-jardins-ouvriers-et-familiaux.html
+- titre: Jardins Volpette Les Champs à Saint-Étienne
+  auteur: Le Passe-Jardins
+  annee: null
+  url: https://www.lepassejardins.fr/les-jardins/jardins-volpette-les-champs
+- titre: Jardins familiaux
+  auteur: Wikipédia
+  annee: 2026
+  url: https://fr.wikipedia.org/wiki/Jardins_familiaux
+- titre: Code rural et de la pêche maritime, art. L. 561-1
+  auteur: Légifrance
+  annee: 1990
+  url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006584390
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

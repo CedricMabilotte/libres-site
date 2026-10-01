@@ -1,0 +1,135 @@
+# data/fiches/afp-de-moncaup.yml — instruit le 2026-10-01
+uid: afp-de-moncaup
+nom: Association foncière pastorale de Moncaup
+autres_noms:
+- AFP de Moncaup
+- Groupement pastoral du Mont Calem
+famille: commun_foncier
+resume: Association foncière pastorale créée en 1976 à Moncaup (Comminges, Haute-Garonne), l'une des toutes premières de France avec celle de la commune voisine d'Arguenos, quatre ans après la loi pastorale de 1972. Elle regroupe environ 80 propriétaires sur 90 hectares pour remédier au morcellement des terres de montagne, et peut donner ses terres à bail à des groupements pastoraux. Quatre exploitants y sont enregistrés ; un groupement pastoral commun à Moncaup et Arguenos, dit du Mont Calem, mène les troupeaux vers les estives du Calem.
+localisation:
+  commune: Moncaup
+  departement: '31'
+  region: Occitanie
+  lat: 42.9687
+  lon: 0.704
+debut: 1976
+fin: null
+collectif:
+  nom: Association foncière pastorale de Moncaup
+  forme: inconnu
+  annee: 1976
+foncier:
+  porteur: Environ 80 propriétaires réunis dans l'AFP
+  porteur_forme: inconnu
+  surface_ha: 90
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: inconnu
+    note: Remembrement de gestion de propriétés existantes ; aucune acquisition.
+    source: 1
+  titre:
+    valeur: inconnu
+    note: Les propriétaires restent propriétaires ; baux consentis par l'AFP non publiés.
+    source: 1
+  verrou:
+    valeur:
+    - inconnu
+    note: Aucun acte publié.
+    source: null
+  gouvernance:
+    valeur: conseil_delegue
+    note: Syndicat et bureau rendant compte à une assemblée générale des propriétaires.
+    source: 1
+  economie:
+    valeur: inconnu
+    note: Quatre exploitants enregistrés ; leur économie n'est pas documentée.
+    source: 1
+  ouverture:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  finalite:
+    valeur:
+    - agriculture
+    - milieu_vivant
+    note: Gestion agricole, pastorale et forestière, biodiversité et paysages.
+    source: 1
+  filiation:
+    valeur:
+    - inconnu
+    note: Aucune source.
+    source: null
+  rapport_etat:
+    valeur: inconnu
+    note: Type d'AFP (libre, autorisée ou constituée d'office) non publié.
+    source: null
+  echelle:
+    valeur: inconnu
+    note: 80 propriétaires, 4 exploitants ; personnes œuvrant sur le lieu non dénombrées.
+    source: 1
+  transmission:
+    valeur: inconnu
+    note: Aucune source.
+    source: null
+  etat:
+    valeur: actif
+    note: Présentée comme active par la commune.
+    source: 1
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: inconnu
+    note: Association syndicale de propriétaires (établissement public si autorisée) ; type non publié ; propriétés incluses de nature non documentée.
+    source: 1
+  foncier_verrouille:
+    valeur: non
+    note: Les propriétaires conservent leurs terres et peuvent les vendre ; les obligations de l'AFP suivent le fonds sans le sortir du marché.
+    source: 2
+  usage_ig:
+    valeur: partiel
+    note: Gestion pastorale collective d'un territoire morcelé, au service d'exploitants professionnels.
+    source: 1
+  autogestion:
+    valeur: partiel
+    note: Assemblée des propriétaires, non des usagers ; les éleveurs passent par un groupement pastoral distinct.
+    source: 1
+  etabli:
+    valeur: oui
+    note: AFP active depuis 1976.
+    source: 1
+chronologie:
+- annee: 1972
+  evenement: Loi pastorale du 3 janvier 1972 créant les AFP et les groupements pastoraux.
+  source: 2
+- annee: 1976
+  evenement: Création de l'AFP de Moncaup, avec celle d'Arguenos.
+  source: 1
+fiabilite:
+  verifie:
+  - Création en 1976
+  - Environ 80 propriétaires, 90 ha, 4 exploitants
+  non_confirme:
+  - Type d'AFP et arrêté préfectoral
+  - Statut et agrément du groupement pastoral du Mont Calem
+dossier_juridique: 'AFP : C. rur., art. L. 135-1 et suivants (loi n° 72-12 du 3 janvier 1972, art. 2) : associations syndicales de propriétaires régies par l''ordonnance n° 2004-632 ; celles qui sont autorisées ou constituées d''office sont des établissements publics. Elles aménagent et gèrent les fonds et peuvent les donner à bail à des groupements pastoraux (art. L. 113-3 : forme de société, d''association, de syndicat ou de GIE, agrément du préfet, durée minimale de neuf ans). Les membres du groupement qui élèvent sont des exploitants affiliés individuellement à la MSA ; l''AFP elle-même n''exploite pas.'
+liens:
+  communs: null
+sources:
+- titre: Association Foncière Pastorale (AFP) de Moncaup
+  auteur: Mairie de Moncaup
+  annee: null
+  url: https://mairie-moncaup.fr/fr/vie-associative/afp.html
+- titre: Code rural et de la pêche maritime, art. L. 135-1
+  auteur: Légifrance
+  annee: 2016
+  url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033745987
+- titre: Groupement pastoral de Moncaup et Arguenos
+  auteur: Mairie de Moncaup
+  annee: null
+  url: https://mairie-moncaup.fr/fr/vie-associative/afp/groupement-pastoral-de-moncaup-et-arguenos.html
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

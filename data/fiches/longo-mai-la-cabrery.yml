@@ -1,0 +1,147 @@
+# data/fiches/longo-mai-la-cabrery.yml — instruit le 2026-10-01
+uid: longo-mai-la-cabrery
+nom: Longo Maï — La Cabrery
+autres_noms:
+- La Cabrery
+famille: communaute_intentionnelle
+resume: Ferme de 23 ha à Vitrolles-en-Luberon (Vaucluse), acquise en 1993 par le réseau Longo Maï pour produire du vin destiné à sa caisse commune. En 2023, 18 personnes dont 4 enfants y vivent, entièrement prises en charge par l'association, sans salaire ; 8 ha de vignes donnent environ 12 000 bouteilles de vin nature par an, vendues au prix du marché, à côté du maraîchage, des céréales, de l'élevage et de la transformation pour l'autoconsommation. Les ventes couvrent environ la moitié du budget, le reste venant d'une fondation suisse de soutien. Le collectif participe à la défense de la Zone à patates de Pertuis et accueille des personnes exilées. Une société civile « SCA Cabrery », créée fin 1992, a été radiée en septembre 2026.
+localisation:
+  commune: Vitrolles-en-Luberon
+  departement: '84'
+  region: Provence-Alpes-Côte d'Azur
+  lat: 43.8068
+  lon: 5.5985
+debut: 1993
+fin: null
+collectif:
+  nom: Coopérative Longo Maï La Cabrery
+  forme: association
+  annee: null
+foncier:
+  porteur: Fonds de Terre Européen (fondation suisse) selon le réseau ; société civile « SCA Cabrery » (location de terrains) créée en décembre 1992, fermée au répertoire le 24 septembre 2026
+  porteur_forme: null
+  surface_ha: 23
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: achat_collectif
+    note: « Longo Maï a acquis cette ferme de 23 ha en 1993 » ; une société civile créée fin 1992 semble avoir servi au montage, rôle non documenté.
+    source: 1
+  titre:
+    valeur: inconnu
+    note: Titre liant la coopérative au propriétaire non documenté.
+    source: null
+  verrou:
+    valeur: inconnu
+    note: Inaliénabilité déclarée par le réseau pour le foncier de la fondation ; transfert éventuel des biens de la société civile fermée en 2026 non documenté.
+    source: 2
+  gouvernance:
+    valeur: assemblee_consensus
+    note: Pas de règles écrites ni de vote, décisions par consensus (site de la coopérative) ; budget réparti chaque année en « intercoop » entre délégués des coopératives.
+    source: 2
+  economie:
+    valeur: caisse_commune
+    note: Habitants nourris et logés par l'association ; caisse commune où chacun se sert en notant le motif ; ventes de vin et aide mensuelle d'une fondation suisse.
+    source: 1
+  ouverture:
+    valeur: accueil_regulier
+    note: Nombreuses personnes de passage ; accueil de personnes exilées ; semaine de réflexion inter-coopératives en 2022.
+    source: 1
+  finalite:
+    valeur:
+    - agriculture
+    - artisanat_production
+    - accueil_soin
+    - lutte_territoriale
+    note: Vigne et vinification, maraîchage, céréales, élevage, transformation ; accueil ; lutte contre l'extension de la zone commerciale de Pertuis.
+    source: 1
+  filiation:
+    valeur:
+    - anarchisme
+    note: Principes « libertaires, antimilitaristes, anticapitalistes » du réseau ; perspective antipatriarcale.
+    source: 2
+  rapport_etat:
+    valeur: inconnu
+    note: Aucune relation administrative documentée ; le collectif note la surveillance de la Zone à patates.
+    source: null
+  echelle:
+    valeur: '10_50'
+    note: 18 personnes dont 4 enfants en 2023.
+    source: 1
+  transmission:
+    valeur: generations_renouvelees
+    note: Collectif « beaucoup renouvelé » ; fonctions administratives encore portées par quelques aînées.
+    source: 1
+  etat:
+    valeur: actif
+    note: En activité en 2023 ; site actif.
+    source: 1
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: partiel
+    note: Collectif associatif et fondation selon le réseau, mais l'acquisition de 1993 coïncide avec une société civile créée fin 1992, active jusqu'en 2026 ; nature de ses parts non documentée.
+    source: 4
+  foncier_verrouille:
+    valeur: partiel
+    note: Inaliénabilité affirmée pour le réseau ; propriétaire effectif de la Cabrery et sort des biens de la société civile fermée en 2026 non établis.
+    source: 2
+  usage_ig:
+    valeur: oui
+    note: Pas de rente ; cuvées de soutien envisagées, accueil d'exilés, engagement dans la lutte de Pertuis.
+    source: 1
+  autogestion:
+    valeur: oui
+    note: Décisions par consensus des habitants ; budget fixé entre coopératives par leurs délégués, sans financeur qui tranche seul.
+    source: 2
+  etabli:
+    valeur: oui
+    note: Usage continu depuis 1993.
+    source: 1
+chronologie:
+- annee: 1992
+  evenement: Création au répertoire de la société civile « SCA Cabrery » (location de terrains).
+  source: 4
+- annee: 1993
+  evenement: Acquisition de la ferme par Longo Maï pour produire du vin.
+  source: 1
+- annee: 2022
+  evenement: Engagement aux côtés de Terres vives Pertuis contre l'extension de la zone commerciale de Pertuis.
+  source: 1
+- annee: 2026
+  evenement: Fermeture de la société civile « SCA Cabrery » au répertoire (24 septembre).
+  source: 4
+fiabilite:
+  verifie:
+  - 23 ha dont 8 ha de vignes, 18 habitants, caisse commune, part des ventes passée d'environ 60 % à 50 % du budget entre 2014 et 2020 (Silence, 2023)
+  - Consensus et refus du salariat (site de la coopérative)
+  - Société civile créée en 1992, fermée en 2026 (répertoire Sirene)
+  non_confirme:
+  - Propriétaire actuel et transfert éventuel à la fondation
+  - Entité déclarant l'exploitation viticole, régime MSA et fiscal
+  - Titre d'usage du collectif
+dossier_juridique: 'Production viticole marchande (environ 12 000 bouteilles par an au prix du marché, vente à la ferme, sur les marchés, chez des cavistes ; une tonne de raisin vendue à une coopérative) par un collectif présenté comme associatif et sans salaire. Aucune source sur l''affiliation MSA, la déclaration de récolte ou le régime fiscal ; aucune association du réseau n''a été trouvée au répertoire Sirene à Vitrolles-en-Luberon. La société civile « SCA Cabrery » (location de terrains) créée en décembre 1992 a été fermée au répertoire le 24 septembre 2026 : piste d''un transfert du foncier, à vérifier aux hypothèques. En 2023, la Cabrery et le Mas de Granier étudiaient le statut OACAS pour faciliter la régularisation de personnes accueillies.'
+liens:
+  communs: null
+sources:
+- titre: La Cabrery, des vins nature anticapitalistes et féministes
+  auteur: Lola Keraron, Silence n° 527
+  annee: 2023
+  url: https://www.revuesilence.net/numeros/527-Vivre-et-resister-a-Longo-Mai/la-cabrery-des-vins-natures-anticapitalistes-et-feministes
+- titre: Longo Maï
+  auteur: Coopérative Longo Maï La Cabrery
+  annee: null
+  url: https://www.lacabrery.org/longo-mai/
+- titre: Une révolution vivante depuis 50 ans
+  auteur: Nicholas Bell, Silence n° 527
+  annee: 2023
+  url: https://www.revuesilence.net/numeros/527-Vivre-et-resister-a-Longo-Mai/une-revolution-vivante-depuis-50-ans
+- titre: SCA CABRERY (SIREN 389 775 321)
+  auteur: Annuaire des entreprises, d'après Sirene (Insee)
+  annee: 2026
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/389775321
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

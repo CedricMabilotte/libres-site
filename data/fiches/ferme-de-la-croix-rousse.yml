@@ -1,0 +1,144 @@
+# data/fiches/ferme-de-la-croix-rousse.yml — instruit le 2026-10-01
+uid: ferme-de-la-croix-rousse
+nom: La ferme de la Croix-Rousse
+autres_noms: []
+famille: lieu_non_marchand
+resume: 'Ferme d''animation pédagogique urbaine sur le plateau de la Croix-Rousse (Lyon 4e), née d''un groupe de travail du conseil de quartier Croix-Rousse Ouest en 2015. L''association est constituée en mai 2017 ; une convention d''un an avec la Ville de Lyon (juin 2018) puis une convention de six ans (12 mars 2021) lui ouvrent un terrain de 6 691 m² et un bâtiment rénové. Poules, ruches, potager, mare et compost y sont tenus par des bénévoles, sans visée de production : l''objet statutaire est l''éducation à l''environnement par l''élevage et la culture en ville.'
+localisation:
+  commune: Lyon 4e Arrondissement
+  departement: '69'
+  region: Auvergne-Rhône-Alpes
+  lat: 45.7805
+  lon: 4.826
+debut: 2019
+fin: null
+collectif:
+  nom: La ferme de la Croix-Rousse
+  forme: association
+  annee: 2017
+foncier:
+  porteur: Ville de Lyon
+  porteur_forme: personne_publique
+  surface_ha: 0.67
+  titre_duree_ans: 6
+dimensions:
+  acces:
+    valeur: bail_public
+    note: Terrain et bâtiment mis à disposition par la Ville de Lyon.
+    source: 1
+  titre:
+    valeur: convention
+    note: Convention temporaire d'un an (juin 2018), puis convention de six ans signée le 12 mars 2021.
+    source: 1
+  verrou:
+    valeur:
+    - aucun
+    note: Convention de six ans, sans verrou.
+    source: 1
+  gouvernance:
+    valeur: conseil_delegue
+    note: Conseil d'au plus 15 membres élus pour trois ans par l'assemblée générale, avec un siège pour le conseil de quartier et un pour la structure d'accueil ; salariés exclus du conseil.
+    source: 2
+  economie:
+    valeur: activites_non_marchandes
+    note: Cotisations, subventions, dons ; les statuts autorisent la vente de produits de la ferme.
+    source: 2
+  ouverture:
+    valeur: accueil_regulier
+    note: Permanences, animations tout public, accueil d'écoles et de crèches.
+    source: 1
+  finalite:
+    valeur:
+    - agriculture
+    - education_populaire
+    - milieu_vivant
+    note: Élevage et culture à vocation pédagogique, sensibilisation à l'environnement.
+    source: 2
+  filiation:
+    valeur:
+    - education_populaire
+    note: Le site se réclame de l'éducation populaire et de l'action sociale.
+    source: 1
+  rapport_etat:
+    valeur: conventionnement
+    note: Projet issu d'un conseil de quartier, financé par l'appel à projets de la Ville (2016), conventionné.
+    source: 3
+  echelle:
+    valeur: inconnu
+    note: Nombre d'adhérents non publié.
+    source: null
+  transmission:
+    valeur: en_cours
+    note: Collectif récent.
+    source: 1
+  etat:
+    valeur: actif
+    note: Programme 2026 publié.
+    source: 1
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: partiel
+    note: Association ; propriétaire public (Ville de Lyon) dont la convention de six ans n'établit pas un commun.
+    source: 1
+  foncier_verrouille:
+    valeur: non
+    note: Convention de six ans renouvelable, sans verrou.
+    source: 1
+  usage_ig:
+    valeur: oui
+    note: Ferme d'animation ouverte, non marchande, tournée vers les écoles et le quartier.
+    source: 2
+  autogestion:
+    valeur: oui
+    note: Assemblée générale de tous les membres, conseil élu ; sièges réservés minoritaires.
+    source: 2
+  etabli:
+    valeur: non
+    note: Présence sur le terrain depuis 2019.
+    source: 1
+chronologie:
+- annee: 2015
+  evenement: Avant-projet du groupe de travail du conseil de quartier Croix-Rousse Ouest.
+  source: 3
+- annee: 2017
+  evenement: Assemblée générale constitutive (mai) ; statuts du 22 mai.
+  source: 2
+- annee: 2018
+  evenement: Convention temporaire d'un an avec la Ville de Lyon (juin).
+  source: 1
+- annee: 2019
+  evenement: Début des travaux sur le terrain (printemps).
+  source: 1
+- annee: 2021
+  evenement: Convention de six ans avec la Ville (12 mars).
+  source: 1
+fiabilite:
+  verifie:
+  - Statuts du 22 mai 2017
+  - Convention de six ans du 12 mars 2021
+  - Terrain de 6 691 m²
+  non_confirme:
+  - Nombre d'adhérents et de bénévoles
+  - Existence d'un salarié en 2026
+dossier_juridique: Les fermes pédagogiques n'ont pas de statut législatif ; l'étude préalable du projet renvoie à la circulaire interministérielle du 5 avril 2001 et distingue la ferme d'animation de l'exploitation agricole. Sans vente régulière ni revenu professionnel, la cotisation de solidarité n'est pas due (art. D. 731-34, voir R1) ; l'élevage reste soumis aux règles sanitaires (détention de volailles, ruchers).
+liens:
+  communs: null
+sources:
+- titre: Ferme de la Croix-Rousse — Accueil
+  auteur: La ferme de la Croix-Rousse
+  annee: 2026
+  url: https://fermecroixrousse.fr/
+- titre: Statuts de l'association « La ferme de la Croix-Rousse » (2017, modifiés en 2022)
+  auteur: La ferme de la Croix-Rousse
+  annee: 2022
+  url: https://fermecroixrousse.fr/wp-content/uploads/2022/04/FERMEXR_Statuts-v2022.pdf
+- titre: Projet de ferme d'animation pédagogique à la Croix-Rousse, restitution d'étude
+  auteur: Conseil de quartier Croix-Rousse Ouest, Sandrine Hirschler
+  annee: 2016
+  url: https://fermecroixrousse.fr/wp-content/uploads/2022/06/Restitution_FERMEsept16.pdf
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

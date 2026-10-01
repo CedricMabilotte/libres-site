@@ -1,0 +1,159 @@
+# data/fiches/longo-mai-mas-de-granier.yml — instruit le 2026-10-01
+uid: longo-mai-mas-de-granier
+nom: Longo Maï — Mas de Granier
+autres_noms:
+- Mas de Granier
+famille: communaute_intentionnelle
+resume: Ferme collective du réseau Longo Maï lancée en 1990 par des habitants de la coopérative de Limans devenue trop nombreuse, sur 27 ha à Saint-Martin-de-Crau (Bouches-du-Rhône). Une vingtaine de personnes y vivaient en 2023 sans salaire, avec une caisse commune et 60 euros d'argent de poche mensuel ; elles produisent conserves de légumes, foin de Crau, pain, pâtes fraîches et miel, vendus sur les marchés et à la ferme, et lancent dès 1992 des paniers hebdomadaires. Le lieu accueille personnes sans papiers, voyageurs et réseaux militants, soutient la caravane solidaire vers la frontière italienne et met sa conserverie en location aux paysans voisins. Le statut indiqué est associatif ; une société civile au nom du mas, créée en 1990, figure au répertoire.
+localisation:
+  commune: Saint-Martin-de-Crau
+  departement: '13'
+  region: Provence-Alpes-Côte d'Azur
+  lat: 43.6074
+  lon: 4.8688
+debut: 1990
+fin: null
+collectif:
+  nom: Coopérative européenne Longo Maï — ferme collective du Mas de Granier
+  forme: association
+  annee: null
+foncier:
+  porteur: Fonds de Terre Européen (fondation suisse) selon le réseau ; une société civile « SCA Mas de Granier » (location de terrains), créée en 1990 et active, figure au répertoire à la même adresse, rôle non documenté
+  porteur_forme: null
+  surface_ha: 27
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: inconnu
+    note: Ferme lancée en 1990 par des membres de Grange-Neuve ; mode d'acquisition non documenté.
+    source: 1
+  titre:
+    valeur: inconnu
+    note: Titre liant le collectif au propriétaire non documenté.
+    source: null
+  verrou:
+    valeur: inconnu
+    note: Le réseau déclare toutes ses coopératives propriété d'une fondation « inaliénable », mais une société civile au nom du mas, active, est enregistrée depuis 1990.
+    source: 2
+  gouvernance:
+    valeur: assemblee_consensus
+    note: Réunion hebdomadaire et planning collectif ; décisions par consensus selon le réseau ; les jeunes générations critiquent un « manque de structure » qui maintient des formes de domination.
+    source: 1
+  economie:
+    valeur: caisse_commune
+    note: Pas de salaire ; 60 euros d'argent de poche et accès à la caisse commune selon les besoins ; ventes et dons du réseau.
+    source: 1
+  ouverture:
+    valeur: ouvert_public
+    note: Accueil de personnes sans papiers et de réseaux militants ; soirées publiques (films, concerts, débats).
+    source: 3
+  finalite:
+    valeur:
+    - agriculture
+    - artisanat_production
+    - accueil_soin
+    - lutte_territoriale
+    note: Maraîchage et conserverie, foin, céréales et pain, apiculture ; accueil ; luttes sociales et soutien aux exilés.
+    source: 1
+  filiation:
+    valeur:
+    - anarchisme
+    note: « Libertaire, antimilitariste, anticapitaliste, antifasciste » ; devise « Sans poison ni patron ».
+    source: 7
+  rapport_etat:
+    valeur: inconnu
+    note: Aucune relation administrative documentée.
+    source: null
+  echelle:
+    valeur: '10_50'
+    note: Une vingtaine d'habitants en 2023, une quinzaine en 2026.
+    source: 3
+  transmission:
+    valeur: generations_renouvelees
+    note: Un fondateur de 1990 encore présent aux côtés d'une génération plus jeune ; départs signalés en 2026.
+    source: 1
+  etat:
+    valeur: actif
+    note: En activité en 2026, à la recherche de nouveaux habitants.
+    source: 3
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: partiel
+    note: Collectif associatif et fondation propriétaire selon le réseau, mais une société civile au nom du mas (location de terrains, créée en 1990) est active au répertoire ; nature de ses parts et rôle foncier non documentés.
+    source: 5
+  foncier_verrouille:
+    valeur: partiel
+    note: Inaliénabilité affirmée pour l'ensemble du réseau ; propriétaire effectif du Mas de Granier non établi (fondation ou société civile).
+    source: 2
+  usage_ig:
+    valeur: oui
+    note: Pas de rente ; accueil de personnes exilées et de collectifs, soirées publiques, cultures partagées avec un comité d'habitants marseillais.
+    source: 1
+  autogestion:
+    valeur: oui
+    note: '« Nous vivons et travaillons en autogestion » ; réunion hebdomadaire des habitants. Limite signalée : domination liée à l''informel, critiquée de l''intérieur.'
+    source: 3
+  etabli:
+    valeur: oui
+    note: Usage continu depuis 1990.
+    source: 1
+chronologie:
+- annee: 1990
+  evenement: Lancement de la ferme de 27 ha par des habitants de Grange-Neuve ; création au répertoire de la société civile « SCA Mas de Granier ».
+  source: 1
+- annee: 1992
+  evenement: Lancement de paniers hebdomadaires de légumes.
+  source: 1
+- annee: 2011
+  evenement: Arrêt de la vente de légumes frais au profit des légumes transformés.
+  source: 1
+- annee: 2023
+  evenement: Culture commune de tomates avec un comité d'habitants de Marseille ; mobilisation contre la réforme des retraites.
+  source: 1
+fiabilite:
+  verifie:
+  - Statut associatif, 27 ha, environ 20 habitants, caisse commune (Silence, 2023)
+  - Vente directe sur les marchés, conserverie louée aux voisins (site du lieu, 2026)
+  - Société civile « SCA Mas de Granier » active depuis 1990 au répertoire Sirene
+  non_confirme:
+  - 'Propriétaire du foncier : fondation (réseau) ou société civile (répertoire)'
+  - Association déclarante de l'activité agricole et son régime MSA
+  - Titre d'usage du collectif
+dossier_juridique: Activité commerciale régulière (conserves, foin AOC de Crau, pain, pâtes, miel vendus sur les marchés ; location de la conserverie à des paysans voisins) portée par un collectif présenté comme associatif, sans salariat. Aucune source sur l'affiliation MSA, le régime fiscal ou l'entité qui déclare l'exploitation ; aucun établissement agricole au nom du réseau n'a été trouvé à Saint-Martin-de-Crau au répertoire Sirene. Une société civile au nom du mas (« SCA Mas de Granier », location de terrains) existe depuis 1990. En 2023, le Mas de Granier et la Cabrery étudiaient le statut d'organisme d'accueil communautaire et d'activités solidaires (OACAS), utilisé par Emmaüs, pour faciliter la régularisation de personnes sans papiers accueillies.
+liens:
+  communs: null
+sources:
+- titre: Le Mas de Granier, une ferme collective qui nourrit des luttes
+  auteur: Lola Keraron, Silence n° 527
+  annee: 2023
+  url: https://www.revuesilence.net/numeros/527-Vivre-et-resister-a-Longo-Mai/le-mas-de-granier-une-ferme-collective-qui-nourrit-des-luttes
+- titre: Une révolution vivante depuis 50 ans
+  auteur: Nicholas Bell, Silence n° 527
+  annee: 2023
+  url: https://www.revuesilence.net/numeros/527-Vivre-et-resister-a-Longo-Mai/une-revolution-vivante-depuis-50-ans
+- titre: Bienvenue au Mas de Granier
+  auteur: Mas de Granier
+  annee: 2026
+  url: https://masdegranier.org/
+- titre: La Cabrery, des vins nature anticapitalistes et féministes
+  auteur: Lola Keraron, Silence n° 527
+  annee: 2023
+  url: https://www.revuesilence.net/numeros/527-Vivre-et-resister-a-Longo-Mai/la-cabrery-des-vins-natures-anticapitalistes-et-feministes
+- titre: SCA MAS DE GRANIER (SIREN 378 805 360)
+  auteur: Annuaire des entreprises, d'après Sirene (Insee)
+  annee: 2026
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/378805360
+- titre: Longo Maï
+  auteur: Coopérative Longo Maï La Cabrery
+  annee: null
+  url: https://www.lacabrery.org/longo-mai/
+- titre: Longo Maï, des coopératives autogérées à travers l'Europe
+  auteur: Mas de Granier
+  annee: null
+  url: https://masdegranier.org/longo-mai/
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

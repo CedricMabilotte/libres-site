@@ -117,6 +117,143 @@
    "url": "https://libres.actitude.org/f/la-deviation-marseille/"
   },
   {
+   "uid": "longo-mai-treynas",
+   "nom": "Longo Maï — Treynas",
+   "autres_noms": [
+    "Longo Maï Ardèche",
+    "Coopérative de Treynas"
+   ],
+   "famille": "communaute_intentionnelle",
+   "statut": "corpus",
+   "portes_manquantes": [],
+   "periode": null,
+   "verrou_type": "par_propriete",
+   "localisation": {
+    "commune": "Chanéac",
+    "departement": "07",
+    "region": "Auvergne-Rhône-Alpes",
+    "lat": 44.9313,
+    "lon": 4.3127
+   },
+   "debut": null,
+   "fin": null,
+   "resume": "Communauté du réseau Longo Maï installée depuis la fin des années 1980 au hameau de Treynas, sur la commune de Chanéac (haute Ardèche). Une vingtaine d'adultes et d'enfants y vivaient en 2016 de cultures, d'élevage, de transformation et de toute la filière forêt-bois (bûcheronnage, débardage à cheval, scierie, menuiserie, charpente). Depuis 2002 selon Silence, la communauté est l'association loi 1901 Longo Maï Ardèche, inscrite à la MSA, dont tous les membres sont bénévoles ; elle loue 52 ha de terres agricoles et 100 ha de forêt à Fonds de Terre, fondation du réseau propriétaire des lieux. Elle vend produits de la ferme, bois transformé et prestations, et a été autosuffisante plusieurs années sans recourir aux dons du réseau. En 2025, l'AFP y décrit une trentaine de membres, sans hiérarchie ni salariat, vivant principalement de l'exploitation forestière et du sciage, avec un compte commun et des décisions prises par consensus.",
+   "collectif": {
+    "nom": "Association européenne Longo Maï (Longo Maï Ardèche)",
+    "forme": "association",
+    "annee": 1998
+   },
+   "foncier": {
+    "porteur": "Fonds de Terre (Fonds de Terre Européen), fondation de droit suisse du réseau Longo Maï",
+    "porteur_forme": "fondation",
+    "surface_ha": 152,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "oui",
+     "note": "Association loi 1901 (collectif) locataire d'une fondation (propriétaire) ; aucune société repérée au répertoire sur la commune pour ce lieu."
+    },
+    "foncier_verrouille": {
+     "valeur": "oui",
+     "note": "Propriété de la fondation du réseau, affirmée par Silence (2016) et par le réseau (« propriété collective inaliénable ») ; statuts et titre d'usage non publiés. Règle P2 au meilleur effort documentaire (décision de Ced, 2026-10-01), lecture alignée sur la fiche Limans."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Pas de rente ; accueil et formation de stagiaires, transmission des savoir-faire au-delà du collectif."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Coopérative autogérée du réseau ; décisions par consensus des coopérants, chaque coopérative se gérant elle-même."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Expérience collective depuis la fin des années 1980, toujours active en 2026."
+    }
+   },
+   "dimensions": {
+    "acces": "inconnu",
+    "titre": "inconnu",
+    "verrou": [
+     "inalienabilite_statutaire"
+    ],
+    "gouvernance": "assemblee_consensus",
+    "economie": "caisse_commune",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "agriculture",
+     "artisanat_production",
+     "milieu_vivant"
+    ],
+    "filiation": [
+     "neo_ruralisme",
+     "autonomie"
+    ],
+    "rapport_etat": "inconnu",
+    "echelle": "10_50",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Paysans forestiers de Treynas",
+     "auteur": "Pascale Laussel, Silence n° 449",
+     "annee": 2016,
+     "url": "https://www.revuesilence.net/numeros/449-Vivre-avec-la-foret/paysans-forestiers-de-treynas"
+    },
+    {
+     "titre": "Une révolution vivante depuis 50 ans",
+     "auteur": "Nicholas Bell, Silence n° 527",
+     "annee": 2023,
+     "url": "https://www.revuesilence.net/numeros/527-Vivre-et-resister-a-Longo-Mai/une-revolution-vivante-depuis-50-ans"
+    },
+    {
+     "titre": "Longo Maï",
+     "auteur": "Coopérative Longo Maï La Cabrery",
+     "annee": null,
+     "url": "https://www.lacabrery.org/longo-mai/"
+    },
+    {
+     "titre": "La Cabrery, des vins nature anticapitalistes et féministes",
+     "auteur": "Lola Keraron, Silence n° 527",
+     "annee": 2023,
+     "url": "https://www.revuesilence.net/numeros/527-Vivre-et-resister-a-Longo-Mai/la-cabrery-des-vins-natures-anticapitalistes-et-feministes"
+    },
+    {
+     "titre": "ASS EUROPEENNE LONGO MAI (SIREN 419 752 316)",
+     "auteur": "Annuaire des entreprises, d'après Sirene (Insee)",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/419752316"
+    },
+    {
+     "titre": "Communauté Longo Maï de Treynas",
+     "auteur": "Réseau pour les Alternatives Forestières",
+     "annee": null,
+     "url": "https://www.alternativesforestieres.org/Communaute-Longo-Mai-de-Treynas-356"
+    },
+    {
+     "titre": "Longo Maï, des coopératives autogérées à travers l'Europe",
+     "auteur": "Mas de Granier",
+     "annee": null,
+     "url": "https://masdegranier.org/longo-mai/"
+    },
+    {
+     "titre": "En Ardèche, la communauté autogérée Longo Maï a pris racine",
+     "auteur": "AFP, reprise par France 24 et La Gazette France (31 mars 2025)",
+     "annee": 2025,
+     "url": "https://www.lagazettefrance.fr/article/en-ardeche-la-communaute-autogeree-longo-mai-a-pris-racine"
+    },
+    {
+     "titre": "FONDATION LONGO MAI (SIREN 988 546 610)",
+     "auteur": "Annuaire des entreprises, d'après Sirene (Insee)",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/988546610"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/longo-mai-treynas/"
+  },
+  {
    "uid": "manifesten-marseille",
    "nom": "Manifesten",
    "autres_noms": [],
@@ -1352,6 +1489,346 @@
    "url": "https://libres.actitude.org/f/la-marinie/"
   },
   {
+   "uid": "jardins-du-ruisseau",
+   "nom": "Les Jardins du Ruisseau",
+   "autres_noms": [
+    "Les amis des Jardins du Ruisseau"
+   ],
+   "famille": "commun_foncier",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille"
+   ],
+   "periode": "1990-2007",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Paris 18e Arrondissement",
+    "departement": "75",
+    "region": "Île-de-France",
+    "lat": 48.8919,
+    "lon": 2.3487
+   },
+   "debut": 2004,
+   "fin": null,
+   "resume": "Jardin partagé d'environ 1,5 hectare sur le quai et les talus de l'ancienne Petite Ceinture, porte de Clignancourt (Paris 18e). Proposé dès 1998 par des riverains, porté à partir d'octobre 2000 par une association, le projet obtient l'accord de la SNCF, de l'État et de la Ville et les jardins sont inaugurés en juin 2004. Le terrain appartient à SNCF Réseau ; la Ville de Paris le loue, l'a aménagé et en a confié la gestion exclusive à l'association par convention. Rucher, poulailler, vigne, mare, compost, accueil des écoles : l'un des premiers jardins partagés parisiens, adhérent de la charte Main Verte.",
+   "collectif": {
+    "nom": "Les Jardins du Ruisseau",
+    "forme": "association",
+    "annee": 2000
+   },
+   "foncier": {
+    "porteur": "SNCF Réseau (propriétaire), Ville de Paris (locataire)",
+    "porteur_forme": "societe_commerciale",
+    "surface_ha": 1.5,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Collectif associatif, mais le propriétaire SNCF Réseau est une société anonyme (à capitaux publics depuis 2020) ; la Ville n'est que locataire : maillon commercial."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Location de la Ville et convention de gestion ; aucun verrou opposable."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Usage non marchand, ouvert au public et aux écoles ; animations et éducation à l'environnement."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Assemblée générale des adhérents qui élit le conseil ; aucun fondateur ni financeur décideur documenté."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Jardins ouverts depuis juin 2004."
+    }
+   },
+   "dimensions": {
+    "acces": "bail_public",
+    "titre": "convention",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "conseil_delegue",
+    "economie": "activites_non_marchandes",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "agriculture",
+     "education_populaire",
+     "milieu_vivant"
+    ],
+    "filiation": [
+     "inconnu"
+    ],
+    "rapport_etat": "conventionnement",
+    "echelle": "plus_200",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Un des premiers jardins partagés à Paris",
+     "auteur": "Les Jardins du Ruisseau",
+     "annee": 2021,
+     "url": "https://lesjardinsduruisseau.fr/equipement/"
+    },
+    {
+     "titre": "L'association",
+     "auteur": "Les Jardins du Ruisseau",
+     "annee": null,
+     "url": "https://lesjardinsduruisseau.fr/association-jardins-ruisseau/"
+    },
+    {
+     "titre": "SNCF Réseau",
+     "auteur": "Wikipédia",
+     "annee": 2026,
+     "url": "https://fr.wikipedia.org/wiki/SNCF_R%C3%A9seau"
+    },
+    {
+     "titre": "Jardins collectifs, texte adopté n° 2 (2003-2004)",
+     "auteur": "Sénat",
+     "annee": 2003,
+     "url": "https://www.senat.fr/leg/tas03-02.html"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/jardins-du-ruisseau/"
+  },
+  {
+   "uid": "longo-mai-la-cabrery",
+   "nom": "Longo Maï — La Cabrery",
+   "autres_noms": [
+    "La Cabrery"
+   ],
+   "famille": "communaute_intentionnelle",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille"
+   ],
+   "periode": "1990-2007",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Vitrolles-en-Luberon",
+    "departement": "84",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "lat": 43.8068,
+    "lon": 5.5985
+   },
+   "debut": 1993,
+   "fin": null,
+   "resume": "Ferme de 23 ha à Vitrolles-en-Luberon (Vaucluse), acquise en 1993 par le réseau Longo Maï pour produire du vin destiné à sa caisse commune. En 2023, 18 personnes dont 4 enfants y vivent, entièrement prises en charge par l'association, sans salaire ; 8 ha de vignes donnent environ 12 000 bouteilles de vin nature par an, vendues au prix du marché, à côté du maraîchage, des céréales, de l'élevage et de la transformation pour l'autoconsommation. Les ventes couvrent environ la moitié du budget, le reste venant d'une fondation suisse de soutien. Le collectif participe à la défense de la Zone à patates de Pertuis et accueille des personnes exilées. Une société civile « SCA Cabrery », créée fin 1992, a été radiée en septembre 2026.",
+   "collectif": {
+    "nom": "Coopérative Longo Maï La Cabrery",
+    "forme": "association",
+    "annee": null
+   },
+   "foncier": {
+    "porteur": "Fonds de Terre Européen (fondation suisse) selon le réseau ; société civile « SCA Cabrery » (location de terrains) créée en décembre 1992, fermée au répertoire le 24 septembre 2026",
+    "porteur_forme": null,
+    "surface_ha": 23,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Collectif associatif et fondation selon le réseau, mais l'acquisition de 1993 coïncide avec une société civile créée fin 1992, active jusqu'en 2026 ; nature de ses parts non documentée."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Inaliénabilité affirmée pour le réseau ; propriétaire effectif de la Cabrery et sort des biens de la société civile fermée en 2026 non établis."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Pas de rente ; cuvées de soutien envisagées, accueil d'exilés, engagement dans la lutte de Pertuis."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Décisions par consensus des habitants ; budget fixé entre coopératives par leurs délégués, sans financeur qui tranche seul."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Usage continu depuis 1993."
+    }
+   },
+   "dimensions": {
+    "acces": "achat_collectif",
+    "titre": "inconnu",
+    "verrou": "inconnu",
+    "gouvernance": "assemblee_consensus",
+    "economie": "caisse_commune",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "agriculture",
+     "artisanat_production",
+     "accueil_soin",
+     "lutte_territoriale"
+    ],
+    "filiation": [
+     "anarchisme"
+    ],
+    "rapport_etat": "inconnu",
+    "echelle": "10_50",
+    "transmission": "generations_renouvelees",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "La Cabrery, des vins nature anticapitalistes et féministes",
+     "auteur": "Lola Keraron, Silence n° 527",
+     "annee": 2023,
+     "url": "https://www.revuesilence.net/numeros/527-Vivre-et-resister-a-Longo-Mai/la-cabrery-des-vins-natures-anticapitalistes-et-feministes"
+    },
+    {
+     "titre": "Longo Maï",
+     "auteur": "Coopérative Longo Maï La Cabrery",
+     "annee": null,
+     "url": "https://www.lacabrery.org/longo-mai/"
+    },
+    {
+     "titre": "Une révolution vivante depuis 50 ans",
+     "auteur": "Nicholas Bell, Silence n° 527",
+     "annee": 2023,
+     "url": "https://www.revuesilence.net/numeros/527-Vivre-et-resister-a-Longo-Mai/une-revolution-vivante-depuis-50-ans"
+    },
+    {
+     "titre": "SCA CABRERY (SIREN 389 775 321)",
+     "auteur": "Annuaire des entreprises, d'après Sirene (Insee)",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/389775321"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/longo-mai-la-cabrery/"
+  },
+  {
+   "uid": "longo-mai-mas-de-granier",
+   "nom": "Longo Maï — Mas de Granier",
+   "autres_noms": [
+    "Mas de Granier"
+   ],
+   "famille": "communaute_intentionnelle",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille"
+   ],
+   "periode": "1990-2007",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Saint-Martin-de-Crau",
+    "departement": "13",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "lat": 43.6074,
+    "lon": 4.8688
+   },
+   "debut": 1990,
+   "fin": null,
+   "resume": "Ferme collective du réseau Longo Maï lancée en 1990 par des habitants de la coopérative de Limans devenue trop nombreuse, sur 27 ha à Saint-Martin-de-Crau (Bouches-du-Rhône). Une vingtaine de personnes y vivaient en 2023 sans salaire, avec une caisse commune et 60 euros d'argent de poche mensuel ; elles produisent conserves de légumes, foin de Crau, pain, pâtes fraîches et miel, vendus sur les marchés et à la ferme, et lancent dès 1992 des paniers hebdomadaires. Le lieu accueille personnes sans papiers, voyageurs et réseaux militants, soutient la caravane solidaire vers la frontière italienne et met sa conserverie en location aux paysans voisins. Le statut indiqué est associatif ; une société civile au nom du mas, créée en 1990, figure au répertoire.",
+   "collectif": {
+    "nom": "Coopérative européenne Longo Maï — ferme collective du Mas de Granier",
+    "forme": "association",
+    "annee": null
+   },
+   "foncier": {
+    "porteur": "Fonds de Terre Européen (fondation suisse) selon le réseau ; une société civile « SCA Mas de Granier » (location de terrains), créée en 1990 et active, figure au répertoire à la même adresse, rôle non documenté",
+    "porteur_forme": null,
+    "surface_ha": 27,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Collectif associatif et fondation propriétaire selon le réseau, mais une société civile au nom du mas (location de terrains, créée en 1990) est active au répertoire ; nature de ses parts et rôle foncier non documentés."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Inaliénabilité affirmée pour l'ensemble du réseau ; propriétaire effectif du Mas de Granier non établi (fondation ou société civile)."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Pas de rente ; accueil de personnes exilées et de collectifs, soirées publiques, cultures partagées avec un comité d'habitants marseillais."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "« Nous vivons et travaillons en autogestion » ; réunion hebdomadaire des habitants. Limite signalée : domination liée à l'informel, critiquée de l'intérieur."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Usage continu depuis 1990."
+    }
+   },
+   "dimensions": {
+    "acces": "inconnu",
+    "titre": "inconnu",
+    "verrou": "inconnu",
+    "gouvernance": "assemblee_consensus",
+    "economie": "caisse_commune",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "agriculture",
+     "artisanat_production",
+     "accueil_soin",
+     "lutte_territoriale"
+    ],
+    "filiation": [
+     "anarchisme"
+    ],
+    "rapport_etat": "inconnu",
+    "echelle": "10_50",
+    "transmission": "generations_renouvelees",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Le Mas de Granier, une ferme collective qui nourrit des luttes",
+     "auteur": "Lola Keraron, Silence n° 527",
+     "annee": 2023,
+     "url": "https://www.revuesilence.net/numeros/527-Vivre-et-resister-a-Longo-Mai/le-mas-de-granier-une-ferme-collective-qui-nourrit-des-luttes"
+    },
+    {
+     "titre": "Une révolution vivante depuis 50 ans",
+     "auteur": "Nicholas Bell, Silence n° 527",
+     "annee": 2023,
+     "url": "https://www.revuesilence.net/numeros/527-Vivre-et-resister-a-Longo-Mai/une-revolution-vivante-depuis-50-ans"
+    },
+    {
+     "titre": "Bienvenue au Mas de Granier",
+     "auteur": "Mas de Granier",
+     "annee": 2026,
+     "url": "https://masdegranier.org/"
+    },
+    {
+     "titre": "La Cabrery, des vins nature anticapitalistes et féministes",
+     "auteur": "Lola Keraron, Silence n° 527",
+     "annee": 2023,
+     "url": "https://www.revuesilence.net/numeros/527-Vivre-et-resister-a-Longo-Mai/la-cabrery-des-vins-natures-anticapitalistes-et-feministes"
+    },
+    {
+     "titre": "SCA MAS DE GRANIER (SIREN 378 805 360)",
+     "auteur": "Annuaire des entreprises, d'après Sirene (Insee)",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/378805360"
+    },
+    {
+     "titre": "Longo Maï",
+     "auteur": "Coopérative Longo Maï La Cabrery",
+     "annee": null,
+     "url": "https://www.lacabrery.org/longo-mai/"
+    },
+    {
+     "titre": "Longo Maï, des coopératives autogérées à travers l'Europe",
+     "auteur": "Mas de Granier",
+     "annee": null,
+     "url": "https://masdegranier.org/longo-mai/"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/longo-mai-mas-de-granier/"
+  },
+  {
    "uid": "sctl-larzac",
    "nom": "Société civile des terres du Larzac (SCTL)",
    "autres_noms": [
@@ -1892,6 +2369,117 @@
    "url": "https://libres.actitude.org/f/ferme-de-lachaud/"
   },
   {
+   "uid": "ferme-du-bonheur",
+   "nom": "Ferme du Bonheur",
+   "autres_noms": [
+    "Parc rural expérimental (PRé)",
+    "Champ de la Garde"
+   ],
+   "famille": "lieu_non_marchand",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "autogestion"
+   ],
+   "periode": "1990-2007",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Nanterre",
+    "departement": "92",
+    "region": "Île-de-France",
+    "lat": 48.8974,
+    "lon": 2.2018
+   },
+   "debut": 1993,
+   "fin": null,
+   "resume": "Lieu associatif installé depuis 1992-1993 sur une friche de Nanterre jouxtant l'université, au-dessus des échangeurs de l'A14 et de l'A86. Fondé par Roger des Prés avec des bénévoles et des artistes, il mêle élevage (chèvres, moutons, porcs, volailles), potagers, céréales anciennes, théâtre, bals et fêtes. Depuis le 28 décembre 2008, la Ferme a « pris autorité » sur un terrain voisin de plus de quatre hectares, le champ de la Garde, devenu le parc rural expérimental (PRé), sous convention d'occupation précaire et menacé par le projet d'aménagement Seine-Arche. En 2022, la municipalité réduit de moitié ses subventions et lui retire l'habilitation à recevoir du public.",
+   "collectif": {
+    "nom": "La Ferme du Bonheur",
+    "forme": "association",
+    "annee": null
+   },
+   "foncier": {
+    "porteur": "Terrains publics de l'aménagement Seine-Arche et de l'université ; propriétaires exacts non établis",
+    "porteur_forme": "inconnu",
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "inconnu",
+     "note": "Collectif associatif ; propriétaires des terrains et nature exacte du titre non établis."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Convention précaire ; terrain promis à l'aménagement Seine-Arche."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Lieu ouvert au public, éducation populaire et culture ; ventes annexes au service du lieu."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Lieu porté par son fondateur ; aucune source sur une assemblée d'usagers souveraine."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Présence continue depuis 1993."
+    }
+   },
+   "dimensions": {
+    "acces": "occupation",
+    "titre": "convention",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "fondateur",
+    "economie": "activites_marchandes_annexes",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "agriculture",
+     "culture",
+     "education_populaire",
+     "milieu_vivant"
+    ],
+    "filiation": [
+     "inconnu"
+    ],
+    "rapport_etat": "conflit",
+    "echelle": "inconnu",
+    "transmission": "fondateurs_seuls",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Ferme du Bonheur",
+     "auteur": "Wikipédia",
+     "annee": 2025,
+     "url": "https://fr.wikipedia.org/wiki/Ferme_du_Bonheur"
+    },
+    {
+     "titre": "Le Projet",
+     "auteur": "La Ferme du Bonheur",
+     "annee": null,
+     "url": "http://www.lafermedubonheur.fr/le-projet/"
+    },
+    {
+     "titre": "À Nanterre, on invente la ferme en ville",
+     "auteur": "Reporterre",
+     "annee": null,
+     "url": "https://reporterre.net/A-Nanterre-on-invente-la-ferme-en"
+    },
+    {
+     "titre": "Qui veut la peau de la Ferme du Bonheur ?",
+     "auteur": "Télérama (Luc Le Chatelier)",
+     "annee": 2022,
+     "url": "https://www.telerama.fr/sortir/a-nanterre-la-ferme-du-bonheur-assechee-par-la-mairie-7010692.php"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/ferme-du-bonheur/"
+  },
+  {
    "uid": "ferme-legere-meracq",
    "nom": "Ferme Légère",
    "autres_noms": [],
@@ -2104,6 +2692,107 @@
     }
    ],
    "url": "https://libres.actitude.org/f/keriskis/"
+  },
+  {
+   "uid": "ferme-de-la-croix-rousse",
+   "nom": "La ferme de la Croix-Rousse",
+   "autres_noms": [],
+   "famille": "lieu_non_marchand",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "etabli"
+   ],
+   "periode": "2008-",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Lyon 4e Arrondissement",
+    "departement": "69",
+    "region": "Auvergne-Rhône-Alpes",
+    "lat": 45.7805,
+    "lon": 4.826
+   },
+   "debut": 2019,
+   "fin": null,
+   "resume": "Ferme d'animation pédagogique urbaine sur le plateau de la Croix-Rousse (Lyon 4e), née d'un groupe de travail du conseil de quartier Croix-Rousse Ouest en 2015. L'association est constituée en mai 2017 ; une convention d'un an avec la Ville de Lyon (juin 2018) puis une convention de six ans (12 mars 2021) lui ouvrent un terrain de 6 691 m² et un bâtiment rénové. Poules, ruches, potager, mare et compost y sont tenus par des bénévoles, sans visée de production : l'objet statutaire est l'éducation à l'environnement par l'élevage et la culture en ville.",
+   "collectif": {
+    "nom": "La ferme de la Croix-Rousse",
+    "forme": "association",
+    "annee": 2017
+   },
+   "foncier": {
+    "porteur": "Ville de Lyon",
+    "porteur_forme": "personne_publique",
+    "surface_ha": 0.67,
+    "titre_duree_ans": 6
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Association ; propriétaire public (Ville de Lyon) dont la convention de six ans n'établit pas un commun."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Convention de six ans renouvelable, sans verrou."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Ferme d'animation ouverte, non marchande, tournée vers les écoles et le quartier."
+    },
+    "autogestion": {
+     "valeur": "oui",
+     "note": "Assemblée générale de tous les membres, conseil élu ; sièges réservés minoritaires."
+    },
+    "etabli": {
+     "valeur": "non",
+     "note": "Présence sur le terrain depuis 2019."
+    }
+   },
+   "dimensions": {
+    "acces": "bail_public",
+    "titre": "convention",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "conseil_delegue",
+    "economie": "activites_non_marchandes",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "agriculture",
+     "education_populaire",
+     "milieu_vivant"
+    ],
+    "filiation": [
+     "education_populaire"
+    ],
+    "rapport_etat": "conventionnement",
+    "echelle": "inconnu",
+    "transmission": "en_cours",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Ferme de la Croix-Rousse — Accueil",
+     "auteur": "La ferme de la Croix-Rousse",
+     "annee": 2026,
+     "url": "https://fermecroixrousse.fr/"
+    },
+    {
+     "titre": "Statuts de l'association « La ferme de la Croix-Rousse » (2017, modifiés en 2022)",
+     "auteur": "La ferme de la Croix-Rousse",
+     "annee": 2022,
+     "url": "https://fermecroixrousse.fr/wp-content/uploads/2022/04/FERMEXR_Statuts-v2022.pdf"
+    },
+    {
+     "titre": "Projet de ferme d'animation pédagogique à la Croix-Rousse, restitution d'étude",
+     "auteur": "Conseil de quartier Croix-Rousse Ouest, Sandrine Hirschler",
+     "annee": 2016,
+     "url": "https://fermecroixrousse.fr/wp-content/uploads/2022/06/Restitution_FERMEsept16.pdf"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/ferme-de-la-croix-rousse/"
   },
   {
    "uid": "la-fraternelle-saint-claude",
@@ -2756,6 +3445,110 @@
    "url": "https://libres.actitude.org/f/ecolectif/"
   },
   {
+   "uid": "afp-de-moncaup",
+   "nom": "Association foncière pastorale de Moncaup",
+   "autres_noms": [
+    "AFP de Moncaup",
+    "Groupement pastoral du Mont Calem"
+   ],
+   "famille": "commun_foncier",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion"
+   ],
+   "periode": "1968-1989",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Moncaup",
+    "departement": "31",
+    "region": "Occitanie",
+    "lat": 42.9687,
+    "lon": 0.704
+   },
+   "debut": 1976,
+   "fin": null,
+   "resume": "Association foncière pastorale créée en 1976 à Moncaup (Comminges, Haute-Garonne), l'une des toutes premières de France avec celle de la commune voisine d'Arguenos, quatre ans après la loi pastorale de 1972. Elle regroupe environ 80 propriétaires sur 90 hectares pour remédier au morcellement des terres de montagne, et peut donner ses terres à bail à des groupements pastoraux. Quatre exploitants y sont enregistrés ; un groupement pastoral commun à Moncaup et Arguenos, dit du Mont Calem, mène les troupeaux vers les estives du Calem.",
+   "collectif": {
+    "nom": "Association foncière pastorale de Moncaup",
+    "forme": "inconnu",
+    "annee": 1976
+   },
+   "foncier": {
+    "porteur": "Environ 80 propriétaires réunis dans l'AFP",
+    "porteur_forme": "inconnu",
+    "surface_ha": 90,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "inconnu",
+     "note": "Association syndicale de propriétaires (établissement public si autorisée) ; type non publié ; propriétés incluses de nature non documentée."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Les propriétaires conservent leurs terres et peuvent les vendre ; les obligations de l'AFP suivent le fonds sans le sortir du marché."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Gestion pastorale collective d'un territoire morcelé, au service d'exploitants professionnels."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Assemblée des propriétaires, non des usagers ; les éleveurs passent par un groupement pastoral distinct."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "AFP active depuis 1976."
+    }
+   },
+   "dimensions": {
+    "acces": "inconnu",
+    "titre": "inconnu",
+    "verrou": [
+     "inconnu"
+    ],
+    "gouvernance": "conseil_delegue",
+    "economie": "inconnu",
+    "ouverture": "inconnu",
+    "finalite": [
+     "agriculture",
+     "milieu_vivant"
+    ],
+    "filiation": [
+     "inconnu"
+    ],
+    "rapport_etat": "inconnu",
+    "echelle": "inconnu",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Association Foncière Pastorale (AFP) de Moncaup",
+     "auteur": "Mairie de Moncaup",
+     "annee": null,
+     "url": "https://mairie-moncaup.fr/fr/vie-associative/afp.html"
+    },
+    {
+     "titre": "Code rural et de la pêche maritime, art. L. 135-1",
+     "auteur": "Légifrance",
+     "annee": 2016,
+     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033745987"
+    },
+    {
+     "titre": "Groupement pastoral de Moncaup et Arguenos",
+     "auteur": "Mairie de Moncaup",
+     "annee": null,
+     "url": "https://mairie-moncaup.fr/fr/vie-associative/afp/groupement-pastoral-de-moncaup-et-arguenos.html"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/afp-de-moncaup/"
+  },
+  {
    "uid": "villarceaux",
    "nom": "Bergerie de Villarceaux",
    "autres_noms": [
@@ -2864,6 +3657,110 @@
     }
    ],
    "url": "https://libres.actitude.org/f/villarceaux/"
+  },
+  {
+   "uid": "commission-syndicale-pays-de-soule",
+   "nom": "Commission syndicale du Pays de Soule",
+   "autres_noms": [
+    "Xiberoko Zindikata",
+    "Estives indivises de Soule"
+   ],
+   "famille": "commun_foncier",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion"
+   ],
+   "periode": "1789-1870",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Mauléon-Licharre",
+    "departement": "64",
+    "region": "Nouvelle-Aquitaine",
+    "lat": 43.214,
+    "lon": -0.8842
+   },
+   "debut": 1838,
+   "fin": null,
+   "resume": "Estives, pâturages et forêts indivis entre 43 communes de Soule (Pays basque), gérés en commun depuis la création de la commission syndicale en juin 1838, en application de la loi de juillet 1837, sur des terres régies par la coutume de Soule de 1520. Le territoire couvre 14 132 hectares, entre 600 et 2 017 mètres, pour moitié pâturages et pour moitié forêts. En 2018, 232 éleveurs y estivaient près de 6 000 unités de bétail autour de 43 cayolars, cabanes pastorales tenues en indivision par des sociétés d'éleveurs. La commission emploie 19 équivalents temps plein et gère aussi 35 chalets locatifs à Iraty.",
+   "collectif": {
+    "nom": "Commission syndicale du Pays de Soule",
+    "forme": "personne_publique",
+    "annee": 1838
+   },
+   "foncier": {
+    "porteur": "Les 43 communes souletines, en indivision",
+    "porteur_forme": "personne_publique",
+    "surface_ha": 14132,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Personne morale de droit public (CGCT, art. L. 5222-1) gérant un commun pastoral coutumier ; aucune forme civile dans la chaîne, sauf les sociétés de cayolar."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Indivision intercommunale continue depuis 1838 ; aucun verrou d'inaliénabilité publié."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Usage pastoral partagé et ouvert, mais exercé par des éleveurs professionnels pour leur production."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Délégués des conseils municipaux, majoritairement agriculteurs ; les usagers ne décident pas en tant que tels."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Gestion continue depuis 1838."
+    }
+   },
+   "dimensions": {
+    "acces": "heritage",
+    "titre": "propriete",
+    "verrou": [
+     "inconnu"
+    ],
+    "gouvernance": "conseil_delegue",
+    "economie": "revenus_individuels_externes",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "agriculture",
+     "milieu_vivant"
+    ],
+    "filiation": [
+     "inconnu"
+    ],
+    "rapport_etat": "inconnu",
+    "echelle": "plus_200",
+    "transmission": "generations_renouvelees",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Communs de la nature : Commission syndicale de Soule",
+     "auteur": "Les communs (wiki)",
+     "annee": null,
+     "url": "https://yeswiki.lescommuns.org/communsnaturels/LaCommissionSyndicaleDeSoule"
+    },
+    {
+     "titre": "La gestion collective au cœur du système souletin",
+     "auteur": "Coralie Artano Garmendia (EHMEB), colloque du Sénat",
+     "annee": 2022,
+     "url": "https://www.fac-droit.univ-smb.fr/wp-content/uploads/2023/02/4-2-Coralie-Artano-Gestion-collective-Pays-de-Soule.pdf"
+    },
+    {
+     "titre": "Code général des collectivités territoriales, art. L. 5222-1",
+     "auteur": "Légifrance",
+     "annee": 2005,
+     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006393271"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/commission-syndicale-pays-de-soule/"
   },
   {
    "uid": "boimondau",
@@ -3599,6 +4496,115 @@
    "url": "https://libres.actitude.org/f/jardins-ouvriers-des-vertus/"
   },
   {
+   "uid": "jardins-volpette",
+   "nom": "Jardins Volpette",
+   "autres_noms": [
+    "Association du Foyer et du jardin de l'Ouvrier",
+    "Jardins ouvriers du père Volpette"
+   ],
+   "famille": "commun_foncier",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion"
+   ],
+   "periode": "1871-1914",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Saint-Étienne",
+    "departement": "42",
+    "region": "Auvergne-Rhône-Alpes",
+    "lat": 45.4241,
+    "lon": 4.3665
+   },
+   "debut": 1894,
+   "fin": null,
+   "resume": "Jardins ouvriers de Saint-Étienne fondés en 1894 par le jésuite Félix Volpette, sur le modèle de l'œuvre de Félicie Hervieu à Sedan. Le premier terrain, deux hectares au-dessus du Clapier, est acheté 200 francs et divisé en cinquante lots ; d'autres sont donnés ou cédés pour une location symbolique par la Société des Houillères. L'association, rebaptisée du nom de son fondateur en 1938, compte environ 3 400 jardins à cette date et gère en 2005 quarante hectares répartis en 45 sections, cultivés par 1 650 jardiniers pour les besoins de leur foyer.",
+   "collectif": {
+    "nom": "Association des jardins Volpette",
+    "forme": "association",
+    "annee": null
+   },
+   "foncier": {
+    "porteur": "Propriétaires multiples non documentés (terrains achetés, donnés ou prêtés depuis 1894)",
+    "porteur_forme": "inconnu",
+    "surface_ha": 40,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "inconnu",
+     "note": "Le collectif est une association ; les propriétaires des 45 sections ne sont pas documentés (achats, dons et prêts d'entreprises à l'origine)."
+    },
+    "foncier_verrouille": {
+     "valeur": "inconnu",
+     "note": "Aucun acte ni verrou publié."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Usage non marchand par nature (jardins familiaux), mais parcelles attribuées à des jardiniers individuels."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Conseil de 15 membres et chefs de section ; direction religieuse jusqu'en 1998 ; rôle de l'assemblée des jardiniers non documenté."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Jardins cultivés sans interruption connue depuis 1894."
+    }
+   },
+   "dimensions": {
+    "acces": "achat_collectif",
+    "titre": "inconnu",
+    "verrou": [
+     "inconnu"
+    ],
+    "gouvernance": "conseil_delegue",
+    "economie": "autosubsistance",
+    "ouverture": "cercle_restreint",
+    "finalite": [
+     "agriculture"
+    ],
+    "filiation": [
+     "christianisme_communautaire"
+    ],
+    "rapport_etat": "inconnu",
+    "echelle": "plus_200",
+    "transmission": "generations_renouvelees",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "« La terre est le moyen... » Les jardins ouvriers et familiaux",
+     "auteur": "Forez Info",
+     "annee": 2008,
+     "url": "https://www.forez-info.com/encyclopedie/histoire/51-qla-terre-est-le-moyenq-les-jardins-ouvriers-et-familiaux.html"
+    },
+    {
+     "titre": "Jardins Volpette Les Champs à Saint-Étienne",
+     "auteur": "Le Passe-Jardins",
+     "annee": null,
+     "url": "https://www.lepassejardins.fr/les-jardins/jardins-volpette-les-champs"
+    },
+    {
+     "titre": "Jardins familiaux",
+     "auteur": "Wikipédia",
+     "annee": 2026,
+     "url": "https://fr.wikipedia.org/wiki/Jardins_familiaux"
+    },
+    {
+     "titre": "Code rural et de la pêche maritime, art. L. 561-1",
+     "auteur": "Légifrance",
+     "annee": 1990,
+     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006584390"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/jardins-volpette/"
+  },
+  {
    "uid": "la-bellevilloise",
    "nom": "La Bellevilloise",
    "autres_noms": [
@@ -3904,6 +4910,126 @@
    "url": "https://libres.actitude.org/f/colonie-conde-sur-vesgre/"
   },
   {
+   "uid": "ferme-des-vaites-besancon",
+   "nom": "La petite ferme des Vaîtes",
+   "autres_noms": [
+    "Ferme des Vaîtes"
+   ],
+   "famille": "commun_foncier",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "autogestion",
+    "etabli"
+   ],
+   "periode": "2008-",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Besançon",
+    "departement": "25",
+    "region": "Bourgogne-Franche-Comté",
+    "lat": 47.2602,
+    "lon": 6.0123
+   },
+   "debut": 2015,
+   "fin": null,
+   "resume": "Petite ferme d'élevage de petits animaux (volailles, chèvres, porcs, cochons d'Inde, lapins) tenue depuis 2015 par une association loi 1901 sur un espace vert municipal de l'écoquartier des Vaîtes, à Besançon. Elle se définit comme « associative, bénévole, participative, écologique et pédagogique » : aucun salarié, soins quotidiens répartis entre bénévoles, soin collectif le samedi matin, ateliers pédagogiques. Les animaux ne sont ni consommés ni vendus ; l'association vit de cotisations, de subventions, de dons et de ventes d'objets. En 2019, une inspection vétérinaire déclenchée par un signalement n'a relevé aucune anomalie de bien-être animal.",
+   "collectif": {
+    "nom": "Ferme des Vaites",
+    "forme": "association",
+    "annee": 2015
+   },
+   "foncier": {
+    "porteur": "Ville de Besançon (espace vert municipal de l'écoquartier des Vaîtes)",
+    "porteur_forme": "personne_publique",
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Association loi 1901 sur un terrain de la Ville ; personne publique admise au cas par cas, mais aucun titre ni montage de commun publié."
+    },
+    "foncier_verrouille": {
+     "valeur": "inconnu",
+     "note": "Aucun titre d'usage documenté."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Non marchand (animaux ni vendus ni consommés), ouvert à tout adhérent, ateliers pédagogiques pour le quartier et les écoles."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Assemblée des adhérents souveraine selon les statuts, mais l'usage d'un espace municipal dépend d'une décision de la Ville dont le cadre n'est pas publié."
+    },
+    "etabli": {
+     "valeur": "partiel",
+     "note": "Association créée en 2015 ; activité documentée jusqu'en 2022, continuité au-delà non établie."
+    }
+   },
+   "dimensions": {
+    "acces": "inconnu",
+    "titre": "inconnu",
+    "verrou": "inconnu",
+    "gouvernance": "conseil_delegue",
+    "economie": "activites_non_marchandes",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "agriculture",
+     "education_populaire",
+     "milieu_vivant"
+    ],
+    "filiation": [
+     "ecologie_politique"
+    ],
+    "rapport_etat": "inconnu",
+    "echelle": "inconnu",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "À propos",
+     "auteur": "La petite ferme des Vaîtes",
+     "annee": null,
+     "url": "https://fermedesvaitesblog.wordpress.com/a-propos/"
+    },
+    {
+     "titre": "Statuts",
+     "auteur": "La petite ferme des Vaîtes",
+     "annee": null,
+     "url": "https://fermedesvaitesblog.wordpress.com/statuts/"
+    },
+    {
+     "titre": "Visite surprise des services vétérinaires et compte-rendu",
+     "auteur": "La petite ferme des Vaîtes",
+     "annee": 2019,
+     "url": "https://fermedesvaitesblog.wordpress.com/2019/07/16/visite-surprise-des-services-veterinaires-et-compte-rendu/"
+    },
+    {
+     "titre": "Ferme des Vaites",
+     "auteur": "HelloAsso",
+     "annee": null,
+     "url": "https://www.helloasso.com/associations/ferme-des-vaites"
+    },
+    {
+     "titre": "FERME DES VAITES (SIREN 839 667 300, RNA W251004570)",
+     "auteur": "Annuaire des entreprises, d'après Sirene (Insee) et RNA",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/839667300"
+    },
+    {
+     "titre": "La petite ferme des Vaîtes (accueil du blog)",
+     "auteur": "La petite ferme des Vaîtes",
+     "annee": 2022,
+     "url": "https://fermedesvaitesblog.wordpress.com/"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/ferme-des-vaites-besancon/"
+  },
+  {
    "uid": "la-porcheritz-perche",
    "nom": "La Porcheritz",
    "autres_noms": [],
@@ -4113,6 +5239,102 @@
    "url": "https://libres.actitude.org/f/hameau-des-buis/"
   },
   {
+   "uid": "les-semeuses-bure",
+   "nom": "Les Semeuses",
+   "autres_noms": [],
+   "famille": "commun_foncier",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "autogestion",
+    "etabli"
+   ],
+   "periode": "2008-",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Mandres-en-Barrois",
+    "departement": "55",
+    "region": "Grand Est",
+    "lat": 48.5028,
+    "lon": 5.3988
+   },
+   "debut": 2020,
+   "fin": null,
+   "resume": "Collectif de maraîchage né à l'automne 2019 parmi les opposants au projet Cigéo d'enfouissement de déchets nucléaires, structuré en association à Mandres-en-Barrois (Meuse) en février 2020. En 2023, huit maraîchères et maraîchers cultivent environ trois hectares mis à disposition par un agriculteur voisin, avec une serre dans le jardin de la maison associative L'Augustine. Les légumes sont vendus à prix libre indicatif sur des marchés hebdomadaires et en paniers à Commercy et Nancy ; un bar et une cantine à prix libre se sont greffés sur la distribution. L'association emploie trois personnes à temps partiel, les cinq autres membres étant bénévoles.",
+   "collectif": {
+    "nom": "Les Semeuses",
+    "forme": "association",
+    "annee": 2020
+   },
+   "foncier": {
+    "porteur": "Agriculteur voisin (mise à disposition d'environ 3 ha de ses terres)",
+    "porteur_forme": "personne_privee",
+    "surface_ha": 3,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Association, mais terres d'un propriétaire privé mises à disposition."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Mise à disposition par un particulier, sans titre long documenté."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Vente à prix libre pour rendre les légumes accessibles aux villageois et aux étudiants précaires ; lieu de rencontre ouvert dans un village sans commerce."
+    },
+    "autogestion": {
+     "valeur": "inconnu",
+     "note": "Fonctionnement collectif décrit, instances non documentées."
+    },
+    "etabli": {
+     "valeur": "non",
+     "note": "Activité depuis 2020."
+    }
+   },
+   "dimensions": {
+    "acces": "inconnu",
+    "titre": "inconnu",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "inconnu",
+    "economie": "revenus_individuels_externes",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "agriculture",
+     "lutte_territoriale"
+    ],
+    "filiation": [
+     "ecologie_politique",
+     "autonomie"
+    ],
+    "rapport_etat": "conflit",
+    "echelle": "moins_10",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Près de Bure, des maraîchères cultivent les terres confisquées par le nucléaire",
+     "auteur": "Franck Dépretz, Reporterre",
+     "annee": 2023,
+     "url": "https://reporterre.net/Pres-de-Bure-des-maraicheres-cultivent-les-terres-confisquees-par-le-nucleaire"
+    },
+    {
+     "titre": "LES SEMEUSES (SIREN 892 618 703)",
+     "auteur": "Annuaire des entreprises, d'après Sirene (Insee)",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/892618703"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/les-semeuses-bure/"
+  },
+  {
    "uid": "zad-notre-dame-des-landes",
    "nom": "ZAD de Notre-Dame-des-Landes",
    "autres_noms": [
@@ -4229,6 +5451,118 @@
    "url": "https://libres.actitude.org/f/zad-notre-dame-des-landes/"
   },
   {
+   "uid": "zone-a-patates-pertuis",
+   "nom": "Zone à patates (ZAP) de Pertuis",
+   "autres_noms": [
+    "ZAP de Pertuis",
+    "Zone à patates"
+   ],
+   "famille": "occupation_regularisee",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "autogestion",
+    "etabli"
+   ],
+   "periode": "2008-",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Pertuis",
+    "departement": "84",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "lat": 43.6931,
+    "lon": 5.5345
+   },
+   "debut": 2021,
+   "fin": 2022,
+   "resume": "Occupation agricole et d'habitat menée de novembre 2021 à juin 2022 à Pertuis (Vaucluse) contre l'extension d'une zone d'activités menaçant 86 ha de terres irriguées de la plaine de la Durance. Après des mises en culture répétées depuis 2019, des militants occupent quatre maisons promises à la démolition et plantent une parcelle d'environ un hectare, dont 200 arbres fruitiers, en lien avec l'association Terres vives Pertuis, la Confédération paysanne et d'autres collectifs. L'établissement public foncier, mandaté par la Métropole et la Ville, obtient l'expulsion ; une quinzaine de personnes sont expulsées le 28 juin 2022, les cabanes détruites et les maisons murées. Aucune régularisation n'a eu lieu.",
+   "collectif": {
+    "nom": "Occupant·es de la ZAP",
+    "forme": "collectif_de_fait",
+    "annee": 2021
+   },
+   "foncier": {
+    "porteur": "Établissement public foncier, mandaté par la Métropole Aix-Marseille-Provence et la Ville de Pertuis (maisons occupées) ; propriétaire de la parcelle plantée non précisé",
+    "porteur_forme": "personne_publique",
+    "surface_ha": 1,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Collectif de fait sur des biens publics, sans montage de commun."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Occupation sans titre, expulsée."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Défense publique de terres agricoles, plantations, mobilisation ouverte, sans rente."
+    },
+    "autogestion": {
+     "valeur": "inconnu",
+     "note": "« Lieu autogéré » selon Silence ; aucune source sur les instances."
+    },
+    "etabli": {
+     "valeur": "non",
+     "note": "Moins d'un an d'occupation (novembre 2021 – juin 2022)."
+    }
+   },
+   "dimensions": {
+    "acces": "occupation",
+    "titre": "sans_titre",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "inconnu",
+    "economie": "inconnu",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "lutte_territoriale",
+     "agriculture",
+     "habitat"
+    ],
+    "filiation": [
+     "ecologie_politique",
+     "autonomie"
+    ],
+    "rapport_etat": "conflit",
+    "echelle": "10_50",
+    "transmission": "inconnu",
+    "etat": "disparu",
+    "fin": "expulsion"
+   },
+   "sources": [
+    {
+     "titre": "Pour la défense de la Zone à patates",
+     "auteur": "Carla Garson, Silence n° 512",
+     "annee": 2022,
+     "url": "https://www.revuesilence.net/numeros/512-Cooperatives-liberer-le-travail/pour-la-defense-de-la-zone-a-patates"
+    },
+    {
+     "titre": "Dans le Vaucluse, la Zap de Pertuis a été expulsée",
+     "auteur": "Reporterre",
+     "annee": 2022,
+     "url": "https://reporterre.net/Dans-le-Vaucluse-la-Zap-de-Pertuis-a-ete-expulsee"
+    },
+    {
+     "titre": "Les défenseurs de la « zone à patates » de Pertuis obtiennent un recours à leur expulsion",
+     "auteur": "Benoît Gilles, Marsactu",
+     "annee": 2022,
+     "url": "https://marsactu.fr/bref/les-defenseurs-de-la-zone-a-patates-de-pertuis-obtiennent-un-recours-a-leur-expulsion/"
+    },
+    {
+     "titre": "La Cabrery, des vins nature anticapitalistes et féministes",
+     "auteur": "Lola Keraron, Silence n° 527",
+     "annee": 2023,
+     "url": "https://www.revuesilence.net/numeros/527-Vivre-et-resister-a-Longo-Mai/la-cabrery-des-vins-natures-anticapitalistes-et-feministes"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/zone-a-patates-pertuis/"
+  },
+  {
    "uid": "colonie-de-bascon",
    "nom": "Colonie naturiste et végétalienne de Bascon",
    "autres_noms": [
@@ -4338,6 +5672,106 @@
     }
    ],
    "url": "https://libres.actitude.org/f/colonie-de-bascon/"
+  },
+  {
+   "uid": "commun-jardin-besancon",
+   "nom": "Commun Jardin",
+   "autres_noms": [],
+   "famille": "commun_foncier",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion",
+    "etabli"
+   ],
+   "periode": "2008-",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Besançon",
+    "departement": "25",
+    "region": "Bourgogne-Franche-Comté",
+    "lat": 47.2602,
+    "lon": 6.0123
+   },
+   "debut": 2025,
+   "fin": null,
+   "resume": "Collectif de maraîchage biologique sur petite surface formé à Besançon début 2022 par des personnes qui gardent toutes une autre activité professionnelle (enseignement, ingénierie, livraison, orthophonie). Après trois ans sur l'espace-test « Graines de maraîchers » de Grand Besançon Métropole à Chalezeule, il cultive depuis l'été 2025 1,5 ha à Port Douvot, sur un terrain confié par la Ville de Besançon par bail rural de neuf ans. Six maraîchers et une dizaine de bénévoles réguliers y produisent une quarantaine de variétés, vendues en paniers (10 ou 16 euros, prix réduits pour les revenus modestes), en Biocoop et à des restaurants. L'association a été immatriculée en 2024.",
+   "collectif": {
+    "nom": "Commun Jardin",
+    "forme": "association",
+    "annee": 2024
+   },
+   "foncier": {
+    "porteur": "Ville de Besançon",
+    "porteur_forme": "personne_publique",
+    "surface_ha": 1.5,
+    "titre_duree_ans": 9
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Association sur un terrain de la Ville ; bail rural ordinaire, sans montage de commun établi."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Bail rural de neuf ans, inférieur au seuil de trente ans."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Prix réduits pour les revenus modestes et ouverture aux habitants, mais vente marchande (paniers, Biocoop, restaurants) avec un objectif de rentabilité."
+    },
+    "autogestion": {
+     "valeur": "inconnu",
+     "note": "Aucune source sur les instances."
+    },
+    "etabli": {
+     "valeur": "non",
+     "note": "Installation à Port Douvot à l'été 2025 ; collectif formé en 2022."
+    }
+   },
+   "dimensions": {
+    "acces": "bail_public",
+    "titre": "bail_rural",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "inconnu",
+    "economie": "revenus_individuels_externes",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "agriculture",
+     "education_populaire"
+    ],
+    "filiation": "inconnu",
+    "rapport_etat": "conventionnement",
+    "echelle": "10_50",
+    "transmission": "inconnu",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Commun Jardin prend racine à Port Douvot",
+     "auteur": "Héloïse Laurent, webzine de Grand Besançon Métropole",
+     "annee": 2026,
+     "url": "https://webzine.besancon.fr/2026/03/27/commun-jardin-prend-racine-a-port-douvot/"
+    },
+    {
+     "titre": "Graines de maraîchers : ça pousse !",
+     "auteur": "Webzine de Grand Besançon Métropole",
+     "annee": 2022,
+     "url": "https://plus.besancon.fr/2022/09/20/graines-de-maraichers-ca-pousse/"
+    },
+    {
+     "titre": "COMMUN JARDIN (SIREN 937 808 921, RNA W251010723)",
+     "auteur": "Annuaire des entreprises, d'après Sirene (Insee) et RNA",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/937808921"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/commun-jardin-besancon/"
   },
   {
    "uid": "communes-libertaires-ariege-villeneuve-du-bosc",

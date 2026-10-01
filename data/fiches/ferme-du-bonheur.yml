@@ -1,0 +1,152 @@
+# data/fiches/ferme-du-bonheur.yml — instruit le 2026-10-01
+uid: ferme-du-bonheur
+nom: Ferme du Bonheur
+autres_noms:
+- Parc rural expérimental (PRé)
+- Champ de la Garde
+famille: lieu_non_marchand
+resume: Lieu associatif installé depuis 1992-1993 sur une friche de Nanterre jouxtant l'université, au-dessus des échangeurs de l'A14 et de l'A86. Fondé par Roger des Prés avec des bénévoles et des artistes, il mêle élevage (chèvres, moutons, porcs, volailles), potagers, céréales anciennes, théâtre, bals et fêtes. Depuis le 28 décembre 2008, la Ferme a « pris autorité » sur un terrain voisin de plus de quatre hectares, le champ de la Garde, devenu le parc rural expérimental (PRé), sous convention d'occupation précaire et menacé par le projet d'aménagement Seine-Arche. En 2022, la municipalité réduit de moitié ses subventions et lui retire l'habilitation à recevoir du public.
+localisation:
+  commune: Nanterre
+  departement: '92'
+  region: Île-de-France
+  lat: 48.8974
+  lon: 2.2018
+debut: 1993
+fin: null
+collectif:
+  nom: La Ferme du Bonheur
+  forme: association
+  annee: null
+foncier:
+  porteur: Terrains publics de l'aménagement Seine-Arche et de l'université ; propriétaires exacts non établis
+  porteur_forme: inconnu
+  surface_ha: null
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: occupation
+    note: Installation sur une friche ; prise de possession du champ de la Garde le 28 décembre 2008.
+    source: 2
+  titre:
+    valeur: convention
+    note: Convention d'occupation temporaire jugée précaire par la presse.
+    source: 3
+  verrou:
+    valeur:
+    - aucun
+    note: Site inscrit dans le projet Seine-Arche, régulièrement menacé.
+    source: 3
+  gouvernance:
+    valeur: fondateur
+    note: Lieu fondé et animé par Roger des Prés ; fonctionnement des instances associatives non publié.
+    source: 1
+  economie:
+    valeur: activites_marchandes_annexes
+    note: Fêtes et concerts payants, vente de fromage et de miel, subventions ; deux salariés en 2022.
+    source: 4
+  ouverture:
+    valeur: ouvert_public
+    note: Spectacles, fêtes, travaux dominicaux ouverts, visites scolaires.
+    source: 3
+  finalite:
+    valeur:
+    - agriculture
+    - culture
+    - education_populaire
+    - milieu_vivant
+    note: Élevage et cultures de races et variétés anciennes, programmation artistique, accueil pédagogique.
+    source: 1
+  filiation:
+    valeur:
+    - inconnu
+    note: Aucune filiation revendiquée trouvée.
+    source: null
+  rapport_etat:
+    valeur: conflit
+    note: En 2022, la mairie coupe de moitié les subventions et retire l'habilitation à recevoir du public.
+    source: 4
+  echelle:
+    valeur: inconnu
+    note: Une dizaine de bénévoles quotidiens selon Reporterre ; effectif total non publié.
+    source: 3
+  transmission:
+    valeur: fondateurs_seuls
+    note: Le fondateur reste l'animateur du lieu.
+    source: 1
+  etat:
+    valeur: actif
+    note: Lieu présenté comme actif en 2025.
+    source: 1
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: inconnu
+    note: Collectif associatif ; propriétaires des terrains et nature exacte du titre non établis.
+    source: 1
+  foncier_verrouille:
+    valeur: non
+    note: Convention précaire ; terrain promis à l'aménagement Seine-Arche.
+    source: 3
+  usage_ig:
+    valeur: oui
+    note: Lieu ouvert au public, éducation populaire et culture ; ventes annexes au service du lieu.
+    source: 3
+  autogestion:
+    valeur: partiel
+    note: Lieu porté par son fondateur ; aucune source sur une assemblée d'usagers souveraine.
+    source: 1
+  etabli:
+    valeur: oui
+    note: Présence continue depuis 1993.
+    source: 3
+chronologie:
+- annee: 1993
+  evenement: Installation de la Ferme du Bonheur sur une friche de Nanterre.
+  source: 3
+- annee: 2007
+  evenement: Livre « La Ferme du Bonheur, reconquête d'un délaissé » (Actes Sud).
+  source: 2
+- annee: 2008
+  evenement: Prise de possession du champ de la Garde (28 décembre), futur PRé.
+  source: 2
+- annee: 2018
+  evenement: Sélection au pavillon français de la Biennale d'architecture de Venise (« Lieux infinis »).
+  source: 1
+- annee: 2022
+  evenement: Subventions municipales réduites de moitié, habilitation à recevoir du public retirée.
+  source: 4
+fiabilite:
+  verifie:
+  - Fondation au début des années 1990
+  - Occupation du champ de la Garde depuis 2008
+  - Conflit avec la municipalité en 2022
+  non_confirme:
+  - Année exacte (1992 ou 1993)
+  - Propriétaires des terrains et durée des conventions
+  - Date de déclaration de l'association
+dossier_juridique: 'Ferme urbaine associative sans statut agricole propre : aucune disposition ne vise les fermes urbaines. L''élevage et la culture sont agricoles par nature (C. rur., art. L. 311-1) ; la vente de fromage et de miel et la présence de salariés exposent le dirigeant à l''appréciation de la MSA (affiliation si l''activité minimale d''assujettissement est atteinte, cotisation de solidarité sinon : voir le dossier association agricole et R1). La protection du lieu dépend de l''urbanisme et des conventions d''occupation, pas du droit rural.'
+liens:
+  communs: null
+sources:
+- titre: Ferme du Bonheur
+  auteur: Wikipédia
+  annee: 2025
+  url: https://fr.wikipedia.org/wiki/Ferme_du_Bonheur
+- titre: Le Projet
+  auteur: La Ferme du Bonheur
+  annee: null
+  url: http://www.lafermedubonheur.fr/le-projet/
+- titre: À Nanterre, on invente la ferme en ville
+  auteur: Reporterre
+  annee: null
+  url: https://reporterre.net/A-Nanterre-on-invente-la-ferme-en
+- titre: Qui veut la peau de la Ferme du Bonheur ?
+  auteur: Télérama (Luc Le Chatelier)
+  annee: 2022
+  url: https://www.telerama.fr/sortir/a-nanterre-la-ferme-du-bonheur-assechee-par-la-mairie-7010692.php
+faces:
+  igor: null
+  eozen: null
+  antimeta: null
