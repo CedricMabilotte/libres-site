@@ -5,7 +5,7 @@
 > **En bref**
 > - La gratuité ne fait pas sortir du droit sanitaire : la « mise sur le marché » couvre toute cession « à titre gratuit ou onéreux », par une entreprise « dans un but lucratif ou non » [1].
 > - Restent hors du paquet hygiène la production et la préparation pour un usage domestique privé, et les activités occasionnelles sans organisation [2][4].
-> - Les fruits, légumes, œufs et miel bruts cédés directement au consommateur en petites quantités relèvent de règles nationales allégées [2][5].
+> - Les œufs et le miel bruts cédés directement au consommateur en petites quantités relèvent de règles nationales allégées ; pour les fruits et légumes bruts, aucune règle nationale n'a été trouvée [2][5].
 > - Viande de boucherie : abattoir agréé obligatoire ; l'abattage familial ne sert que la famille de l'éleveur [7]. Volailles et lapins : tuerie à la ferme possible dans des limites strictes [6].
 > - Tout détenteur d'animaux, association comprise, doit se déclarer : volailles en mairie, ruches chaque année dès la première, ovins, caprins et bovins identifiés [9][10][11][13].
 
@@ -28,7 +28,7 @@ Entre les deux, la zone grise est large : un collectif structuré, avec planning
 
 Le règlement 852/2004 exclut aussi « l'approvisionnement direct, par le producteur, du consommateur final ou du commerce de détail local fournissant directement le consommateur final, en petites quantités de produits primaires » (art. 1er, 2, c) ; chaque État fixe les règles de ces circuits [2]. Le règlement 853/2004 prévoit la même exclusion pour les produits animaux, et une autre pour les petites quantités de volailles et lapins abattus à la ferme (art. 1er, 3, c et d) [3].
 
-En France, l'arrêté du 18 décembre 2009 fixe ces règles [5] :
+En France, l'arrêté du 18 décembre 2009 fixe ces règles pour les **seuls produits d'origine animale** (œufs, miel, produits de la pêche, gibier) [5] ; aucune règle nationale équivalente n'a été trouvée pour les végétaux bruts, pour lesquels deux lectures restent ouvertes (voir le dossier « L'association d'intérêt général qui cultive en bénévolat pur ») :
 
 - **commerce de détail local** et **marché proche** : à 80 km au plus du lieu de production (art. 2) ;
 - **œufs de poule** : annexe II (registre d'élevage tenu trois ans, œufs ni lavés ni nettoyés, œufs sales ou fêlés écartés, stockage propre et sec) ;

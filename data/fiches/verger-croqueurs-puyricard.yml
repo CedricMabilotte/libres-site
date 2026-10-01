@@ -1,0 +1,148 @@
+# data/fiches/verger-croqueurs-puyricard.yml — instruit le 2026-10-01 (collège A, chercheur A3)
+uid: verger-croqueurs-puyricard
+nom: Verger conservatoire des Croqueurs de pommes de Provence
+autres_noms:
+- Li Vieii Pero
+- Verger de Puyricard
+famille: lieu_non_marchand
+resume: 'Verger conservatoire tenu depuis plus de trente ans par l''association des Croqueurs de pommes de Provence-Alpes-Côte d''Azur, dite « Li Vieii Pero », fondée en juillet 1992, sur un terrain mis à disposition par la Ville d''Aix-en-Provence au chemin du Grand Saint-Jean, à Puyricard. Les bénévoles y accèdent librement le mardi pour tailler, greffer, expérimenter et conserver des variétés fruitières régionales ; l''association comptait 350 adhérents en 2024. Le verger se définit comme « une association de bénévoles librement engagés », ni verger de production, ni entreprise, ni parc public : il est réservé aux adhérents, mais ouvert au public lors de journées portes ouvertes annuelles où sont vendus des arbres et des fruits de collection.'
+localisation:
+  commune: Aix-en-Provence
+  departement: '13'
+  region: Provence-Alpes-Côte d'Azur
+  lat: 43.5849
+  lon: 5.3945
+debut: 1992
+fin: null
+collectif:
+  nom: Association des Croqueurs de pommes de Provence, Alpes, Côte d'Azur, dite Li Vieii Pero
+  forme: association
+  annee: 1992
+foncier:
+  porteur: Ville d'Aix-en-Provence
+  porteur_forme: personne_publique
+  surface_ha: null
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: bail_public
+    note: Terrain « mis à disposition par la Ville d'Aix ».
+    source: 1
+  titre:
+    valeur: inconnu
+    note: Acte de mise à disposition non publié.
+    source: null
+  verrou:
+    valeur: inconnu
+    note: Aucun titre publié ; la clause de dévolution des statuts ne porte que sur l'actif de l'association.
+    source: 3
+  gouvernance:
+    valeur: conseil_delegue
+    note: Assemblée générale annuelle ; conseil d'administration élu « régulièrement consulté » ; le verger n'est pas « un lieu de pouvoir autocratique ».
+    source: 3
+  economie:
+    valeur: activites_marchandes_annexes
+    note: Bénévolat ; vente d'arbres et de fruits de collection aux portes ouvertes, librairie spécialisée ; dons via HelloAsso.
+    source: 2
+  ouverture:
+    valeur: accueil_regulier
+    note: Réservé aux adhérents (ouvert le mardi) ; portes ouvertes annuelles, fêtes de la nature, interventions pédagogiques.
+    source: 4
+  finalite:
+    valeur:
+    - agriculture
+    - milieu_vivant
+    - education_populaire
+    note: 'Statuts : recherche et sauvegarde du patrimoine génétique fruitier régional, information et éducation du public.'
+    source: 3
+  filiation:
+    valeur:
+    - ecologie_politique
+    note: Réseau national des Croqueurs de pommes, sauvegarde des variétés anciennes.
+    source: 3
+  rapport_etat:
+    valeur: conventionnement
+    note: Terrain municipal ; adhésion à la charte associative de la Ville d'Aix et au contrat d'engagement républicain.
+    source: 2
+  echelle:
+    valeur: inconnu
+    note: 350 adhérents en 2024 ; nombre de bénévoles actifs non publié.
+    source: 1
+  transmission:
+    valeur: generations_renouvelees
+    note: Association fondée en 1992 ; nouvelle présidence en 2024.
+    source: 1
+  etat:
+    valeur: actif
+    note: Reportage de 2024 ; site actif en 2026.
+    source: 1
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: partiel
+    note: Association sur un terrain de la Ville ; aucun montage de commun établi par un acte publié.
+    source: 1
+  foncier_verrouille:
+    valeur: inconnu
+    note: Titre et durée de la mise à disposition non publiés.
+    source: null
+  usage_ig:
+    valeur: partiel
+    note: Objet de sauvegarde et d'éducation du public, mais lieu « privé réservé aux adhérents » hors portes ouvertes, et ventes d'arbres et de fruits.
+    source: 4
+  autogestion:
+    valeur: partiel
+    note: Assemblée d'adhérents et conseil élu ; usage dépendant de la mise à disposition municipale.
+    source: 3
+  etabli:
+    valeur: oui
+    note: Verger tenu depuis plus de trente ans (association fondée en 1992).
+    source: 1
+chronologie:
+- annee: 1992
+  evenement: Déclaration de l'association (27 juillet) ; installation à Puyricard.
+  source: 5
+- annee: 2016
+  evenement: Mise à jour des statuts (15 décembre).
+  source: 3
+- annee: 2024
+  evenement: 350 adhérents ; nouvelle présidente.
+  source: 1
+fiabilite:
+  verifie:
+  - 'Statuts publiés : objet de sauvegarde et d''éducation, dévolution à une association analogue'
+  - Terrain mis à disposition par la Ville
+  - Association non employeuse (RNA W131003024)
+  non_confirme:
+  - Nature et durée de la mise à disposition
+  - Date exacte d'installation sur le terrain
+  - Reconnaissance d'intérêt général
+dossier_juridique: 'Association de bénévoles « librement engagés », sans salarié (répertoire Sirene : non employeuse, 94.99Z) ; la charte précise que le verger n''est pas « une entreprise d''employés ». Ventes ponctuelles d''arbres de collection (matériel de reproduction de variétés anciennes à des amateurs : article L. 661-8 du code rural) et de fruits lors de deux journées annuelles ; régime fiscal et social de ces ventes non publié. Aucune déclaration MSA, aucun rescrit mentionné ; appel aux dons en ligne sans mention de reçu fiscal. Clause statutaire de dévolution de l''actif à une association analogue, par priorité au réseau national.'
+liens:
+  communs: null
+sources:
+- titre: '[Reportage] Les Croqueurs de pommes, l''extraordinaire verger conservatoire de Puyricard'
+  auteur: Gomet'
+  annee: 2024
+  url: https://gomet.net/reportage-les-croqueurs-de-pommes-lextraordinaire-verger-conservatoire-de-puyricard/
+- titre: Nos activités
+  auteur: Les Croqueurs de pommes de Provence
+  annee: null
+  url: https://croqueursdeprovence.fr/nos-activites/
+- titre: Nos statuts
+  auteur: Les Croqueurs de pommes de Provence
+  annee: 2016
+  url: https://croqueursdeprovence.fr/nos-statuts/
+- titre: La philosophie du verger
+  auteur: Les Croqueurs de pommes de Provence
+  annee: null
+  url: https://croqueursdeprovence.fr/la-philosophie-du-verger/
+- titre: CROQUEURS DE POMME DE PROVENCE ALPES COTE D AZUR DITE LI VIEII PERO (SIREN 501 391 502)
+  auteur: Annuaire des entreprises, d'après Sirene (Insee) et RNA
+  annee: 2026
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/501391502
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

@@ -1,30 +1,30 @@
-# Lectures des prismes croisés — v0.2, 2026-10-01 (59 cas). Chiffres tirés d'analyses/analyses.json (scripts/analyser.py).
+# Lectures des prismes croisés — v0.3, 2026-10-01 (67 cas). Chiffres tirés d'analyses/analyses.json (scripts/analyser.py).
 lectures:
   - titre: "La forme civile va avec l'autogestion"
-    chiffre: "P1 × P4 · V = 0,56 · p < 0,001 · n = 48"
+    chiffre: "P1 × P4 · V = 0,58 · p < 0,001 · n = 54"
     texte: |
-      Douze des treize chaînes entièrement civiles sont autogérées. Sur les trente-cinq chaînes qui ne franchissent pas pleinement la forme civile, dix le sont. Le maillon sociétaire n'est pas qu'un détail de montage : là où il entre, la décision passe le plus souvent ailleurs que dans l'assemblée des usagers (un conseil, un gérant, des associés extérieurs).
+      Douze des treize chaînes entièrement civiles sont autogérées. Sur les quarante et une chaînes qui ne franchissent pas pleinement la forme civile, dix le sont. Le maillon sociétaire n'est pas qu'un détail de montage : là où il entre, la décision passe le plus souvent ailleurs que dans l'assemblée des usagers (un conseil, un gérant, des associés extérieurs).
   - titre: "Le lieu culturel franchit le droit plus souvent que la ferme"
-    chiffre: "Culture × P1 · V = 0,48 · n = 55 — Culture × statut · V = 0,55 · n = 58"
+    chiffre: "Culture × P1 · V = 0,44 · n = 62 — Culture × statut · V = 0,52 · n = 66"
     texte: |
       Neuf des treize lieux à finalité culturelle ont une chaîne civile ; six des treize lieux agricoles, un écart qui reste faible sur ce corpus. La ferme a souvent besoin d'un exploitant, et l'exploitant prend presque toujours une forme de société (GAEC, EARL, SCEA, SCIC) : c'est là que Terre de Liens, Villarceaux ou Lachaud s'arrêtent. Huit des neuf cas du corpus et du seuil ont une finalité culturelle ; l'exception est Treynas, ferme forestière de Longo Maï.
   - titre: "Les communautés intentionnelles restent loin, sauf Longo Maï"
-    chiffre: "Famille × statut · n = 59 · lecture descriptive (p = 0,11)"
+    chiffre: "Famille × statut · n = 67 · lecture descriptive (p = 0,08)"
     texte: |
-      Sur vingt communautés intentionnelles instruites, du phalanstère de Condé à l'Arche, deux approchent, et ce sont deux lieux du même réseau : Treynas au corpus, Limans au seuil. Les occupations régularisées font mieux : trois sur sept sont au corpus ou au seuil. Le lieu conquis puis négocié avec une collectivité se retrouve plus souvent près du commun civil que le lieu fondé pour vivre ensemble.
+      Sur vingt et une communautés intentionnelles instruites, du phalanstère de Condé à l'Arche, deux approchent, et ce sont deux lieux du même réseau : Treynas au corpus, Limans au seuil. Les occupations régularisées font mieux : trois sur sept sont au corpus ou au seuil. Le lieu conquis puis négocié avec une collectivité se retrouve plus souvent près du commun civil que le lieu fondé pour vivre ensemble.
   - titre: "Ce qui a disparu n'avait pas de verrou"
-    chiffre: "État × absence de verrou · V = 0,43 · p = 0,005 · n = 46"
+    chiffre: "État × absence de verrou · V = 0,41 · p = 0,007 · n = 49"
     texte: |
-      Les dix collectifs disparus dont le montage est connu n'avaient aucun verrou sur leur lieu ; parmi les actifs, seize sur trente-quatre n'en ont pas non plus. La lecture est prudente : la plupart des disparus sont antérieurs aux outils (association en 1901, fonds de dotation en 2008). Mais elle rejoint le constat de communs.actitude.org : ce qui verrouille le foncier ne disparaît pas avec le groupe.
+      Les dix collectifs disparus dont le montage est connu n'avaient aucun verrou sur leur lieu ; parmi les actifs, dix-huit sur trente-sept n'en ont pas non plus. La lecture est prudente : la plupart des disparus sont antérieurs aux outils (association en 1901, fonds de dotation en 2008). Mais elle rejoint le constat de communs.actitude.org : ce qui verrouille le foncier ne disparaît pas avec le groupe.
   - titre: "Le verrou est une affaire récente"
-    chiffre: "Période × type de verrou · n = 56 · tableau creux, lecture descriptive"
+    chiffre: "Période × type de verrou · n = 64 · tableau creux, lecture descriptive"
     texte: |
-      Avant 1968, un seul cas sur quinze a un verrou établi. Depuis 2008, neuf sur vingt-cinq en ont un, dont six par la propriété (fonds de dotation, veto du réseau CLIP, dévolution). L'outil existe désormais ; ce qui manque encore, c'est sa publication : ces verrous récents sont établis par des sources concordantes, aucun par un acte publié et opposable.
+      Avant 1968, un seul cas sur quinze a un verrou établi. Depuis 2008, dix sur trente en ont un, dont six par la propriété (fonds de dotation, veto du réseau CLIP, dévolution). L'outil existe désormais ; ce qui manque encore, c'est sa publication : ces verrous récents sont établis par des sources concordantes, aucun par un acte publié et opposable.
   - titre: "Le lieu acheté par un fondateur part avec lui"
-    chiffre: "Accès × état · V = 0,37 · n = 44 — Transmission × état · V = 0,47 · n = 30 · lectures fragiles"
+    chiffre: "Accès × état · V = 0,39 · n = 47 — Transmission × état · V = 0,34 · n = 37 · lectures fragiles"
     texte: |
-      Trois des quatre lieux achetés par un fondateur ont disparu ; vingt des vingt et un lieux obtenus par achat collectif ou souscription sont actifs. Même dessin pour la relève : trois des quatre collectifs restés aux mains de leurs fondateurs ont fini, quinze des dix-sept qui ont renouvelé leurs générations sont actifs. Pour près de la moitié des cas, la transmission n'est pas documentée : c'est un chantier de la version suivante.
+      Trois des quatre lieux achetés par un fondateur ont disparu ; vingt et un des vingt-deux lieux obtenus par achat collectif ou souscription sont actifs. Même dessin, plus faible, pour la relève : trois des sept collectifs restés aux mains de leurs fondateurs ont fini, dix-huit des vingt qui ont renouvelé leurs générations sont actifs. Pour près de la moitié des cas, la transmission n'est pas documentée : c'est un chantier de la version suivante.
   - titre: "Cultiver sans chef : possible, rarement établi"
-    chiffre: "18 cas à volet agricole ou administratif documenté · 1 au corpus"
+    chiffre: "26 cas à volet agricole ou administratif documenté · 1 au corpus"
     texte: |
-      Dix-huit fiches portent un dossier juridique sur l'activité agricole d'une association ou d'un collectif. Une seule entre au corpus : Treynas, association sans salarié inscrite à la MSA depuis 2002, sur une terre tenue par une fondation. Les autres s'arrêtent d'abord sur le foncier (dix-sept) et sur la forme (seize) : terre prêtée sans titre, propriétaire privé, société d'exploitation intercalée. La question juridique — peut-on cultiver sans chef d'exploitation ? — n'est presque jamais celle qui fait tomber le lieu : c'est la terre. Voir le dossier « Une association peut-elle cultiver sans chef d'exploitation ? ».
+      Vingt-six fiches portent un dossier juridique sur l'activité agricole d'une association ou d'un collectif. Une seule entre au corpus : Treynas, association sans salarié inscrite à la MSA depuis 2002, sur une terre tenue par une fondation. Les autres s'arrêtent d'abord sur le foncier (vingt-cinq) et sur la forme (vingt-quatre) : terre prêtée sans titre, propriétaire privé, société d'exploitation intercalée. La question juridique — peut-on cultiver sans chef d'exploitation ? — n'est presque jamais celle qui fait tomber le lieu : c'est la terre. Les vergers, maisons de semences et forêts-jardins associatifs, les plus proches d'une association d'intérêt général en bénévolat pur, vivent sous les seuils d'assujettissement sans validation écrite de la MSA ni du fisc. Voir les dossiers « Une association peut-elle cultiver sans chef d'exploitation ? » et « L'association d'intérêt général qui cultive en bénévolat pur ».

@@ -47,3 +47,11 @@
 - Vérification : 62 références contrôlées (5 corrections), cohérence juridique @eozen (23 reformulations appliquées), 18 fiches vérifiées (1 correction) ; itération 5 sur les oublis (loi 1901 et société créée de fait, cotisations au-delà du seuil, RGPD, habitat).
 - Résultat : 59 cas ; corpus 3 + 1 sous condition (Treynas entre au corpus) ; 5 au seuil ; section /dossiers/ en ligne ; prismes réécrits (+ 7e lecture : « cultiver sans chef : possible, rarement établi »).
 - Point dur identifié : autorisation d'exploiter (L331-2 I 3° b) pour toute structure sans membre exploitant. Arrêt « grenoblois » favorable : seulement deux jugements de première instance (TJ Grenoble 2021), infirmés en appel.
+
+## 2026-10-01 — cible « association d'intérêt général agricole en bénévolat pur »
+- Collège A (5 chercheurs) : rescrit social MSA (A1), rescrit fiscal et IG (A2), cas (A3, 8 fiches), seuils et démarches (A4), voies communautaires (A5).
+- Collège B : @eozen (séquence : prise de position du préfet L331-4-1 → rescrit MSA → L80 B → L80 C), @contradicteur (condition décisive : les produits ne reviennent pas aux membres en tant que membres ; robustesse 2→3), @antimeta (ce que le rescrit fait au collectif), @igor (deux mondes : conservation sous les seuils / vie communautaire au-dessus).
+- Collège C : 4 dossiers (association-ig-benevole, rescrits-et-prises-de-position, sous-les-seuils, voies-communautaires) + compléments (statuts, comptes, taxe foncière, responsabilité, coûts).
+- Vérification : 64 références (7 corrections), 14 reformulations @eozen, 8 fiches (5 corrigées ; propriétaire du verger de Secondigny = MFR de Frécul).
+- Constat central : **aucun rescrit MSA ni fiscal publié ou revendiqué** pour une association agricole en bénévolat pur. Les cas les plus proches (vergers conservatoires, maisons de semences, forêts-jardins) vivent sous les seuils sans validation écrite. 67 cas.
+- Note : un agent a créé /home/ced/codes/ (copie locale du Code rural, Code civil, Code de l'urbanisme) et $HOME/w/ (sauvegardes) hors du dossier projet.

@@ -2,6 +2,8 @@
 
 *Oui, en l'état du droit, à des conditions précises, et avec un point dur que rien ne permet d'éviter : l'autorisation d'exploiter. Ce dossier est la porte d'entrée des dossiers juridiques de libres. Il assemble les briques du droit, les décisions des juges, les cas connus et ce qui n'a jamais été tranché, et renvoie pour chaque question au dossier détaillé. Information juridique générale au 1er octobre 2026, pas un conseil : tout acte (statuts, convention foncière, demande d'autorisation, réponse à un contrôle) se prépare avec un avocat.*
 
+> Pour le cas précis d'une association d'intérêt général qui cultive en bénévolat pur, avec contribution libre, voir [L'association d'intérêt général qui cultive en bénévolat pur](../association-ig-benevole/), la séquence des [rescrits et prises de position](../rescrits-et-prises-de-position/), la stratégie [sous les seuils](../sous-les-seuils/) et les [voies communautaires](../voies-communautaires/).
+
 ## En bref
 
 - L'activité d'une association qui cultive est agricole par sa nature, quelle que soit sa forme et même sans vente [1].

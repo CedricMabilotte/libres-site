@@ -1,0 +1,148 @@
+# data/fiches/maison-semence-loire-pilat.yml — instruit le 2026-10-01 (collège A, chercheur A3)
+uid: maison-semence-loire-pilat
+nom: Maison de la Semence de la Loire, secteur Pilat
+autres_noms:
+- MS Loire Pilat
+famille: lieu_non_marchand
+resume: 'Groupe local de la Maison de la Semence de la Loire, association membre du Réseau Semences Paysannes déclarée en 2011. Depuis 2016, six à dix bénévoles se retrouvent une demi-journée par semaine à Maclas (Loire) pour cultiver des variétés potagères paysannes jusqu''à la graine, sur un terrain « gracieusement prêté » au lieu-dit Chorée, puis sur un lieu de culture collective à Goély. Les graines alimentent une grainothèque : elles sont « adoptées » gratuitement par des jardiniers qui en rendent une part, distribuées et troquées lors de rendez-vous à Pélussin et Saint-Étienne. Le groupe compte une vingtaine de membres qui viennent « sans devoir justifier leur absence ».'
+localisation:
+  commune: Maclas
+  departement: '42'
+  region: Auvergne-Rhône-Alpes
+  lat: 45.363
+  lon: 4.6973
+debut: 2016
+fin: null
+collectif:
+  nom: Maison de la Semence de la Loire
+  forme: association
+  annee: 2011
+foncier:
+  porteur: Prêteur non identifié
+  porteur_forme: inconnu
+  surface_ha: null
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: inconnu
+    note: Terrain « gracieusement prêté » ; prêteur non nommé.
+    source: 1
+  titre:
+    valeur: commodat
+    note: Prêt gracieux d'un terrain, qualifiable de prêt à usage ; aucun écrit publié.
+    source: 1
+  verrou:
+    valeur:
+    - aucun
+    note: Prêt gracieux révocable.
+    source: 1
+  gouvernance:
+    valeur: inconnu
+    note: Choix des cultures et de l'usage de la parcelle débattus et décidés ensemble en réunion de bilan (2021) ; mode de décision non précisé.
+    source: 2
+  economie:
+    valeur: activites_non_marchandes
+    note: Graines adoptées, distribuées et troquées gratuitement ; association non employeuse.
+    source: 1
+  ouverture:
+    valeur: ouvert_public
+    note: « Tout le monde est bienvenu » aux séances ; distributions publiques de graines et de plants.
+    source: 1
+  finalite:
+    valeur:
+    - agriculture
+    - milieu_vivant
+    - education_populaire
+    note: Reproduction de semences paysannes, conservation de variétés locales (haricots Merveille du Forez, Gloire de Saint-Rambert), formations.
+    source: 2
+  filiation:
+    valeur:
+    - ecologie_politique
+    note: Réseau Semences Paysannes, biodiversité cultivée.
+    source: 1
+  rapport_etat:
+    valeur: indifference
+    note: Aucune relation administrative documentée.
+    source: null
+  echelle:
+    valeur: '10_50'
+    note: Six à dix bénévoles hebdomadaires, une vingtaine de membres.
+    source: 1
+  transmission:
+    valeur: en_cours
+    note: Antenne forézienne créée en 2025 ; renouvellement du groupe du Pilat non documenté.
+    source: 3
+  etat:
+    valeur: actif
+    note: Billets publiés jusqu'en 2026 ; culture collective à Goély en 2025.
+    source: 3
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: inconnu
+    note: Association, mais prêteur du terrain non identifié.
+    source: 1
+  foncier_verrouille:
+    valeur: non
+    note: 'Mise à disposition gracieuse sans écrit connu : le cadre l''exclut expressément.'
+    source: 1
+  usage_ig:
+    valeur: oui
+    note: Gratuité des graines (adoption, distribution, troc), séances ouvertes à tous, formations, conservation de variétés du domaine public.
+    source: 1
+  autogestion:
+    valeur: partiel
+    note: Le groupe décide lui-même de ses cultures et de l'usage du terrain, mais dépend du bon vouloir du prêteur.
+    source: 2
+  etabli:
+    valeur: partiel
+    note: Dix ans d'activité (2016-2026), mais sur deux terrains successifs à Maclas ; continuité sur un même lieu non établie.
+    source: 3
+chronologie:
+- annee: 2011
+  evenement: Déclaration de l'association Maison de la Semence de la Loire.
+  source: 4
+- annee: 2016
+  evenement: Début de la culture collective sur un terrain prêté à Chorée (Maclas).
+  source: 1
+- annee: 2021
+  evenement: Le groupe décide de ne pas cultiver la parcelle en 2022 et de se concentrer sur la serre.
+  source: 2
+- annee: 2024
+  evenement: Ouverture de la grainothèque du Pilat.
+  source: 3
+- annee: 2025
+  evenement: Reprise de la culture collective à Goély (Maclas) ; création d'une antenne forézienne à Boën-sur-Lignon.
+  source: 3
+fiabilite:
+  verifie:
+  - Association non employeuse (RNA W421003005), membre du Réseau Semences Paysannes
+  - Fonctionnement bénévole et gratuité des graines
+  non_confirme:
+  - Identité du prêteur et nature du prêt
+  - Rapport entre les terrains de Chorée et de Goély
+dossier_juridique: 'Association sans salarié (répertoire Sirene : non employeuse, 94.99Z). Les semences sont cédées gratuitement ou troquées à des jardiniers amateurs : régime de l''article L. 661-8 du code rural (réd. loi n° 2020-699), qui soustrait au catalogue officiel la cession, même onéreuse, de semences de variétés du domaine public à des utilisateurs non professionnels. Aucune vente régulière, donc aucun revenu agricole documenté ; aucune déclaration MSA, aucun rescrit ni reçu fiscal mentionnés. Aucun incident administratif publié.'
+liens:
+  communs: null
+sources:
+- titre: Fonctionnement
+  auteur: Maison de la Semence de la Loire, secteur Pilat
+  annee: null
+  url: https://msloirepilat.wordpress.com/fonctionnement/
+- titre: Billet du 1er décembre 2021
+  auteur: Maison de la Semence de la Loire, secteur Pilat
+  annee: 2021
+  url: https://msloirepilat.wordpress.com/2021/12/01/billet-du-1er-decembre-2021/
+- titre: Billet du 16 mai 2025
+  auteur: Maison de la Semence de la Loire, secteur Pilat
+  annee: 2025
+  url: https://msloirepilat.wordpress.com/2025/05/16/billet-du-16-mai-2025/
+- titre: MAISON SEMENCE LOIRE (SIREN 790 835 359)
+  auteur: Annuaire des entreprises, d'après Sirene (Insee) et RNA
+  annee: 2026
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/790835359
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

@@ -1,0 +1,155 @@
+# data/fiches/verger-croqueurs-secondigny.yml — instruit le 2026-10-01 (collège A, chercheur A3)
+uid: verger-croqueurs-secondigny
+nom: Verger conservatoire des Croqueurs de pommes des Deux-Sèvres
+autres_noms:
+- Verger conservatoire de Secondigny
+famille: lieu_non_marchand
+resume: Verger conservatoire d'un hectare planté en 1995-1996 au lieu-dit La Guichetière, à Secondigny (Deux-Sèvres), sur une parcelle appartenant à la Maison familiale rurale de Frécul, par l'association des Croqueurs de pommes des Deux-Sèvres, fondée en 1990 et forte de 180 adhérents en 2020. Il réunit plus d'une centaine de variétés de pommes, dont une collection nationale de reinettes et les variétés de Gâtine (Reinette clochard). Tous les travaux, de la taille à la récolte et au pressage du jus, sont faits par les adhérents bénévoles. L'entrée est gratuite ; des séances de greffe sont offertes au public et aux scolaires. Le verger sert de parcelle de référence pour la surveillance sanitaire régionale.
+localisation:
+  commune: Secondigny
+  departement: '79'
+  region: Nouvelle-Aquitaine
+  lat: 46.6114
+  lon: -0.3985
+debut: 1996
+fin: null
+collectif:
+  nom: Les Croqueurs de pommes des Deux-Sèvres
+  forme: association
+  annee: 1990
+foncier:
+  porteur: Maison familiale rurale de Frécul (association déclarée, SIREN 781 485 156), propriétaire de la parcelle D 58 (10 930 m²) au lieu-dit La Guichetière
+  porteur_forme: association
+  surface_ha: 1.09
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: inconnu
+    note: Conditions d'installation sur le terrain non publiées.
+    source: null
+  titre:
+    valeur: inconnu
+    note: 'Terrain de la Maison familiale rurale de Frécul (cadastre, fichier DGFiP 2024) ; titre d''occupation des Croqueurs (prêt, convention, bail) non publié. La fiche du Comité des parcs et jardins, renseignée par l''association, la porte comme « propriétaire », ce que le cadastre dément : l''association n''y possède qu''une parcelle bâtie de 190 m² à La Guichetière Nord.'
+    source: 7
+  verrou:
+    valeur: inconnu
+    note: Aucun titre connu.
+    source: null
+  gouvernance:
+    valeur: inconnu
+    note: Association locale affiliée au réseau national des Croqueurs de pommes ; statuts locaux non consultés.
+    source: 1
+  economie:
+    valeur: activites_non_marchandes
+    note: Travaux faits par les adhérents ; entrée gratuite ; plants greffés remis « pour une somme modique » aux participants des séances de greffe.
+    source: 2
+  ouverture:
+    valeur: ouvert_public
+    note: Entrée gratuite et libre selon le Comité des parcs et jardins ; ouverture sur rendez-vous selon l'association.
+    source: 4
+  finalite:
+    valeur:
+    - agriculture
+    - milieu_vivant
+    - education_populaire
+    note: Conservation de variétés anciennes, greffage, pomologie, accueil scolaire.
+    source: 1
+  filiation:
+    valeur:
+    - ecologie_politique
+    note: Sauvegarde du patrimoine fruitier menacé par l'arrachage des haies et prés-vergers.
+    source: 1
+  rapport_etat:
+    valeur: conventionnement
+    note: Verger « agréé par le conseil général » ; parcelle de référence de la FREDON.
+    source: 4
+  echelle:
+    valeur: inconnu
+    note: 180 adhérents en 2020 ; nombre de bénévoles actifs au verger non publié.
+    source: 1
+  transmission:
+    valeur: generations_renouvelees
+    note: Association fondée en 1990, animée longtemps par un fondateur, toujours active après lui.
+    source: 1
+  etat:
+    valeur: actif
+    note: Site de l'association et fiche touristique actifs (2024).
+    source: 5
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: partiel
+    note: Association locale exploitant une parcelle appartenant à une autre association (Maison familiale rurale de Frécul, cadastre 2024) ; titre d'occupation entre les deux non publié.
+    source: 7
+  foncier_verrouille:
+    valeur: inconnu
+    note: Aucun titre ni verrou documenté.
+    source: null
+  usage_ig:
+    valeur: oui
+    note: Entrée gratuite, conservation de variétés locales, greffes gratuites pour le public et les écoles.
+    source: 4
+  autogestion:
+    valeur: partiel
+    note: Association d'adhérents ; usage dépendant d'un propriétaire tiers (Maison familiale rurale) aux conditions non publiées.
+    source: 7
+  etabli:
+    valeur: oui
+    note: Verger tenu par l'association depuis sa plantation en 1995-1996.
+    source: 4
+chronologie:
+- annee: 1990
+  evenement: Fondation de l'association des Croqueurs de pommes des Deux-Sèvres.
+  source: 1
+- annee: 1996
+  evenement: Plantation du verger conservatoire (118 variétés) et ouverture au public.
+  source: 3
+- annee: 2020
+  evenement: 180 adhérents.
+  source: 1
+fiabilite:
+  verifie:
+  - Verger entretenu par des bénévoles depuis 1996
+  - Entrée gratuite
+  - 'Propriétaire de la parcelle D 58 : Maison familiale rurale de Frécul (fichier DGFiP des parcelles des personnes morales, 2024 ; concordant avec l''étude du Pays de Gâtine de 2000)'
+  non_confirme:
+  - Titre d'occupation consenti par la Maison familiale rurale
+  - Vente éventuelle du jus de pommes
+  - Reconnaissance d'intérêt général
+dossier_juridique: 'Association de bénévoles ; aucun salarié mentionné. La production de jus de pommes (atelier « Doré de Gâtine ») et la remise de plants greffés « pour une somme modique » sont les seules cessions documentées ; leur régime n''est pas publié. Les plants de variétés anciennes cédés à des amateurs relèvent de l''article L. 661-8 du code rural depuis 2020. Aucune déclaration MSA, aucun rescrit ni reçu fiscal mentionnés. Relation sanitaire régulière : relevés hebdomadaires de pièges transmis à la FREDON.'
+liens:
+  communs: null
+sources:
+- titre: Les Croqueurs de Pommes des Deux-Sèvres (accueil)
+  auteur: Les Croqueurs de pommes des Deux-Sèvres
+  annee: 2020
+  url: https://croqueurs79.fr/
+- titre: Activités au verger
+  auteur: Les Croqueurs de pommes des Deux-Sèvres
+  annee: null
+  url: https://croqueurs79.fr/activites-au-verger/
+- titre: Verger conservatoire de Secondigny (fiche d'étude des jardins de Gâtine)
+  auteur: Pays de Gâtine
+  annee: 2000
+  url: http://www.intragatine.org/PaysGatine/infos-utiles/Etude_jardins/Fiche-Verger.htm
+- titre: Verger conservatoire (1 ha) - Deux-Sèvres
+  auteur: Comité des Parcs et Jardins de France
+  annee: null
+  url: https://www.parcsetjardins.fr/jardins/605-verger-conservatoire
+- titre: Verger Conservatoire des Croqueurs de Pommes
+  auteur: Deux-Sèvres Tourisme
+  annee: 2024
+  url: https://www.tourisme-deux-sevres.com/activite/verger-conservatoire-des-croqueurs-de-pommes/
+- titre: Situation du verger
+  auteur: Les Croqueurs de pommes des Deux-Sèvres
+  annee: null
+  url: https://croqueurs79.fr/situation-du-verger/
+- titre: Fichier des parcelles des personnes morales (situation 2024), département des Deux-Sèvres
+  auteur: Direction générale des Finances publiques
+  annee: 2025
+  url: https://data.economie.gouv.fr/explore/dataset/fichiers-des-locaux-et-des-parcelles-des-personnes-morales/
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

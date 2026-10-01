@@ -3342,6 +3342,227 @@
    "url": "https://libres.actitude.org/f/emmaus-neuilly-plaisance/"
   },
   {
+   "uid": "verger-croqueurs-secondigny",
+   "nom": "Verger conservatoire des Croqueurs de pommes des Deux-Sèvres",
+   "autres_noms": [
+    "Verger conservatoire de Secondigny"
+   ],
+   "famille": "lieu_non_marchand",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "autogestion"
+   ],
+   "periode": "1990-2007",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Secondigny",
+    "departement": "79",
+    "region": "Nouvelle-Aquitaine",
+    "lat": 46.6114,
+    "lon": -0.3985
+   },
+   "debut": 1996,
+   "fin": null,
+   "resume": "Verger conservatoire d'un hectare planté en 1995-1996 au lieu-dit La Guichetière, à Secondigny (Deux-Sèvres), sur une parcelle appartenant à la Maison familiale rurale de Frécul, par l'association des Croqueurs de pommes des Deux-Sèvres, fondée en 1990 et forte de 180 adhérents en 2020. Il réunit plus d'une centaine de variétés de pommes, dont une collection nationale de reinettes et les variétés de Gâtine (Reinette clochard). Tous les travaux, de la taille à la récolte et au pressage du jus, sont faits par les adhérents bénévoles. L'entrée est gratuite ; des séances de greffe sont offertes au public et aux scolaires. Le verger sert de parcelle de référence pour la surveillance sanitaire régionale.",
+   "collectif": {
+    "nom": "Les Croqueurs de pommes des Deux-Sèvres",
+    "forme": "association",
+    "annee": 1990
+   },
+   "foncier": {
+    "porteur": "Maison familiale rurale de Frécul (association déclarée, SIREN 781 485 156), propriétaire de la parcelle D 58 (10 930 m²) au lieu-dit La Guichetière",
+    "porteur_forme": "association",
+    "surface_ha": 1.09,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Association locale exploitant une parcelle appartenant à une autre association (Maison familiale rurale de Frécul, cadastre 2024) ; titre d'occupation entre les deux non publié."
+    },
+    "foncier_verrouille": {
+     "valeur": "inconnu",
+     "note": "Aucun titre ni verrou documenté."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Entrée gratuite, conservation de variétés locales, greffes gratuites pour le public et les écoles."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Association d'adhérents ; usage dépendant d'un propriétaire tiers (Maison familiale rurale) aux conditions non publiées."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Verger tenu par l'association depuis sa plantation en 1995-1996."
+    }
+   },
+   "dimensions": {
+    "acces": "inconnu",
+    "titre": "inconnu",
+    "verrou": "inconnu",
+    "gouvernance": "inconnu",
+    "economie": "activites_non_marchandes",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "agriculture",
+     "milieu_vivant",
+     "education_populaire"
+    ],
+    "filiation": [
+     "ecologie_politique"
+    ],
+    "rapport_etat": "conventionnement",
+    "echelle": "inconnu",
+    "transmission": "generations_renouvelees",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Les Croqueurs de Pommes des Deux-Sèvres (accueil)",
+     "auteur": "Les Croqueurs de pommes des Deux-Sèvres",
+     "annee": 2020,
+     "url": "https://croqueurs79.fr/"
+    },
+    {
+     "titre": "Activités au verger",
+     "auteur": "Les Croqueurs de pommes des Deux-Sèvres",
+     "annee": null,
+     "url": "https://croqueurs79.fr/activites-au-verger/"
+    },
+    {
+     "titre": "Verger conservatoire de Secondigny (fiche d'étude des jardins de Gâtine)",
+     "auteur": "Pays de Gâtine",
+     "annee": 2000,
+     "url": "http://www.intragatine.org/PaysGatine/infos-utiles/Etude_jardins/Fiche-Verger.htm"
+    },
+    {
+     "titre": "Verger conservatoire (1 ha) - Deux-Sèvres",
+     "auteur": "Comité des Parcs et Jardins de France",
+     "annee": null,
+     "url": "https://www.parcsetjardins.fr/jardins/605-verger-conservatoire"
+    },
+    {
+     "titre": "Verger Conservatoire des Croqueurs de Pommes",
+     "auteur": "Deux-Sèvres Tourisme",
+     "annee": 2024,
+     "url": "https://www.tourisme-deux-sevres.com/activite/verger-conservatoire-des-croqueurs-de-pommes/"
+    },
+    {
+     "titre": "Situation du verger",
+     "auteur": "Les Croqueurs de pommes des Deux-Sèvres",
+     "annee": null,
+     "url": "https://croqueurs79.fr/situation-du-verger/"
+    },
+    {
+     "titre": "Fichier des parcelles des personnes morales (situation 2024), département des Deux-Sèvres",
+     "auteur": "Direction générale des Finances publiques",
+     "annee": 2025,
+     "url": "https://data.economie.gouv.fr/explore/dataset/fichiers-des-locaux-et-des-parcelles-des-personnes-morales/"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/verger-croqueurs-secondigny/"
+  },
+  {
+   "uid": "verger-patrimonial-de-fraize",
+   "nom": "Verger patrimonial de Fraize",
+   "autres_noms": [
+    "Verger conservatoire de Fraize"
+   ],
+   "famille": "lieu_non_marchand",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "autogestion"
+   ],
+   "periode": "1990-2007",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Fraize",
+    "departement": "88",
+    "region": "Grand Est",
+    "lat": 48.1865,
+    "lon": 7.0007
+   },
+   "debut": 1998,
+   "fin": null,
+   "resume": "Verger communal de 55 ares installé à partir de 1997-1998 dans l'ancien parc de la maison Wald, au centre de Fraize (Vosges), sous la responsabilité de l'association de sauvegarde du patrimoine La Costelle. Décidé par le conseil municipal en décembre 1995 avec l'aide de l'État (fonds de gestion de l'espace rural), il conserve les variétés anciennes de pommes, poires et prunes du canton. Un groupe de bénévoles s'y réunit chaque semaine d'avril à l'automne : taille, greffage, identification des fruits, récolte, atelier de jus de pommes ; greffons et sujets greffés sont mis à disposition, et le verger accueille écoles et visiteurs.",
+   "collectif": {
+    "nom": "Association de sauvegarde du patrimoine La Costelle",
+    "forme": "association",
+    "annee": 1993
+   },
+   "foncier": {
+    "porteur": "Commune de Fraize",
+    "porteur_forme": "personne_publique",
+    "surface_ha": 0.555,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Association sur un verger communal ; aucun acte n'établit le montage."
+    },
+    "foncier_verrouille": {
+     "valeur": "inconnu",
+     "note": "Aucun titre ni verrou documenté."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Conservation de variétés locales, mise à disposition de greffons, accueil des écoles et des touristes, sans vente documentée."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Bénévoles organisés au sein de l'association, mais projet municipal piloté par des élus."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Verger tenu depuis 1998, rapport d'activité 2024."
+    }
+   },
+   "dimensions": {
+    "acces": "inconnu",
+    "titre": "inconnu",
+    "verrou": "inconnu",
+    "gouvernance": "mixte",
+    "economie": "activites_non_marchandes",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "agriculture",
+     "milieu_vivant",
+     "education_populaire",
+     "culture"
+    ],
+    "filiation": [
+     "education_populaire"
+    ],
+    "rapport_etat": "conventionnement",
+    "echelle": "inconnu",
+    "transmission": "generations_renouvelees",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Le Verger patrimonial",
+     "auteur": "La Costelle et le patrimoine de Fraize",
+     "annee": 2024,
+     "url": "https://lacostelle.org/pages/page_verger.php"
+    },
+    {
+     "titre": "ASSOCIATION DE SAUVEGARDE DU PATRIMOINE 'LA COSTELLE' (SIREN 841 507 262)",
+     "auteur": "Annuaire des entreprises, d'après Sirene (Insee) et RNA",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/841507262"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/verger-patrimonial-de-fraize/"
+  },
+  {
    "uid": "ecolectif",
    "nom": "Écolectif",
    "autres_noms": [
@@ -4379,6 +4600,211 @@
    "url": "https://libres.actitude.org/f/ferme-des-bouillons/"
   },
   {
+   "uid": "foret-jardin-de-la-cartade",
+   "nom": "Forêt-jardin de La Cartade",
+   "autres_noms": [
+    "Jardin-forêt de La Cartade",
+    "Collectif forêt jardin de la Cartade"
+   ],
+   "famille": "commun_foncier",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "autogestion",
+    "etabli"
+   ],
+   "periode": "2008-",
+   "verrou_type": "par_titre",
+   "localisation": {
+    "commune": "Glaine-Montaigut",
+    "departement": "63",
+    "region": "Auvergne-Rhône-Alpes",
+    "lat": 45.7499,
+    "lon": 3.3852
+   },
+   "debut": 2020,
+   "fin": null,
+   "resume": "Forêt-jardin, pré-vergers, haies, potager et mare cultivés depuis l'automne 2020 par une association de bénévoles sur une parcelle d'environ 5 600 m² à Glaine-Montaigut (Puy-de-Dôme). Le terrain appartient à une co-fondatrice, qui l'a mis à disposition de l'association par bail emphytéotique. En 2023, l'association comptait une cinquantaine de bénévoles mobilisables, environ 150 sympathisants et treize personnes coordonnant le projet en groupes de travail autonomes. Aucune vente ni aucun salarié ne sont documentés ; les plantations ont été financées par le budget écologique citoyen du Département (2020 et 2022). Le lieu ouvre ses portes au public chaque automne (fête de la Cartade, 4 octobre 2026).",
+   "collectif": {
+    "nom": "Collectif forêt jardin de la Cartade",
+    "forme": "association",
+    "annee": 2020
+   },
+   "foncier": {
+    "porteur": "Personne privée (co-fondatrice de l'association)",
+    "porteur_forme": "personne_privee",
+    "surface_ha": 0.56,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Collectif associatif, mais le foncier est porté par une personne privée (co-fondatrice) : maillon hors des formes admises."
+    },
+    "foncier_verrouille": {
+     "valeur": "partiel",
+     "note": "Bail emphytéotique documenté par la presse ; durée inconnue, acte non publié ; propriété privée restant cessible."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Production non vendue à notre connaissance, chantiers ouverts, éducation au jardinage, fête publique à entrée libre."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Assemblée d'adhérents et groupes autonomes, mais la propriétaire du terrain est aussi co-fondatrice et animatrice du collectif."
+    },
+    "etabli": {
+     "valeur": "non",
+     "note": "Six ans d'usage (2020-2026)."
+    }
+   },
+   "dimensions": {
+    "acces": "inconnu",
+    "titre": "bail_emphyteotique",
+    "verrou": [
+     "bail_long"
+    ],
+    "gouvernance": "mixte",
+    "economie": "revenus_individuels_externes",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "agriculture",
+     "milieu_vivant",
+     "education_populaire"
+    ],
+    "filiation": [
+     "ecologie_politique"
+    ],
+    "rapport_etat": "conventionnement",
+    "echelle": "10_50",
+    "transmission": "fondateurs_seuls",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Forêt-jardin de La Cartade (fiche structure)",
+     "auteur": "Tikographie",
+     "annee": 2023,
+     "url": "https://www.tikographie.fr/structure/foret-jardin-de-la-cartade/"
+    },
+    {
+     "titre": "Forêts nourricières #1/2 : portrait de trois collectifs avec bêche",
+     "auteur": "Marie-Pierre Demarty, Tikographie",
+     "annee": 2023,
+     "url": "https://www.tikographie.fr/2023/03/21/foret-jardin-1-portrait-de-trois-collectifs/"
+    },
+    {
+     "titre": "COLLECTIF FORET JARDIN DE LA CARTADE (SIREN 891 469 801)",
+     "auteur": "Annuaire des entreprises, d'après Sirene (Insee) et RNA",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/891469801"
+    },
+    {
+     "titre": "Forêt-Jardin de la Cartade : un jardin vivant à Glaine-Montaigut",
+     "auteur": "Escoutoux.net",
+     "annee": 2026,
+     "url": "https://escoutoux.net/Foret-jardin-de-la-Cartade"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/foret-jardin-de-la-cartade/"
+  },
+  {
+   "uid": "jardin-foret-du-brin-de-paille",
+   "nom": "Jardin-forêt du Brin de paille",
+   "autres_noms": [],
+   "famille": "commun_foncier",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "autogestion",
+    "etabli"
+   ],
+   "periode": "2008-",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Saint-Genès-Champanelle",
+    "departement": "63",
+    "region": "Auvergne-Rhône-Alpes",
+    "lat": 45.7222,
+    "lon": 3.0005
+   },
+   "debut": 2022,
+   "fin": null,
+   "resume": "Jardin-forêt comestible planté depuis janvier 2023 par une association de bénévoles sur un pré communal de 1 200 m² au centre de Saint-Genès-Champanelle (Puy-de-Dôme). L'idée est née d'une consultation des habitants sur le projet d'aménagement communal ; l'association a été déclarée en 2022. La commune met le terrain à disposition pour un loyer modeste, à condition qu'il reste un espace public et que les manifestations restent gratuites. Le principe affiché est celui d'un « réservoir d'aliments » où chacun vient cueillir selon ses besoins, « dans l'esprit de prendre et de donner quelque chose ».",
+   "collectif": {
+    "nom": "Jardin-forêt du Brin de paille",
+    "forme": "association",
+    "annee": 2022
+   },
+   "foncier": {
+    "porteur": "Commune de Saint-Genès-Champanelle",
+    "porteur_forme": "personne_publique",
+    "surface_ha": 0.12,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Association sur un terrain communal ; la commune impose l'usage public et la gratuité, ce qui dessine un commun, mais aucun titre n'est publié."
+    },
+    "foncier_verrouille": {
+     "valeur": "inconnu",
+     "note": "Aucune durée de mise à disposition connue."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Espace ouvert à tous, manifestations gratuites, cueillette au besoin, accueil des écoles."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Association autonome, mais usage conditionné par la commune propriétaire."
+    },
+    "etabli": {
+     "valeur": "non",
+     "note": "Quatre ans (2022-2026)."
+    }
+   },
+   "dimensions": {
+    "acces": "bail_public",
+    "titre": "convention",
+    "verrou": "inconnu",
+    "gouvernance": "inconnu",
+    "economie": "activites_non_marchandes",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "agriculture",
+     "milieu_vivant",
+     "education_populaire"
+    ],
+    "filiation": [
+     "ecologie_politique"
+    ],
+    "rapport_etat": "conventionnement",
+    "echelle": "moins_10",
+    "transmission": "fondateurs_seuls",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Forêts nourricières #1/2 : portrait de trois collectifs avec bêche",
+     "auteur": "Marie-Pierre Demarty, Tikographie",
+     "annee": 2023,
+     "url": "https://www.tikographie.fr/2023/03/21/foret-jardin-1-portrait-de-trois-collectifs/"
+    },
+    {
+     "titre": "JARDIN-FORET DU BRIN DE PAILLE (SIREN 920 310 711)",
+     "auteur": "Annuaire des entreprises, d'après Sirene (Insee) et RNA",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/920310711"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/jardin-foret-du-brin-de-paille/"
+  },
+  {
    "uid": "jardins-ouvriers-des-vertus",
    "nom": "Jardins ouvriers des Vertus",
    "autres_noms": [
@@ -5335,6 +5761,231 @@
    "url": "https://libres.actitude.org/f/les-semeuses-bure/"
   },
   {
+   "uid": "maison-semence-loire-pilat",
+   "nom": "Maison de la Semence de la Loire, secteur Pilat",
+   "autres_noms": [
+    "MS Loire Pilat"
+   ],
+   "famille": "lieu_non_marchand",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "autogestion",
+    "etabli"
+   ],
+   "periode": "2008-",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Maclas",
+    "departement": "42",
+    "region": "Auvergne-Rhône-Alpes",
+    "lat": 45.363,
+    "lon": 4.6973
+   },
+   "debut": 2016,
+   "fin": null,
+   "resume": "Groupe local de la Maison de la Semence de la Loire, association membre du Réseau Semences Paysannes déclarée en 2011. Depuis 2016, six à dix bénévoles se retrouvent une demi-journée par semaine à Maclas (Loire) pour cultiver des variétés potagères paysannes jusqu'à la graine, sur un terrain « gracieusement prêté » au lieu-dit Chorée, puis sur un lieu de culture collective à Goély. Les graines alimentent une grainothèque : elles sont « adoptées » gratuitement par des jardiniers qui en rendent une part, distribuées et troquées lors de rendez-vous à Pélussin et Saint-Étienne. Le groupe compte une vingtaine de membres qui viennent « sans devoir justifier leur absence ».",
+   "collectif": {
+    "nom": "Maison de la Semence de la Loire",
+    "forme": "association",
+    "annee": 2011
+   },
+   "foncier": {
+    "porteur": "Prêteur non identifié",
+    "porteur_forme": "inconnu",
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "inconnu",
+     "note": "Association, mais prêteur du terrain non identifié."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Mise à disposition gracieuse sans écrit connu : le cadre l'exclut expressément."
+    },
+    "usage_ig": {
+     "valeur": "oui",
+     "note": "Gratuité des graines (adoption, distribution, troc), séances ouvertes à tous, formations, conservation de variétés du domaine public."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Le groupe décide lui-même de ses cultures et de l'usage du terrain, mais dépend du bon vouloir du prêteur."
+    },
+    "etabli": {
+     "valeur": "partiel",
+     "note": "Dix ans d'activité (2016-2026), mais sur deux terrains successifs à Maclas ; continuité sur un même lieu non établie."
+    }
+   },
+   "dimensions": {
+    "acces": "inconnu",
+    "titre": "commodat",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "inconnu",
+    "economie": "activites_non_marchandes",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "agriculture",
+     "milieu_vivant",
+     "education_populaire"
+    ],
+    "filiation": [
+     "ecologie_politique"
+    ],
+    "rapport_etat": "indifference",
+    "echelle": "10_50",
+    "transmission": "en_cours",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Fonctionnement",
+     "auteur": "Maison de la Semence de la Loire, secteur Pilat",
+     "annee": null,
+     "url": "https://msloirepilat.wordpress.com/fonctionnement/"
+    },
+    {
+     "titre": "Billet du 1er décembre 2021",
+     "auteur": "Maison de la Semence de la Loire, secteur Pilat",
+     "annee": 2021,
+     "url": "https://msloirepilat.wordpress.com/2021/12/01/billet-du-1er-decembre-2021/"
+    },
+    {
+     "titre": "Billet du 16 mai 2025",
+     "auteur": "Maison de la Semence de la Loire, secteur Pilat",
+     "annee": 2025,
+     "url": "https://msloirepilat.wordpress.com/2025/05/16/billet-du-16-mai-2025/"
+    },
+    {
+     "titre": "MAISON SEMENCE LOIRE (SIREN 790 835 359)",
+     "auteur": "Annuaire des entreprises, d'après Sirene (Insee) et RNA",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/790835359"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/maison-semence-loire-pilat/"
+  },
+  {
+   "uid": "verger-croqueurs-puyricard",
+   "nom": "Verger conservatoire des Croqueurs de pommes de Provence",
+   "autres_noms": [
+    "Li Vieii Pero",
+    "Verger de Puyricard"
+   ],
+   "famille": "lieu_non_marchand",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion"
+   ],
+   "periode": "1990-2007",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Aix-en-Provence",
+    "departement": "13",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "lat": 43.5849,
+    "lon": 5.3945
+   },
+   "debut": 1992,
+   "fin": null,
+   "resume": "Verger conservatoire tenu depuis plus de trente ans par l'association des Croqueurs de pommes de Provence-Alpes-Côte d'Azur, dite « Li Vieii Pero », fondée en juillet 1992, sur un terrain mis à disposition par la Ville d'Aix-en-Provence au chemin du Grand Saint-Jean, à Puyricard. Les bénévoles y accèdent librement le mardi pour tailler, greffer, expérimenter et conserver des variétés fruitières régionales ; l'association comptait 350 adhérents en 2024. Le verger se définit comme « une association de bénévoles librement engagés », ni verger de production, ni entreprise, ni parc public : il est réservé aux adhérents, mais ouvert au public lors de journées portes ouvertes annuelles où sont vendus des arbres et des fruits de collection.",
+   "collectif": {
+    "nom": "Association des Croqueurs de pommes de Provence, Alpes, Côte d'Azur, dite Li Vieii Pero",
+    "forme": "association",
+    "annee": 1992
+   },
+   "foncier": {
+    "porteur": "Ville d'Aix-en-Provence",
+    "porteur_forme": "personne_publique",
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Association sur un terrain de la Ville ; aucun montage de commun établi par un acte publié."
+    },
+    "foncier_verrouille": {
+     "valeur": "inconnu",
+     "note": "Titre et durée de la mise à disposition non publiés."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Objet de sauvegarde et d'éducation du public, mais lieu « privé réservé aux adhérents » hors portes ouvertes, et ventes d'arbres et de fruits."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Assemblée d'adhérents et conseil élu ; usage dépendant de la mise à disposition municipale."
+    },
+    "etabli": {
+     "valeur": "oui",
+     "note": "Verger tenu depuis plus de trente ans (association fondée en 1992)."
+    }
+   },
+   "dimensions": {
+    "acces": "bail_public",
+    "titre": "inconnu",
+    "verrou": "inconnu",
+    "gouvernance": "conseil_delegue",
+    "economie": "activites_marchandes_annexes",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "agriculture",
+     "milieu_vivant",
+     "education_populaire"
+    ],
+    "filiation": [
+     "ecologie_politique"
+    ],
+    "rapport_etat": "conventionnement",
+    "echelle": "inconnu",
+    "transmission": "generations_renouvelees",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "[Reportage] Les Croqueurs de pommes, l'extraordinaire verger conservatoire de Puyricard",
+     "auteur": "Gomet'",
+     "annee": 2024,
+     "url": "https://gomet.net/reportage-les-croqueurs-de-pommes-lextraordinaire-verger-conservatoire-de-puyricard/"
+    },
+    {
+     "titre": "Nos activités",
+     "auteur": "Les Croqueurs de pommes de Provence",
+     "annee": null,
+     "url": "https://croqueursdeprovence.fr/nos-activites/"
+    },
+    {
+     "titre": "Nos statuts",
+     "auteur": "Les Croqueurs de pommes de Provence",
+     "annee": 2016,
+     "url": "https://croqueursdeprovence.fr/nos-statuts/"
+    },
+    {
+     "titre": "La philosophie du verger",
+     "auteur": "Les Croqueurs de pommes de Provence",
+     "annee": null,
+     "url": "https://croqueursdeprovence.fr/la-philosophie-du-verger/"
+    },
+    {
+     "titre": "CROQUEURS DE POMME DE PROVENCE ALPES COTE D AZUR DITE LI VIEII PERO (SIREN 501 391 502)",
+     "auteur": "Annuaire des entreprises, d'après Sirene (Insee) et RNA",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/501391502"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/verger-croqueurs-puyricard/"
+  },
+  {
    "uid": "zad-notre-dame-des-landes",
    "nom": "ZAD de Notre-Dame-des-Landes",
    "autres_noms": [
@@ -5866,6 +6517,109 @@
     }
    ],
    "url": "https://libres.actitude.org/f/communes-libertaires-ariege-villeneuve-du-bosc/"
+  },
+  {
+   "uid": "foret-jardin-de-persignat",
+   "nom": "Forêt-jardin de Persignat",
+   "autres_noms": [
+    "Forêt-jardin de l'association Matercoop"
+   ],
+   "famille": "commun_foncier",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion",
+    "etabli"
+   ],
+   "periode": "2008-",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Aubiat",
+    "departement": "63",
+    "region": "Auvergne-Rhône-Alpes",
+    "lat": 45.9792,
+    "lon": 3.1977
+   },
+   "debut": 2023,
+   "fin": null,
+   "resume": "Forêt-jardin lancée au début de 2023 sur un terrain communal du hameau de Persignat, à Aubiat (Puy-de-Dôme), en pleine plaine céréalière de Limagne. La municipalité a laissé « carte blanche » au collectif réuni par l'association Matercoop (déclarée en 2012) pour aménager un espace arboré et convivial : douze premiers fruitiers autour d'un labyrinthe de méditation, plantes potagères et médicinales. Le groupe, une vingtaine de bénévoles en janvier 2023, a recensé d'autres terrains communaux à planter.",
+   "collectif": {
+    "nom": "Matercoop",
+    "forme": "association",
+    "annee": 2012
+   },
+   "foncier": {
+    "porteur": "Commune d'Aubiat",
+    "porteur_forme": "personne_publique",
+    "surface_ha": null,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "partiel",
+     "note": "Association sur terrain communal ; aucun montage de commun établi par un acte."
+    },
+    "foncier_verrouille": {
+     "valeur": "inconnu",
+     "note": "Aucun titre connu."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Usage ouvert et non marchand visé ; activité effective après les premières plantations non documentée."
+    },
+    "autogestion": {
+     "valeur": "partiel",
+     "note": "Collectif bénévole, mais projet porté par un animateur et dépendant de l'accord municipal."
+    },
+    "etabli": {
+     "valeur": "non",
+     "note": "Débuté en 2023."
+    }
+   },
+   "dimensions": {
+    "acces": "bail_public",
+    "titre": "inconnu",
+    "verrou": "inconnu",
+    "gouvernance": "inconnu",
+    "economie": "activites_non_marchandes",
+    "ouverture": "ouvert_public",
+    "finalite": [
+     "agriculture",
+     "milieu_vivant",
+     "spiritualite"
+    ],
+    "filiation": [
+     "ecologie_politique"
+    ],
+    "rapport_etat": "conventionnement",
+    "echelle": "10_50",
+    "transmission": "fondateurs_seuls",
+    "etat": "inconnu",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Forêts nourricières #1/2 : portrait de trois collectifs avec bêche",
+     "auteur": "Marie-Pierre Demarty, Tikographie",
+     "annee": 2023,
+     "url": "https://www.tikographie.fr/2023/03/21/foret-jardin-1-portrait-de-trois-collectifs/"
+    },
+    {
+     "titre": "On parle de Matercoop !",
+     "auteur": "Budget écologique citoyen, Conseil départemental du Puy-de-Dôme",
+     "annee": 2023,
+     "url": "https://budgetecocitoyen.puy-de-dome.fr/blog/on-parle-de-matercoop"
+    },
+    {
+     "titre": "MATERCOOP (SIREN 751 289 315)",
+     "auteur": "Annuaire des entreprises, d'après Sirene (Insee) et RNA",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/751289315"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/foret-jardin-de-persignat/"
   },
   {
    "uid": "l-aube",
@@ -6415,6 +7169,130 @@
     }
    ],
    "url": "https://libres.actitude.org/f/terre-liberee-luynes/"
+  },
+  {
+   "uid": "trucland-sorges",
+   "nom": "Truc'land",
+   "autres_noms": [],
+   "famille": "communaute_intentionnelle",
+   "statut": "epreuve",
+   "portes_manquantes": [
+    "forme_civile",
+    "foncier_verrouille",
+    "usage_ig",
+    "autogestion",
+    "etabli"
+   ],
+   "periode": "2008-",
+   "verrou_type": "aucun",
+   "localisation": {
+    "commune": "Sorges-et-Ligueux-en-Périgord",
+    "departement": "24",
+    "region": "Nouvelle-Aquitaine",
+    "lat": 45.2929,
+    "lon": 0.8505
+   },
+   "debut": 2019,
+   "fin": null,
+   "resume": "Écolieu associatif fondé par huit amis issus d'une association culturelle de Seine-et-Marne (La Fée des trucs, 2006-2019), installés en 2019 à Sorges-et-Ligueux-en-Périgord (Dordogne) après l'achat d'un terrain et d'une maison, signé en octobre 2019. Le projet combine micro-ferme sur sol vivant (fruits, légumes, poules, abeilles, transformation), ateliers, écoconstruction et événements culturels ; les surplus sont échangés par « troc et vente » avec les riverains. Le répertoire Sirene montre une société civile immobilière Truc'land créée en mai 2019 à la même adresse, propriétaire de six parcelles (1,46 ha) au lieu-dit Les Clèdes selon le fichier cadastral de la DGFiP : le foncier n'est pas porté par l'association.",
+   "collectif": {
+    "nom": "Truc'land",
+    "forme": "association",
+    "annee": null
+   },
+   "foncier": {
+    "porteur": "SCI Truc'land (société civile immobilière, 2019), propriétaire des parcelles F 869 et F 872 à 876 (Les Clèdes)",
+    "porteur_forme": "societe_civile_parts_cessibles",
+    "surface_ha": 1.46,
+    "titre_duree_ans": null
+   },
+   "portes": {
+    "forme_civile": {
+     "valeur": "non",
+     "note": "Foncier porté par une société civile immobilière à parts cessibles : exclusion nommée du cadre."
+    },
+    "foncier_verrouille": {
+     "valeur": "non",
+     "note": "Aucun verrou connu ; les parts d'une SCI se cèdent."
+    },
+    "usage_ig": {
+     "valeur": "partiel",
+     "note": "Accueil culturel et ateliers ouverts, mais lieu de vie d'un groupe d'amis et vente de surplus."
+    },
+    "autogestion": {
+     "valeur": "inconnu",
+     "note": "Rapport entre associés de la SCI et membres de l'association non publié."
+    },
+    "etabli": {
+     "valeur": "non",
+     "note": "Installé en 2019."
+    }
+   },
+   "dimensions": {
+    "acces": "achat_collectif",
+    "titre": "inconnu",
+    "verrou": [
+     "aucun"
+    ],
+    "gouvernance": "inconnu",
+    "economie": "activites_marchandes_annexes",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "agriculture",
+     "habitat",
+     "culture",
+     "education_populaire"
+    ],
+    "filiation": [
+     "autonomie",
+     "ecologie_politique",
+     "education_populaire"
+    ],
+    "rapport_etat": "indifference",
+    "echelle": "moins_10",
+    "transmission": "fondateurs_seuls",
+    "etat": "actif",
+    "fin": null
+   },
+   "sources": [
+    {
+     "titre": "Truc'land - Écolieu associatif et expérimental en Dordogne (accueil et actualités)",
+     "auteur": "Truc'land",
+     "annee": 2022,
+     "url": "https://www.trucland.org/"
+    },
+    {
+     "titre": "Concept",
+     "auteur": "Truc'land",
+     "annee": null,
+     "url": "https://www.trucland.org/concept/"
+    },
+    {
+     "titre": "Micro-ferme",
+     "auteur": "Truc'land",
+     "annee": null,
+     "url": "https://www.trucland.org/micro-ferme/"
+    },
+    {
+     "titre": "TRUC'LAND SCI (SIREN 851 191 791)",
+     "auteur": "Annuaire des entreprises, d'après Sirene (Insee) et RNA",
+     "annee": 2026,
+     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/851191791"
+    },
+    {
+     "titre": "Origines",
+     "auteur": "Truc'land",
+     "annee": null,
+     "url": "https://www.trucland.org/origines/"
+    },
+    {
+     "titre": "Fichier des parcelles des personnes morales (situation 2024), département de la Dordogne",
+     "auteur": "Direction générale des Finances publiques",
+     "annee": 2025,
+     "url": "https://data.economie.gouv.fr/explore/dataset/fichiers-des-locaux-et-des-parcelles-des-personnes-morales/"
+    }
+   ],
+   "url": "https://libres.actitude.org/f/trucland-sorges/"
   }
  ]
 }

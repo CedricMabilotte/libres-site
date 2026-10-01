@@ -2,6 +2,8 @@
 
 *Une association qui cultive en commun, sans salarié ni dirigeant qui en tire profit, n'est ni interdite ni reconnue : elle vit dans les silences du code rural. Ce dossier formule la thèse qu'on peut tenir devant une caisse, un juge ou un élu, les objections qu'on lui opposera, les réponses que les textes permettent, les pièges de la récupération et les réformes qui donneraient au modèle un statut. Information juridique générale au 1er octobre 2026, pas un conseil : aucune réponse-type ne remplace un avocat face à un contrôle ou une procédure.*
 
+> Séquence de validation (préfet, MSA, fisc) : voir [Faire valider le statut](../rescrits-et-prises-de-position/). Condition décisive pour l'intérêt général : voir [L'association d'intérêt général qui cultive en bénévolat pur](../association-ig-benevole/).
+
 ## En bref
 
 - La thèse tenable n'est pas « c'est légal », mais « c'est permis, et il manque un statut » : le cœur du modèle n'a jamais été jugé [1].
@@ -34,7 +36,7 @@ Chaque proposition renvoie à un texte : L. 311-1 pour la nature de l'activité,
 
 | Qui objecte | Objection | Réponse-type | Ce qui la fonde | Ce qui la fait tomber |
 |---|---|---|---|---|
-| MSA | « Le président est chef d'exploitation. » | Seulement s'il retire un avantage ; c'est à la caisse de prouver le caractère agricole et l'avantage | CA Grenoble 2023 a contrario [11] ; CA Pau 2024 [12] ; L. 722-20, 10° ne vise que le dirigeant rémunéré [13] | Avantages en nature, signature bancaire unique, espèces |
+| MSA | « Le président est chef d'exploitation. » | Pas s'il ne retire aucun avantage, selon une incise de Grenoble jamais appliquée au profit d'une association | CA Grenoble 2023 a contrario [11] ; CA Pau 2024 [12] ; L. 722-20, 10° ne vise que le dirigeant rémunéré [13] | Avantages en nature, signature bancaire unique, espèces |
 | MSA | « Vous êtes agricoles pour la PAC, soyez-le pour les cotisations. » | L'activité est agricole ; sous le seuil, la cotisation de solidarité suppose un revenu professionnel ; au-delà, l'argument tombe | D. 731-34 [7] | Aides PAC perçues, ventes régulières |
 | Syndicat agricole | « Vous prenez des terres aux jeunes qui s'installent. » | Nous demandons l'autorisation d'exploiter ; la commission départementale arbitre et nous sommes au dernier rang | L. 331-2 et L. 331-3-1 [5] | Culture sans autorisation |
 | Syndicat agricole | « Concurrence déloyale. » | Pas de vente organisée ; s'il y en a, elle est imposable comme telle | CE, 22 oct. 1980 [14] ; règle des 4 P [15] | Clientèle, tarifs, publicité |

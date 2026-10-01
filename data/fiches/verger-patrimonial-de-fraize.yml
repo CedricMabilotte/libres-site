@@ -1,0 +1,139 @@
+# data/fiches/verger-patrimonial-de-fraize.yml — instruit le 2026-10-01 (collège A, chercheur A3)
+uid: verger-patrimonial-de-fraize
+nom: Verger patrimonial de Fraize
+autres_noms:
+- Verger conservatoire de Fraize
+famille: lieu_non_marchand
+resume: 'Verger communal de 55 ares installé à partir de 1997-1998 dans l''ancien parc de la maison Wald, au centre de Fraize (Vosges), sous la responsabilité de l''association de sauvegarde du patrimoine La Costelle. Décidé par le conseil municipal en décembre 1995 avec l''aide de l''État (fonds de gestion de l''espace rural), il conserve les variétés anciennes de pommes, poires et prunes du canton. Un groupe de bénévoles s''y réunit chaque semaine d''avril à l''automne : taille, greffage, identification des fruits, récolte, atelier de jus de pommes ; greffons et sujets greffés sont mis à disposition, et le verger accueille écoles et visiteurs.'
+localisation:
+  commune: Fraize
+  departement: '88'
+  region: Grand Est
+  lat: 48.1865
+  lon: 7.0007
+debut: 1998
+fin: null
+collectif:
+  nom: Association de sauvegarde du patrimoine La Costelle
+  forme: association
+  annee: 1993
+foncier:
+  porteur: Commune de Fraize
+  porteur_forme: personne_publique
+  surface_ha: 0.555
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: inconnu
+    note: Création décidée par le conseil municipal (1995) ; modalités de confiance à l'association non publiées.
+    source: 1
+  titre:
+    valeur: inconnu
+    note: Aucun acte publié.
+    source: null
+  verrou:
+    valeur: inconnu
+    note: Verger communal ; domanialité non établie.
+    source: 1
+  gouvernance:
+    valeur: mixte
+    note: Projet municipal confié à l'association ; responsables successifs du verger issus du conseil municipal ; les membres décident des dates de récolte.
+    source: 1
+  economie:
+    valeur: activites_non_marchandes
+    note: Bénévolat ; greffons et sujets greffés mis à disposition ; atelier de jus de pommes (régime de cession non publié).
+    source: 1
+  ouverture:
+    valeur: accueil_regulier
+    note: But pédagogique auprès des écoles et des touristes ; groupe ouvert à « toute personne passionnée d'arbres fruitiers ».
+    source: 1
+  finalite:
+    valeur:
+    - agriculture
+    - milieu_vivant
+    - education_populaire
+    - culture
+    note: Conservation des variétés fruitières du canton, patrimoine local.
+    source: 1
+  filiation:
+    valeur:
+    - education_populaire
+    note: Association d'histoire et de patrimoine local.
+    source: 1
+  rapport_etat:
+    valeur: conventionnement
+    note: Délibération municipale de 1995, aide de l'État (FGER), programme de protection des vergers du parc naturel régional des Ballons des Vosges.
+    source: 1
+  echelle:
+    valeur: inconnu
+    note: Nombre de bénévoles non publié.
+    source: null
+  transmission:
+    valeur: generations_renouvelees
+    note: Relais de responsable en 2005 ; rapports d'activité jusqu'en 2024.
+    source: 1
+  etat:
+    valeur: actif
+    note: Rapport d'activité 2024 publié.
+    source: 1
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: partiel
+    note: Association sur un verger communal ; aucun acte n'établit le montage.
+    source: 1
+  foncier_verrouille:
+    valeur: inconnu
+    note: Aucun titre ni verrou documenté.
+    source: null
+  usage_ig:
+    valeur: oui
+    note: Conservation de variétés locales, mise à disposition de greffons, accueil des écoles et des touristes, sans vente documentée.
+    source: 1
+  autogestion:
+    valeur: partiel
+    note: Bénévoles organisés au sein de l'association, mais projet municipal piloté par des élus.
+    source: 1
+  etabli:
+    valeur: oui
+    note: Verger tenu depuis 1998, rapport d'activité 2024.
+    source: 1
+chronologie:
+- annee: 1995
+  evenement: Délibération du conseil municipal (23 décembre) demandant l'aide du FGER pour restaurer un verger communal dans le jardin de la maison Wald.
+  source: 1
+- annee: 1998
+  evenement: Défrichage achevé (avril) et premières plantations.
+  source: 1
+- annee: 2002
+  evenement: 76 variétés en place.
+  source: 1
+- annee: 2005
+  evenement: Changement de responsable du verger.
+  source: 1
+- annee: 2007
+  evenement: Convention avec la commune confiant à l'association le fonctionnement et la gestion de l'atelier de jus de fruits.
+  source: 1
+fiabilite:
+  verifie:
+  - Verger communal de 55,5 ares confié à l'association La Costelle (RNA W883000819, non employeuse)
+  non_confirme:
+  - Convention portant sur le verger lui-même (la convention de 2007 vise l'atelier de jus)
+  - Cession du jus de pommes
+dossier_juridique: 'Verger communal créé avec une aide publique (FGER, loi du 4 février 1995) et confié à une association de patrimoine sans salarié (répertoire Sirene : non employeuse). Activité bénévole sans vente documentée, hors atelier de jus de pommes, dont le fonctionnement et la gestion ont été confiés à l''association par convention avec la commune (2007) ; régime de cession du jus non publié. Aucune déclaration MSA, aucun rescrit ni reçu fiscal mentionnés.'
+liens:
+  communs: null
+sources:
+- titre: Le Verger patrimonial
+  auteur: La Costelle et le patrimoine de Fraize
+  annee: 2024
+  url: https://lacostelle.org/pages/page_verger.php
+- titre: ASSOCIATION DE SAUVEGARDE DU PATRIMOINE 'LA COSTELLE' (SIREN 841 507 262)
+  auteur: Annuaire des entreprises, d'après Sirene (Insee) et RNA
+  annee: 2026
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/841507262
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

@@ -1,0 +1,129 @@
+# data/fiches/jardin-foret-du-brin-de-paille.yml — instruit le 2026-10-01 (collège A, chercheur A3)
+uid: jardin-foret-du-brin-de-paille
+nom: Jardin-forêt du Brin de paille
+autres_noms: []
+famille: commun_foncier
+resume: Jardin-forêt comestible planté depuis janvier 2023 par une association de bénévoles sur un pré communal de 1 200 m² au centre de Saint-Genès-Champanelle (Puy-de-Dôme). L'idée est née d'une consultation des habitants sur le projet d'aménagement communal ; l'association a été déclarée en 2022. La commune met le terrain à disposition pour un loyer modeste, à condition qu'il reste un espace public et que les manifestations restent gratuites. Le principe affiché est celui d'un « réservoir d'aliments » où chacun vient cueillir selon ses besoins, « dans l'esprit de prendre et de donner quelque chose ».
+localisation:
+  commune: Saint-Genès-Champanelle
+  departement: '63'
+  region: Auvergne-Rhône-Alpes
+  lat: 45.7222
+  lon: 3.0005
+debut: 2022
+fin: null
+collectif:
+  nom: Jardin-forêt du Brin de paille
+  forme: association
+  annee: 2022
+foncier:
+  porteur: Commune de Saint-Genès-Champanelle
+  porteur_forme: personne_publique
+  surface_ha: 0.12
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: bail_public
+    note: Mise à disposition par la commune « pour un loyer modeste ».
+    source: 1
+  titre:
+    valeur: convention
+    note: 'Nature exacte de l''acte (convention d''occupation, bail) non publiée ; conditions : espace public, manifestations gratuites.'
+    source: 1
+  verrou:
+    valeur: inconnu
+    note: Aucune durée ni clause publiée.
+    source: null
+  gouvernance:
+    valeur: inconnu
+    note: Association présidée ; fonctionnement interne non publié.
+    source: null
+  economie:
+    valeur: activites_non_marchandes
+    note: Cueillette libre selon les besoins ; aucune vente ni rémunération mentionnée ; association non employeuse.
+    source: 1
+  ouverture:
+    valeur: ouvert_public
+    note: Terrain clôturé contre la faune mais « ouvert à tous », condition posée par la commune.
+    source: 1
+  finalite:
+    valeur:
+    - agriculture
+    - milieu_vivant
+    - education_populaire
+    note: Fruitiers et arbustes comestibles ; relations avec les habitants, les écoles et des professionnels ; projets de low-tech (séchoir solaire, marmite norvégienne).
+    source: 1
+  filiation:
+    valeur:
+    - ecologie_politique
+    note: Permaculture, jardin-forêt.
+    source: 1
+  rapport_etat:
+    valeur: conventionnement
+    note: Projet issu de la concertation du PADD communal ; financé par le budget écologique citoyen du Département.
+    source: 1
+  echelle:
+    valeur: moins_10
+    note: Trois à quatre membres actifs, une quinzaine de foyers adhérents (2023).
+    source: 1
+  transmission:
+    valeur: fondateurs_seuls
+    note: Projet récent « déjà un peu essoufflé par une phase difficile de montage administratif » (2023).
+    source: 1
+  etat:
+    valeur: actif
+    note: Association active au répertoire Sirene ; activité après 2023 non documentée.
+    source: 2
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: partiel
+    note: Association sur un terrain communal ; la commune impose l'usage public et la gratuité, ce qui dessine un commun, mais aucun titre n'est publié.
+    source: 1
+  foncier_verrouille:
+    valeur: inconnu
+    note: Aucune durée de mise à disposition connue.
+    source: null
+  usage_ig:
+    valeur: oui
+    note: Espace ouvert à tous, manifestations gratuites, cueillette au besoin, accueil des écoles.
+    source: 1
+  autogestion:
+    valeur: partiel
+    note: Association autonome, mais usage conditionné par la commune propriétaire.
+    source: 1
+  etabli:
+    valeur: non
+    note: Quatre ans (2022-2026).
+    source: 2
+chronologie:
+- annee: 2022
+  evenement: Création de l'association en février, après une consultation des habitants sur le PADD ; immatriculation au répertoire Sirene le 6 mai.
+  source: 2
+- annee: 2023
+  evenement: Quatre chantiers de plantation de fruitiers de janvier à mars.
+  source: 1
+fiabilite:
+  verifie:
+  - Terrain communal mis à disposition pour un loyer modeste, sous condition d'usage public et de gratuité
+  - Association non employeuse (RNA W632014017)
+  non_confirme:
+  - Acte et durée de la mise à disposition
+  - Activité après 2023
+dossier_juridique: 'Association sans salarié (répertoire Sirene : non employeuse, 94.99Z). Les fruits ne sont pas vendus mais cueillis librement : aucune activité agricole au sens fiscal n''est documentée. Aucune déclaration MSA, aucun rescrit ni reçu fiscal mentionnés. Incident administratif : la presse évoque une « phase difficile de montage administratif » avec la commune avant les plantations (2022), sans détail. Les conditions municipales (espace public, gratuité des manifestations) figurent dans la mise à disposition selon la présidente.'
+liens:
+  communs: null
+sources:
+- titre: 'Forêts nourricières #1/2 : portrait de trois collectifs avec bêche'
+  auteur: Marie-Pierre Demarty, Tikographie
+  annee: 2023
+  url: https://www.tikographie.fr/2023/03/21/foret-jardin-1-portrait-de-trois-collectifs/
+- titre: JARDIN-FORET DU BRIN DE PAILLE (SIREN 920 310 711)
+  auteur: Annuaire des entreprises, d'après Sirene (Insee) et RNA
+  annee: 2026
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/920310711
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

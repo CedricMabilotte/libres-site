@@ -1,0 +1,134 @@
+# data/fiches/foret-jardin-de-persignat.yml — instruit le 2026-10-01 (collège A, chercheur A3)
+uid: foret-jardin-de-persignat
+nom: Forêt-jardin de Persignat
+autres_noms:
+- Forêt-jardin de l'association Matercoop
+famille: commun_foncier
+resume: 'Forêt-jardin lancée au début de 2023 sur un terrain communal du hameau de Persignat, à Aubiat (Puy-de-Dôme), en pleine plaine céréalière de Limagne. La municipalité a laissé « carte blanche » au collectif réuni par l''association Matercoop (déclarée en 2012) pour aménager un espace arboré et convivial : douze premiers fruitiers autour d''un labyrinthe de méditation, plantes potagères et médicinales. Le groupe, une vingtaine de bénévoles en janvier 2023, a recensé d''autres terrains communaux à planter.'
+localisation:
+  commune: Aubiat
+  departement: '63'
+  region: Auvergne-Rhône-Alpes
+  lat: 45.9792
+  lon: 3.1977
+debut: 2023
+fin: null
+collectif:
+  nom: Matercoop
+  forme: association
+  annee: 2012
+foncier:
+  porteur: Commune d'Aubiat
+  porteur_forme: personne_publique
+  surface_ha: null
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: bail_public
+    note: Terrain communal mis à disposition par la municipalité.
+    source: 1
+  titre:
+    valeur: inconnu
+    note: Aucun acte publié.
+    source: null
+  verrou:
+    valeur: inconnu
+    note: Aucun titre connu.
+    source: null
+  gouvernance:
+    valeur: inconnu
+    note: Un animateur de projet ; fonctionnement non publié.
+    source: 1
+  economie:
+    valeur: activites_non_marchandes
+    note: Plantations bénévoles financées par le budget écologique citoyen ; aucune vente.
+    source: 2
+  ouverture:
+    valeur: ouvert_public
+    note: Lieu de promenade et de convivialité sur terrain communal, visé par le projet.
+    source: 1
+  finalite:
+    valeur:
+    - agriculture
+    - milieu_vivant
+    - spiritualite
+    note: Fruitiers, plantations légumières et médicinales, labyrinthe de méditation.
+    source: 1
+  filiation:
+    valeur:
+    - ecologie_politique
+    note: Forêt-jardin.
+    source: 1
+  rapport_etat:
+    valeur: conventionnement
+    note: Projet soutenu par la municipalité et par le budget écologique citoyen départemental.
+    source: 2
+  echelle:
+    valeur: '10_50'
+    note: Une vingtaine de participants en janvier 2023.
+    source: 1
+  transmission:
+    valeur: fondateurs_seuls
+    note: Projet naissant (2023).
+    source: 1
+  etat:
+    valeur: inconnu
+    note: Association active au répertoire ; état de la plantation après 2023 non documenté.
+    source: 3
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: partiel
+    note: Association sur terrain communal ; aucun montage de commun établi par un acte.
+    source: 1
+  foncier_verrouille:
+    valeur: inconnu
+    note: Aucun titre connu.
+    source: null
+  usage_ig:
+    valeur: partiel
+    note: Usage ouvert et non marchand visé ; activité effective après les premières plantations non documentée.
+    source: 1
+  autogestion:
+    valeur: partiel
+    note: Collectif bénévole, mais projet porté par un animateur et dépendant de l'accord municipal.
+    source: 1
+  etabli:
+    valeur: non
+    note: Débuté en 2023.
+    source: 1
+chronologie:
+- annee: 2012
+  evenement: Déclaration de l'association Matercoop à Aubiat (3 avril).
+  source: 3
+- annee: 2023
+  evenement: 'Chantier de plantation du 25 février : douze premiers fruitiers.'
+  source: 1
+fiabilite:
+  verifie:
+  - Terrain communal, association non employeuse (RNA W634002520)
+  non_confirme:
+  - Objet statutaire de Matercoop
+  - Titre d'occupation
+  - Suite du projet après 2023
+dossier_juridique: 'Association sans salarié (répertoire Sirene : non employeuse, 94.99Z). Plantations non marchandes sur domaine communal ; aucune déclaration MSA, aucun rescrit ni reçu fiscal mentionnés. Aucun incident administratif publié.'
+liens:
+  communs: null
+sources:
+- titre: 'Forêts nourricières #1/2 : portrait de trois collectifs avec bêche'
+  auteur: Marie-Pierre Demarty, Tikographie
+  annee: 2023
+  url: https://www.tikographie.fr/2023/03/21/foret-jardin-1-portrait-de-trois-collectifs/
+- titre: On parle de Matercoop !
+  auteur: Budget écologique citoyen, Conseil départemental du Puy-de-Dôme
+  annee: 2023
+  url: https://budgetecocitoyen.puy-de-dome.fr/blog/on-parle-de-matercoop
+- titre: MATERCOOP (SIREN 751 289 315)
+  auteur: Annuaire des entreprises, d'après Sirene (Insee) et RNA
+  annee: 2026
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/751289315
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

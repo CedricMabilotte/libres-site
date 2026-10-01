@@ -1,0 +1,151 @@
+# data/fiches/trucland-sorges.yml — instruit le 2026-10-01 (collège A, chercheur A3)
+uid: trucland-sorges
+nom: Truc'land
+autres_noms: []
+famille: communaute_intentionnelle
+resume: 'Écolieu associatif fondé par huit amis issus d''une association culturelle de Seine-et-Marne (La Fée des trucs, 2006-2019), installés en 2019 à Sorges-et-Ligueux-en-Périgord (Dordogne) après l''achat d''un terrain et d''une maison, signé en octobre 2019. Le projet combine micro-ferme sur sol vivant (fruits, légumes, poules, abeilles, transformation), ateliers, écoconstruction et événements culturels ; les surplus sont échangés par « troc et vente » avec les riverains. Le répertoire Sirene montre une société civile immobilière Truc''land créée en mai 2019 à la même adresse, propriétaire de six parcelles (1,46 ha) au lieu-dit Les Clèdes selon le fichier cadastral de la DGFiP : le foncier n''est pas porté par l''association.'
+localisation:
+  commune: Sorges-et-Ligueux-en-Périgord
+  departement: '24'
+  region: Nouvelle-Aquitaine
+  lat: 45.2929
+  lon: 0.8505
+debut: 2019
+fin: null
+collectif:
+  nom: Truc'land
+  forme: association
+  annee: null
+foncier:
+  porteur: SCI Truc'land (société civile immobilière, 2019), propriétaire des parcelles F 869 et F 872 à 876 (Les Clèdes)
+  porteur_forme: societe_civile_parts_cessibles
+  surface_ha: 1.46
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: achat_collectif
+    note: « Nous avons enfin signé officiellement l'achat du terrain et de la maison » (octobre 2019).
+    source: 1
+  titre:
+    valeur: inconnu
+    note: Titre de l'association envers la SCI non publié.
+    source: 4
+  verrou:
+    valeur:
+    - aucun
+    note: 'Société civile immobilière : parts cessibles sous les conditions statutaires, non publiées.'
+    source: 4
+  gouvernance:
+    valeur: inconnu
+    note: « Collectif de copains » ; fonctionnement non publié.
+    source: 2
+  economie:
+    valeur: activites_marchandes_annexes
+    note: Distribution des surplus par « troc et vente » ; café associatif et points de vente envisagés.
+    source: 3
+  ouverture:
+    valeur: accueil_regulier
+    note: Spectacles, ateliers, festival ; ouverture aux riverains et associations.
+    source: 2
+  finalite:
+    valeur:
+    - agriculture
+    - habitat
+    - culture
+    - education_populaire
+    note: Micro-ferme, mode de vie, ateliers et événements culturels.
+    source: 2
+  filiation:
+    valeur:
+    - autonomie
+    - ecologie_politique
+    - education_populaire
+    note: « Simplicité volontaire, autonomie » ; éducation populaire.
+    source: 2
+  rapport_etat:
+    valeur: indifference
+    note: Aucune relation administrative documentée.
+    source: null
+  echelle:
+    valeur: moins_10
+    note: Huit membres fondateurs.
+    source: 5
+  transmission:
+    valeur: fondateurs_seuls
+    note: Projet porté par ses fondateurs.
+    source: 5
+  etat:
+    valeur: actif
+    note: SCI active au répertoire ; dernière actualité publique du site en 2022.
+    source: 4
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: non
+    note: 'Foncier porté par une société civile immobilière à parts cessibles : exclusion nommée du cadre.'
+    source: 6
+  foncier_verrouille:
+    valeur: non
+    note: Aucun verrou connu ; les parts d'une SCI se cèdent.
+    source: 6
+  usage_ig:
+    valeur: partiel
+    note: Accueil culturel et ateliers ouverts, mais lieu de vie d'un groupe d'amis et vente de surplus.
+    source: 2
+  autogestion:
+    valeur: inconnu
+    note: Rapport entre associés de la SCI et membres de l'association non publié.
+    source: null
+  etabli:
+    valeur: non
+    note: Installé en 2019.
+    source: 1
+chronologie:
+- annee: 2019
+  evenement: Création de la SCI Truc'land (22 mai) ; signature de l'acte d'achat du terrain et de la maison (octobre).
+  source: 4
+- annee: 2022
+  evenement: Spectacles ouverts au public sur l'écolieu (24 juillet).
+  source: 1
+fiabilite:
+  verifie:
+  - SCI Truc'land, activité 68.20B, siège à Sorges-et-Ligueux-en-Périgord (répertoire Sirene)
+  - Achat du terrain et de la maison en 2019
+  - SCI Truc'land propriétaire de six parcelles (14 554 m²) aux Clèdes (fichier DGFiP des parcelles des personnes morales, 2024)
+  non_confirme:
+  - Titre d'occupation de l'association envers la SCI
+  - Date de déclaration de l'association
+  - Activité après 2022
+dossier_juridique: 'Montage typique écarté par le cadre : association utilisatrice, SCI propriétaire (code 68.20B, location de terrains et autres biens immobiliers). La vente régulière de surplus agricoles ferait de l''activité une activité agricole au sens de l''article L. 311-1 du code rural, avec la question du statut de cotisant de solidarité pour la personne qui la dirige ; aucune déclaration MSA ni PAC publiée. Aucun rescrit ni reçu fiscal mentionnés.'
+liens:
+  communs: null
+sources:
+- titre: Truc'land - Écolieu associatif et expérimental en Dordogne (accueil et actualités)
+  auteur: Truc'land
+  annee: 2022
+  url: https://www.trucland.org/
+- titre: Concept
+  auteur: Truc'land
+  annee: null
+  url: https://www.trucland.org/concept/
+- titre: Micro-ferme
+  auteur: Truc'land
+  annee: null
+  url: https://www.trucland.org/micro-ferme/
+- titre: TRUC'LAND SCI (SIREN 851 191 791)
+  auteur: Annuaire des entreprises, d'après Sirene (Insee) et RNA
+  annee: 2026
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/851191791
+- titre: Origines
+  auteur: Truc'land
+  annee: null
+  url: https://www.trucland.org/origines/
+- titre: Fichier des parcelles des personnes morales (situation 2024), département de la Dordogne
+  auteur: Direction générale des Finances publiques
+  annee: 2025
+  url: https://data.economie.gouv.fr/explore/dataset/fichiers-des-locaux-et-des-parcelles-des-personnes-morales/
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

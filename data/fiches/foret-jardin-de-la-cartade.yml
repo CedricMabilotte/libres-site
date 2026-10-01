@@ -1,0 +1,148 @@
+# data/fiches/foret-jardin-de-la-cartade.yml — instruit le 2026-10-01 (collège A, chercheur A3)
+uid: foret-jardin-de-la-cartade
+nom: Forêt-jardin de La Cartade
+autres_noms:
+- Jardin-forêt de La Cartade
+- Collectif forêt jardin de la Cartade
+famille: commun_foncier
+resume: Forêt-jardin, pré-vergers, haies, potager et mare cultivés depuis l'automne 2020 par une association de bénévoles sur une parcelle d'environ 5 600 m² à Glaine-Montaigut (Puy-de-Dôme). Le terrain appartient à une co-fondatrice, qui l'a mis à disposition de l'association par bail emphytéotique. En 2023, l'association comptait une cinquantaine de bénévoles mobilisables, environ 150 sympathisants et treize personnes coordonnant le projet en groupes de travail autonomes. Aucune vente ni aucun salarié ne sont documentés ; les plantations ont été financées par le budget écologique citoyen du Département (2020 et 2022). Le lieu ouvre ses portes au public chaque automne (fête de la Cartade, 4 octobre 2026).
+localisation:
+  commune: Glaine-Montaigut
+  departement: '63'
+  region: Auvergne-Rhône-Alpes
+  lat: 45.7499
+  lon: 3.3852
+debut: 2020
+fin: null
+collectif:
+  nom: Collectif forêt jardin de la Cartade
+  forme: association
+  annee: 2020
+foncier:
+  porteur: Personne privée (co-fondatrice de l'association)
+  porteur_forme: personne_privee
+  surface_ha: 0.56
+  titre_duree_ans: null
+dimensions:
+  acces:
+    valeur: inconnu
+    note: Parcelle privée d'une co-fondatrice ; mode d'acquisition par celle-ci non publié.
+    source: 1
+  titre:
+    valeur: bail_emphyteotique
+    note: « L'association une fois créée, le terrain a été mis à disposition par bail emphytéotique » ; durée non publiée.
+    source: 2
+  verrou:
+    valeur:
+    - bail_long
+    note: Bail emphytéotique (18 à 99 ans par définition légale) ; durée et clauses non publiées ; la propriétaire reste libre de vendre le fonds, grevé du bail.
+    source: 2
+  gouvernance:
+    valeur: mixte
+    note: Association ; treize personnes « gèrent vraiment l'asso » ; groupes de travail autonomes coordonnés (forêt-jardin, potager, verger, eau).
+    source: 2
+  economie:
+    valeur: revenus_individuels_externes
+    note: Membres amateurs ayant d'autres activités professionnelles ; aucun salarié au répertoire Sirene.
+    source: 3
+  ouverture:
+    valeur: accueil_regulier
+    note: Chantiers participatifs, formations aux bénévoles ; portes ouvertes annuelles à entrée libre.
+    source: 4
+  finalite:
+    valeur:
+    - agriculture
+    - milieu_vivant
+    - education_populaire
+    note: Production alimentaire locale, biodiversité, « réappropriation et autonomisation des personnes sur les questions de jardinage et d'alimentation ».
+    source: 1
+  filiation:
+    valeur:
+    - ecologie_politique
+    note: Permaculture, agriculture syntropique, expérimentation sur l'eau et le compost.
+    source: 2
+  rapport_etat:
+    valeur: conventionnement
+    note: Lauréat du budget écologique citoyen du Conseil départemental en 2020 et 2022.
+    source: 1
+  echelle:
+    valeur: '10_50'
+    note: Treize coordinateurs, une cinquantaine de bénévoles mobilisables (2023).
+    source: 2
+  transmission:
+    valeur: fondateurs_seuls
+    note: Projet lancé en 2020 par cinq amis ; renouvellement non documenté.
+    source: 1
+  etat:
+    valeur: actif
+    note: Association active au répertoire ; fête et portes ouvertes annoncées pour le 4 octobre 2026.
+    source: 4
+  fin:
+    valeur: null
+portes:
+  forme_civile:
+    valeur: non
+    note: 'Collectif associatif, mais le foncier est porté par une personne privée (co-fondatrice) : maillon hors des formes admises.'
+    source: 2
+  foncier_verrouille:
+    valeur: partiel
+    note: Bail emphytéotique documenté par la presse ; durée inconnue, acte non publié ; propriété privée restant cessible.
+    source: 2
+  usage_ig:
+    valeur: oui
+    note: Production non vendue à notre connaissance, chantiers ouverts, éducation au jardinage, fête publique à entrée libre.
+    source: 4
+  autogestion:
+    valeur: partiel
+    note: Assemblée d'adhérents et groupes autonomes, mais la propriétaire du terrain est aussi co-fondatrice et animatrice du collectif.
+    source: 2
+  etabli:
+    valeur: non
+    note: Six ans d'usage (2020-2026).
+    source: 1
+chronologie:
+- annee: 2020
+  evenement: Déclaration de l'association (2 août) ; premiers travaux du terrain en octobre ; lauréat du budget écologique citoyen.
+  source: 3
+- annee: 2021
+  evenement: Premières plantations au printemps (trame de haies).
+  source: 2
+- annee: 2022
+  evenement: Second financement du budget écologique citoyen.
+  source: 1
+- annee: 2026
+  evenement: Fête de la Cartade, portes ouvertes le 4 octobre.
+  source: 4
+fiabilite:
+  verifie:
+  - Association non employeuse, code 94.99Z, RNA W632013372 (répertoire Sirene)
+  - Bail emphytéotique cité par la presse locale
+  - Activité en 2026
+  non_confirme:
+  - Durée et publication du bail emphytéotique
+  - Objet statutaire exact et reconnaissance d'intérêt général
+  - Sort des récoltes (partage entre bénévoles, dons)
+dossier_juridique: 'Association de bénévoles sans salarié (répertoire Sirene : non employeuse, activité 94.99Z). Aucune vente documentée : rien n''indique d''activité agricole au sens fiscal ou social. Aucune déclaration MSA, aucun rescrit fiscal ni reçu fiscal mentionnés dans les sources publiques. Financement public (budget écologique citoyen du Puy-de-Dôme, 2020 et 2022). Point juridique : un bail emphytéotique, d''une durée supérieure à douze ans, doit être passé en la forme authentique et publié au service de la publicité foncière ; sa durée réelle n''est pas publiée.'
+liens:
+  communs: null
+sources:
+- titre: Forêt-jardin de La Cartade (fiche structure)
+  auteur: Tikographie
+  annee: 2023
+  url: https://www.tikographie.fr/structure/foret-jardin-de-la-cartade/
+- titre: 'Forêts nourricières #1/2 : portrait de trois collectifs avec bêche'
+  auteur: Marie-Pierre Demarty, Tikographie
+  annee: 2023
+  url: https://www.tikographie.fr/2023/03/21/foret-jardin-1-portrait-de-trois-collectifs/
+- titre: COLLECTIF FORET JARDIN DE LA CARTADE (SIREN 891 469 801)
+  auteur: Annuaire des entreprises, d'après Sirene (Insee) et RNA
+  annee: 2026
+  url: https://annuaire-entreprises.data.gouv.fr/entreprise/891469801
+- titre: 'Forêt-Jardin de la Cartade : un jardin vivant à Glaine-Montaigut'
+  auteur: Escoutoux.net
+  annee: 2026
+  url: https://escoutoux.net/Foret-jardin-de-la-Cartade
+faces:
+  igor: null
+  eozen: null
+  antimeta: null

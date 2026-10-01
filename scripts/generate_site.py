@@ -215,8 +215,8 @@ corps = f"""<p class="sur">Version {VERSION} · {nb} cas instruits · 1789–202
 <div class="cartes">{"".join(carte_cas(d, "") for d in corpus + seuil)}</div>
 <p><a href="fiches/">Voir les {nb} cas, épreuves comprises</a> · <a href="prismes/">Lire les prismes croisés</a> · <a href="regards/">Les trois regards</a></p>
 <h2>Dossier : cultiver sans chef d'exploitation</h2>
-<div class="texte"><p>Une question traverse les cas : une association peut-elle cultiver un lieu en commun sans chef d'exploitation ni salarié ? Treize dossiers réunissent le droit, les décisions de justice, les cas et les propositions de réforme pour défendre ce modèle.</p>
-<p><a href="dossiers/association-agricole/">Lire le dossier principal</a> · <a href="dossiers/defendre-le-modele/">Défendre le modèle</a> · <a href="dossiers/">Tous les dossiers</a></p></div>
+<div class="texte"><p>Une question traverse les cas : une association peut-elle cultiver un lieu en commun sans chef d'exploitation ni salarié ? {len(list((ROOT / 'docs' / 'dossiers').glob('*.md')))} dossiers réunissent le droit, les décisions de justice, les cas et les propositions de réforme pour défendre ce modèle.</p>
+<p><a href="dossiers/association-agricole/">Lire le dossier principal</a> · <a href="dossiers/association-ig-benevole/">L'association d'intérêt général en bénévolat pur</a> · <a href="dossiers/rescrits-et-prises-de-position/">Faire valider le statut</a> · <a href="dossiers/voies-communautaires/">Voies communautaires</a> · <a href="dossiers/">Tous les dossiers</a></p></div>
 <h2>Ce que libres n'est pas</h2>
 <div class="texte"><p>Ni un palmarès, ni un annuaire des lieux sympathiques. Les contre-modèles souvent présentés comme des communs (foncières et fermes Terre de Liens, écolieux adossés à la Coopérative Oasis, SCI ou SCIC « de transition ») sont instruits avec la même grille et publiés comme épreuves : la critique porte sur le montage, jamais sur les personnes. Le montage foncier détaillé de chaque lieu relève de <a href="{COMMUNS}">communs.actitude.org</a>.</p></div>"""
 page("", "libres", corps)
@@ -490,7 +490,7 @@ page("methode/", "Méthode", corps, "Critère d'entrée à cinq portes, dimensio
 
 # ------------------------------------------------------------------ dossiers
 import markdown as _md
-DOSSIERS_ORDRE = ["association-agricole", "defendre-le-modele", "chef-d-exploitation", "autorisation-d-exploiter", "benevolat-et-recolte",
+DOSSIERS_ORDRE = ["association-agricole", "association-ig-benevole", "rescrits-et-prises-de-position", "sous-les-seuils", "voies-communautaires", "defendre-le-modele", "chef-d-exploitation", "autorisation-d-exploiter", "benevolat-et-recolte",
                   "accident-et-assurance", "fiscalite-et-prix-libre", "aliments-hors-marche", "foncier-commodat-bail", "oacas-et-communautes",
                   "habitat-et-urbanisme", "formes-voisines", "documenter-un-cas"]
 _dd = ROOT / "docs" / "dossiers"
