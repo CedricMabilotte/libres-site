@@ -40,6 +40,8 @@ Une [cession](#g-cession) ne ruine par elle-même aucune des six garanties du mo
 
 **Sortir de l'euro ne fait sortir ni de la vente, ni de l'impôt, ni du droit du travail.**
 
+Hors agriculture, le dossier voisin détaille [ce qu'un citoyen ou une association peut échanger sans devenir commerçant](../echanger-sans-commerce/).
+
 ## 3. Les seuils et plafonds
 
 Codes lus dans leur version consolidée datée en Sources ; BOFiP en vigueur au 1er octobre 2026. « Idem » : valeur inchangée.
