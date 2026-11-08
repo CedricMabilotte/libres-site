@@ -17,6 +17,7 @@ COMMUNS = "https://communs.actitude.org"
 BIBLIO = "https://biblio.actitude.org"
 CONTACT = "contact@actitude.org"
 LICENCE_URL = "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"
+ODBL_URL = "https://opendatacommons.org/licenses/odbl/1-0/"  # données (D8-03, 08/11)
 VERSION = "0.1"
 MOTS_PROSCRITS = ["résilience", "résilient", "paradigme", "empowerment", "impact"]
 PROVENANCE = [r"\bIA\b", r"intelligence artificielle", r"(?<!Saint-)\bClaude\b", r"généré automatiquement", r"\bLLM\b", r"subagent", r"Anthropic"]
@@ -640,7 +641,7 @@ for d in fiches:
         "url": f"{BASE}/f/{d['uid']}/",
     })
 (OUT / "donnees").mkdir(exist_ok=True)
-(OUT / "donnees" / "libres.json").write_text(json.dumps({"version": VERSION, "licence": "CC BY-NC-SA 4.0", "cas": PUB}, ensure_ascii=False, indent=1), encoding="utf-8")
+(OUT / "donnees" / "libres.json").write_text(json.dumps({"version": VERSION, "licence": "ODbL 1.0 (données) ; textes CC BY-NC-SA 4.0", "citer": "libres.actitude.org, Cedric Mabilotte — voir CITATION.cff", "cas": PUB}, ensure_ascii=False, indent=1), encoding="utf-8")
 (OUT / "donnees" / "analyses.json").write_text(json.dumps(AN, ensure_ascii=False), encoding="utf-8")
 buf = io.StringIO()
 w = csv.writer(buf)
@@ -648,7 +649,7 @@ w.writerow(["uid", "nom", "famille", "statut", "commune", "departement", "debut"
 for d in PUB:
     w.writerow([d["uid"], d["nom"], d["famille"], d["statut"], d["localisation"]["commune"], d["localisation"]["departement"], d["debut"], d["fin"], d["collectif"]["forme"], d["foncier"]["porteur_forme"], d["verrou_type"]] + [d["portes"][k]["valeur"] for k in R.PKEYS] + ["|".join(v) if isinstance(v, list) else (v or "") for v in d["dimensions"].values()])
 (OUT / "donnees" / "libres.csv").write_text(buf.getvalue(), encoding="utf-8")
-corps = f"""<h1>Données</h1><div class="texte"><p>Toutes les données publiées sont libres de réutilisation non commerciale, sous licence <a href="{LICENCE_URL}">CC BY-NC-SA 4.0</a>, en citant « libres.actitude.org ».</p>
+corps = f"""<h1>Données</h1><div class="texte"><p>Les données (fiches, exports, analyses) sont sous licence <a href="{ODBL_URL}">ODbL 1.0</a> : réutilisation libre, y compris commerciale, à condition de citer « libres.actitude.org » et de repartager sous la même licence toute base dérivée. Les textes des fiches et des dossiers restent sous <a href="{LICENCE_URL}">CC BY-NC-SA 4.0</a>. Comment citer : <a href="{REPO}/blob/main/CITATION.cff">CITATION.cff</a> ; comment corriger : <a href="{REPO}/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>.</p>
 <ul><li><a href="libres.json">libres.json</a> — les {nb} cas, portes, dimensions et sources</li><li><a href="libres.csv">libres.csv</a> — une ligne par cas</li><li><a href="analyses.json">analyses.json</a> — croisements, V de Cramér, plan factoriel, sensibilité</li></ul>
 <p>Les fiches sources (YAML), le cadre et les scripts sont dans le <a href="{REPO}">dépôt public</a>.</p></div>"""
 page("donnees/", "Données", corps)
@@ -659,7 +660,7 @@ corps = f"""<h1>Droit de réponse</h1><div class="texte"><p>Vous faites partie d
 <p>Terre de Liens, la Coopérative Oasis et toute structure dont un lieu figure parmi les épreuves y sont expressément invitées.</p></div>"""
 page("droit-de-reponse/", "Droit de réponse", corps)
 corps = f"""<h1>À propos</h1><div class="texte"><p>libres est un projet d'actitude.org, frère de <a href="{COMMUNS}">communs.actitude.org</a> (l'annuaire critique des montages de libération des terres) et de <a href="{BIBLIO}">biblio.actitude.org</a> (la veille documentaire). Là où communs décrit un montage foncier, libres suit un collectif dans le temps.</p>
-<p>Texte : igor, avec les regards d'eozen et d'antimeta. Droits : Cedric Mabilotte. Licence <a href="{LICENCE_URL}">CC BY-NC-SA 4.0</a> ; polices sous SIL Open Font License ; fond de carte d'après IGN ADMIN EXPRESS (Licence Ouverte 2.0).</p>
+<p>Texte : igor, avec les regards d'eozen et d'antimeta. Droits : Cedric Mabilotte. Textes sous <a href="{LICENCE_URL}">CC BY-NC-SA 4.0</a>, données sous <a href="{ODBL_URL}">ODbL 1.0</a>, code sous AGPL-3.0 (<a href="{REPO}/blob/main/LICENSE">LICENSE</a>) ; polices sous SIL Open Font License ; fond de carte d'après IGN ADMIN EXPRESS (Licence Ouverte 2.0).</p>
 <p>Version {VERSION} : {nb} cas. Les versions suivantes élargiront le corpus (maisons du peuple, communautés de travail, biens sectionaux, lieux du réseau CLIP et du fonds Antidote à mesure que leurs actes seront publiés).</p></div>"""
 page("a-propos/", "À propos", corps)
 corps = f"""<h1>Mentions légales</h1><div class="texte"><p>Éditeur : Cedric Mabilotte, actitude.org — {CONTACT}. Hébergement : GitHub Pages, GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.</p><p>Ce site ne dépose aucun cookie, n'utilise aucun outil de mesure d'audience et ne charge aucune ressource extérieure. Le choix du thème clair ou sombre est gardé dans votre navigateur, nulle part ailleurs.</p></div>"""

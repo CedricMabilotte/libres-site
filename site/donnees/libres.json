@@ -1,6 +1,7 @@
 {
  "version": "0.1",
- "licence": "CC BY-NC-SA 4.0",
+ "licence": "ODbL 1.0 (données) ; textes CC BY-NC-SA 4.0",
+ "citer": "libres.actitude.org, Cedric Mabilotte — voir CITATION.cff",
  "cas": [
   {
    "uid": "la-deviation-marseille",
