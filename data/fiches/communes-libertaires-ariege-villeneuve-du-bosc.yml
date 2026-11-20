@@ -1,14 +1,18 @@
-# data/fiches/communes-libertaires-ariege-villeneuve-du-bosc.yml — instruit le 2026-09-30
+# data/fiches/communes-libertaires-ariege-villeneuve-du-bosc.yml — instruit le 2026-09-30, repris le 2026-11-20
 uid: communes-libertaires-ariege-villeneuve-du-bosc
 nom: Communes libertaires d'Ariège (Villeneuve-du-Bosc)
 autres_noms:
 - Communauté libertaire de Villeneuve-du-Bosc
+- Communauté anarchiste de Villeneuve-du-Bosc
 famille: communaute_intentionnelle
-resume: En 1970, une communauté libertaire s'installe dans le noyau villageois abandonné de Villeneuve-du-Bosc,
-  près de Foix, pour y mener une expérience de « commune libertaire » dans le sillage du néo-ruralisme
-  d'après 1968. La commune administrative est rattachée à Saint-Jean-de-Verges en 1975. D'autres communautés
-  ariégeoises de la même période sont citées sans détail. Le mode d'accès au lieu, la gouvernance et la
-  date de fin ne sont documentés par aucune source consultée.
+resume: 'En 1970, une communauté anarchiste s''installe dans le noyau villageois abandonné de Villeneuve-du-Bosc,
+  commune rattachée à Saint-Jean-de-Verges (Ariège) en 1975, près de Foix. Rattachée à la Fédération anarchiste,
+  elle figure dans l''annuaire des groupes du Monde libertaire d''avril 1970 à octobre 1971 et s''y décrit
+  comme un centre de vie « non autoritaire, autogestionnaire, libertaire » : bibliothèque, accueil de
+  jeunes militants l''été, travaux saisonniers à l''extérieur, projet d''association de soutien. En décembre
+  1970, un membre est détenu à la maison d''arrêt de Foix ; le collectif y voit une manœuvre contre la
+  communauté. Le propriétaire des lieux, le titre d''occupation, l''effectif et la date de fin ne sont
+  documentés par aucune source consultée ; aucune trace n''a été trouvée après octobre 1971.'
 localisation:
   commune: Saint-Jean-de-Verges
   departement: 09
@@ -18,7 +22,7 @@ localisation:
 debut: 1970
 fin: null
 collectif:
-  nom: Communauté libertaire de Villeneuve-du-Bosc
+  nom: Communauté anarchiste de Villeneuve-du-Bosc
   forme: collectif_de_fait
   annee: 1970
 foncier:
@@ -29,7 +33,8 @@ foncier:
 dimensions:
   acces:
     valeur: inconnu
-    note: '« S''installe » dans un village abandonné : occupation, location ou achat non établi.'
+    note: '« S''installe » dans un village abandonné (source 2) : occupation, location ou achat non établi
+      ; les textes du collectif (sources 4, 5) ne disent rien du propriétaire ni du titre.'
     source: 2
   titre:
     valeur: inconnu
@@ -41,42 +46,51 @@ dimensions:
     source: null
   gouvernance:
     valeur: inconnu
-    note: Aucune source.
-    source: null
+    note: « Pratique de l'autogestion » revendiquée (source 4) ; aucun mode de décision décrit.
+    source: 4
   economie:
     valeur: inconnu
-    note: Aucune source.
-    source: null
+    note: Travaux saisonniers hors du lieu signalés (vendanges près de Montpellier, coupe de sapins de
+      Noël), sans indication de leur part dans la vie du groupe (source 5).
+    source: 5
   ouverture:
-    valeur: inconnu
-    note: Aucune source.
-    source: null
+    valeur: accueil_regulier
+    note: « De nombreux jeunes camarades » invités à venir vivre l'expérience l'été 1970 ; contacts décrits
+      comme resserrés avec la population (sources 4, 5).
+    source: 4
   finalite:
-    valeur: inconnu
-    note: Aucune source.
-    source: null
+    valeur:
+    - education_populaire
+    - habitat
+    note: Lieu de vie ; « action, propagande et théorie anarchiste révolutionnaire », formation militante,
+      bibliothèque (source 4).
+    source: 4
   filiation:
     valeur:
     - anarchisme
     - neo_ruralisme
-    note: Communauté libertaire fondée en 1970 ; expérience de « commune libertaire » après Mai 68.
-    source: 1
+    note: Communauté anarchiste inscrite à l'annuaire des groupes de la Fédération anarchiste (sources
+      3 à 6) ; expérience de « commune libertaire » après Mai 68 dans un village abandonné (source 2).
+    source: 3
   rapport_etat:
-    valeur: inconnu
-    note: Aucune source.
-    source: null
+    valeur: conflit
+    note: 'Décembre 1970 : un membre détenu à la maison d''arrêt de Foix, grève de la faim ; le collectif
+      écrit que « c''est en fait la communauté qui est visée » (source 5). Récit du collectif lui-même,
+      non recoupé par une source judiciaire ou de presse.'
+    source: 5
   echelle:
     valeur: inconnu
-    note: Aucune source.
-    source: null
+    note: Aucun effectif publié ; « les membres de la communauté » sans nombre (sources 4, 5).
+    source: 4
   transmission:
     valeur: inconnu
     note: Aucune source.
     source: null
   etat:
     valeur: disparu
-    note: Aucune activité connue ; date et cause de fin non sourcées.
-    source: 2
+    note: Aucune activité connue après octobre 1971 (dernière mention à l'annuaire, source 6) ; date et
+      cause de fin non sourcées.
+    source: 6
   fin:
     valeur: null
     note: Cause de fin non documentée.
@@ -84,40 +98,69 @@ dimensions:
 portes:
   forme_civile:
     valeur: inconnu
-    note: Forme du collectif et propriétaire du lieu non documentés.
-    source: null
+    note: 'Collectif de fait en 1970-1971 : le compte rendu de janvier 1971 envisage « la constitution
+      d''une association pour le soutien juridique et moral de la communauté », non attestée ensuite (source
+      5). Propriétaire du lieu non documenté : la chaîne ne peut pas être lue.'
+    source: 5
   foncier_verrouille:
     valeur: inconnu
-    note: Mode d'accès au lieu non documenté.
+    note: Ni propriétaire, ni titre, ni verrou documentés (sources 2, 4, 5).
     source: null
   usage_ig:
-    valeur: inconnu
-    note: Aucune source sur l'usage.
-    source: null
+    valeur: partiel
+    note: 'Usage non marchand établi par les textes du collectif : bibliothèque ouverte aux camarades,
+      accueil de jeunes militants l''été, propagande et formation (source 4), liens avec la population
+      (source 5). Ouverture au-delà du cercle militant non établie : les textes s''adressent aux « camarades
+      ».'
+    source: 4
   autogestion:
-    valeur: inconnu
-    note: Aucune source sur la gouvernance.
-    source: null
+    valeur: partiel
+    note: « Pratique de l'autogestion » et « centre de vie non autoritaire, autogestionnaire » revendiqués
+      par le collectif lui-même (sources 4, 5) ; aucune description d'une assemblée ou d'une règle de
+      décision, aucune source extérieure.
+    source: 4
   etabli:
     valeur: inconnu
-    note: Date de fin non sourcée ; une « dispersion rapide » est avancée sans source vérifiée.
-    source: null
+    note: Démarrage au printemps-été 1970 (sources 3, 4) ; dernière trace relevée en octobre 1971 (source
+      6), mais la rubrique Ariège disparaît alors entièrement de l'annuaire, ce qui ne prouve pas la fin
+      de la communauté. Aucune source ne documente dix ans d'usage ni une date de fin.
+    source: 6
 chronologie:
 - annee: 1970
-  evenement: Fondation de la communauté libertaire de Villeneuve-du-Bosc.
-  source: 1
+  evenement: 'Avril : la « Communauté anarchiste de Villeneuve-du-Bosc » paraît à l''annuaire des groupes
+    de la Fédération anarchiste ; juillet-août : elle « vient de démarrer », accueil de jeunes militants
+    pour l''été.'
+  source: 3
+- annee: 1970
+  evenement: 'Décembre : un membre détenu à la maison d''arrêt de Foix, grève de la faim depuis le 8 décembre
+    ; vendanges et coupe de sapins hors du lieu ; projet d''association de soutien.'
+  source: 5
+- annee: 1971
+  evenement: 'Octobre : dernière mention à l''annuaire du Monde libertaire.'
+  source: 6
+- annee: 1972
+  evenement: Parution de « Théorie et pratique de la vie en communauté » (Bélibaste), ouvrage d'un animateur
+    de la communauté selon Wikipédia (source 1) ; non consulté.
+  source: 7
 - annee: 1975
   evenement: Rattachement de la commune de Villeneuve-du-Bosc à Saint-Jean-de-Verges.
   source: 2
 fiabilite:
   verifie:
-  - Fondation en 1970 dans un village abandonné près de Foix
-  - Rattachement communal de 1975
+  - Existence d'une communauté anarchiste à Villeneuve-du-Bosc (Saint-Jean-de-Verges, Ariège) en 1970-1971,
+    rattachée à la Fédération anarchiste (Le Monde libertaire n° 160 à 174)
+  - Démarrage au printemps-été 1970 ; activité attestée en décembre 1970
+  - Détention d'un membre à Foix en décembre 1970, selon le collectif
+  - Rattachement communal de 1975 (Wikipédia ; page INSEE du code officiel géographique introuvable le
+    2026-11-20)
   non_confirme:
-  - Mode d'accès au lieu (occupation supposée)
-  - Date et cause de fin
+  - Propriétaire du lieu et titre d'occupation (occupation supposée par la fiche de 2026-09-30, sans source)
+  - 'Date et cause de fin : aucune trace après octobre 1971, mais l''annuaire perd alors toute la rubrique
+    Ariège'
   - Autres communes ariégeoises (Sarrat d'Uscla, Le Bosc, Planel-du-Bis) citées sans source primaire
-  - Ouvrage d'analyse de 1972 (Théorie et pratique de la vie en communauté, Bélibaste) non consulté
+  - Contenu de l'ouvrage de 1972 (Bélibaste) et du mémoire de 1993 (Perpignan), localisés mais non consultés
+  - 'Article de P. Stuppia, Éducation et sociétés 2016/1 (cité par Wikipédia), non consulté : Cairn inaccessible'
+  - 'Maitron : aucune notice ne mentionne Villeneuve-du-Bosc (recherche du 2026-11-20)'
 liens:
   communs: null
 sources:
@@ -129,6 +172,48 @@ sources:
   auteur: Wikipédia
   annee: null
   url: https://fr.wikipedia.org/wiki/Villeneuve-du-Bosc
+- titre: 'Le Monde libertaire n° 160, avril 1970 — annuaire des groupes de la Fédération anarchiste :
+    « Communauté anarchiste de Villeneuve-du-Bosc, Saint-Jean-de-Verges par 09-Varilhes » (première mention
+    relevée)'
+  auteur: Fédération anarchiste
+  annee: 1970
+  url: https://ml.ficedl.info/IMG/pdf/lmlibertaire-1970-n160.pdf
+- titre: « Communauté de Villeneuve-du-Bosc », Le Monde libertaire n° 163, juillet-août 1970, p. 2 (la
+    communauté « vient de démarrer » ; pratique de l'autogestion ; accueil de jeunes camarades l'été ;
+    appel à dons de livres pour la bibliothèque)
+  auteur: Le Monde libertaire
+  annee: 1970
+  url: https://ml.ficedl.info/IMG/pdf/lmlibertaire-1970-n163.pdf
+- titre: « Compte rendu de la communauté de Villeneuve-du-Bosc » et « Contre la répression », Le Monde
+    libertaire n° 167, janvier 1971, p. 5 (rapports avec la population, travaux saisonniers à l'extérieur,
+    projet d'association de soutien ; détention d'un membre à Foix, grève de la faim depuis le 8 décembre
+    1970)
+  auteur: Le Monde libertaire
+  annee: 1971
+  url: https://ml.ficedl.info/IMG/pdf/lmlibertaire-1971-n167.pdf
+- titre: 'Le Monde libertaire n° 174, octobre 1971 — annuaire des groupes : dernière mention relevée de
+    la communauté ; la rubrique Ariège disparaît entièrement de l''annuaire à partir du n° 175 (novembre
+    1971)'
+  auteur: Fédération anarchiste
+  annee: 1971
+  url: https://ml.ficedl.info/IMG/pdf/lmlibertaire-1971-n174.pdf
+- titre: Théorie et pratique de la vie en communauté (Paris, Bélibaste, 1972, 129 p.) — notice du catalogue
+    général de la BnF ; ouvrage non consulté
+  auteur: Raimundo Dinello, Pierre Méric
+  annee: 1972
+  url: https://catalogue.bnf.fr/ark:/12148/cb35189996d
+- titre: Des communautés libertaires de 1968 à 1978, dans le Sud-Ouest (mémoire de maîtrise d'histoire,
+    Université de Perpignan, 1993, 139 p.) — notice du catalogue du CIRA-Marseille ; mémoire non consulté
+  auteur: Edward Sarboni
+  annee: 1993
+  url: http://bibli.cira.marseille.free.fr/opac_css/index.php?lvl=notice_display&id=6720
+- titre: 'Blog « Commune libre », rubrique Communautés (copie Internet Archive du 6 août 2021) — annexes
+    de l''auteur de l''ouvrage de 1972 : article « Prostitution et révolution des rapports humains »,
+    La Rue n° 8, été 1970, « écrit pendant et par rapport à Villeneuve-du-Bosc » ; poème « Villeneuve-du-Bosc
+    – septembre 70 »'
+  auteur: Commune libre (blog)
+  annee: 2013
+  url: http://web.archive.org/web/20210806041427/http://communelibre.hautetfort.com/communautes/
 faces:
   igor: null
   eozen: null

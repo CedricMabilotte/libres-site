@@ -36,12 +36,16 @@ dimensions:
     source: 5
   titre:
     valeur: bail_emphyteotique
-    note: Bail emphytéotique de 40 ans signé le 19 janvier 2018 avec promesse de vente.
+    note: 'Bail emphytéotique de 40 ans signé le 19 janvier 2018 avec promesse de vente. Publié au service
+      de la publicité foncière de Toulouse 1 le 16 février 2018, vol. 2018P n° 3283 (source 7). Signataire
+      : association La Chapelle (sources 7, 12).'
     source: 2
   verrou:
     valeur:
     - bail_long
-    note: Bail emphytéotique de 40 ans ; vente à l'association suspendue.
+    note: Bail emphytéotique de 40 ans ; vente à l'association suspendue. Suspension de trois ans votée
+      le 6 février 2026 (délibération 26-0006, source 10) ; délibération de vente 25-0597 retirée de l'ordre
+      du jour le 26 septembre 2025 (source 8).
     source: 4
   gouvernance:
     valeur: assemblee_consensus
@@ -72,8 +76,10 @@ dimensions:
     source: 4
   rapport_etat:
     valeur: conflit
-    note: Retrait de la délibération de vente (26 septembre 2025), suspension de trois ans annoncée en
-      février 2026.
+    note: 'Retrait de la délibération de vente (26 septembre 2025), suspension de trois ans annoncée en
+      février 2026. Délibération 26-0006 adoptée le 6 février 2026, publiée le 24 mars 2026 ; motifs invoqués
+      : estimation des Domaines à 479 000 € HT, courrier du préfet du 25 novembre 2025, réunions jugées
+      contraires à l''objet du bail (source 10).'
     source: 4
   echelle:
     valeur: inconnu
@@ -92,12 +98,28 @@ dimensions:
 portes:
   forme_civile:
     valeur: oui
-    note: 'Association 1901 usagère, Ville de Toulouse propriétaire : aucun maillon commercial. Règle P1 (décision de Ced, 2026-10-01) : une personne publique propriétaire est admise au cas par cas, si le montage établit clairement un commun. Ici : bail long au profit d''une association usagère autogérée, sans salarié ni subvention, depuis 1993 — commun établi.'
+    note: 'Association 1901 usagère, Ville de Toulouse propriétaire : aucun maillon commercial. Règle
+      P1 (décision de Ced, 2026-10-01) : une personne publique propriétaire est admise au cas par cas,
+      si le montage établit clairement un commun. Ici : bail long au profit d''une association usagère
+      autogérée, sans salarié ni subvention, depuis 1993 — commun établi. Complément du 2026-11-20 : l''emphytéote
+      est l''association La Chapelle (loi 1901, déclarée en préfecture le 12 septembre 2017, SIREN 833577000,
+      RNA W313026794), créée pour cette opération, distincte de L''Atelier Idéal qui anime le lieu depuis
+      1993 (sources 7 et 12).'
     source: 2
   foncier_verrouille:
     valeur: oui
     note: 'Bail emphytéotique de 40 ans signé le 19 janvier 2018 (≥ 30 ans). Fragilité : la mairie exige
-      de démontrer la conformité de l''activité à l''objet du bail.'
+      de démontrer la conformité de l''activité à l''objet du bail. Complément du 2026-11-20 : le bail
+      (acte notarié du 19 janvier 2018, 40 ans, du 19 janvier 2018 au 18 janvier 2058, parcelle 826 AC
+      102, articles L. 451-1 à L. 451-13 du Code rural) a été publié au service de la publicité foncière
+      de Toulouse 1 le 16 février 2018, volume 2018P numéro 3283, selon l''exposé préalable de l''avenant
+      annexé à la délibération 22-0750 (source 7) : le titre est opposable aux tiers, au-delà du « meilleur
+      effort documentaire ». La pièce primaire (copie de la formalité ou état hypothécaire) n''a pas été
+      vue. Le fonds reste dans le domaine privé de la Ville, libre de vendre (source 9) ; le projet d''acte
+      de 2017 prévoit que le droit de l''emphytéote est cessible, hypothécable et saisissable (source
+      6), clause à confirmer sur l''acte signé. Le verrou reste un verrou par titre : la promesse de vente
+      est suspendue pour trois ans par la délibération 26-0006 du 6 février 2026 (source 10), option de
+      nouveau ouverte du 6 février au 6 août 2029 sous réserve du constat d''une activité d''intérêt général.'
     source: 2
   usage_ig:
     valeur: oui
@@ -159,6 +181,42 @@ sources:
   auteur: Le Journal toulousain
   annee: 2024
   url: https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/toulouse-chapelle-devenir-propriete-occupants-297495/
+- titre: 'Délibération 17-0078 — Chapelle Casanova : bail emphytéotique et promesse unilatérale de vente
+    avec l''association « L''Atelier idéal » (conseil municipal du 23 juin 2017, projet d''acte annexé)'
+  auteur: Ville de Toulouse
+  annee: 2017
+  url: https://deliberations.toulouse.fr/data/archive/20170705_DELIBERATION_17-0078.pdf
+- titre: Délibération 22-0750 — avenant au bail emphytéotique conclu avec l'association « La Chapelle
+    » (conseil municipal du 16 décembre 2022, publiée le 21 décembre 2022 ; l'avenant annexé récite la
+    publication du bail au service de la publicité foncière de Toulouse 1 le 16 février 2018, volume 2018P
+    numéro 3283)
+  auteur: Ville de Toulouse
+  annee: 2022
+  url: https://deliberations.toulouse.fr/data/archive/20221221_VILLE_DELIBERATION_22-0750.pdf
+- titre: 'Procès-verbal du conseil municipal du 26 septembre 2025 (délibération 25-0597, cession de la
+    chapelle Casanova : « retirée de l''ordre du jour »)'
+  auteur: Ville de Toulouse
+  annee: 2025
+  url: https://deliberations.toulouse.fr/data/archive/20251223_PV_20250926.pdf
+- titre: Projet de délibération 25-0597 — cession de la chapelle Casanova (version du 15 septembre 2025,
+    publiée par l'association)
+  auteur: La Chapelle Toulouse
+  annee: 2025
+  url: https://lachapelletoulouse.com/wp-content/uploads/2025/11/2025-09-15_projet_deliberation_modifie.pdf
+- titre: Délibération 26-0006 — suspension des effets de la promesse de vente consentie à l'association
+    La Chapelle (conseil municipal du 6 février 2026, publiée et reçue en préfecture le 24 mars 2026)
+  auteur: Ville de Toulouse
+  annee: 2026
+  url: https://deliberations.toulouse.fr/data/archive/20260324_VILLE_DELIBERATION_26-0006.pdf
+- titre: Procès-verbal du conseil municipal du 6 février 2026
+  auteur: Ville de Toulouse
+  annee: 2026
+  url: https://deliberations.toulouse.fr/data/archive/20260330_PV_20260206.pdf
+- titre: Annuaire des entreprises — association LA CHAPELLE (SIREN 833577000, RNA W313026794, créée le
+    12 septembre 2017) et L'ATELIER IDEAL (SIREN 801466327, RNA W313012540), 36 rue Danielle-Casanova
+  auteur: API Recherche d'entreprises (data.gouv.fr)
+  annee: 2026
+  url: https://recherche-entreprises.api.gouv.fr/search?q=833577000
 faces:
   igor: null
   eozen: null

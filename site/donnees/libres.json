@@ -408,11 +408,11 @@
    "portes": {
     "forme_civile": {
      "valeur": "oui",
-     "note": "Association 1901 usagère, Ville de Toulouse propriétaire : aucun maillon commercial. Règle P1 (décision de Ced, 2026-10-01) : une personne publique propriétaire est admise au cas par cas, si le montage établit clairement un commun. Ici : bail long au profit d'une association usagère autogérée, sans salarié ni subvention, depuis 1993 — commun établi."
+     "note": "Association 1901 usagère, Ville de Toulouse propriétaire : aucun maillon commercial. Règle P1 (décision de Ced, 2026-10-01) : une personne publique propriétaire est admise au cas par cas, si le montage établit clairement un commun. Ici : bail long au profit d'une association usagère autogérée, sans salarié ni subvention, depuis 1993 — commun établi. Complément du 2026-11-20 : l'emphytéote est l'association La Chapelle (loi 1901, déclarée en préfecture le 12 septembre 2017, SIREN 833577000, RNA W313026794), créée pour cette opération, distincte de L'Atelier Idéal qui anime le lieu depuis 1993 (sources 7 et 12)."
     },
     "foncier_verrouille": {
      "valeur": "oui",
-     "note": "Bail emphytéotique de 40 ans signé le 19 janvier 2018 (≥ 30 ans). Fragilité : la mairie exige de démontrer la conformité de l'activité à l'objet du bail."
+     "note": "Bail emphytéotique de 40 ans signé le 19 janvier 2018 (≥ 30 ans). Fragilité : la mairie exige de démontrer la conformité de l'activité à l'objet du bail. Complément du 2026-11-20 : le bail (acte notarié du 19 janvier 2018, 40 ans, du 19 janvier 2018 au 18 janvier 2058, parcelle 826 AC 102, articles L. 451-1 à L. 451-13 du Code rural) a été publié au service de la publicité foncière de Toulouse 1 le 16 février 2018, volume 2018P numéro 3283, selon l'exposé préalable de l'avenant annexé à la délibération 22-0750 (source 7) : le titre est opposable aux tiers, au-delà du « meilleur effort documentaire ». La pièce primaire (copie de la formalité ou état hypothécaire) n'a pas été vue. Le fonds reste dans le domaine privé de la Ville, libre de vendre (source 9) ; le projet d'acte de 2017 prévoit que le droit de l'emphytéote est cessible, hypothécable et saisissable (source 6), clause à confirmer sur l'acte signé. Le verrou reste un verrou par titre : la promesse de vente est suspendue pour trois ans par la délibération 26-0006 du 6 février 2026 (source 10), option de nouveau ouverte du 6 février au 6 août 2029 sous réserve du constat d'une activité d'intérêt général."
     },
     "usage_ig": {
      "valeur": "oui",
@@ -478,6 +478,48 @@
      "auteur": "Le Journal toulousain",
      "annee": 2024,
      "url": "https://www.lejournaltoulousain.fr/occitanie/haute-garonne/toulouse/toulouse-chapelle-devenir-propriete-occupants-297495/"
+    },
+    {
+     "titre": "Délibération 17-0078 — Chapelle Casanova : bail emphytéotique et promesse unilatérale de vente avec l'association « L'Atelier idéal » (conseil municipal du 23 juin 2017, projet d'acte annexé)",
+     "auteur": "Ville de Toulouse",
+     "annee": 2017,
+     "url": "https://deliberations.toulouse.fr/data/archive/20170705_DELIBERATION_17-0078.pdf"
+    },
+    {
+     "titre": "Délibération 22-0750 — avenant au bail emphytéotique conclu avec l'association « La Chapelle » (conseil municipal du 16 décembre 2022, publiée le 21 décembre 2022 ; l'avenant annexé récite la publication du bail au service de la publicité foncière de Toulouse 1 le 16 février 2018, volume 2018P numéro 3283)",
+     "auteur": "Ville de Toulouse",
+     "annee": 2022,
+     "url": "https://deliberations.toulouse.fr/data/archive/20221221_VILLE_DELIBERATION_22-0750.pdf"
+    },
+    {
+     "titre": "Procès-verbal du conseil municipal du 26 septembre 2025 (délibération 25-0597, cession de la chapelle Casanova : « retirée de l'ordre du jour »)",
+     "auteur": "Ville de Toulouse",
+     "annee": 2025,
+     "url": "https://deliberations.toulouse.fr/data/archive/20251223_PV_20250926.pdf"
+    },
+    {
+     "titre": "Projet de délibération 25-0597 — cession de la chapelle Casanova (version du 15 septembre 2025, publiée par l'association)",
+     "auteur": "La Chapelle Toulouse",
+     "annee": 2025,
+     "url": "https://lachapelletoulouse.com/wp-content/uploads/2025/11/2025-09-15_projet_deliberation_modifie.pdf"
+    },
+    {
+     "titre": "Délibération 26-0006 — suspension des effets de la promesse de vente consentie à l'association La Chapelle (conseil municipal du 6 février 2026, publiée et reçue en préfecture le 24 mars 2026)",
+     "auteur": "Ville de Toulouse",
+     "annee": 2026,
+     "url": "https://deliberations.toulouse.fr/data/archive/20260324_VILLE_DELIBERATION_26-0006.pdf"
+    },
+    {
+     "titre": "Procès-verbal du conseil municipal du 6 février 2026",
+     "auteur": "Ville de Toulouse",
+     "annee": 2026,
+     "url": "https://deliberations.toulouse.fr/data/archive/20260330_PV_20260206.pdf"
+    },
+    {
+     "titre": "Annuaire des entreprises — association LA CHAPELLE (SIREN 833577000, RNA W313026794, créée le 12 septembre 2017) et L'ATELIER IDEAL (SIREN 801466327, RNA W313012540), 36 rue Danielle-Casanova",
+     "auteur": "API Recherche d'entreprises (data.gouv.fr)",
+     "annee": 2026,
+     "url": "https://recherche-entreprises.api.gouv.fr/search?q=833577000"
     }
    ],
    "url": "https://libres.actitude.org/f/la-chapelle-toulouse/"
@@ -6429,7 +6471,8 @@
    "uid": "communes-libertaires-ariege-villeneuve-du-bosc",
    "nom": "Communes libertaires d'Ariège (Villeneuve-du-Bosc)",
    "autres_noms": [
-    "Communauté libertaire de Villeneuve-du-Bosc"
+    "Communauté libertaire de Villeneuve-du-Bosc",
+    "Communauté anarchiste de Villeneuve-du-Bosc"
    ],
    "famille": "communaute_intentionnelle",
    "statut": "epreuve",
@@ -6451,9 +6494,9 @@
    },
    "debut": 1970,
    "fin": null,
-   "resume": "En 1970, une communauté libertaire s'installe dans le noyau villageois abandonné de Villeneuve-du-Bosc, près de Foix, pour y mener une expérience de « commune libertaire » dans le sillage du néo-ruralisme d'après 1968. La commune administrative est rattachée à Saint-Jean-de-Verges en 1975. D'autres communautés ariégeoises de la même période sont citées sans détail. Le mode d'accès au lieu, la gouvernance et la date de fin ne sont documentés par aucune source consultée.",
+   "resume": "En 1970, une communauté anarchiste s'installe dans le noyau villageois abandonné de Villeneuve-du-Bosc, commune rattachée à Saint-Jean-de-Verges (Ariège) en 1975, près de Foix. Rattachée à la Fédération anarchiste, elle figure dans l'annuaire des groupes du Monde libertaire d'avril 1970 à octobre 1971 et s'y décrit comme un centre de vie « non autoritaire, autogestionnaire, libertaire » : bibliothèque, accueil de jeunes militants l'été, travaux saisonniers à l'extérieur, projet d'association de soutien. En décembre 1970, un membre est détenu à la maison d'arrêt de Foix ; le collectif y voit une manœuvre contre la communauté. Le propriétaire des lieux, le titre d'occupation, l'effectif et la date de fin ne sont documentés par aucune source consultée ; aucune trace n'a été trouvée après octobre 1971.",
    "collectif": {
-    "nom": "Communauté libertaire de Villeneuve-du-Bosc",
+    "nom": "Communauté anarchiste de Villeneuve-du-Bosc",
     "forme": "collectif_de_fait",
     "annee": 1970
    },
@@ -6466,23 +6509,23 @@
    "portes": {
     "forme_civile": {
      "valeur": "inconnu",
-     "note": "Forme du collectif et propriétaire du lieu non documentés."
+     "note": "Collectif de fait en 1970-1971 : le compte rendu de janvier 1971 envisage « la constitution d'une association pour le soutien juridique et moral de la communauté », non attestée ensuite (source 5). Propriétaire du lieu non documenté : la chaîne ne peut pas être lue."
     },
     "foncier_verrouille": {
      "valeur": "inconnu",
-     "note": "Mode d'accès au lieu non documenté."
+     "note": "Ni propriétaire, ni titre, ni verrou documentés (sources 2, 4, 5)."
     },
     "usage_ig": {
-     "valeur": "inconnu",
-     "note": "Aucune source sur l'usage."
+     "valeur": "partiel",
+     "note": "Usage non marchand établi par les textes du collectif : bibliothèque ouverte aux camarades, accueil de jeunes militants l'été, propagande et formation (source 4), liens avec la population (source 5). Ouverture au-delà du cercle militant non établie : les textes s'adressent aux « camarades »."
     },
     "autogestion": {
-     "valeur": "inconnu",
-     "note": "Aucune source sur la gouvernance."
+     "valeur": "partiel",
+     "note": "« Pratique de l'autogestion » et « centre de vie non autoritaire, autogestionnaire » revendiqués par le collectif lui-même (sources 4, 5) ; aucune description d'une assemblée ou d'une règle de décision, aucune source extérieure."
     },
     "etabli": {
      "valeur": "inconnu",
-     "note": "Date de fin non sourcée ; une « dispersion rapide » est avancée sans source vérifiée."
+     "note": "Démarrage au printemps-été 1970 (sources 3, 4) ; dernière trace relevée en octobre 1971 (source 6), mais la rubrique Ariège disparaît alors entièrement de l'annuaire, ce qui ne prouve pas la fin de la communauté. Aucune source ne documente dix ans d'usage ni une date de fin."
     }
    },
    "dimensions": {
@@ -6491,13 +6534,16 @@
     "verrou": "inconnu",
     "gouvernance": "inconnu",
     "economie": "inconnu",
-    "ouverture": "inconnu",
-    "finalite": "inconnu",
+    "ouverture": "accueil_regulier",
+    "finalite": [
+     "education_populaire",
+     "habitat"
+    ],
     "filiation": [
      "anarchisme",
      "neo_ruralisme"
     ],
-    "rapport_etat": "inconnu",
+    "rapport_etat": "conflit",
     "echelle": "inconnu",
     "transmission": "inconnu",
     "etat": "disparu",
@@ -6515,6 +6561,48 @@
      "auteur": "Wikipédia",
      "annee": null,
      "url": "https://fr.wikipedia.org/wiki/Villeneuve-du-Bosc"
+    },
+    {
+     "titre": "Le Monde libertaire n° 160, avril 1970 — annuaire des groupes de la Fédération anarchiste : « Communauté anarchiste de Villeneuve-du-Bosc, Saint-Jean-de-Verges par 09-Varilhes » (première mention relevée)",
+     "auteur": "Fédération anarchiste",
+     "annee": 1970,
+     "url": "https://ml.ficedl.info/IMG/pdf/lmlibertaire-1970-n160.pdf"
+    },
+    {
+     "titre": "« Communauté de Villeneuve-du-Bosc », Le Monde libertaire n° 163, juillet-août 1970, p. 2 (la communauté « vient de démarrer » ; pratique de l'autogestion ; accueil de jeunes camarades l'été ; appel à dons de livres pour la bibliothèque)",
+     "auteur": "Le Monde libertaire",
+     "annee": 1970,
+     "url": "https://ml.ficedl.info/IMG/pdf/lmlibertaire-1970-n163.pdf"
+    },
+    {
+     "titre": "« Compte rendu de la communauté de Villeneuve-du-Bosc » et « Contre la répression », Le Monde libertaire n° 167, janvier 1971, p. 5 (rapports avec la population, travaux saisonniers à l'extérieur, projet d'association de soutien ; détention d'un membre à Foix, grève de la faim depuis le 8 décembre 1970)",
+     "auteur": "Le Monde libertaire",
+     "annee": 1971,
+     "url": "https://ml.ficedl.info/IMG/pdf/lmlibertaire-1971-n167.pdf"
+    },
+    {
+     "titre": "Le Monde libertaire n° 174, octobre 1971 — annuaire des groupes : dernière mention relevée de la communauté ; la rubrique Ariège disparaît entièrement de l'annuaire à partir du n° 175 (novembre 1971)",
+     "auteur": "Fédération anarchiste",
+     "annee": 1971,
+     "url": "https://ml.ficedl.info/IMG/pdf/lmlibertaire-1971-n174.pdf"
+    },
+    {
+     "titre": "Théorie et pratique de la vie en communauté (Paris, Bélibaste, 1972, 129 p.) — notice du catalogue général de la BnF ; ouvrage non consulté",
+     "auteur": "Raimundo Dinello, Pierre Méric",
+     "annee": 1972,
+     "url": "https://catalogue.bnf.fr/ark:/12148/cb35189996d"
+    },
+    {
+     "titre": "Des communautés libertaires de 1968 à 1978, dans le Sud-Ouest (mémoire de maîtrise d'histoire, Université de Perpignan, 1993, 139 p.) — notice du catalogue du CIRA-Marseille ; mémoire non consulté",
+     "auteur": "Edward Sarboni",
+     "annee": 1993,
+     "url": "http://bibli.cira.marseille.free.fr/opac_css/index.php?lvl=notice_display&id=6720"
+    },
+    {
+     "titre": "Blog « Commune libre », rubrique Communautés (copie Internet Archive du 6 août 2021) — annexes de l'auteur de l'ouvrage de 1972 : article « Prostitution et révolution des rapports humains », La Rue n° 8, été 1970, « écrit pendant et par rapport à Villeneuve-du-Bosc » ; poème « Villeneuve-du-Bosc – septembre 70 »",
+     "auteur": "Commune libre (blog)",
+     "annee": 2013,
+     "url": "http://web.archive.org/web/20210806041427/http://communelibre.hautetfort.com/communautes/"
     }
    ],
    "url": "https://libres.actitude.org/f/communes-libertaires-ariege-villeneuve-du-bosc/"
