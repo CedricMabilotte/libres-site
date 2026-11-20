@@ -2,3 +2,6 @@ apercu/
 __pycache__/
 *.pyc
 .DS_Store
+
+# sas des lots (para resources/shared/procedure-lots.md) : espace de travail local, jamais publié
+propositions/
