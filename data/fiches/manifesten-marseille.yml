@@ -3,12 +3,12 @@ uid: manifesten-marseille
 nom: Manifesten
 autres_noms: []
 famille: lieu_non_marchand
-resume: Café-librairie associatif et lieu de luttes au 59 rue Adolphe-Thiers, Marseille 1er, rouvert par une nouvelle
-  équipe en février 2016. Menacé par la vente des murs en 2020, le collectif (une quinzaine de personnes, « sans
-  chef·fe ni salarié·e ») a lancé une collecte pour acheter le lieu (environ 190 000 € frais compris) ; l'association
-  New Al Dante en devient propriétaire, avec une clause d'incessibilité annoncée, et le lieu entre dans le réseau
-  CLIP. On y trouve une librairie, un bar, des cours de français pour femmes et les réunions d'une quinzaine de
-  collectifs.
+resume: Café-librairie associatif et lieu de luttes au 59 rue Adolphe-Thiers, Marseille 1er, rouvert par
+  une nouvelle équipe en février 2016. Menacé par la vente des murs en 2020, le collectif (une quinzaine
+  de personnes, « sans chef·fe ni salarié·e ») a lancé une collecte pour acheter le lieu (environ 190
+  000 € frais compris) ; l'association New Al Dante en devient propriétaire, avec une clause d'incessibilité
+  annoncée, et le lieu entre dans le réseau CLIP. On y trouve une librairie, un bar, des cours de français
+  pour femmes et les réunions d'une quinzaine de collectifs.
 localisation:
   commune: Marseille (1er arrondissement)
   departement: '13'
@@ -38,18 +38,25 @@ dimensions:
   verrou:
     valeur:
     - veto_reseau
-    note: « Clause d'incessibilité » annoncée ; CLIP et New Al Dante s'engagent à trouver un autre collectif si
-      Manifesten périclite.
+    note: « Clause d'incessibilité » annoncée ; CLIP et New Al Dante s'engagent à trouver un autre collectif
+      si Manifesten périclite.
     source: 3
   gouvernance:
     valeur: mixte
-    note: 'Trois cercles : collège juridique, collectif d''une vingtaine de personnes, cercle large (CR d''AG CLIP
-      2022).'
+    note: 'Trois cercles : collège juridique, collectif d''une vingtaine de personnes, cercle large (CR
+      d''AG CLIP 2022).'
     source: 6
   economie:
-    valeur: inconnu
-    note: Lieu tenu bénévolement, « sans salarié·e » en 2020 ; un poste salarié est annoncé en 2022 (AG CLIP). Ressources des personnes non documentées.
-    source: null
+    valeur: revenus_individuels_externes
+    note: Collectif « sans chef·fe ni salarié·e » en 2020 (source 3) ; ses membres ne vivent pas sur place
+      (« contexte un peu différent que les collectifs qui vivent sur place ») et « le temps est bien partagé
+      entre le privé et le professionnel » (source 6, janvier 2022). Le lieu « dégage 1 000 euros de loyer
+      chaque mois, soit 12 000 euros par an », somme destinée à rembourser sur une douzaine d'années les
+      prêts de l'achat (environ 190 000 € frais compris) ; 1 600 adhérent·es à New Al Dante en 2020 (source
+      3). Un poste salarié annoncé pour mai-juin 2022 (source 6) ; au répertoire Sirene, New Al Dante
+      est marquée employeuse, l'association Manifesten (déclarée en 2021) non (sources 9 et 10). Sources
+      consultées le 20 novembre 2026.
+    source: 6
   ouverture:
     valeur: ouvert_public
     note: Café-librairie ouvert à tous, refus de l'entre-soi militant.
@@ -73,9 +80,15 @@ dimensions:
     note: « On est une quinzaine à mener ce combat ».
     source: 3
   transmission:
-    valeur: inconnu
-    note: Aucune source trouvée.
-    source: null
+    valeur: en_cours
+    note: 'Collectif constitué en 2016 ; en janvier 2022, il décrit trois cercles, dont un collectif d''environ
+      dix-huit personnes « renouvelés à 1/3 tous les trois ans » (source 6). Tract de 2020 : « En cas
+      de départ du collectif Manifesten, nos statuts nous engagent à trouver un autre collectif d''habitants
+      pour l''usage du lieu » ; si l''association périclite, New Al Dante et le CLIP « s''engagent à trouver
+      un autre collectif » (source 3) ; la revente exige l''unanimité des deux membres de l''association
+      propriétaire (source 8). Statuts et clause d''incessibilité non publiés. Sources consultées le 20
+      novembre 2026.'
+    source: 6
   etat:
     valeur: actif
     note: Listé parmi les lieux du CLIP.
@@ -89,12 +102,17 @@ portes:
     source: 3
   foncier_verrouille:
     valeur: oui
-    note: '« Clause d''incessibilité » annoncée et garantie CLIP, mais texte non publié. Une clause d''inaliénabilité perpétuelle est fragile en droit français (la jurisprudence l''exige temporaire et justifiée par un intérêt sérieux et légitime) : le verrou tient surtout au veto du CLIP. Règle P2 « meilleur effort documentaire » (décision de Ced, 2026-10-01) : le verrou est établi par des sources concordantes, même sans acte publié. Veto du réseau CLIP sur la revente, objet anti-revente de l''association propriétaire.'
+    note: '« Clause d''incessibilité » annoncée et garantie CLIP, mais texte non publié. Une clause d''inaliénabilité
+      perpétuelle est fragile en droit français (la jurisprudence l''exige temporaire et justifiée par
+      un intérêt sérieux et légitime) : le verrou tient surtout au veto du CLIP. Règle P2 « meilleur effort
+      documentaire » (décision de Ced, 2026-10-01) : le verrou est établi par des sources concordantes,
+      même sans acte publié. Veto du réseau CLIP sur la revente, objet anti-revente de l''association
+      propriétaire.'
     source: 3
   usage_ig:
     valeur: oui
-    note: Café-librairie associatif, cours gratuits de français pour femmes, lieu de réunion d'une quinzaine de
-      collectifs.
+    note: Café-librairie associatif, cours gratuits de français pour femmes, lieu de réunion d'une quinzaine
+      de collectifs.
     source: 4
   autogestion:
     valeur: oui
@@ -102,8 +120,8 @@ portes:
     source: 3
   etabli:
     valeur: oui
-    note: 'Équipe actuelle depuis le 6 février 2016 : dix ans atteints en février 2026 (location jusqu''à l''achat,
-      puis propriété d''usage). Le lieu existait auparavant sous une autre équipe.'
+    note: 'Équipe actuelle depuis le 6 février 2016 : dix ans atteints en février 2026 (location jusqu''à
+      l''achat, puis propriété d''usage). Le lieu existait auparavant sous une autre équipe.'
     source: 2
 chronologie:
 - annee: 2016
@@ -123,8 +141,8 @@ fiabilite:
   non_confirme:
   - Date exacte de l'acte d'achat (14 février 2021 selon le lead Communs).
   - Texte de la clause d'incessibilité ; titre d'usage.
-  - Nature et issue de la procédure contre la fermeture administrative (lue par Communs dans le CR d'AG 2022, non
-    revérifiée).
+  - Nature et issue de la procédure contre la fermeture administrative (lue par Communs dans le CR d'AG
+    2022, non revérifiée).
 liens:
   communs: null
 sources:
@@ -156,6 +174,20 @@ sources:
   auteur: Infolibertaire
   annee: null
   url: https://www.infolibertaire.net/manifesten-vive-la-propriete-collective/
+- titre: 'Fonctionnement du CLIP (schéma : associations propriétaires à deux membres, unanimité pour la
+    revente, loyer des habitant·es remboursant les prêts)'
+  auteur: CLIP — Réseau de lieux en propriété d'usage
+  annee: 2020
+  url: http://clip.ouvaton.org/wp-content/uploads/2020/11/Fonctionnement-du-CLIP.pdf
+- titre: Association MANIFESTEN (SIREN 918192154, RNA W133035317, déclarée le 13 juillet 2021, non employeuse),
+    rue du Loisir, Marseille 1er
+  auteur: API Recherche d'entreprises (data.gouv.fr)
+  annee: 2026
+  url: https://recherche-entreprises.api.gouv.fr/search?q=manifesten%20marseille
+- titre: Association NAD (NEW AL DANTE), SIREN 493507834, déclarée le 6 novembre 2006, siège marqué employeur
+  auteur: API Recherche d'entreprises (data.gouv.fr)
+  annee: 2026
+  url: https://recherche-entreprises.api.gouv.fr/search?q=493507834
 faces:
   igor: null
   eozen: null

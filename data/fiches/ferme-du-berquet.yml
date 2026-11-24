@@ -5,11 +5,11 @@ autres_noms:
 - Ferme du Berquet
 - La Faille
 famille: commun_foncier
-resume: Lieu collectif autogéré de Monoblet, en Sud-Cévennes (Gard), qui mène depuis plus de douze ans des activités
-  agricoles et culturelles. Un collectif d'une dizaine de personnes y pratique le maraîchage en traction animale
-  et la culture et transformation de la châtaigne, son activité économique principale, et organise concerts à bas
-  coût et résidences à prix libre. L'association La Faille en gère l'usage ; la propriété a été transférée au fonds
-  de dotation Antidote en novembre 2024.
+resume: Lieu collectif autogéré de Monoblet, en Sud-Cévennes (Gard), qui mène depuis plus de douze ans
+  des activités agricoles et culturelles. Un collectif d'une dizaine de personnes y pratique le maraîchage
+  en traction animale et la culture et transformation de la châtaigne, son activité économique principale,
+  et organise concerts à bas coût et résidences à prix libre. L'association La Faille en gère l'usage
+  ; la propriété a été transférée au fonds de dotation Antidote en novembre 2024.
 localisation:
   commune: Monoblet
   departement: '30'
@@ -30,7 +30,8 @@ foncier:
 dimensions:
   acces:
     valeur: inconnu
-    note: Propriété transférée au fonds Antidote en novembre 2024 ; mode du transfert (don ou achat par le fonds) non établi.
+    note: Propriété transférée au fonds Antidote en novembre 2024 ; mode du transfert (don ou achat par
+      le fonds) non établi.
     source: 2
   titre:
     valeur: bail_emphyteotique
@@ -47,8 +48,14 @@ dimensions:
     source: null
   economie:
     valeur: activites_marchandes_annexes
-    note: Culture et transformation de la châtaigne, activité économique principale ; produits bio (pain, châtaigne).
-    source: 1
+    note: « La culture et la transformation de châtaignes est l'activité économique principale qui permet
+      de faire vivre l'association » ; maraîchage en traction animale pour nourrir les habitant·es et
+      les personnes accueillies ; concerts « à bas coût », résidences à prix libre (source 8) ; produits
+      labellisés Nature et Progrès (source 6). Association La Faille déclarée en 2022, non employeuse
+      au répertoire Sirene (source 9). Le fonds Antidote ne reçoit pas de subventions et se finance par
+      dons (source 10). Aucun chiffre publié (recettes, redevance). Sources consultées le 20 novembre
+      2026.
+    source: 8
   ouverture:
     valeur: ouvert_public
     note: Concerts et spectacles à bas coût ; résidences à prix libre.
@@ -73,8 +80,17 @@ dimensions:
     source: 6
   transmission:
     valeur: inconnu
-    note: Aucune source trouvée.
-    source: null
+    note: 'Renouvellement du collectif non documenté (« un collectif de 10 personnes », source 6 ; douze
+      ans d''activité, source 8). Devenir du lieu : propriété transférée au fonds de dotation Antidote,
+      qui parle de « donations » signées « le 22 novembre et le 19 mars » pour la Marinie, la Faille et
+      Keriskis sans préciser quelle date vaut pour quel lieu (source 2) ; le fonds rend l''usage à l''association
+      par un bail emphytéotique de 99 ans « moyennant une redevance modique » ; les statuts des associations
+      des lieux réservent « une qualité de membre de droit aux Passagères de l''Usage » pour prévenir
+      « des modifications statutaires, des cessions de droits réels, ou le non-respect du cadre de l''intérêt
+      général » ; le réseau revendique la « séparation entre le devenir des lieux et celui des personnes
+      » (source 3) et « la stratégie est de faire durer les lieux, et non les collectifs » (source 4).
+      Statuts et bail non publiés. Sources consultées le 20 novembre 2026.'
+    source: 3
   etat:
     valeur: actif
     note: Propriété transférée en novembre 2024.
@@ -88,7 +104,14 @@ portes:
     source: 3
   foncier_verrouille:
     valeur: partiel
-    note: 'Propriété transférée en novembre 2024. Aucune clause d''inaliénabilité publiée dans les statuts du fonds : selon Silence (2023), Antidote « peut vendre un lieu à l''unanimité de son conseil d''administration » (trois administrateur·rices nommé·es par Les Passagères de l''usage). La dévolution de l''actif net d''un fonds de dotation dissous à un autre fonds ou à une fondation RUP est légale (loi 2008, art. 140) mais ne verrouille pas le lieu lui-même ; le bail emphytéotique de 99 ans, qui serait opposable à un acquéreur, n''est pas publié pour ce lieu. Lecture « meilleur effort » (2026-10-01) : ce n''est pas le défaut de publication qui retient la porte, mais la faculté documentée du fonds de vendre un lieu à l''unanimité de son conseil.'
+    note: 'Propriété transférée en novembre 2024. Aucune clause d''inaliénabilité publiée dans les statuts
+      du fonds : selon Silence (2023), Antidote « peut vendre un lieu à l''unanimité de son conseil d''administration
+      » (trois administrateur·rices nommé·es par Les Passagères de l''usage). La dévolution de l''actif
+      net d''un fonds de dotation dissous à un autre fonds ou à une fondation RUP est légale (loi 2008,
+      art. 140) mais ne verrouille pas le lieu lui-même ; le bail emphytéotique de 99 ans, qui serait
+      opposable à un acquéreur, n''est pas publié pour ce lieu. Lecture « meilleur effort » (2026-10-01)
+      : ce n''est pas le défaut de publication qui retient la porte, mais la faculté documentée du fonds
+      de vendre un lieu à l''unanimité de son conseil.'
     source: 4
   usage_ig:
     valeur: oui
@@ -96,13 +119,13 @@ portes:
     source: 1
   autogestion:
     valeur: oui
-    note: Lieu collectif autogéré à gouvernance horizontale ; stage public « Peut-on fonctionner sans chef·fe·s
-      » accueilli à la ferme.
+    note: Lieu collectif autogéré à gouvernance horizontale ; stage public « Peut-on fonctionner sans
+      chef·fe·s » accueilli à la ferme.
     source: 1
   etabli:
     valeur: oui
-    note: '« Activités culturelles et agricoles depuis 12 ans » (page Antidote rédigée vers 2022) : plus de dix
-      ans d''usage.'
+    note: '« Activités culturelles et agricoles depuis 12 ans » (page Antidote rédigée vers 2022) : plus
+      de dix ans d''usage.'
     source: 1
 chronologie:
 - annee: 2024
@@ -148,6 +171,19 @@ sources:
   auteur: CPIE du Gard
   annee: null
   url: https://cpiegard.fr/stage-peut-fonctionner-sans-cheffes-la-ferme-du-berquet
+- titre: La Faille (Gard)
+  auteur: Antidote
+  annee: null
+  url: https://aventure-antidote.org/les-lieux/la-faille-gard/
+- titre: Association LA FAILLE (SIREN 923484349, RNA W303005610, déclarée le 18 mai 2022, non employeuse),
+    Monoblet
+  auteur: API Recherche d'entreprises (data.gouv.fr)
+  annee: 2026
+  url: https://recherche-entreprises.api.gouv.fr/search?q=la%20faille%20monoblet
+- titre: Notre modèle économique
+  auteur: Antidote
+  annee: null
+  url: https://aventure-antidote.org/comment-ca-marche/notre-modele-economique/
 faces:
   igor: null
   eozen: null

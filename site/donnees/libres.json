@@ -73,7 +73,7 @@
     "filiation": "inconnu",
     "rapport_etat": "inconnu",
     "echelle": "10_50",
-    "transmission": "inconnu",
+    "transmission": "en_cours",
     "etat": "actif",
     "fin": null
    },
@@ -105,7 +105,7 @@
     {
      "titre": "À l'Estaque, chantiers participatifs pour reconstruire La Déviation après l'incendie",
      "auteur": "Made in Marseille",
-     "annee": 2025,
+     "annee": 2026,
      "url": "https://madeinmarseille.net/a-la-une-marseille/196220-deviation-chantiers-participatifs-incendie/"
     },
     {
@@ -113,6 +113,30 @@
      "auteur": "Annuaire des entreprises",
      "annee": null,
      "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/parpaing-libre-833981764"
+    },
+    {
+     "titre": "Fonctionnement du CLIP (schéma : associations propriétaires à deux membres, unanimité pour la revente, loyer des habitant·es remboursant les prêts)",
+     "auteur": "CLIP — Réseau de lieux en propriété d'usage",
+     "annee": 2020,
+     "url": "http://clip.ouvaton.org/wp-content/uploads/2020/11/Fonctionnement-du-CLIP.pdf"
+    },
+    {
+     "titre": "Libérons les parpaings (brochure, mai 2018) — copie Internet Archive du 17 juin 2024 ; le fichier d'origine (source 2) répond 403 en novembre 2026",
+     "auteur": "Parpaing Libre",
+     "annee": 2018,
+     "url": "https://web.archive.org/web/20240617093434/http://www.ladeviation.org/wp-content/uploads/2018/05/ParpaingLibre_brochure_mai.compressed.pdf"
+    },
+    {
+     "titre": "Compte rendu de l'assemblée générale du 29 janvier 2022 (« météo » de La Déviation)",
+     "auteur": "CLIP",
+     "annee": 2022,
+     "url": "https://clip.ouvaton.org/wp-content/uploads/2022/02/clip-ag-2022-01-29-pv.pdf"
+    },
+    {
+     "titre": "Associations EN DEVENIR (SIREN 789457306, non employeuse) et EN DEVENIR 2 (SIREN 833981731, déclarée le 2 octobre 2017, 1 ou 2 salariés en 2024), 210 chemin de la Nerthe",
+     "auteur": "API Recherche d'entreprises (data.gouv.fr)",
+     "annee": 2026,
+     "url": "https://recherche-entreprises.api.gouv.fr/search?q=en%20devenir%20marseille%2013016"
     }
    ],
    "url": "https://libres.actitude.org/f/la-deviation-marseille/"
@@ -192,7 +216,7 @@
     ],
     "rapport_etat": "inconnu",
     "echelle": "10_50",
-    "transmission": "inconnu",
+    "transmission": "generations_renouvelees",
     "etat": "actif",
     "fin": null
    },
@@ -313,7 +337,7 @@
      "veto_reseau"
     ],
     "gouvernance": "mixte",
-    "economie": "inconnu",
+    "economie": "revenus_individuels_externes",
     "ouverture": "ouvert_public",
     "finalite": [
      "culture",
@@ -322,7 +346,7 @@
     "filiation": "inconnu",
     "rapport_etat": "conflit",
     "echelle": "10_50",
-    "transmission": "inconnu",
+    "transmission": "en_cours",
     "etat": "actif",
     "fin": null
    },
@@ -368,6 +392,24 @@
      "auteur": "Infolibertaire",
      "annee": null,
      "url": "https://www.infolibertaire.net/manifesten-vive-la-propriete-collective/"
+    },
+    {
+     "titre": "Fonctionnement du CLIP (schéma : associations propriétaires à deux membres, unanimité pour la revente, loyer des habitant·es remboursant les prêts)",
+     "auteur": "CLIP — Réseau de lieux en propriété d'usage",
+     "annee": 2020,
+     "url": "http://clip.ouvaton.org/wp-content/uploads/2020/11/Fonctionnement-du-CLIP.pdf"
+    },
+    {
+     "titre": "Association MANIFESTEN (SIREN 918192154, RNA W133035317, déclarée le 13 juillet 2021, non employeuse), rue du Loisir, Marseille 1er",
+     "auteur": "API Recherche d'entreprises (data.gouv.fr)",
+     "annee": 2026,
+     "url": "https://recherche-entreprises.api.gouv.fr/search?q=manifesten%20marseille"
+    },
+    {
+     "titre": "Association NAD (NEW AL DANTE), SIREN 493507834, déclarée le 6 novembre 2006, siège marqué employeur",
+     "auteur": "API Recherche d'entreprises (data.gouv.fr)",
+     "annee": 2026,
+     "url": "https://recherche-entreprises.api.gouv.fr/search?q=493507834"
     }
    ],
    "url": "https://libres.actitude.org/f/manifesten-marseille/"
@@ -587,7 +629,7 @@
      "aucun"
     ],
     "gouvernance": "assemblee_consensus",
-    "economie": "inconnu",
+    "economie": "revenus_individuels_externes",
     "ouverture": "ouvert_public",
     "finalite": [
      "habitat",
@@ -630,10 +672,22 @@
      "url": "https://lafacto.fr/ressources/les-tanneries-2"
     },
     {
-     "titre": "Les Tanneries, a legalized alternative space",
+     "titre": "Les Tanneries, a legalized alternative space — copie Internet Archive du 31 janvier 2023 (en novembre 2026, le domaine d'origine héberge un site sans rapport)",
      "auteur": "Europe Convergence",
      "annee": 2021,
-     "url": "https://europeconvergence.com/index.php/2021/08/17/les-tanneries-a-legalized-alternative-space/"
+     "url": "https://web.archive.org/web/20230131161742/https://europeconvergence.com/index.php/2021/08/17/les-tanneries-a-legalized-alternative-space/"
+    },
+    {
+     "titre": "Association LES TANNERIES (SIREN 819006008, RNA W212008099, déclarée le 19 février 2016, non employeuse), rue des Ateliers, Dijon",
+     "auteur": "API Recherche d'entreprises (data.gouv.fr)",
+     "annee": 2026,
+     "url": "https://recherche-entreprises.api.gouv.fr/search?q=les%20tanneries%20dijon"
+    },
+    {
+     "titre": "Potagers contre écoquartier au « quartier des Lentillères » (Dijon), mémoire de master 1, université Paris Nanterre, p. 21-22 (convention de 2002, relogement, « bail gratuit et de longue durée »)",
+     "auteur": "Pierre Blanchard",
+     "annee": 2018,
+     "url": "https://ufr-ssa.parisnanterre.fr/medias/fichier/me-moire-blanchard-pierre-20172018_1537970200008-pdf"
     }
    ],
    "url": "https://libres.actitude.org/f/espace-autogere-des-tanneries/"
@@ -757,6 +811,24 @@
      "auteur": "CPIE du Gard",
      "annee": null,
      "url": "https://cpiegard.fr/stage-peut-fonctionner-sans-cheffes-la-ferme-du-berquet"
+    },
+    {
+     "titre": "La Faille (Gard)",
+     "auteur": "Antidote",
+     "annee": null,
+     "url": "https://aventure-antidote.org/les-lieux/la-faille-gard/"
+    },
+    {
+     "titre": "Association LA FAILLE (SIREN 923484349, RNA W303005610, déclarée le 18 mai 2022, non employeuse), Monoblet",
+     "auteur": "API Recherche d'entreprises (data.gouv.fr)",
+     "annee": 2026,
+     "url": "https://recherche-entreprises.api.gouv.fr/search?q=la%20faille%20monoblet"
+    },
+    {
+     "titre": "Notre modèle économique",
+     "auteur": "Antidote",
+     "annee": null,
+     "url": "https://aventure-antidote.org/comment-ca-marche/notre-modele-economique/"
     }
    ],
    "url": "https://libres.actitude.org/f/ferme-du-berquet/"

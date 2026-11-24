@@ -54,9 +54,15 @@ dimensions:
     source: 1
   economie:
     valeur: activites_non_marchandes
-    note: Aucun salarié, bénévolat inscrit dans les statuts, participations aux frais modulées ; jamais
-      de subvention.
-    source: 1
+    note: '« Strict bénévolat, sans personnel salarié » ; « les recettes générées par la fréquentation
+      sont venues financer les seuls besoins d''entretien du lieu » ; « l''association n''a jamais sollicité
+      de subventions » (source 6, exposé de la délibération du 23 juin 2017) ; bénévolat inscrit dans
+      les statuts, participation aux frais modulable (source 1). Redevance du bail : 500 € par an, contre
+      4 260 € estimés par France Domaine le 25 janvier 2017 (source 6) ; prix de vente promis 100 000
+      €, réuni par plus de 1 300 donateur·ices en 2024 (source 2) ; estimation des Domaines en 2025 :
+      479 000 € HT (source 10). Ce dont vivent les membres n''est pas publié. Sources consultées le 20
+      novembre 2026.'
+    source: 6
   ouverture:
     valeur: ouvert_public
     note: Lieu au service de la vie culturelle, militante et associative toulousaine, accessible aux petites
@@ -87,8 +93,17 @@ dimensions:
     source: null
   transmission:
     valeur: generations_renouvelees
-    note: Plus de trente ans d'activité continue et renouvellement de l'association usagère.
-    source: 3
+    note: 'Lieu animé depuis 1993 par L''Atelier Idéal, dont le « collège solidaire de co-responsables
+      » est « formé par l''ensemble de ses membres actifs, tous cosignataires des statuts » (source 1)
+      ; association La Chapelle créée en 2017 pour porter le bail (sources 7 et 12). Devenir du lieu :
+      le projet d''acte de 2017 prévoit qu''à l''expiration des 40 ans l''emphytéote « ne pourra en aucun
+      cas se prévaloir d''un quelconque droit au maintien dans les lieux ou au renouvellement », sans
+      indemnité pour les améliorations ; le droit réel « peut être sous-loué, cédé et saisi » ; en cas
+      de vente, interdiction d''aliéner de 40 ans à la charge de l''acquéreur, justifiée par la destination
+      d''intérêt général et le prix inférieur à la valeur vénale (source 6, projet d''acte annexé, à confirmer
+      sur l''acte signé). Effets de la promesse de vente suspendus pour trois ans par la délibération
+      du 6 février 2026 (source 10). Sources consultées le 20 novembre 2026.'
+    source: 1
   etat:
     valeur: actif
     note: Actif en 2026, rachat bloqué.

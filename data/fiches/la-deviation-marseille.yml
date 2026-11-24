@@ -4,12 +4,13 @@ nom: La Déviation
 autres_noms:
 - En Devenir
 famille: lieu_non_marchand
-resume: Ancienne cimenterie et carrière sur les hauteurs de L'Estaque (Marseille 16e), louée depuis 2015 par un
-  collectif d'artistes issu de l'association En Devenir (2012) et devenue un lieu autogéré de création et de résidences,
-  aussi habité. Le lieu a été acheté au printemps 2019, pour 410 000 € ; un apport de 136 000 €, réuni par des prêts solidaires, a permis d'obtenir des crédits bancaires remboursés par les loyers du collectif
-  ; il est détenu par l'association Parpaing Libre, dont les deux seuls membres sont l'association usagère et le
-  réseau CLIP. L'incendie du 8 juillet 2025 a détruit ateliers, boulangerie et logements de résidence ; la reconstruction
-  se fait en chantiers participatifs.
+resume: Ancienne cimenterie et carrière sur les hauteurs de L'Estaque (Marseille 16e), louée depuis 2015
+  par un collectif d'artistes issu de l'association En Devenir (2012) et devenue un lieu autogéré de création
+  et de résidences, aussi habité. Le lieu a été acheté au printemps 2019, pour 410 000 € ; un apport de
+  136 000 €, réuni par des prêts solidaires, a permis d'obtenir des crédits bancaires remboursés par les
+  loyers du collectif ; il est détenu par l'association Parpaing Libre, dont les deux seuls membres sont
+  l'association usagère et le réseau CLIP. L'incendie du 8 juillet 2025 a détruit ateliers, boulangerie
+  et logements de résidence ; la reconstruction se fait en chantiers participatifs.
 localisation:
   commune: Marseille (16e arrondissement)
   departement: '13'
@@ -30,7 +31,8 @@ foncier:
 dimensions:
   acces:
     valeur: achat_collectif
-    note: 'Achat en 2019 pour 410 000 € : apport de 136 000 € (prêts de proches, financement participatif) adossé à des crédits bancaires remboursés par les loyers du collectif.'
+    note: 'Achat en 2019 pour 410 000 € : apport de 136 000 € (prêts de proches, financement participatif)
+      adossé à des crédits bancaires remboursés par les loyers du collectif.'
     source: 2
   titre:
     valeur: inconnu
@@ -39,7 +41,8 @@ dimensions:
   verrou:
     valeur:
     - veto_reseau
-    note: 'Objet de Parpaing Libre : « empêcher la revente […] ad vitam aeternam » ; veto du CLIP sur la revente.'
+    note: 'Objet de Parpaing Libre : « empêcher la revente […] ad vitam aeternam » ; veto du CLIP sur
+      la revente.'
     source: 2
   gouvernance:
     valeur: inconnu
@@ -47,8 +50,18 @@ dimensions:
     source: null
   economie:
     valeur: inconnu
-    note: Le lieu s'autofinance (cotisations, guinguette à prix libre, pain) ; ressources des personnes non documentées.
-    source: null
+    note: 'Aucun salarié mentionné dans la brochure de 2018 : l''association paie loyer puis crédit «
+      grâce aux cotisations versées par les artistes résident(e)s permanent(e)s », aux dons, aux participations
+      des résident·es temporaires et aux recettes des événements et du bar associatif ; budget prévisionnel
+      2018 : 96 100 € de produits, dont guinguette 23 600 €, mise à disposition 27 000 €, cotisations
+      22 700 €, catering 22 800 € ; loyer 32 400 € (sources 2 et 8). Remboursement du prêt : 4 500 € par
+      mois, environ 54 000 € par an, sur un budget prévisionnel de 113 800 € en 2020 (source 4). Après
+      l''incendie de 2025, aide financière votée par la Ville de Marseille et la Métropole, cagnotte de
+      soutien (source 5). Au répertoire Sirene, l''association En Devenir est non employeuse ; une association
+      « En Devenir 2 », domiciliée à la même adresse, compte 1 ou 2 salariés en 2024, sans que son rôle
+      dans le lieu soit publié (source 10). Ce dont vivent les personnes n''est pas publié. Sources consultées
+      le 20 novembre 2026.'
+    source: 2
   ouverture:
     valeur: ouvert_public
     note: Guinguette à prix libre, portes ouvertes, vie de quartier.
@@ -72,9 +85,15 @@ dimensions:
     note: Une quinzaine de membres actifs.
     source: 4
   transmission:
-    valeur: inconnu
-    note: Aucune source trouvée.
-    source: null
+    valeur: en_cours
+    note: Renouvellement des résident·es par cooptation après une période d'adaptation ; « membres actifs
+      qui restent ou se succèdent » (source 4). En janvier 2022, « beaucoup de membres fondateurs ne vivent
+      plus sur place » et sept personnes habitent et portent le lieu (source 9). Si l'association usagère
+      périclitait, Parpaing Libre et le CLIP « s'engagent à trouver un autre collectif pour l'usage du
+      lieu » (brochure de 2018, sources 2 et 8) ; la revente exige l'unanimité des deux membres de l'association
+      propriétaire (source 7). Statuts non publiés ; dévolution de l'actif non documentée. Sources consultées
+      le 20 novembre 2026.
+    source: 4
   etat:
     valeur: actif
     note: Reconstruction par chantiers participatifs après l'incendie de juillet 2025.
@@ -84,17 +103,24 @@ dimensions:
 portes:
   forme_civile:
     valeur: oui
-    note: 'Associations En Devenir (usagère), Parpaing Libre (propriétaire, loi 1901) et CLIP : chaîne entièrement
-      associative.'
+    note: 'Associations En Devenir (usagère), Parpaing Libre (propriétaire, loi 1901) et CLIP : chaîne
+      entièrement associative.'
     source: 6
   foncier_verrouille:
     valeur: oui
-    note: 'Objet de Parpaing Libre : empêcher la revente et garantir l''usage « ad vitam aeternam » ; en cas de défaillance, l''usage est confié à un autre collectif. Le verrou tient au montage CLIP : l''association propriétaire n''a que deux membres, l''association usagère et le CLIP, qui détient « un droit de véto sur la revente ». Mais les statuts ne sont pas publiés : aucune clause d''inaliénabilité opposable aux tiers n''est vérifiée, et une association peut modifier ses statuts — la protection repose sur la composition des membres, pas sur un acte publié. Règle P2 « meilleur effort documentaire » (décision de Ced, 2026-10-01) : le verrou est établi par des sources concordantes, même sans acte publié. Veto du réseau CLIP sur la revente, objet anti-revente de l''association propriétaire.'
+    note: 'Objet de Parpaing Libre : empêcher la revente et garantir l''usage « ad vitam aeternam » ;
+      en cas de défaillance, l''usage est confié à un autre collectif. Le verrou tient au montage CLIP
+      : l''association propriétaire n''a que deux membres, l''association usagère et le CLIP, qui détient
+      « un droit de véto sur la revente ». Mais les statuts ne sont pas publiés : aucune clause d''inaliénabilité
+      opposable aux tiers n''est vérifiée, et une association peut modifier ses statuts — la protection
+      repose sur la composition des membres, pas sur un acte publié. Règle P2 « meilleur effort documentaire
+      » (décision de Ced, 2026-10-01) : le verrou est établi par des sources concordantes, même sans acte
+      publié. Veto du réseau CLIP sur la revente, objet anti-revente de l''association propriétaire.'
     source: 2
   usage_ig:
     valeur: oui
-    note: Plus d'une centaine d'artistes accueilli·es en résidence ; guinguette à prix libre et portes ouvertes
-      au quartier.
+    note: Plus d'une centaine d'artistes accueilli·es en résidence ; guinguette à prix libre et portes
+      ouvertes au quartier.
     source: 1
   autogestion:
     valeur: oui
@@ -102,8 +128,8 @@ portes:
     source: 3
   etabli:
     valeur: oui
-    note: 'Installation en 2015, achat en 2019 : onze ans d''usage continu en 2026. L''incendie de 2025 n''a pas
-      interrompu la présence du collectif.'
+    note: 'Installation en 2015, achat en 2019 : onze ans d''usage continu en 2026. L''incendie de 2025
+      n''a pas interrompu la présence du collectif.'
     source: 1
 chronologie:
 - annee: 2012
@@ -151,12 +177,31 @@ sources:
   url: https://arteplan.org/initiative/la-deviation/
 - titre: À l'Estaque, chantiers participatifs pour reconstruire La Déviation après l'incendie
   auteur: Made in Marseille
-  annee: 2025
+  annee: 2026
   url: https://madeinmarseille.net/a-la-une-marseille/196220-deviation-chantiers-participatifs-incendie/
 - titre: Parpaing Libre (SIREN 833981764)
   auteur: Annuaire des entreprises
   annee: null
   url: https://annuaire-entreprises.data.gouv.fr/entreprise/parpaing-libre-833981764
+- titre: 'Fonctionnement du CLIP (schéma : associations propriétaires à deux membres, unanimité pour la
+    revente, loyer des habitant·es remboursant les prêts)'
+  auteur: CLIP — Réseau de lieux en propriété d'usage
+  annee: 2020
+  url: http://clip.ouvaton.org/wp-content/uploads/2020/11/Fonctionnement-du-CLIP.pdf
+- titre: Libérons les parpaings (brochure, mai 2018) — copie Internet Archive du 17 juin 2024 ; le fichier
+    d'origine (source 2) répond 403 en novembre 2026
+  auteur: Parpaing Libre
+  annee: 2018
+  url: https://web.archive.org/web/20240617093434/http://www.ladeviation.org/wp-content/uploads/2018/05/ParpaingLibre_brochure_mai.compressed.pdf
+- titre: Compte rendu de l'assemblée générale du 29 janvier 2022 (« météo » de La Déviation)
+  auteur: CLIP
+  annee: 2022
+  url: https://clip.ouvaton.org/wp-content/uploads/2022/02/clip-ag-2022-01-29-pv.pdf
+- titre: Associations EN DEVENIR (SIREN 789457306, non employeuse) et EN DEVENIR 2 (SIREN 833981731, déclarée
+    le 2 octobre 2017, 1 ou 2 salariés en 2024), 210 chemin de la Nerthe
+  auteur: API Recherche d'entreprises (data.gouv.fr)
+  annee: 2026
+  url: https://recherche-entreprises.api.gouv.fr/search?q=en%20devenir%20marseille%2013016
 faces:
   igor: null
   eozen: null
